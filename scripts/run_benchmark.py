@@ -2,17 +2,17 @@ import json
 import csv
 import os
 import torch
-from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
+from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
 from qwen_vl_utils import process_vision_info
 
 USER = os.environ.get("USER")
-MODEL_PATH = f"/home/{USER}/dissertation/models/qwen2vl"
+MODEL_PATH = f"/home/{USER}/dissertation/models/qwen25vl-7b"
 BENCHMARK_PATH = f"/home/{USER}/dissertation/benchmark/benchmark.json"
 RESULTS_PATH = f"/home/{USER}/dissertation/results/qwen_results.csv"
 
 # Load model
 print("Loading model...")
-model = Qwen2VLForConditionalGeneration.from_pretrained(
+model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
     MODEL_PATH, torch_dtype=torch.float16, device_map="auto"
 )
 processor = AutoProcessor.from_pretrained(MODEL_PATH)

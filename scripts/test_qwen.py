@@ -1,14 +1,14 @@
 import torch
-from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
+from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
 from qwen_vl_utils import process_vision_info
 import os
 
 # Path to downloaded model
 USER = os.environ.get("USER")
-MODEL_PATH = f"/home/{USER}/dissertation/models/qwen2vl"
+MODEL_PATH = f"/home/{USER}/dissertation/models/qwen25vl-7b"
 
 print("Loading model...")
-model = Qwen2VLForConditionalGeneration.from_pretrained(
+model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
     MODEL_PATH,
     torch_dtype=torch.float16,
     device_map="auto"
