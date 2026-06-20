@@ -1,0 +1,53 @@
+clip_id,take_folder,activity,ground_truth_binary,ground_truth_4class,answer_binary,answer_structured,correct_binary
+74a4d595-cc2e-4c3b-a83f-e7e7a364d463,uniandes_bouldering_036_35,Bouldering,Expert,Late Expert,Expert,"Observations: The person is climbing an indoor bouldering wall. They are using various holds to ascend the wall, maintaining a steady grip and balance. Their body is slightly bent forward, with one arm extended for support.
+
+Errors: There are no apparent errors in the person's movement. They appear to be following a planned route up the wall.
+
+Skill Level: Intermediate Expert",True
+41fd1849-a1e5-4e6a-bea7-466cbf7d7819,uniandes_bouldering_027_27,Bouldering,Beginner,Novice,Beginner,"Observations: The person is climbing a colorful rock wall using various handholds and footholds. They are using both hands to grip the holds and are moving upwards with a focused and steady posture.
+
+Errors: There are no apparent errors in the person's movement. They appear to be following a route on the wall efficiently.
+
+Skill Level: Intermediate Expert",True
+2d809aef-9a43-4bae-9657-4b63e24e53d5,uniandes_bouldering_029_40,Bouldering,Beginner,Novice,Expert,"Observations: The person is climbing a colorful bouldering wall. They are using both hands to grip the holds and are moving upwards with their legs extended. Their body is slightly bent forward, and they appear to be focused on their climb.
+
+Errors: There are no apparent errors in the person's movement. They are maintaining a steady pace and using proper climbing techniques.
+
+Skill Level: Intermediate Expert",False
+0dd25528-6c32-4fbf-9486-b3cf2da57044,uniandes_bouldering_026_38,Bouldering,Beginner,Novice,Expert,"Observations: The climber is ascending an indoor climbing wall using various colorful holds. They are using both hands to grip the holds and are moving upwards with a steady pace.
+
+Errors: There are no apparent errors in the climber's technique. The movements are smooth and controlled.
+
+Skill Level: Intermediate Expert",False
+4e62f874-b0fe-4159-92c4-3c3fc05fedd6,uniandes_bouldering_033_2,Bouldering,Expert,Late Expert,Expert,"Observations: The person is climbing a colorful bouldering wall. They are using both hands to grip the holds and are moving upwards with a focused and steady posture.
+
+Errors: There are no apparent errors in the person's movement. They appear to be following a planned route and maintaining proper form.
+
+Skill Level: Intermediate Expert",True
+15c2eec6-ed88-464d-8917-80ec63c2902c,uniandes_bouldering_037_51,Bouldering,Expert,Late Expert,Expert,"Observations: The person is climbing an indoor bouldering wall. They are using both hands to grip the colorful holds and are moving upwards with a focused and determined posture.
+
+Errors: There are no apparent errors in the person's movement. They appear to be following the holds correctly and maintaining balance.
+
+Skill Level: Intermediate Expert",True
+cede137d-10ac-40c6-b696-07b3c72f2071,uniandes_bouldering_026_102,Bouldering,Beginner,Novice,Expert,"Observations: The person is holding a smartphone with a QR code displayed on it. They are standing in front of a colorful climbing wall with various holds. The person appears to be using the smartphone to scan the QR code on the climbing wall.
+
+Errors: There are no visible errors in the person's movement. The person is holding the phone steady and looking at the QR code.
+
+Skill Level: Early Expert
+
+The person is likely scanning the QR code on the climbing wall, which suggests they have some familiarity with using smartphones for tasks like this. However, without more context about their climbing experience, it's difficult to determine their overall skill level. The ability to scan a QR code could indicate intermediate or advanced smartphone usage skills, but not necessarily climbing expertise.",False
+d1283756-b9f3-4ad2-8e22-8c40a5179cee,uniandes_bouldering_026_96,Bouldering,Beginner,Novice,Expert,"Observations: The person is climbing a colorful bouldering wall. They are using both hands to grip the holds and are in a dynamic position, with one leg extended forward and the other bent at the knee.
+
+Errors: There are no apparent errors in the person's movement. They appear to be maintaining a stable and controlled climb.
+
+Skill Level: Intermediate Expert",False
+25ee4bea-f32b-4980-89cb-8d5c0df3dacc,uniandes_bouldering_029_90,Bouldering,Beginner,Novice,Expert,"Observations: The person is standing on a climbing wall with colorful holds. They appear to be preparing to climb or have just finished climbing.
+
+Errors: There are no visible errors in the person's movement. They seem to be in a neutral stance, ready to begin or finish their climb.
+
+Skill Level: Intermediate Expert",False
+9ceee09a-ab19-4463-baac-0ed48d21827e,uniandes_bouldering_024_44,Bouldering,Beginner,Novice,Expert,"Observations: The person is climbing a colorful bouldering wall. They are using both hands to grip the holds and are moving their legs to maintain balance and control. Their body is slightly bent forward, indicating an active climbing posture.
+
+Errors: There are no apparent errors in the person's movement. They appear to be following a planned route and are maintaining proper form.
+
+Skill Level: Intermediate Expert",False
