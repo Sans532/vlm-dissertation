@@ -1,0 +1,501 @@
+Sat Jun 20 17:03:21 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H200                    On  |   00000000:BB:00.0 Off |                   On |
+| N/A   33C    P0             78W /  700W |     102MiB / 143771MiB |     N/A      Default |
+|                                         |                        |              Enabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| MIG devices:                                                                            |
++------------------+----------------------------------+-----------+-----------------------+
+| GPU  GI  CI  MIG |              Shared Memory-Usage |        Vol|        Shared         |
+|      ID  ID  Dev |                Shared BAR1-Usage | SM     Unc| CE ENC  DEC  OFA  JPG |
+|                  |                                  |        ECC|                       |
+|==================+==================================+===========+=======================|
+|  0    7   0   0  |              15MiB / 16384MiB    | 16      0 |  1   0    1    0    1 |
+|                  |               0MiB / 14809MiB    |           |                       |
++------------------+----------------------------------+-----------+-----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading model...
+Loading weights:   0%|          | 0/625 [00:00<?, ?it/s]Loading weights:   0%|          | 1/625 [00:28<4:57:11, 28.58s/it]Loading weights:  31%|███       | 195/625 [00:28<00:44,  9.63it/s]Loading weights:  46%|████▌     | 289/625 [00:39<00:36,  9.23it/s]Loading weights:  48%|████▊     | 298/625 [00:39<00:33,  9.64it/s]Loading weights:  54%|█████▍    | 340/625 [00:41<00:25, 11.07it/s]Loading weights:  58%|█████▊    | 364/625 [00:42<00:20, 12.63it/s]Loading weights:  61%|██████    | 380/625 [00:43<00:17, 13.95it/s]Loading weights:  63%|██████▎   | 392/625 [00:43<00:15, 15.26it/s]Loading weights:  64%|██████▍   | 401/625 [00:43<00:13, 16.49it/s]Loading weights:  66%|██████▌   | 410/625 [00:43<00:11, 18.48it/s]Loading weights:  67%|██████▋   | 417/625 [00:44<00:10, 19.36it/s]Loading weights:  68%|██████▊   | 424/625 [00:44<00:09, 21.09it/s]Loading weights:  69%|██████▊   | 429/625 [00:44<00:08, 22.85it/s]Loading weights:  70%|██████▉   | 436/625 [00:44<00:07, 24.21it/s]Loading weights:  71%|███████▏  | 446/625 [00:44<00:06, 29.46it/s]Loading weights:  72%|███████▏  | 451/625 [00:44<00:06, 27.76it/s]Loading weights:  74%|███████▎  | 460/625 [00:45<00:04, 33.07it/s]Loading weights:  74%|███████▍  | 465/625 [00:45<00:04, 33.23it/s]Loading weights:  76%|███████▌  | 472/625 [00:45<00:04, 32.16it/s]Loading weights:  77%|███████▋  | 482/625 [00:45<00:03, 39.69it/s]Loading weights:  78%|███████▊  | 487/625 [00:45<00:04, 32.93it/s]Loading weights:  79%|███████▉  | 496/625 [00:46<00:03, 37.95it/s]Loading weights:  80%|████████  | 501/625 [00:46<00:03, 38.55it/s]Loading weights:  81%|████████▏ | 508/625 [00:46<00:03, 34.69it/s]Loading weights:  83%|████████▎ | 518/625 [00:46<00:02, 42.69it/s]Loading weights:  84%|████████▎ | 523/625 [00:46<00:02, 35.45it/s]Loading weights:  85%|████████▌ | 532/625 [00:47<00:02, 37.93it/s]Loading weights:  86%|████████▌ | 537/625 [00:47<00:02, 38.34it/s]Loading weights:  87%|████████▋ | 544/625 [00:47<00:02, 37.70it/s]Loading weights:  89%|████████▊ | 554/625 [00:47<00:01, 44.18it/s]Loading weights:  89%|████████▉ | 559/625 [00:47<00:01, 34.47it/s]Loading weights:  91%|█████████ | 568/625 [00:47<00:01, 37.87it/s]Loading weights:  92%|█████████▏| 573/625 [00:48<00:01, 39.51it/s]Loading weights:  93%|█████████▎| 580/625 [00:48<00:01, 37.20it/s]Loading weights:  93%|█████████▎| 584/625 [00:48<00:01, 37.56it/s]Loading weights:  95%|█████████▍| 592/625 [00:48<00:00, 37.94it/s]Loading weights:  96%|█████████▌| 600/625 [00:49<00:01, 13.47it/s]Loading weights:  97%|█████████▋| 606/625 [00:50<00:01, 14.68it/s]Loading weights:  98%|█████████▊| 612/625 [00:50<00:00, 13.32it/s]Loading weights:  99%|█████████▉| 618/625 [00:51<00:00, 13.15it/s]Loading weights: 100%|██████████| 625/625 [00:51<00:00, 12.19it/s]
+Model loaded.
+Testing 91 clips...
+
+[1/91] uniandes_bouldering_036_35
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[2/91] uniandes_bouldering_027_27
+  Ground truth: Beginner
+  Model answer: Beginner
+  Correct: ✓
+
+[3/91] uniandes_bouldering_029_40
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[4/91] uniandes_bouldering_026_38
+  Ground truth: Beginner
+  Model answer: Beginner
+  Correct: ✓
+
+[5/91] uniandes_bouldering_033_2
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[6/91] uniandes_bouldering_037_51
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[7/91] uniandes_bouldering_026_102
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[8/91] uniandes_bouldering_026_96
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[9/91] uniandes_bouldering_029_90
+  Ground truth: Beginner
+  Model answer: Beginner
+  Correct: ✓
+
+[10/91] uniandes_bouldering_024_44
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[11/91] uniandes_bouldering_026_97
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[12/91] uniandes_bouldering_030_8
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[13/91] uniandes_bouldering_036_14
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[14/91] uniandes_bouldering_023_44
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[15/91] uniandes_bouldering_037_55
+  Ground truth: Expert
+  Model answer: Beginner
+  Correct: ✗
+
+[16/91] uniandes_bouldering_030_28
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[17/91] uniandes_bouldering_036_73
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[18/91] uniandes_bouldering_022_43
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[19/91] uniandes_bouldering_033_44
+  Ground truth: Expert
+  Model answer: Beginner
+  Correct: ✗
+
+[20/91] uniandes_bouldering_030_62
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[21/91] uniandes_bouldering_036_17
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[22/91] uniandes_bouldering_036_42
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[23/91] uniandes_bouldering_030_26
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[24/91] uniandes_bouldering_036_45
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[25/91] uniandes_bouldering_027_115
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[26/91] uniandes_bouldering_022_71
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[27/91] uniandes_bouldering_024_59
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[28/91] uniandes_bouldering_036_41
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[29/91] uniandes_bouldering_026_103
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[30/91] uniandes_bouldering_025_84
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[31/91] uniandes_bouldering_037_8
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[32/91] uniandes_bouldering_027_85
+  Ground truth: Beginner
+  Model answer: Beginner
+  Correct: ✓
+
+[33/91] uniandes_bouldering_025_85
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[34/91] uniandes_bouldering_033_45
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[35/91] uniandes_bouldering_025_44
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[36/91] uniandes_bouldering_036_52
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[37/91] uniandes_bouldering_026_37
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[38/91] uniandes_bouldering_027_35
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[39/91] uniandes_bouldering_026_63
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[40/91] uniandes_bouldering_027_23
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[41/91] uniandes_bouldering_022_67
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[42/91] uniandes_bouldering_031_47
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[43/91] uniandes_bouldering_037_56
+  Ground truth: Expert
+  Model answer: Beginner
+  Correct: ✗
+
+[44/91] uniandes_bouldering_026_109
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[45/91] uniandes_bouldering_024_57
+  Ground truth: Beginner
+  Model answer: Beginner
+  Correct: ✓
+
+[46/91] uniandes_bouldering_036_36
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[47/91] uniandes_bouldering_027_25
+  Ground truth: Beginner
+  Model answer: Beginner
+  Correct: ✓
+
+[48/91] uniandes_bouldering_026_22
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[49/91] uniandes_bouldering_027_87
+  Ground truth: Beginner
+  Model answer: Beginner
+  Correct: ✓
+
+[50/91] uniandes_bouldering_037_4
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[51/91] uniandes_bouldering_025_46
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[52/91] uniandes_bouldering_030_60
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[53/91] uniandes_bouldering_027_52
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[54/91] uniandes_bouldering_027_59
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[55/91] uniandes_bouldering_026_43
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[56/91] uniandes_bouldering_030_63
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[57/91] uniandes_bouldering_036_21
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[58/91] uniandes_bouldering_036_48
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[59/91] uniandes_bouldering_027_56
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[60/91] uniandes_bouldering_037_39
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[61/91] uniandes_bouldering_022_47
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[62/91] uniandes_bouldering_032_2
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[63/91] uniandes_bouldering_026_15
+  Ground truth: Beginner
+  Model answer: Beginner
+  Correct: ✓
+
+[64/91] uniandes_bouldering_022_33
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[65/91] uniandes_bouldering_022_32
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[66/91] uniandes_bouldering_036_71
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[67/91] uniandes_bouldering_030_25
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[68/91] uniandes_bouldering_032_66
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[69/91] uniandes_bouldering_036_4
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[70/91] uniandes_bouldering_031_69
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[71/91] uniandes_bouldering_025_35
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[72/91] uniandes_bouldering_031_68
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[73/91] uniandes_bouldering_036_74
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[74/91] uniandes_bouldering_036_49
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[75/91] uniandes_bouldering_022_73
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[76/91] uniandes_bouldering_029_57
+  Ground truth: Beginner
+  Model answer: Beginner
+  Correct: ✓
+
+[77/91] uniandes_bouldering_037_49
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[78/91] uniandes_bouldering_033_27
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[79/91] uniandes_bouldering_029_89
+  Ground truth: Beginner
+  Model answer: Beginner
+  Correct: ✓
+
+[80/91] uniandes_bouldering_037_20
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[81/91] uniandes_bouldering_036_46
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[82/91] uniandes_bouldering_027_50
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[83/91] uniandes_bouldering_036_8
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+[84/91] uniandes_bouldering_022_31
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[85/91] uniandes_bouldering_022_72
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[86/91] uniandes_bouldering_023_16
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[87/91] uniandes_bouldering_026_17
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[88/91] uniandes_bouldering_027_114
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[89/91] uniandes_bouldering_029_58
+  Ground truth: Beginner
+  Model answer: Expert
+  Correct: ✗
+
+[90/91] uniandes_bouldering_029_59
+  Ground truth: Beginner
+  Model answer: Beginner
+  Correct: ✓
+
+[91/91] uniandes_bouldering_030_57
+  Ground truth: Expert
+  Model answer: Expert
+  Correct: ✓
+
+
+==================================================
+RESULTS SUMMARY
+==================================================
+Total clips tested: 91
+Overall accuracy:   52/91 = 57.1%
+Beginner clips:     11/47 = 23.4%
+Expert clips:       41/44 = 93.2%
+==================================================
