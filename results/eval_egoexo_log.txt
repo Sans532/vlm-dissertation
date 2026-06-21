@@ -1,0 +1,2234 @@
+Sun Jun 21 13:31:37 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H200                    On  |   00000000:3B:00.0 Off |                   On |
+| N/A   61C    P0            495W /  700W |   39245MiB / 143771MiB |     N/A      Default |
+|                                         |                        |              Enabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| MIG devices:                                                                            |
++------------------+----------------------------------+-----------+-----------------------+
+| GPU  GI  CI  MIG |              Shared Memory-Usage |        Vol|        Shared         |
+|      ID  ID  Dev |                Shared BAR1-Usage | SM     Unc| CE ENC  DEC  OFA  JPG |
+|                  |                                  |        ECC|                       |
+|==================+==================================+===========+=======================|
+|  0    2   0   0  |              44MiB / 71424MiB    | 60      0 |  3   0    3    0    3 |
+|                  |               0MiB / 59237MiB    |           |                       |
++------------------+----------------------------------+-----------+-----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading model...
+Loading weights:   0%|          | 0/625 [00:00<?, ?it/s]Loading weights:   0%|          | 1/625 [00:26<4:35:18, 26.47s/it]Loading weights:  23%|██▎       | 141/625 [00:26<01:04,  7.53it/s]Loading weights:  38%|███▊      | 237/625 [00:39<00:52,  7.44it/s]Loading weights:  39%|███▉      | 245/625 [00:40<00:51,  7.36it/s]Loading weights:  46%|████▌     | 285/625 [00:45<00:43,  7.80it/s]Loading weights:  49%|████▉     | 308/625 [00:48<00:41,  7.69it/s]Loading weights:  52%|█████▏    | 322/625 [00:48<00:34,  8.68it/s]Loading weights:  53%|█████▎    | 333/625 [00:49<00:30,  9.46it/s]Loading weights:  56%|█████▌    | 350/625 [00:50<00:26, 10.23it/s]Loading weights:  58%|█████▊    | 364/625 [00:51<00:21, 11.91it/s]Loading weights:  60%|██████    | 378/625 [00:51<00:17, 14.07it/s]Loading weights:  62%|██████▏   | 390/625 [00:51<00:13, 17.18it/s]Loading weights:  64%|██████▎   | 398/625 [00:51<00:11, 19.90it/s]Loading weights:  65%|██████▍   | 405/625 [00:52<00:11, 18.82it/s]Loading weights:  66%|██████▌   | 412/625 [00:52<00:09, 21.40it/s]Loading weights:  67%|██████▋   | 417/625 [00:52<00:09, 22.29it/s]Loading weights:  68%|██████▊   | 426/625 [00:52<00:08, 24.16it/s]Loading weights:  69%|██████▉   | 434/625 [00:52<00:06, 29.64it/s]Loading weights:  70%|███████   | 439/625 [00:53<00:08, 22.74it/s]Loading weights:  72%|███████▏  | 450/625 [00:53<00:06, 26.18it/s]Loading weights:  74%|███████▎  | 460/625 [00:53<00:04, 33.43it/s]Loading weights:  74%|███████▍  | 465/625 [00:54<00:08, 18.29it/s]Loading weights:  75%|███████▌  | 470/625 [00:54<00:07, 21.08it/s]Loading weights:  76%|███████▌  | 474/625 [00:54<00:07, 19.28it/s]Loading weights:  77%|███████▋  | 484/625 [00:55<00:05, 24.73it/s]Loading weights:  79%|███████▉  | 496/625 [00:55<00:05, 24.56it/s]Loading weights:  81%|████████▏ | 508/625 [00:55<00:03, 30.12it/s]Loading weights:  82%|████████▏ | 512/625 [00:56<00:06, 18.73it/s]Loading weights:  84%|████████▎ | 522/625 [00:56<00:04, 21.11it/s]Loading weights:  85%|████████▌ | 534/625 [00:57<00:03, 30.24it/s]Loading weights:  87%|████████▋ | 542/625 [00:57<00:02, 30.96it/s]Loading weights:  88%|████████▊ | 547/625 [00:57<00:03, 20.17it/s]Loading weights:  89%|████████▉ | 556/625 [00:58<00:03, 22.04it/s]Loading weights:  91%|█████████ | 568/625 [00:58<00:02, 28.42it/s]Loading weights:  92%|█████████▏| 572/625 [00:58<00:01, 28.41it/s]Loading weights:  93%|█████████▎| 580/625 [00:58<00:01, 27.75it/s]Loading weights:  94%|█████████▍| 590/625 [00:59<00:00, 35.33it/s]Loading weights:  95%|█████████▌| 595/625 [00:59<00:01, 27.16it/s]Loading weights:  96%|█████████▌| 600/625 [01:00<00:02, 12.41it/s]Loading weights:  97%|█████████▋| 606/625 [01:01<00:01, 12.69it/s]Loading weights:  98%|█████████▊| 612/625 [01:01<00:01, 11.26it/s]Loading weights:  99%|█████████▉| 618/625 [01:02<00:00, 12.62it/s]Loading weights: 100%|██████████| 625/625 [01:02<00:00, 10.07it/s]
+Model loaded.
+Testing 438 clips (both ego and exo)...
+
+[1/438] uniandes_bouldering_034_51
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[2/438] uniandes_bouldering_036_12
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[3/438] uniandes_bouldering_023_39
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[4/438] uniandes_bouldering_028_43
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[5/438] uniandes_bouldering_027_58
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[6/438] uniandes_bouldering_031_47
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[7/438] uniandes_bouldering_026_44
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[8/438] uniandes_bouldering_032_66
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[9/438] uniandes_bouldering_034_56
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[10/438] uniandes_bouldering_027_108
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[11/438] uniandes_bouldering_030_26
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[12/438] uniandes_bouldering_034_83
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[13/438] uniandes_bouldering_027_81
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[14/438] uniandes_bouldering_027_87
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[15/438] uniandes_bouldering_029_92
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[16/438] uniandes_bouldering_035_69
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[17/438] uniandes_bouldering_026_97
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[18/438] uniandes_bouldering_037_8
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[19/438] uniandes_bouldering_028_7
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[20/438] uniandes_bouldering_036_34
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[21/438] uniandes_bouldering_030_8
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[22/438] uniandes_bouldering_035_51
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[23/438] uniandes_bouldering_032_32
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Beginner ✗
+
+[24/438] uniandes_bouldering_029_44
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[25/438] uniandes_bouldering_037_50
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[26/438] uniandes_bouldering_027_20
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Beginner ✗
+
+[27/438] uniandes_bouldering_037_25
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[28/438] uniandes_bouldering_037_4
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[29/438] uniandes_bouldering_022_22
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[30/438] uniandes_bouldering_033_10
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[31/438] uniandes_bouldering_024_59
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[32/438] uniandes_bouldering_031_68
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[33/438] uniandes_bouldering_026_21
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[34/438] uniandes_bouldering_022_7
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[35/438] uniandes_bouldering_026_17
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[36/438] uniandes_bouldering_025_17
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[37/438] uniandes_bouldering_022_71
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[38/438] uniandes_bouldering_032_77
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[39/438] uniandes_bouldering_028_29
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[40/438] uniandes_bouldering_027_50
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[41/438] uniandes_bouldering_023_44
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[42/438] uniandes_bouldering_027_82
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[43/438] uniandes_bouldering_034_21
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[44/438] uniandes_bouldering_027_2
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[45/438] uniandes_bouldering_026_77
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[46/438] uniandes_bouldering_026_18
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[47/438] uniandes_bouldering_029_23
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[48/438] uniandes_bouldering_028_31
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[49/438] uniandes_bouldering_037_34
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[50/438] uniandes_bouldering_022_73
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[51/438] uniandes_bouldering_029_48
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Beginner ✗
+
+[52/438] uniandes_bouldering_027_19
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[53/438] uniandes_bouldering_025_44
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[54/438] uniandes_bouldering_023_83
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[55/438] uniandes_bouldering_035_101
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[56/438] uniandes_bouldering_036_37
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[57/438] uniandes_bouldering_022_76
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[58/438] uniandes_bouldering_033_57
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[59/438] uniandes_bouldering_034_48
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[60/438] uniandes_bouldering_035_96
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[61/438] uniandes_bouldering_023_2
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[62/438] uniandes_bouldering_026_58
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[63/438] uniandes_bouldering_023_57
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[64/438] uniandes_bouldering_032_15
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[65/438] uniandes_bouldering_037_39
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[66/438] uniandes_bouldering_029_13
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Expert ✓
+
+[67/438] uniandes_bouldering_032_78
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[68/438] uniandes_bouldering_037_60
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[69/438] uniandes_bouldering_033_27
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[70/438] uniandes_bouldering_028_71
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[71/438] uniandes_bouldering_037_58
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[72/438] uniandes_bouldering_033_33
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[73/438] uniandes_bouldering_036_6
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[74/438] uniandes_bouldering_023_79
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[75/438] uniandes_bouldering_027_6
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[76/438] uniandes_bouldering_026_64
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[77/438] uniandes_bouldering_023_56
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[78/438] uniandes_bouldering_028_20
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[79/438] uniandes_bouldering_033_24
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[80/438] uniandes_bouldering_023_78
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Beginner ✗
+
+[81/438] uniandes_bouldering_022_47
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[82/438] uniandes_bouldering_035_37
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[83/438] uniandes_bouldering_022_21
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[84/438] uniandes_bouldering_024_31
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[85/438] uniandes_bouldering_027_107
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Expert ✓
+
+[86/438] uniandes_bouldering_028_51
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[87/438] uniandes_bouldering_035_31
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[88/438] uniandes_bouldering_034_65
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[89/438] uniandes_bouldering_034_72
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[90/438] uniandes_bouldering_026_46
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[91/438] uniandes_bouldering_032_56
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[92/438] uniandes_bouldering_034_94
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[93/438] uniandes_bouldering_036_62
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[94/438] uniandes_bouldering_028_24
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[95/438] uniandes_bouldering_023_70
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[96/438] uniandes_bouldering_027_93
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[97/438] uniandes_bouldering_023_60
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[98/438] uniandes_bouldering_026_78
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[99/438] uniandes_bouldering_025_3
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[100/438] uniandes_bouldering_027_29
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[101/438] uniandes_bouldering_029_64
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Expert ✓
+
+[102/438] uniandes_bouldering_032_48
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[103/438] uniandes_bouldering_024_2
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[104/438] uniandes_bouldering_030_62
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[105/438] uniandes_bouldering_035_85
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[106/438] uniandes_bouldering_035_41
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[107/438] uniandes_bouldering_032_2
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[108/438] uniandes_bouldering_028_56
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[109/438] uniandes_bouldering_026_15
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[110/438] uniandes_bouldering_026_73
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[111/438] uniandes_bouldering_026_26
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[112/438] uniandes_bouldering_023_71
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[113/438] uniandes_bouldering_022_30
+  Ground truth: Beginner
+  EXO answer: Beginner ✓
+  EGO answer: Beginner ✓
+
+[114/438] uniandes_bouldering_025_56
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[115/438] uniandes_bouldering_036_25
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[116/438] uniandes_bouldering_033_55
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Expert ✓
+
+[117/438] uniandes_bouldering_034_74
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[118/438] uniandes_bouldering_023_76
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[119/438] uniandes_bouldering_036_50
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[120/438] uniandes_bouldering_032_63
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[121/438] uniandes_bouldering_035_71
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[122/438] uniandes_bouldering_035_59
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[123/438] uniandes_bouldering_032_28
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[124/438] uniandes_bouldering_022_61
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[125/438] uniandes_bouldering_036_43
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[126/438] uniandes_bouldering_036_17
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[127/438] uniandes_bouldering_033_22
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[128/438] uniandes_bouldering_027_62
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[129/438] uniandes_bouldering_034_67
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[130/438] uniandes_bouldering_034_37
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[131/438] uniandes_bouldering_029_75
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[132/438] uniandes_bouldering_033_41
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[133/438] uniandes_bouldering_029_90
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[134/438] uniandes_bouldering_036_26
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[135/438] uniandes_bouldering_022_67
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[136/438] uniandes_bouldering_022_62
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[137/438] uniandes_bouldering_023_18
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[138/438] uniandes_bouldering_027_18
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Beginner ✗
+
+[139/438] uniandes_bouldering_036_52
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[140/438] uniandes_bouldering_022_43
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[141/438] uniandes_bouldering_037_54
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[142/438] uniandes_bouldering_035_19
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[143/438] uniandes_bouldering_022_33
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[144/438] uniandes_bouldering_034_85
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[145/438] uniandes_bouldering_029_78
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[146/438] uniandes_bouldering_036_60
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[147/438] uniandes_bouldering_027_28
+  Ground truth: Beginner
+  EXO answer: Beginner ✓
+  EGO answer: Beginner ✓
+
+[148/438] uniandes_bouldering_026_41
+  Ground truth: Beginner
+  EXO answer: Beginner ✓
+  EGO answer: Beginner ✓
+
+[149/438] uniandes_bouldering_035_89
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[150/438] uniandes_bouldering_036_49
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[151/438] uniandes_bouldering_027_35
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[152/438] uniandes_bouldering_025_82
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[153/438] uniandes_bouldering_029_9
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[154/438] uniandes_bouldering_030_29
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[155/438] uniandes_bouldering_022_55
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[156/438] uniandes_bouldering_034_38
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[157/438] uniandes_bouldering_037_38
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[158/438] uniandes_bouldering_028_52
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[159/438] uniandes_bouldering_033_12
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[160/438] uniandes_bouldering_024_51
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[161/438] uniandes_bouldering_034_100
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[162/438] uniandes_bouldering_037_20
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[163/438] uniandes_bouldering_035_100
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[164/438] uniandes_bouldering_027_24
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[165/438] uniandes_bouldering_036_14
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[166/438] uniandes_bouldering_037_17
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[167/438] uniandes_bouldering_022_23
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[168/438] uniandes_bouldering_027_96
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[169/438] uniandes_bouldering_025_65
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[170/438] uniandes_bouldering_024_20
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[171/438] uniandes_bouldering_033_17
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[172/438] uniandes_bouldering_028_65
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[173/438] uniandes_bouldering_029_10
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Expert ✓
+
+[174/438] uniandes_bouldering_029_59
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[175/438] uniandes_bouldering_023_50
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[176/438] uniandes_bouldering_035_28
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[177/438] uniandes_bouldering_032_79
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[178/438] uniandes_bouldering_037_24
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[179/438] uniandes_bouldering_036_38
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[180/438] uniandes_bouldering_027_60
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[181/438] uniandes_bouldering_029_74
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[182/438] uniandes_bouldering_026_23
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[183/438] uniandes_bouldering_034_35
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[184/438] uniandes_bouldering_024_12
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[185/438] uniandes_bouldering_026_59
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[186/438] uniandes_bouldering_028_12
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[187/438] uniandes_bouldering_033_20
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[188/438] uniandes_bouldering_032_62
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[189/438] uniandes_bouldering_029_28
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[190/438] uniandes_bouldering_028_19
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[191/438] uniandes_bouldering_027_17
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[192/438] uniandes_bouldering_037_55
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[193/438] uniandes_bouldering_034_24
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[194/438] uniandes_bouldering_034_49
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[195/438] uniandes_bouldering_036_35
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[196/438] uniandes_bouldering_022_18
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[197/438] uniandes_bouldering_025_81
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[198/438] uniandes_bouldering_024_30
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[199/438] uniandes_bouldering_022_16
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[200/438] uniandes_bouldering_036_78
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[201/438] uniandes_bouldering_027_21
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Expert ✓
+
+[202/438] uniandes_bouldering_034_50
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[203/438] uniandes_bouldering_035_64
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[204/438] uniandes_bouldering_034_93
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[205/438] uniandes_bouldering_027_54
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[206/438] uniandes_bouldering_037_56
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[207/438] uniandes_bouldering_036_42
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[208/438] uniandes_bouldering_027_88
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[209/438] uniandes_bouldering_035_43
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[210/438] uniandes_bouldering_028_70
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[211/438] uniandes_bouldering_034_63
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[212/438] uniandes_bouldering_036_39
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[213/438] uniandes_bouldering_037_51
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[214/438] uniandes_bouldering_036_51
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[215/438] uniandes_bouldering_028_69
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[216/438] uniandes_bouldering_037_33
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[217/438] uniandes_bouldering_024_47
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[218/438] uniandes_bouldering_036_29
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[219/438] uniandes_bouldering_029_71
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Beginner ✗
+
+[220/438] uniandes_bouldering_026_79
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[221/438] uniandes_bouldering_022_53
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[222/438] uniandes_bouldering_029_57
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[223/438] uniandes_bouldering_030_9
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[224/438] uniandes_bouldering_027_84
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[225/438] uniandes_bouldering_036_74
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[226/438] uniandes_bouldering_036_76
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[227/438] uniandes_bouldering_037_2
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Expert ✓
+
+[228/438] uniandes_bouldering_026_43
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[229/438] uniandes_bouldering_027_32
+  Ground truth: Beginner
+  EXO answer: Beginner ✓
+  EGO answer: Expert ✗
+
+[230/438] uniandes_bouldering_027_55
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[231/438] uniandes_bouldering_037_32
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[232/438] uniandes_bouldering_037_29
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[233/438] uniandes_bouldering_036_48
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[234/438] uniandes_bouldering_029_89
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[235/438] uniandes_bouldering_035_98
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[236/438] uniandes_bouldering_033_58
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Expert ✓
+
+[237/438] uniandes_bouldering_037_41
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[238/438] uniandes_bouldering_029_65
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Expert ✓
+
+[239/438] uniandes_bouldering_028_34
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[240/438] uniandes_bouldering_026_66
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[241/438] uniandes_bouldering_026_102
+  Ground truth: Beginner
+  EXO answer: Beginner ✓
+  EGO answer: Expert ✗
+
+[242/438] uniandes_bouldering_029_12
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Expert ✓
+
+[243/438] uniandes_bouldering_023_17
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[244/438] uniandes_bouldering_026_2
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[245/438] uniandes_bouldering_027_85
+  Ground truth: Beginner
+  EXO answer: Beginner ✓
+  EGO answer: Beginner ✓
+
+[246/438] uniandes_bouldering_022_51
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[247/438] uniandes_bouldering_032_30
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[248/438] uniandes_bouldering_029_68
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Expert ✓
+
+[249/438] uniandes_bouldering_034_71
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[250/438] uniandes_bouldering_025_13
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[251/438] uniandes_bouldering_036_15
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[252/438] uniandes_bouldering_030_27
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[253/438] uniandes_bouldering_032_27
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[254/438] uniandes_bouldering_036_4
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[255/438] uniandes_bouldering_034_17
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[256/438] uniandes_bouldering_022_63
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[257/438] uniandes_bouldering_023_25
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[258/438] uniandes_bouldering_035_36
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[259/438] uniandes_bouldering_022_26
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[260/438] uniandes_bouldering_032_74
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[261/438] uniandes_bouldering_024_6
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[262/438] uniandes_bouldering_031_69
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[263/438] uniandes_bouldering_035_53
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[264/438] uniandes_bouldering_023_8
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[265/438] uniandes_bouldering_030_63
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[266/438] uniandes_bouldering_037_19
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[267/438] uniandes_bouldering_027_37
+  Ground truth: Beginner
+  EXO answer: Beginner ✓
+  EGO answer: Beginner ✓
+
+[268/438] uniandes_bouldering_028_33
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[269/438] uniandes_bouldering_035_12
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[270/438] uniandes_bouldering_033_42
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Beginner ✗
+
+[271/438] uniandes_bouldering_029_14
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[272/438] uniandes_bouldering_035_63
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[273/438] uniandes_bouldering_022_39
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[274/438] uniandes_bouldering_034_75
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[275/438] uniandes_bouldering_024_32
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[276/438] uniandes_bouldering_033_2
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Beginner ✗
+
+[277/438] uniandes_bouldering_023_26
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[278/438] uniandes_bouldering_029_53
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[279/438] uniandes_bouldering_029_30
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[280/438] uniandes_bouldering_036_16
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[281/438] uniandes_bouldering_027_49
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[282/438] uniandes_bouldering_036_19
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[283/438] uniandes_bouldering_027_63
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[284/438] uniandes_bouldering_025_18
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[285/438] uniandes_bouldering_030_57
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[286/438] uniandes_bouldering_031_46
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Expert ✓
+
+[287/438] uniandes_bouldering_036_41
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[288/438] uniandes_bouldering_034_62
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[289/438] uniandes_bouldering_037_12
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[290/438] uniandes_bouldering_035_87
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[291/438] uniandes_bouldering_027_80
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[292/438] uniandes_bouldering_032_50
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[293/438] uniandes_bouldering_023_4
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[294/438] uniandes_bouldering_025_16
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[295/438] uniandes_bouldering_036_46
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[296/438] uniandes_bouldering_027_76
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[297/438] uniandes_bouldering_033_19
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[298/438] uniandes_bouldering_022_2
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[299/438] uniandes_bouldering_035_44
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[300/438] uniandes_bouldering_034_88
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[301/438] uniandes_bouldering_037_45
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[302/438] uniandes_bouldering_034_6
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[303/438] uniandes_bouldering_022_24
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[304/438] uniandes_bouldering_023_16
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[305/438] uniandes_bouldering_035_17
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[306/438] uniandes_bouldering_034_70
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[307/438] uniandes_bouldering_022_32
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[308/438] uniandes_bouldering_023_42
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[309/438] uniandes_bouldering_027_105
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Beginner ✗
+
+[310/438] uniandes_bouldering_023_74
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Expert ✓
+
+[311/438] uniandes_bouldering_036_70
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[312/438] uniandes_bouldering_026_108
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[313/438] uniandes_bouldering_026_95
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[314/438] uniandes_bouldering_027_26
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[315/438] uniandes_bouldering_024_60
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[316/438] uniandes_bouldering_025_70
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[317/438] uniandes_bouldering_034_98
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[318/438] uniandes_bouldering_026_60
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[319/438] uniandes_bouldering_037_43
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[320/438] uniandes_bouldering_026_72
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[321/438] uniandes_bouldering_037_49
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[322/438] uniandes_bouldering_035_91
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[323/438] uniandes_bouldering_035_21
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[324/438] uniandes_bouldering_027_56
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[325/438] uniandes_bouldering_023_29
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[326/438] uniandes_bouldering_032_21
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[327/438] uniandes_bouldering_027_79
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[328/438] uniandes_bouldering_022_35
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[329/438] uniandes_bouldering_028_66
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[330/438] uniandes_bouldering_035_77
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Beginner ✗
+
+[331/438] uniandes_bouldering_034_61
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[332/438] uniandes_bouldering_022_49
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[333/438] uniandes_bouldering_036_57
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[334/438] uniandes_bouldering_032_52
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[335/438] uniandes_bouldering_037_6
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[336/438] uniandes_bouldering_036_36
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[337/438] uniandes_bouldering_023_68
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[338/438] uniandes_bouldering_037_52
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[339/438] uniandes_bouldering_029_26
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[340/438] uniandes_bouldering_036_33
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[341/438] uniandes_bouldering_033_60
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[342/438] uniandes_bouldering_030_25
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[343/438] uniandes_bouldering_025_29
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[344/438] uniandes_bouldering_028_6
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[345/438] uniandes_bouldering_029_34
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[346/438] uniandes_bouldering_029_73
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Expert ✓
+
+[347/438] uniandes_bouldering_035_38
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[348/438] uniandes_bouldering_027_114
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[349/438] uniandes_bouldering_037_36
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[350/438] uniandes_bouldering_026_107
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[351/438] uniandes_bouldering_037_16
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[352/438] uniandes_bouldering_026_16
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[353/438] uniandes_bouldering_025_19
+  Ground truth: Beginner
+  EXO answer: Beginner ✓
+  EGO answer: Beginner ✓
+
+[354/438] uniandes_bouldering_036_8
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[355/438] uniandes_bouldering_022_14
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[356/438] uniandes_bouldering_024_40
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[357/438] uniandes_bouldering_032_75
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[358/438] uniandes_bouldering_024_16
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[359/438] uniandes_bouldering_026_37
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[360/438] uniandes_bouldering_027_52
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[361/438] uniandes_bouldering_034_53
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[362/438] uniandes_bouldering_037_28
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[363/438] uniandes_bouldering_026_105
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[364/438] uniandes_bouldering_031_15
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[365/438] uniandes_bouldering_033_40
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[366/438] uniandes_bouldering_024_14
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[367/438] uniandes_bouldering_034_69
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[368/438] uniandes_bouldering_029_40
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[369/438] uniandes_bouldering_029_77
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[370/438] uniandes_bouldering_036_45
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[371/438] uniandes_bouldering_025_55
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[372/438] uniandes_bouldering_032_81
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[373/438] uniandes_bouldering_033_59
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Expert ✓
+
+[374/438] uniandes_bouldering_035_60
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[375/438] uniandes_bouldering_027_113
+  Ground truth: Beginner
+  EXO answer: Beginner ✓
+  EGO answer: Beginner ✓
+
+[376/438] uniandes_bouldering_036_23
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[377/438] uniandes_bouldering_030_58
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Beginner ✗
+
+[378/438] uniandes_bouldering_030_61
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[379/438] uniandes_bouldering_030_28
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[380/438] uniandes_bouldering_033_38
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[381/438] uniandes_bouldering_026_65
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[382/438] uniandes_bouldering_034_59
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[383/438] uniandes_bouldering_028_15
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[384/438] uniandes_bouldering_034_4
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[385/438] uniandes_bouldering_029_61
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[386/438] uniandes_bouldering_026_48
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[387/438] uniandes_bouldering_034_8
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[388/438] uniandes_bouldering_023_10
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[389/438] uniandes_bouldering_022_72
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[390/438] uniandes_bouldering_036_61
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[391/438] uniandes_bouldering_022_6
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[392/438] uniandes_bouldering_026_22
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[393/438] uniandes_bouldering_028_42
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[394/438] uniandes_bouldering_026_14
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[395/438] uniandes_bouldering_037_48
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[396/438] uniandes_bouldering_027_31
+  Ground truth: Beginner
+  EXO answer: Beginner ✓
+  EGO answer: Expert ✗
+
+[397/438] uniandes_bouldering_034_99
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[398/438] uniandes_bouldering_023_48
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[399/438] uniandes_bouldering_034_29
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[400/438] uniandes_bouldering_036_73
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[401/438] uniandes_bouldering_022_20
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[402/438] uniandes_bouldering_029_8
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Beginner ✗
+
+[403/438] uniandes_bouldering_024_57
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[404/438] uniandes_bouldering_024_45
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[405/438] uniandes_bouldering_023_9
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[406/438] uniandes_bouldering_032_61
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[407/438] uniandes_bouldering_027_4
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[408/438] uniandes_bouldering_026_98
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[409/438] uniandes_bouldering_030_60
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[410/438] uniandes_bouldering_034_82
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[411/438] uniandes_bouldering_027_36
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[412/438] uniandes_bouldering_029_41
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[413/438] uniandes_bouldering_035_40
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[414/438] uniandes_bouldering_032_34
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[415/438] uniandes_bouldering_025_14
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[416/438] uniandes_bouldering_036_71
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[417/438] uniandes_bouldering_026_71
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[418/438] uniandes_bouldering_024_44
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[419/438] uniandes_bouldering_034_55
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[420/438] uniandes_bouldering_033_53
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[421/438] uniandes_bouldering_033_44
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Beginner ✗
+
+[422/438] uniandes_bouldering_027_121
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[423/438] uniandes_bouldering_025_54
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[424/438] uniandes_bouldering_025_84
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[425/438] uniandes_bouldering_036_47
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[426/438] uniandes_bouldering_032_45
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[427/438] uniandes_bouldering_030_59
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[428/438] uniandes_bouldering_027_3
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[429/438] uniandes_bouldering_022_13
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Beginner ✓
+
+[430/438] uniandes_bouldering_037_46
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[431/438] uniandes_bouldering_033_45
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[432/438] uniandes_bouldering_023_23
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[433/438] uniandes_bouldering_034_102
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Expert ✓
+
+[434/438] uniandes_bouldering_029_69
+  Ground truth: Expert
+  EXO answer: Beginner ✗
+  EGO answer: Beginner ✗
+
+[435/438] uniandes_bouldering_029_22
+  Ground truth: Beginner
+  EXO answer: Expert ✗
+  EGO answer: Expert ✗
+
+[436/438] uniandes_bouldering_037_22
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[437/438] uniandes_bouldering_036_21
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+[438/438] uniandes_bouldering_029_32
+  Ground truth: Expert
+  EXO answer: Expert ✓
+  EGO answer: Beginner ✗
+
+
+==================================================
+RESULTS SUMMARY — 438 clips
+==================================================
+Exocentric accuracy: 303/438 = 69.2%
+Egocentric accuracy: 229/438 = 52.3%
+==================================================

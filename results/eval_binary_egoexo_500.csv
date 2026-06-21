@@ -1,0 +1,439 @@
+clip_id,take_folder,activity,ground_truth_binary,ground_truth_4class,answer_exo,correct_exo,answer_ego,correct_ego
+94f7b744-962a-4e2e-b5fa-55fd8c2ea7d2,uniandes_bouldering_034_51,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+103eefc6-4c85-4d2f-877a-c56458767c63,uniandes_bouldering_036_12,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+18c8b6e4-2a41-4a37-9fea-f6f6610ac0c2,uniandes_bouldering_023_39,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+cd39f425-f534-4902-8598-f0724ffcaa48,uniandes_bouldering_028_43,Bouldering,Beginner,Novice,Expert,False,Expert,False
+b39b5e50-0271-42f2-a6ad-e9a3973f6f59,uniandes_bouldering_027_58,Bouldering,Beginner,Novice,Expert,False,Expert,False
+d8d2b81e-19a4-453e-aea9-6dccee022f4e,uniandes_bouldering_031_47,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+37e2710c-9ed0-4a2f-86cf-8d097e710622,uniandes_bouldering_026_44,Bouldering,Beginner,Novice,Expert,False,Expert,False
+55c0fbdf-e83e-44b2-ae04-a05cd1ac227e,uniandes_bouldering_032_66,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+baf283a8-4747-45f1-9c78-241003a8f1b5,uniandes_bouldering_034_56,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+e9f50dce-a96e-4979-8fd1-cba0307140ef,uniandes_bouldering_027_108,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+2915318c-1440-4a50-aced-d39ddc433ffd,uniandes_bouldering_030_26,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+f5acfc76-c9c2-4971-9d3c-56c6c9f47953,uniandes_bouldering_034_83,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+824fc1aa-353c-4a0e-9657-a7eca24abe76,uniandes_bouldering_027_81,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+06846813-9b38-4177-9caa-2fdef34bd868,uniandes_bouldering_027_87,Bouldering,Beginner,Novice,Expert,False,Expert,False
+87e8a558-e963-43bc-90aa-c04809486b38,uniandes_bouldering_029_92,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+cb214f3f-d318-46b5-af15-1459ebcd04e9,uniandes_bouldering_035_69,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+e6577f77-2df9-4009-a1e6-c70dbaecfa0c,uniandes_bouldering_026_97,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+3b27142e-6d1d-4613-8739-cae532c8e440,uniandes_bouldering_037_8,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+000a19fe-776e-4c88-b0c3-2fad016a6025,uniandes_bouldering_028_7,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+f232889b-c70b-4826-a840-8c819a50256a,uniandes_bouldering_036_34,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+6d258ba3-363e-4a40-b739-2b1b6e13fa8a,uniandes_bouldering_030_8,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+b592d40a-4eba-41c9-bb53-e5ddedc131f7,uniandes_bouldering_035_51,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+c0a1397c-211b-4d12-9706-ca536a671f77,uniandes_bouldering_032_32,Bouldering,Expert,Late Expert,Beginner,False,Beginner,False
+76af4b4c-647e-4c40-a153-cee161907ceb,uniandes_bouldering_029_44,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+3b9bdb20-9146-443d-b5b9-b8ba2da9e3b4,uniandes_bouldering_037_50,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+b3a28e5b-906f-40e0-9428-902c81a9cc55,uniandes_bouldering_027_20,Bouldering,Expert,Early Expert,Beginner,False,Beginner,False
+39679e76-a06e-4abf-a086-ebeb0032ef9c,uniandes_bouldering_037_25,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+43b17f97-4326-437f-b6f7-509fd782a69d,uniandes_bouldering_037_4,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+8d45fe63-07c7-463f-901e-f5f66414ef16,uniandes_bouldering_022_22,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+21a660db-de97-431c-911c-5e0d27a23cf0,uniandes_bouldering_033_10,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+c3102961-10c0-4018-90ee-21b98c7b157b,uniandes_bouldering_024_59,Bouldering,Beginner,Novice,Expert,False,Expert,False
+e8f2df2e-5d2d-4352-b06c-95554b1ecdb3,uniandes_bouldering_031_68,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+b0e3de53-17af-438a-80f5-7bbb2fed0125,uniandes_bouldering_026_21,Bouldering,Beginner,Novice,Expert,False,Expert,False
+dad70a4e-2b7d-463d-bba7-cf8da3c2f1b6,uniandes_bouldering_022_7,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+5c6adb2f-6ea0-4cf1-8316-e7cd23b54b77,uniandes_bouldering_026_17,Bouldering,Beginner,Novice,Expert,False,Expert,False
+05691716-65d8-45b4-b263-5589dcae6bdb,uniandes_bouldering_025_17,Bouldering,Beginner,Novice,Expert,False,Expert,False
+3a0c05aa-abab-4e48-bb50-5b29cde365c4,uniandes_bouldering_022_71,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+3e8cacb0-dffe-424e-ac44-539f255c5156,uniandes_bouldering_032_77,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+87bb136c-debd-4fb0-9b71-dfc91706ab64,uniandes_bouldering_028_29,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+5d486d41-7b7b-427a-b204-21308ce879d7,uniandes_bouldering_027_50,Bouldering,Beginner,Novice,Expert,False,Expert,False
+efe3c403-3719-4276-b1b1-0492f93a8397,uniandes_bouldering_023_44,Bouldering,Beginner,Novice,Expert,False,Expert,False
+4608b4d3-de77-4635-8aa9-bed1495af6f5,uniandes_bouldering_027_82,Bouldering,Beginner,Novice,Expert,False,Expert,False
+ded44860-08c8-48a6-bdc1-6fed5fbb2ca8,uniandes_bouldering_034_21,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+08dc1e90-e64a-4420-a773-574758117821,uniandes_bouldering_027_2,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+e7a22254-2df7-4d27-a277-a3cbe6476462,uniandes_bouldering_026_77,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+c5c4236d-f8ba-4abf-93c7-5440a31160d4,uniandes_bouldering_026_18,Bouldering,Beginner,Novice,Expert,False,Expert,False
+f1b49abc-303f-4523-a929-ddbe9eb1a2b9,uniandes_bouldering_029_23,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+f79979f1-7d13-4354-a72b-2ab1e15e3012,uniandes_bouldering_028_31,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+2af27998-2596-4484-ae0a-4b0d25da25fb,uniandes_bouldering_037_34,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+c5c21e19-f5d6-46cc-9aac-50a2c4ec5951,uniandes_bouldering_022_73,Bouldering,Beginner,Novice,Expert,False,Expert,False
+a729523b-c8c8-40a5-99b5-eebff3772724,uniandes_bouldering_029_48,Bouldering,Expert,Intermediate Expert,Beginner,False,Beginner,False
+5f1dd7a9-18b5-400a-a3de-1c30f547235e,uniandes_bouldering_027_19,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+4da8398b-50d4-4fa9-b31f-bf65364afe44,uniandes_bouldering_025_44,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+d9839cce-f11b-4ffb-83a7-013861621a7b,uniandes_bouldering_023_83,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+c258c50e-986e-4a24-a7eb-6e750c41110b,uniandes_bouldering_035_101,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+b003c594-e2fd-42e6-830c-daea009b00a2,uniandes_bouldering_036_37,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+b3655a86-d9a1-439a-8dc8-8c3b5393a1a6,uniandes_bouldering_022_76,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+fdbd51f1-b270-4a4c-b3c5-7b660d647cc1,uniandes_bouldering_033_57,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+f0d1a5e3-030f-4fdb-ab04-d7a4175661af,uniandes_bouldering_034_48,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+158a40cc-b4ce-4f1b-8133-2d2c7d9f797b,uniandes_bouldering_035_96,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+03cee26b-3f48-435c-a617-db1130410157,uniandes_bouldering_023_2,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+b0b9324a-01a2-4a0e-bdfc-f0628eb01930,uniandes_bouldering_026_58,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+2d0dab72-008c-4971-adf4-31757a4afad1,uniandes_bouldering_023_57,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+f76846c0-300e-4306-8e58-f4c046f673e3,uniandes_bouldering_032_15,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+f6536ebb-873d-4b26-b094-b4a67134bb03,uniandes_bouldering_037_39,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+689a0ac6-f0c3-43d9-a003-85a74521b26e,uniandes_bouldering_029_13,Bouldering,Expert,Early Expert,Beginner,False,Expert,True
+c9e83252-39b5-4dda-8ff4-1881b0a3890a,uniandes_bouldering_032_78,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+b4a81a48-0192-4c5d-af0e-132f16ba9d14,uniandes_bouldering_037_60,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+e0e7a1f3-3420-4ae2-88fb-666ac9d5cbdc,uniandes_bouldering_033_27,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+ce57862a-4b13-41bf-8476-6489d534906e,uniandes_bouldering_028_71,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+6129123b-d6c6-4a68-851b-63777cc3d56b,uniandes_bouldering_037_58,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+4f3ad258-3d8e-430e-88be-d3f6d1db4e90,uniandes_bouldering_033_33,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+c3879e1c-0575-4ffa-9c4b-9b730c7f7c44,uniandes_bouldering_036_6,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+9356e01b-04cc-4168-a05d-09abc89cb9bb,uniandes_bouldering_023_79,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+9c9a9813-8213-4e18-86e3-69b7aad5cb4d,uniandes_bouldering_027_6,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+6fc64a52-9b72-44b6-8628-09ab48c94da4,uniandes_bouldering_026_64,Bouldering,Beginner,Novice,Expert,False,Expert,False
+bc49545a-7d77-4498-acec-ef1932f271b1,uniandes_bouldering_023_56,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+1c9fbdba-fa2f-44be-8548-bf436a802235,uniandes_bouldering_028_20,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+c771b82a-b345-4926-a13f-4cfb917a945d,uniandes_bouldering_033_24,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+2a8792b3-d76a-4fc0-a130-0be8e0504585,uniandes_bouldering_023_78,Bouldering,Expert,Intermediate Expert,Beginner,False,Beginner,False
+9d4d860c-72b1-4e97-9241-d23e3a3cd476,uniandes_bouldering_022_47,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+74d47f9d-6264-4407-b9f0-9facc320c938,uniandes_bouldering_035_37,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+1d42bb0b-f2a3-4e24-9658-a27c3fceee4e,uniandes_bouldering_022_21,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+60b4cb8a-62f8-48be-a573-c6ee6394a153,uniandes_bouldering_024_31,Bouldering,Beginner,Novice,Expert,False,Expert,False
+90650627-b4f6-49bd-b0e6-3d94035adadd,uniandes_bouldering_027_107,Bouldering,Expert,Early Expert,Beginner,False,Expert,True
+fcbdc717-8551-490f-9c69-63424cc8562d,uniandes_bouldering_028_51,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+ebedd6de-8008-43fc-b7f7-cda32feab47c,uniandes_bouldering_035_31,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+4d46b132-1c9e-404d-86fd-f7fc1dd4c320,uniandes_bouldering_034_65,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+e4e69275-7202-4631-a41f-bdd1f670b619,uniandes_bouldering_034_72,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+3a3fb48a-ccf1-4005-88e3-feb19a373439,uniandes_bouldering_026_46,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+44fb9f5a-3a2d-4adf-980b-283057bdd422,uniandes_bouldering_032_56,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+d6462a6d-44d4-43eb-a0d9-11df808ef412,uniandes_bouldering_034_94,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+58477770-7532-4d8e-9604-ecd844bfdeea,uniandes_bouldering_036_62,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+e5c4c6aa-f142-4b45-bb12-97e312cb20fd,uniandes_bouldering_028_24,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+4b47578b-8c74-4c28-b8df-f391cb2ee08f,uniandes_bouldering_023_70,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+c6b3a68d-fbcb-4f64-8cb3-a53717514e88,uniandes_bouldering_027_93,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+c871b776-0e8a-4538-a46e-03dcf3015a3b,uniandes_bouldering_023_60,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+e823db56-7593-463a-bea7-846a82810c48,uniandes_bouldering_026_78,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+f29c34e6-0e17-49ee-983b-322e383e9db0,uniandes_bouldering_025_3,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+477451cc-4a81-459b-84b1-eece8122946e,uniandes_bouldering_027_29,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+a263db52-1018-41a9-941a-a328f023196e,uniandes_bouldering_029_64,Bouldering,Expert,Intermediate Expert,Beginner,False,Expert,True
+292508a4-a37c-47e5-82df-8f9085194f46,uniandes_bouldering_032_48,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+ad952197-37d9-4e10-b7f4-57f3560b6521,uniandes_bouldering_024_2,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+4c052cb2-fd49-4601-a842-7eb09f24e76c,uniandes_bouldering_030_62,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+8ec6efae-99e5-4f8b-94af-a1003cdce281,uniandes_bouldering_035_85,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+4ef86bfd-3bc1-4c64-864e-8b9bbd89883f,uniandes_bouldering_035_41,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+53b52ea1-d45a-428e-989a-0afbd8914588,uniandes_bouldering_032_2,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+c2f12096-0352-4c45-96d0-84a0d32665b3,uniandes_bouldering_028_56,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+55a466ff-b520-4bc3-9c57-2810f3da8f0d,uniandes_bouldering_026_15,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+4044e2a9-839a-422d-8ac7-4b79126276a1,uniandes_bouldering_026_73,Bouldering,Beginner,Novice,Expert,False,Expert,False
+54e52179-7f03-4a57-9b5b-bc526a89a33b,uniandes_bouldering_026_26,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+7cef5f7e-d66d-4b23-b832-ff998d357784,uniandes_bouldering_023_71,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+7b6ccb77-56ad-4e39-b1f0-96af00c81f5f,uniandes_bouldering_022_30,Bouldering,Beginner,Novice,Beginner,True,Beginner,True
+08b98d19-224d-4f85-9aa9-23cd395f6ab4,uniandes_bouldering_025_56,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+10b38e2b-ac00-4731-b516-760c34fa7747,uniandes_bouldering_036_25,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+6cc51836-6b79-4921-9024-d351486ad88c,uniandes_bouldering_033_55,Bouldering,Expert,Intermediate Expert,Beginner,False,Expert,True
+f2331d65-e0b8-4c4c-ab6a-561f6d900390,uniandes_bouldering_034_74,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+83425972-08a3-47eb-8406-46e121bc2226,uniandes_bouldering_023_76,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+68308e20-76b7-4878-af8f-62e74c08e6d3,uniandes_bouldering_036_50,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+107416c7-6d51-4e77-9624-b7fcfc34e196,uniandes_bouldering_032_63,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+362be697-92e2-43e1-8121-7ebab3e998c4,uniandes_bouldering_035_71,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+006651a0-7f0f-49e9-8142-5f4dd40128e3,uniandes_bouldering_035_59,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+73853c96-b212-4c0c-840b-521bf4db7109,uniandes_bouldering_032_28,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+a48d4861-7036-4905-aa50-57f3b26f88f5,uniandes_bouldering_022_61,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+6109e2a2-a28a-4d09-8333-facbb9d855d0,uniandes_bouldering_036_43,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+77f6641e-b713-4723-bafc-ca6b0b957c5e,uniandes_bouldering_036_17,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+fd0906e9-b867-45e2-b5bb-be6332d7a723,uniandes_bouldering_033_22,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+4809c7a1-362a-47f2-8e3c-9bfd0cd9ea3f,uniandes_bouldering_027_62,Bouldering,Beginner,Novice,Expert,False,Expert,False
+5bb27ee7-ca81-42b7-9c96-e4500413241e,uniandes_bouldering_034_67,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+20339f53-7bb2-4b2f-9829-8b1317c7aefe,uniandes_bouldering_034_37,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+d822e2e6-4549-4ceb-82b3-666536ee7cd1,uniandes_bouldering_029_75,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+d5c7f971-a194-4e17-b820-e879608e452c,uniandes_bouldering_033_41,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+25ee4bea-f32b-4980-89cb-8d5c0df3dacc,uniandes_bouldering_029_90,Bouldering,Beginner,Novice,Expert,False,Expert,False
+ac7cf81b-2de9-4a6e-8274-4c5348fe6f05,uniandes_bouldering_036_26,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+f7609225-dad3-4d85-8738-caab9145a431,uniandes_bouldering_022_67,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+aaf0d082-a972-4620-a1e9-5699023c9c77,uniandes_bouldering_022_62,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+5f96a32a-2094-477e-a94c-2b39be2d4edd,uniandes_bouldering_023_18,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+b4cc4099-488e-4dd2-9323-a5bfc0b76c56,uniandes_bouldering_027_18,Bouldering,Expert,Early Expert,Beginner,False,Beginner,False
+9e82e166-2c51-4d6d-8375-d1c18ae48a0d,uniandes_bouldering_036_52,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+38ab5440-4556-4620-a1e8-ec4e35c1b66b,uniandes_bouldering_022_43,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+b550f22d-e337-4a79-b61f-ea911f06cb01,uniandes_bouldering_037_54,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+3b686d9f-ac68-4bf5-9aa8-a7e302dc47db,uniandes_bouldering_035_19,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+00f50674-1f3c-4847-ab4a-fa2f0f113987,uniandes_bouldering_022_33,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+e7096aaa-8119-4e05-88f1-25e8112be2f7,uniandes_bouldering_034_85,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+f79ea56a-c15e-420b-8064-719c18da45d9,uniandes_bouldering_029_78,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+ab2d04c4-9952-4554-8047-f624b7703523,uniandes_bouldering_036_60,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+b5981597-91cc-4462-aec6-01d3f2e5fb2f,uniandes_bouldering_027_28,Bouldering,Beginner,Novice,Beginner,True,Beginner,True
+5e3a185e-7066-457a-959b-54b49e552020,uniandes_bouldering_026_41,Bouldering,Beginner,Novice,Beginner,True,Beginner,True
+a135c05a-0ffd-41f7-9ae3-7cf90ad8f2b7,uniandes_bouldering_035_89,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+9f596c0c-2beb-45c9-a484-a21af02018d9,uniandes_bouldering_036_49,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+cfefdbdc-5182-4b5f-aa0e-45b82516eb05,uniandes_bouldering_027_35,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+d9a10b1b-2dd3-4e17-8b6e-3e33c3d6f365,uniandes_bouldering_025_82,Bouldering,Beginner,Novice,Expert,False,Expert,False
+4f53ded9-6a79-4ea0-bc28-f93981f4db82,uniandes_bouldering_029_9,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+da19130e-ef5e-4255-9080-f714a618f934,uniandes_bouldering_030_29,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+e2d596c5-b068-4ad3-b95a-1e59dd055bce,uniandes_bouldering_022_55,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+71c16d67-1344-4b59-ae77-624887fdc5b1,uniandes_bouldering_034_38,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+586597cc-59c5-45d5-9596-0b6506d9c0ba,uniandes_bouldering_037_38,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+503cc92d-7052-44ff-a21d-da6c4a5d6927,uniandes_bouldering_028_52,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+8eba5dea-598c-4884-a242-493868d74b9a,uniandes_bouldering_033_12,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+b6590623-9c56-4a71-a210-ff8a5c45fd77,uniandes_bouldering_024_51,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+12707350-6980-40c6-8e13-b18e152c7a0f,uniandes_bouldering_034_100,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+b36d3912-538f-423f-9c79-82abc183a50b,uniandes_bouldering_037_20,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+0773967b-e702-457d-a8f1-4cc2fdf247d0,uniandes_bouldering_035_100,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+6a5f4a05-2e2a-4dde-87d5-bf27b8000ddd,uniandes_bouldering_027_24,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+9f7cd016-662c-4f3a-9fb5-9bc41a5b87bb,uniandes_bouldering_036_14,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+375a31e4-be87-4677-a6e2-7b99dc9e2fff,uniandes_bouldering_037_17,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+b23d2d07-9206-48a9-9505-6ee0b22bd1a8,uniandes_bouldering_022_23,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+86c5b293-f119-4c3f-a793-44aad962931d,uniandes_bouldering_027_96,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+0650e8e8-a2c2-4c6e-a87d-8d0a48ede383,uniandes_bouldering_025_65,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+eef772dd-c85a-44ae-aada-6029f46ab948,uniandes_bouldering_024_20,Bouldering,Beginner,Novice,Expert,False,Expert,False
+ee7aaa96-d090-432a-9c8c-92bb7ad4f22e,uniandes_bouldering_033_17,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+72649889-cddb-43e6-80aa-650d059a60fb,uniandes_bouldering_028_65,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+e3d84441-d0b8-4b77-96e2-4b1c5e0ae85a,uniandes_bouldering_029_10,Bouldering,Expert,Early Expert,Beginner,False,Expert,True
+25688508-2d52-4ceb-a949-5c64ffb1ce38,uniandes_bouldering_029_59,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+8ee34016-689c-4b33-b350-acd489dba1bf,uniandes_bouldering_023_50,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+1088fd1c-1562-4ee5-b85c-ceb59bf85f20,uniandes_bouldering_035_28,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+e0c00348-9d87-42e0-8749-9f49515582d7,uniandes_bouldering_032_79,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+dc42bea0-358d-4c9c-add3-f6a0d0067751,uniandes_bouldering_037_24,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+5dc66927-b5bc-4c34-93d0-0a9b95107172,uniandes_bouldering_036_38,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+880297ab-af58-4494-b3ae-b2dbcfd977e7,uniandes_bouldering_027_60,Bouldering,Beginner,Novice,Expert,False,Expert,False
+490ba87f-dec2-421d-89ae-365b07059004,uniandes_bouldering_029_74,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+67afb15d-7cde-4c6d-8826-2fb9b9192b61,uniandes_bouldering_026_23,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+c2c83a98-a215-47a4-a449-5f8475d5fc0c,uniandes_bouldering_034_35,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+8586f6d5-ad53-44da-b07c-9f3b2b8865f9,uniandes_bouldering_024_12,Bouldering,Beginner,Novice,Expert,False,Expert,False
+4bc2fb28-c5a1-44bf-8c90-391586bb448f,uniandes_bouldering_026_59,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+12351533-12ab-4b85-89b1-c7527240202b,uniandes_bouldering_028_12,Bouldering,Beginner,Novice,Expert,False,Expert,False
+82624f14-2448-4943-b355-5296d127057b,uniandes_bouldering_033_20,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+c07cf837-84c3-4971-8178-d9484b12b42b,uniandes_bouldering_032_62,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+b437ad8d-7d90-48b9-84ef-46e6db4a58da,uniandes_bouldering_029_28,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+91213f99-777e-4c43-8b89-53e8b648f041,uniandes_bouldering_028_19,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+6caff659-6697-498e-a5e3-04b50bc09d30,uniandes_bouldering_027_17,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+a698521a-4384-4829-bda1-5a29bb3782f1,uniandes_bouldering_037_55,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+b68d1029-8d60-4edf-9038-7332a8e29877,uniandes_bouldering_034_24,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+b9a4433d-0495-40ad-9242-a6fade55ade9,uniandes_bouldering_034_49,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+74a4d595-cc2e-4c3b-a83f-e7e7a364d463,uniandes_bouldering_036_35,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+98cb9547-8b5d-454a-bd71-2ae1dc79fe8f,uniandes_bouldering_022_18,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+515cb254-42d5-4107-bf65-f17eb654d6b2,uniandes_bouldering_025_81,Bouldering,Beginner,Novice,Expert,False,Expert,False
+adeccd42-1afa-4802-be20-e56d5467dd04,uniandes_bouldering_024_30,Bouldering,Beginner,Novice,Expert,False,Expert,False
+82288025-bff0-47f5-9845-66d123430d73,uniandes_bouldering_022_16,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+e862c865-bd50-44b6-b553-6aa8a8c9ad1c,uniandes_bouldering_036_78,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+700ed1a7-7984-46df-8ae7-0ca0407763ff,uniandes_bouldering_027_21,Bouldering,Expert,Early Expert,Beginner,False,Expert,True
+492779f8-4ce8-4cb1-8173-1b88d5bc311d,uniandes_bouldering_034_50,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+73125182-9936-4610-a2aa-9f4095dcbec2,uniandes_bouldering_035_64,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+12003cea-a138-47c9-95bd-fa20446ef04c,uniandes_bouldering_034_93,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+c602f6a4-d8ab-4462-b487-03c2e856b004,uniandes_bouldering_027_54,Bouldering,Beginner,Novice,Expert,False,Expert,False
+26191a7e-dece-46ce-ba75-d1f3dcc9d604,uniandes_bouldering_037_56,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+9e7d4067-a515-4290-88e4-03cbe5b945b4,uniandes_bouldering_036_42,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+9f3ed36c-3be9-4e52-b824-c827c5c57273,uniandes_bouldering_027_88,Bouldering,Beginner,Novice,Expert,False,Expert,False
+b55ab748-e78e-4119-b80f-6393b026e996,uniandes_bouldering_035_43,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+78a82572-cb61-4112-b16d-9118b8bccfaa,uniandes_bouldering_028_70,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+0c720ac0-982f-4ca9-b849-775108b0c0e7,uniandes_bouldering_034_63,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+8c69e328-8190-4443-af9a-057199134d03,uniandes_bouldering_036_39,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+15c2eec6-ed88-464d-8917-80ec63c2902c,uniandes_bouldering_037_51,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+e5c264b5-71ec-47b5-a509-f3c56da7f418,uniandes_bouldering_036_51,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+df9c527f-752b-4331-beff-b45fa9b4db30,uniandes_bouldering_028_69,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+2a9170a7-2f93-44bc-86ed-dee0463c6721,uniandes_bouldering_037_33,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+5ec9b76d-d968-4a8b-9ecd-ccd6c5242745,uniandes_bouldering_024_47,Bouldering,Beginner,Novice,Expert,False,Expert,False
+07088783-ff84-476b-9b9f-cfc64ada6d2f,uniandes_bouldering_036_29,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+04cd2bc7-f306-4bc5-b2ea-8d51a0e587a8,uniandes_bouldering_029_71,Bouldering,Expert,Early Expert,Beginner,False,Beginner,False
+81628176-6b0e-4748-aef8-aede577917df,uniandes_bouldering_026_79,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+8c13865d-4654-4d34-a19e-8cd32c6ec628,uniandes_bouldering_022_53,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+fd3b8a72-eaae-4406-aee6-a6bca9842b9a,uniandes_bouldering_029_57,Bouldering,Beginner,Novice,Expert,False,Expert,False
+64123abf-5878-4157-8b08-1d43e6145520,uniandes_bouldering_030_9,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+1485de31-6e23-4d1e-b57a-ba930f737a97,uniandes_bouldering_027_84,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+9580429c-539c-46e2-a100-aba20d6cc8e0,uniandes_bouldering_036_74,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+13a12b1c-082d-4465-8b5b-8f9bfac2017f,uniandes_bouldering_036_76,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+d2268823-4c4b-4036-b313-a27083db529d,uniandes_bouldering_037_2,Bouldering,Expert,Intermediate Expert,Beginner,False,Expert,True
+43eeff11-629f-4746-b7f1-6d496c8fbd3f,uniandes_bouldering_026_43,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+b6e1d3b6-622a-496f-9996-a1340314e268,uniandes_bouldering_027_32,Bouldering,Beginner,Novice,Beginner,True,Expert,False
+9220756f-7cae-4a73-a952-07e57ee212a7,uniandes_bouldering_027_55,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+ec173b33-65be-4e8f-9b42-0725c4f5d670,uniandes_bouldering_037_32,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+1f5b4052-c683-436a-be7e-aefd56ede7fa,uniandes_bouldering_037_29,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+34c5de08-c113-4213-82e0-50a6751d794b,uniandes_bouldering_036_48,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+4210c02d-1555-44d9-bd3c-a3a7069c09fc,uniandes_bouldering_029_89,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+c6e1946e-cd52-43ee-ac5c-acb609d821d6,uniandes_bouldering_035_98,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+b4966f7b-521e-4cf1-a777-9c3ecb07d98f,uniandes_bouldering_033_58,Bouldering,Expert,Intermediate Expert,Beginner,False,Expert,True
+9e4c0d3d-814b-4d7a-bfb4-712ab4431f31,uniandes_bouldering_037_41,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+00e60518-37eb-47ea-bc82-eefa572ffc8c,uniandes_bouldering_029_65,Bouldering,Expert,Intermediate Expert,Beginner,False,Expert,True
+daebd508-2c03-4304-ad6e-44be5672755c,uniandes_bouldering_028_34,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+1aa5409d-7af3-4172-94d6-05816949165d,uniandes_bouldering_026_66,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+cede137d-10ac-40c6-b696-07b3c72f2071,uniandes_bouldering_026_102,Bouldering,Beginner,Novice,Beginner,True,Expert,False
+3f7bb9c2-d53d-4a90-b4e5-b4e8e3ad3402,uniandes_bouldering_029_12,Bouldering,Expert,Early Expert,Beginner,False,Expert,True
+9a3af8e6-ad12-401d-88fb-240d2ba6dd50,uniandes_bouldering_023_17,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+fee4a45c-b6c6-4d89-8099-411c11a26526,uniandes_bouldering_026_2,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+33613bf1-9141-4785-900d-ec459dfb8d80,uniandes_bouldering_027_85,Bouldering,Beginner,Novice,Beginner,True,Beginner,True
+e1e7fe97-da42-4d2e-8ec5-9cdbdb132ffd,uniandes_bouldering_022_51,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+e4e88582-cb8a-49d4-a6ed-e1203e50b59b,uniandes_bouldering_032_30,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+3509ffc4-eb92-4b03-b520-c6551ed41231,uniandes_bouldering_029_68,Bouldering,Expert,Intermediate Expert,Beginner,False,Expert,True
+4c9044be-4dd4-4521-b60c-ec533fa0e5f7,uniandes_bouldering_034_71,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+ea2d7015-0bf2-422c-b6ac-ebcf88fef619,uniandes_bouldering_025_13,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+cea9b606-6e9c-49ac-9d1c-b906a9ea94be,uniandes_bouldering_036_15,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+45fd3610-226e-4263-9e26-7a2d3a90c379,uniandes_bouldering_030_27,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+c99d1078-bf31-4eb2-8fb7-b6cf4d718f56,uniandes_bouldering_032_27,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+4401cdfe-a383-4116-b1ed-1783b2e0ae7e,uniandes_bouldering_036_4,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+94acdc8f-1377-4dbc-94e6-efcfa08ca8ba,uniandes_bouldering_034_17,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+a376e251-b93e-4408-8304-b3992dccd253,uniandes_bouldering_022_63,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+ee479d4d-88b5-4b24-8acf-8d9a6886862d,uniandes_bouldering_023_25,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+a57791d5-65d8-49aa-a18e-3cf6e7456cfc,uniandes_bouldering_035_36,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+b92ec0ad-020b-4fed-87bf-002eaaa9a8ec,uniandes_bouldering_022_26,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+fc314cc2-9884-4d3c-be52-6b6dad63dc4f,uniandes_bouldering_032_74,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+3c519043-4e93-4f5e-b521-3b27c235c17c,uniandes_bouldering_024_6,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+c8dbedf6-61ec-497f-b57e-ee270238da13,uniandes_bouldering_031_69,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+08f0616c-d3c4-414c-a492-d8d157872915,uniandes_bouldering_035_53,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+df84386a-0061-410e-8227-aab015e0ff9e,uniandes_bouldering_023_8,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+ee8e8ec3-9926-44bd-bcae-96248b2c5475,uniandes_bouldering_030_63,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+b625c8f6-9346-42a5-97be-5db4a1c764c5,uniandes_bouldering_037_19,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+387e1029-abfc-4c38-b9fa-9ba1e061df80,uniandes_bouldering_027_37,Bouldering,Beginner,Novice,Beginner,True,Beginner,True
+39b0ea83-e3d5-4dcf-a47c-dc70c6cbe71f,uniandes_bouldering_028_33,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+3f98dd3d-9770-460e-87a5-b2e14c212277,uniandes_bouldering_035_12,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+8fc09fcb-b864-4bb9-b922-586c6c998971,uniandes_bouldering_033_42,Bouldering,Expert,Intermediate Expert,Beginner,False,Beginner,False
+54080756-356f-4ce7-87c7-ef21dd7a2c89,uniandes_bouldering_029_14,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+5bd6f0dc-4cec-476c-9975-2e45a4d78a56,uniandes_bouldering_035_63,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+1fd6d3f8-5a49-4af5-9e39-f80dff8bdd4b,uniandes_bouldering_022_39,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+61fb9b37-d3ff-43b3-b8dd-53960604527d,uniandes_bouldering_034_75,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+823628bf-e32c-4b93-9ec2-0c615eb6a999,uniandes_bouldering_024_32,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+4e62f874-b0fe-4159-92c4-3c3fc05fedd6,uniandes_bouldering_033_2,Bouldering,Expert,Late Expert,Beginner,False,Beginner,False
+304f621b-6e3b-4bf7-af4b-2ee5a0364a83,uniandes_bouldering_023_26,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+907f0593-2ed6-4b8b-af92-8d0dd3117324,uniandes_bouldering_029_53,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+e3e0389a-be59-4beb-8703-b9f289ccca47,uniandes_bouldering_029_30,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+ec6ff8f4-3d40-4508-b83f-45c78c0be3b4,uniandes_bouldering_036_16,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+47c1bd4f-331c-469e-b720-91989a8ee5ad,uniandes_bouldering_027_49,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+1b5dc443-7e63-4aac-891b-9a074f919547,uniandes_bouldering_036_19,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+2c45bb0a-9085-4bc4-b526-2b95a560879e,uniandes_bouldering_027_63,Bouldering,Beginner,Novice,Expert,False,Expert,False
+6dd1fa63-204c-4d56-8be9-89d2fd0b85b5,uniandes_bouldering_025_18,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+94a048f2-ed75-4adc-92bb-cbe67acc53e8,uniandes_bouldering_030_57,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+6f9e874c-829f-45a2-adfb-40e76efa2006,uniandes_bouldering_031_46,Bouldering,Expert,Late Expert,Beginner,False,Expert,True
+729035b0-d6b2-4a34-9bfa-618befa6bb4e,uniandes_bouldering_036_41,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+cb400114-e794-49af-92cc-890933fc233a,uniandes_bouldering_034_62,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+719c4305-0ab8-4778-8f2d-63bc2a01ae4d,uniandes_bouldering_037_12,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+87f73932-5544-478a-a76f-d07a37e4fc1a,uniandes_bouldering_035_87,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+db638d99-3d8b-4711-859a-49603a690407,uniandes_bouldering_027_80,Bouldering,Beginner,Novice,Expert,False,Expert,False
+a3d8051f-afea-4afe-ad40-500bd008541f,uniandes_bouldering_032_50,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+aab90317-5b37-4bc0-b366-72250f0cb538,uniandes_bouldering_023_4,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+7b7365da-5cef-4fbc-8c9b-ab2987fddf0f,uniandes_bouldering_025_16,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+77b98bd6-c60b-4733-8cbf-e62c6f92730e,uniandes_bouldering_036_46,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+a46cfc0d-70dd-4265-947d-8b64aa474d6b,uniandes_bouldering_027_76,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+366c6d4d-1949-4363-bd6b-e0aba3454b1c,uniandes_bouldering_033_19,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+107fe109-c5d2-42b1-b4a3-f485ce5f08e3,uniandes_bouldering_022_2,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+1ebd85db-0120-464c-b8ca-2476ef1dcdd6,uniandes_bouldering_035_44,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+d29c0c12-1d70-4e13-8384-97c0db59f47e,uniandes_bouldering_034_88,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+1a64617a-8094-4473-a4c6-3db4f2ddbba2,uniandes_bouldering_037_45,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+a7ae2764-3cb5-45a3-a462-d5f3dd0de04b,uniandes_bouldering_034_6,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+9361dce5-6406-417f-9b26-12a2b0ad23a5,uniandes_bouldering_022_24,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+96569ec1-0ced-47f0-84fe-cf36b4d77e62,uniandes_bouldering_023_16,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+462acd18-2703-40f2-bf07-e151ab93ca97,uniandes_bouldering_035_17,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+99903253-f73f-4cf1-a176-a815ceb4b718,uniandes_bouldering_034_70,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+236fc074-73c1-415f-91cf-2c71cd12f3d6,uniandes_bouldering_022_32,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+0a184bbf-43bf-4d02-bc32-f8989158446a,uniandes_bouldering_023_42,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+02fb8601-8b2a-41df-bb3c-9b2e1046c2bb,uniandes_bouldering_027_105,Bouldering,Expert,Early Expert,Beginner,False,Beginner,False
+5c31b6ff-811a-45ae-8cf1-1e433acfccbc,uniandes_bouldering_023_74,Bouldering,Expert,Intermediate Expert,Beginner,False,Expert,True
+1d994778-4641-497b-bcb6-00cfc61a2517,uniandes_bouldering_036_70,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+2a1667d7-91a8-4a8d-8e73-c5b70dcc8f9f,uniandes_bouldering_026_108,Bouldering,Beginner,Novice,Expert,False,Expert,False
+dbb8c6c5-7156-43e8-8f27-f54e217360c1,uniandes_bouldering_026_95,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+d75616cc-6fbf-4201-b400-6395f517979c,uniandes_bouldering_027_26,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+2aaaca24-108a-437e-ab9a-bc3e8d65fcdf,uniandes_bouldering_024_60,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+5bf9c88a-3fe3-4c0c-a2c6-3168467f8e92,uniandes_bouldering_025_70,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+48c635f3-ef0c-436b-94dc-9fca68c779b7,uniandes_bouldering_034_98,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+94388550-e47f-4331-b715-6edbd5804cfa,uniandes_bouldering_026_60,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+9289524b-3d24-43ec-8212-6ea1f78198ca,uniandes_bouldering_037_43,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+947ac112-6848-49aa-8cac-aece95145e0d,uniandes_bouldering_026_72,Bouldering,Beginner,Novice,Expert,False,Expert,False
+d33f338c-bebc-44a7-b3bb-17849a0fc068,uniandes_bouldering_037_49,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+495dbde3-165c-4af1-bf80-46d53f76116c,uniandes_bouldering_035_91,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+3f60a7dd-d004-4842-bdd0-2e112f554cd9,uniandes_bouldering_035_21,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+97b78075-0a0c-4198-bc78-b08a2c92b0aa,uniandes_bouldering_027_56,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+f3032280-8a0f-4803-a862-02e719110dff,uniandes_bouldering_023_29,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+5a87d794-6b64-4287-b212-5142aefeefa2,uniandes_bouldering_032_21,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+bcee7f31-863d-479c-8c18-442f60ba8ab4,uniandes_bouldering_027_79,Bouldering,Beginner,Novice,Expert,False,Expert,False
+f32e2abd-2a4c-425d-a953-ead1997ab98b,uniandes_bouldering_022_35,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+6e5d8604-27e4-4182-9007-722cfa7830aa,uniandes_bouldering_028_66,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+b0f2faf0-e14d-4ed8-aea8-e95828d8f2c5,uniandes_bouldering_035_77,Bouldering,Expert,Early Expert,Beginner,False,Beginner,False
+400b4e98-9a6c-424e-b0af-bf92221adda1,uniandes_bouldering_034_61,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+13187fc4-b19c-44c2-96c4-d6516e80e8c6,uniandes_bouldering_022_49,Bouldering,Beginner,Novice,Expert,False,Expert,False
+14e3d506-966c-4775-9499-e800ff752938,uniandes_bouldering_036_57,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+532474d6-ef0f-4770-8735-5457037e8800,uniandes_bouldering_032_52,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+7ca6721f-6dff-4be5-a8dc-eba6890686a2,uniandes_bouldering_037_6,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+e1ff1af7-8be8-492c-8ede-4b6cfcc8ae87,uniandes_bouldering_036_36,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+893cede7-d8c5-4a4d-9666-b4a946b7c7eb,uniandes_bouldering_023_68,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+50a1d087-699a-4b98-a8d3-1c1b9adae130,uniandes_bouldering_037_52,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+2171687a-b30b-4061-8f2d-0fa8a7038017,uniandes_bouldering_029_26,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+c714b768-a8ac-49f3-b08c-977cbd9580e6,uniandes_bouldering_036_33,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+0ed9a2ce-0e62-43f9-a7e1-37e5a0b89fcc,uniandes_bouldering_033_60,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+74bc0655-0e3e-433f-b8f5-243764621fe5,uniandes_bouldering_030_25,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+fc1cf8bc-f6c4-4624-bb64-7fc735f2ee40,uniandes_bouldering_025_29,Bouldering,Beginner,Novice,Expert,False,Expert,False
+9470ffb0-844d-459e-927a-08ba1ab45ea3,uniandes_bouldering_028_6,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+495c922c-4986-4fc9-8f80-478f2d888850,uniandes_bouldering_029_34,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+0ff1330e-62fb-4ec4-a55a-54773485c2e5,uniandes_bouldering_029_73,Bouldering,Expert,Early Expert,Beginner,False,Expert,True
+a3a35dce-1056-48d7-975b-2680fc06f584,uniandes_bouldering_035_38,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+599fccf2-b3c2-4eaf-95b2-0749fe66ef4c,uniandes_bouldering_027_114,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+ace8113d-5f13-4aa0-bc27-381785968344,uniandes_bouldering_037_36,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+bb219a0a-24ed-4623-8dc2-7496f86755ff,uniandes_bouldering_026_107,Bouldering,Beginner,Novice,Expert,False,Expert,False
+184366a0-b85c-4b08-87f2-1125f27b37d1,uniandes_bouldering_037_16,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+2944c724-8a19-4ff8-9626-48f00bbddd26,uniandes_bouldering_026_16,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+5e468e56-9b7c-4e28-aadd-0bbb461e8155,uniandes_bouldering_025_19,Bouldering,Beginner,Novice,Beginner,True,Beginner,True
+75286d45-1251-421a-90cb-3f0212443244,uniandes_bouldering_036_8,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+7169fc15-2029-42c7-aec1-ead3cf4960df,uniandes_bouldering_022_14,Bouldering,Beginner,Novice,Expert,False,Expert,False
+1dc21b6b-bab8-4a31-9f34-34caa2a3b9e6,uniandes_bouldering_024_40,Bouldering,Beginner,Novice,Expert,False,Expert,False
+55a046e6-11d2-4860-a2a4-305e84f87c95,uniandes_bouldering_032_75,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+fc007d9e-19d6-4907-914a-b76ae2adb0e3,uniandes_bouldering_024_16,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+631b6268-adf8-4206-86aa-20df608e2f3b,uniandes_bouldering_026_37,Bouldering,Beginner,Novice,Expert,False,Expert,False
+90d40eba-fb77-4014-b51b-675005365f66,uniandes_bouldering_027_52,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+3d5093ba-9832-48a1-9c3b-a48ebf6faa0c,uniandes_bouldering_034_53,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+9184f98d-fc8c-4158-a6ab-70784f003ad4,uniandes_bouldering_037_28,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+a37e560e-994c-4a74-aa7d-b64d8ff656fd,uniandes_bouldering_026_105,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+7f1b552d-4ccf-43aa-baca-9b1de566b232,uniandes_bouldering_031_15,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+8f7f2b85-e806-477a-922c-590522a65f64,uniandes_bouldering_033_40,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+53d1ce0b-8bf0-4ba1-9592-796d2cd59a46,uniandes_bouldering_024_14,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+b843d724-be38-4855-9408-7c5cef73274d,uniandes_bouldering_034_69,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+2d809aef-9a43-4bae-9657-4b63e24e53d5,uniandes_bouldering_029_40,Bouldering,Beginner,Novice,Expert,False,Expert,False
+dcdf4cdc-2b50-4e2c-bbaf-b8a904965867,uniandes_bouldering_029_77,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+434c1776-61b6-42cb-b101-5032260f1787,uniandes_bouldering_036_45,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+6b5272eb-e0f1-4e19-99a8-8e36629b706b,uniandes_bouldering_025_55,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+0dd0e0b5-cbd2-42d3-bc00-64375f14f374,uniandes_bouldering_032_81,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+d96f1562-436f-4eda-847e-971b4f332fb5,uniandes_bouldering_033_59,Bouldering,Expert,Intermediate Expert,Beginner,False,Expert,True
+4920d34b-d681-443c-b541-8f114d73909e,uniandes_bouldering_035_60,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+d9165d37-9d16-49ff-8f1d-4b42125a4bee,uniandes_bouldering_027_113,Bouldering,Beginner,Novice,Beginner,True,Beginner,True
+6caced41-616a-465e-97b8-4ecc055cbab9,uniandes_bouldering_036_23,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+345c7778-a275-4c6b-8a73-5f01ebf7202b,uniandes_bouldering_030_58,Bouldering,Expert,Late Expert,Beginner,False,Beginner,False
+e5342798-15e1-496a-877e-599c41e661d2,uniandes_bouldering_030_61,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+4f9adb11-6c34-4b76-ba70-19c6ad3a6156,uniandes_bouldering_030_28,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+1c4f1db1-70bb-47e6-8d1f-00e924aa0a98,uniandes_bouldering_033_38,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+993f24bc-49ad-4f29-96f2-441022fed429,uniandes_bouldering_026_65,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+02fb0289-353d-485b-8fd6-8af608106e23,uniandes_bouldering_034_59,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+fd7be441-5664-4e92-94ce-df542e76eb48,uniandes_bouldering_028_15,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+0e9965a8-46b9-4a06-9d36-1c512284f197,uniandes_bouldering_034_4,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+d4baf0d0-e085-4b09-a6ae-0f0cf992cce4,uniandes_bouldering_029_61,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+b285942a-a30b-4d4b-a753-8a29b951c1cb,uniandes_bouldering_026_48,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+78eb1fd3-fd40-45b2-a322-75bf823917ce,uniandes_bouldering_034_8,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+f772c3be-e068-4bd1-8708-df269694eee0,uniandes_bouldering_023_10,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+2d440a5d-6f5d-447f-b0d7-5227df11da5f,uniandes_bouldering_022_72,Bouldering,Beginner,Novice,Expert,False,Expert,False
+185aa3aa-05ac-4f75-8ba6-a576289ed73a,uniandes_bouldering_036_61,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+b962a529-af80-4fa7-a08b-b8610e5e40ab,uniandes_bouldering_022_6,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+7ddc0933-b409-4c1d-96e6-0ecce0d68d9a,uniandes_bouldering_026_22,Bouldering,Beginner,Novice,Expert,False,Expert,False
+1bae4806-b9a5-4271-9d40-b14e42c50fa0,uniandes_bouldering_028_42,Bouldering,Beginner,Novice,Expert,False,Expert,False
+a7ee65f5-b365-4f69-bc6a-95a9583d7ff0,uniandes_bouldering_026_14,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+e0d398e3-a18c-4436-8e7d-a69520039921,uniandes_bouldering_037_48,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+19451c59-9907-47b8-b51c-c95ff9bcd319,uniandes_bouldering_027_31,Bouldering,Beginner,Novice,Beginner,True,Expert,False
+3e219953-7cec-45ee-9c05-818d95513167,uniandes_bouldering_034_99,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+d02f8c02-4a46-4284-a9c6-1d1c169be7c1,uniandes_bouldering_023_48,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+4b0fd835-3caf-43ee-83bf-79a28d2bf2ad,uniandes_bouldering_034_29,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+d49fcb33-6321-42fd-8fa6-9fdcbb66b72d,uniandes_bouldering_036_73,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+297d0185-6f12-4664-b53c-c5fc4054d680,uniandes_bouldering_022_20,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+ef362c0f-063b-4aeb-af18-d15f0c0a949d,uniandes_bouldering_029_8,Bouldering,Expert,Early Expert,Beginner,False,Beginner,False
+bc0565fd-e3e3-4eb6-a343-92edcd11a58e,uniandes_bouldering_024_57,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+551f9e62-2f51-4da7-a287-0d7fbeb97977,uniandes_bouldering_024_45,Bouldering,Beginner,Novice,Expert,False,Expert,False
+0555c0cb-d1d7-46d2-88db-8bffa973932e,uniandes_bouldering_023_9,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+f6a95fee-d53a-431b-8845-0c4543fc3a47,uniandes_bouldering_032_61,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+5a3a5b32-c084-4cbb-9dfc-c738fbcedf80,uniandes_bouldering_027_4,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+676a70f8-1e29-4d92-9b6a-66706abb9139,uniandes_bouldering_026_98,Bouldering,Beginner,Novice,Expert,False,Expert,False
+841c5354-3711-45ce-a226-3d7ba0e6b3df,uniandes_bouldering_030_60,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+9460a1dc-0af5-4312-b883-8a15cc057d12,uniandes_bouldering_034_82,Bouldering,Expert,Early Expert,Expert,True,Beginner,False
+54b6e544-2272-4568-925b-abf6ddedd223,uniandes_bouldering_027_36,Bouldering,Beginner,Novice,Expert,False,Expert,False
+5d5d169f-3cfa-47da-947d-ec7a93178a59,uniandes_bouldering_029_41,Bouldering,Beginner,Novice,Expert,False,Expert,False
+107939d1-f064-4d8b-8c7d-3e6da17a236e,uniandes_bouldering_035_40,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+cdb3d2dc-57b0-4a0e-8645-f37c7b384f74,uniandes_bouldering_032_34,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+ea71122a-5318-4c39-9207-10eb0fe6e668,uniandes_bouldering_025_14,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+8ebffdce-ebf0-4824-a266-2c910dd6b5a7,uniandes_bouldering_036_71,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+16392b3b-3d48-4c86-b244-ee492b196f9f,uniandes_bouldering_026_71,Bouldering,Beginner,Novice,Expert,False,Expert,False
+9ceee09a-ab19-4463-baac-0ed48d21827e,uniandes_bouldering_024_44,Bouldering,Beginner,Novice,Expert,False,Expert,False
+f13614a2-2a3a-49ff-92bd-0a585e241aba,uniandes_bouldering_034_55,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+8392e60f-6bb0-4e22-9936-5bbdd03f90ac,uniandes_bouldering_033_53,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+b5538972-28e2-44d6-90e2-ed90c2ef646a,uniandes_bouldering_033_44,Bouldering,Expert,Late Expert,Beginner,False,Beginner,False
+061b91cd-72ed-4018-af97-6d68366bd547,uniandes_bouldering_027_121,Bouldering,Beginner,Novice,Expert,False,Expert,False
+d9b7ad36-2631-4c97-8ee4-3e5162f12b41,uniandes_bouldering_025_54,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+718ebe7e-fb88-47dc-a5db-9b4a8ca75e2f,uniandes_bouldering_025_84,Bouldering,Beginner,Novice,Expert,False,Expert,False
+a237c7f1-4189-4f28-9a7d-233a976976d6,uniandes_bouldering_036_47,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+ed1af24a-b98e-450a-9531-bc04b6b13533,uniandes_bouldering_032_45,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
+63758542-8a82-4e62-a235-6b1ef0f03b8a,uniandes_bouldering_030_59,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+9426868e-3ba6-45e1-a6d3-0f90b0077970,uniandes_bouldering_027_3,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+541fd573-8687-496a-8351-aa30f2524bd3,uniandes_bouldering_022_13,Bouldering,Beginner,Novice,Expert,False,Beginner,True
+ab4c2f5f-129f-41ed-9bdb-72d8ebeb5539,uniandes_bouldering_037_46,Bouldering,Expert,Intermediate Expert,Expert,True,Expert,True
+cddea26a-1eac-4176-a541-fa38ca70a214,uniandes_bouldering_033_45,Bouldering,Expert,Late Expert,Expert,True,Expert,True
+a6b13562-f2e4-4254-bc1c-9e7513a438c3,uniandes_bouldering_023_23,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+1191d049-3780-452a-b91d-b04292726dc2,uniandes_bouldering_034_102,Bouldering,Expert,Early Expert,Expert,True,Expert,True
+83e910dd-235c-4382-8ba1-b24d9a73b70e,uniandes_bouldering_029_69,Bouldering,Expert,Intermediate Expert,Beginner,False,Beginner,False
+aa810edc-47b1-4446-a5e5-ac630b32ef0c,uniandes_bouldering_029_22,Bouldering,Beginner,Novice,Expert,False,Expert,False
+3b37049c-f7ba-46bf-955f-0485f23ef54d,uniandes_bouldering_037_22,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+34a8ed66-16ea-4d2d-bd49-c33eeea9c4b9,uniandes_bouldering_036_21,Bouldering,Expert,Late Expert,Expert,True,Beginner,False
+0f81a059-34c3-4085-9dbf-ae5084fba4fd,uniandes_bouldering_029_32,Bouldering,Expert,Intermediate Expert,Expert,True,Beginner,False
