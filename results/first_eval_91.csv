@@ -1,0 +1,6 @@
+clip_id,take_folder,activity,ground_truth_binary,ground_truth_4class,answer_binary,answer_structured,correct_binary
+94a048f2-ed75-4adc-92bb-cbe67acc53e8,uniandes_bouldering_030_57,Bouldering,Expert,Late Expert,Expert,"Observations: The person is climbing a colorful rock wall using various holds of different shapes and sizes. They appear to be using both hands and feet to maintain balance and ascend the wall.
+
+Errors: There do not appear to be any obvious errors in the person's movement. The individual seems to be maintaining a steady pace and utilizing appropriate techniques for rock climbing.
+
+Skill Level: Intermediate Expert",True
