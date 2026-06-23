@@ -1,0 +1,1895 @@
+Mon Jun 22 17:11:10 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.159.03             Driver Version: 580.159.03     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     Off |   00000000:04:00.0 Off |                  N/A |
+| 24%   22C    P8              5W /  250W |       0MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading model...
+Loading weights:   0%|          | 0/625 [00:00<?, ?it/s]Loading weights:   0%|          | 1/625 [00:29<5:09:40, 29.78s/it]Loading weights:   0%|          | 2/625 [00:29<2:08:16, 12.35s/it]Loading weights:  16%|█▋        | 103/625 [00:33<01:34,  5.51it/s]Loading weights:  18%|█▊        | 113/625 [00:35<01:34,  5.43it/s]Loading weights:  18%|█▊        | 115/625 [00:36<01:39,  5.14it/s]Loading weights:  20%|█▉        | 124/625 [00:38<01:39,  5.05it/s]Loading weights:  20%|██        | 125/625 [00:44<03:02,  2.74it/s]Loading weights:  22%|██▏       | 136/625 [00:47<02:31,  3.22it/s]Loading weights:  22%|██▏       | 137/625 [00:50<03:28,  2.34it/s]Loading weights:  23%|██▎       | 146/625 [00:51<02:39,  3.01it/s]Loading weights:  25%|██▍       | 154/625 [00:51<01:54,  4.10it/s]Loading weights:  25%|██▌       | 157/625 [00:52<02:00,  3.88it/s]Loading weights:  25%|██▌       | 159/625 [00:53<01:53,  4.11it/s]Loading weights:  27%|██▋       | 168/625 [00:55<01:46,  4.30it/s]Loading weights:  29%|██▊       | 179/625 [00:57<01:38,  4.52it/s]Loading weights:  29%|██▉       | 180/625 [00:58<01:52,  3.97it/s]Loading weights:  29%|██▉       | 181/625 [01:01<03:25,  2.16it/s]Loading weights:  30%|███       | 190/625 [01:02<02:11,  3.31it/s]Loading weights:  32%|███▏      | 201/625 [01:06<02:16,  3.09it/s]Loading weights:  34%|███▍      | 212/625 [01:06<01:27,  4.71it/s]Loading weights:  34%|███▍      | 214/625 [01:09<02:00,  3.40it/s]Loading weights:  36%|███▌      | 223/625 [01:10<01:30,  4.45it/s]Loading weights:  37%|███▋      | 234/625 [01:12<01:30,  4.34it/s]Loading weights:  38%|███▊      | 235/625 [01:14<02:03,  3.15it/s]Loading weights:  39%|███▉      | 246/625 [01:15<01:13,  5.16it/s]Loading weights:  40%|███▉      | 248/625 [01:20<02:56,  2.14it/s]Loading weights:  42%|████▏     | 264/625 [01:21<01:22,  4.39it/s]Loading weights:  43%|████▎     | 267/625 [01:22<01:28,  4.05it/s]Loading weights:  43%|████▎     | 269/625 [01:22<01:24,  4.21it/s]Loading weights:  44%|████▍     | 276/625 [01:22<00:57,  6.04it/s]Loading weights:  44%|████▍     | 278/625 [01:27<02:20,  2.47it/s]Loading weights:  46%|████▋     | 290/625 [01:29<01:35,  3.51it/s]Loading weights:  47%|████▋     | 292/625 [01:30<01:50,  3.01it/s]Loading weights:  48%|████▊     | 302/625 [01:32<01:22,  3.92it/s]Loading weights:  52%|█████▏    | 328/625 [01:32<00:32,  9.20it/s]Loading weights:  53%|█████▎    | 331/625 [01:35<00:52,  5.61it/s]Loading weights:  53%|█████▎    | 331/625 [01:45<00:52,  5.61it/s]Loading weights:  54%|█████▍    | 340/625 [01:46<02:16,  2.09it/s]Loading weights:  62%|██████▏   | 386/625 [01:46<00:38,  6.27it/s]Loading weights:  63%|██████▎   | 392/625 [01:46<00:33,  6.88it/s]Loading weights:  64%|██████▍   | 400/625 [01:46<00:28,  8.02it/s]Loading weights:  65%|██████▍   | 405/625 [01:47<00:24,  8.91it/s]Loading weights:  66%|██████▌   | 412/625 [01:47<00:21, 10.04it/s]Loading weights:  68%|██████▊   | 422/625 [01:47<00:15, 13.36it/s]Loading weights:  68%|██████▊   | 427/625 [01:49<00:25,  7.67it/s]Loading weights:  68%|██████▊   | 427/625 [02:14<00:25,  7.67it/s]Loading weights:  69%|██████▉   | 434/625 [02:15<03:26,  1.08s/it]Loading weights:  70%|██████▉   | 436/625 [02:16<03:07,  1.01it/s]Loading weights:  71%|███████   | 444/625 [02:16<01:59,  1.52it/s]Loading weights:  72%|███████▏  | 447/625 [02:16<01:40,  1.77it/s]Loading weights:  72%|███████▏  | 449/625 [02:17<01:35,  1.84it/s]Loading weights:  74%|███████▎  | 460/625 [02:19<00:57,  2.89it/s]Loading weights:  74%|███████▍  | 462/625 [02:19<00:52,  3.13it/s]Loading weights:  75%|███████▌  | 470/625 [02:19<00:30,  5.09it/s]Loading weights:  76%|███████▌  | 474/625 [02:20<00:31,  4.76it/s]Loading weights:  78%|███████▊  | 486/625 [02:22<00:24,  5.76it/s]Loading weights:  79%|███████▊  | 492/625 [02:23<00:23,  5.77it/s]Loading weights:  79%|███████▉  | 496/625 [02:23<00:18,  6.81it/s]Loading weights:  80%|███████▉  | 498/625 [02:24<00:26,  4.84it/s]Loading weights:  81%|████████▏ | 508/625 [02:25<00:19,  6.16it/s]Loading weights:  82%|████████▏ | 510/625 [02:26<00:18,  6.22it/s]Loading weights:  83%|████████▎ | 518/625 [02:26<00:11,  9.25it/s]Loading weights:  83%|████████▎ | 520/625 [02:27<00:15,  6.79it/s]Loading weights:  85%|████████▌ | 534/625 [02:27<00:06, 14.28it/s]Loading weights:  87%|████████▋ | 542/625 [02:31<00:17,  4.86it/s]Loading weights:  89%|████████▊ | 554/625 [02:31<00:09,  7.46it/s]Loading weights:  89%|████████▉ | 558/625 [02:31<00:07,  8.51it/s]Loading weights:  91%|█████████ | 568/625 [02:32<00:04, 11.57it/s]Loading weights:  93%|█████████▎| 580/625 [02:32<00:02, 16.41it/s]Loading weights:  93%|█████████▎| 584/625 [02:33<00:03, 13.06it/s]Loading weights:  96%|█████████▌| 600/625 [02:35<00:02, 10.13it/s]Loading weights:  98%|█████████▊| 612/625 [02:37<00:01,  7.16it/s]Loading weights:  99%|█████████▉| 618/625 [02:38<00:00,  7.66it/s]Loading weights: 100%|██████████| 625/625 [02:38<00:00,  3.95it/s]
+Model loaded.
+
+Testing 232 clips with 3 prompts x 2 views = 6 evals per clip
+Total inferences: 1392
+
+[1/232] uniandes_bouldering_022_76 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful rock
+  structured ego: X Observations: The video shows a person performing on a colorful, artificial clim
+
+[2/232] uniandes_bouldering_024_14 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person climbing a brightly lit, colorful rock wa
+
+[3/232] uniandes_bouldering_023_10 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: OK Observations: The video shows a person performing on an indoor climbing wall. Th
+
+[4/232] uniandes_bouldering_037_60 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person engaged in a climbing activity on a color
+
+[5/232] uniandes_bouldering_027_58 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person climbing a colorful, artificial rock wall
+
+[6/232] uniandes_bouldering_036_50 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful, and
+  structured ego: X Observations: The person is actively engaged in a climbing activity on a colorfu
+
+[7/232] uniandes_bouldering_029_57 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The video shows a person performing a climbing activity on a large
+  structured ego: X Observations: The person is engaged in a climbing activity on a brightly colored
+
+[8/232] uniandes_bouldering_022_49 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic, controlled movement on a large
+  structured ego: X Observations: The video captures a person engaged in a climbing activity on a co
+
+[9/232] uniandes_bouldering_027_3 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Intermediate Expert
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful arti
+  structured ego: OK Observations: The person is performing a climbing activity on a colorful, artifi
+
+[10/232] uniandes_bouldering_022_32 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a dynamic climbing move on a large, color
+  structured ego: X Observations: The person is engaged in a climbing activity on a colorful indoor 
+
+[11/232] uniandes_bouldering_023_23 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic climbing move on a large, color
+  structured ego: X Observations: The video shows a person climbing a colorful artificial rock wall.
+
+[12/232] uniandes_bouldering_026_18 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video captures a person climbing a brightly colored indoor roc
+
+[13/232] uniandes_bouldering_024_40 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: OK Observations: The person is performing a dynamic rock climbing move on a large, 
+  structured ego: X Observations: The video shows a person climbing a colorful indoor rock wall. The
+
+[14/232] uniandes_bouldering_026_95 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic, vertical climbing move on a la
+  structured ego: OK Observations: The person is performing a climbing activity on a colorful artific
+
+[15/232] uniandes_bouldering_028_42 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic climbing move on a large, color
+  structured ego: X Observations: The video shows a person climbing a colorful indoor rock wall. The
+
+[16/232] uniandes_bouldering_027_108 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The person is engaged in rock climbing on a colorful, artificial c
+
+[17/232] uniandes_bouldering_034_71 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a dynamic, controlled movement on a large
+  structured ego: X Observations: The person is engaged in a climbing activity on a brightly colored
+
+[18/232] uniandes_bouldering_026_78 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: OK Observations: The video shows a person performing on a colorful indoor climbing 
+
+[19/232] uniandes_bouldering_032_48 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: OK Observations: The video shows a person climbing a brightly lit, colorful artific
+
+[20/232] uniandes_bouldering_036_36 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Late Expert
+  fourclass  ego: OK Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The person is performing a climbing activity on a brightly colored
+
+[21/232] uniandes_bouldering_027_36 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic, inverted hang on a large, colo
+  structured ego: X Observations: The video captures a person climbing a colorful indoor rock wall. 
+
+[22/232] uniandes_bouldering_028_6 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a wall climb on a large, colorful indoor 
+  structured ego: X Observations: The video shows a person performing on a rock climbing wall. The p
+
+[23/232] uniandes_bouldering_026_97 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is engaged in a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person engaged in rock climbing on a brightly co
+
+[24/232] uniandes_bouldering_030_26 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: OK Late Expert
+  fourclass  ego: OK Late Expert
+  structured exo: OK Observations: The person is performing a dynamic climbing move on a large, color
+  structured ego: X Observations: The person is actively engaged in a climbing activity on a colorfu
+
+[25/232] uniandes_bouldering_026_79 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is performing a dynamic climbing move on a large, color
+  structured ego: X Observations: The video shows a person climbing an indoor rock wall. The person 
+
+[26/232] uniandes_bouldering_026_66 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is engaged in a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person climbing a colorful, artificial rock wall
+
+[27/232] uniandes_bouldering_032_28 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is engaged in a sport climbing activity on a large, ang
+  structured ego: OK Observations: The person is performing a climbing activity on a colorful, artifi
+
+[28/232] uniandes_bouldering_023_76 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Intermediate Expert
+  structured exo: OK Observations: The person is performing a climb on a large, colorful rock wall. T
+  structured ego: X Observations: The video shows a person climbing an indoor rock wall. The climber
+
+[29/232] uniandes_bouldering_024_59 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The person is engaged in a climbing activity on a brightly colored
+
+[30/232] uniandes_bouldering_024_47 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful rock
+  structured ego: X Observations: The person is actively climbing a colorful indoor rock wall. They 
+
+[31/232] uniandes_bouldering_023_78 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Based on the visual evidence in the frames, the person is performing a rock clim
+  structured exo: X Observations: The person is engaged in a climbing activity on a large, colorful 
+  structured ego: X Observations: The video captures a person performing on a climbing wall, viewed 
+
+[32/232] uniandes_bouldering_031_68 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: X Based on the visual evidence in the frames, the person appears to be performing 
+  structured exo: OK Observations: The person is performing a dynamic climbing movement on a large, c
+  structured ego: X Observations: The video shows a person climbing an indoor rock wall. The climber
+
+[33/232] uniandes_bouldering_037_12 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic, high-intensity climb on a larg
+  structured ego: OK Observations: The video shows a person climbing an indoor rock wall. The climber
+
+[34/232] uniandes_bouldering_024_51 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Intermediate Expert
+  structured exo: X Observations: The person is engaged in a climbing activity on a large, colorful 
+  structured ego: OK Observations: The video shows a person climbing an indoor rock wall with a wide-
+
+[35/232] uniandes_bouldering_029_68 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Intermediate Expert
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful arti
+  structured ego: X Observations: The person is performing a climbing activity on a colorful, artifi
+
+[36/232] uniandes_bouldering_036_12 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Intermediate Expert
+  structured exo: OK Observations: The person is performing a dynamic, controlled movement on a large
+  structured ego: OK Observations: The person is on an indoor climbing wall, using a variety of color
+
+[37/232] uniandes_bouldering_022_26 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Late Expert
+  fourclass  ego: OK Late Expert
+  structured exo: X Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The video captures a person climbing an indoor rock wall. The clim
+
+[38/232] uniandes_bouldering_022_53 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a dynamic climbing move on a large, color
+  structured ego: X Observations: The person is engaged in rock climbing on a brightly colored artif
+
+[39/232] uniandes_bouldering_026_21 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person climbing an indoor rock wall using a wide
+
+[40/232] uniandes_bouldering_028_24 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person climbing a colorful indoor rock wall. The
+
+[41/232] uniandes_bouldering_027_20 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful arti
+  structured ego: X Observations: The person is engaged in a climbing activity on a colorful, artifi
+
+[42/232] uniandes_bouldering_024_31 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Based on the visual evidence from the frames, the person appears to be performin
+  structured exo: OK Observations: The person is engaged in a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person climbing an indoor rock wall, viewed from
+
+[43/232] uniandes_bouldering_023_71 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The person is engaged in a climbing activity on a brightly colored
+
+[44/232] uniandes_bouldering_032_77 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Intermediate Expert
+  fourclass  ego: OK Intermediate Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful rock
+  structured ego: X Observations: The video captures a person climbing an indoor rock wall, viewed f
+
+[45/232] uniandes_bouldering_027_21 (GT: Expert / Early Expert)
+  binary     exo: X Beginner
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a wall climb on a large, colorful indoor 
+  structured ego: X Observations: The person is performing a climbing activity on a colorful, artifi
+
+[46/232] uniandes_bouldering_027_85 (GT: Beginner / Novice)
+  binary     exo: OK Beginner
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is engaged in a climbing activity on a large, colorful 
+  structured ego: OK Observations: The person is on an indoor climbing wall, using a variety of color
+
+[47/232] uniandes_bouldering_027_26 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a dynamic climbing move on a large, color
+  structured ego: X Observations: The video shows a person engaged in a climbing activity on a color
+
+[48/232] uniandes_bouldering_022_72 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a rock climbing activity on a large, colo
+  structured ego: X Observations: The video captures a person climbing a brightly colored indoor roc
+
+[49/232] uniandes_bouldering_027_54 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: OK Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person climbing a colorful, artificial rock wall
+
+[50/232] uniandes_bouldering_024_30 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video captures a person performing on a brightly colored indoo
+
+[51/232] uniandes_bouldering_024_12 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful rock
+  structured ego: X Observations: The video shows a person climbing an indoor rock wall. The climber
+
+[52/232] uniandes_bouldering_028_31 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is engaged in a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person climbing an indoor rock wall. The perspec
+
+[53/232] uniandes_bouldering_036_25 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic, controlled climb on a large, c
+  structured ego: X Observations: The video shows a person climbing an indoor rock wall. The climber
+
+[54/232] uniandes_bouldering_022_7 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic climbing move on a large, color
+  structured ego: X Observations: The video shows a person performing on a brightly lit, colorful ro
+
+[55/232] uniandes_bouldering_029_13 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person climbing a colorful indoor rock wall. The
+
+[56/232] uniandes_bouldering_023_9 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Intermediate Expert
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: OK Observations: The video shows a person performing a climbing activity on an indo
+
+[57/232] uniandes_bouldering_025_81 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The person is engaged in a climbing activity on a colorful, artifi
+
+[58/232] uniandes_bouldering_034_74 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic climbing move on a large, color
+  structured ego: X Observations: The video captures a person performing on an indoor climbing wall.
+
+[59/232] uniandes_bouldering_029_23 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing maneuver on a large, colorful 
+  structured ego: X Observations: The video shows a person engaged in rock climbing on a wall with c
+
+[60/232] uniandes_bouldering_027_50 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a rock climbing activity on a large, colo
+  structured ego: X Observations: The video shows a person performing a climbing activity on a color
+
+[61/232] uniandes_bouldering_027_24 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a rock climbing move on a large, colorful
+  structured ego: X Observations: The person is engaged in a rock climbing activity, viewed from a f
+
+[62/232] uniandes_bouldering_026_102 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person in a climbing gym, likely engaged in a te
+
+[63/232] uniandes_bouldering_026_98 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Based on the visual evidence in the frames, the person appears to be performing 
+  structured exo: X Observations: The person is performing a bouldering climb on a large, colorful, 
+  structured ego: X Observations: The video captures a person climbing an indoor rock wall, viewed f
+
+[64/232] uniandes_bouldering_026_108 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic climbing move on a large, color
+  structured ego: X Observations: The video shows a person engaged in a climbing activity on a color
+
+[65/232] uniandes_bouldering_033_57 (GT: Expert / Intermediate Expert)
+  binary     exo: X Beginner
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a bouldering climb on a large, colorful i
+  structured ego: OK Observations: The video shows a person climbing a colorful indoor rock wall. The
+
+[66/232] uniandes_bouldering_023_8 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Based on the visual evidence in the frames, the person appears to be at an inter
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The person is engaged in a climbing activity on a brightly lit ind
+
+[67/232] uniandes_bouldering_037_6 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: OK Late Expert
+  fourclass  ego: OK Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful rock
+  structured ego: X Observations: The video shows a person climbing a colorful indoor rock wall. The
+
+[68/232] uniandes_bouldering_029_89 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic climbing move on a large, color
+  structured ego: OK Observations: The person is performing a climbing activity on a colorful, artifi
+
+[69/232] uniandes_bouldering_026_22 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic, controlled climb on a large, c
+  structured ego: X Observations: The video shows a person engaged in a climbing activity on a color
+
+[70/232] uniandes_bouldering_026_65 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic, controlled climb on a large, c
+  structured ego: X Observations: The video shows a person engaged in rock climbing on a colorful ar
+
+[71/232] uniandes_bouldering_034_29 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic climbing move on a large, color
+  structured ego: X Observations: The person is engaged in a climbing activity on a brightly colored
+
+[72/232] uniandes_bouldering_027_121 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person climbing a colorful, artificial rock wall
+
+[73/232] uniandes_bouldering_028_15 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The video shows a person performing a climbing activity on a large
+  structured ego: X Observations: The person is actively climbing a colorful, artificial rock wall. 
+
+[74/232] uniandes_bouldering_027_82 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is engaged in a climbing activity on a large, colorful 
+  structured ego: OK Observations: The video captures a person engaged in a climbing activity on a co
+
+[75/232] uniandes_bouldering_023_29 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a climb on a large, colorful indoor rock 
+  structured ego: X Observations: The video shows a person climbing a colorful indoor rock wall. The
+
+[76/232] uniandes_bouldering_027_114 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person climbing a rock wall using a variety of c
+
+[77/232] uniandes_bouldering_025_16 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: OK Based on the visual evidence in the frames, the person appears to be at an inter
+  structured exo: X Observations: The person is lying on their back on a padded floor, with their ar
+  structured ego: X Observations: The video shows a person engaged in a climbing activity on a color
+
+[78/232] uniandes_bouldering_025_19 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: X Based on the visual evidence from the frames, the person appears to be at an int
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person engaged in rock climbing on a brightly co
+
+[79/232] uniandes_bouldering_027_63 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a wall climb on a large, colorful artific
+  structured ego: X Observations: The video captures a person actively climbing a colorful indoor ro
+
+[80/232] uniandes_bouldering_035_53 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large indoor boulder
+  structured ego: X Observations: The video shows a person engaged in a rock climbing activity, view
+
+[81/232] uniandes_bouldering_025_29 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: X Based on the visual evidence in the frames, the person is shown performing a cli
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person engaged in a climbing activity on a brigh
+
+[82/232] uniandes_bouldering_026_17 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic rock climbing maneuver on a lar
+  structured ego: X Observations: The video shows a person engaged in a climbing activity on a color
+
+[83/232] uniandes_bouldering_025_82 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: OK Observations: The video shows a person engaged in rock climbing on a large, colo
+
+[84/232] uniandes_bouldering_036_43 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Late Expert
+  fourclass  ego: OK Based on the visual evidence in the frames, the person is performing a climbing 
+  structured exo: X Observations: The video shows a person performing a climbing move on a large, co
+  structured ego: X Observations: The person is performing a climbing activity on a colorful, artifi
+
+[85/232] uniandes_bouldering_027_84 (GT: Beginner / Novice)
+  binary     exo: OK Beginner
+  binary     ego: OK Beginner
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person climbing an indoor rock wall. The perspec
+
+[86/232] uniandes_bouldering_026_15 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is engaged in a climbing activity on a large, artificia
+  structured ego: X Observations: The person is performing a climbing activity on a colorful artific
+
+[87/232] uniandes_bouldering_026_107 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic, controlled movement on a large
+  structured ego: X Observations: The person is engaged in a climbing activity on a colorful indoor 
+
+[88/232] uniandes_bouldering_022_13 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a dynamic climbing move on a large, color
+  structured ego: OK Observations: The video shows a person performing a climbing activity on a color
+
+[89/232] uniandes_bouldering_031_46 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Late Expert
+  fourclass  ego: OK Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person climbing an indoor rock wall. The climber
+
+[90/232] uniandes_bouldering_022_67 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Late Expert
+  fourclass  ego: OK Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful arti
+  structured ego: X Observations: The video shows a person climbing an indoor rock wall, viewed from
+
+[91/232] uniandes_bouldering_023_26 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The person is performing a rock climbing activity on a colorful ar
+
+[92/232] uniandes_bouldering_028_12 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic movement on a large, colorful i
+  structured ego: OK Observations: The video captures a person climbing a brightly colored, artificia
+
+[93/232] uniandes_bouldering_023_17 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Based on the visual evidence in the frames, the person appears to be a **Novice*
+  structured exo: X Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person climbing a colorful artificial rock wall.
+
+[94/232] uniandes_bouldering_026_48 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Intermediate Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: OK Observations: The person is engaged in a climbing activity on a colorful, artifi
+
+[95/232] uniandes_bouldering_036_6 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Late Expert
+  fourclass  ego: X Based on the visual evidence in the frames, the person appears to be at an inter
+  structured exo: OK Observations: The person is performing a dynamic, high-intensity climbing move o
+  structured ego: X Observations: The person is actively climbing an indoor rock wall, using a wide 
+
+[96/232] uniandes_bouldering_025_13 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Based on the visual evidence in the frames, the person appears to be performing 
+  structured exo: X Observations: The person is engaged in a climbing activity on a large, colorful 
+  structured ego: OK Observations: The video shows a person engaged in rock climbing on a brightly co
+
+[97/232] uniandes_bouldering_027_87 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The person is performing a climbing activity on a brightly colored
+
+[98/232] uniandes_bouldering_027_88 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person engaged in a climbing activity on a wall 
+
+[99/232] uniandes_bouldering_027_93 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is performing a climbing maneuver on a large, colorful 
+  structured ego: OK Observations: The video shows a person climbing an indoor rock wall. The climber
+
+[100/232] uniandes_bouldering_035_98 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The video captures a person engaged in an indoor rock climbing act
+
+[101/232] uniandes_bouldering_034_63 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a bouldering move on a large, colorful cl
+  structured ego: X Observations: The video shows a person climbing an indoor rock wall. The climber
+
+[102/232] uniandes_bouldering_037_43 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Intermediate Expert
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful clim
+  structured ego: X Observations: The video shows a person engaged in rock climbing on a colorful in
+
+[103/232] uniandes_bouldering_022_33 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic, acrobatic maneuver on a large,
+  structured ego: X Observations: The video shows a person climbing an indoor rock wall. The climber
+
+[104/232] uniandes_bouldering_034_50 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing maneuver on a large, angled ar
+  structured ego: X Observations: The video shows a person climbing an indoor rock wall using a vari
+
+[105/232] uniandes_bouldering_028_19 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The person is performing a climbing activity on a colorful indoor 
+
+[106/232] uniandes_bouldering_036_39 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: OK Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person engaged in rock climbing on a brightly co
+
+[107/232] uniandes_bouldering_035_37 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The video shows a person performing a climbing move on a large, co
+  structured ego: X Observations: The person is performing a climbing activity on a colorful, artifi
+
+[108/232] uniandes_bouldering_027_18 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic, controlled movement on a large
+  structured ego: X Observations: The person is actively engaged in a climbing activity on a colorfu
+
+[109/232] uniandes_bouldering_026_14 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The person is engaged in rock climbing on a colorful indoor climbi
+
+[110/232] uniandes_bouldering_026_23 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: OK Observations: The video shows a person engaged in a climbing activity on a color
+
+[111/232] uniandes_bouldering_034_62 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic, downward-facing climb on a lar
+  structured ego: X Observations: The video shows a person climbing an indoor rock wall. The climber
+
+[112/232] uniandes_bouldering_029_22 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The person is performing a rock climbing activity on a climbing wa
+
+[113/232] uniandes_bouldering_027_81 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: OK Observations: The person is performing a rock climbing activity on a wall with n
+
+[114/232] uniandes_bouldering_023_83 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful rock
+  structured ego: OK Observations: The video captures a person performing on an indoor climbing wall.
+
+[115/232] uniandes_bouldering_036_57 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Intermediate Expert
+  fourclass  ego: OK Intermediate Expert
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person performing a climbing activity on a color
+
+[116/232] uniandes_bouldering_026_46 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: X Based on the visual evidence in the provided frames, the person appears to be pe
+  structured exo: OK Observations: The person is on a climbing wall, performing a move that appears t
+  structured ego: X Observations: The video shows a person engaged in a climbing activity on a color
+
+[117/232] uniandes_bouldering_024_57 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: OK Observations: The person is performing a climb on a large, colorful rock wall. T
+  structured ego: X Observations: The video shows a person climbing a brightly colored indoor rock w
+
+[118/232] uniandes_bouldering_023_48 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Based on the visual evidence in the frames, the person appears to be performing 
+  structured exo: X Observations: The person is performing a bouldering move on a large, colorful cl
+  structured ego: X Observations: The video shows a person on an indoor climbing wall, viewed from a
+
+[119/232] uniandes_bouldering_033_58 (GT: Expert / Intermediate Expert)
+  binary     exo: X Beginner
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is in a low, crouched position on a large, colorful cli
+  structured ego: OK Observations: The video shows a person from a first-person, fisheye lens perspec
+
+[120/232] uniandes_bouldering_022_16 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The person is engaged in a climbing activity on a brightly colored
+
+[121/232] uniandes_bouldering_023_18 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person engaged in a climbing activity, likely on
+
+[122/232] uniandes_bouldering_036_26 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Intermediate Expert
+  structured exo: OK Observations: The person is performing a dynamic climbing move on a large, color
+  structured ego: OK Observations: The person is performing a climbing activity on a brightly colored
+
+[123/232] uniandes_bouldering_037_8 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Late Expert
+  fourclass  ego: OK Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person engaged in rock climbing on a brightly co
+
+[124/232] uniandes_bouldering_029_14 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is engaged in a climbing activity on a large, colorful,
+  structured ego: X Observations: The video captures a person engaged in rock climbing on a brightly
+
+[125/232] uniandes_bouldering_027_113 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The video captures a person climbing an indoor rock wall using a v
+
+[126/232] uniandes_bouldering_027_79 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Based on the visual evidence in the frames, the person appears to be performing 
+  structured exo: X Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: OK Observations: The person is performing a climbing activity on an indoor rock wal
+
+[127/232] uniandes_bouldering_028_34 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Intermediate Expert
+  structured exo: OK Observations: The person is performing a dynamic climbing move on a large, color
+  structured ego: X Observations: The person is engaged in rock climbing on a colorful, artificial c
+
+[128/232] uniandes_bouldering_024_45 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person performing a rock climbing activity on a 
+
+[129/232] uniandes_bouldering_027_52 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person engaged in a climbing activity on a color
+
+[130/232] uniandes_bouldering_033_12 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Late Expert
+  fourclass  ego: OK Late Expert
+  structured exo: OK Observations: The person is performing a dynamic, athletic movement on a large, 
+  structured ego: OK Observations: The video shows a person performing on a brightly lit, colorful cl
+
+[131/232] uniandes_bouldering_024_32 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is engaged in a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person on a brightly lit, colorful indoor climbi
+
+[132/232] uniandes_bouldering_037_38 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Late Expert
+  fourclass  ego: OK Late Expert
+  structured exo: X Observations: The person is performing a dynamic, high-intensity climbing move o
+  structured ego: X Observations: The person is performing a rock climbing activity on a large, colo
+
+[133/232] uniandes_bouldering_026_105 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a dynamic, controlled movement on a large
+  structured ego: OK Observations: The video shows a person climbing an indoor rock wall. The climber
+
+[134/232] uniandes_bouldering_030_61 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: OK Late Expert
+  fourclass  ego: OK Late Expert
+  structured exo: X Observations: The video shows a person performing a bouldering move on a large, 
+  structured ego: X Observations: The video shows a person performing on an indoor climbing wall. Th
+
+[135/232] uniandes_bouldering_029_40 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic climbing move on a large, color
+  structured ego: X Observations: The video shows a person performing a climb on a colorful, artific
+
+[136/232] uniandes_bouldering_027_56 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The video captures a person performing a climbing activity on a la
+  structured ego: X Observations: The person is engaged in a climbing activity on a colorful, artifi
+
+[137/232] uniandes_bouldering_022_71 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Based on the visual evidence in the frames, the person appears to be a beginner 
+  structured exo: X Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person engaged in a climbing activity on a color
+
+[138/232] uniandes_bouldering_027_28 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person climbing a colorful indoor rock wall, vie
+
+[139/232] uniandes_bouldering_024_44 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person climbing a brightly colored indoor rock w
+
+[140/232] uniandes_bouldering_025_65 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a bouldering exercise on a large, colorfu
+  structured ego: X Observations: The person is engaged in a climbing activity on a brightly colored
+
+[141/232] uniandes_bouldering_026_26 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Based on the visual evidence from the frames, the person appears to be performin
+  structured exo: X Observations: The person is engaged in a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person performing on a brightly colored indoor c
+
+[142/232] uniandes_bouldering_025_17 (GT: Beginner / Novice)
+  binary     exo: OK Beginner
+  binary     ego: X Expert
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful arti
+  structured ego: X Observations: The video shows a person performing on a brightly colored indoor c
+
+[143/232] uniandes_bouldering_035_40 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic, controlled movement on a large
+  structured ego: X Observations: The video shows a person climbing an indoor rock wall. The person 
+
+[144/232] uniandes_bouldering_024_20 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is actively engaged in a climbing activity on a large, 
+  structured ego: OK Observations: The video shows a person climbing an indoor rock wall. The perspec
+
+[145/232] uniandes_bouldering_026_64 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic, upward-reaching movement on a 
+  structured ego: X Observations: The person is engaged in a climbing activity on a colorful indoor 
+
+[146/232] uniandes_bouldering_027_62 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The person is engaged in rock climbing on a colorful, artificial c
+
+[147/232] uniandes_bouldering_035_17 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person climbing an artificial rock wall. The per
+
+[148/232] uniandes_bouldering_036_42 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Late Expert
+  fourclass  ego: X Based on the visual evidence in the frames, the person appears to be a **Novice*
+  structured exo: X Observations: The person is performing a dynamic climbing move on a large, color
+  structured ego: X Observations: The video captures a person performing on an indoor rock climbing 
+
+[149/232] uniandes_bouldering_026_71 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a rock climbing activity on a large, colo
+  structured ego: X Observations: The video shows a person performing a climbing activity on a rock 
+
+[150/232] uniandes_bouldering_036_60 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Intermediate Expert
+  structured exo: OK Observations: The person is performing a dynamic, controlled maneuver on a large
+  structured ego: OK Observations: The video shows a person on an indoor climbing wall, likely in a g
+
+[151/232] uniandes_bouldering_025_84 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: OK Observations: The video shows a person performing on a colorful indoor rock clim
+
+[152/232] uniandes_bouldering_027_60 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a rock climbing activity on a large, colo
+  structured ego: X Observations: The video shows a person engaged in a rock climbing activity, view
+
+[153/232] uniandes_bouldering_034_56 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Intermediate Expert
+  structured exo: OK Observations: The person is performing a bouldering climb on a large, colorful i
+  structured ego: OK Observations: The video shows a person climbing an indoor rock wall using a wide
+
+[154/232] uniandes_bouldering_033_17 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic climbing move on a large, color
+  structured ego: X Observations: The person is performing a climbing activity on a brightly colored
+
+[155/232] uniandes_bouldering_026_16 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a dynamic, controlled climb on a large, c
+  structured ego: X Observations: The video shows a person engaged in rock climbing on a brightly co
+
+[156/232] uniandes_bouldering_028_43 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic, controlled climb on a large, c
+  structured ego: X Observations: The person is performing a climb on a colorful indoor rock wall. T
+
+[157/232] uniandes_bouldering_028_29 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: OK Observations: The video shows a person engaged in a climbing activity on a color
+
+[158/232] uniandes_bouldering_023_16 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: OK Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person climbing a colorful indoor rock wall. The
+
+[159/232] uniandes_bouldering_025_14 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person climbing an indoor bouldering wall. The c
+
+[160/232] uniandes_bouldering_027_29 (GT: Beginner / Novice)
+  binary     exo: OK Beginner
+  binary     ego: X Expert
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: OK Observations: The video captures a person climbing an indoor rock wall, viewed f
+
+[161/232] uniandes_bouldering_023_44 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic climbing maneuver on a large, c
+  structured ego: X Observations: The video shows a person performing on a colorful, artificial clim
+
+[162/232] uniandes_bouldering_027_49 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Based on the visual evidence in the provided frames, the person appears to be at
+  structured exo: X Observations: The person is engaged in a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person climbing a colorful artificial rock wall.
+
+[163/232] uniandes_bouldering_022_35 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a dynamic, controlled movement on a large
+  structured ego: X Observations: The video shows a person on a brightly lit indoor climbing wall, v
+
+[164/232] uniandes_bouldering_027_6 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Intermediate Expert
+  structured exo: X Observations: The person is engaged in a climbing activity on a large, colorful 
+  structured ego: X Observations: The person is actively climbing an indoor rock wall, using a varie
+
+[165/232] uniandes_bouldering_032_61 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The person is performing a climbing activity on a brightly colored
+
+[166/232] uniandes_bouldering_035_69 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing maneuver on a large, colorful 
+  structured ego: X Observations: The video captures a person engaged in a climbing activity on a co
+
+[167/232] uniandes_bouldering_034_102 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a dynamic, low-to-the-ground movement on 
+  structured ego: X Observations: The video shows a person performing a climbing activity on a color
+
+[168/232] uniandes_bouldering_022_14 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic, controlled movement on a large
+  structured ego: OK Observations: The video shows a person engaged in a climbing activity on a color
+
+[169/232] uniandes_bouldering_027_32 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: OK Observations: The person is on a climbing wall, using a variety of colorful hand
+
+[170/232] uniandes_bouldering_036_45 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a dynamic, controlled movement on a large
+  structured ego: X Observations: The person is engaged in a climbing activity on a colorful, artifi
+
+[171/232] uniandes_bouldering_034_24 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The video shows a person performing a bouldering move on a large, 
+  structured ego: OK Observations: The video shows a person climbing an indoor rock wall, viewed from
+
+[172/232] uniandes_bouldering_027_76 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: OK Observations: The person is engaged in a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person engaged in a rock climbing activity, view
+
+[173/232] uniandes_bouldering_028_65 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video captures a person performing a climbing activity on a co
+
+[174/232] uniandes_bouldering_031_69 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Late Expert
+  fourclass  ego: OK Late Expert
+  structured exo: X Observations: The person is performing a bouldering exercise on a large, colorfu
+  structured ego: X Observations: The video shows a person climbing a colorful indoor rock wall. The
+
+[175/232] uniandes_bouldering_025_56 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is engaged in a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person engaged in a climbing activity, likely in
+
+[176/232] uniandes_bouldering_029_90 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The person is on an indoor rock climbing wall, using a variety of 
+
+[177/232] uniandes_bouldering_028_69 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a dynamic climbing move on a large, color
+  structured ego: X Observations: The video shows a person climbing a colorful artificial rock wall 
+
+[178/232] uniandes_bouldering_027_35 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a dynamic climbing maneuver on a large, c
+  structured ego: OK Observations: The person is engaged in a climbing activity on a colorful, artifi
+
+[179/232] uniandes_bouldering_022_30 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Based on the visual evidence from the video frames, the person appears to be per
+  structured exo: X Observations: The person is engaged in a climbing activity on a large, colorful 
+  structured ego: OK Observations: The video captures a person performing on a brightly lit, colorful
+
+[180/232] uniandes_bouldering_037_55 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: OK Late Expert
+  structured exo: X Observations: The video shows a person performing a dynamic, acrobatic movement 
+  structured ego: X Observations: The person is performing a climbing activity on a colorful, artifi
+
+[181/232] uniandes_bouldering_032_21 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Intermediate Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a bouldering move on a large, colorful cl
+  structured ego: X Observations: The person is performing a climbing activity on a colorful, artifi
+
+[182/232] uniandes_bouldering_027_19 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Based on the visual evidence from the 8 frames, the person appears to be perform
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The person is engaged in a climbing activity on a colorful, artifi
+
+[183/232] uniandes_bouldering_036_46 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Late Expert
+  fourclass  ego: OK Late Expert
+  structured exo: OK Observations: The person is performing a dynamic, controlled movement on a large
+  structured ego: X Observations: The video shows a person climbing a colorful, artificial rock wall
+
+[184/232] uniandes_bouldering_035_59 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Intermediate Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful rock
+  structured ego: X Observations: The video shows a person climbing a brightly colored, artificial r
+
+[185/232] uniandes_bouldering_035_21 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The person is performing a climbing activity on a colorful, artifi
+
+[186/232] uniandes_bouldering_035_43 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic, low-to-the-ground climbing tec
+  structured ego: X Observations: The video captures a person engaged in rock climbing on a large, c
+
+[187/232] uniandes_bouldering_029_10 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person engaged in rock climbing on a colorful, a
+
+[188/232] uniandes_bouldering_026_72 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a rock climbing exercise on a large, colo
+  structured ego: X Observations: The video shows a person performing a climbing activity on a rock 
+
+[189/232] uniandes_bouldering_034_67 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Based on the visual evidence in the frames, the person appears to be a **Novice*
+  structured exo: X Observations: The person is performing a dynamic climbing maneuver on a large, c
+  structured ego: X Observations: The person is engaged in an indoor rock climbing activity on a col
+
+[190/232] uniandes_bouldering_023_50 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a bouldering move on a large, colorful cl
+  structured ego: X Observations: The video shows a person on an indoor climbing wall, likely using 
+
+[191/232] uniandes_bouldering_025_54 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful rock
+  structured ego: X Observations: The video shows a person performing a climbing activity on a brigh
+
+[192/232] uniandes_bouldering_029_59 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Novice
+  structured exo: OK Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The person is performing a climbing move on an indoor bouldering w
+
+[193/232] uniandes_bouldering_023_42 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video captures a person climbing an indoor rock wall. The pers
+
+[194/232] uniandes_bouldering_025_55 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is engaged in a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person climbing an indoor rock wall using a vari
+
+[195/232] uniandes_bouldering_027_37 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a wall climb on a large, colorful artific
+  structured ego: X Observations: The person is engaged in a rock climbing activity, viewed from a f
+
+[196/232] uniandes_bouldering_022_73 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic, multi-directional movement on 
+  structured ego: X Observations: The video shows a person climbing a brightly colored indoor rock w
+
+[197/232] uniandes_bouldering_026_37 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is engaged in a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person performing a rock climbing activity. The 
+
+[198/232] uniandes_bouldering_030_63 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: OK Late Expert
+  fourclass  ego: OK Late Expert
+  structured exo: OK Observations: The person is performing a dynamic, controlled descent from a high
+  structured ego: X Observations: The video shows a person climbing an indoor rock wall. The wall is
+
+[199/232] uniandes_bouldering_034_65 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic, controlled movement on a large
+  structured ego: X Observations: The person is engaged in a climbing activity on a colorful indoor 
+
+[200/232] uniandes_bouldering_022_62 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: OK Observations: The video captures a person climbing a brightly colored rock wall.
+
+[201/232] uniandes_bouldering_027_55 (GT: Beginner / Novice)
+  binary     exo: OK Beginner
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person engaged in a climbing activity on a color
+
+[202/232] uniandes_bouldering_037_56 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The person is engaged in a climbing activity on a colorful, artifi
+
+[203/232] uniandes_bouldering_023_60 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: OK Late Expert
+  structured exo: X Observations: The person is performing a climb on a large, colorful indoor rock 
+  structured ego: X Observations: The video shows a person engaged in a climbing activity on a brigh
+
+[204/232] uniandes_bouldering_026_73 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a rock climbing maneuver on a large, colo
+  structured ego: X Observations: The person is engaged in rock climbing on a colorful indoor climbi
+
+[205/232] uniandes_bouldering_029_92 (GT: Expert / Early Expert)
+  binary     exo: X Beginner
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing maneuver on a large, colorful 
+  structured ego: X Observations: The person is performing a climbing activity on a colorful, artifi
+
+[206/232] uniandes_bouldering_034_37 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The video shows a person performing a dynamic, high-intensity clim
+  structured ego: X Observations: The video shows a person climbing a colorful indoor rock wall. The
+
+[207/232] uniandes_bouldering_035_77 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic movement on a large, colorful i
+  structured ego: X Observations: The video shows a person performing a rock climbing activity on a 
+
+[208/232] uniandes_bouldering_026_44 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is on a large indoor climbing wall, performing a dynami
+  structured ego: X Observations: The person is engaged in a climbing activity on a colorful artific
+
+[209/232] uniandes_bouldering_025_44 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Based on the visual evidence in the frames, the person is shown engaging in a cl
+  structured exo: X Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: X Observations: The video shows a person in a dimly lit indoor climbing gym, likel
+
+[210/232] uniandes_bouldering_032_34 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Late Expert
+  fourclass  ego: OK Late Expert
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The person is performing a climbing activity on a brightly colored
+
+[211/232] uniandes_bouldering_035_28 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person performing a climbing activity on a color
+
+[212/232] uniandes_bouldering_030_57 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: OK Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The video shows a person performing a climbing activity on a large
+  structured ego: X Observations: The person is performing a climbing activity on a brightly colored
+
+[213/232] uniandes_bouldering_024_60 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is actively climbing a large, colorful indoor rock wall
+  structured ego: OK Observations: The video shows a person climbing a brightly colored indoor rock w
+
+[214/232] uniandes_bouldering_030_9 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a dynamic climbing move on a large, color
+  structured ego: X Observations: The video captures a person engaged in a climbing activity on a co
+
+[215/232] uniandes_bouldering_027_4 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: OK Intermediate Expert
+  structured exo: OK Observations: The person is performing a climbing activity on a large, colorful 
+  structured ego: OK Observations: The video shows a person performing a climbing activity on a color
+
+[216/232] uniandes_bouldering_026_41 (GT: Beginner / Novice)
+  binary     exo: OK Beginner
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a bouldering climb on a large, colorful r
+  structured ego: X Observations: The video shows a person climbing a brightly colored rock wall, li
+
+[217/232] uniandes_bouldering_027_31 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The video shows a person performing a climbing activity on a large
+  structured ego: OK Observations: The video shows a person climbing a colorful indoor rock wall. The
+
+[218/232] uniandes_bouldering_027_80 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is engaged in a climbing activity on a large, colorful 
+  structured ego: X Observations: The person is performing a rock climbing activity on an indoor cli
+
+[219/232] uniandes_bouldering_024_6 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: OK Observations: The person is performing a climbing activity on a colorful, artifi
+
+[220/232] uniandes_bouldering_033_19 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The video shows a person performing a bouldering activity on a lar
+  structured ego: OK Observations: The video shows a person engaged in a climbing activity on a brigh
+
+[221/232] uniandes_bouldering_034_35 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a dynamic movement on a large, colorful i
+  structured ego: X Observations: The video captures a person engaged in a climbing activity on a co
+
+[222/232] uniandes_bouldering_037_22 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Late Expert
+  fourclass  ego: OK Late Expert
+  structured exo: OK Observations: The video shows a person performing a dynamic climbing move on a l
+  structured ego: X Observations: The person is on a climbing wall, using a variety of colorful hand
+
+[223/232] uniandes_bouldering_026_43 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: OK Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person engaged in rock climbing on a colorful in
+
+[224/232] uniandes_bouldering_025_18 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a bouldering climb on a large, colorful a
+  structured ego: X Observations: The video captures a person actively climbing a colorful, artifici
+
+[225/232] uniandes_bouldering_028_66 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person climbing a brightly colored indoor rock w
+
+[226/232] uniandes_bouldering_034_82 (GT: Expert / Early Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person climbing an indoor rock wall. The wall is
+
+[227/232] uniandes_bouldering_037_33 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: OK Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The video shows a person performing a climbing maneuver on a large
+  structured ego: X Observations: The video shows a person climbing a colorful, artificial rock wall
+
+[228/232] uniandes_bouldering_037_50 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Intermediate Expert
+  fourclass  ego: OK Late Expert
+  structured exo: X Observations: The person is performing a climbing move on a large, colorful indo
+  structured ego: X Observations: The video shows a person performing a climbing activity on a color
+
+[229/232] uniandes_bouldering_036_73 (GT: Expert / Late Expert)
+  binary     exo: OK Expert
+  binary     ego: X Beginner
+  fourclass  exo: OK Late Expert
+  fourclass  ego: OK Based on the visual evidence in the frames, the person appears to be performing 
+  structured exo: X Observations: The video shows a person performing a climbing activity on a large
+  structured ego: X Observations: The person is performing a climbing activity on a large, colorful 
+
+[230/232] uniandes_bouldering_029_41 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: X Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Intermediate Expert
+  structured exo: X Observations: The person is performing a dynamic climbing maneuver on a large, c
+  structured ego: OK Observations: The person is on a climbing wall, actively engaged in a climbing m
+
+[231/232] uniandes_bouldering_022_47 (GT: Beginner / Novice)
+  binary     exo: X Expert
+  binary     ego: OK Beginner
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Based on the visual evidence in the frames, the person appears to be performing 
+  structured exo: X Observations: The person is performing a dynamic, controlled movement on a large
+  structured ego: OK Observations: The video shows a person performing on an indoor climbing wall. Th
+
+[232/232] uniandes_bouldering_032_63 (GT: Expert / Intermediate Expert)
+  binary     exo: OK Expert
+  binary     ego: OK Expert
+  fourclass  exo: X Late Expert
+  fourclass  ego: X Late Expert
+  structured exo: X Observations: The person is engaged in a climbing activity on a large, colorful 
+  structured ego: OK Observations: The person is performing on a climbing wall, likely using a techni
+
+
+============================================================
+FINAL RESULTS
+============================================================
+binary_exo           118/232 = 50.9%
+binary_ego           126/232 = 54.3%
+fourclass_exo        27/232 = 11.6%
+fourclass_ego        49/232 = 21.1%
+structured_exo       56/232 = 24.1%
+structured_ego       48/232 = 20.7%
+============================================================
