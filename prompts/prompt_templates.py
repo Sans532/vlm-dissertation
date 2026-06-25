@@ -6,7 +6,7 @@ PROMPTS = {
 
     "binary": (
         "Is this person a beginner or an expert at this activity? "
-        "Answer only: Beginner or Expert"
+        "Answer only: Novice or Expert"
     ),
 
     "structured": (
