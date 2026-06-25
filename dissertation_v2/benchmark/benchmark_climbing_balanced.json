@@ -1,0 +1,7 @@
+{
+  "name": "benchmark_climbing_balanced",
+  "description": "Balanced climbing benchmark - 232 clips",
+  "clips_count": 232,
+  "balanced": true,
+  "clips": []
+}
