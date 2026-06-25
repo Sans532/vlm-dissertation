@@ -14,7 +14,7 @@
     "video_path_ego": "takes/uniandes_bouldering_023_13/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_023_13/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -23,7 +23,7 @@
     "video_path_ego": "takes/uniandes_bouldering_036_4/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_036_4/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -41,7 +41,7 @@
     "video_path_ego": "takes/uniandes_bouldering_037_51/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_037_51/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -50,7 +50,7 @@
     "video_path_ego": "takes/uniandes_bouldering_036_73/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_036_73/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -68,7 +68,7 @@
     "video_path_ego": "takes/uniandes_bouldering_037_4/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_037_4/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -77,7 +77,7 @@
     "video_path_ego": "takes/uniandes_bouldering_030_63/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_030_63/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -95,7 +95,7 @@
     "video_path_ego": "takes/uniandes_bouldering_030_25/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_030_25/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -122,7 +122,7 @@
     "video_path_ego": "takes/uniandes_bouldering_036_21/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_036_21/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -140,7 +140,7 @@
     "video_path_ego": "takes/uniandes_bouldering_036_17/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_036_17/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -149,7 +149,7 @@
     "video_path_ego": "takes/uniandes_bouldering_037_8/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_037_8/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -158,7 +158,7 @@
     "video_path_ego": "takes/uniandes_bouldering_031_27/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_031_27/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -185,7 +185,7 @@
     "video_path_ego": "takes/uniandes_bouldering_036_45/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_036_45/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -212,7 +212,7 @@
     "video_path_ego": "takes/uniandes_bouldering_022_67/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_022_67/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -248,7 +248,7 @@
     "video_path_ego": "takes/uniandes_bouldering_033_44/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_033_44/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -284,7 +284,7 @@
     "video_path_ego": "takes/uniandes_bouldering_030_62/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_030_62/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -302,7 +302,7 @@
     "video_path_ego": "takes/uniandes_bouldering_030_8/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_030_8/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -320,7 +320,7 @@
     "video_path_ego": "takes/uniandes_bouldering_036_35/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_036_35/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -356,7 +356,7 @@
     "video_path_ego": "takes/uniandes_bouldering_036_49/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_036_49/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -365,7 +365,7 @@
     "video_path_ego": "takes/uniandes_bouldering_036_14/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_036_14/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -383,7 +383,7 @@
     "video_path_ego": "takes/uniandes_bouldering_030_28/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_030_28/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -392,7 +392,7 @@
     "video_path_ego": "takes/uniandes_bouldering_037_20/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_037_20/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -401,7 +401,7 @@
     "video_path_ego": "takes/uniandes_bouldering_037_56/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_037_56/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -410,7 +410,7 @@
     "video_path_ego": "takes/uniandes_bouldering_037_55/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_037_55/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -419,7 +419,7 @@
     "video_path_ego": "takes/uniandes_bouldering_036_8/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_036_8/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
@@ -446,7 +446,7 @@
     "video_path_ego": "takes/uniandes_bouldering_031_47/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_031_47/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
-    "ground_truth": "Late Expert",
+    "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   }
 ]

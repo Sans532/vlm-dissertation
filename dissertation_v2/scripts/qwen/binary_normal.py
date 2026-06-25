@@ -11,10 +11,10 @@ from transformers import AutoModelForImageTextToText, AutoProcessor
 warnings.filterwarnings("ignore")
 
 USER = os.environ.get("USER")
-MODEL_PATH     = f"/home/{USER}/dissertation/models/qwen3vl-7b"
+MODEL_PATH     = f"/home/{USER}/dissertation/models/qwen25vl-7b"
 DATA_DIR       = f"/home/{USER}/dissertation/data/egoexo"
-BENCHMARK_PATH = f"/home/{USER}/dissertation/dissertation_v2/benchmark/benchmark_binary.json"
-RESULTS_PATH   = f"/home/{USER}/dissertation/dissertation_v2/results/qwen/binary_normal.csv"
+BENCHMARK_PATH = f"/home/{USER}/dissertation/repo/dissertation_v2/benchmark/benchmark_binary.json"
+RESULTS_PATH   = f"/home/{USER}/dissertation/repo/dissertation_v2/results/qwen/binary_normal.csv"
 
 # --- experiment knobs ----------------------------------------------------
 USE_SAMPLING = False           # greedy
@@ -23,7 +23,7 @@ SHUFFLE_OPTIONS = False        # fixed order: "Novice or Expert"
 
 os.makedirs(os.path.dirname(RESULTS_PATH), exist_ok=True)
 
-print("Loading Qwen3-VL-7B ...")
+print("Loading Qwen2.5-VL-7B-Instruct ...")
 model = AutoModelForImageTextToText.from_pretrained(
     MODEL_PATH,
     torch_dtype=torch.float16,
@@ -118,7 +118,7 @@ stats = {"exo": [0, 0], "ego": [0, 0]}
 for i, item in enumerate(benchmark):
     clip_seed = hash(item["clip_id"]) % 100000
     question = make_binary_prompt(clip_seed)
-    gt = item["ground_truth_binary"]
+    gt = item["ground_truth"]
     exo_path = os.path.join(DATA_DIR, item["video_path_exo"])
     ego_path = os.path.join(DATA_DIR, item["video_path_ego"])
 

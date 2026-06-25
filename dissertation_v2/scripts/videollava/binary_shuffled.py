@@ -16,8 +16,8 @@ warnings.filterwarnings("ignore")
 USER = os.environ.get("USER")
 MODEL_PATH     = f"/home/{USER}/dissertation/models/videollava"
 DATA_DIR       = f"/home/{USER}/dissertation/data/egoexo"
-BENCHMARK_PATH = f"/home/{USER}/dissertation/dissertation_v2/benchmark/benchmark_binary.json"
-RESULTS_PATH   = f"/home/{USER}/dissertation/dissertation_v2/results/videollava/binary_shuffled.csv"
+BENCHMARK_PATH = f"/home/{USER}/dissertation/repo/dissertation_v2/benchmark/benchmark_binary.json"
+RESULTS_PATH   = f"/home/{USER}/dissertation/repo/dissertation_v2/results/videollava/binary_shuffled.csv"
 
 USE_SAMPLING = False
 SHUFFLE_OPTIONS = True

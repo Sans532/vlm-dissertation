@@ -14,17 +14,17 @@ from transformers import AutoModelForImageTextToText, AutoProcessor
 warnings.filterwarnings("ignore")
 
 USER = os.environ.get("USER")
-MODEL_PATH     = f"/home/{USER}/dissertation/models/qwen3vl-7b"
+MODEL_PATH     = f"/home/{USER}/dissertation/models/qwen25vl-7b"
 DATA_DIR       = f"/home/{USER}/dissertation/data/egoexo"
-BENCHMARK_PATH = f"/home/{USER}/dissertation/dissertation_v2/benchmark/benchmark_binary.json"
-RESULTS_PATH   = f"/home/{USER}/dissertation/dissertation_v2/results/qwen/binary_shuffled.csv"
+BENCHMARK_PATH = f"/home/{USER}/dissertation/repo/dissertation_v2/benchmark/benchmark_binary.json"
+RESULTS_PATH   = f"/home/{USER}/dissertation/repo/dissertation_v2/results/qwen/binary_shuffled.csv"
 
 USE_SAMPLING = False
 SHUFFLE_OPTIONS = True
 
 os.makedirs(os.path.dirname(RESULTS_PATH), exist_ok=True)
 
-print("Loading Qwen3-VL-7B ...")
+print("Loading Qwen2.5-VL-7B-Instruct ...")
 model = AutoModelForImageTextToText.from_pretrained(
     MODEL_PATH, torch_dtype=torch.float16, device_map="auto", low_cpu_mem_usage=True,
 )
