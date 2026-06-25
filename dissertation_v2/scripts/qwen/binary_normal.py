@@ -109,7 +109,7 @@ print(f"Total inferences: {len(benchmark) * 2}\n")
 
 with open(RESULTS_PATH, "w", newline="") as f:
     csv.writer(f).writerow([
-        "clip_id", "take_folder", "gt_binary", "gt_4class",
+        "clip_id", "take_folder", "gt_binary",
         "prompt", "exo_answer", "exo_correct", "ego_answer", "ego_correct",
     ])
 
@@ -123,7 +123,7 @@ for i, item in enumerate(benchmark):
     ego_path = os.path.join(DATA_DIR, item["video_path_ego"])
 
     print(f"[{i+1}/{len(benchmark)}] {item['take_folder']} (GT={gt})")
-    row = [item["clip_id"], item["take_folder"], gt, item["ground_truth_4class"], question]
+    row = [item["clip_id"], item["take_folder"], gt, question]
 
     for view, path in [("exo", exo_path), ("ego", ego_path)]:
         try:
