@@ -6,7 +6,7 @@ import json, os, csv, gc, warnings
 import torch
 import cv2
 from PIL import Image
-from transformers import AutoModelForImageTextToText, AutoProcessor
+from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
 
 warnings.filterwarnings("ignore")
 
@@ -24,7 +24,7 @@ SHUFFLE_OPTIONS = False        # fixed order: "Novice or Expert"
 os.makedirs(os.path.dirname(RESULTS_PATH), exist_ok=True)
 
 print("Loading Qwen2.5-VL-7B-Instruct ...")
-model = AutoModelForImageTextToText.from_pretrained(
+model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
     MODEL_PATH,
     torch_dtype=torch.float16,
     device_map="auto",

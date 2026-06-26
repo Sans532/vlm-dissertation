@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=bin_normal
+#SBATCH --job-name=bin_V_normal
 #SBATCH --partition=Teaching
 #SBATCH --gres=gpu:1
 #SBATCH --time=04:00:00
