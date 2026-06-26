@@ -1,0 +1,75 @@
+Fri Jun 26 22:57:57 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H200                    On  |   00000000:9B:00.0 Off |                   On |
+| N/A   51C    P0            284W /  700W |   10546MiB / 143771MiB |     N/A      Default |
+|                                         |                        |              Enabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| MIG devices:                                                                            |
++------------------+----------------------------------+-----------+-----------------------+
+| GPU  GI  CI  MIG |              Shared Memory-Usage |        Vol|        Shared         |
+|      ID  ID  Dev |                Shared BAR1-Usage | SM     Unc| CE ENC  DEC  OFA  JPG |
+|                  |                                  |        ECC|                       |
+|==================+==================================+===========+=======================|
+|  0    9   0   0  |              15MiB / 16384MiB    | 16      0 |  1   0    1    0    1 |
+|                  |               0MiB / 14809MiB    |           |                       |
++------------------+----------------------------------+-----------+-----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading Qwen2.5-VL-7B ...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:54<11:00:31, 54.44s/it]Loading weights:   0%|          | 2/729 [00:57<4:53:39, 24.24s/it] Loading weights:   7%|▋         | 54/729 [01:01<06:52,  1.64it/s] Loading weights:   9%|▉         | 64/729 [01:05<06:20,  1.75it/s]Loading weights:   9%|▉         | 65/729 [01:06<06:28,  1.71it/s]Loading weights:  10%|█         | 76/729 [01:11<06:02,  1.80it/s]Loading weights:  11%|█         | 77/729 [01:12<06:06,  1.78it/s]Loading weights:  11%|█         | 78/729 [01:13<06:19,  1.72it/s]Loading weights:  12%|█▏        | 88/729 [01:16<04:55,  2.17it/s]Loading weights:  12%|█▏        | 89/729 [01:18<06:06,  1.75it/s]Loading weights:  12%|█▏        | 90/729 [01:19<06:10,  1.72it/s]Loading weights:  14%|█▎        | 100/729 [01:23<05:04,  2.07it/s]Loading weights:  14%|█▍        | 102/729 [01:25<06:02,  1.73it/s]Loading weights:  15%|█▌        | 112/729 [01:30<05:12,  1.97it/s]Loading weights:  16%|█▌        | 113/729 [01:31<05:27,  1.88it/s]Loading weights:  17%|█▋        | 124/729 [01:36<05:08,  1.96it/s]Loading weights:  17%|█▋        | 125/729 [01:37<05:21,  1.88it/s]Loading weights:  17%|█▋        | 126/729 [01:38<05:32,  1.81it/s]Loading weights:  19%|█▊        | 136/729 [01:40<03:58,  2.49it/s]Loading weights:  19%|█▉        | 137/729 [01:43<05:23,  1.83it/s]Loading weights:  19%|█▉        | 138/729 [01:44<05:40,  1.74it/s]Loading weights:  20%|██        | 148/729 [01:47<04:25,  2.19it/s]Loading weights:  20%|██        | 149/729 [01:48<04:11,  2.30it/s]Loading weights:  21%|██        | 150/729 [01:50<05:55,  1.63it/s]Loading weights:  22%|██▏       | 160/729 [01:54<04:29,  2.11it/s]Loading weights:  22%|██▏       | 161/729 [01:54<04:35,  2.06it/s]Loading weights:  22%|██▏       | 162/729 [01:54<04:14,  2.23it/s]Loading weights:  24%|██▎       | 172/729 [02:01<05:18,  1.75it/s]Loading weights:  24%|██▎       | 173/729 [02:02<05:26,  1.70it/s]Loading weights:  24%|██▍       | 174/729 [02:02<05:26,  1.70it/s]Loading weights:  25%|██▌       | 184/729 [02:05<03:43,  2.44it/s]Loading weights:  25%|██▌       | 185/729 [02:07<05:05,  1.78it/s]Loading weights:  26%|██▌       | 186/729 [02:08<05:17,  1.71it/s]Loading weights:  27%|██▋       | 196/729 [02:12<03:56,  2.25it/s]Loading weights:  27%|██▋       | 198/729 [02:14<04:50,  1.83it/s]Loading weights:  29%|██▊       | 208/729 [02:18<03:55,  2.21it/s]Loading weights:  29%|██▊       | 209/729 [02:18<04:04,  2.13it/s]Loading weights:  30%|███       | 220/729 [02:24<03:59,  2.13it/s]Loading weights:  30%|███       | 221/729 [02:24<04:09,  2.03it/s]Loading weights:  30%|███       | 222/729 [02:25<04:17,  1.97it/s]Loading weights:  32%|███▏      | 232/729 [02:27<02:56,  2.82it/s]Loading weights:  32%|███▏      | 233/729 [02:30<04:27,  1.85it/s]Loading weights:  32%|███▏      | 234/729 [02:31<04:34,  1.80it/s]Loading weights:  33%|███▎      | 244/729 [02:34<03:24,  2.37it/s]Loading weights:  34%|███▎      | 245/729 [02:34<03:18,  2.43it/s]Loading weights:  34%|███▎      | 246/729 [02:37<04:54,  1.64it/s]Loading weights:  35%|███▌      | 256/729 [02:41<03:43,  2.12it/s]Loading weights:  35%|███▌      | 257/729 [02:41<03:36,  2.18it/s]Loading weights:  35%|███▌      | 258/729 [02:41<03:29,  2.25it/s]Loading weights:  37%|███▋      | 268/729 [02:46<03:38,  2.11it/s]Loading weights:  37%|███▋      | 269/729 [02:47<03:57,  1.93it/s]Loading weights:  37%|███▋      | 270/729 [02:48<03:47,  2.01it/s]Loading weights:  38%|███▊      | 280/729 [02:51<02:57,  2.53it/s]Loading weights:  39%|███▊      | 281/729 [02:53<03:57,  1.88it/s]Loading weights:  39%|███▊      | 282/729 [02:54<04:19,  1.72it/s]Loading weights:  40%|████      | 292/729 [02:57<03:08,  2.32it/s]Loading weights:  40%|████      | 293/729 [02:58<03:05,  2.36it/s]Loading weights:  40%|████      | 294/729 [03:00<04:16,  1.69it/s]Loading weights:  42%|████▏     | 304/729 [03:04<03:23,  2.09it/s]Loading weights:  42%|████▏     | 305/729 [03:04<03:16,  2.16it/s]Loading weights:  42%|████▏     | 306/729 [03:04<03:12,  2.20it/s]Loading weights:  43%|████▎     | 316/729 [03:09<03:18,  2.08it/s]Loading weights:  43%|████▎     | 317/729 [03:10<03:34,  1.92it/s]Loading weights:  44%|████▎     | 318/729 [03:11<03:25,  2.00it/s]Loading weights:  45%|████▍     | 328/729 [03:15<02:56,  2.27it/s]Loading weights:  45%|████▌     | 329/729 [03:16<03:41,  1.81it/s]Loading weights:  45%|████▌     | 330/729 [03:17<03:50,  1.73it/s]Loading weights:  52%|█████▏    | 379/729 [03:17<00:26, 13.26it/s]Loading weights:  53%|█████▎    | 389/729 [03:18<00:22, 15.17it/s]Loading weights:  54%|█████▍    | 397/729 [03:18<00:21, 15.58it/s]Loading weights:  55%|█████▌    | 403/729 [03:19<00:20, 15.81it/s]Loading weights:  56%|█████▌    | 410/729 [03:19<00:16, 19.03it/s]Loading weights:  57%|█████▋    | 416/729 [03:19<00:18, 17.37it/s]Loading weights:  58%|█████▊    | 425/729 [03:19<00:13, 22.33it/s]Loading weights:  59%|█████▉    | 430/729 [03:20<00:14, 20.11it/s]Loading weights:  60%|█████▉    | 434/729 [03:20<00:13, 21.67it/s]Loading weights:  60%|██████    | 439/729 [03:20<00:19, 14.51it/s]Loading weights:  61%|██████    | 443/729 [03:21<00:20, 13.95it/s]Loading weights:  62%|██████▏   | 449/729 [03:21<00:19, 14.12it/s]Loading weights:  62%|██████▏   | 452/729 [03:21<00:22, 12.56it/s]Loading weights:  63%|██████▎   | 461/729 [03:22<00:14, 18.79it/s]Loading weights:  64%|██████▎   | 464/729 [03:23<00:25, 10.35it/s]Loading weights:  64%|██████▍   | 467/729 [03:23<00:35,  7.38it/s]Loading weights:  64%|██████▍   | 469/729 [03:24<00:34,  7.48it/s]Loading weights:  65%|██████▌   | 475/729 [03:24<00:25,  9.79it/s]Loading weights:  66%|██████▌   | 479/729 [03:24<00:20, 12.34it/s]Loading weights:  67%|██████▋   | 487/729 [03:25<00:16, 14.58it/s]Loading weights:  68%|██████▊   | 493/729 [03:25<00:12, 18.87it/s]Loading weights:  68%|██████▊   | 499/729 [03:25<00:13, 16.82it/s]Loading weights:  70%|██████▉   | 509/729 [03:25<00:08, 25.44it/s]Loading weights:  71%|███████   | 514/729 [03:26<00:10, 21.31it/s]Loading weights:  71%|███████▏  | 521/729 [03:26<00:08, 25.49it/s]Loading weights:  72%|███████▏  | 525/729 [03:26<00:10, 20.02it/s]Loading weights:  73%|███████▎  | 529/729 [03:26<00:08, 22.55it/s]Loading weights:  73%|███████▎  | 535/729 [03:27<00:09, 19.85it/s]Loading weights:  74%|███████▍  | 541/729 [03:27<00:07, 25.01it/s]Loading weights:  75%|███████▌  | 547/729 [03:27<00:08, 20.57it/s]Loading weights:  76%|███████▋  | 557/729 [03:27<00:06, 28.58it/s]Loading weights:  77%|███████▋  | 561/729 [03:28<00:07, 22.28it/s]Loading weights:  78%|███████▊  | 565/729 [03:28<00:06, 24.42it/s]Loading weights:  78%|███████▊  | 571/729 [03:28<00:07, 20.20it/s]Loading weights:  80%|███████▉  | 581/729 [03:28<00:05, 28.48it/s]Loading weights:  80%|████████  | 585/729 [03:29<00:06, 22.82it/s]Loading weights:  81%|████████  | 589/729 [03:29<00:05, 24.60it/s]Loading weights:  82%|████████▏ | 595/729 [03:29<00:06, 20.23it/s]Loading weights:  82%|████████▏ | 601/729 [03:29<00:05, 25.38it/s]Loading weights:  83%|████████▎ | 607/729 [03:30<00:05, 21.53it/s]Loading weights:  85%|████████▍ | 617/729 [03:30<00:03, 29.41it/s]Loading weights:  85%|████████▌ | 621/729 [03:30<00:04, 22.38it/s]Loading weights:  86%|████████▌ | 625/729 [03:30<00:04, 24.72it/s]Loading weights:  87%|████████▋ | 631/729 [03:31<00:04, 20.04it/s]Loading weights:  88%|████████▊ | 641/729 [03:31<00:02, 29.77it/s]Loading weights:  89%|████████▊ | 646/729 [03:31<00:03, 23.18it/s]Loading weights:  90%|████████▉ | 653/729 [03:31<00:02, 27.66it/s]Loading weights:  90%|█████████ | 657/729 [03:32<00:03, 21.13it/s]Loading weights:  91%|█████████ | 665/729 [03:32<00:02, 26.84it/s]Loading weights:  92%|█████████▏| 669/729 [03:32<00:02, 22.13it/s]Loading weights:  92%|█████████▏| 673/729 [03:32<00:02, 23.00it/s]Loading weights:  93%|█████████▎| 679/729 [03:33<00:02, 20.48it/s]Loading weights:  94%|█████████▍| 685/729 [03:33<00:01, 25.95it/s]Loading weights:  95%|█████████▍| 691/729 [03:33<00:01, 20.84it/s]Loading weights:  96%|█████████▌| 701/729 [03:33<00:00, 28.57it/s]Loading weights:  97%|█████████▋| 705/729 [03:34<00:01, 21.75it/s]Loading weights:  97%|█████████▋| 709/729 [03:34<00:00, 23.95it/s]Loading weights:  98%|█████████▊| 715/729 [03:34<00:00, 20.69it/s]Loading weights: 100%|█████████▉| 726/729 [03:36<00:00,  9.33it/s]Loading weights: 100%|██████████| 729/729 [03:36<00:00,  3.37it/s]
+Some parameters are on the meta device because they were offloaded to the cpu.
+qwen-vl-utils using torchvision to read video.
+Model loaded.
+
+Testing 4 clips: 4 Novice + 0 Late Expert
+Using ACTUAL VIDEO input (not frame extraction)
+nframes=16
+
+Prompt: Is this person a Novice or a Late Expert at this activity? Answer only: Novice or Late Expert
+
+============================================================
+[1/10] uniandes_bouldering_027_56
+  GT: Novice
+  Raw answer: Novice
+  Predicted: Novice
+  CORRECT
+
+[2/10] uniandes_bouldering_029_59
+  GT: Novice
+  Raw answer: Novice
+  Predicted: Novice
+  CORRECT
+
+[3/10] uniandes_bouldering_022_32
+  GT: Novice
+  Raw answer: Novice
+  Predicted: Novice
+  CORRECT
+
+[4/10] uniandes_bouldering_027_52
+  GT: Novice
+  Raw answer: Novice
+  Predicted: Novice
+  CORRECT
+
+============================================================
+SUMMARY
+============================================================
+Novice correct:      4/5
+Late Expert correct: 0/5
+Total:               4/10
+============================================================

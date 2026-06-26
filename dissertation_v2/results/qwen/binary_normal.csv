@@ -1,51 +1,51 @@
-clip_id,take_folder,gt_binary,prompt,exo_answer,exo_correct,ego_answer,ego_correct
-97b78075-0a0c-4198-bc78-b08a2c92b0aa,uniandes_bouldering_027_56,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-6bdb5463-41a6-49fb-a8e0-d651f8832a39,uniandes_bouldering_023_13,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,ERROR,False,ERROR,False
-4401cdfe-a383-4116-b1ed-1783b2e0ae7e,uniandes_bouldering_036_4,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-25688508-2d52-4ceb-a949-5c64ffb1ce38,uniandes_bouldering_029_59,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-15c2eec6-ed88-464d-8917-80ec63c2902c,uniandes_bouldering_037_51,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-d49fcb33-6321-42fd-8fa6-9fdcbb66b72d,uniandes_bouldering_036_73,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-236fc074-73c1-415f-91cf-2c71cd12f3d6,uniandes_bouldering_022_32,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-43b17f97-4326-437f-b6f7-509fd782a69d,uniandes_bouldering_037_4,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-ee8e8ec3-9926-44bd-bcae-96248b2c5475,uniandes_bouldering_030_63,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-90d40eba-fb77-4014-b51b-675005365f66,uniandes_bouldering_027_52,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-74bc0655-0e3e-433f-b8f5-243764621fe5,uniandes_bouldering_030_25,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-631b6268-adf8-4206-86aa-20df608e2f3b,uniandes_bouldering_026_37,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-2d440a5d-6f5d-447f-b0d7-5227df11da5f,uniandes_bouldering_022_72,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-34a8ed66-16ea-4d2d-bd49-c33eeea9c4b9,uniandes_bouldering_036_21,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-c02c8e65-c00e-473d-82b9-7526fa471577,uniandes_bouldering_025_46,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-77f6641e-b713-4723-bafc-ca6b0b957c5e,uniandes_bouldering_036_17,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-3b27142e-6d1d-4613-8739-cae532c8e440,uniandes_bouldering_037_8,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-fea346bb-5937-411c-b642-32f473b26cf8,uniandes_bouldering_031_27,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,ERROR,False,ERROR,False
-43eeff11-629f-4746-b7f1-6d496c8fbd3f,uniandes_bouldering_026_43,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-3a0c05aa-abab-4e48-bb50-5b29cde365c4,uniandes_bouldering_022_71,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-434c1776-61b6-42cb-b101-5032260f1787,uniandes_bouldering_036_45,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-7ddc0933-b409-4c1d-96e6-0ecce0d68d9a,uniandes_bouldering_026_22,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-2b9e580e-d997-426d-97b7-7fbf63fd7953,uniandes_bouldering_026_63,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-f7609225-dad3-4d85-8738-caab9145a431,uniandes_bouldering_022_67,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-9d4d860c-72b1-4e97-9241-d23e3a3cd476,uniandes_bouldering_022_47,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-e873883e-460c-403a-bd08-3cd1e9c69bc3,uniandes_bouldering_022_31,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-f045b6e4-b1b3-4371-82a1-e6a08ce22a4c,uniandes_bouldering_027_25,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-b5538972-28e2-44d6-90e2-ed90c2ef646a,uniandes_bouldering_033_44,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-0dd25528-6c32-4fbf-9486-b3cf2da57044,uniandes_bouldering_026_38,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-efe3c403-3719-4276-b1b1-0492f93a8397,uniandes_bouldering_023_44,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-0efe83c1-673a-4224-b96d-0b57a67f92fb,uniandes_bouldering_027_23,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-4c052cb2-fd49-4601-a842-7eb09f24e76c,uniandes_bouldering_030_62,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-1a8c5423-d0bd-4127-80ae-73c50e13a2d2,uniandes_bouldering_026_109,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-6d258ba3-363e-4a40-b739-2b1b6e13fa8a,uniandes_bouldering_030_8,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-cede137d-10ac-40c6-b696-07b3c72f2071,uniandes_bouldering_026_102,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-74a4d595-cc2e-4c3b-a83f-e7e7a364d463,uniandes_bouldering_036_35,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-4210c02d-1555-44d9-bd3c-a3a7069c09fc,uniandes_bouldering_029_89,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-5d486d41-7b7b-427a-b204-21308ce879d7,uniandes_bouldering_027_50,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-0592f9f4-6db3-46ff-b969-a330ad2a233c,uniandes_bouldering_027_59,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-9f596c0c-2beb-45c9-a484-a21af02018d9,uniandes_bouldering_036_49,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-9f7cd016-662c-4f3a-9fb5-9bc41a5b87bb,uniandes_bouldering_036_14,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-41fd1849-a1e5-4e6a-bea7-466cbf7d7819,uniandes_bouldering_027_27,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-4f9adb11-6c34-4b76-ba70-19c6ad3a6156,uniandes_bouldering_030_28,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-b36d3912-538f-423f-9c79-82abc183a50b,uniandes_bouldering_037_20,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-26191a7e-dece-46ce-ba75-d1f3dcc9d604,uniandes_bouldering_037_56,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-a698521a-4384-4829-bda1-5a29bb3782f1,uniandes_bouldering_037_55,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-75286d45-1251-421a-90cb-3f0212443244,uniandes_bouldering_036_8,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
-91049560-0506-479a-b216-fa6086dd3e11,uniandes_bouldering_029_58,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-00f50674-1f3c-4847-ab4a-fa2f0f113987,uniandes_bouldering_022_33,Novice,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,True,Novice,True
-d8d2b81e-19a4-453e-aea9-6dccee022f4e,uniandes_bouldering_031_47,Expert,Is this person an expert or a novice at this activity? Answer only: Expert or Novice,Novice,False,Novice,False
+clip_id,take_folder,gt_binary,binary_exo_answer,binary_exo_correct,binary_ego_answer,binary_ego_correct
+97b78075-0a0c-4198-bc78-b08a2c92b0aa,uniandes_bouldering_027_56,Novice,Novice,True,Novice,True
+6bdb5463-41a6-49fb-a8e0-d651f8832a39,uniandes_bouldering_023_13,Expert,ERROR,False,ERROR,False
+4401cdfe-a383-4116-b1ed-1783b2e0ae7e,uniandes_bouldering_036_4,Expert,Novice,False,Novice,False
+25688508-2d52-4ceb-a949-5c64ffb1ce38,uniandes_bouldering_029_59,Novice,Novice,True,Novice,True
+15c2eec6-ed88-464d-8917-80ec63c2902c,uniandes_bouldering_037_51,Expert,Novice,False,Novice,False
+d49fcb33-6321-42fd-8fa6-9fdcbb66b72d,uniandes_bouldering_036_73,Expert,Novice,False,Novice,False
+236fc074-73c1-415f-91cf-2c71cd12f3d6,uniandes_bouldering_022_32,Novice,Novice,True,Novice,True
+43b17f97-4326-437f-b6f7-509fd782a69d,uniandes_bouldering_037_4,Expert,Novice,False,Novice,False
+ee8e8ec3-9926-44bd-bcae-96248b2c5475,uniandes_bouldering_030_63,Expert,Novice,False,Novice,False
+90d40eba-fb77-4014-b51b-675005365f66,uniandes_bouldering_027_52,Novice,Novice,True,Novice,True
+74bc0655-0e3e-433f-b8f5-243764621fe5,uniandes_bouldering_030_25,Expert,Novice,False,Novice,False
+631b6268-adf8-4206-86aa-20df608e2f3b,uniandes_bouldering_026_37,Novice,Novice,True,Novice,True
+2d440a5d-6f5d-447f-b0d7-5227df11da5f,uniandes_bouldering_022_72,Novice,Novice,True,Novice,True
+34a8ed66-16ea-4d2d-bd49-c33eeea9c4b9,uniandes_bouldering_036_21,Expert,Novice,False,Novice,False
+c02c8e65-c00e-473d-82b9-7526fa471577,uniandes_bouldering_025_46,Novice,Novice,True,Novice,True
+77f6641e-b713-4723-bafc-ca6b0b957c5e,uniandes_bouldering_036_17,Expert,Novice,False,Novice,False
+3b27142e-6d1d-4613-8739-cae532c8e440,uniandes_bouldering_037_8,Expert,Novice,False,Novice,False
+fea346bb-5937-411c-b642-32f473b26cf8,uniandes_bouldering_031_27,Expert,ERROR,False,ERROR,False
+43eeff11-629f-4746-b7f1-6d496c8fbd3f,uniandes_bouldering_026_43,Novice,Novice,True,Novice,True
+3a0c05aa-abab-4e48-bb50-5b29cde365c4,uniandes_bouldering_022_71,Novice,Novice,True,Novice,True
+434c1776-61b6-42cb-b101-5032260f1787,uniandes_bouldering_036_45,Expert,Novice,False,Novice,False
+7ddc0933-b409-4c1d-96e6-0ecce0d68d9a,uniandes_bouldering_026_22,Novice,Novice,True,Novice,True
+2b9e580e-d997-426d-97b7-7fbf63fd7953,uniandes_bouldering_026_63,Novice,Novice,True,Novice,True
+f7609225-dad3-4d85-8738-caab9145a431,uniandes_bouldering_022_67,Expert,Novice,False,Novice,False
+9d4d860c-72b1-4e97-9241-d23e3a3cd476,uniandes_bouldering_022_47,Novice,Novice,True,Novice,True
+e873883e-460c-403a-bd08-3cd1e9c69bc3,uniandes_bouldering_022_31,Novice,Novice,True,Novice,True
+f045b6e4-b1b3-4371-82a1-e6a08ce22a4c,uniandes_bouldering_027_25,Novice,Novice,True,Novice,True
+b5538972-28e2-44d6-90e2-ed90c2ef646a,uniandes_bouldering_033_44,Expert,Novice,False,Novice,False
+0dd25528-6c32-4fbf-9486-b3cf2da57044,uniandes_bouldering_026_38,Novice,Novice,True,Novice,True
+efe3c403-3719-4276-b1b1-0492f93a8397,uniandes_bouldering_023_44,Novice,Novice,True,Novice,True
+0efe83c1-673a-4224-b96d-0b57a67f92fb,uniandes_bouldering_027_23,Novice,Novice,True,Novice,True
+4c052cb2-fd49-4601-a842-7eb09f24e76c,uniandes_bouldering_030_62,Expert,Novice,False,Novice,False
+1a8c5423-d0bd-4127-80ae-73c50e13a2d2,uniandes_bouldering_026_109,Novice,Novice,True,Novice,True
+6d258ba3-363e-4a40-b739-2b1b6e13fa8a,uniandes_bouldering_030_8,Expert,Novice,False,Novice,False
+cede137d-10ac-40c6-b696-07b3c72f2071,uniandes_bouldering_026_102,Novice,Novice,True,Novice,True
+74a4d595-cc2e-4c3b-a83f-e7e7a364d463,uniandes_bouldering_036_35,Expert,Novice,False,Novice,False
+4210c02d-1555-44d9-bd3c-a3a7069c09fc,uniandes_bouldering_029_89,Novice,Novice,True,Novice,True
+5d486d41-7b7b-427a-b204-21308ce879d7,uniandes_bouldering_027_50,Novice,Novice,True,Novice,True
+0592f9f4-6db3-46ff-b969-a330ad2a233c,uniandes_bouldering_027_59,Novice,Novice,True,Novice,True
+9f596c0c-2beb-45c9-a484-a21af02018d9,uniandes_bouldering_036_49,Expert,Novice,False,Novice,False
+9f7cd016-662c-4f3a-9fb5-9bc41a5b87bb,uniandes_bouldering_036_14,Expert,Novice,False,Novice,False
+41fd1849-a1e5-4e6a-bea7-466cbf7d7819,uniandes_bouldering_027_27,Novice,Novice,True,Novice,True
+4f9adb11-6c34-4b76-ba70-19c6ad3a6156,uniandes_bouldering_030_28,Expert,Novice,False,Novice,False
+b36d3912-538f-423f-9c79-82abc183a50b,uniandes_bouldering_037_20,Expert,Novice,False,Novice,False
+26191a7e-dece-46ce-ba75-d1f3dcc9d604,uniandes_bouldering_037_56,Expert,Novice,False,Novice,False
+a698521a-4384-4829-bda1-5a29bb3782f1,uniandes_bouldering_037_55,Expert,Novice,False,Novice,False
+75286d45-1251-421a-90cb-3f0212443244,uniandes_bouldering_036_8,Expert,Novice,False,Novice,False
+91049560-0506-479a-b216-fa6086dd3e11,uniandes_bouldering_029_58,Novice,Novice,True,Novice,True
+00f50674-1f3c-4847-ab4a-fa2f0f113987,uniandes_bouldering_022_33,Novice,Novice,True,Novice,True
+d8d2b81e-19a4-453e-aea9-6dccee022f4e,uniandes_bouldering_031_47,Expert,Novice,False,Novice,False
