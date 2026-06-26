@@ -1,8 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=bin_Q_normal
 #SBATCH --partition=Teaching
-#SBATCH --gres=gpu:h200_3g.71gb:1
-#SBATCH --nodelist=saxa
+#SBATCH --gres=gpu:1
 #SBATCH --mem=60G
 #SBATCH --time=04:00:00
 #SBATCH --cpus-per-task=4

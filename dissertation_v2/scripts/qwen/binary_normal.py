@@ -1,5 +1,5 @@
 """
-Qwen3-VL binary skill assessment — greedy decoding, fixed prompt order.
+Qwen2.5-VL binary skill assessment — greedy decoding, fixed prompt order.
 Writes one CSV row per clip with exo/ego answers + correctness.
 """
 import json, os, csv, gc, warnings
@@ -54,7 +54,7 @@ def get_video_frames(video_path, num_frames=8):
 
 def make_binary_prompt(_seed):
     # Fixed canonical order
-    return "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
+    return "Is this person an expert or a novice at this activity? Answer only: Expert or Novice"
 
 
 def ask_qwen(video_path, question):
