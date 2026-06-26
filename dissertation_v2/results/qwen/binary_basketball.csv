@@ -1,0 +1,51 @@
+clip_id,take_folder,gt_binary,prompt,exo_answer,exo_correct,ego_answer,ego_correct
+e08db0a4-e257-46e0-8880-640415b05976,unc_basketball_03-31-23_01_19,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+eec66a33-ddbf-4eac-9024-fddc99ef5fdd,unc_basketball_03-30-23_02_28,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+4936bc54-2dd9-49fd-9fc4-a25fc8f765e6,unc_basketball_03-30-23_02_21,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+d870a86a-386d-43bd-9292-e1784d9de9cb,sfu_basketball_06_12,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,True,Novice,True
+36eca438-8614-4f16-a3da-9bd058e009e9,sfu_basketball_05_4,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,ERROR,False,ERROR,False
+d7b4b35f-715d-40bd-a163-03ec0ab6638f,sfu_basketball_02_2,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+e1534767-59d1-4a1f-9d21-49c1614d1407,sfu_basketball_03_74,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,ERROR,False,ERROR,False
+db851fae-643c-46f5-97ec-10dc31127efe,unc_basketball_03-31-23_02_39,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+ff6785b7-a18b-4fc6-8a4a-9aeca6536c37,sfu_basketball_05_10,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,ERROR,False,ERROR,False
+2fbd4068-86e0-4893-b9c6-10c88fa8275c,uniandes_basketball_004_41,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,True,Novice,True
+2de0896b-df6d-4687-bbff-f700d675e385,unc_basketball_03-31-23_02_29,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+aa5f66da-4e3b-47ef-b058-8d5c591a84d7,unc_basketball_03-30-23_01_51,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+e15c972f-3fb0-477d-986f-289d44b6b194,sfu_basketball_05_12,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,ERROR,False,ERROR,False
+e9d6c233-3f56-4268-bce6-95c3ad19c77c,sfu_basketball012_6,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,True,Novice,True
+bd409a14-0392-447c-87ce-e7d44d0cf3c8,unc_basketball_03-31-23_01_44,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+975b64c9-60e8-426e-9d55-2323a2505b12,unc_basketball_03-31-23_01_41,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+d96a9ed2-d427-4d5e-894b-4d28a8350b69,sfu_basketball_09_34,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,True,Novice,True
+819780c3-97c0-4ac6-b37f-8c66abf8167d,sfu_basketball_08_12,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,ERROR,False,ERROR,False
+9512a137-40b6-49c6-a03d-a3340b9dd277,sfu_basketball_09_20,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,ERROR,False,ERROR,False
+4f8aee02-4e1c-4480-8aed-a83238e9eec1,sfu_basketball_05_38,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,ERROR,False,ERROR,False
+0fcfb9c4-9e44-4ff1-9317-26dfee5ae4b0,sfu_basketball_07_20,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,ERROR,False,ERROR,False
+80e3f935-b9f6-49cc-83b1-f5cff4761496,sfu_basketball_06_20,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,True,Novice,True
+60074d58-586f-4da8-b2c5-426c58c5c060,unc_basketball_03-30-23_02_7,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+c2374b84-5d13-4bcb-a320-b375851245e4,unc_basketball_03-31-23_02_4,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+5fa3622d-244f-4903-96fc-4f56f10bffa5,sfu_basketball_07_22,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,ERROR,False,ERROR,False
+a658af3b-bf0c-4c19-981e-0b4c512edc33,sfu_basketball014_20,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,ERROR,False,ERROR,False
+c0ffb507-9289-441d-9e5e-843ced1e3ce2,sfu_basketball_03_22,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,ERROR,False,ERROR,False
+4a86b622-2f64-4901-8fad-b1041b42b268,unc_basketball_03-30-23_02_36,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+cc808903-3102-4b15-a4a0-204f1379cdb3,sfu_basketball015_20,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,True,Novice,True
+edbed6eb-4ecc-4cdd-9447-e369eacfc9cc,unc_basketball_03-30-23_02_25,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+655b89a8-9725-4756-9fc0-db01a580d88a,unc_basketball_03-31-23_02_38,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+fe828226-1884-4b47-845f-a4e04cafcb2b,sfu_basketball_06_24,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,True,Novice,True
+ced0e340-b958-4505-badc-c8c2f256c145,sfu_basketball_09_6,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,ERROR,False,ERROR,False
+a3703011-35b9-4b70-964a-427e05e79a6f,sfu_basketball012_4,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,True,Novice,True
+98895ed3-7fc5-4dc0-ae9b-d808971e9334,sfu_basketball_01_22,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+f4fdaa1a-3bd6-45a7-9d59-f4ba1457d29a,sfu_basketball_08_50,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,True,Novice,True
+beb755b3-23ae-42d6-a3bd-f87e1838cdff,sfu_basketball015_18,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,ERROR,False,ERROR,False
+abeb24e8-1811-4f52-b0c1-99c540d42c92,sfu_basketball_09_22,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,True,Novice,True
+a04197d5-788c-41fe-a0a9-2ecc987df4d5,sfu_basketball014_18,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,True,Novice,True
+1b9cb258-fd05-40d9-964e-7a096a85540a,unc_basketball_03-30-23_02_19,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+aab43780-401b-4673-b2c2-fc3521e98bea,unc_basketball_03-31-23_01_43,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+b2f14b2c-292c-46ce-a4b4-95258dcf6154,sfu_basketball012_12,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,True,Novice,True
+9de15300-fbcb-4838-be91-6b646be2646e,sfu_basketball_01_8,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+6390eb50-4600-4789-8d00-a0ea4520c017,sfu_basketball_11_16,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,ERROR,False,ERROR,False
+efbe1b95-0139-4e81-9e93-6ed4cbccc353,unc_basketball_03-30-23_01_15,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+52932faa-48d3-4a4b-ab12-14c00bf2ae51,sfu_basketball_08_30,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,ERROR,False,ERROR,False
+65ccae71-c7d1-4168-aef5-4cc8db12ef3f,sfu_basketball_03_12,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+712a77c1-6a02-4bfd-bbdb-06fa8b1e8b1e,uniandes_basketball_001_31,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+c1a7968a-cecc-452b-8014-6ac17288159d,unc_basketball_03-31-23_02_15,Late Expert,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,Novice,False,Novice,False
+4939903a-2c73-4633-ae15-618be39990e7,sfu_basketball_08_10,Novice,Is this person a novice or an expert at this activity? Answer only: Novice or Expert,ERROR,False,ERROR,False

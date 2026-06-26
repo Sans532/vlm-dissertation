@@ -1,0 +1,226 @@
+Fri Jun 26 15:13:57 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H200                    On  |   00000000:4C:00.0 Off |                   On |
+| N/A   57C    P0            473W /  700W |   47316MiB / 143771MiB |     N/A      Default |
+|                                         |                        |              Enabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| MIG devices:                                                                            |
++------------------+----------------------------------+-----------+-----------------------+
+| GPU  GI  CI  MIG |              Shared Memory-Usage |        Vol|        Shared         |
+|      ID  ID  Dev |                Shared BAR1-Usage | SM     Unc| CE ENC  DEC  OFA  JPG |
+|                  |                                  |        ECC|                       |
+|==================+==================================+===========+=======================|
+|  0    2   0   0  |              44MiB / 71424MiB    | 60      0 |  3   0    3    0    3 |
+|                  |               0MiB / 59237MiB    |           |                       |
++------------------+----------------------------------+-----------+-----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading Qwen2.5-VL-7B-Instruct ...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:56<11:20:11, 56.06s/it]Loading weights:   0%|          | 2/729 [00:58<4:59:51, 24.75s/it] Loading weights:   7%|▋         | 52/729 [01:01<06:58,  1.62it/s] Loading weights:   7%|▋         | 54/729 [01:03<07:25,  1.52it/s]Loading weights:   9%|▉         | 64/729 [01:08<06:50,  1.62it/s]Loading weights:   9%|▉         | 65/729 [01:09<06:38,  1.67it/s]Loading weights:   9%|▉         | 66/729 [01:09<06:40,  1.66it/s]Loading weights:  10%|█         | 76/729 [01:16<06:45,  1.61it/s]Loading weights:  11%|█         | 77/729 [01:17<06:51,  1.58it/s]Loading weights:  11%|█         | 78/729 [01:17<06:27,  1.68it/s]Loading weights:  12%|█▏        | 88/729 [01:21<05:41,  1.87it/s]Loading weights:  12%|█▏        | 89/729 [01:23<06:44,  1.58it/s]Loading weights:  12%|█▏        | 90/729 [01:24<06:50,  1.55it/s]Loading weights:  14%|█▎        | 100/729 [01:29<05:36,  1.87it/s]Loading weights:  14%|█▍        | 101/729 [01:29<05:44,  1.82it/s]Loading weights:  14%|█▍        | 102/729 [01:31<07:12,  1.45it/s]Loading weights:  15%|█▌        | 112/729 [01:38<06:44,  1.53it/s]Loading weights:  16%|█▌        | 113/729 [01:38<06:22,  1.61it/s]Loading weights:  16%|█▌        | 114/729 [01:39<06:34,  1.56it/s]Loading weights:  17%|█▋        | 124/729 [01:45<06:15,  1.61it/s]Loading weights:  17%|█▋        | 125/729 [01:46<06:24,  1.57it/s]Loading weights:  17%|█▋        | 126/729 [01:46<05:53,  1.70it/s]Loading weights:  19%|█▊        | 136/729 [01:50<04:53,  2.02it/s]Loading weights:  19%|█▉        | 137/729 [01:52<06:11,  1.59it/s]Loading weights:  19%|█▉        | 138/729 [01:53<06:12,  1.59it/s]Loading weights:  20%|██        | 148/729 [01:58<05:08,  1.89it/s]Loading weights:  20%|██        | 149/729 [01:58<04:57,  1.95it/s]Loading weights:  21%|██        | 150/729 [02:01<07:31,  1.28it/s]Loading weights:  22%|██▏       | 160/729 [02:05<05:28,  1.73it/s]Loading weights:  22%|██▏       | 161/729 [02:06<05:38,  1.68it/s]Loading weights:  22%|██▏       | 162/729 [02:06<05:13,  1.81it/s]Loading weights:  24%|██▎       | 172/729 [02:11<04:52,  1.91it/s]Loading weights:  24%|██▎       | 173/729 [02:12<04:50,  1.91it/s]Loading weights:  24%|██▍       | 174/729 [02:13<05:16,  1.75it/s]Loading weights:  25%|██▌       | 184/729 [02:16<04:01,  2.26it/s]Loading weights:  25%|██▌       | 185/729 [02:19<05:44,  1.58it/s]Loading weights:  26%|██▌       | 186/729 [02:20<05:46,  1.57it/s]Loading weights:  27%|██▋       | 196/729 [02:25<04:46,  1.86it/s]Loading weights:  27%|██▋       | 198/729 [02:28<05:54,  1.50it/s]Loading weights:  29%|██▊       | 208/729 [02:31<04:28,  1.94it/s]Loading weights:  29%|██▊       | 209/729 [02:32<04:50,  1.79it/s]Loading weights:  30%|███       | 220/729 [02:38<04:35,  1.85it/s]Loading weights:  30%|███       | 221/729 [02:38<04:27,  1.90it/s]Loading weights:  30%|███       | 222/729 [02:40<04:57,  1.70it/s]Loading weights:  32%|███▏      | 232/729 [02:42<03:16,  2.53it/s]Loading weights:  32%|███▏      | 233/729 [02:46<05:04,  1.63it/s]Loading weights:  33%|███▎      | 244/729 [02:49<03:51,  2.10it/s]Loading weights:  34%|███▎      | 245/729 [02:50<03:47,  2.13it/s]Loading weights:  34%|███▎      | 246/729 [02:53<05:22,  1.50it/s]Loading weights:  35%|███▌      | 256/729 [02:56<03:49,  2.06it/s]Loading weights:  35%|███▌      | 257/729 [02:57<03:55,  2.00it/s]Loading weights:  35%|███▌      | 258/729 [02:57<03:51,  2.03it/s]Loading weights:  37%|███▋      | 268/729 [03:03<04:12,  1.82it/s]Loading weights:  37%|███▋      | 269/729 [03:03<04:00,  1.91it/s]Loading weights:  37%|███▋      | 270/729 [03:04<04:01,  1.90it/s]Loading weights:  38%|███▊      | 280/729 [03:07<03:12,  2.34it/s]Loading weights:  39%|███▊      | 281/729 [03:10<04:46,  1.56it/s]Loading weights:  39%|███▊      | 282/729 [03:11<04:32,  1.64it/s]Loading weights:  40%|████      | 292/729 [03:15<03:28,  2.10it/s]Loading weights:  40%|████      | 293/729 [03:15<03:30,  2.07it/s]Loading weights:  40%|████      | 294/729 [03:18<05:23,  1.35it/s]Loading weights:  42%|████▏     | 304/729 [03:22<03:43,  1.90it/s]Loading weights:  42%|████▏     | 305/729 [03:23<03:42,  1.91it/s]Loading weights:  42%|████▏     | 306/729 [03:23<03:41,  1.91it/s]Loading weights:  43%|████▎     | 316/729 [03:30<04:11,  1.64it/s]Loading weights:  43%|████▎     | 317/729 [03:30<04:00,  1.71it/s]Loading weights:  44%|████▎     | 318/729 [03:31<03:57,  1.73it/s]Loading weights:  45%|████▍     | 328/729 [03:34<03:02,  2.19it/s]Loading weights:  45%|████▌     | 329/729 [03:37<04:12,  1.58it/s]Loading weights:  45%|████▌     | 330/729 [03:37<03:53,  1.71it/s]Loading weights:  52%|█████▏    | 379/729 [03:38<00:28, 12.22it/s]Loading weights:  53%|█████▎    | 389/729 [03:38<00:23, 14.51it/s]Loading weights:  54%|█████▍    | 393/729 [03:38<00:24, 13.92it/s]Loading weights:  54%|█████▍    | 397/729 [03:38<00:21, 15.09it/s]Loading weights:  55%|█████▌    | 403/729 [03:39<00:21, 15.22it/s]Loading weights:  56%|█████▌    | 409/729 [03:39<00:18, 17.71it/s]Loading weights:  57%|█████▋    | 415/729 [03:39<00:18, 16.71it/s]Loading weights:  58%|█████▊    | 425/729 [03:39<00:14, 21.64it/s]Loading weights:  59%|█████▉    | 429/729 [03:40<00:15, 18.86it/s]Loading weights:  59%|█████▉    | 433/729 [03:40<00:14, 20.10it/s]Loading weights:  60%|██████    | 439/729 [03:40<00:15, 18.65it/s]Loading weights:  61%|██████    | 445/729 [03:40<00:12, 22.20it/s]Loading weights:  62%|██████▏   | 451/729 [03:41<00:14, 19.11it/s]Loading weights:  63%|██████▎   | 461/729 [03:41<00:10, 26.33it/s]Loading weights:  64%|██████▍   | 465/729 [03:42<00:13, 19.48it/s]Loading weights:  65%|██████▍   | 473/729 [03:42<00:10, 24.96it/s]Loading weights:  65%|██████▌   | 477/729 [03:42<00:12, 19.85it/s]Loading weights:  66%|██████▌   | 481/729 [03:42<00:11, 21.84it/s]Loading weights:  67%|██████▋   | 487/729 [03:43<00:12, 18.64it/s]Loading weights:  68%|██████▊   | 497/729 [03:43<00:08, 27.39it/s]Loading weights:  69%|██████▊   | 501/729 [03:43<00:11, 19.62it/s]Loading weights:  70%|██████▉   | 509/729 [03:43<00:08, 25.68it/s]Loading weights:  70%|███████   | 513/729 [03:44<00:10, 19.82it/s]Loading weights:  71%|███████   | 517/729 [03:44<00:09, 21.67it/s]Loading weights:  72%|███████▏  | 523/729 [03:44<00:11, 18.67it/s]Loading weights:  73%|███████▎  | 533/729 [03:44<00:06, 28.12it/s]Loading weights:  74%|███████▍  | 538/729 [03:45<00:08, 21.73it/s]Loading weights:  75%|███████▍  | 545/729 [03:45<00:07, 24.94it/s]Loading weights:  75%|███████▌  | 549/729 [03:45<00:09, 19.16it/s]Loading weights:  76%|███████▌  | 553/729 [03:45<00:08, 21.31it/s]Loading weights:  77%|███████▋  | 559/729 [03:46<00:09, 18.67it/s]Loading weights:  78%|███████▊  | 569/729 [03:46<00:05, 27.69it/s]Loading weights:  79%|███████▊  | 573/729 [03:46<00:07, 19.51it/s]Loading weights:  80%|███████▉  | 581/729 [03:47<00:06, 24.35it/s]Loading weights:  80%|████████  | 585/729 [03:47<00:07, 19.81it/s]Loading weights:  81%|████████  | 589/729 [03:47<00:06, 21.01it/s]Loading weights:  82%|████████▏ | 595/729 [03:48<00:07, 18.25it/s]Loading weights:  83%|████████▎ | 605/729 [03:48<00:04, 27.64it/s]Loading weights:  84%|████████▎ | 610/729 [03:48<00:05, 21.32it/s]Loading weights:  85%|████████▍ | 617/729 [03:48<00:04, 24.70it/s]Loading weights:  85%|████████▌ | 621/729 [03:49<00:05, 18.43it/s]Loading weights:  86%|████████▌ | 625/729 [03:49<00:05, 20.40it/s]Loading weights:  87%|████████▋ | 631/729 [03:49<00:05, 16.80it/s]Loading weights:  88%|████████▊ | 641/729 [03:49<00:03, 24.07it/s]Loading weights:  88%|████████▊ | 645/729 [03:50<00:04, 18.29it/s]Loading weights:  90%|████████▉ | 653/729 [03:50<00:03, 23.34it/s]Loading weights:  90%|█████████ | 657/729 [03:50<00:03, 18.12it/s]Loading weights:  91%|█████████ | 661/729 [03:51<00:03, 20.18it/s]Loading weights:  91%|█████████▏| 667/729 [03:51<00:03, 17.90it/s]Loading weights:  92%|█████████▏| 673/729 [03:51<00:02, 22.94it/s]Loading weights:  93%|█████████▎| 679/729 [03:52<00:02, 18.43it/s]Loading weights:  94%|█████████▍| 685/729 [03:52<00:01, 23.10it/s]Loading weights:  95%|█████████▍| 691/729 [03:52<00:02, 18.72it/s]Loading weights:  96%|█████████▌| 701/729 [03:52<00:01, 26.56it/s]Loading weights:  97%|█████████▋| 705/729 [03:53<00:01, 20.63it/s]Loading weights:  97%|█████████▋| 709/729 [03:53<00:00, 22.91it/s]Loading weights:  98%|█████████▊| 715/729 [03:53<00:00, 19.57it/s]Loading weights: 100%|█████████▉| 726/729 [03:55<00:00,  8.66it/s]Loading weights: 100%|██████████| 729/729 [03:55<00:00,  3.09it/s]
+Model loaded.
+
+Clips: 50   sampling=False   shuffle=False
+Total inferences: 100
+
+[1/50] unc_basketball_03-31-23_01_19 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[2/50] unc_basketball_03-30-23_02_28 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[3/50] unc_basketball_03-30-23_02_21 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[4/50] sfu_basketball_06_12 (GT=Novice)
+  exo: OK Novice
+  ego: OK Novice
+[5/50] sfu_basketball_05_4 (GT=Novice)
+  exo ERROR: Could not extract frames
+  exo: X  ERROR
+  ego ERROR: Could not extract frames
+  ego: X  ERROR
+[6/50] sfu_basketball_02_2 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[7/50] sfu_basketball_03_74 (GT=Late Expert)
+  exo ERROR: Could not extract frames
+  exo: X  ERROR
+  ego ERROR: Could not extract frames
+  ego: X  ERROR
+[8/50] unc_basketball_03-31-23_02_39 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[9/50] sfu_basketball_05_10 (GT=Novice)
+  exo ERROR: Could not extract frames
+  exo: X  ERROR
+  ego ERROR: Could not extract frames
+  ego: X  ERROR
+[10/50] uniandes_basketball_004_41 (GT=Novice)
+  exo: OK Novice
+  ego: OK Novice
+[11/50] unc_basketball_03-31-23_02_29 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[12/50] unc_basketball_03-30-23_01_51 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[13/50] sfu_basketball_05_12 (GT=Novice)
+  exo ERROR: Could not extract frames
+  exo: X  ERROR
+  ego ERROR: Could not extract frames
+  ego: X  ERROR
+[14/50] sfu_basketball012_6 (GT=Novice)
+  exo: OK Novice
+  ego: OK Novice
+[15/50] unc_basketball_03-31-23_01_44 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[16/50] unc_basketball_03-31-23_01_41 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[17/50] sfu_basketball_09_34 (GT=Novice)
+  exo: OK Novice
+  ego: OK Novice
+[18/50] sfu_basketball_08_12 (GT=Novice)
+  exo ERROR: Could not extract frames
+  exo: X  ERROR
+  ego ERROR: Could not extract frames
+  ego: X  ERROR
+[19/50] sfu_basketball_09_20 (GT=Novice)
+  exo ERROR: Could not extract frames
+  exo: X  ERROR
+  ego ERROR: Could not extract frames
+  ego: X  ERROR
+[20/50] sfu_basketball_05_38 (GT=Novice)
+  exo ERROR: Could not extract frames
+  exo: X  ERROR
+  ego ERROR: Could not extract frames
+  ego: X  ERROR
+[21/50] sfu_basketball_07_20 (GT=Novice)
+  exo ERROR: Could not extract frames
+  exo: X  ERROR
+  ego ERROR: Could not extract frames
+  ego: X  ERROR
+[22/50] sfu_basketball_06_20 (GT=Novice)
+  exo: OK Novice
+  ego: OK Novice
+[23/50] unc_basketball_03-30-23_02_7 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[24/50] unc_basketball_03-31-23_02_4 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[25/50] sfu_basketball_07_22 (GT=Novice)
+  exo ERROR: Could not extract frames
+  exo: X  ERROR
+  ego ERROR: Could not extract frames
+  ego: X  ERROR
+[26/50] sfu_basketball014_20 (GT=Novice)
+  exo ERROR: Could not extract frames
+  exo: X  ERROR
+  ego ERROR: Could not extract frames
+  ego: X  ERROR
+[27/50] sfu_basketball_03_22 (GT=Late Expert)
+  exo ERROR: Could not extract frames
+  exo: X  ERROR
+  ego ERROR: Could not extract frames
+  ego: X  ERROR
+[28/50] unc_basketball_03-30-23_02_36 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[29/50] sfu_basketball015_20 (GT=Novice)
+  exo: OK Novice
+  ego: OK Novice
+[30/50] unc_basketball_03-30-23_02_25 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[31/50] unc_basketball_03-31-23_02_38 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[32/50] sfu_basketball_06_24 (GT=Novice)
+  exo: OK Novice
+  ego: OK Novice
+[33/50] sfu_basketball_09_6 (GT=Novice)
+  exo ERROR: Could not extract frames
+  exo: X  ERROR
+  ego ERROR: Could not extract frames
+  ego: X  ERROR
+[34/50] sfu_basketball012_4 (GT=Novice)
+  exo: OK Novice
+  ego: OK Novice
+[35/50] sfu_basketball_01_22 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[36/50] sfu_basketball_08_50 (GT=Novice)
+  exo: OK Novice
+  ego: OK Novice
+[37/50] sfu_basketball015_18 (GT=Novice)
+  exo ERROR: Could not extract frames
+  exo: X  ERROR
+  ego ERROR: Could not extract frames
+  ego: X  ERROR
+[38/50] sfu_basketball_09_22 (GT=Novice)
+  exo: OK Novice
+  ego: OK Novice
+[39/50] sfu_basketball014_18 (GT=Novice)
+  exo: OK Novice
+  ego: OK Novice
+[40/50] unc_basketball_03-30-23_02_19 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[41/50] unc_basketball_03-31-23_01_43 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[42/50] sfu_basketball012_12 (GT=Novice)
+  exo: OK Novice
+  ego: OK Novice
+[43/50] sfu_basketball_01_8 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[44/50] sfu_basketball_11_16 (GT=Late Expert)
+  exo ERROR: Could not extract frames
+  exo: X  ERROR
+  ego ERROR: Could not extract frames
+  ego: X  ERROR
+[45/50] unc_basketball_03-30-23_01_15 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[46/50] sfu_basketball_08_30 (GT=Novice)
+  exo ERROR: Could not extract frames
+  exo: X  ERROR
+  ego ERROR: Could not extract frames
+  ego: X  ERROR
+[47/50] sfu_basketball_03_12 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[48/50] uniandes_basketball_001_31 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[49/50] unc_basketball_03-31-23_02_15 (GT=Late Expert)
+  exo: X  Novice
+  ego: X  Novice
+[50/50] sfu_basketball_08_10 (GT=Novice)
+  exo ERROR: Could not extract frames
+  exo: X  ERROR
+  ego ERROR: Could not extract frames
+  ego: X  ERROR
+
+============================================================
+FINAL — qwen binary normal
+============================================================
+  exo: 12/50 = 24.0%
+  ego: 12/50 = 24.0%
