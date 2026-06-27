@@ -63,7 +63,7 @@ def ask_qwen_video(video_path, question):
 
 # Load benchmark and pick 5 novice + 5 expert with available videos
 with open(BENCHMARK_PATH) as f:
-    all_clips = json.load(f)[:10]
+    all_clips = json.load(f)[:5]
 
 novice_clips = []
 expert_clips = []
