@@ -1,0 +1,93 @@
+Sun Jun 28 14:26:24 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H200                    On  |   00000000:9B:00.0 Off |                   On |
+| N/A   50C    P0            287W /  700W |   33872MiB / 143771MiB |     N/A      Default |
+|                                         |                        |              Enabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| MIG devices:                                                                            |
++------------------+----------------------------------+-----------+-----------------------+
+| GPU  GI  CI  MIG |              Shared Memory-Usage |        Vol|        Shared         |
+|      ID  ID  Dev |                Shared BAR1-Usage | SM     Unc| CE ENC  DEC  OFA  JPG |
+|                  |                                  |        ECC|                       |
+|==================+==================================+===========+=======================|
+|  0   13   0   0  |              15MiB / 16384MiB    | 16      0 |  1   0    1    0    1 |
+|                  |               0MiB / 14809MiB    |           |                       |
++------------------+----------------------------------+-----------+-----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading Qwen2.5-VL-7B ...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:57<11:42:59, 57.94s/it]Loading weights:   0%|          | 2/729 [01:01<5:12:13, 25.77s/it] Loading weights:   7%|▋         | 54/729 [01:05<07:19,  1.54it/s] Loading weights:   9%|▉         | 64/729 [01:08<06:30,  1.70it/s]Loading weights:   9%|▉         | 65/729 [01:08<06:24,  1.72it/s]Loading weights:  10%|█         | 76/729 [01:15<06:23,  1.70it/s]Loading weights:  11%|█         | 77/729 [01:16<06:19,  1.72it/s]Loading weights:  11%|█         | 78/729 [01:16<06:12,  1.75it/s]Loading weights:  12%|█▏        | 88/729 [01:19<05:02,  2.12it/s]Loading weights:  12%|█▏        | 89/729 [01:23<06:46,  1.57it/s]Loading weights:  12%|█▏        | 90/729 [01:23<06:38,  1.61it/s]Loading weights:  14%|█▎        | 100/729 [01:27<05:08,  2.04it/s]Loading weights:  14%|█▍        | 102/729 [01:30<06:43,  1.55it/s]Loading weights:  15%|█▌        | 112/729 [01:34<05:10,  1.99it/s]Loading weights:  16%|█▌        | 113/729 [01:34<05:08,  2.00it/s]Loading weights:  17%|█▋        | 124/729 [01:41<05:32,  1.82it/s]Loading weights:  17%|█▋        | 125/729 [01:41<05:30,  1.83it/s]Loading weights:  17%|█▋        | 126/729 [01:42<05:24,  1.86it/s]Loading weights:  19%|█▊        | 136/729 [01:46<04:58,  1.98it/s]Loading weights:  19%|█▉        | 137/729 [01:50<07:01,  1.41it/s]Loading weights:  19%|█▉        | 138/729 [01:50<06:38,  1.48it/s]Loading weights:  20%|██        | 148/729 [01:54<04:55,  1.97it/s]Loading weights:  21%|██        | 150/729 [01:57<06:24,  1.51it/s]Loading weights:  22%|██▏       | 160/729 [02:01<04:45,  2.00it/s]Loading weights:  22%|██▏       | 161/729 [02:01<04:51,  1.95it/s]Loading weights:  24%|██▎       | 172/729 [02:08<05:03,  1.84it/s]Loading weights:  24%|██▎       | 173/729 [02:08<04:53,  1.90it/s]Loading weights:  24%|██▍       | 174/729 [02:09<04:58,  1.86it/s]Loading weights:  25%|██▌       | 184/729 [02:12<03:46,  2.40it/s]Loading weights:  25%|██▌       | 185/729 [02:15<05:38,  1.61it/s]Loading weights:  26%|██▌       | 186/729 [02:15<05:18,  1.70it/s]Loading weights:  27%|██▋       | 196/729 [02:19<04:10,  2.12it/s]Loading weights:  27%|██▋       | 198/729 [02:22<05:33,  1.59it/s]Loading weights:  29%|██▊       | 208/729 [02:26<04:12,  2.07it/s]Loading weights:  29%|██▊       | 209/729 [02:26<04:20,  2.00it/s]Loading weights:  30%|███       | 220/729 [02:33<04:45,  1.78it/s]Loading weights:  30%|███       | 222/729 [02:34<04:35,  1.84it/s]Loading weights:  32%|███▏      | 232/729 [02:37<03:29,  2.37it/s]Loading weights:  32%|███▏      | 233/729 [02:41<05:20,  1.55it/s]Loading weights:  33%|███▎      | 244/729 [02:44<03:56,  2.05it/s]Loading weights:  34%|███▎      | 245/729 [02:44<03:46,  2.14it/s]Loading weights:  34%|███▎      | 246/729 [02:48<05:45,  1.40it/s]Loading weights:  35%|███▌      | 256/729 [02:51<03:59,  1.97it/s]Loading weights:  35%|███▌      | 257/729 [02:52<03:52,  2.03it/s]Loading weights:  35%|███▌      | 258/729 [02:52<03:36,  2.18it/s]Loading weights:  37%|███▋      | 268/729 [02:58<04:24,  1.74it/s]Loading weights:  37%|███▋      | 269/729 [02:59<04:09,  1.84it/s]Loading weights:  37%|███▋      | 270/729 [02:59<03:56,  1.94it/s]Loading weights:  38%|███▊      | 280/729 [03:02<03:09,  2.37it/s]Loading weights:  39%|███▊      | 281/729 [03:06<04:51,  1.54it/s]Loading weights:  39%|███▊      | 282/729 [03:06<04:30,  1.66it/s]Loading weights:  40%|████      | 292/729 [03:10<03:26,  2.12it/s]Loading weights:  40%|████      | 293/729 [03:10<03:22,  2.15it/s]Loading weights:  40%|████      | 294/729 [03:14<05:42,  1.27it/s]Loading weights:  42%|████▏     | 304/729 [03:17<03:40,  1.93it/s]Loading weights:  42%|████▏     | 305/729 [03:17<03:29,  2.02it/s]Loading weights:  42%|████▏     | 306/729 [03:18<03:20,  2.11it/s]Loading weights:  43%|████▎     | 316/729 [03:25<04:10,  1.65it/s]Loading weights:  43%|████▎     | 317/729 [03:25<03:57,  1.73it/s]Loading weights:  44%|████▎     | 318/729 [03:25<03:43,  1.84it/s]Loading weights:  45%|████▍     | 328/729 [03:29<02:55,  2.29it/s]Loading weights:  45%|████▌     | 329/729 [03:32<04:32,  1.47it/s]Loading weights:  45%|████▌     | 330/729 [03:32<04:13,  1.57it/s]Loading weights:  52%|█████▏    | 379/729 [03:33<00:28, 12.16it/s]Loading weights:  53%|█████▎    | 390/729 [03:33<00:25, 13.44it/s]Loading weights:  55%|█████▍    | 399/729 [03:34<00:23, 13.87it/s]Loading weights:  56%|█████▌    | 406/729 [03:34<00:21, 14.70it/s]Loading weights:  56%|█████▋    | 411/729 [03:34<00:19, 16.21it/s]Loading weights:  57%|█████▋    | 416/729 [03:35<00:20, 15.04it/s]Loading weights:  58%|█████▊    | 421/729 [03:35<00:17, 17.57it/s]Loading weights:  59%|█████▊    | 427/729 [03:35<00:19, 15.49it/s]Loading weights:  60%|█████▉    | 437/729 [03:35<00:13, 22.08it/s]Loading weights:  61%|██████    | 442/729 [03:36<00:14, 19.41it/s]Loading weights:  61%|██████    | 446/729 [03:36<00:13, 21.51it/s]Loading weights:  62%|██████▏   | 451/729 [03:36<00:18, 15.05it/s]Loading weights:  63%|██████▎   | 457/729 [03:37<00:14, 18.36it/s]Loading weights:  64%|██████▎   | 463/729 [03:37<00:17, 15.04it/s]Loading weights:  65%|██████▍   | 473/729 [03:37<00:11, 22.13it/s]Loading weights:  65%|██████▌   | 477/729 [03:38<00:14, 17.31it/s]Loading weights:  66%|██████▌   | 481/729 [03:38<00:12, 19.33it/s]Loading weights:  67%|██████▋   | 487/729 [03:38<00:14, 17.23it/s]Loading weights:  68%|██████▊   | 493/729 [03:38<00:10, 21.83it/s]Loading weights:  68%|██████▊   | 499/729 [03:39<00:13, 17.41it/s]Loading weights:  69%|██████▉   | 505/729 [03:39<00:10, 20.54it/s]Loading weights:  70%|██████▉   | 509/729 [03:39<00:09, 22.13it/s]Loading weights:  70%|███████   | 512/729 [03:40<00:15, 14.32it/s]Loading weights:  71%|███████   | 517/729 [03:40<00:12, 17.64it/s]Loading weights:  72%|███████▏  | 523/729 [03:40<00:13, 15.34it/s]Loading weights:  73%|███████▎  | 529/729 [03:41<00:10, 19.60it/s]Loading weights:  73%|███████▎  | 535/729 [03:41<00:10, 17.90it/s]Loading weights:  74%|███████▍  | 541/729 [03:41<00:08, 22.75it/s]Loading weights:  75%|███████▌  | 547/729 [03:42<00:12, 14.77it/s]Loading weights:  76%|███████▌  | 553/729 [03:42<00:09, 18.06it/s]Loading weights:  77%|███████▋  | 559/729 [03:43<00:11, 15.17it/s]Loading weights:  78%|███████▊  | 565/729 [03:43<00:08, 18.89it/s]Loading weights:  78%|███████▊  | 571/729 [03:43<00:09, 16.96it/s]Loading weights:  80%|███████▉  | 581/729 [03:43<00:06, 23.79it/s]Loading weights:  80%|████████  | 585/729 [03:44<00:07, 19.16it/s]Loading weights:  81%|████████  | 591/729 [03:44<00:05, 23.92it/s]Loading weights:  82%|████████▏ | 595/729 [03:44<00:07, 17.16it/s]Loading weights:  82%|████████▏ | 601/729 [03:44<00:05, 21.53it/s]Loading weights:  83%|████████▎ | 607/729 [03:45<00:06, 18.74it/s]Loading weights:  84%|████████▍ | 613/729 [03:45<00:05, 23.04it/s]Loading weights:  85%|████████▍ | 619/729 [03:45<00:05, 18.52it/s]Loading weights:  86%|████████▌ | 625/729 [03:45<00:04, 23.37it/s]Loading weights:  87%|████████▋ | 631/729 [03:46<00:05, 18.82it/s]Loading weights:  87%|████████▋ | 637/729 [03:46<00:03, 23.25it/s]Loading weights:  88%|████████▊ | 643/729 [03:46<00:04, 18.86it/s]Loading weights:  90%|████████▉ | 653/729 [03:47<00:02, 25.83it/s]Loading weights:  90%|█████████ | 657/729 [03:47<00:03, 19.96it/s]Loading weights:  91%|█████████ | 661/729 [03:47<00:03, 21.05it/s]Loading weights:  91%|█████████ | 665/729 [03:47<00:02, 23.62it/s]Loading weights:  92%|█████████▏| 669/729 [03:48<00:04, 12.99it/s]Loading weights:  92%|█████████▏| 672/729 [03:48<00:04, 13.71it/s]Loading weights:  93%|█████████▎| 677/729 [03:48<00:02, 17.95it/s]Loading weights:  93%|█████████▎| 680/729 [03:49<00:03, 13.57it/s]Loading weights:  94%|█████████▎| 683/729 [03:49<00:02, 15.59it/s]Loading weights:  95%|█████████▍| 691/729 [03:49<00:02, 15.95it/s]Loading weights:  96%|█████████▌| 701/729 [03:50<00:01, 23.51it/s]Loading weights:  97%|█████████▋| 705/729 [03:50<00:01, 15.80it/s]Loading weights:  97%|█████████▋| 709/729 [03:50<00:01, 15.70it/s]Loading weights:  98%|█████████▊| 715/729 [03:51<00:01, 13.02it/s]Loading weights: 100%|█████████▉| 726/729 [03:53<00:00,  7.84it/s]Loading weights: 100%|██████████| 729/729 [03:53<00:00,  3.12it/s]
+Some parameters are on the meta device because they were offloaded to the cpu.
+Model loaded.
+
+======================================================================
+CLIP: uniandes_bouldering_027_56 (GT skill = Novice)
+======================================================================
+
+Q: What is the person doing in this video? Answer in one sentence.
+A: The woman climbs down the wall.
+
+Q: What color is the climbing wall or holds? Answer briefly.
+A: blue
+
+Q: Is the person wearing a shirt? What color?
+A: Yes, the person is wearing a shirt. The shirt is pink.
+
+Q: How many people are visible in the video?
+A: 1
+
+Q: Is this person a novice or an expert at this activity? Answer only: Novice or Expert
+A: Novice
+
+======================================================================
+CLIP: uniandes_bouldering_036_4 (GT skill = Expert)
+======================================================================
+
+Q: What is the person doing in this video? Answer in one sentence.
+A: The woman climbs the wall.
+
+Q: What color is the climbing wall or holds? Answer briefly.
+A: blue
+
+Q: Is the person wearing a shirt? What color?
+A: The person is wearing a shirt. The color of the shirt is purple.
+
+Q: How many people are visible in the video?
+A: 1
+
+Q: Is this person a novice or an expert at this activity? Answer only: Novice or Expert
+A: Novice
+
+======================================================================
+CLIP: uniandes_bouldering_029_59 (GT skill = Novice)
+======================================================================
+
+Q: What is the person doing in this video? Answer in one sentence.
+A: The woman climbs the wall.
+
+Q: What color is the climbing wall or holds? Answer briefly.
+A: gray
+
+Q: Is the person wearing a shirt? What color?
+A: The person is wearing a shirt. The color of the shirt is black.
+
+Q: How many people are visible in the video?
+A: 1
+
+Q: Is this person a novice or an expert at this activity? Answer only: Novice or Expert
+A: Novice
+
