@@ -1,0 +1,467 @@
+Tue Jun 30 11:17:56 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H200                    On  |   00000000:BB:00.0 Off |                   On |
+| N/A   31C    P0             78W /  700W |     102MiB / 143771MiB |     N/A      Default |
+|                                         |                        |              Enabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| MIG devices:                                                                            |
++------------------+----------------------------------+-----------+-----------------------+
+| GPU  GI  CI  MIG |              Shared Memory-Usage |        Vol|        Shared         |
+|      ID  ID  Dev |                Shared BAR1-Usage | SM     Unc| CE ENC  DEC  OFA  JPG |
+|                  |                                  |        ECC|                       |
+|==================+==================================+===========+=======================|
+|  0    7   0   0  |              15MiB / 16384MiB    | 16      0 |  1   0    1    0    1 |
+|                  |               0MiB / 14809MiB    |           |                       |
++------------------+----------------------------------+-----------+-----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading Qwen2.5-VL-7B ...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [01:16<15:27:15, 76.42s/it]Loading weights:   0%|          | 2/729 [01:19<6:42:09, 33.19s/it] Loading weights:   7%|▋         | 54/729 [01:26<09:47,  1.15it/s] Loading weights:   9%|▉         | 64/729 [01:30<08:36,  1.29it/s]Loading weights:   9%|▉         | 65/729 [01:31<08:37,  1.28it/s]Loading weights:   9%|▉         | 66/729 [01:31<08:24,  1.32it/s]Loading weights:  10%|▉         | 72/729 [01:31<06:15,  1.75it/s]Loading weights:  10%|█         | 76/729 [01:41<10:22,  1.05it/s]Loading weights:  11%|█         | 77/729 [01:41<09:45,  1.11it/s]Loading weights:  11%|█         | 79/729 [01:42<08:26,  1.28it/s]Loading weights:  12%|█▏        | 88/729 [01:47<07:12,  1.48it/s]Loading weights:  12%|█▏        | 89/729 [01:57<14:58,  1.40s/it]Loading weights:  12%|█▏        | 90/729 [01:58<13:46,  1.29s/it]Loading weights:  14%|█▎        | 100/729 [02:02<08:06,  1.29it/s]Loading weights:  14%|█▍        | 101/729 [02:02<07:33,  1.38it/s]Loading weights:  14%|█▍        | 102/729 [02:07<12:24,  1.19s/it]Loading weights:  15%|█▌        | 112/729 [02:14<09:17,  1.11it/s]Loading weights:  16%|█▌        | 114/729 [02:14<08:01,  1.28it/s]Loading weights:  17%|█▋        | 124/729 [02:22<08:00,  1.26it/s]Loading weights:  19%|█▊        | 136/729 [02:26<05:33,  1.78it/s]Loading weights:  19%|█▉        | 137/729 [02:33<09:09,  1.08it/s]Loading weights:  20%|██        | 148/729 [02:37<06:32,  1.48it/s]Loading weights:  20%|██        | 149/729 [02:38<06:13,  1.55it/s]Loading weights:  21%|██        | 150/729 [02:43<09:51,  1.02s/it]Loading weights:  22%|██▏       | 160/729 [02:54<09:46,  1.03s/it]Loading weights:  22%|██▏       | 161/729 [02:54<09:15,  1.02it/s]Loading weights:  24%|██▎       | 172/729 [03:03<08:20,  1.11it/s]Loading weights:  24%|██▎       | 173/729 [03:04<08:05,  1.15it/s]Loading weights:  24%|██▍       | 174/729 [03:04<07:34,  1.22it/s]Loading weights:  25%|██▌       | 184/729 [03:08<05:38,  1.61it/s]Loading weights:  25%|██▌       | 185/729 [03:13<08:23,  1.08it/s]Loading weights:  26%|██▌       | 186/729 [03:13<07:51,  1.15it/s]Loading weights:  27%|██▋       | 196/729 [03:18<05:40,  1.57it/s]Loading weights:  27%|██▋       | 198/729 [03:24<08:24,  1.05it/s]Loading weights:  29%|██▊       | 208/729 [03:27<05:40,  1.53it/s]Loading weights:  29%|██▊       | 209/729 [03:28<05:36,  1.55it/s]Loading weights:  30%|███       | 220/729 [03:41<07:43,  1.10it/s]Loading weights:  30%|███       | 221/729 [03:41<07:18,  1.16it/s]Loading weights:  30%|███       | 222/729 [03:41<06:55,  1.22it/s]Loading weights:  32%|███▏      | 232/729 [03:45<04:43,  1.75it/s]Loading weights:  32%|███▏      | 233/729 [03:50<07:20,  1.12it/s]Loading weights:  33%|███▎      | 244/729 [03:55<05:13,  1.55it/s]Loading weights:  34%|███▎      | 245/729 [03:55<05:12,  1.55it/s]Loading weights:  34%|███▎      | 246/729 [04:00<08:13,  1.02s/it]Loading weights:  35%|███▌      | 256/729 [04:06<05:58,  1.32it/s]Loading weights:  35%|███▌      | 257/729 [04:06<05:37,  1.40it/s]Loading weights:  35%|███▌      | 258/729 [04:06<05:20,  1.47it/s]Loading weights:  37%|███▋      | 268/729 [04:24<09:51,  1.28s/it]Loading weights:  37%|███▋      | 269/729 [04:24<09:14,  1.21s/it]Loading weights:  38%|███▊      | 280/729 [04:29<05:57,  1.26it/s]Loading weights:  39%|███▊      | 281/729 [04:35<08:25,  1.13s/it]Loading weights:  39%|███▊      | 282/729 [04:35<07:49,  1.05s/it]Loading weights:  40%|████      | 292/729 [04:41<05:48,  1.25it/s]Loading weights:  40%|████      | 294/729 [04:46<07:42,  1.06s/it]Loading weights:  42%|████▏     | 304/729 [04:50<05:17,  1.34it/s]Loading weights:  42%|████▏     | 305/729 [04:51<05:11,  1.36it/s]Loading weights:  43%|████▎     | 316/729 [05:01<05:39,  1.22it/s]Loading weights:  43%|████▎     | 317/729 [05:01<05:20,  1.28it/s]Loading weights:  44%|████▎     | 318/729 [05:01<05:04,  1.35it/s]Loading weights:  45%|████▍     | 328/729 [05:06<03:57,  1.69it/s]Loading weights:  45%|████▌     | 329/729 [05:11<05:47,  1.15it/s]Loading weights:  52%|█████▏    | 379/729 [05:11<00:50,  6.90it/s]Loading weights:  54%|█████▎    | 391/729 [05:11<00:42,  8.01it/s]Loading weights:  55%|█████▍    | 400/729 [05:12<00:34,  9.44it/s]Loading weights:  56%|█████▌    | 408/729 [05:12<00:30, 10.38it/s]Loading weights:  57%|█████▋    | 414/729 [05:12<00:26, 11.98it/s]Loading weights:  58%|█████▊    | 420/729 [05:13<00:25, 12.21it/s]Loading weights:  58%|█████▊    | 425/729 [05:13<00:22, 13.52it/s]Loading weights:  59%|█████▉    | 429/729 [05:13<00:25, 11.90it/s]Loading weights:  59%|█████▉    | 433/729 [05:14<00:24, 12.00it/s]Loading weights:  60%|██████    | 439/729 [05:14<00:23, 12.20it/s]Loading weights:  61%|██████    | 443/729 [05:14<00:21, 13.62it/s]Loading weights:  61%|██████    | 446/729 [05:14<00:18, 15.12it/s]Loading weights:  62%|██████▏   | 451/729 [05:15<00:20, 13.71it/s]Loading weights:  63%|██████▎   | 457/729 [05:15<00:14, 18.21it/s]Loading weights:  63%|██████▎   | 461/729 [05:15<00:16, 16.34it/s]Loading weights:  64%|██████▎   | 464/729 [05:16<00:24, 10.83it/s]Loading weights:  64%|██████▍   | 469/729 [05:16<00:19, 13.35it/s]Loading weights:  65%|██████▌   | 475/729 [05:17<00:20, 12.20it/s]Loading weights:  66%|██████▌   | 479/729 [05:17<00:17, 13.89it/s]Loading weights:  67%|██████▋   | 487/729 [05:18<00:20, 12.04it/s]Loading weights:  68%|██████▊   | 493/729 [05:18<00:15, 14.80it/s]Loading weights:  68%|██████▊   | 497/729 [05:18<00:13, 16.62it/s]Loading weights:  69%|██████▊   | 500/729 [05:19<00:23,  9.76it/s]Loading weights:  69%|██████▉   | 502/729 [05:19<00:22,  9.90it/s]Loading weights:  70%|██████▉   | 509/729 [05:19<00:14, 14.77it/s]Loading weights:  70%|███████   | 512/729 [05:20<00:24,  8.75it/s]Loading weights:  71%|███████▏  | 521/729 [05:20<00:15, 13.76it/s]Loading weights:  72%|███████▏  | 524/729 [05:21<00:25,  7.97it/s]Loading weights:  73%|███████▎  | 529/729 [05:22<00:20,  9.92it/s]Loading weights:  73%|███████▎  | 533/729 [05:22<00:17, 11.20it/s]Loading weights:  73%|███████▎  | 535/729 [05:23<00:24,  7.76it/s]Loading weights:  74%|███████▍  | 539/729 [05:23<00:18, 10.22it/s]Loading weights:  74%|███████▍  | 542/729 [05:23<00:15, 11.85it/s]Loading weights:  75%|███████▌  | 547/729 [05:23<00:18,  9.82it/s]Loading weights:  76%|███████▌  | 551/729 [05:24<00:15, 11.67it/s]Loading weights:  76%|███████▋  | 557/729 [05:24<00:10, 16.08it/s]Loading weights:  77%|███████▋  | 560/729 [05:25<00:20,  8.31it/s]Loading weights:  78%|███████▊  | 565/729 [05:25<00:15, 10.38it/s]Loading weights:  78%|███████▊  | 569/729 [05:25<00:12, 12.64it/s]Loading weights:  78%|███████▊  | 572/729 [05:26<00:20,  7.73it/s]Loading weights:  79%|███████▉  | 577/729 [05:26<00:14, 10.29it/s]Loading weights:  80%|███████▉  | 583/729 [05:27<00:14, 10.36it/s]Loading weights:  81%|████████  | 587/729 [05:27<00:11, 12.60it/s]Loading weights:  81%|████████▏ | 593/729 [05:27<00:08, 15.63it/s]Loading weights:  82%|████████▏ | 596/729 [05:28<00:13,  9.94it/s]Loading weights:  82%|████████▏ | 601/729 [05:28<00:12, 10.62it/s]Loading weights:  83%|████████▎ | 605/729 [05:28<00:09, 12.90it/s]Loading weights:  83%|████████▎ | 608/729 [05:29<00:16,  7.25it/s]Loading weights:  84%|████████▍ | 611/729 [05:30<00:14,  8.33it/s]Loading weights:  84%|████████▍ | 613/729 [05:30<00:14,  8.21it/s]Loading weights:  85%|████████▍ | 619/729 [05:31<00:13,  8.01it/s]Loading weights:  86%|████████▋ | 629/729 [05:31<00:07, 13.48it/s]Loading weights:  87%|████████▋ | 631/729 [05:32<00:11,  8.39it/s]Loading weights:  87%|████████▋ | 637/729 [05:32<00:07, 11.83it/s]Loading weights:  88%|████████▊ | 643/729 [05:32<00:06, 12.71it/s]Loading weights:  89%|████████▉ | 649/729 [05:33<00:04, 16.02it/s]Loading weights:  90%|████████▉ | 653/729 [05:33<00:04, 16.99it/s]Loading weights:  90%|████████▉ | 656/729 [05:33<00:05, 13.40it/s]Loading weights:  90%|█████████ | 658/729 [05:33<00:05, 12.75it/s]Loading weights:  91%|█████████▏| 667/729 [05:34<00:05, 10.96it/s]Loading weights:  93%|█████████▎| 677/729 [05:35<00:03, 15.94it/s]Loading weights:  93%|█████████▎| 680/729 [05:35<00:04, 11.48it/s]Loading weights:  95%|█████████▍| 689/729 [05:35<00:02, 17.75it/s]Loading weights:  95%|█████████▌| 693/729 [05:36<00:02, 12.40it/s]Loading weights:  95%|█████████▌| 696/729 [05:36<00:02, 13.59it/s]Loading weights:  96%|█████████▌| 701/729 [05:36<00:01, 15.63it/s]Loading weights:  97%|█████████▋| 704/729 [05:37<00:02, 10.37it/s]Loading weights:  97%|█████████▋| 709/729 [05:37<00:01, 13.74it/s]Loading weights:  98%|█████████▊| 713/729 [05:37<00:00, 16.32it/s]Loading weights:  98%|█████████▊| 716/729 [05:38<00:01,  9.99it/s]Loading weights:  99%|█████████▉| 721/729 [05:38<00:00, 12.72it/s]Loading weights: 100%|█████████▉| 726/729 [05:42<00:00,  3.13it/s]Loading weights: 100%|██████████| 729/729 [05:42<00:00,  2.13it/s]
+Some parameters are on the meta device because they were offloaded to the cpu.
+Model loaded.
+
+Clips: 100 | frames: 8 | views: exo + ego
+
+[1/100] uniandes_bouldering_022_12 (GT=Novice)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[2/100] uniandes_bouldering_037_38 (GT=Late Expert)
+  exo: Novice X | Observations: The man stands on the floor and holds onto the climbing wall with 
+  ego: Intermediate Expert X | Observations: The person is climbing a rock wall. They are using both hands to g
+
+[3/100] uniandes_bouldering_024_44 (GT=Novice)
+  exo: Novice OK | Observations: The woman is climbing a rock wall. She is wearing an orange tank t
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful handholds. They are us
+
+[4/100] uniandes_bouldering_035_53 (GT=Early Expert)
+  exo: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[5/100] uniandes_bouldering_027_19 (GT=Early Expert)
+  exo: Novice X | Observations: The girl is climbing the wall. She is holding onto the rock with h
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[6/100] uniandes_bouldering_034_56 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The man is climbing a rock wall. He is wearing a green shirt and b
+  ego: Novice X | Observations: The man jumps down from the climbing wall.  Errors: The man jumps 
+
+[7/100] uniandes_bouldering_025_13 (GT=Novice)
+  exo: Novice OK | Observations: The woman is climbing a rock wall. She is wearing a red tank top a
+  ego: Novice OK | Observations: The person is climbing a rock wall. They are using their hands to 
+
+[8/100] uniandes_bouldering_032_81 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The man is climbing on a rock wall. He is using his hands to grip 
+  ego: Novice X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[9/100] uniandes_bouldering_035_28 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The man stands on the ground and climbs the wall. He holds onto th
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[10/100] uniandes_bouldering_033_38 (GT=Intermediate Expert)
+  exo: Novice X | Observations: A woman is climbing a rock wall. She is wearing a blue tank top an
+  ego: Intermediate Expert OK | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[11/100] uniandes_bouldering_022_26 (GT=Late Expert)
+  exo: Novice X | Observations: The woman is climbing a rock wall. She is wearing a blue tank top 
+  ego: Novice X | Observations: The person is climbing a wall with colorful handholds. They are us
+
+[12/100] uniandes_bouldering_034_94 (GT=Early Expert)
+  exo: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+
+[13/100] uniandes_bouldering_027_20 (GT=Early Expert)
+  exo: Novice X | Observations: A woman is climbing a rock wall. She is wearing a pink tank top an
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful handholds. They are us
+
+[14/100] uniandes_bouldering_026_48 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The woman is climbing a rock wall. She is wearing a white tank top
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+
+[15/100] uniandes_bouldering_023_42 (GT=Novice)
+  exo: Novice OK | Observations: The woman is climbing a rock wall. She is wearing a black shirt an
+  ego: Novice OK | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[16/100] uniandes_bouldering_033_60 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The man is climbing a rock wall. He is using his hands to grip the
+  ego: Novice X | Observations: The man climbs the wall with his hands and feet. He holds onto the
+
+[17/100] uniandes_bouldering_027_56 (GT=Novice)
+  exo: Novice OK | Observations: The woman is climbing a rock wall. She is wearing a pink shirt and
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[18/100] uniandes_bouldering_035_98 (GT=Early Expert)
+  exo: Novice X | Observations: A woman is standing on a blue mat in front of a climbing wall. She
+  ego: Novice X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[19/100] uniandes_bouldering_029_41 (GT=Novice)
+  exo: Novice OK | Observations: The woman is climbing a rock wall. She is wearing a tank top and l
+  ego: Novice OK | Observations: The person is climbing a wall with colorful handholds. They are us
+
+[20/100] uniandes_bouldering_034_98 (GT=Early Expert)
+  exo: Novice X | Observations: A man is climbing a rock wall. He is wearing a helmet and climbing
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using their hands to 
+
+[21/100] uniandes_bouldering_030_60 (GT=Late Expert)
+  exo: Novice X | Observations: The man stands on the ground, facing the climbing wall. He reaches
+  ego: Novice X | Observations: The person is climbing a rock wall. They are wearing a harness and
+
+[22/100] uniandes_bouldering_023_53 (GT=Early Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[23/100] uniandes_bouldering_023_71 (GT=Early Expert)
+  exo: Novice X | Observations: The man stands on the ground, facing the climbing wall. He reaches
+  ego: Novice X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[24/100] uniandes_bouldering_027_17 (GT=Early Expert)
+  exo: Novice X | Observations: The woman is climbing a rock wall. She is wearing a pink tank top 
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+
+[25/100] uniandes_bouldering_029_77 (GT=Early Expert)
+  exo: Novice X | Observations: A man is climbing a rock wall. He is wearing a helmet and climbing
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using their hands to 
+
+[26/100] uniandes_bouldering_036_17 (GT=Late Expert)
+  exo: Novice X | Observations: A man is climbing a rock wall. He is wearing a red shirt and black
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[27/100] uniandes_bouldering_026_14 (GT=Novice)
+  exo: Novice OK | Observations: The person is climbing a rock wall. They are using both hands to g
+  ego: Novice OK | Observations: The person is climbing a rock wall. They are using both hands to g
+
+[28/100] uniandes_bouldering_030_25 (GT=Late Expert)
+  exo: Novice X | Observations: The woman is climbing a wall. She is wearing a black tank top and 
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using both hands and 
+
+[29/100] uniandes_bouldering_029_71 (GT=Early Expert)
+  exo: Novice X | Observations: A man is climbing a rock wall. He is wearing a white shirt and bla
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using their hands to 
+
+[30/100] uniandes_bouldering_031_68 (GT=Late Expert)
+  exo: Novice X | Observations: The man is climbing a rock wall. He is using his hands to grip the
+  ego: Novice X | Observations: The person is climbing a wall with colorful handholds. They are us
+
+[31/100] uniandes_bouldering_036_4 (GT=Late Expert)
+  exo: Novice X | Observations: The woman is climbing a rock wall. She is wearing a purple shirt a
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using their hands to 
+
+[32/100] uniandes_bouldering_023_77 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[33/100] uniandes_bouldering_037_49 (GT=Late Expert)
+  exo: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+
+[34/100] uniandes_bouldering_033_27 (GT=Late Expert)
+  exo: Novice X | Observations: A man is climbing a rock wall. He is wearing a green shirt and bla
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[35/100] uniandes_bouldering_037_2 (GT=Intermediate Expert)
+  exo: Novice X | Observations: A man is standing on a climbing wall. He is wearing an orange shir
+  ego: Novice X | Observations: The person is climbing a wall with colorful grips. They are wearin
+
+[36/100] uniandes_bouldering_036_47 (GT=Late Expert)
+  exo: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+  ego: Novice X | Observations: The person is climbing a wall with colorful handholds. They are us
+
+[37/100] uniandes_bouldering_024_6 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The person is climbing a rock wall. They are using both hands to g
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[38/100] uniandes_bouldering_025_14 (GT=Novice)
+  exo: Novice OK | Observations: The woman is climbing a rock wall. She is using her hands to grip 
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[39/100] uniandes_bouldering_029_8 (GT=Early Expert)
+  exo: Novice X | Observations: The girl is climbing the wall. She is holding onto the rock with h
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful handholds. They are us
+
+[40/100] uniandes_bouldering_035_37 (GT=Early Expert)
+  exo: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using their hands to 
+
+[41/100] uniandes_bouldering_022_20 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The woman is climbing a rock wall. She is wearing a purple tank to
+  ego: Novice X | Observations: The person is climbing a wall with colorful handholds. They are us
+
+[42/100] uniandes_bouldering_025_38 (GT=Early Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[43/100] uniandes_bouldering_027_114 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The person is climbing a rock wall. They are using both hands to g
+  ego: Novice OK | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[44/100] uniandes_bouldering_026_72 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The person is climbing a wall with colorful holds. They are using 
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful handholds. They are us
+
+[45/100] uniandes_bouldering_033_33 (GT=Intermediate Expert)
+  exo: Novice X | Observations: A man is climbing a rock wall. He is wearing a green shirt and blu
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+
+[46/100] uniandes_bouldering_022_33 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The person is climbing a rock wall. They are using both hands to g
+  ego: Novice OK | Observations: The person is climbing a wall with colorful handholds. They are us
+
+[47/100] uniandes_bouldering_032_28 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is climbing a wall with colorful holds. They are using 
+  ego: Intermediate Expert OK | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[48/100] uniandes_bouldering_029_65 (GT=Intermediate Expert)
+  exo: Novice X | Observations: A woman is climbing a rock wall. She is wearing a white tank top a
+  ego: Novice X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[49/100] uniandes_bouldering_030_26 (GT=Late Expert)
+  exo: Novice X | Observations: The man is climbing a wall. He is reaching for a hold with his rig
+  ego: Novice X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[50/100] uniandes_bouldering_033_12 (GT=Late Expert)
+  exo: Novice X | Observations: The man is climbing a wall. He is holding onto the wall with his h
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[51/100] uniandes_bouldering_025_81 (GT=Novice)
+  exo: Novice OK | Observations: The person is climbing a rock wall. They are using their hands to 
+  ego: Novice OK | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[52/100] uniandes_bouldering_027_58 (GT=Novice)
+  exo: Novice OK | Observations: The woman is climbing a rock wall. She is wearing a tank top and l
+  ego: Intermediate Expert X | Observations: The person is climbing a rock wall. They are using both hands to g
+
+[53/100] uniandes_bouldering_034_21 (GT=Early Expert)
+  exo: Novice X | Observations: The man is climbing a wall. He is using his hands to hold onto the
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[54/100] uniandes_bouldering_034_8 (GT=Early Expert)
+  exo: Novice X | Observations: The boy is climbing the wall. He is holding onto the rock with his
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+
+[55/100] uniandes_bouldering_034_65 (GT=Early Expert)
+  exo: Novice X | Observations: A man is climbing a rock wall. He is wearing a green shirt and bla
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+
+[56/100] uniandes_bouldering_028_52 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The woman is climbing a rock wall. She is wearing a white tank top
+  ego: Novice X | Observations: The person is climbing a wall with colorful handholds. They are us
+
+[57/100] uniandes_bouldering_029_74 (GT=Early Expert)
+  exo: Novice X | Observations: A man is climbing a rock wall. He is wearing a helmet and climbing
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+
+[58/100] uniandes_bouldering_032_75 (GT=Intermediate Expert)
+  exo: Novice X | Observations: A man is climbing a rock wall. He is wearing a blue shirt and blac
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using their hands to 
+
+[59/100] uniandes_bouldering_034_37 (GT=Early Expert)
+  exo: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+  ego: Novice X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[60/100] uniandes_bouldering_030_61 (GT=Late Expert)
+  exo: Novice X | Observations: The man is climbing a rock wall. He is wearing a helmet and climbi
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using their hands to 
+
+[61/100] uniandes_bouldering_022_49 (GT=Novice)
+  exo: Novice OK | Observations: The woman is climbing a rock wall. She is wearing a black shirt an
+  ego: Novice OK | Observations: The person is climbing a wall with colorful handholds. They are us
+
+[62/100] uniandes_bouldering_022_13 (GT=Novice)
+  exo: Novice OK | Observations: The person is climbing a wall. They are using both hands to grip t
+  ego: Novice OK | Observations: The person is climbing a rock wall. They are using both hands to g
+
+[63/100] uniandes_bouldering_028_34 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The woman is climbing a rock wall. She is wearing a white tank top
+  ego: Novice X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[64/100] uniandes_bouldering_030_29 (GT=Late Expert)
+  exo: Novice X | Observations: The man is climbing a wall. He is wearing a black shirt and blue j
+  ego: Novice X | Observations: The person is climbing a wall with colorful handholds. They are we
+
+[65/100] uniandes_bouldering_032_21 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The man is climbing a wall. He is holding onto a rock with his rig
+  ego: Intermediate Expert OK | Observations: The person is pointing at the climbing wall with his right hand wh
+
+[66/100] uniandes_bouldering_023_44 (GT=Novice)
+  exo: Novice OK | Observations: The woman is climbing a rock wall. She is wearing a black shirt an
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful handholds. They are us
+
+[67/100] uniandes_bouldering_024_60 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The person is climbing a wall with colorful holds. They are using 
+  ego: Novice OK | Observations: The person is climbing a wall with colorful handholds. They are us
+
+[68/100] uniandes_bouldering_025_16 (GT=Novice)
+  exo: Novice OK | Observations: The woman is lying on her back on the floor, with her legs bent at
+  ego: Novice OK | Observations: The person is climbing a rock wall. They are using both hands to g
+
+[69/100] uniandes_bouldering_022_62 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The woman is climbing a rock wall. She is using her hands to grip 
+  ego: Novice X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[70/100] uniandes_bouldering_035_21 (GT=Early Expert)
+  exo: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+
+[71/100] uniandes_bouldering_036_48 (GT=Late Expert)
+  exo: Novice X | Observations: The man stands on the ground and looks at the climbing wall. He th
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[72/100] uniandes_bouldering_023_11 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[73/100] uniandes_bouldering_029_9 (GT=Early Expert)
+  exo: Novice X | Observations: The woman is climbing a rock wall. She is using her hands to grip 
+  ego: Novice X | Observations: The person is climbing a wall with a climbing wall. The person is 
+
+[74/100] uniandes_bouldering_026_22 (GT=Novice)
+  exo: Novice OK | Observations: The woman is climbing a rock wall. She is using her hands to grip 
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful handholds. They are us
+
+[75/100] uniandes_bouldering_027_87 (GT=Novice)
+  exo: Novice OK | Observations: A woman is climbing a rock wall. She is wearing a tank top and leg
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[76/100] uniandes_bouldering_036_60 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The woman is climbing a rock wall. She is wearing a tank top and s
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using their hands to 
+
+[77/100] uniandes_bouldering_032_66 (GT=Late Expert)
+  exo: Novice X | Observations: A man is climbing a wall. He is wearing a green shirt and blue sho
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using their hands to 
+
+[78/100] uniandes_bouldering_024_54 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[79/100] uniandes_bouldering_026_26 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+
+[80/100] uniandes_bouldering_024_32 (GT=Novice)
+  exo: Novice OK | Observations: The person is climbing a wall with colorful holds. They are wearin
+  ego: Novice OK | Observations: The person is climbing a wall with colorful handholds. They are us
+
+[81/100] uniandes_bouldering_023_2 (GT=Early Expert)
+  exo: Novice X | Observations: The woman is climbing a wall. She is using her hands to hold onto 
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using their hands to 
+
+[82/100] uniandes_bouldering_026_23 (GT=Novice)
+  exo: Novice OK | Observations: The woman is climbing a rock wall. She is wearing a tank top and l
+  ego: Novice OK | Observations: The person is climbing a rock wall. They are using both hands to g
+
+[83/100] uniandes_bouldering_022_72 (GT=Novice)
+  exo: Novice OK | Observations: The woman is climbing a wall. She is reaching for a hold with her 
+  ego: Novice OK | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[84/100] uniandes_bouldering_036_50 (GT=Late Expert)
+  exo: Novice X | Observations: The person is climbing a rock wall. They are wearing a harness and
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+
+[85/100] uniandes_bouldering_033_45 (GT=Late Expert)
+  exo: Novice X | Observations: A man is standing on a climbing wall. He is looking up at the wall
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[86/100] uniandes_bouldering_032_2 (GT=Late Expert)
+  exo: Novice X | Observations: The man is climbing a rock wall. He is wearing a green shirt and b
+  ego: Novice X | Observations: The person is climbing a wall with colorful handholds. They are us
+
+[87/100] uniandes_bouldering_022_5 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[88/100] uniandes_bouldering_033_55 (GT=Intermediate Expert)
+  exo: Novice X | Observations: A man is climbing a wall. He is wearing a blue shirt and black sho
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using their hands to 
+
+[89/100] uniandes_bouldering_036_57 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+  ego: Intermediate Expert OK | Observations: The person is climbing a rock wall. They are using both hands to g
+
+[90/100] uniandes_bouldering_037_52 (GT=Late Expert)
+  exo: Novice X | Observations: A man is climbing a rock wall. He is wearing a helmet and climbing
+  ego: Novice X | Observations: The person is climbing a rock wall. They are wearing gloves and ha
+
+[91/100] uniandes_bouldering_026_21 (GT=Novice)
+  exo: Novice OK | Observations: The person is climbing a rock wall. They are using both hands and 
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[92/100] uniandes_bouldering_031_30 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[93/100] uniandes_bouldering_036_12 (GT=Intermediate Expert)
+  exo: Novice X | Observations: A man is climbing a rock wall. He is wearing an orange shirt and g
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using their hands to 
+
+[94/100] uniandes_bouldering_025_52 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[95/100] uniandes_bouldering_029_28 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The person is climbing a rock wall. They are using both hands to g
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[96/100] uniandes_bouldering_027_2 (GT=Intermediate Expert)
+  exo: Novice X | Observations: A woman is climbing a rock wall. She is wearing a tank top and sho
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using both hands to g
+
+[97/100] uniandes_bouldering_028_24 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The person is climbing a rock wall. They are using both hands to g
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[98/100] uniandes_bouldering_031_69 (GT=Late Expert)
+  exo: Novice X | Observations: The person is climbing a rock wall. They are using their hands to 
+  ego: Novice X | Observations: The person is climbing a rock wall. They are using their hands to 
+
+[99/100] uniandes_bouldering_029_48 (GT=Intermediate Expert)
+  exo: Novice X | Observations: A woman is climbing a rock wall. She is wearing a white tank top a
+  ego: Novice X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+[100/100] uniandes_bouldering_036_8 (GT=Late Expert)
+  exo: Novice X | Observations: The man is climbing a rock wall. He is using his hands to grip the
+  ego: Intermediate Expert X | Observations: The person is climbing a wall with colorful holds. They are using 
+
+============================================================
+RESULTS — Qwen structured 8 frames
+============================================================
+  exo: 19/100 = 19.0%
+  ego: 18/100 = 18.0%
+
+Random chance: 25%
+
+Exo predictions: {'Novice': 83, 'Unknown': 9, 'Intermediate Expert': 8}
+Ego predictions: {'Novice': 62, 'Intermediate Expert': 29, 'Unknown': 9}
+============================================================

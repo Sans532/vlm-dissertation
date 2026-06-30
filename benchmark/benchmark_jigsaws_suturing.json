@@ -1,0 +1,275 @@
+[
+  {
+    "clip_id": "Suturing_B001",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_B001_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Novice",
+    "grs_score": "13"
+  },
+  {
+    "clip_id": "Suturing_B002",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_B002_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Novice",
+    "grs_score": "17"
+  },
+  {
+    "clip_id": "Suturing_B003",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_B003_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Novice",
+    "grs_score": "14"
+  },
+  {
+    "clip_id": "Suturing_B004",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_B004_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Novice",
+    "grs_score": "10"
+  },
+  {
+    "clip_id": "Suturing_B005",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_B005_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Novice",
+    "grs_score": "12"
+  },
+  {
+    "clip_id": "Suturing_C001",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_C001_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Intermediate",
+    "grs_score": "26"
+  },
+  {
+    "clip_id": "Suturing_C002",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_C002_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Intermediate",
+    "grs_score": "20"
+  },
+  {
+    "clip_id": "Suturing_C003",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_C003_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Intermediate",
+    "grs_score": "26"
+  },
+  {
+    "clip_id": "Suturing_C004",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_C004_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Intermediate",
+    "grs_score": "30"
+  },
+  {
+    "clip_id": "Suturing_C005",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_C005_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Intermediate",
+    "grs_score": "17"
+  },
+  {
+    "clip_id": "Suturing_D001",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_D001_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Expert",
+    "grs_score": "14"
+  },
+  {
+    "clip_id": "Suturing_D002",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_D002_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Expert",
+    "grs_score": "18"
+  },
+  {
+    "clip_id": "Suturing_D003",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_D003_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Expert",
+    "grs_score": "14"
+  },
+  {
+    "clip_id": "Suturing_D004",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_D004_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Expert",
+    "grs_score": "8"
+  },
+  {
+    "clip_id": "Suturing_D005",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_D005_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Expert",
+    "grs_score": "15"
+  },
+  {
+    "clip_id": "Suturing_E001",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_E001_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Expert",
+    "grs_score": "17"
+  },
+  {
+    "clip_id": "Suturing_E002",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_E002_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Expert",
+    "grs_score": "20"
+  },
+  {
+    "clip_id": "Suturing_E003",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_E003_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Expert",
+    "grs_score": "19"
+  },
+  {
+    "clip_id": "Suturing_E004",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_E004_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Expert",
+    "grs_score": "19"
+  },
+  {
+    "clip_id": "Suturing_E005",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_E005_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Expert",
+    "grs_score": "19"
+  },
+  {
+    "clip_id": "Suturing_F001",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_F001_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Intermediate",
+    "grs_score": "24"
+  },
+  {
+    "clip_id": "Suturing_F002",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_F002_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Intermediate",
+    "grs_score": "26"
+  },
+  {
+    "clip_id": "Suturing_F003",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_F003_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Intermediate",
+    "grs_score": "29"
+  },
+  {
+    "clip_id": "Suturing_F004",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_F004_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Intermediate",
+    "grs_score": "24"
+  },
+  {
+    "clip_id": "Suturing_F005",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_F005_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Intermediate",
+    "grs_score": "29"
+  },
+  {
+    "clip_id": "Suturing_G001",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_G001_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Novice",
+    "grs_score": "13"
+  },
+  {
+    "clip_id": "Suturing_G002",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_G002_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Novice",
+    "grs_score": "18"
+  },
+  {
+    "clip_id": "Suturing_G003",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_G003_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Novice",
+    "grs_score": "13"
+  },
+  {
+    "clip_id": "Suturing_G004",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_G004_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Novice",
+    "grs_score": "21"
+  },
+  {
+    "clip_id": "Suturing_G005",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_G005_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Novice",
+    "grs_score": "23"
+  },
+  {
+    "clip_id": "Suturing_H001",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_H001_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Novice",
+    "grs_score": "14"
+  },
+  {
+    "clip_id": "Suturing_H003",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_H003_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Novice",
+    "grs_score": "25"
+  },
+  {
+    "clip_id": "Suturing_H004",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_H004_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Novice",
+    "grs_score": "19"
+  },
+  {
+    "clip_id": "Suturing_H005",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_H005_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Novice",
+    "grs_score": "21"
+  },
+  {
+    "clip_id": "Suturing_I001",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_I001_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Novice",
+    "grs_score": "17"
+  },
+  {
+    "clip_id": "Suturing_I002",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_I002_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Novice",
+    "grs_score": "23"
+  },
+  {
+    "clip_id": "Suturing_I003",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_I003_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Novice",
+    "grs_score": "17"
+  },
+  {
+    "clip_id": "Suturing_I004",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_I004_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Novice",
+    "grs_score": "23"
+  },
+  {
+    "clip_id": "Suturing_I005",
+    "video_path": "/home/s2850007/dissertation/data/jigsaws/Suturing/video/Suturing_I005_capture1.avi",
+    "activity": "Suturing",
+    "ground_truth": "Novice",
+    "grs_score": "19"
+  }
+]

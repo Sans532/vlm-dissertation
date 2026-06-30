@@ -1,9 +1,10 @@
 #!/bin/bash
 #SBATCH --job-name=FV_n8
 #SBATCH --partition=Teaching
-#SBATCH --gres=gpu:1
-#SBATCH --time=04:00:00
-#SBATCH --mem=32G
+#SBATCH --gres=gpu:h200:1
+#SBATCH --nodelist=saxa
+#SBATCH --time=12:00:00
+#SBATCH --mem=40G
 #SBATCH --cpus-per-task=4
 #SBATCH --output=/home/%u/dissertation/repo/dissertation_v2/logs/videollava/fourclass_n8_%j.log
  

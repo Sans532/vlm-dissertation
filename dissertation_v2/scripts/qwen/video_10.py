@@ -64,7 +64,7 @@ def ask_qwen_video(video_path, question, start_sec=None, end_sec=None):
     input_path = video_path
 
     # Trim to active climbing window if timing available
-    if start_sec is not None and end_sec is not None and end_sec > start_sec:
+    if False and start_sec is not None and end_sec is not None and end_sec > start_sec:
         trimmed = trim_video(video_path, start_sec, end_sec)
         if trimmed:
             input_path = trimmed
