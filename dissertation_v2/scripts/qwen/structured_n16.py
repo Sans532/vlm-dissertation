@@ -1,5 +1,5 @@
 """
-Qwen2.5-VL-7B | structured prompt | 8 frames | exo + ego
+Qwen2.5-VL-7B | structured prompt | 16 frames | exo + ego
 Benchmark: benchmark_structured.json (25 per level, 100 clips)
 """
 import json, os, csv, gc, warnings, re
@@ -14,8 +14,8 @@ USER          = os.environ.get("USER")
 MODEL_PATH    = f"/home/{USER}/dissertation/models/qwen25vl-7b"
 DATA_DIR      = f"/home/{USER}/dissertation/data/egoexo"
 BENCHMARK     = f"/home/{USER}/dissertation/repo/dissertation_v2/benchmark/benchmark_structured.json"
-RESULTS       = f"/home/{USER}/dissertation/repo/dissertation_v2/results/qwen/structured_n8_qwen.csv"
-NUM_FRAMES    = 8
+RESULTS       = f"/home/{USER}/dissertation/repo/dissertation_v2/results/qwen/structured_n16_qwen.csv"
+NUM_FRAMES    = 16
 LABELS        = ["Late Expert", "Intermediate Expert", "Early Expert", "Novice"]
 
 os.makedirs(os.path.dirname(RESULTS), exist_ok=True)
@@ -106,7 +106,7 @@ for i, item in enumerate(benchmark):
     print()
 
 print("="*60)
-print("RESULTS — Qwen structured 8 frames")
+print("RESULTS — Qwen structured 16 frames")
 print("="*60)
 for v, (c,t) in stats.items():
     print(f"  {v}: {c}/{t} = {c/t:.1%}" if t else "")

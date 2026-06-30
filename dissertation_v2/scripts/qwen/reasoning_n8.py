@@ -1,6 +1,6 @@
 """
-Qwen2.5-VL-7B | structured prompt | 8 frames | exo + ego
-Benchmark: benchmark_structured.json (25 per level, 100 clips)
+Qwen2.5-VL-7B | reasoning prompt | 8 frames | exo + ego
+Benchmark: benchmark_reasoning.json (25 per level, 100 clips)
 """
 import json, os, csv, gc, warnings, re
 import torch, cv2
@@ -13,8 +13,8 @@ warnings.filterwarnings("ignore")
 USER          = os.environ.get("USER")
 MODEL_PATH    = f"/home/{USER}/dissertation/models/qwen25vl-7b"
 DATA_DIR      = f"/home/{USER}/dissertation/data/egoexo"
-BENCHMARK     = f"/home/{USER}/dissertation/repo/dissertation_v2/benchmark/benchmark_structured.json"
-RESULTS       = f"/home/{USER}/dissertation/repo/dissertation_v2/results/qwen/structured_n8_qwen.csv"
+BENCHMARK     = f"/home/{USER}/dissertation/repo/dissertation_v2/benchmark/benchmark_reasoning.json"
+RESULTS       = f"/home/{USER}/dissertation/repo/dissertation_v2/results/qwen/reasoning_n8_qwen.csv"
 NUM_FRAMES    = 8
 LABELS        = ["Late Expert", "Intermediate Expert", "Early Expert", "Novice"]
 
@@ -56,11 +56,6 @@ def ask(path, question):
 
 def extract_label(answer):
     a = answer.lower()
-    match = re.search(r'skill level[:\s]+(.+?)(?:\n|$)', a)
-    search_text = match.group(1).strip() if match else a
-    for label in LABELS:
-        if label.lower() in search_text:
-            return label
     for label in LABELS:
         if label.lower() in a:
             return label
@@ -83,10 +78,9 @@ for i, item in enumerate(benchmark):
     gt = item["ground_truth"]
     exo_path = os.path.join(DATA_DIR, item["video_path_exo"])
     ego_path = os.path.join(DATA_DIR, item["video_path_ego"])
+    question = item["question_reasoning"]
     row = [item["clip_id"], item["take_folder"], gt]
     print(f"[{i+1}/{len(benchmark)}] {item['take_folder']} (GT={gt})")
-
-    question = item["question_structured"]
 
     for view, path in [("exo", exo_path), ("ego", ego_path)]:
         try:
@@ -106,7 +100,7 @@ for i, item in enumerate(benchmark):
     print()
 
 print("="*60)
-print("RESULTS — Qwen structured 8 frames")
+print("RESULTS — Qwen reasoning prompt 8 frames")
 print("="*60)
 for v, (c,t) in stats.items():
     print(f"  {v}: {c}/{t} = {c/t:.1%}" if t else "")

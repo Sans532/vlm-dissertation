@@ -1,0 +1,638 @@
+Tue Jun 30 19:43:10 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     Off |   00000000:20:00.0 Off |                  N/A |
+| 29%   25C    P8              8W /  250W |       1MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading Video-LLaVA ...
+Loading weights:   0%|          | 0/1077 [00:00<?, ?it/s]Loading weights:   1%|          | 9/1077 [00:00<00:20, 51.59it/s]Loading weights:   1%|▏         | 15/1077 [00:00<00:20, 52.37it/s]Loading weights:   2%|▏         | 25/1077 [00:00<00:40, 26.02it/s]Loading weights:   3%|▎         | 29/1077 [00:01<00:45, 22.90it/s]Loading weights:   4%|▍         | 41/1077 [00:01<00:50, 20.39it/s]Loading weights:   5%|▌         | 57/1077 [00:02<00:46, 21.95it/s]Loading weights:   7%|▋         | 73/1077 [00:03<00:47, 21.07it/s]Loading weights:   8%|▊         | 89/1077 [00:03<00:44, 22.00it/s]Loading weights:   9%|▊         | 92/1077 [00:03<00:43, 22.43it/s]Loading weights:  10%|▉         | 105/1077 [00:04<00:35, 27.42it/s]Loading weights:  11%|█         | 121/1077 [00:05<00:39, 24.32it/s]Loading weights:  13%|█▎        | 137/1077 [00:05<00:35, 26.51it/s]Loading weights:  14%|█▍        | 153/1077 [00:06<00:38, 24.22it/s]Loading weights:  16%|█▌        | 169/1077 [00:06<00:29, 31.08it/s]Loading weights:  16%|█▌        | 174/1077 [00:06<00:30, 29.78it/s]Loading weights:  17%|█▋        | 185/1077 [00:07<00:35, 24.99it/s]Loading weights:  19%|█▊        | 201/1077 [00:07<00:31, 27.60it/s]Loading weights:  20%|██        | 217/1077 [00:08<00:27, 30.97it/s]Loading weights:  21%|██        | 221/1077 [00:08<00:32, 26.65it/s]Loading weights:  22%|██▏       | 233/1077 [00:08<00:28, 30.12it/s]Loading weights:  23%|██▎       | 243/1077 [00:09<00:23, 35.65it/s]Loading weights:  23%|██▎       | 249/1077 [00:09<00:34, 24.21it/s]Loading weights:  25%|██▍       | 265/1077 [00:10<00:28, 28.64it/s]Loading weights:  26%|██▌       | 281/1077 [00:10<00:32, 24.77it/s]Loading weights:  28%|██▊       | 297/1077 [00:11<00:25, 31.10it/s]Loading weights:  29%|██▉       | 313/1077 [00:11<00:28, 26.81it/s]Loading weights:  31%|███       | 329/1077 [00:12<00:23, 32.03it/s]Loading weights:  31%|███       | 333/1077 [00:12<00:32, 22.90it/s]Loading weights:  32%|███▏      | 345/1077 [00:12<00:25, 28.16it/s]Loading weights:  34%|███▎      | 361/1077 [00:13<00:26, 27.49it/s]Loading weights:  35%|███▌      | 377/1077 [00:14<00:26, 26.62it/s]Loading weights:  35%|███▌      | 377/1077 [00:30<00:26, 26.62it/s]Loading weights:  36%|███▋      | 392/1077 [00:32<04:40,  2.45it/s]Loading weights:  36%|███▋      | 393/1077 [00:35<05:34,  2.04it/s]Loading weights:  38%|███▊      | 404/1077 [00:38<04:35,  2.45it/s]Loading weights:  38%|███▊      | 406/1077 [00:39<04:48,  2.33it/s]Loading weights:  38%|███▊      | 409/1077 [00:40<04:43,  2.36it/s]Loading weights:  38%|███▊      | 410/1077 [00:41<04:54,  2.26it/s]Loading weights:  38%|███▊      | 411/1077 [00:42<05:21,  2.07it/s]Loading weights:  38%|███▊      | 413/1077 [00:46<09:00,  1.23it/s]Loading weights:  38%|███▊      | 414/1077 [00:47<09:21,  1.18it/s]Loading weights:  39%|███▊      | 415/1077 [00:48<08:56,  1.24it/s]Loading weights:  39%|███▉      | 419/1077 [00:49<06:22,  1.72it/s]Loading weights:  39%|███▉      | 420/1077 [00:50<06:30,  1.68it/s]Loading weights:  39%|███▉      | 422/1077 [00:54<11:25,  1.05s/it]Loading weights:  39%|███▉      | 423/1077 [00:55<10:49,  1.01it/s]Loading weights:  39%|███▉      | 424/1077 [00:56<11:50,  1.09s/it]Loading weights:  40%|███▉      | 428/1077 [00:57<06:45,  1.60it/s]Loading weights:  40%|███▉      | 429/1077 [00:58<06:52,  1.57it/s]Loading weights:  40%|████      | 431/1077 [01:03<13:58,  1.30s/it]Loading weights:  40%|████      | 432/1077 [01:04<12:51,  1.20s/it]Loading weights:  40%|████      | 433/1077 [01:04<10:49,  1.01s/it]Loading weights:  41%|████      | 437/1077 [01:06<07:00,  1.52it/s]Loading weights:  41%|████      | 438/1077 [01:07<07:18,  1.46it/s]Loading weights:  41%|████      | 440/1077 [01:14<16:22,  1.54s/it]Loading weights:  41%|████      | 441/1077 [01:14<14:14,  1.34s/it]Loading weights:  41%|████      | 442/1077 [01:15<12:57,  1.23s/it]Loading weights:  41%|████▏     | 446/1077 [01:16<08:12,  1.28it/s]Loading weights:  42%|████▏     | 447/1077 [01:17<07:52,  1.33it/s]Loading weights:  42%|████▏     | 449/1077 [01:21<12:40,  1.21s/it]Loading weights:  42%|████▏     | 450/1077 [01:22<10:43,  1.03s/it]Loading weights:  42%|████▏     | 451/1077 [01:23<11:49,  1.13s/it]Loading weights:  42%|████▏     | 455/1077 [01:24<06:45,  1.54it/s]Loading weights:  42%|████▏     | 456/1077 [01:24<06:07,  1.69it/s]Loading weights:  43%|████▎     | 458/1077 [01:29<11:33,  1.12s/it]Loading weights:  43%|████▎     | 459/1077 [01:30<11:55,  1.16s/it]Loading weights:  43%|████▎     | 460/1077 [01:31<10:19,  1.00s/it]Loading weights:  43%|████▎     | 464/1077 [01:31<05:20,  1.91it/s]Loading weights:  43%|████▎     | 465/1077 [01:33<06:42,  1.52it/s]Loading weights:  43%|████▎     | 467/1077 [01:37<11:56,  1.18s/it]Loading weights:  43%|████▎     | 468/1077 [01:37<10:20,  1.02s/it]Loading weights:  44%|████▎     | 469/1077 [01:38<09:28,  1.07it/s]Loading weights:  44%|████▍     | 473/1077 [01:40<06:34,  1.53it/s]Loading weights:  44%|████▍     | 476/1077 [01:44<09:43,  1.03it/s]Loading weights:  44%|████▍     | 477/1077 [01:45<09:17,  1.08it/s]Loading weights:  44%|████▍     | 478/1077 [01:47<10:41,  1.07s/it]Loading weights:  45%|████▍     | 482/1077 [01:47<05:34,  1.78it/s]Loading weights:  45%|████▍     | 483/1077 [01:48<05:42,  1.73it/s]Loading weights:  45%|████▌     | 485/1077 [01:52<10:09,  1.03s/it]Loading weights:  45%|████▌     | 486/1077 [01:53<11:26,  1.16s/it]Loading weights:  45%|████▌     | 487/1077 [01:54<09:39,  1.02it/s]Loading weights:  46%|████▌     | 491/1077 [01:55<05:37,  1.74it/s]Loading weights:  46%|████▌     | 492/1077 [01:56<06:05,  1.60it/s]Loading weights:  46%|████▌     | 494/1077 [02:00<11:10,  1.15s/it]Loading weights:  46%|████▌     | 495/1077 [02:01<09:50,  1.01s/it]Loading weights:  46%|████▌     | 496/1077 [02:02<10:06,  1.04s/it]Loading weights:  46%|████▋     | 500/1077 [02:03<06:52,  1.40it/s]Loading weights:  47%|████▋     | 501/1077 [02:04<06:01,  1.59it/s]Loading weights:  47%|████▋     | 503/1077 [02:08<09:59,  1.04s/it]Loading weights:  47%|████▋     | 504/1077 [02:09<10:04,  1.05s/it]Loading weights:  47%|████▋     | 505/1077 [02:10<11:29,  1.21s/it]Loading weights:  47%|████▋     | 509/1077 [02:11<05:26,  1.74it/s]Loading weights:  47%|████▋     | 510/1077 [02:12<06:30,  1.45it/s]Loading weights:  48%|████▊     | 512/1077 [02:16<10:57,  1.16s/it]Loading weights:  48%|████▊     | 513/1077 [02:18<11:10,  1.19s/it]Loading weights:  48%|████▊     | 514/1077 [02:18<09:23,  1.00s/it]Loading weights:  48%|████▊     | 518/1077 [02:19<05:54,  1.58it/s]Loading weights:  48%|████▊     | 519/1077 [02:20<06:17,  1.48it/s]Loading weights:  48%|████▊     | 521/1077 [02:25<11:11,  1.21s/it]Loading weights:  48%|████▊     | 522/1077 [02:25<09:36,  1.04s/it]Loading weights:  49%|████▊     | 523/1077 [02:26<10:06,  1.09s/it]Loading weights:  49%|████▉     | 527/1077 [02:28<06:09,  1.49it/s]Loading weights:  49%|████▉     | 530/1077 [02:32<08:21,  1.09it/s]Loading weights:  49%|████▉     | 531/1077 [02:33<09:16,  1.02s/it]Loading weights:  49%|████▉     | 532/1077 [02:35<09:45,  1.08s/it]Loading weights:  50%|████▉     | 537/1077 [02:36<05:42,  1.58it/s]Loading weights:  50%|█████     | 539/1077 [02:40<08:31,  1.05it/s]Loading weights:  50%|█████     | 540/1077 [02:41<08:50,  1.01it/s]Loading weights:  50%|█████     | 541/1077 [02:41<07:45,  1.15it/s]Loading weights:  51%|█████     | 544/1077 [02:41<04:34,  1.94it/s]Loading weights:  51%|█████     | 545/1077 [02:42<05:20,  1.66it/s]Loading weights:  51%|█████     | 546/1077 [02:44<06:02,  1.47it/s]Loading weights:  51%|█████     | 548/1077 [02:48<11:21,  1.29s/it]Loading weights:  51%|█████     | 549/1077 [02:48<09:24,  1.07s/it]Loading weights:  51%|█████     | 550/1077 [02:49<08:58,  1.02s/it]Loading weights:  51%|█████▏    | 554/1077 [02:51<05:46,  1.51it/s]Loading weights:  52%|█████▏    | 555/1077 [02:51<05:04,  1.71it/s]Loading weights:  52%|█████▏    | 557/1077 [02:56<10:03,  1.16s/it]Loading weights:  52%|█████▏    | 558/1077 [02:56<08:44,  1.01s/it]Loading weights:  52%|█████▏    | 559/1077 [02:58<09:45,  1.13s/it]Loading weights:  52%|█████▏    | 563/1077 [02:59<05:31,  1.55it/s]Loading weights:  52%|█████▏    | 564/1077 [02:59<04:48,  1.78it/s]Loading weights:  53%|█████▎    | 566/1077 [03:03<09:08,  1.07s/it]Loading weights:  53%|█████▎    | 567/1077 [03:05<09:37,  1.13s/it]Loading weights:  53%|█████▎    | 568/1077 [03:05<09:02,  1.07s/it]Loading weights:  53%|█████▎    | 572/1077 [03:06<04:53,  1.72it/s]Loading weights:  53%|█████▎    | 573/1077 [03:07<05:46,  1.45it/s]Loading weights:  53%|█████▎    | 575/1077 [03:11<08:31,  1.02s/it]Loading weights:  53%|█████▎    | 576/1077 [03:12<09:09,  1.10s/it]Loading weights:  54%|█████▎    | 577/1077 [03:13<08:11,  1.02it/s]Loading weights:  54%|█████▍    | 581/1077 [03:14<04:42,  1.75it/s]Loading weights:  54%|█████▍    | 582/1077 [03:15<05:39,  1.46it/s]Loading weights:  54%|█████▍    | 584/1077 [03:19<08:58,  1.09s/it]Loading weights:  54%|█████▍    | 585/1077 [03:19<08:10,  1.00it/s]Loading weights:  54%|█████▍    | 586/1077 [03:20<07:56,  1.03it/s]Loading weights:  55%|█████▍    | 589/1077 [03:21<04:23,  1.85it/s]Loading weights:  55%|█████▍    | 590/1077 [03:22<05:40,  1.43it/s]Loading weights:  55%|█████▍    | 591/1077 [03:22<05:25,  1.49it/s]Loading weights:  55%|█████▌    | 593/1077 [03:27<10:26,  1.30s/it]Loading weights:  55%|█████▌    | 594/1077 [03:28<08:49,  1.10s/it]Loading weights:  55%|█████▌    | 595/1077 [03:29<09:21,  1.17s/it]Loading weights:  56%|█████▌    | 599/1077 [03:30<05:32,  1.44it/s]Loading weights:  56%|█████▌    | 600/1077 [03:31<04:54,  1.62it/s]Loading weights:  56%|█████▌    | 602/1077 [03:36<09:58,  1.26s/it]Loading weights:  56%|█████▌    | 603/1077 [03:36<08:23,  1.06s/it]Loading weights:  56%|█████▌    | 604/1077 [03:38<09:19,  1.18s/it]Loading weights:  56%|█████▋    | 608/1077 [03:39<05:34,  1.40it/s]Loading weights:  57%|█████▋    | 611/1077 [03:44<08:15,  1.06s/it]Loading weights:  57%|█████▋    | 612/1077 [03:44<07:46,  1.00s/it]Loading weights:  57%|█████▋    | 613/1077 [03:46<08:22,  1.08s/it]Loading weights:  57%|█████▋    | 617/1077 [03:47<04:56,  1.55it/s]Loading weights:  57%|█████▋    | 618/1077 [03:47<04:33,  1.68it/s]Loading weights:  58%|█████▊    | 620/1077 [03:52<08:21,  1.10s/it]Loading weights:  58%|█████▊    | 621/1077 [03:53<08:19,  1.09s/it]Loading weights:  58%|█████▊    | 622/1077 [03:54<09:18,  1.23s/it]Loading weights:  58%|█████▊    | 626/1077 [03:55<04:53,  1.54it/s]Loading weights:  58%|█████▊    | 627/1077 [03:56<04:48,  1.56it/s]Loading weights:  58%|█████▊    | 629/1077 [04:03<11:35,  1.55s/it]Loading weights:  58%|█████▊    | 630/1077 [04:04<10:47,  1.45s/it]Loading weights:  59%|█████▊    | 631/1077 [04:04<09:34,  1.29s/it]Loading weights:  59%|█████▉    | 635/1077 [04:05<05:22,  1.37it/s]Loading weights:  59%|█████▉    | 636/1077 [04:06<05:17,  1.39it/s]Loading weights:  59%|█████▉    | 638/1077 [04:11<08:57,  1.22s/it]Loading weights:  59%|█████▉    | 639/1077 [04:11<07:45,  1.06s/it]Loading weights:  59%|█████▉    | 640/1077 [04:13<08:21,  1.15s/it]Loading weights:  60%|█████▉    | 644/1077 [04:13<04:44,  1.52it/s]Loading weights:  60%|██████    | 647/1077 [04:19<07:28,  1.04s/it]Loading weights:  60%|██████    | 648/1077 [04:20<07:36,  1.06s/it]Loading weights:  60%|██████    | 649/1077 [04:21<07:08,  1.00s/it]Loading weights:  61%|██████    | 653/1077 [04:22<04:31,  1.56it/s]Loading weights:  61%|██████    | 654/1077 [04:22<04:03,  1.74it/s]Loading weights:  61%|██████    | 656/1077 [04:27<08:19,  1.19s/it]Loading weights:  61%|██████    | 658/1077 [04:29<07:38,  1.09s/it]Loading weights:  61%|██████▏   | 662/1077 [04:30<04:57,  1.39it/s]Loading weights:  62%|██████▏   | 665/1077 [04:35<06:59,  1.02s/it]Loading weights:  62%|██████▏   | 666/1077 [04:35<06:40,  1.03it/s]Loading weights:  62%|██████▏   | 667/1077 [04:37<07:08,  1.04s/it]Loading weights:  62%|██████▏   | 671/1077 [04:38<04:22,  1.55it/s]Loading weights:  63%|██████▎   | 674/1077 [04:43<06:55,  1.03s/it]Loading weights:  63%|██████▎   | 675/1077 [04:44<06:20,  1.06it/s]Loading weights:  63%|██████▎   | 676/1077 [04:45<06:26,  1.04it/s]Loading weights:  63%|██████▎   | 680/1077 [04:45<03:58,  1.66it/s]Loading weights:  63%|██████▎   | 681/1077 [04:46<03:34,  1.84it/s]Loading weights:  64%|██████▎   | 686/1077 [04:47<02:26,  2.67it/s]Loading weights:  68%|██████▊   | 727/1077 [04:47<00:21, 16.19it/s]Loading weights:  69%|██████▉   | 743/1077 [04:48<00:17, 18.67it/s]Loading weights:  70%|███████   | 759/1077 [04:48<00:13, 22.81it/s]Loading weights:  71%|███████   | 763/1077 [04:48<00:14, 22.21it/s]Loading weights:  72%|███████▏  | 775/1077 [04:49<00:12, 24.45it/s]Loading weights:  73%|███████▎  | 791/1077 [04:49<00:10, 27.52it/s]Loading weights:  75%|███████▍  | 807/1077 [04:50<00:08, 30.66it/s]Loading weights:  75%|███████▌  | 811/1077 [04:50<00:08, 31.28it/s]Loading weights:  76%|███████▋  | 823/1077 [04:50<00:08, 30.83it/s]Loading weights:  78%|███████▊  | 839/1077 [04:50<00:07, 33.53it/s]Loading weights:  79%|███████▉  | 855/1077 [04:51<00:06, 35.09it/s]Loading weights:  81%|████████  | 871/1077 [04:51<00:05, 35.69it/s]Loading weights:  82%|████████▏ | 887/1077 [04:52<00:05, 37.68it/s]Loading weights:  84%|████████▍ | 903/1077 [04:52<00:05, 33.40it/s]Loading weights:  85%|████████▌ | 919/1077 [04:53<00:04, 34.20it/s]Loading weights:  87%|████████▋ | 935/1077 [04:53<00:03, 35.55it/s]Loading weights:  87%|████████▋ | 939/1077 [04:53<00:04, 30.29it/s]Loading weights:  88%|████████▊ | 951/1077 [04:54<00:03, 38.13it/s]Loading weights:  90%|████████▉ | 967/1077 [04:54<00:03, 36.37it/s]Loading weights:  91%|█████████▏| 983/1077 [04:54<00:02, 38.16it/s]Loading weights:  93%|█████████▎| 999/1077 [04:55<00:02, 36.87it/s]Loading weights:  93%|█████████▎| 1004/1077 [04:55<00:01, 37.53it/s]Loading weights:  94%|█████████▍| 1015/1077 [04:55<00:01, 35.24it/s]Loading weights:  95%|█████████▍| 1019/1077 [04:56<00:01, 33.42it/s]Loading weights:  96%|█████████▌| 1031/1077 [04:56<00:01, 30.15it/s]Loading weights:  97%|█████████▋| 1047/1077 [04:56<00:00, 34.77it/s]Loading weights:  98%|█████████▊| 1051/1077 [04:56<00:00, 35.35it/s]Loading weights:  99%|█████████▊| 1063/1077 [04:57<00:00, 37.45it/s]Loading weights: 100%|██████████| 1077/1077 [04:57<00:00,  3.62it/s]
+[transformers] Requested torchvision backend is not available. Falling back to pil backend.
+Model loaded.
+
+Clips: 100 | frames: 8 | views: exo + ego
+
+[1/100] uniandes_bouldering_022_12 (GT=Novice)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[2/100] uniandes_bouldering_037_38 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[3/100] uniandes_bouldering_024_44 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[4/100] uniandes_bouldering_035_53 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[5/100] uniandes_bouldering_027_19 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[6/100] uniandes_bouldering_034_56 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[7/100] uniandes_bouldering_025_13 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[8/100] uniandes_bouldering_032_81 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[9/100] uniandes_bouldering_035_28 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[10/100] uniandes_bouldering_033_38 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[11/100] uniandes_bouldering_022_26 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[12/100] uniandes_bouldering_034_94 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[13/100] uniandes_bouldering_027_20 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[14/100] uniandes_bouldering_026_48 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[15/100] uniandes_bouldering_023_42 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[16/100] uniandes_bouldering_033_60 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[17/100] uniandes_bouldering_027_56 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[18/100] uniandes_bouldering_035_98 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[19/100] uniandes_bouldering_029_41 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[20/100] uniandes_bouldering_034_98 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[21/100] uniandes_bouldering_030_60 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[22/100] uniandes_bouldering_023_53 (GT=Early Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[23/100] uniandes_bouldering_023_71 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[24/100] uniandes_bouldering_027_17 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[25/100] uniandes_bouldering_029_77 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[26/100] uniandes_bouldering_036_17 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[27/100] uniandes_bouldering_026_14 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[28/100] uniandes_bouldering_030_25 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[29/100] uniandes_bouldering_029_71 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[30/100] uniandes_bouldering_031_68 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[31/100] uniandes_bouldering_036_4 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[32/100] uniandes_bouldering_023_77 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[33/100] uniandes_bouldering_037_49 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[34/100] uniandes_bouldering_033_27 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[35/100] uniandes_bouldering_037_2 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[36/100] uniandes_bouldering_036_47 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[37/100] uniandes_bouldering_024_6 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[38/100] uniandes_bouldering_025_14 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[39/100] uniandes_bouldering_029_8 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[40/100] uniandes_bouldering_035_37 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[41/100] uniandes_bouldering_022_20 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[42/100] uniandes_bouldering_025_38 (GT=Early Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[43/100] uniandes_bouldering_027_114 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[44/100] uniandes_bouldering_026_72 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[45/100] uniandes_bouldering_033_33 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[46/100] uniandes_bouldering_022_33 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[47/100] uniandes_bouldering_032_28 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[48/100] uniandes_bouldering_029_65 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[49/100] uniandes_bouldering_030_26 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[50/100] uniandes_bouldering_033_12 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[51/100] uniandes_bouldering_025_81 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[52/100] uniandes_bouldering_027_58 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[53/100] uniandes_bouldering_034_21 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[54/100] uniandes_bouldering_034_8 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[55/100] uniandes_bouldering_034_65 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[56/100] uniandes_bouldering_028_52 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[57/100] uniandes_bouldering_029_74 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[58/100] uniandes_bouldering_032_75 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[59/100] uniandes_bouldering_034_37 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[60/100] uniandes_bouldering_030_61 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[61/100] uniandes_bouldering_022_49 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[62/100] uniandes_bouldering_022_13 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[63/100] uniandes_bouldering_028_34 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[64/100] uniandes_bouldering_030_29 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[65/100] uniandes_bouldering_032_21 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[66/100] uniandes_bouldering_023_44 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[67/100] uniandes_bouldering_024_60 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[68/100] uniandes_bouldering_025_16 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[69/100] uniandes_bouldering_022_62 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[70/100] uniandes_bouldering_035_21 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[71/100] uniandes_bouldering_036_48 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[72/100] uniandes_bouldering_023_11 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[73/100] uniandes_bouldering_029_9 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[74/100] uniandes_bouldering_026_22 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[75/100] uniandes_bouldering_027_87 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[76/100] uniandes_bouldering_036_60 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[77/100] uniandes_bouldering_032_66 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[78/100] uniandes_bouldering_024_54 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[79/100] uniandes_bouldering_026_26 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[80/100] uniandes_bouldering_024_32 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[81/100] uniandes_bouldering_023_2 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[82/100] uniandes_bouldering_026_23 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[83/100] uniandes_bouldering_022_72 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[84/100] uniandes_bouldering_036_50 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[85/100] uniandes_bouldering_033_45 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[86/100] uniandes_bouldering_032_2 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[87/100] uniandes_bouldering_022_5 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[88/100] uniandes_bouldering_033_55 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[89/100] uniandes_bouldering_036_57 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[90/100] uniandes_bouldering_037_52 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[91/100] uniandes_bouldering_026_21 (GT=Novice)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[92/100] uniandes_bouldering_031_30 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[93/100] uniandes_bouldering_036_12 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[94/100] uniandes_bouldering_025_52 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[95/100] uniandes_bouldering_029_28 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[96/100] uniandes_bouldering_027_2 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[97/100] uniandes_bouldering_028_24 (GT=Early Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[98/100] uniandes_bouldering_031_69 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[99/100] uniandes_bouldering_029_48 (GT=Intermediate Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+[100/100] uniandes_bouldering_036_8 (GT=Late Expert)
+  exo ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  exo: Unknown X | ERROR
+  ego ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+  ego: Unknown X | ERROR
+
+============================================================
+RESULTS — VideoLLaVA reasoning prompt 8 frames
+============================================================
+  exo: 0/100 = 0.0%
+  ego: 0/100 = 0.0%
+
+Random chance: 25%
+
+Exo predictions: {'Unknown': 100}
+Ego predictions: {'Unknown': 100}
+============================================================

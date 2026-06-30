@@ -1,0 +1,10 @@
+clip_id,take_folder,ground_truth,exo_answer,exo_predicted,exo_correct,ego_answer,ego_predicted,ego_correct
+0ec8c380-66df-414c-8ed1-a644c76539d1,uniandes_bouldering_022_12,Novice,ERROR,Unknown,False,ERROR,Unknown,False
+586597cc-59c5-45d5-9596-0b6506d9c0ba,uniandes_bouldering_037_38,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
+9ceee09a-ab19-4463-baac-0ed48d21827e,uniandes_bouldering_024_44,Novice,ERROR,Unknown,False,ERROR,Unknown,False
+08f0616c-d3c4-414c-a492-d8d157872915,uniandes_bouldering_035_53,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
+5f1dd7a9-18b5-400a-a3de-1c30f547235e,uniandes_bouldering_027_19,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
+baf283a8-4747-45f1-9c78-241003a8f1b5,uniandes_bouldering_034_56,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
+ea2d7015-0bf2-422c-b6ac-ebcf88fef619,uniandes_bouldering_025_13,Novice,ERROR,Unknown,False,ERROR,Unknown,False
+0dd0e0b5-cbd2-42d3-bc00-64375f14f374,uniandes_bouldering_032_81,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
+1088fd1c-1562-4ee5-b85c-ceb59bf85f20,uniandes_bouldering_035_28,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False

@@ -1,5 +1,5 @@
 """
-Qwen2.5-VL-7B | structured prompt | 8 frames | exo + ego
+Qwen2.5-VL-7B | 4-class baseline | 32 frames | exo + ego
 Benchmark: benchmark_structured.json (25 per level, 100 clips)
 """
 import json, os, csv, gc, warnings, re
@@ -14,8 +14,8 @@ USER          = os.environ.get("USER")
 MODEL_PATH    = f"/home/{USER}/dissertation/models/qwen25vl-7b"
 DATA_DIR      = f"/home/{USER}/dissertation/data/egoexo"
 BENCHMARK     = f"/home/{USER}/dissertation/repo/dissertation_v2/benchmark/benchmark_structured.json"
-RESULTS       = f"/home/{USER}/dissertation/repo/dissertation_v2/results/qwen/structured_n8_qwen.csv"
-NUM_FRAMES    = 8
+RESULTS       = f"/home/{USER}/dissertation/repo/dissertation_v2/results/qwen/fourclass_n32_qwen.csv"
+NUM_FRAMES    = 32
 LABELS        = ["Late Expert", "Intermediate Expert", "Early Expert", "Novice"]
 
 os.makedirs(os.path.dirname(RESULTS), exist_ok=True)
@@ -25,6 +25,9 @@ model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
     MODEL_PATH, torch_dtype=torch.float16, device_map="auto", low_cpu_mem_usage=True)
 processor = AutoProcessor.from_pretrained(MODEL_PATH)
 print("Model loaded.\n")
+
+QUESTION = ("What is the skill level of the person in this video? "
+            "Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert")
 
 def get_frames(path):
     cap = cv2.VideoCapture(path)
@@ -48,7 +51,7 @@ def ask(path, question):
     messages = [{"role":"user","content":content}]
     text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     inputs = processor(text=[text], images=frames, return_tensors="pt", padding=True).to("cuda")
-    out = model.generate(**inputs, max_new_tokens=300, do_sample=False)
+    out = model.generate(**inputs, max_new_tokens=50, do_sample=False)
     raw = processor.batch_decode(out, skip_special_tokens=True)[0]
     clean = raw.split("assistant\n")[-1].strip() if "assistant\n" in raw else raw.strip()
     del inputs, out, frames; torch.cuda.empty_cache(); gc.collect()
@@ -56,11 +59,6 @@ def ask(path, question):
 
 def extract_label(answer):
     a = answer.lower()
-    match = re.search(r'skill level[:\s]+(.+?)(?:\n|$)', a)
-    search_text = match.group(1).strip() if match else a
-    for label in LABELS:
-        if label.lower() in search_text:
-            return label
     for label in LABELS:
         if label.lower() in a:
             return label
@@ -72,8 +70,8 @@ print(f"Clips: {len(benchmark)} | frames: {NUM_FRAMES} | views: exo + ego\n")
 with open(RESULTS, "w", newline="") as f:
     csv.writer(f).writerow([
         "clip_id","take_folder","ground_truth",
-        "exo_full_answer","exo_predicted","exo_correct",
-        "ego_full_answer","ego_predicted","ego_correct"
+        "exo_answer","exo_predicted","exo_correct",
+        "ego_answer","ego_predicted","ego_correct"
     ])
 
 stats = {"exo":[0,0], "ego":[0,0]}
@@ -86,11 +84,9 @@ for i, item in enumerate(benchmark):
     row = [item["clip_id"], item["take_folder"], gt]
     print(f"[{i+1}/{len(benchmark)}] {item['take_folder']} (GT={gt})")
 
-    question = item["question_structured"]
-
     for view, path in [("exo", exo_path), ("ego", ego_path)]:
         try:
-            ans = ask(path, question)
+            ans = ask(path, QUESTION)
             pred = extract_label(ans)
             ok = pred.lower() == gt.lower()
         except Exception as e:
@@ -100,13 +96,13 @@ for i, item in enumerate(benchmark):
         if ok: stats[view][0] += 1
         if view == "exo": exo_preds[pred] += 1
         else: ego_preds[pred] += 1
-        print(f"  {view}: {pred} {'OK' if ok else 'X'} | {ans[:80].replace(chr(10),' ')}")
+        print(f"  {view}: {pred} {'OK' if ok else 'X'}")
 
     with open(RESULTS, "a", newline="") as f: csv.writer(f).writerow(row)
     print()
 
 print("="*60)
-print("RESULTS — Qwen structured 8 frames")
+print("RESULTS — Qwen 4-class 32 frames")
 print("="*60)
 for v, (c,t) in stats.items():
     print(f"  {v}: {c}/{t} = {c/t:.1%}" if t else "")

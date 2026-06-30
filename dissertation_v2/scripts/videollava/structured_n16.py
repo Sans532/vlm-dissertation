@@ -1,57 +1,72 @@
 """
-Qwen2.5-VL-7B | structured prompt | 8 frames | exo + ego
+Video-LLaVA | structured prompt | 16 frames | exo + ego
 Benchmark: benchmark_structured.json (25 per level, 100 clips)
 """
 import json, os, csv, gc, warnings, re
-import torch, cv2
-from PIL import Image
-from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
+import torch, numpy as np, av
+from transformers import VideoLlavaForConditionalGeneration, VideoLlavaProcessor
 from collections import Counter
 
 warnings.filterwarnings("ignore")
 
 USER          = os.environ.get("USER")
-MODEL_PATH    = f"/home/{USER}/dissertation/models/qwen25vl-7b"
+MODEL_PATH    = f"/home/{USER}/dissertation/models/videollava"
 DATA_DIR      = f"/home/{USER}/dissertation/data/egoexo"
 BENCHMARK     = f"/home/{USER}/dissertation/repo/dissertation_v2/benchmark/benchmark_structured.json"
-RESULTS       = f"/home/{USER}/dissertation/repo/dissertation_v2/results/qwen/structured_n8_qwen.csv"
-NUM_FRAMES    = 8
+RESULTS       = f"/home/{USER}/dissertation/repo/dissertation_v2/results/videollava/structured_n16_vl.csv"
+NUM_FRAMES    = 16
 LABELS        = ["Late Expert", "Intermediate Expert", "Early Expert", "Novice"]
 
 os.makedirs(os.path.dirname(RESULTS), exist_ok=True)
 
-print("Loading Qwen2.5-VL-7B ...")
-model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+print("Loading Video-LLaVA ...")
+model = VideoLlavaForConditionalGeneration.from_pretrained(
     MODEL_PATH, torch_dtype=torch.float16, device_map="auto", low_cpu_mem_usage=True)
-processor = AutoProcessor.from_pretrained(MODEL_PATH)
+processor = VideoLlavaProcessor.from_pretrained(MODEL_PATH)
 print("Model loaded.\n")
 
-def get_frames(path):
-    cap = cv2.VideoCapture(path)
-    total = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
-    if total == 0: cap.release(); return []
-    indices = [int(i * total / NUM_FRAMES) for i in range(NUM_FRAMES)]
-    frames = []
-    for idx in indices:
-        cap.set(cv2.CAP_PROP_POS_FRAMES, idx)
-        ret, f = cap.read()
-        if ret:
-            frames.append(Image.fromarray(cv2.cvtColor(cv2.resize(f, (420,360)), cv2.COLOR_BGR2RGB)))
-    cap.release()
-    return frames
+QUESTION = (
+    "Watch these frames carefully.\n"
+    "Step 1: Describe the person's body position and technique in detail.\n"
+    "Step 2: Identify any errors or imprecisions in their movement.\n"
+    "Step 3: Classify skill level as exactly one of: "
+    "Novice / Early Expert / Intermediate Expert / Late Expert.\n"
+    "Format your answer as:\n"
+    "Observations: ...\n"
+    "Errors: ...\n"
+    "Skill Level: ..."
+)
+
+def read_video(path):
+    try:
+        container = av.open(path)
+        total = container.streams.video[0].frames
+        if total == 0:
+            frames_list = list(container.decode(video=0))
+            total = len(frames_list)
+            container.close(); container = av.open(path)
+        if total == 0: container.close(); return None
+        indices = set(np.linspace(0, total-1, NUM_FRAMES, dtype=int))
+        frames, idx = [], 0
+        for frame in container.decode(video=0):
+            if idx in indices: frames.append(frame.to_ndarray(format="rgb24"))
+            idx += 1
+            if len(frames) >= NUM_FRAMES: break
+        container.close()
+        while len(frames) < NUM_FRAMES: frames.append(frames[-1])
+        return np.stack(frames)
+    except Exception:
+        return None
 
 def ask(path, question):
-    frames = get_frames(path)
-    if not frames: raise Exception("No frames")
-    content = [{"type":"image"} for _ in frames]
-    content.append({"type":"text","text":f"These are {NUM_FRAMES} frames from a video of a person performing an activity. {question}"})
-    messages = [{"role":"user","content":content}]
-    text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-    inputs = processor(text=[text], images=frames, return_tensors="pt", padding=True).to("cuda")
+    video = read_video(path)
+    if video is None: raise Exception("No frames")
+    prompt = f"USER: <video>\nThese are {NUM_FRAMES} frames from a video of a person performing an activity. {question} ASSISTANT:"
+    inputs = processor(text=prompt, videos=video, return_tensors="pt").to("cuda")
     out = model.generate(**inputs, max_new_tokens=300, do_sample=False)
     raw = processor.batch_decode(out, skip_special_tokens=True)[0]
-    clean = raw.split("assistant\n")[-1].strip() if "assistant\n" in raw else raw.strip()
-    del inputs, out, frames; torch.cuda.empty_cache(); gc.collect()
+    clean = raw.split("ASSISTANT:")[-1].strip() if "ASSISTANT:" in raw else raw.strip()
+    del inputs, out, video; torch.cuda.empty_cache(); gc.collect()
     return clean
 
 def extract_label(answer):
@@ -59,11 +74,9 @@ def extract_label(answer):
     match = re.search(r'skill level[:\s]+(.+?)(?:\n|$)', a)
     search_text = match.group(1).strip() if match else a
     for label in LABELS:
-        if label.lower() in search_text:
-            return label
+        if label.lower() in search_text: return label
     for label in LABELS:
-        if label.lower() in a:
-            return label
+        if label.lower() in a: return label
     return "Unknown"
 
 benchmark = json.load(open(BENCHMARK))
@@ -86,11 +99,9 @@ for i, item in enumerate(benchmark):
     row = [item["clip_id"], item["take_folder"], gt]
     print(f"[{i+1}/{len(benchmark)}] {item['take_folder']} (GT={gt})")
 
-    question = item["question_structured"]
-
     for view, path in [("exo", exo_path), ("ego", ego_path)]:
         try:
-            ans = ask(path, question)
+            ans = ask(path, QUESTION)
             pred = extract_label(ans)
             ok = pred.lower() == gt.lower()
         except Exception as e:
@@ -106,7 +117,7 @@ for i, item in enumerate(benchmark):
     print()
 
 print("="*60)
-print("RESULTS — Qwen structured 8 frames")
+print("RESULTS — VideoLLaVA structured 16 frames")
 print("="*60)
 for v, (c,t) in stats.items():
     print(f"  {v}: {c}/{t} = {c/t:.1%}" if t else "")
