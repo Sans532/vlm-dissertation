@@ -1,0 +1,639 @@
+Mon Jun 29 20:04:12 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     Off |   00000000:1F:00.0 Off |                  N/A |
+| 30%   28C    P8              4W /  250W |       1MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading Video-LLaVA ...
+Loading weights:   0%|          | 0/1077 [00:00<?, ?it/s]Loading weights:   0%|          | 1/1077 [00:00<11:53,  1.51it/s]Loading weights:   0%|          | 2/1077 [00:00<08:21,  2.15it/s]Loading weights:   1%|          | 9/1077 [00:01<02:16,  7.85it/s]Loading weights:   2%|▏         | 25/1077 [00:01<00:47, 22.38it/s]Loading weights:   4%|▍         | 41/1077 [00:02<00:38, 27.25it/s]Loading weights:   5%|▌         | 57/1077 [00:02<00:30, 33.44it/s]Loading weights:   7%|▋         | 73/1077 [00:02<00:25, 39.04it/s]Loading weights:   7%|▋         | 78/1077 [00:03<00:28, 34.99it/s]Loading weights:   8%|▊         | 89/1077 [00:03<00:27, 35.89it/s]Loading weights:   9%|▊         | 93/1077 [00:03<00:27, 35.70it/s]Loading weights:  10%|▉         | 105/1077 [00:03<00:25, 38.22it/s]Loading weights:  10%|█         | 109/1077 [00:03<00:25, 37.43it/s]Loading weights:  11%|█         | 121/1077 [00:04<00:26, 36.03it/s]Loading weights:  13%|█▎        | 137/1077 [00:04<00:20, 45.32it/s]Loading weights:  13%|█▎        | 142/1077 [00:04<00:20, 45.52it/s]Loading weights:  14%|█▍        | 153/1077 [00:04<00:24, 38.42it/s]Loading weights:  16%|█▌        | 169/1077 [00:05<00:17, 50.93it/s]Loading weights:  16%|█▌        | 175/1077 [00:05<00:19, 46.09it/s]Loading weights:  17%|█▋        | 185/1077 [00:05<00:24, 36.55it/s]Loading weights:  18%|█▊        | 190/1077 [00:05<00:24, 35.68it/s]Loading weights:  19%|█▊        | 201/1077 [00:06<00:23, 36.89it/s]Loading weights:  20%|██        | 217/1077 [00:06<00:21, 40.19it/s]Loading weights:  22%|██▏       | 233/1077 [00:06<00:19, 42.74it/s]Loading weights:  23%|██▎       | 249/1077 [00:07<00:18, 44.01it/s]Loading weights:  25%|██▍       | 265/1077 [00:07<00:19, 42.59it/s]Loading weights:  26%|██▌       | 281/1077 [00:07<00:17, 44.53it/s]Loading weights:  27%|██▋       | 286/1077 [00:07<00:17, 44.66it/s]Loading weights:  28%|██▊       | 297/1077 [00:08<00:16, 46.90it/s]Loading weights:  29%|██▉       | 313/1077 [00:08<00:16, 46.58it/s]Loading weights:  31%|███       | 329/1077 [00:08<00:16, 45.40it/s]Loading weights:  32%|███▏      | 345/1077 [00:09<00:16, 45.39it/s]Loading weights:  33%|███▎      | 355/1077 [00:09<00:15, 45.95it/s]Loading weights:  34%|███▎      | 361/1077 [00:09<00:18, 38.45it/s]Loading weights:  35%|███▌      | 377/1077 [00:09<00:14, 46.74it/s]Loading weights:  35%|███▌      | 377/1077 [00:20<00:14, 46.74it/s]Loading weights:  36%|███▋      | 392/1077 [00:21<03:01,  3.77it/s]Loading weights:  36%|███▋      | 393/1077 [00:22<03:30,  3.25it/s]Loading weights:  38%|███▊      | 404/1077 [00:24<02:50,  3.94it/s]Loading weights:  38%|███▊      | 407/1077 [00:25<03:05,  3.62it/s]Loading weights:  38%|███▊      | 409/1077 [00:26<03:01,  3.69it/s]Loading weights:  38%|███▊      | 411/1077 [00:26<03:03,  3.62it/s]Loading weights:  38%|███▊      | 413/1077 [00:30<05:27,  2.03it/s]Loading weights:  38%|███▊      | 414/1077 [00:30<05:28,  2.02it/s]Loading weights:  39%|███▉      | 419/1077 [00:31<04:13,  2.60it/s]Loading weights:  39%|███▉      | 420/1077 [00:31<03:54,  2.80it/s]Loading weights:  39%|███▉      | 422/1077 [00:35<07:15,  1.50it/s]Loading weights:  39%|███▉      | 423/1077 [00:35<06:24,  1.70it/s]Loading weights:  39%|███▉      | 424/1077 [00:36<06:45,  1.61it/s]Loading weights:  40%|███▉      | 428/1077 [00:36<04:25,  2.44it/s]Loading weights:  40%|███▉      | 429/1077 [00:37<04:02,  2.67it/s]Loading weights:  40%|████      | 431/1077 [00:40<07:52,  1.37it/s]Loading weights:  40%|████      | 432/1077 [00:41<08:48,  1.22it/s]Loading weights:  40%|████      | 433/1077 [00:41<07:16,  1.47it/s]Loading weights:  41%|████      | 437/1077 [00:43<05:30,  1.93it/s]Loading weights:  41%|████      | 438/1077 [00:43<05:15,  2.02it/s]Loading weights:  41%|████      | 440/1077 [00:47<09:39,  1.10it/s]Loading weights:  41%|████      | 441/1077 [00:47<08:40,  1.22it/s]Loading weights:  41%|████      | 442/1077 [00:47<07:06,  1.49it/s]Loading weights:  41%|████▏     | 446/1077 [00:48<04:45,  2.21it/s]Loading weights:  42%|████▏     | 447/1077 [00:48<04:14,  2.48it/s]Loading weights:  42%|████▏     | 449/1077 [00:51<07:52,  1.33it/s]Loading weights:  42%|████▏     | 450/1077 [00:52<07:08,  1.46it/s]Loading weights:  42%|████▏     | 451/1077 [00:53<07:27,  1.40it/s]Loading weights:  42%|████▏     | 455/1077 [00:53<03:58,  2.61it/s]Loading weights:  42%|████▏     | 456/1077 [00:53<03:53,  2.66it/s]Loading weights:  43%|████▎     | 458/1077 [00:57<09:02,  1.14it/s]Loading weights:  43%|████▎     | 459/1077 [00:58<08:31,  1.21it/s]Loading weights:  43%|████▎     | 460/1077 [00:58<07:38,  1.34it/s]Loading weights:  43%|████▎     | 464/1077 [00:59<04:09,  2.46it/s]Loading weights:  43%|████▎     | 465/1077 [00:59<04:04,  2.50it/s]Loading weights:  43%|████▎     | 467/1077 [01:03<08:56,  1.14it/s]Loading weights:  44%|████▎     | 469/1077 [01:04<07:33,  1.34it/s]Loading weights:  44%|████▍     | 474/1077 [01:05<04:20,  2.32it/s]Loading weights:  44%|████▍     | 476/1077 [01:08<07:23,  1.36it/s]Loading weights:  44%|████▍     | 477/1077 [01:09<07:53,  1.27it/s]Loading weights:  44%|████▍     | 478/1077 [01:10<08:11,  1.22it/s]Loading weights:  45%|████▍     | 482/1077 [01:12<06:04,  1.63it/s]Loading weights:  45%|████▍     | 483/1077 [01:12<06:09,  1.61it/s]Loading weights:  45%|████▌     | 485/1077 [01:16<09:40,  1.02it/s]Loading weights:  46%|████▌     | 491/1077 [01:17<05:06,  1.91it/s]Loading weights:  46%|████▌     | 492/1077 [01:17<04:42,  2.07it/s]Loading weights:  46%|████▌     | 494/1077 [01:20<07:23,  1.32it/s]Loading weights:  46%|████▌     | 496/1077 [01:22<06:52,  1.41it/s]Loading weights:  46%|████▋     | 500/1077 [01:22<04:27,  2.16it/s]Loading weights:  47%|████▋     | 503/1077 [01:25<05:50,  1.64it/s]Loading weights:  47%|████▋     | 504/1077 [01:26<06:25,  1.49it/s]Loading weights:  47%|████▋     | 505/1077 [01:27<06:14,  1.53it/s]Loading weights:  47%|████▋     | 510/1077 [01:27<03:18,  2.85it/s]Loading weights:  48%|████▊     | 512/1077 [01:30<06:15,  1.51it/s]Loading weights:  48%|████▊     | 513/1077 [01:31<06:05,  1.54it/s]Loading weights:  48%|████▊     | 518/1077 [01:32<03:50,  2.42it/s]Loading weights:  48%|████▊     | 519/1077 [01:32<03:33,  2.61it/s]Loading weights:  48%|████▊     | 521/1077 [01:35<06:34,  1.41it/s]Loading weights:  49%|████▊     | 523/1077 [01:36<05:56,  1.56it/s]Loading weights:  49%|████▉     | 527/1077 [01:37<03:58,  2.30it/s]Loading weights:  49%|████▉     | 530/1077 [01:40<06:01,  1.51it/s]Loading weights:  49%|████▉     | 531/1077 [01:42<07:17,  1.25it/s]Loading weights:  49%|████▉     | 532/1077 [01:43<07:06,  1.28it/s]Loading weights:  50%|████▉     | 537/1077 [01:43<03:48,  2.37it/s]Loading weights:  50%|█████     | 539/1077 [01:46<06:08,  1.46it/s]Loading weights:  50%|█████     | 540/1077 [01:47<06:08,  1.46it/s]Loading weights:  51%|█████     | 545/1077 [01:48<03:50,  2.31it/s]Loading weights:  51%|█████     | 548/1077 [01:51<05:40,  1.55it/s]Loading weights:  51%|█████     | 550/1077 [01:53<05:54,  1.49it/s]Loading weights:  51%|█████▏    | 554/1077 [01:54<04:28,  1.95it/s]Loading weights:  52%|█████▏    | 555/1077 [01:55<04:31,  1.92it/s]Loading weights:  52%|█████▏    | 557/1077 [01:57<06:27,  1.34it/s]Loading weights:  52%|█████▏    | 558/1077 [01:58<06:35,  1.31it/s]Loading weights:  52%|█████▏    | 559/1077 [01:59<06:12,  1.39it/s]Loading weights:  52%|█████▏    | 563/1077 [01:59<03:17,  2.60it/s]Loading weights:  52%|█████▏    | 564/1077 [01:59<03:18,  2.59it/s]Loading weights:  53%|█████▎    | 566/1077 [02:02<06:24,  1.33it/s]Loading weights:  53%|█████▎    | 567/1077 [02:03<05:59,  1.42it/s]Loading weights:  53%|█████▎    | 568/1077 [02:03<05:15,  1.62it/s]Loading weights:  53%|█████▎    | 572/1077 [02:04<03:19,  2.53it/s]Loading weights:  53%|█████▎    | 575/1077 [02:07<05:08,  1.63it/s]Loading weights:  53%|█████▎    | 576/1077 [02:08<06:06,  1.37it/s]Loading weights:  54%|█████▎    | 577/1077 [02:09<06:17,  1.33it/s]Loading weights:  54%|█████▍    | 582/1077 [02:10<03:10,  2.59it/s]Loading weights:  54%|█████▍    | 584/1077 [02:13<05:28,  1.50it/s]Loading weights:  54%|█████▍    | 585/1077 [02:14<05:30,  1.49it/s]Loading weights:  55%|█████▍    | 590/1077 [02:14<03:19,  2.44it/s]Loading weights:  55%|█████▍    | 591/1077 [02:15<03:05,  2.62it/s]Loading weights:  55%|█████▌    | 593/1077 [02:19<06:37,  1.22it/s]Loading weights:  55%|█████▌    | 595/1077 [02:19<05:40,  1.41it/s]Loading weights:  56%|█████▌    | 599/1077 [02:21<04:22,  1.82it/s]Loading weights:  56%|█████▌    | 602/1077 [02:24<05:20,  1.48it/s]Loading weights:  56%|█████▌    | 603/1077 [02:24<05:28,  1.44it/s]Loading weights:  56%|█████▌    | 604/1077 [02:25<05:29,  1.43it/s]Loading weights:  57%|█████▋    | 609/1077 [02:26<03:02,  2.56it/s]Loading weights:  57%|█████▋    | 611/1077 [02:30<06:12,  1.25it/s]Loading weights:  57%|█████▋    | 612/1077 [02:31<06:07,  1.26it/s]Loading weights:  57%|█████▋    | 617/1077 [02:32<03:38,  2.11it/s]Loading weights:  57%|█████▋    | 618/1077 [02:32<03:27,  2.22it/s]Loading weights:  58%|█████▊    | 620/1077 [02:35<05:47,  1.31it/s]Loading weights:  58%|█████▊    | 622/1077 [02:36<05:03,  1.50it/s]Loading weights:  58%|█████▊    | 626/1077 [02:37<03:21,  2.24it/s]Loading weights:  58%|█████▊    | 629/1077 [02:40<04:39,  1.60it/s]Loading weights:  58%|█████▊    | 630/1077 [02:41<05:08,  1.45it/s]Loading weights:  59%|█████▊    | 631/1077 [02:42<05:50,  1.27it/s]Loading weights:  59%|█████▉    | 636/1077 [02:43<03:07,  2.35it/s]Loading weights:  59%|█████▉    | 638/1077 [02:47<06:30,  1.13it/s]Loading weights:  59%|█████▉    | 639/1077 [02:48<06:16,  1.16it/s]Loading weights:  60%|█████▉    | 644/1077 [02:49<03:39,  1.97it/s]Loading weights:  60%|█████▉    | 645/1077 [02:49<03:22,  2.13it/s]Loading weights:  60%|██████    | 647/1077 [02:52<05:35,  1.28it/s]Loading weights:  60%|██████    | 649/1077 [02:53<04:51,  1.47it/s]Loading weights:  61%|██████    | 653/1077 [02:54<03:07,  2.26it/s]Loading weights:  61%|██████    | 654/1077 [02:54<02:53,  2.44it/s]Loading weights:  61%|██████    | 656/1077 [02:57<04:49,  1.46it/s]Loading weights:  61%|██████    | 657/1077 [02:58<05:02,  1.39it/s]Loading weights:  61%|██████    | 658/1077 [02:58<04:46,  1.46it/s]Loading weights:  61%|██████▏   | 662/1077 [02:58<02:21,  2.93it/s]Loading weights:  62%|██████▏   | 664/1077 [02:59<02:08,  3.20it/s]Loading weights:  62%|██████▏   | 665/1077 [03:02<05:24,  1.27it/s]Loading weights:  62%|██████▏   | 666/1077 [03:03<05:02,  1.36it/s]Loading weights:  62%|██████▏   | 667/1077 [03:03<04:06,  1.66it/s]Loading weights:  62%|██████▏   | 671/1077 [03:04<02:39,  2.54it/s]Loading weights:  63%|██████▎   | 674/1077 [03:07<04:26,  1.51it/s]Loading weights:  63%|██████▎   | 675/1077 [03:07<03:53,  1.72it/s]Loading weights:  63%|██████▎   | 676/1077 [03:08<04:09,  1.61it/s]Loading weights:  63%|██████▎   | 680/1077 [03:09<02:41,  2.46it/s]Loading weights:  64%|██████▎   | 686/1077 [03:10<01:58,  3.31it/s]Loading weights:  68%|██████▊   | 727/1077 [03:10<00:18, 19.20it/s]Loading weights:  69%|██████▉   | 743/1077 [03:10<00:14, 22.96it/s]Loading weights:  70%|███████   | 759/1077 [03:11<00:16, 19.52it/s]Loading weights:  72%|███████▏  | 775/1077 [03:12<00:13, 22.94it/s]Loading weights:  73%|███████▎  | 791/1077 [03:12<00:09, 28.65it/s]Loading weights:  75%|███████▍  | 807/1077 [03:13<00:08, 30.93it/s]Loading weights:  76%|███████▋  | 823/1077 [03:13<00:07, 33.92it/s]Loading weights:  78%|███████▊  | 839/1077 [03:13<00:06, 36.59it/s]Loading weights:  79%|███████▉  | 855/1077 [03:14<00:05, 39.30it/s]Loading weights:  81%|████████  | 871/1077 [03:14<00:04, 41.61it/s]Loading weights:  82%|████████▏ | 887/1077 [03:14<00:04, 43.74it/s]Loading weights:  84%|████████▍ | 903/1077 [03:15<00:03, 45.58it/s]Loading weights:  85%|████████▌ | 919/1077 [03:15<00:03, 44.76it/s]Loading weights:  87%|████████▋ | 935/1077 [03:15<00:02, 47.81it/s]Loading weights:  88%|████████▊ | 951/1077 [03:16<00:02, 44.95it/s]Loading weights:  90%|████████▉ | 967/1077 [03:16<00:02, 47.10it/s]Loading weights:  91%|█████████▏| 983/1077 [03:16<00:02, 43.83it/s]Loading weights:  93%|█████████▎| 999/1077 [03:17<00:01, 49.24it/s]Loading weights:  94%|█████████▍| 1015/1077 [03:17<00:01, 43.83it/s]Loading weights:  96%|█████████▌| 1031/1077 [03:17<00:00, 47.74it/s]Loading weights:  97%|█████████▋| 1047/1077 [03:18<00:00, 45.83it/s]Loading weights:  99%|█████████▊| 1063/1077 [03:18<00:00, 50.19it/s]Loading weights: 100%|██████████| 1077/1077 [03:18<00:00,  5.43it/s]
+Some parameters are on the meta device because they were offloaded to the cpu.
+[transformers] Requested torchvision backend is not available. Falling back to pil backend.
+Model loaded.
+
+Clips: 100 | frames: 8 | views: exo + ego
+
+[1/100] uniandes_bouldering_022_12 (GT=Novice)
+  exo ERROR: No frames
+  exo: Unknown X
+  ego ERROR: No frames
+  ego: Unknown X
+
+[2/100] uniandes_bouldering_037_38 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 44.06 MiB is free. Including non-PyTorch memory, this process has 10.52 GiB memory in use. Of the allocated memory 9.98 GiB is allocated by PyTorch, and 355.67 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 32.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.09 GiB is allocated by PyTorch, and 259.85 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[3/100] uniandes_bouldering_024_44 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 44.06 MiB is free. Including non-PyTorch memory, this process has 10.52 GiB memory in use. Of the allocated memory 10.16 GiB is allocated by PyTorch, and 172.10 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 252.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 102.06 MiB is free. Including non-PyTorch memory, this process has 10.46 GiB memory in use. Of the allocated memory 10.02 GiB is allocated by PyTorch, and 264.14 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[4/100] uniandes_bouldering_035_53 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 40.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.02 GiB is allocated by PyTorch, and 325.67 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 44.06 MiB is free. Including non-PyTorch memory, this process has 10.52 GiB memory in use. Of the allocated memory 10.07 GiB is allocated by PyTorch, and 263.85 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[5/100] uniandes_bouldering_027_19 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 36.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.13 GiB is allocated by PyTorch, and 214.04 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 14.06 MiB is free. Including non-PyTorch memory, this process has 10.55 GiB memory in use. Of the allocated memory 10.23 GiB is allocated by PyTorch, and 131.20 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[6/100] uniandes_bouldering_034_56 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 34.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.25 GiB is allocated by PyTorch, and 89.32 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 86.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 66.06 MiB is free. Including non-PyTorch memory, this process has 10.50 GiB memory in use. Of the allocated memory 9.94 GiB is allocated by PyTorch, and 380.76 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[7/100] uniandes_bouldering_025_13 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.02 GiB is allocated by PyTorch, and 322.76 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[8/100] uniandes_bouldering_032_81 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[9/100] uniandes_bouldering_035_28 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[10/100] uniandes_bouldering_033_38 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[11/100] uniandes_bouldering_022_26 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[12/100] uniandes_bouldering_034_94 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[13/100] uniandes_bouldering_027_20 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[14/100] uniandes_bouldering_026_48 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[15/100] uniandes_bouldering_023_42 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[16/100] uniandes_bouldering_033_60 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[17/100] uniandes_bouldering_027_56 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[18/100] uniandes_bouldering_035_98 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[19/100] uniandes_bouldering_029_41 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[20/100] uniandes_bouldering_034_98 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[21/100] uniandes_bouldering_030_60 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[22/100] uniandes_bouldering_023_53 (GT=Early Expert)
+  exo ERROR: No frames
+  exo: Unknown X
+  ego ERROR: No frames
+  ego: Unknown X
+
+[23/100] uniandes_bouldering_023_71 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[24/100] uniandes_bouldering_027_17 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[25/100] uniandes_bouldering_029_77 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[26/100] uniandes_bouldering_036_17 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[27/100] uniandes_bouldering_026_14 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[28/100] uniandes_bouldering_030_25 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[29/100] uniandes_bouldering_029_71 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[30/100] uniandes_bouldering_031_68 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[31/100] uniandes_bouldering_036_4 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[32/100] uniandes_bouldering_023_77 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X
+  ego ERROR: No frames
+  ego: Unknown X
+
+[33/100] uniandes_bouldering_037_49 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[34/100] uniandes_bouldering_033_27 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[35/100] uniandes_bouldering_037_2 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[36/100] uniandes_bouldering_036_47 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[37/100] uniandes_bouldering_024_6 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[38/100] uniandes_bouldering_025_14 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[39/100] uniandes_bouldering_029_8 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[40/100] uniandes_bouldering_035_37 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[41/100] uniandes_bouldering_022_20 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[42/100] uniandes_bouldering_025_38 (GT=Early Expert)
+  exo ERROR: No frames
+  exo: Unknown X
+  ego ERROR: No frames
+  ego: Unknown X
+
+[43/100] uniandes_bouldering_027_114 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[44/100] uniandes_bouldering_026_72 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[45/100] uniandes_bouldering_033_33 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[46/100] uniandes_bouldering_022_33 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[47/100] uniandes_bouldering_032_28 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[48/100] uniandes_bouldering_029_65 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[49/100] uniandes_bouldering_030_26 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[50/100] uniandes_bouldering_033_12 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[51/100] uniandes_bouldering_025_81 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[52/100] uniandes_bouldering_027_58 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[53/100] uniandes_bouldering_034_21 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[54/100] uniandes_bouldering_034_8 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[55/100] uniandes_bouldering_034_65 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[56/100] uniandes_bouldering_028_52 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[57/100] uniandes_bouldering_029_74 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[58/100] uniandes_bouldering_032_75 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[59/100] uniandes_bouldering_034_37 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[60/100] uniandes_bouldering_030_61 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[61/100] uniandes_bouldering_022_49 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[62/100] uniandes_bouldering_022_13 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[63/100] uniandes_bouldering_028_34 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[64/100] uniandes_bouldering_030_29 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[65/100] uniandes_bouldering_032_21 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[66/100] uniandes_bouldering_023_44 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[67/100] uniandes_bouldering_024_60 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[68/100] uniandes_bouldering_025_16 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[69/100] uniandes_bouldering_022_62 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[70/100] uniandes_bouldering_035_21 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[71/100] uniandes_bouldering_036_48 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[72/100] uniandes_bouldering_023_11 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X
+  ego ERROR: No frames
+  ego: Unknown X
+
+[73/100] uniandes_bouldering_029_9 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[74/100] uniandes_bouldering_026_22 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[75/100] uniandes_bouldering_027_87 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[76/100] uniandes_bouldering_036_60 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[77/100] uniandes_bouldering_032_66 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[78/100] uniandes_bouldering_024_54 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X
+  ego ERROR: No frames
+  ego: Unknown X
+
+[79/100] uniandes_bouldering_026_26 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[80/100] uniandes_bouldering_024_32 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[81/100] uniandes_bouldering_023_2 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[82/100] uniandes_bouldering_026_23 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[83/100] uniandes_bouldering_022_72 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[84/100] uniandes_bouldering_036_50 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[85/100] uniandes_bouldering_033_45 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[86/100] uniandes_bouldering_032_2 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[87/100] uniandes_bouldering_022_5 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X
+  ego ERROR: No frames
+  ego: Unknown X
+
+[88/100] uniandes_bouldering_033_55 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[89/100] uniandes_bouldering_036_57 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[90/100] uniandes_bouldering_037_52 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[91/100] uniandes_bouldering_026_21 (GT=Novice)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[92/100] uniandes_bouldering_031_30 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X
+  ego ERROR: No frames
+  ego: Unknown X
+
+[93/100] uniandes_bouldering_036_12 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[94/100] uniandes_bouldering_025_52 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X
+  ego ERROR: No frames
+  ego: Unknown X
+
+[95/100] uniandes_bouldering_029_28 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[96/100] uniandes_bouldering_027_2 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[97/100] uniandes_bouldering_028_24 (GT=Early Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[98/100] uniandes_bouldering_031_69 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[99/100] uniandes_bouldering_029_48 (GT=Intermediate Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+[100/100] uniandes_bouldering_036_8 (GT=Late Expert)
+  exo ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  exo: Unknown X
+  ego ERROR: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 38.06 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.03 GiB is allocated by PyTorch, and 310.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  ego: Unknown X
+
+============================================================
+RESULTS — VideoLLaVA 4-class 8 frames
+============================================================
+  exo: 0/100 = 0.0%
+  ego: 0/100 = 0.0%
+
+Random chance: 25%
+
+Exo predictions: {'Unknown': 100}
+Ego predictions: {'Unknown': 100}
+============================================================
