@@ -1,4 +1,4 @@
-clip_id,take_folder,ground_truth,exo_answer,exo_predicted,exo_correct,ego_answer,ego_predicted,ego_correct
+clip_id,take_folder,ground_truth,exo_full_answer,exo_predicted,exo_correct,ego_full_answer,ego_predicted,ego_correct
 0ec8c380-66df-414c-8ed1-a644c76539d1,uniandes_bouldering_022_12,Novice,ERROR,Unknown,False,ERROR,Unknown,False
 586597cc-59c5-45d5-9596-0b6506d9c0ba,uniandes_bouldering_037_38,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
 9ceee09a-ab19-4463-baac-0ed48d21827e,uniandes_bouldering_024_44,Novice,ERROR,Unknown,False,ERROR,Unknown,False

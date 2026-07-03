@@ -1,0 +1,60 @@
+DIAGNOSTIC REPORT — Late Expert
+=================================================================
+
+--- 8 FRAMES ---
+Frames: frame_01_t0.0s.jpg, frame_02_t10.9s.jpg, frame_03_t21.9s.jpg, frame_04_t32.9s.jpg, frame_05_t43.8s.jpg, frame_06_t54.8s.jpg, frame_07_t65.8s.jpg, frame_08_t76.7s.jpg
+
+Q (people_count): How many people are visible in this video? Answer with a number only.
+A: 1
+
+Q (location): Where is the person? Choose exactly one: on the wall climbing / standing on the ground / not visible
+A: The person is standing on the ground.
+
+Q (activity): Describe what the person is doing in one sentence.
+A: The person is climbing an indoor rock climbing wall, reaching up to grab a hold with their right hand while their left hand is extended for balance.
+
+Q (height): How high up the wall is the person? Choose one: not on wall / low (bottom third) / mid-wall / high (top third)
+A: The person is in the mid-wall position.
+
+Q (skill): Is this person a Novice or a Late Expert at bouldering? Answer only: Novice or Late Expert
+A: Novice
+
+
+--- 16 FRAMES ---
+Frames: frame_01_t0.0s.jpg, frame_02_t5.5s.jpg, frame_03_t10.9s.jpg, frame_04_t16.4s.jpg, frame_05_t21.9s.jpg, frame_06_t27.4s.jpg, frame_07_t32.9s.jpg, frame_08_t38.4s.jpg, frame_09_t43.8s.jpg, frame_10_t49.3s.jpg, frame_11_t54.8s.jpg, frame_12_t60.3s.jpg, frame_13_t65.8s.jpg, frame_14_t71.2s.jpg, frame_15_t76.7s.jpg, frame_16_t82.2s.jpg
+
+Q (people_count): How many people are visible in this video? Answer with a number only.
+A: 1
+
+Q (location): Where is the person? Choose exactly one: on the wall climbing / standing on the ground / not visible
+A: The person is standing on the ground.
+
+Q (activity): Describe what the person is doing in one sentence.
+A: The person is climbing an indoor rock climbing wall, reaching up to grab a hold with their right hand while their left hand is extended for balance.
+
+Q (height): How high up the wall is the person? Choose one: not on wall / low (bottom third) / mid-wall / high (top third)
+A: The person is high (top third) up the wall.
+
+Q (skill): Is this person a Novice or a Late Expert at bouldering? Answer only: Novice or Late Expert
+A: Novice
+
+
+--- 32 FRAMES ---
+Frames: frame_01_t0.0s.jpg, frame_02_t2.7s.jpg, frame_03_t5.5s.jpg, frame_04_t8.2s.jpg, frame_05_t10.9s.jpg, frame_06_t13.7s.jpg, frame_07_t16.4s.jpg, frame_08_t19.2s.jpg, frame_09_t21.9s.jpg, frame_10_t24.6s.jpg, frame_11_t27.4s.jpg, frame_12_t30.1s.jpg, frame_13_t32.9s.jpg, frame_14_t35.6s.jpg, frame_15_t38.4s.jpg, frame_16_t41.1s.jpg, frame_17_t43.8s.jpg, frame_18_t46.6s.jpg, frame_19_t49.3s.jpg, frame_20_t52.1s.jpg, frame_21_t54.8s.jpg, frame_22_t57.5s.jpg, frame_23_t60.3s.jpg, frame_24_t63.0s.jpg, frame_25_t65.8s.jpg, frame_26_t68.5s.jpg, frame_27_t71.2s.jpg, frame_28_t74.0s.jpg, frame_29_t76.7s.jpg, frame_30_t79.5s.jpg, frame_31_t82.2s.jpg, frame_32_t84.9s.jpg
+
+Q (people_count): How many people are visible in this video? Answer with a number only.
+A: ERROR: CUDA out of memory. Tried to allocate 6.44 GiB. GPU 0 has a total capacity of 69.75 GiB of which 5.56 GiB is free. Process 2015854 has 26.81 GiB memory in use. Including non-PyTorch memory, this process has 64.14 GiB memory in use. Of the allocated memory 57.03 GiB is allocated by PyTorch, and 6.56 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+Q (location): Where is the person? Choose exactly one: on the wall climbing / standing on the ground / not visible
+A: ERROR: CUDA out of memory. Tried to allocate 6.44 GiB. GPU 0 has a total capacity of 69.75 GiB of which 5.56 GiB is free. Process 2015854 has 26.81 GiB memory in use. Including non-PyTorch memory, this process has 64.14 GiB memory in use. Of the allocated memory 57.03 GiB is allocated by PyTorch, and 6.56 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+Q (activity): Describe what the person is doing in one sentence.
+A: ERROR: CUDA out of memory. Tried to allocate 6.44 GiB. GPU 0 has a total capacity of 69.75 GiB of which 5.56 GiB is free. Process 2015854 has 26.81 GiB memory in use. Including non-PyTorch memory, this process has 64.14 GiB memory in use. Of the allocated memory 57.03 GiB is allocated by PyTorch, and 6.56 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+Q (height): How high up the wall is the person? Choose one: not on wall / low (bottom third) / mid-wall / high (top third)
+A: ERROR: CUDA out of memory. Tried to allocate 6.44 GiB. GPU 0 has a total capacity of 69.75 GiB of which 5.56 GiB is free. Process 2015854 has 26.81 GiB memory in use. Including non-PyTorch memory, this process has 64.14 GiB memory in use. Of the allocated memory 57.03 GiB is allocated by PyTorch, and 6.56 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+Q (skill): Is this person a Novice or a Late Expert at bouldering? Answer only: Novice or Late Expert
+A: ERROR: CUDA out of memory. Tried to allocate 6.44 GiB. GPU 0 has a total capacity of 69.75 GiB of which 5.56 GiB is free. Process 2015854 has 26.81 GiB memory in use. Including non-PyTorch memory, this process has 64.14 GiB memory in use. Of the allocated memory 57.03 GiB is allocated by PyTorch, and 6.56 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+

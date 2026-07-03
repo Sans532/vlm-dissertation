@@ -1,0 +1,100 @@
+Wed Jul  1 20:31:59 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     Off |   00000000:21:00.0 Off |                  N/A |
+| 30%   27C    P8             20W /  250W |       1MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading Qwen2.5-VL-7B ...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:52<10:36:29, 52.46s/it]Loading weights:   0%|          | 2/729 [00:53<4:31:58, 22.45s/it] Loading weights:   7%|▋         | 52/729 [00:54<05:58,  1.89it/s] Loading weights:   8%|▊         | 60/729 [00:59<06:08,  1.82it/s]Loading weights:   9%|▉         | 65/729 [01:02<06:08,  1.80it/s]Loading weights:  10%|▉         | 72/729 [01:02<04:47,  2.29it/s]Loading weights:  10%|█         | 76/729 [01:09<07:05,  1.53it/s]Loading weights:  11%|█         | 79/729 [01:10<06:08,  1.76it/s]Loading weights:  12%|█▏        | 88/729 [01:13<05:08,  2.08it/s]Loading weights:  12%|█▏        | 90/729 [01:16<06:33,  1.63it/s]Loading weights:  14%|█▎        | 100/729 [01:19<05:05,  2.06it/s]Loading weights:  14%|█▍        | 102/729 [01:22<06:21,  1.64it/s]Loading weights:  15%|█▌        | 112/729 [01:26<04:54,  2.09it/s]Loading weights:  16%|█▌        | 113/729 [01:26<04:49,  2.13it/s]Loading weights:  16%|█▌        | 114/729 [01:26<04:38,  2.21it/s]Loading weights:  17%|█▋        | 124/729 [01:32<05:12,  1.93it/s]Loading weights:  17%|█▋        | 126/729 [01:32<04:42,  2.13it/s]Loading weights:  19%|█▊        | 136/729 [01:35<03:39,  2.70it/s]Loading weights:  19%|█▉        | 137/729 [01:38<05:35,  1.76it/s]Loading weights:  20%|██        | 148/729 [01:42<04:25,  2.18it/s]Loading weights:  21%|██        | 150/729 [01:45<05:24,  1.79it/s]Loading weights:  22%|██▏       | 160/729 [01:49<04:54,  1.93it/s]Loading weights:  22%|██▏       | 161/729 [01:50<04:39,  2.03it/s]Loading weights:  22%|██▏       | 162/729 [01:50<04:34,  2.07it/s]Loading weights:  24%|██▎       | 172/729 [01:55<04:45,  1.95it/s]Loading weights:  24%|██▎       | 173/729 [01:56<04:48,  1.93it/s]Loading weights:  25%|██▌       | 184/729 [01:59<03:43,  2.44it/s]Loading weights:  25%|██▌       | 185/729 [02:02<05:08,  1.76it/s]Loading weights:  26%|██▌       | 186/729 [02:03<04:57,  1.82it/s]Loading weights:  27%|██▋       | 196/729 [02:06<03:50,  2.31it/s]Loading weights:  27%|██▋       | 197/729 [02:06<03:52,  2.28it/s]Loading weights:  27%|██▋       | 198/729 [02:09<05:35,  1.58it/s]Loading weights:  29%|██▊       | 208/729 [02:12<03:59,  2.18it/s]Loading weights:  29%|██▊       | 209/729 [02:13<03:59,  2.17it/s]Loading weights:  29%|██▉       | 210/729 [02:13<03:53,  2.22it/s]Loading weights:  30%|███       | 220/729 [02:18<04:15,  2.00it/s]Loading weights:  30%|███       | 221/729 [02:19<04:02,  2.09it/s]Loading weights:  30%|███       | 222/729 [02:19<04:19,  1.95it/s]Loading weights:  32%|███▏      | 232/729 [02:22<03:04,  2.69it/s]Loading weights:  32%|███▏      | 233/729 [02:25<04:36,  1.79it/s]Loading weights:  32%|███▏      | 234/729 [02:25<04:21,  1.89it/s]Loading weights:  33%|███▎      | 244/729 [02:29<03:47,  2.13it/s]Loading weights:  34%|███▎      | 246/729 [02:32<04:50,  1.66it/s]Loading weights:  35%|███▌      | 256/729 [02:35<03:34,  2.21it/s]Loading weights:  35%|███▌      | 257/729 [02:36<03:38,  2.16it/s]Loading weights:  37%|███▋      | 268/729 [02:42<03:56,  1.95it/s]Loading weights:  37%|███▋      | 270/729 [02:42<03:38,  2.10it/s]Loading weights:  38%|███▊      | 280/729 [02:46<02:59,  2.50it/s]Loading weights:  39%|███▊      | 281/729 [02:49<04:15,  1.75it/s]Loading weights:  40%|████      | 292/729 [02:52<03:14,  2.25it/s]Loading weights:  40%|████      | 293/729 [02:52<03:08,  2.31it/s]Loading weights:  40%|████      | 294/729 [02:56<04:44,  1.53it/s]Loading weights:  42%|████▏     | 304/729 [02:59<03:23,  2.09it/s]Loading weights:  42%|████▏     | 306/729 [03:00<03:11,  2.21it/s]Loading weights:  43%|████▎     | 316/729 [03:06<03:37,  1.90it/s]Loading weights:  45%|████▍     | 328/729 [03:10<02:59,  2.23it/s]Loading weights:  45%|████▌     | 329/729 [03:13<03:48,  1.75it/s]Loading weights:  52%|█████▏    | 379/729 [03:13<00:44,  7.81it/s]Loading weights:  53%|█████▎    | 384/729 [03:13<00:40,  8.52it/s]Loading weights:  54%|█████▎    | 391/729 [03:14<00:36,  9.16it/s]Loading weights:  55%|█████▌    | 401/729 [03:14<00:27, 11.72it/s]Loading weights:  56%|█████▌    | 406/729 [03:14<00:26, 12.01it/s]Loading weights:  57%|█████▋    | 413/729 [03:14<00:21, 14.57it/s]Loading weights:  57%|█████▋    | 417/729 [03:15<00:22, 13.61it/s]Loading weights:  58%|█████▊    | 425/729 [03:15<00:16, 17.95it/s]Loading weights:  59%|█████▉    | 429/729 [03:15<00:20, 14.58it/s]Loading weights:  60%|██████    | 439/729 [03:16<00:16, 17.91it/s]Loading weights:  62%|██████▏   | 449/729 [03:16<00:11, 23.76it/s]Loading weights:  62%|██████▏   | 453/729 [03:16<00:14, 19.55it/s]Loading weights:  63%|██████▎   | 461/729 [03:16<00:10, 24.98it/s]Loading weights:  64%|██████▍   | 465/729 [03:17<00:13, 19.95it/s]Loading weights:  65%|██████▍   | 473/729 [03:17<00:09, 26.38it/s]Loading weights:  66%|██████▌   | 478/729 [03:17<00:11, 21.97it/s]Loading weights:  67%|██████▋   | 485/729 [03:17<00:09, 26.18it/s]Loading weights:  67%|██████▋   | 489/729 [03:18<00:11, 20.12it/s]Loading weights:  68%|██████▊   | 497/729 [03:18<00:08, 26.34it/s]Loading weights:  69%|██████▊   | 501/729 [03:18<00:11, 19.21it/s]Loading weights:  70%|██████▉   | 509/729 [03:18<00:08, 24.80it/s]Loading weights:  70%|███████   | 513/729 [03:19<00:10, 20.09it/s]Loading weights:  71%|███████▏  | 521/729 [03:19<00:07, 27.21it/s]Loading weights:  72%|███████▏  | 525/729 [03:19<00:10, 20.06it/s]Loading weights:  73%|███████▎  | 533/729 [03:19<00:07, 26.66it/s]Loading weights:  74%|███████▎  | 537/729 [03:20<00:09, 20.84it/s]Loading weights:  74%|███████▍  | 541/729 [03:20<00:09, 20.13it/s]Loading weights:  75%|███████▌  | 547/729 [03:20<00:09, 19.23it/s]Loading weights:  76%|███████▌  | 551/729 [03:21<00:08, 20.92it/s]Loading weights:  77%|███████▋  | 559/729 [03:21<00:08, 19.13it/s]Loading weights:  78%|███████▊  | 569/729 [03:21<00:06, 26.38it/s]Loading weights:  79%|███████▊  | 573/729 [03:22<00:07, 21.05it/s]Loading weights:  79%|███████▉  | 577/729 [03:22<00:06, 23.32it/s]Loading weights:  80%|███████▉  | 583/729 [03:22<00:07, 20.77it/s]Loading weights:  81%|████████  | 589/729 [03:22<00:05, 25.66it/s]Loading weights:  82%|████████▏ | 595/729 [03:23<00:06, 20.65it/s]Loading weights:  83%|████████▎ | 603/729 [03:23<00:04, 28.46it/s]Loading weights:  83%|████████▎ | 608/729 [03:23<00:05, 21.82it/s]Loading weights:  84%|████████▍ | 613/729 [03:23<00:05, 23.01it/s]Loading weights:  85%|████████▍ | 617/729 [03:23<00:04, 24.85it/s]Loading weights:  85%|████████▌ | 621/729 [03:24<00:05, 21.08it/s]Loading weights:  86%|████████▌ | 624/729 [03:24<00:05, 19.89it/s]Loading weights:  87%|████████▋ | 631/729 [03:24<00:04, 20.40it/s]Loading weights:  87%|████████▋ | 634/729 [03:24<00:04, 21.14it/s]Loading weights:  88%|████████▊ | 643/729 [03:25<00:04, 19.32it/s]Loading weights:  90%|████████▉ | 653/729 [03:25<00:02, 27.44it/s]Loading weights:  90%|█████████ | 657/729 [03:25<00:03, 21.16it/s]Loading weights:  91%|█████████ | 661/729 [03:25<00:03, 20.93it/s]Loading weights:  91%|█████████▏| 667/729 [03:26<00:03, 19.40it/s]Loading weights:  93%|█████████▎| 677/729 [03:26<00:01, 27.56it/s]Loading weights:  93%|█████████▎| 681/729 [03:26<00:02, 21.05it/s]Loading weights:  94%|█████████▍| 685/729 [03:26<00:01, 23.48it/s]Loading weights:  95%|█████████▍| 691/729 [03:27<00:01, 19.76it/s]Loading weights:  96%|█████████▌| 697/729 [03:27<00:01, 24.81it/s]Loading weights:  96%|█████████▋| 703/729 [03:27<00:01, 20.16it/s]Loading weights:  98%|█████████▊| 713/729 [03:28<00:00, 27.52it/s]Loading weights:  98%|█████████▊| 717/729 [03:28<00:00, 22.29it/s]Loading weights: 100%|█████████▉| 726/729 [03:30<00:00,  7.38it/s]Loading weights: 100%|██████████| 729/729 [03:30<00:00,  3.46it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (168850 > 131072). Running this sequence through the model will result in indexing errors
+Model loaded.
+
+=================================================================
+LEVEL: Novice  |  n_frames=8
+Frames: frame_01_t0.0s.jpg, frame_02_t3.0s.jpg, frame_03_t6.0s.jpg, frame_04_t9.0s.jpg, frame_05_t12.1s.jpg, frame_06_t15.1s.jpg, frame_07_t18.1s.jpg, frame_08_t21.1s.jpg
+=================================================================
+  [people_count]
+  Q: How many people are visible in this video? Answer with a number only.
+  A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+  [location]
+  Q: Where is the person? Choose exactly one: on the wall climbing / standing on the ground / not visible
+  A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+  [activity]
+  Q: Describe what the person is doing in one sentence.
+  A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+  [height]
+  Q: How high up the wall is the person? Choose one: not on wall / low (bottom third) / mid-wall / high (top third)
+  A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+  [skill]
+  Q: Is this person a Novice or a Novice at bouldering? Answer only: Novice or Novice
+  A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+=================================================================
+LEVEL: Novice  |  n_frames=16
+Frames: frame_01_t0.0s.jpg, frame_02_t1.5s.jpg, frame_03_t3.0s.jpg, frame_04_t4.5s.jpg, frame_05_t6.0s.jpg, frame_06_t7.5s.jpg, frame_07_t9.0s.jpg, frame_08_t10.5s.jpg, frame_09_t12.1s.jpg, frame_10_t13.6s.jpg, frame_11_t15.1s.jpg, frame_12_t16.6s.jpg, frame_13_t18.1s.jpg, frame_14_t19.6s.jpg, frame_15_t21.1s.jpg, frame_16_t22.6s.jpg
+=================================================================
+  [people_count]
+  Q: How many people are visible in this video? Answer with a number only.
+  A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+  [location]
+  Q: Where is the person? Choose exactly one: on the wall climbing / standing on the ground / not visible
+  A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+  [activity]
+  Q: Describe what the person is doing in one sentence.
+  A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+  [height]
+  Q: How high up the wall is the person? Choose one: not on wall / low (bottom third) / mid-wall / high (top third)
+  A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+  [skill]
+  Q: Is this person a Novice or a Novice at bouldering? Answer only: Novice or Novice
+  A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+=================================================================
+LEVEL: Novice  |  n_frames=32
+Frames: frame_01_t0.0s.jpg, frame_02_t0.7s.jpg, frame_03_t1.5s.jpg, frame_04_t2.2s.jpg, frame_05_t3.0s.jpg, frame_06_t3.8s.jpg, frame_07_t4.5s.jpg, frame_08_t5.3s.jpg, frame_09_t6.0s.jpg, frame_10_t6.8s.jpg, frame_11_t7.5s.jpg, frame_12_t8.3s.jpg, frame_13_t9.0s.jpg, frame_14_t9.8s.jpg, frame_15_t10.5s.jpg, frame_16_t11.3s.jpg, frame_17_t12.1s.jpg, frame_18_t12.8s.jpg, frame_19_t13.6s.jpg, frame_20_t14.3s.jpg, frame_21_t15.1s.jpg, frame_22_t15.8s.jpg, frame_23_t16.6s.jpg, frame_24_t17.3s.jpg, frame_25_t18.1s.jpg, frame_26_t18.8s.jpg, frame_27_t19.6s.jpg, frame_28_t20.3s.jpg, frame_29_t21.1s.jpg, frame_30_t21.9s.jpg, frame_31_t22.6s.jpg, frame_32_t23.4s.jpg
+=================================================================
+  [people_count]
+  Q: How many people are visible in this video? Answer with a number only.
+  A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+  [location]
+  Q: Where is the person? Choose exactly one: on the wall climbing / standing on the ground / not visible
+  A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+  [activity]
+  Q: Describe what the person is doing in one sentence.
+  A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+  [height]
+  Q: How high up the wall is the person? Choose one: not on wall / low (bottom third) / mid-wall / high (top third)
+  A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+  [skill]
+  Q: Is this person a Novice or a Novice at bouldering? Answer only: Novice or Novice
+  A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+Saved: /home/s2850007/dissertation/repo/dissertation_v2/results/diagnostics_all_levels/Novice_diagnostic.json
+Saved: /home/s2850007/dissertation/repo/dissertation_v2/results/diagnostics_all_levels/Novice_diagnostic.txt
+Done.

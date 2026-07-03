@@ -1,0 +1,60 @@
+DIAGNOSTIC REPORT — Novice
+=================================================================
+
+--- 8 FRAMES ---
+Frames: frame_01_t0.0s.jpg, frame_02_t3.0s.jpg, frame_03_t6.0s.jpg, frame_04_t9.0s.jpg, frame_05_t12.1s.jpg, frame_06_t15.1s.jpg, frame_07_t18.1s.jpg, frame_08_t21.1s.jpg
+
+Q (people_count): How many people are visible in this video? Answer with a number only.
+A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+Q (location): Where is the person? Choose exactly one: on the wall climbing / standing on the ground / not visible
+A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+Q (activity): Describe what the person is doing in one sentence.
+A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+Q (height): How high up the wall is the person? Choose one: not on wall / low (bottom third) / mid-wall / high (top third)
+A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+Q (skill): Is this person a Novice or a Novice at bouldering? Answer only: Novice or Novice
+A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+
+--- 16 FRAMES ---
+Frames: frame_01_t0.0s.jpg, frame_02_t1.5s.jpg, frame_03_t3.0s.jpg, frame_04_t4.5s.jpg, frame_05_t6.0s.jpg, frame_06_t7.5s.jpg, frame_07_t9.0s.jpg, frame_08_t10.5s.jpg, frame_09_t12.1s.jpg, frame_10_t13.6s.jpg, frame_11_t15.1s.jpg, frame_12_t16.6s.jpg, frame_13_t18.1s.jpg, frame_14_t19.6s.jpg, frame_15_t21.1s.jpg, frame_16_t22.6s.jpg
+
+Q (people_count): How many people are visible in this video? Answer with a number only.
+A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+Q (location): Where is the person? Choose exactly one: on the wall climbing / standing on the ground / not visible
+A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+Q (activity): Describe what the person is doing in one sentence.
+A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+Q (height): How high up the wall is the person? Choose one: not on wall / low (bottom third) / mid-wall / high (top third)
+A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+Q (skill): Is this person a Novice or a Novice at bouldering? Answer only: Novice or Novice
+A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+
+--- 32 FRAMES ---
+Frames: frame_01_t0.0s.jpg, frame_02_t0.7s.jpg, frame_03_t1.5s.jpg, frame_04_t2.2s.jpg, frame_05_t3.0s.jpg, frame_06_t3.8s.jpg, frame_07_t4.5s.jpg, frame_08_t5.3s.jpg, frame_09_t6.0s.jpg, frame_10_t6.8s.jpg, frame_11_t7.5s.jpg, frame_12_t8.3s.jpg, frame_13_t9.0s.jpg, frame_14_t9.8s.jpg, frame_15_t10.5s.jpg, frame_16_t11.3s.jpg, frame_17_t12.1s.jpg, frame_18_t12.8s.jpg, frame_19_t13.6s.jpg, frame_20_t14.3s.jpg, frame_21_t15.1s.jpg, frame_22_t15.8s.jpg, frame_23_t16.6s.jpg, frame_24_t17.3s.jpg, frame_25_t18.1s.jpg, frame_26_t18.8s.jpg, frame_27_t19.6s.jpg, frame_28_t20.3s.jpg, frame_29_t21.1s.jpg, frame_30_t21.9s.jpg, frame_31_t22.6s.jpg, frame_32_t23.4s.jpg
+
+Q (people_count): How many people are visible in this video? Answer with a number only.
+A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+Q (location): Where is the person? Choose exactly one: on the wall climbing / standing on the ground / not visible
+A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+Q (activity): Describe what the person is doing in one sentence.
+A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+Q (height): How high up the wall is the person? Choose one: not on wall / low (bottom third) / mid-wall / high (top third)
+A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+Q (skill): Is this person a Novice or a Novice at bouldering? Answer only: Novice or Novice
+A: ERROR: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+
+

@@ -1,0 +1,111 @@
+Thu Jul  2 12:40:11 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H200                    On  |   00000000:3B:00.0 Off |                   On |
+| N/A   55C    P0            476W /  700W |   27551MiB / 143771MiB |     N/A      Default |
+|                                         |                        |              Enabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| MIG devices:                                                                            |
++------------------+----------------------------------+-----------+-----------------------+
+| GPU  GI  CI  MIG |              Shared Memory-Usage |        Vol|        Shared         |
+|      ID  ID  Dev |                Shared BAR1-Usage | SM     Unc| CE ENC  DEC  OFA  JPG |
+|                  |                                  |        ECC|                       |
+|==================+==================================+===========+=======================|
+|  0    1   0   0  |              44MiB / 71424MiB    | 60      0 |  3   0    3    0    3 |
+|                  |               0MiB / 59237MiB    |           |                       |
++------------------+----------------------------------+-----------+-----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading Qwen2.5-VL-7B ...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [02:56<35:47:10, 176.96s/it]Loading weights:   0%|          | 2/729 [02:57<14:48:28, 73.33s/it] Loading weights:   7%|▋         | 54/729 [03:15<22:16,  1.98s/it]  Loading weights:   9%|▉         | 64/729 [03:17<17:44,  1.60s/it]Loading weights:   9%|▉         | 65/729 [03:18<17:21,  1.57s/it]Loading weights:   9%|▉         | 66/729 [03:18<16:52,  1.53s/it]Loading weights:  10%|▉         | 72/729 [03:25<15:37,  1.43s/it]Loading weights:  10%|█         | 76/729 [03:43<22:14,  2.04s/it]Loading weights:  11%|█         | 77/729 [03:43<20:50,  1.92s/it]Loading weights:  11%|█         | 78/729 [03:44<19:16,  1.78s/it]Loading weights:  12%|█▏        | 88/729 [03:50<12:12,  1.14s/it]Loading weights:  12%|█▏        | 89/729 [03:56<16:03,  1.51s/it]Loading weights:  12%|█▏        | 90/729 [03:56<14:38,  1.37s/it]Loading weights:  14%|█▎        | 100/729 [04:15<17:32,  1.67s/it]Loading weights:  14%|█▍        | 101/729 [04:16<16:49,  1.61s/it]Loading weights:  14%|█▍        | 102/729 [04:31<30:24,  2.91s/it]Loading weights:  15%|█▌        | 112/729 [04:37<15:54,  1.55s/it]Loading weights:  16%|█▌        | 113/729 [04:37<14:47,  1.44s/it]Loading weights:  16%|█▌        | 114/729 [04:37<13:37,  1.33s/it]Loading weights:  17%|█▋        | 124/729 [04:48<11:56,  1.18s/it]Loading weights:  17%|█▋        | 125/729 [04:48<11:08,  1.11s/it]Loading weights:  17%|█▋        | 126/729 [04:48<10:25,  1.04s/it]Loading weights:  19%|█▊        | 136/729 [04:54<07:17,  1.36it/s]Loading weights:  19%|█▉        | 137/729 [05:08<17:29,  1.77s/it]Loading weights:  20%|██        | 148/729 [05:18<12:34,  1.30s/it]Loading weights:  21%|██        | 150/729 [05:24<14:48,  1.53s/it]Loading weights:  22%|██▏       | 160/729 [05:38<13:40,  1.44s/it]Loading weights:  22%|██▏       | 161/729 [05:38<13:08,  1.39s/it]Loading weights:  24%|██▎       | 172/729 [05:50<11:30,  1.24s/it]Loading weights:  24%|██▍       | 174/729 [05:51<10:25,  1.13s/it]Loading weights:  25%|██▌       | 184/729 [06:04<10:59,  1.21s/it]Loading weights:  25%|██▌       | 185/729 [06:19<18:40,  2.06s/it]Loading weights:  27%|██▋       | 196/729 [06:25<11:48,  1.33s/it]Loading weights:  27%|██▋       | 197/729 [06:25<11:12,  1.26s/it]Loading weights:  27%|██▋       | 198/729 [06:39<19:42,  2.23s/it]Loading weights:  29%|██▊       | 208/729 [06:44<11:19,  1.30s/it]Loading weights:  29%|██▊       | 209/729 [06:44<10:51,  1.25s/it]Loading weights:  29%|██▉       | 210/729 [06:45<10:06,  1.17s/it]Loading weights:  30%|███       | 220/729 [07:09<16:08,  1.90s/it]Loading weights:  30%|███       | 221/729 [07:10<15:02,  1.78s/it]Loading weights:  30%|███       | 222/729 [07:10<13:42,  1.62s/it]Loading weights:  32%|███▏      | 232/729 [07:14<07:41,  1.08it/s]Loading weights:  32%|███▏      | 233/729 [07:34<19:59,  2.42s/it]Loading weights:  33%|███▎      | 244/729 [07:39<10:45,  1.33s/it]Loading weights:  34%|███▎      | 245/729 [07:39<10:12,  1.26s/it]Loading weights:  34%|███▎      | 246/729 [07:47<14:34,  1.81s/it]Loading weights:  35%|███▌      | 256/729 [07:53<08:47,  1.12s/it]Loading weights:  35%|███▌      | 258/729 [07:53<07:37,  1.03it/s]Loading weights:  37%|███▋      | 268/729 [08:14<11:57,  1.56s/it]Loading weights:  38%|███▊      | 280/729 [08:20<07:54,  1.06s/it]Loading weights:  39%|███▊      | 281/729 [08:33<12:40,  1.70s/it]Loading weights:  39%|███▊      | 282/729 [08:37<13:32,  1.82s/it]Loading weights:  40%|████      | 292/729 [08:45<09:41,  1.33s/it]Loading weights:  40%|████      | 293/729 [08:45<09:09,  1.26s/it]Loading weights:  40%|████      | 294/729 [08:55<14:33,  2.01s/it]Loading weights:  42%|████▏     | 304/729 [09:09<11:34,  1.64s/it]Loading weights:  42%|████▏     | 306/729 [09:09<10:04,  1.43s/it]Loading weights:  43%|████▎     | 316/729 [09:30<12:11,  1.77s/it]Loading weights:  43%|████▎     | 317/729 [09:33<12:49,  1.87s/it]Loading weights:  44%|████▎     | 318/729 [09:34<11:49,  1.73s/it]Loading weights:  45%|████▍     | 328/729 [09:39<07:06,  1.06s/it]Loading weights:  45%|████▌     | 329/729 [09:44<09:18,  1.40s/it]Loading weights:  45%|████▌     | 330/729 [09:45<08:36,  1.30s/it]Loading weights:  52%|█████▏    | 381/729 [09:45<00:58,  5.91it/s]Loading weights:  53%|█████▎    | 387/729 [09:46<00:55,  6.21it/s]Loading weights:  54%|█████▍    | 392/729 [09:46<00:50,  6.64it/s]Loading weights:  54%|█████▍    | 397/729 [09:46<00:46,  7.21it/s]Loading weights:  55%|█████▌    | 403/729 [09:47<00:41,  7.91it/s]Loading weights:  56%|█████▌    | 407/729 [09:47<00:37,  8.69it/s]Loading weights:  57%|█████▋    | 415/729 [09:48<00:35,  8.86it/s]Loading weights:  57%|█████▋    | 417/729 [09:48<00:34,  9.17it/s]Loading weights:  58%|█████▊    | 425/729 [09:48<00:22, 13.53it/s]Loading weights:  59%|█████▉    | 429/729 [09:50<00:40,  7.41it/s]Loading weights:  60%|█████▉    | 437/729 [09:50<00:27, 10.43it/s]Loading weights:  60%|██████    | 440/729 [09:52<00:52,  5.48it/s]Loading weights:  62%|██████▏   | 449/729 [09:54<00:52,  5.32it/s]Loading weights:  62%|██████▏   | 451/729 [09:56<01:28,  3.14it/s]Loading weights:  63%|██████▎   | 457/729 [09:57<01:11,  3.80it/s]Loading weights:  64%|██████▎   | 463/729 [09:59<01:11,  3.74it/s]Loading weights:  64%|██████▍   | 467/729 [09:59<00:57,  4.54it/s]Loading weights:  65%|██████▍   | 473/729 [09:59<00:39,  6.56it/s]Loading weights:  65%|██████▌   | 476/729 [10:01<00:57,  4.39it/s]Loading weights:  66%|██████▌   | 478/729 [10:02<01:17,  3.25it/s]Loading weights:  67%|██████▋   | 485/729 [10:03<00:46,  5.26it/s]Loading weights:  67%|██████▋   | 487/729 [10:03<00:52,  4.60it/s]Loading weights:  68%|██████▊   | 493/729 [10:03<00:34,  6.81it/s]Loading weights:  68%|██████▊   | 499/729 [10:04<00:31,  7.20it/s]Loading weights:  69%|██████▉   | 503/729 [10:04<00:25,  8.90it/s]Loading weights:  69%|██████▉   | 505/729 [10:05<00:23,  9.51it/s]Loading weights:  70%|███████   | 511/729 [10:05<00:24,  8.72it/s]Loading weights:  71%|███████   | 515/729 [10:05<00:19, 10.78it/s]Loading weights:  71%|███████▏  | 521/729 [10:06<00:14, 14.30it/s]Loading weights:  72%|███████▏  | 524/729 [10:06<00:20, 10.01it/s]Loading weights:  73%|███████▎  | 529/729 [10:07<00:16, 11.97it/s]Loading weights:  73%|███████▎  | 533/729 [10:07<00:13, 14.78it/s]Loading weights:  74%|███████▎  | 536/729 [10:07<00:20,  9.36it/s]Loading weights:  74%|███████▍  | 541/729 [10:07<00:14, 12.72it/s]Loading weights:  75%|███████▍  | 545/729 [10:08<00:11, 15.53it/s]Loading weights:  75%|███████▌  | 548/729 [10:08<00:20,  8.66it/s]Loading weights:  76%|███████▌  | 553/729 [10:09<00:14, 12.15it/s]Loading weights:  76%|███████▋  | 557/729 [10:14<01:14,  2.30it/s]Loading weights:  77%|███████▋  | 559/729 [10:14<01:09,  2.45it/s]Loading weights:  78%|███████▊  | 565/729 [10:15<00:41,  3.95it/s]Loading weights:  78%|███████▊  | 571/729 [10:15<00:28,  5.61it/s]Loading weights:  79%|███████▊  | 573/729 [10:17<00:45,  3.45it/s]Loading weights:  79%|███████▉  | 575/729 [10:17<00:45,  3.35it/s]Loading weights:  79%|███████▉  | 577/729 [10:18<00:50,  2.99it/s]Loading weights:  80%|███████▉  | 583/729 [10:19<00:38,  3.75it/s]Loading weights:  80%|████████  | 585/729 [10:20<00:36,  3.91it/s]Loading weights:  81%|████████  | 589/729 [10:20<00:28,  4.86it/s]Loading weights:  82%|████████▏ | 595/729 [10:21<00:26,  4.99it/s]Loading weights:  82%|████████▏ | 599/729 [10:22<00:22,  5.79it/s]Loading weights:  83%|████████▎ | 605/729 [10:22<00:14,  8.30it/s]Loading weights:  83%|████████▎ | 607/729 [10:25<00:36,  3.38it/s]Loading weights:  85%|████████▍ | 617/729 [10:25<00:20,  5.53it/s]Loading weights:  85%|████████▍ | 619/729 [10:27<00:27,  3.94it/s]Loading weights:  86%|████████▌ | 625/729 [10:27<00:17,  5.90it/s]Loading weights:  87%|████████▋ | 631/729 [10:27<00:13,  7.40it/s]Loading weights:  87%|████████▋ | 637/729 [10:27<00:08, 10.27it/s]Loading weights:  88%|████████▊ | 643/729 [10:28<00:07, 11.32it/s]Loading weights:  90%|████████▉ | 653/729 [10:28<00:04, 17.00it/s]Loading weights:  90%|█████████ | 657/729 [10:29<00:05, 12.50it/s]Loading weights:  91%|█████████ | 661/729 [10:29<00:05, 13.38it/s]Loading weights:  91%|█████████ | 665/729 [10:29<00:04, 15.58it/s]Loading weights:  92%|█████████▏| 668/729 [10:30<00:06,  9.59it/s]Loading weights:  92%|█████████▏| 673/729 [10:30<00:04, 12.86it/s]Loading weights:  93%|█████████▎| 679/729 [10:31<00:04, 10.32it/s]Loading weights:  94%|█████████▎| 683/729 [10:31<00:03, 12.18it/s]Loading weights:  95%|█████████▍| 689/729 [10:31<00:02, 15.40it/s]Loading weights:  95%|█████████▍| 692/729 [10:32<00:03, 10.07it/s]Loading weights:  96%|█████████▌| 697/729 [10:32<00:02, 12.14it/s]Loading weights:  96%|█████████▌| 701/729 [10:32<00:02, 13.80it/s]Loading weights:  97%|█████████▋| 704/729 [10:39<00:13,  1.88it/s]Loading weights:  97%|█████████▋| 709/729 [10:39<00:07,  2.80it/s]Loading weights:  98%|█████████▊| 715/729 [10:40<00:03,  3.55it/s]Loading weights: 100%|█████████▉| 726/729 [10:49<00:01,  1.80it/s]Loading weights: 100%|██████████| 729/729 [10:49<00:00,  1.12it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (168850 > 131072). Running this sequence through the model will result in indexing errors
+Model loaded.
+
+=================================================================
+LEVEL: Late Expert  |  n_frames=8
+Frames: frame_01_t0.0s.jpg, frame_02_t10.9s.jpg, frame_03_t21.9s.jpg, frame_04_t32.9s.jpg, frame_05_t43.8s.jpg, frame_06_t54.8s.jpg, frame_07_t65.8s.jpg, frame_08_t76.7s.jpg
+=================================================================
+  [people_count]
+  Q: How many people are visible in this video? Answer with a number only.
+  A: 1
+
+  [location]
+  Q: Where is the person? Choose exactly one: on the wall climbing / standing on the ground / not visible
+  A: The person is standing on the ground.
+
+  [activity]
+  Q: Describe what the person is doing in one sentence.
+  A: The person is climbing an indoor rock climbing wall, reaching up to grab a hold with their right hand while their left hand is extended for balance.
+
+  [height]
+  Q: How high up the wall is the person? Choose one: not on wall / low (bottom third) / mid-wall / high (top third)
+  A: The person is in the mid-wall position.
+
+  [skill]
+  Q: Is this person a Novice or a Late Expert at bouldering? Answer only: Novice or Late Expert
+  A: Novice
+
+=================================================================
+LEVEL: Late Expert  |  n_frames=16
+Frames: frame_01_t0.0s.jpg, frame_02_t5.5s.jpg, frame_03_t10.9s.jpg, frame_04_t16.4s.jpg, frame_05_t21.9s.jpg, frame_06_t27.4s.jpg, frame_07_t32.9s.jpg, frame_08_t38.4s.jpg, frame_09_t43.8s.jpg, frame_10_t49.3s.jpg, frame_11_t54.8s.jpg, frame_12_t60.3s.jpg, frame_13_t65.8s.jpg, frame_14_t71.2s.jpg, frame_15_t76.7s.jpg, frame_16_t82.2s.jpg
+=================================================================
+  [people_count]
+  Q: How many people are visible in this video? Answer with a number only.
+  A: 1
+
+  [location]
+  Q: Where is the person? Choose exactly one: on the wall climbing / standing on the ground / not visible
+  A: The person is standing on the ground.
+
+  [activity]
+  Q: Describe what the person is doing in one sentence.
+  A: The person is climbing an indoor rock climbing wall, reaching up to grab a hold with their right hand while their left hand is extended for balance.
+
+  [height]
+  Q: How high up the wall is the person? Choose one: not on wall / low (bottom third) / mid-wall / high (top third)
+  A: The person is high (top third) up the wall.
+
+  [skill]
+  Q: Is this person a Novice or a Late Expert at bouldering? Answer only: Novice or Late Expert
+  A: Novice
+
+=================================================================
+LEVEL: Late Expert  |  n_frames=32
+Frames: frame_01_t0.0s.jpg, frame_02_t2.7s.jpg, frame_03_t5.5s.jpg, frame_04_t8.2s.jpg, frame_05_t10.9s.jpg, frame_06_t13.7s.jpg, frame_07_t16.4s.jpg, frame_08_t19.2s.jpg, frame_09_t21.9s.jpg, frame_10_t24.6s.jpg, frame_11_t27.4s.jpg, frame_12_t30.1s.jpg, frame_13_t32.9s.jpg, frame_14_t35.6s.jpg, frame_15_t38.4s.jpg, frame_16_t41.1s.jpg, frame_17_t43.8s.jpg, frame_18_t46.6s.jpg, frame_19_t49.3s.jpg, frame_20_t52.1s.jpg, frame_21_t54.8s.jpg, frame_22_t57.5s.jpg, frame_23_t60.3s.jpg, frame_24_t63.0s.jpg, frame_25_t65.8s.jpg, frame_26_t68.5s.jpg, frame_27_t71.2s.jpg, frame_28_t74.0s.jpg, frame_29_t76.7s.jpg, frame_30_t79.5s.jpg, frame_31_t82.2s.jpg, frame_32_t84.9s.jpg
+=================================================================
+  [people_count]
+  Q: How many people are visible in this video? Answer with a number only.
+  A: ERROR: CUDA out of memory. Tried to allocate 6.44 GiB. GPU 0 has a total capacity of 69.75 GiB of which 5.56 GiB is free. Process 2015854 has 26.81 GiB memory in use. Including non-PyTorch memory, this process has 64.14 GiB memory in use. Of the allocated memory 57.03 GiB is allocated by PyTorch, and 6.56 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+  [location]
+  Q: Where is the person? Choose exactly one: on the wall climbing / standing on the ground / not visible
+  A: ERROR: CUDA out of memory. Tried to allocate 6.44 GiB. GPU 0 has a total capacity of 69.75 GiB of which 5.56 GiB is free. Process 2015854 has 26.81 GiB memory in use. Including non-PyTorch memory, this process has 64.14 GiB memory in use. Of the allocated memory 57.03 GiB is allocated by PyTorch, and 6.56 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+  [activity]
+  Q: Describe what the person is doing in one sentence.
+  A: ERROR: CUDA out of memory. Tried to allocate 6.44 GiB. GPU 0 has a total capacity of 69.75 GiB of which 5.56 GiB is free. Process 2015854 has 26.81 GiB memory in use. Including non-PyTorch memory, this process has 64.14 GiB memory in use. Of the allocated memory 57.03 GiB is allocated by PyTorch, and 6.56 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+  [height]
+  Q: How high up the wall is the person? Choose one: not on wall / low (bottom third) / mid-wall / high (top third)
+  A: ERROR: CUDA out of memory. Tried to allocate 6.44 GiB. GPU 0 has a total capacity of 69.75 GiB of which 5.56 GiB is free. Process 2015854 has 26.81 GiB memory in use. Including non-PyTorch memory, this process has 64.14 GiB memory in use. Of the allocated memory 57.03 GiB is allocated by PyTorch, and 6.56 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+  [skill]
+  Q: Is this person a Novice or a Late Expert at bouldering? Answer only: Novice or Late Expert
+  A: ERROR: CUDA out of memory. Tried to allocate 6.44 GiB. GPU 0 has a total capacity of 69.75 GiB of which 5.56 GiB is free. Process 2015854 has 26.81 GiB memory in use. Including non-PyTorch memory, this process has 64.14 GiB memory in use. Of the allocated memory 57.03 GiB is allocated by PyTorch, and 6.56 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+Saved: /home/s2850007/dissertation/repo/dissertation_v2/results/diagnostics_all_levels/Late_Expert_diagnostic.json
+Saved: /home/s2850007/dissertation/repo/dissertation_v2/results/diagnostics_all_levels/Late_Expert_diagnostic.txt
+Done.

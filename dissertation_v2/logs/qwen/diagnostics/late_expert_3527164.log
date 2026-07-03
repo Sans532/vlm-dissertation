@@ -1,0 +1,107 @@
+Thu Jul  2 23:14:59 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H200                    On  |   00000000:3B:00.0 Off |                   On |
+| N/A   49C    P0            323W /  700W |   18707MiB / 143771MiB |     N/A      Default |
+|                                         |                        |              Enabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| MIG devices:                                                                            |
++------------------+----------------------------------+-----------+-----------------------+
+| GPU  GI  CI  MIG |              Shared Memory-Usage |        Vol|        Shared         |
+|      ID  ID  Dev |                Shared BAR1-Usage | SM     Unc| CE ENC  DEC  OFA  JPG |
+|                  |                                  |        ECC|                       |
+|==================+==================================+===========+=======================|
+|  0    2   0   0  |              44MiB / 71424MiB    | 60      0 |  3   0    3    0    3 |
+|                  |               0MiB / 59237MiB    |           |                       |
++------------------+----------------------------------+-----------+-----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading Qwen2.5-VL-7B ...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [02:04<25:15:55, 124.94s/it]Loading weights:   0%|          | 2/729 [02:09<10:55:41, 54.11s/it] Loading weights:   7%|▋         | 54/729 [02:18<15:35,  1.39s/it]  Loading weights:   9%|▉         | 64/729 [02:27<14:15,  1.29s/it]Loading weights:   9%|▉         | 65/729 [02:31<15:01,  1.36s/it]Loading weights:  10%|█         | 76/729 [02:44<14:05,  1.30s/it]Loading weights:  11%|█         | 77/729 [02:44<13:40,  1.26s/it]Loading weights:  11%|█         | 78/729 [02:45<13:13,  1.22s/it]Loading weights:  12%|█▏        | 88/729 [02:51<10:09,  1.05it/s]Loading weights:  12%|█▏        | 89/729 [02:59<14:52,  1.39s/it]Loading weights:  12%|█▏        | 90/729 [03:00<14:10,  1.33s/it]Loading weights:  14%|█▎        | 100/729 [03:11<12:34,  1.20s/it]Loading weights:  14%|█▍        | 102/729 [03:17<15:10,  1.45s/it]Loading weights:  15%|█▌        | 112/729 [03:23<10:35,  1.03s/it]Loading weights:  16%|█▌        | 113/729 [03:24<10:30,  1.02s/it]Loading weights:  17%|█▋        | 124/729 [03:41<13:00,  1.29s/it]Loading weights:  17%|█▋        | 126/729 [03:41<11:52,  1.18s/it]Loading weights:  19%|█▊        | 136/729 [03:46<08:15,  1.20it/s]Loading weights:  19%|█▉        | 137/729 [03:53<12:20,  1.25s/it]Loading weights:  20%|██        | 148/729 [03:59<08:50,  1.10it/s]Loading weights:  20%|██        | 149/729 [04:00<08:47,  1.10it/s]Loading weights:  21%|██        | 150/729 [04:07<13:19,  1.38s/it]Loading weights:  22%|██▏       | 160/729 [04:19<11:57,  1.26s/it]Loading weights:  22%|██▏       | 162/729 [04:20<11:04,  1.17s/it]Loading weights:  24%|██▎       | 172/729 [04:32<10:50,  1.17s/it]Loading weights:  24%|██▍       | 174/729 [04:32<09:44,  1.05s/it]Loading weights:  25%|██▌       | 184/729 [04:38<07:45,  1.17it/s]Loading weights:  25%|██▌       | 185/729 [04:47<11:59,  1.32s/it]Loading weights:  27%|██▋       | 196/729 [04:56<09:47,  1.10s/it]Loading weights:  27%|██▋       | 197/729 [04:57<09:45,  1.10s/it]Loading weights:  27%|██▋       | 198/729 [05:03<13:04,  1.48s/it]Loading weights:  29%|██▊       | 208/729 [05:09<08:42,  1.00s/it]Loading weights:  29%|██▊       | 209/729 [05:09<08:13,  1.05it/s]Loading weights:  29%|██▉       | 210/729 [05:10<08:11,  1.06it/s]Loading weights:  30%|███       | 220/729 [05:29<12:29,  1.47s/it]Loading weights:  30%|███       | 222/729 [05:29<10:51,  1.28s/it]Loading weights:  32%|███▏      | 232/729 [05:34<07:15,  1.14it/s]Loading weights:  32%|███▏      | 233/729 [05:43<11:35,  1.40s/it]Loading weights:  33%|███▎      | 244/729 [05:48<07:36,  1.06it/s]Loading weights:  34%|███▎      | 245/729 [05:49<07:17,  1.11it/s]Loading weights:  34%|███▎      | 246/729 [06:03<15:55,  1.98s/it]Loading weights:  35%|███▌      | 256/729 [06:08<09:32,  1.21s/it]Loading weights:  35%|███▌      | 257/729 [06:08<08:59,  1.14s/it]Loading weights:  35%|███▌      | 258/729 [06:09<08:16,  1.05s/it]Loading weights:  37%|███▋      | 268/729 [06:21<09:01,  1.17s/it]Loading weights:  37%|███▋      | 270/729 [06:22<07:56,  1.04s/it]Loading weights:  38%|███▊      | 280/729 [06:29<06:28,  1.16it/s]Loading weights:  39%|███▊      | 281/729 [06:40<11:33,  1.55s/it]Loading weights:  40%|████      | 292/729 [06:44<07:09,  1.02it/s]Loading weights:  40%|████      | 293/729 [06:45<06:54,  1.05it/s]Loading weights:  40%|████      | 294/729 [06:56<12:39,  1.75s/it]Loading weights:  42%|████▏     | 304/729 [07:02<08:00,  1.13s/it]Loading weights:  42%|████▏     | 305/729 [07:02<07:28,  1.06s/it]Loading weights:  42%|████▏     | 306/729 [07:02<07:03,  1.00s/it]Loading weights:  43%|████▎     | 316/729 [07:21<10:20,  1.50s/it]Loading weights:  43%|████▎     | 317/729 [07:21<09:37,  1.40s/it]Loading weights:  45%|████▍     | 328/729 [07:27<06:17,  1.06it/s]Loading weights:  45%|████▌     | 329/729 [07:34<08:39,  1.30s/it]Loading weights:  45%|████▌     | 330/729 [07:34<07:58,  1.20s/it]Loading weights:  52%|█████▏    | 379/729 [07:34<01:00,  5.78it/s]Loading weights:  54%|█████▍    | 393/729 [07:35<00:51,  6.54it/s]Loading weights:  55%|█████▌    | 403/729 [07:36<00:45,  7.23it/s]Loading weights:  56%|█████▋    | 411/729 [07:37<00:39,  8.03it/s]Loading weights:  57%|█████▋    | 417/729 [07:37<00:39,  7.89it/s]Loading weights:  58%|█████▊    | 425/729 [07:38<00:31,  9.51it/s]Loading weights:  59%|█████▉    | 429/729 [07:39<00:35,  8.47it/s]Loading weights:  59%|█████▉    | 433/729 [07:39<00:31,  9.27it/s]Loading weights:  60%|██████    | 439/729 [07:39<00:30,  9.46it/s]Loading weights:  61%|██████    | 445/729 [07:40<00:24, 11.68it/s]Loading weights:  62%|██████▏   | 451/729 [07:40<00:26, 10.36it/s]Loading weights:  62%|██████▏   | 455/729 [07:40<00:22, 12.28it/s]Loading weights:  63%|██████▎   | 458/729 [07:41<00:20, 13.16it/s]Loading weights:  64%|██████▎   | 463/729 [07:43<00:46,  5.75it/s]Loading weights:  64%|██████▍   | 465/729 [07:43<00:44,  5.98it/s]Loading weights:  64%|██████▍   | 467/729 [07:43<00:50,  5.21it/s]Loading weights:  65%|██████▌   | 475/729 [07:45<00:56,  4.51it/s]Loading weights:  65%|██████▌   | 477/729 [07:46<00:50,  4.98it/s]Loading weights:  66%|██████▌   | 479/729 [07:46<00:52,  4.77it/s]Loading weights:  66%|██████▌   | 481/729 [07:46<00:45,  5.50it/s]Loading weights:  67%|██████▋   | 487/729 [07:47<00:42,  5.68it/s]Loading weights:  67%|██████▋   | 489/729 [07:48<00:44,  5.39it/s]Loading weights:  68%|██████▊   | 493/729 [07:48<00:31,  7.60it/s]Loading weights:  68%|██████▊   | 497/729 [07:48<00:28,  8.13it/s]Loading weights:  68%|██████▊   | 499/729 [07:50<01:03,  3.62it/s]Loading weights:  70%|██████▉   | 509/729 [07:50<00:29,  7.41it/s]Loading weights:  70%|███████   | 511/729 [07:52<00:48,  4.47it/s]Loading weights:  71%|███████▏  | 521/729 [07:52<00:25,  8.30it/s]Loading weights:  72%|███████▏  | 524/729 [07:53<00:30,  6.83it/s]Loading weights:  73%|███████▎  | 533/729 [07:53<00:17, 11.18it/s]Loading weights:  74%|███████▎  | 537/729 [07:55<00:28,  6.78it/s]Loading weights:  74%|███████▍  | 540/729 [07:55<00:27,  6.88it/s]Loading weights:  75%|███████▍  | 545/729 [07:55<00:21,  8.74it/s]Loading weights:  75%|███████▌  | 548/729 [07:56<00:25,  7.10it/s]Loading weights:  76%|███████▌  | 553/729 [07:56<00:18,  9.62it/s]Loading weights:  76%|███████▋  | 557/729 [07:56<00:15, 11.34it/s]Loading weights:  77%|███████▋  | 560/729 [07:57<00:21,  7.80it/s]Loading weights:  78%|███████▊  | 569/729 [07:57<00:11, 13.35it/s]Loading weights:  78%|███████▊  | 572/729 [07:58<00:16,  9.60it/s]Loading weights:  80%|███████▉  | 581/729 [07:58<00:10, 14.05it/s]Loading weights:  80%|████████  | 584/729 [07:59<00:13, 10.46it/s]Loading weights:  81%|████████  | 589/729 [07:59<00:12, 10.95it/s]Loading weights:  82%|████████▏ | 595/729 [08:00<00:13, 10.13it/s]Loading weights:  83%|████████▎ | 607/729 [08:01<00:10, 12.05it/s]Loading weights:  84%|████████▍ | 613/729 [08:01<00:07, 14.65it/s]Loading weights:  85%|████████▍ | 617/729 [08:01<00:07, 15.41it/s]Loading weights:  85%|████████▌ | 620/729 [08:02<00:09, 11.01it/s]Loading weights:  86%|████████▌ | 625/729 [08:02<00:08, 12.50it/s]Loading weights:  87%|████████▋ | 631/729 [08:03<00:08, 11.27it/s]Loading weights:  87%|████████▋ | 635/729 [08:03<00:07, 12.53it/s]Loading weights:  88%|████████▊ | 643/729 [08:04<00:08, 10.15it/s]Loading weights:  90%|████████▉ | 653/729 [08:04<00:04, 15.51it/s]Loading weights:  90%|████████▉ | 656/729 [08:05<00:06, 11.19it/s]Loading weights:  91%|█████████ | 661/729 [08:05<00:05, 12.81it/s]Loading weights:  91%|█████████▏| 667/729 [08:06<00:05, 11.27it/s]Loading weights:  92%|█████████▏| 671/729 [08:06<00:04, 12.41it/s]Loading weights:  93%|█████████▎| 679/729 [08:07<00:04, 11.67it/s]Loading weights:  93%|█████████▎| 681/729 [08:07<00:04, 11.34it/s]Loading weights:  94%|█████████▍| 685/729 [08:07<00:03, 13.74it/s]Loading weights:  95%|█████████▍| 691/729 [08:08<00:03, 10.71it/s]Loading weights:  96%|█████████▌| 701/729 [08:08<00:01, 14.99it/s]Loading weights:  96%|█████████▋| 703/729 [08:09<00:02, 10.16it/s]Loading weights:  97%|█████████▋| 709/729 [08:09<00:01, 12.69it/s]Loading weights:  98%|█████████▊| 715/729 [08:10<00:01, 10.78it/s]Loading weights:  99%|█████████▊| 719/729 [08:10<00:00, 12.83it/s]Loading weights: 100%|█████████▉| 726/729 [08:13<00:00,  4.19it/s]Loading weights: 100%|██████████| 729/729 [08:13<00:00,  1.48it/s]
+Model loaded.
+
+=================================================================
+LEVEL: Late Expert  |  n_frames=8
+Total frames: 8
+=================================================================
+
+  --- Frame 1/8: frame_01_t0.0s.jpg ---
+    [person_visible]: Yes.
+    [person_location]: The person in the image is not visible. The focus of the image is on a smartphone screen displaying a QR code, and there is no indication of a person's presence in the frame.
+    [person_action]: The person in the image appears to be standing and looking at the wall, as they are holding a smartphone with a QR code displayed on the screen, which suggests they might be interacting with something related to the wall or the climbing facility. The wall itself has various climbing holds, indicating it is a climbing wall. However, there is no direct evidence of the person actively climbing the wall in the image.
+    [body_position]: The person is holding a smartphone with both hands, positioned in front of their chest, with their feet not visible in the image.
+    [confidence]: cannot tell
+    [errors]: cannot tell
+
+  --- Frame 2/8: frame_02_t10.9s.jpg ---
+    [person_visible]: Yes.
+    [person_location]: The person in the image is on the ground.
+    [person_action]: The person in the image appears to be standing and looking at the wall.
+    [body_position]: The person is kneeling with their hands resting on the ground, facing the climbing wall, and their posture suggests they are preparing to climb or have just descended from it.
+    [confidence]: cannot tell
+    [errors]: cannot tell
+
+  --- Frame 3/8: frame_03_t21.9s.jpg ---
+    [person_visible]: Yes.
+    [person_location]: The person in the image is on the ground.
+    [person_action]: The person in the image appears to be standing and looking at the wall. They are not actively climbing, as their feet are on the ground and they are not positioned in a way that suggests they are in the middle of a climb.
+    [body_position]: The person is standing with their hands resting on the climbing wall, feet positioned apart for balance, and their back slightly arched as they prepare to climb.
+    [confidence]: cannot tell
+    [errors]: cannot tell
+
+  --- Frame 4/8: frame_04_t32.9s.jpg ---
+    [person_visible]: Yes.
+    [person_location]: The person in the image is on the ground.
+    [person_action]: The person in the image is climbing the wall.
+    [body_position]: The person is in a dynamic climbing stance with one hand reaching up to grasp a hold while the other hand is extended for balance, and their legs are positioned for stability as they prepare to ascend the wall.
+    [confidence]: yes
+    [errors]: cannot tell
+
+  --- Frame 5/8: frame_05_t43.8s.jpg ---
+    [person_visible]: Yes.
+    [person_location]: The person in the image is on the ground.
+    [person_action]: The person in the image is climbing the wall.
+    [body_position]: The person is hanging upside down with their hands gripping the climbing holds and their feet extended upwards, demonstrating a unique and challenging climbing posture.
+    [confidence]: yes
+    [errors]: cannot tell
+
+  --- Frame 6/8: frame_06_t54.8s.jpg ---
+    [person_visible]: Yes.
+    [person_location]: The person in the image is on the ground.
+    [person_action]: The person in the image is climbing the wall.
+    [body_position]: The person is hanging upside down with their hands gripping a hold at the top of the climbing wall, while their feet are positioned below, ready to find another grip.
+    [confidence]: yes
+    [errors]: cannot tell
+
+  --- Frame 7/8: frame_07_t65.8s.jpg ---
+    [person_visible]: Yes.
+    [person_location]: The person in the image is on the ground.
+    [person_action]: The person in the image is climbing the wall.
+    [body_position]: The person is climbing with their hands gripping a hold near the top of the wall and their feet positioned lower, demonstrating a dynamic and focused climbing posture.
+    [confidence]: yes
+    [errors]: cannot tell
+
+  --- Frame 8/8: frame_08_t76.7s.jpg ---
+    [person_visible]: Yes.
+    [person_location]: The person in the image is on the ground.
+    [person_action]: The person in the image is climbing the wall.
+    [body_position]: The person is climbing with one hand reaching up to a hold while their other arm is extended for balance, with one leg extended upwards and the other bent at the knee, maintaining a dynamic and focused posture.
+    [confidence]: yes
+    [errors]: cannot tell
+
+Saved: /home/s2850007/dissertation/repo/dissertation_v2/results/diagnostis_all_levels/Late_Expert_diagnostic.json
+Saved: /home/s2850007/dissertation/repo/dissertation_v2/results/diagnostis_all_levels/Late_Expert_diagnostic.txt
+Done.
