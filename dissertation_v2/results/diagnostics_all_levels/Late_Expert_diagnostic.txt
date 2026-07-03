@@ -2,59 +2,69 @@ DIAGNOSTIC REPORT — Late Expert
 =================================================================
 
 --- 8 FRAMES ---
-Frames: frame_01_t0.0s.jpg, frame_02_t10.9s.jpg, frame_03_t21.9s.jpg, frame_04_t32.9s.jpg, frame_05_t43.8s.jpg, frame_06_t54.8s.jpg, frame_07_t65.8s.jpg, frame_08_t76.7s.jpg
 
-Q (people_count): How many people are visible in this video? Answer with a number only.
-A: 1
+  Frame: frame_01_t0.0s.jpg
+    [person_visible]: Yes.
+    [person_location]: The person in the image is not visible. The focus of the image is on a smartphone screen displaying a QR code, and there is no indication of a person's presence in the frame.
+    [person_action]: The person in the image appears to be standing and looking at the wall, as they are holding a smartphone with a QR code displayed on the screen, which suggests they might be interacting with something related to the wall or the climbing facility. The wall itself has various climbing holds, indicating it is a climbing wall. However, there is no direct evidence of the person actively climbing the wall in the image.
+    [body_position]: The person is holding a smartphone with both hands, positioned in front of their chest, with their feet not visible in the image.
+    [confidence]: cannot tell
+    [errors]: cannot tell
 
-Q (location): Where is the person? Choose exactly one: on the wall climbing / standing on the ground / not visible
-A: The person is standing on the ground.
+  Frame: frame_02_t10.9s.jpg
+    [person_visible]: Yes.
+    [person_location]: The person in the image is on the ground.
+    [person_action]: The person in the image appears to be standing and looking at the wall.
+    [body_position]: The person is kneeling with their hands resting on the ground, facing the climbing wall, and their posture suggests they are preparing to climb or have just descended from it.
+    [confidence]: cannot tell
+    [errors]: cannot tell
 
-Q (activity): Describe what the person is doing in one sentence.
-A: The person is climbing an indoor rock climbing wall, reaching up to grab a hold with their right hand while their left hand is extended for balance.
+  Frame: frame_03_t21.9s.jpg
+    [person_visible]: Yes.
+    [person_location]: The person in the image is on the ground.
+    [person_action]: The person in the image appears to be standing and looking at the wall. They are not actively climbing, as their feet are on the ground and they are not positioned in a way that suggests they are in the middle of a climb.
+    [body_position]: The person is standing with their hands resting on the climbing wall, feet positioned apart for balance, and their back slightly arched as they prepare to climb.
+    [confidence]: cannot tell
+    [errors]: cannot tell
 
-Q (height): How high up the wall is the person? Choose one: not on wall / low (bottom third) / mid-wall / high (top third)
-A: The person is in the mid-wall position.
+  Frame: frame_04_t32.9s.jpg
+    [person_visible]: Yes.
+    [person_location]: The person in the image is on the ground.
+    [person_action]: The person in the image is climbing the wall.
+    [body_position]: The person is in a dynamic climbing stance with one hand reaching up to grasp a hold while the other hand is extended for balance, and their legs are positioned for stability as they prepare to ascend the wall.
+    [confidence]: yes
+    [errors]: cannot tell
 
-Q (skill): Is this person a Novice or a Late Expert at bouldering? Answer only: Novice or Late Expert
-A: Novice
+  Frame: frame_05_t43.8s.jpg
+    [person_visible]: Yes.
+    [person_location]: The person in the image is on the ground.
+    [person_action]: The person in the image is climbing the wall.
+    [body_position]: The person is hanging upside down with their hands gripping the climbing holds and their feet extended upwards, demonstrating a unique and challenging climbing posture.
+    [confidence]: yes
+    [errors]: cannot tell
 
+  Frame: frame_06_t54.8s.jpg
+    [person_visible]: Yes.
+    [person_location]: The person in the image is on the ground.
+    [person_action]: The person in the image is climbing the wall.
+    [body_position]: The person is hanging upside down with their hands gripping a hold at the top of the climbing wall, while their feet are positioned below, ready to find another grip.
+    [confidence]: yes
+    [errors]: cannot tell
 
---- 16 FRAMES ---
-Frames: frame_01_t0.0s.jpg, frame_02_t5.5s.jpg, frame_03_t10.9s.jpg, frame_04_t16.4s.jpg, frame_05_t21.9s.jpg, frame_06_t27.4s.jpg, frame_07_t32.9s.jpg, frame_08_t38.4s.jpg, frame_09_t43.8s.jpg, frame_10_t49.3s.jpg, frame_11_t54.8s.jpg, frame_12_t60.3s.jpg, frame_13_t65.8s.jpg, frame_14_t71.2s.jpg, frame_15_t76.7s.jpg, frame_16_t82.2s.jpg
+  Frame: frame_07_t65.8s.jpg
+    [person_visible]: Yes.
+    [person_location]: The person in the image is on the ground.
+    [person_action]: The person in the image is climbing the wall.
+    [body_position]: The person is climbing with their hands gripping a hold near the top of the wall and their feet positioned lower, demonstrating a dynamic and focused climbing posture.
+    [confidence]: yes
+    [errors]: cannot tell
 
-Q (people_count): How many people are visible in this video? Answer with a number only.
-A: 1
-
-Q (location): Where is the person? Choose exactly one: on the wall climbing / standing on the ground / not visible
-A: The person is standing on the ground.
-
-Q (activity): Describe what the person is doing in one sentence.
-A: The person is climbing an indoor rock climbing wall, reaching up to grab a hold with their right hand while their left hand is extended for balance.
-
-Q (height): How high up the wall is the person? Choose one: not on wall / low (bottom third) / mid-wall / high (top third)
-A: The person is high (top third) up the wall.
-
-Q (skill): Is this person a Novice or a Late Expert at bouldering? Answer only: Novice or Late Expert
-A: Novice
-
-
---- 32 FRAMES ---
-Frames: frame_01_t0.0s.jpg, frame_02_t2.7s.jpg, frame_03_t5.5s.jpg, frame_04_t8.2s.jpg, frame_05_t10.9s.jpg, frame_06_t13.7s.jpg, frame_07_t16.4s.jpg, frame_08_t19.2s.jpg, frame_09_t21.9s.jpg, frame_10_t24.6s.jpg, frame_11_t27.4s.jpg, frame_12_t30.1s.jpg, frame_13_t32.9s.jpg, frame_14_t35.6s.jpg, frame_15_t38.4s.jpg, frame_16_t41.1s.jpg, frame_17_t43.8s.jpg, frame_18_t46.6s.jpg, frame_19_t49.3s.jpg, frame_20_t52.1s.jpg, frame_21_t54.8s.jpg, frame_22_t57.5s.jpg, frame_23_t60.3s.jpg, frame_24_t63.0s.jpg, frame_25_t65.8s.jpg, frame_26_t68.5s.jpg, frame_27_t71.2s.jpg, frame_28_t74.0s.jpg, frame_29_t76.7s.jpg, frame_30_t79.5s.jpg, frame_31_t82.2s.jpg, frame_32_t84.9s.jpg
-
-Q (people_count): How many people are visible in this video? Answer with a number only.
-A: ERROR: CUDA out of memory. Tried to allocate 6.44 GiB. GPU 0 has a total capacity of 69.75 GiB of which 5.56 GiB is free. Process 2015854 has 26.81 GiB memory in use. Including non-PyTorch memory, this process has 64.14 GiB memory in use. Of the allocated memory 57.03 GiB is allocated by PyTorch, and 6.56 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
-
-Q (location): Where is the person? Choose exactly one: on the wall climbing / standing on the ground / not visible
-A: ERROR: CUDA out of memory. Tried to allocate 6.44 GiB. GPU 0 has a total capacity of 69.75 GiB of which 5.56 GiB is free. Process 2015854 has 26.81 GiB memory in use. Including non-PyTorch memory, this process has 64.14 GiB memory in use. Of the allocated memory 57.03 GiB is allocated by PyTorch, and 6.56 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
-
-Q (activity): Describe what the person is doing in one sentence.
-A: ERROR: CUDA out of memory. Tried to allocate 6.44 GiB. GPU 0 has a total capacity of 69.75 GiB of which 5.56 GiB is free. Process 2015854 has 26.81 GiB memory in use. Including non-PyTorch memory, this process has 64.14 GiB memory in use. Of the allocated memory 57.03 GiB is allocated by PyTorch, and 6.56 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
-
-Q (height): How high up the wall is the person? Choose one: not on wall / low (bottom third) / mid-wall / high (top third)
-A: ERROR: CUDA out of memory. Tried to allocate 6.44 GiB. GPU 0 has a total capacity of 69.75 GiB of which 5.56 GiB is free. Process 2015854 has 26.81 GiB memory in use. Including non-PyTorch memory, this process has 64.14 GiB memory in use. Of the allocated memory 57.03 GiB is allocated by PyTorch, and 6.56 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
-
-Q (skill): Is this person a Novice or a Late Expert at bouldering? Answer only: Novice or Late Expert
-A: ERROR: CUDA out of memory. Tried to allocate 6.44 GiB. GPU 0 has a total capacity of 69.75 GiB of which 5.56 GiB is free. Process 2015854 has 26.81 GiB memory in use. Including non-PyTorch memory, this process has 64.14 GiB memory in use. Of the allocated memory 57.03 GiB is allocated by PyTorch, and 6.56 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  Frame: frame_08_t76.7s.jpg
+    [person_visible]: Yes.
+    [person_location]: The person in the image is on the ground.
+    [person_action]: The person in the image is climbing the wall.
+    [body_position]: The person is climbing with one hand reaching up to a hold while their other arm is extended for balance, with one leg extended upwards and the other bent at the knee, maintaining a dynamic and focused posture.
+    [confidence]: yes
+    [errors]: cannot tell
 
 
