@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=RV_n8
 #SBATCH --partition=Teaching
-#SBATCH --gres=gpu:1
+#SBATCH --gres=gpu:h200_3g.71gb:1
 #SBATCH --time=12:00:00
 #SBATCH --mem=60G
 #SBATCH --cpus-per-task=4
