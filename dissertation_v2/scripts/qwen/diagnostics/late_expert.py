@@ -97,6 +97,29 @@ for n_frames in [8]:
             frame_result[q_key] = {"question": q_text, "answer": answer}
             print("    [" + q_key + "]: " + answer)
 
+        summary = (
+            "- Person visible: " + frame_result.get("person_visible", {}).get("answer", "unknown") + "\n"
+            "- Location: " + frame_result.get("person_location", {}).get("answer", "unknown") + "\n"
+            "- Action: " + frame_result.get("person_action", {}).get("answer", "unknown") + "\n"
+            "- Body position: " + frame_result.get("body_position", {}).get("answer", "unknown") + "\n"
+            "- Confident: " + frame_result.get("confidence", {}).get("answer", "unknown") + "\n"
+            "- Errors visible: " + frame_result.get("errors", {}).get("answer", "unknown")
+        )
+        skill_q = (
+            "Based on these observations about the climber in this image:\n"
+            + summary
+            + "\nWhat is their skill level? Answer only: Novice / Early Expert / Intermediate Expert / Late Expert"
+        )
+        try:
+            skill_answer = ask_model(img, skill_q)
+        except Exception as e:
+            skill_answer = "ERROR: " + str(e)
+            torch.cuda.empty_cache()
+            gc.collect()
+
+        frame_result["skill_from_observations"] = {"question": skill_q, "answer": skill_answer}
+        print("    [skill_from_observations]: " + skill_answer)
+
         del img_copy
         torch.cuda.empty_cache()
         gc.collect()
