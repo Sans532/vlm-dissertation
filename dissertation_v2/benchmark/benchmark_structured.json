@@ -1,14 +1,5 @@
 [
   {
-    "clip_id": "0ec8c380-66df-414c-8ed1-a644c76539d1",
-    "take_folder": "uniandes_bouldering_022_12",
-    "video_path_ego": "takes/uniandes_bouldering_022_12/frame_aligned_videos/aria01_214-1.mp4",
-    "video_path_exo": "takes/uniandes_bouldering_022_12/frame_aligned_videos/cam01.mp4",
-    "activity": "Bouldering",
-    "ground_truth": "Novice",
-    "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
-  },
-  {
     "clip_id": "586597cc-59c5-45d5-9596-0b6506d9c0ba",
     "take_folder": "uniandes_bouldering_037_38",
     "video_path_ego": "takes/uniandes_bouldering_037_38/frame_aligned_videos/aria01_214-1.mp4",
@@ -189,15 +180,6 @@
     "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
   },
   {
-    "clip_id": "e77f05f8-2458-47de-952a-303245322f2f",
-    "take_folder": "uniandes_bouldering_023_53",
-    "video_path_ego": "takes/uniandes_bouldering_023_53/frame_aligned_videos/aria01_214-1.mp4",
-    "video_path_exo": "takes/uniandes_bouldering_023_53/frame_aligned_videos/cam01.mp4",
-    "activity": "Bouldering",
-    "ground_truth": "Early Expert",
-    "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
-  },
-  {
     "clip_id": "7cef5f7e-d66d-4b23-b832-ff998d357784",
     "take_folder": "uniandes_bouldering_023_71",
     "video_path_ego": "takes/uniandes_bouldering_023_71/frame_aligned_videos/aria01_214-1.mp4",
@@ -279,15 +261,6 @@
     "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
   },
   {
-    "clip_id": "d065cac0-836c-4c1b-b255-134428b037c9",
-    "take_folder": "uniandes_bouldering_023_77",
-    "video_path_ego": "takes/uniandes_bouldering_023_77/frame_aligned_videos/aria01_214-1.mp4",
-    "video_path_exo": "takes/uniandes_bouldering_023_77/frame_aligned_videos/cam01.mp4",
-    "activity": "Bouldering",
-    "ground_truth": "Intermediate Expert",
-    "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
-  },
-  {
     "clip_id": "d33f338c-bebc-44a7-b3bb-17849a0fc068",
     "take_folder": "uniandes_bouldering_037_49",
     "video_path_ego": "takes/uniandes_bouldering_037_49/frame_aligned_videos/aria01_214-1.mp4",
@@ -366,15 +339,6 @@
     "video_path_exo": "takes/uniandes_bouldering_022_20/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
     "ground_truth": "Intermediate Expert",
-    "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
-  },
-  {
-    "clip_id": "368bcbb7-e89b-4fb5-8049-981c46c8250d",
-    "take_folder": "uniandes_bouldering_025_38",
-    "video_path_ego": "takes/uniandes_bouldering_025_38/frame_aligned_videos/aria01_214-1.mp4",
-    "video_path_exo": "takes/uniandes_bouldering_025_38/frame_aligned_videos/cam01.mp4",
-    "activity": "Bouldering",
-    "ground_truth": "Early Expert",
     "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
   },
   {
@@ -639,15 +603,6 @@
     "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
   },
   {
-    "clip_id": "783a070b-d9ca-4273-bb9d-0f6ad5939d60",
-    "take_folder": "uniandes_bouldering_023_11",
-    "video_path_ego": "takes/uniandes_bouldering_023_11/frame_aligned_videos/aria01_214-1.mp4",
-    "video_path_exo": "takes/uniandes_bouldering_023_11/frame_aligned_videos/cam01.mp4",
-    "activity": "Bouldering",
-    "ground_truth": "Intermediate Expert",
-    "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
-  },
-  {
     "clip_id": "4f53ded9-6a79-4ea0-bc28-f93981f4db82",
     "take_folder": "uniandes_bouldering_029_9",
     "video_path_ego": "takes/uniandes_bouldering_029_9/frame_aligned_videos/aria01_214-1.mp4",
@@ -688,15 +643,6 @@
     "take_folder": "uniandes_bouldering_032_66",
     "video_path_ego": "takes/uniandes_bouldering_032_66/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_032_66/frame_aligned_videos/cam01.mp4",
-    "activity": "Bouldering",
-    "ground_truth": "Late Expert",
-    "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
-  },
-  {
-    "clip_id": "50b31b18-a540-4294-9e4a-6a1d2007b872",
-    "take_folder": "uniandes_bouldering_024_54",
-    "video_path_ego": "takes/uniandes_bouldering_024_54/frame_aligned_videos/aria01_214-1.mp4",
-    "video_path_exo": "takes/uniandes_bouldering_024_54/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
     "ground_truth": "Late Expert",
     "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
@@ -774,15 +720,6 @@
     "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
   },
   {
-    "clip_id": "fe9cc639-8550-4f4b-bb1b-b6474dc740d9",
-    "take_folder": "uniandes_bouldering_022_5",
-    "video_path_ego": "takes/uniandes_bouldering_022_5/frame_aligned_videos/aria01_214-1.mp4",
-    "video_path_exo": "takes/uniandes_bouldering_022_5/frame_aligned_videos/cam01.mp4",
-    "activity": "Bouldering",
-    "ground_truth": "Intermediate Expert",
-    "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
-  },
-  {
     "clip_id": "6cc51836-6b79-4921-9024-d351486ad88c",
     "take_folder": "uniandes_bouldering_033_55",
     "video_path_ego": "takes/uniandes_bouldering_033_55/frame_aligned_videos/aria01_214-1.mp4",
@@ -819,30 +756,12 @@
     "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
   },
   {
-    "clip_id": "8d755767-c021-4782-8374-93f46af70075",
-    "take_folder": "uniandes_bouldering_031_30",
-    "video_path_ego": "takes/uniandes_bouldering_031_30/frame_aligned_videos/aria01_214-1.mp4",
-    "video_path_exo": "takes/uniandes_bouldering_031_30/frame_aligned_videos/cam01.mp4",
-    "activity": "Bouldering",
-    "ground_truth": "Late Expert",
-    "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
-  },
-  {
     "clip_id": "103eefc6-4c85-4d2f-877a-c56458767c63",
     "take_folder": "uniandes_bouldering_036_12",
     "video_path_ego": "takes/uniandes_bouldering_036_12/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_036_12/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
     "ground_truth": "Intermediate Expert",
-    "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
-  },
-  {
-    "clip_id": "f994a8f3-14ff-418d-b7f4-239c1a07f06d",
-    "take_folder": "uniandes_bouldering_025_52",
-    "video_path_ego": "takes/uniandes_bouldering_025_52/frame_aligned_videos/aria01_214-1.mp4",
-    "video_path_exo": "takes/uniandes_bouldering_025_52/frame_aligned_videos/cam01.mp4",
-    "activity": "Bouldering",
-    "ground_truth": "Late Expert",
     "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
   },
   {
@@ -895,6 +814,87 @@
     "take_folder": "uniandes_bouldering_036_8",
     "video_path_ego": "takes/uniandes_bouldering_036_8/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_036_8/frame_aligned_videos/cam01.mp4",
+    "activity": "Bouldering",
+    "ground_truth": "Late Expert",
+    "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
+  },
+  {
+    "clip_id": "90d40eba-fb77-4014-b51b-675005365f66",
+    "take_folder": "uniandes_bouldering_027_52",
+    "video_path_ego": "takes/uniandes_bouldering_027_52/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_bouldering_027_52/frame_aligned_videos/cam01.mp4",
+    "activity": "Bouldering",
+    "ground_truth": "Novice",
+    "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
+  },
+  {
+    "clip_id": "d822e2e6-4549-4ceb-82b3-666536ee7cd1",
+    "take_folder": "uniandes_bouldering_029_75",
+    "video_path_ego": "takes/uniandes_bouldering_029_75/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_bouldering_029_75/frame_aligned_videos/cam01.mp4",
+    "activity": "Bouldering",
+    "ground_truth": "Early Expert",
+    "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
+  },
+  {
+    "clip_id": "b843d724-be38-4855-9408-7c5cef73274d",
+    "take_folder": "uniandes_bouldering_034_69",
+    "video_path_ego": "takes/uniandes_bouldering_034_69/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_bouldering_034_69/frame_aligned_videos/cam01.mp4",
+    "activity": "Bouldering",
+    "ground_truth": "Early Expert",
+    "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
+  },
+  {
+    "clip_id": "ac7cf81b-2de9-4a6e-8274-4c5348fe6f05",
+    "take_folder": "uniandes_bouldering_036_26",
+    "video_path_ego": "takes/uniandes_bouldering_036_26/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_bouldering_036_26/frame_aligned_videos/cam01.mp4",
+    "activity": "Bouldering",
+    "ground_truth": "Intermediate Expert",
+    "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
+  },
+  {
+    "clip_id": "e4e88582-cb8a-49d4-a6ed-e1203e50b59b",
+    "take_folder": "uniandes_bouldering_032_30",
+    "video_path_ego": "takes/uniandes_bouldering_032_30/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_bouldering_032_30/frame_aligned_videos/cam01.mp4",
+    "activity": "Bouldering",
+    "ground_truth": "Intermediate Expert",
+    "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
+  },
+  {
+    "clip_id": "495c922c-4986-4fc9-8f80-478f2d888850",
+    "take_folder": "uniandes_bouldering_029_34",
+    "video_path_ego": "takes/uniandes_bouldering_029_34/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_bouldering_029_34/frame_aligned_videos/cam01.mp4",
+    "activity": "Bouldering",
+    "ground_truth": "Intermediate Expert",
+    "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
+  },
+  {
+    "clip_id": "b625c8f6-9346-42a5-97be-5db4a1c764c5",
+    "take_folder": "uniandes_bouldering_037_19",
+    "video_path_ego": "takes/uniandes_bouldering_037_19/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_bouldering_037_19/frame_aligned_videos/cam01.mp4",
+    "activity": "Bouldering",
+    "ground_truth": "Late Expert",
+    "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
+  },
+  {
+    "clip_id": "ec6ff8f4-3d40-4508-b83f-45c78c0be3b4",
+    "take_folder": "uniandes_bouldering_036_16",
+    "video_path_ego": "takes/uniandes_bouldering_036_16/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_bouldering_036_16/frame_aligned_videos/cam01.mp4",
+    "activity": "Bouldering",
+    "ground_truth": "Late Expert",
+    "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"
+  },
+  {
+    "clip_id": "4c052cb2-fd49-4601-a842-7eb09f24e76c",
+    "take_folder": "uniandes_bouldering_030_62",
+    "video_path_ego": "takes/uniandes_bouldering_030_62/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_bouldering_030_62/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
     "ground_truth": "Late Expert",
     "question_structured": "Watch these frames carefully.\nStep 1: Describe the person's body position and technique.\nStep 2: Identify any errors in their movement.\nStep 3: Classify their skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\nFormat:\nObservations: ...\nErrors: ...\nSkill Level: [your answer]"

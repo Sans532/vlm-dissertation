@@ -1,0 +1,143 @@
+Sat Jul  4 14:04:03 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.211.01             Driver Version: 570.211.01     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA RTX A6000               Off |   00000000:04:00.0 Off |                  Off |
+| 30%   47C    P8             21W /  300W |       0MiB /  49140MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading takes metadata...
+Loaded 5035 takes.
+
+Loading Qwen2.5-VL-7B ...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:02<33:10,  2.73s/it]Loading weights:   5%|▌         | 40/729 [00:03<00:41, 16.78it/s]Loading weights:   6%|▋         | 46/729 [00:03<00:36, 18.69it/s]Loading weights:   7%|▋         | 53/729 [00:03<00:30, 22.25it/s]Loading weights:   8%|▊         | 59/729 [00:03<00:28, 23.58it/s]Loading weights:   9%|▉         | 64/729 [00:03<00:27, 24.01it/s]Loading weights:   9%|▉         | 68/729 [00:03<00:26, 25.12it/s]Loading weights:  10%|█         | 76/729 [00:04<00:27, 23.91it/s]Loading weights:  11%|█         | 80/729 [00:04<00:29, 21.79it/s]Loading weights:  12%|█▏        | 89/729 [00:04<00:21, 29.15it/s]Loading weights:  14%|█▎        | 100/729 [00:05<00:26, 23.92it/s]Loading weights:  15%|█▌        | 112/729 [00:05<00:17, 34.47it/s]Loading weights:  16%|█▌        | 118/729 [00:05<00:17, 34.30it/s]Loading weights:  17%|█▋        | 124/729 [00:06<00:23, 25.68it/s]Loading weights:  19%|█▊        | 136/729 [00:06<00:16, 37.05it/s]Loading weights:  19%|█▉        | 142/729 [00:06<00:20, 29.02it/s]Loading weights:  21%|██        | 150/729 [00:06<00:23, 24.65it/s]Loading weights:  23%|██▎       | 166/729 [00:07<00:15, 37.24it/s]Loading weights:  24%|██▎       | 172/729 [00:07<00:18, 30.13it/s]Loading weights:  25%|██▌       | 184/729 [00:07<00:17, 31.65it/s]Loading weights:  27%|██▋       | 196/729 [00:08<00:20, 25.94it/s]Loading weights:  29%|██▊       | 209/729 [00:08<00:15, 34.66it/s]Loading weights:  29%|██▉       | 215/729 [00:08<00:16, 31.78it/s]Loading weights:  30%|███       | 220/729 [00:08<00:15, 32.94it/s]Loading weights:  31%|███       | 225/729 [00:09<00:14, 34.22it/s]Loading weights:  32%|███▏      | 232/729 [00:09<00:18, 26.33it/s]Loading weights:  32%|███▏      | 236/729 [00:09<00:18, 27.27it/s]Loading weights:  34%|███▎      | 245/729 [00:09<00:17, 27.08it/s]Loading weights:  35%|███▌      | 257/729 [00:10<00:12, 37.99it/s]Loading weights:  36%|███▌      | 262/729 [00:10<00:16, 28.43it/s]Loading weights:  38%|███▊      | 274/729 [00:10<00:11, 39.19it/s]Loading weights:  38%|███▊      | 280/729 [00:10<00:14, 30.16it/s]Loading weights:  40%|████      | 292/729 [00:11<00:15, 28.44it/s]Loading weights:  41%|████      | 296/729 [00:11<00:15, 28.09it/s]Loading weights:  42%|████▏     | 305/729 [00:11<00:12, 34.81it/s]Loading weights:  43%|████▎     | 316/729 [00:12<00:16, 24.48it/s]Loading weights:  45%|████▌     | 329/729 [00:12<00:11, 33.86it/s]Loading weights:  50%|█████     | 367/729 [00:12<00:04, 76.65it/s]Loading weights:  56%|█████▌    | 407/729 [00:12<00:02, 123.68it/s]Loading weights:  64%|██████▎   | 463/729 [00:12<00:01, 198.46it/s]Loading weights:  70%|███████   | 511/729 [00:12<00:00, 251.36it/s]Loading weights:  77%|███████▋  | 559/729 [00:13<00:00, 294.92it/s]Loading weights:  84%|████████▍ | 611/729 [00:13<00:00, 347.56it/s]Loading weights:  90%|████████▉ | 656/729 [00:13<00:00, 372.76it/s]Loading weights:  96%|█████████▋| 703/729 [00:13<00:00, 391.72it/s]Loading weights: 100%|██████████| 729/729 [00:13<00:00, 54.13it/s] 
+Model loaded.
+
+Clips: 50
+Frames: 8 (from task window only)
+Prompt: Is this person a Novice or an Expert at this activity? Answer only: Novice or Expert
+
+[1/50] uniandes_bouldering_027_56 (GT=Novice) task=0.9-8.8s
+  Novice OK
+[2/50] uniandes_bouldering_023_13 (GT=Expert) task=0-0s
+  ERROR: No frames
+  Unknown X
+[3/50] uniandes_bouldering_036_4 (GT=Expert) task=0.5-44.6s
+  Novice X
+[4/50] uniandes_bouldering_029_59 (GT=Novice) task=1.0-31.4s
+  Novice OK
+[5/50] uniandes_bouldering_037_51 (GT=Expert) task=0.7-29.6s
+  Novice X
+[6/50] uniandes_bouldering_036_73 (GT=Expert) task=4.8-32.1s
+  Novice X
+[7/50] uniandes_bouldering_022_32 (GT=Novice) task=0.2-14.9s
+  Novice OK
+[8/50] uniandes_bouldering_037_4 (GT=Expert) task=0.7-50.7s
+  Novice X
+[9/50] uniandes_bouldering_030_63 (GT=Expert) task=3.9-13.2s
+  Novice X
+[10/50] uniandes_bouldering_027_52 (GT=Novice) task=0.6-9.2s
+  Novice OK
+[11/50] uniandes_bouldering_030_25 (GT=Expert) task=2.1-42.0s
+  Novice X
+[12/50] uniandes_bouldering_026_37 (GT=Novice) task=2.2-2.9s
+  Novice OK
+[13/50] uniandes_bouldering_022_72 (GT=Novice) task=0.0-45.5s
+  Novice OK
+[14/50] uniandes_bouldering_036_21 (GT=Expert) task=0.6-81.2s
+  Novice X
+[15/50] uniandes_bouldering_025_46 (GT=Novice) task=19.8-66.1s
+  Novice OK
+[16/50] uniandes_bouldering_036_17 (GT=Expert) task=0.6-21.3s
+  Novice X
+[17/50] uniandes_bouldering_037_8 (GT=Expert) task=0.5-73.2s
+  Novice X
+[18/50] uniandes_bouldering_031_27 (GT=Expert) task=0-0s
+  ERROR: No frames
+  Unknown X
+[19/50] uniandes_bouldering_026_43 (GT=Novice) task=2.0-29.0s
+  Novice OK
+[20/50] uniandes_bouldering_022_71 (GT=Novice) task=11.3-39.1s
+  Novice OK
+[21/50] uniandes_bouldering_036_45 (GT=Expert) task=0.0-34.3s
+  Novice X
+[22/50] uniandes_bouldering_026_22 (GT=Novice) task=15.9-55.9s
+  Novice OK
+[23/50] uniandes_bouldering_026_63 (GT=Novice) task=0.9-20.9s
+  Novice OK
+[24/50] uniandes_bouldering_022_67 (GT=Expert) task=0.8-9.0s
+  Novice X
+[25/50] uniandes_bouldering_022_47 (GT=Novice) task=0.4-36.2s
+  Novice OK
+[26/50] uniandes_bouldering_022_31 (GT=Novice) task=0.3-11.8s
+  Novice OK
+[27/50] uniandes_bouldering_027_25 (GT=Novice) task=0.9-4.1s
+  Novice OK
+[28/50] uniandes_bouldering_033_44 (GT=Expert) task=1.6-27.0s
+  Novice X
+[29/50] uniandes_bouldering_026_38 (GT=Novice) task=1.5-16.8s
+  Novice OK
+[30/50] uniandes_bouldering_023_44 (GT=Novice) task=8.7-19.2s
+  Novice OK
+[31/50] uniandes_bouldering_027_23 (GT=Novice) task=0.6-17.8s
+  Novice OK
+[32/50] uniandes_bouldering_030_62 (GT=Expert) task=3.0-11.9s
+  Novice X
+[33/50] uniandes_bouldering_026_109 (GT=Novice) task=1.0-15.0s
+  Novice OK
+[34/50] uniandes_bouldering_030_8 (GT=Expert) task=0.9-51.6s
+  Novice X
+[35/50] uniandes_bouldering_026_102 (GT=Novice) task=1.5-33.5s
+  Novice OK
+[36/50] uniandes_bouldering_036_35 (GT=Expert) task=0.8-18.6s
+  Novice X
+[37/50] uniandes_bouldering_029_89 (GT=Novice) task=0.4-13.4s
+  Novice OK
+[38/50] uniandes_bouldering_027_50 (GT=Novice) task=0.6-12.3s
+  Novice OK
+[39/50] uniandes_bouldering_027_59 (GT=Novice) task=0.9-18.8s
+  Novice OK
+[40/50] uniandes_bouldering_036_49 (GT=Expert) task=0.3-4.2s
+  Novice X
+[41/50] uniandes_bouldering_036_14 (GT=Expert) task=0.7-40.2s
+  Novice X
+[42/50] uniandes_bouldering_027_27 (GT=Novice) task=0.9-10.1s
+  Novice OK
+[43/50] uniandes_bouldering_030_28 (GT=Expert) task=3.1-24.1s
+  Novice X
+[44/50] uniandes_bouldering_037_20 (GT=Expert) task=0.4-61.4s
+  Novice X
+[45/50] uniandes_bouldering_037_56 (GT=Expert) task=0.6-34.2s
+  Novice X
+[46/50] uniandes_bouldering_037_55 (GT=Expert) task=0.5-37.5s
+  Novice X
+[47/50] uniandes_bouldering_036_8 (GT=Expert) task=0.0-45.6s
+  Novice X
+[48/50] uniandes_bouldering_029_58 (GT=Novice) task=0.8-36.1s
+  Novice OK
+[49/50] uniandes_bouldering_022_33 (GT=Novice) task=0.4-16.2s
+  Novice OK
+[50/50] uniandes_bouldering_031_47 (GT=Expert) task=1.0-49.7s
+  Novice X
+
+============================================================
+RESULTS — Qwen binary 8f TRIMMED (task window only)
+============================================================
+Overall:  25/50 = 50.0%
+Novice:   25/25 = 100.0%
+Expert:   0/25 = 0.0%
+Random:   50%
+Answers:  {'Novice': 48, 'Unknown': 2}
+============================================================

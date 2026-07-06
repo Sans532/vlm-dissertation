@@ -1,0 +1,460 @@
+Sun Jul  5 13:21:14 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.211.01             Driver Version: 570.211.01     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA RTX A6000               Off |   00000000:05:00.0 Off |                  Off |
+| 30%   37C    P8             18W /  300W |       0MiB /  49140MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading takes metadata...
+Loaded 5035 takes.
+
+Loading Qwen2.5-VL-7B ...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [01:09<14:06:51, 69.80s/it]Loading weights:   0%|          | 2/729 [01:14<6:20:30, 31.40s/it] Loading weights:   7%|▋         | 54/729 [01:19<08:56,  1.26it/s] Loading weights:   9%|▉         | 64/729 [01:23<07:56,  1.40it/s]Loading weights:   9%|▉         | 66/729 [01:23<07:31,  1.47it/s]Loading weights:  10%|█         | 76/729 [01:31<07:50,  1.39it/s]Loading weights:  11%|█         | 77/729 [01:32<07:40,  1.42it/s]Loading weights:  11%|█         | 78/729 [01:32<07:19,  1.48it/s]Loading weights:  12%|█▏        | 88/729 [01:36<05:53,  1.81it/s]Loading weights:  12%|█▏        | 89/729 [01:40<08:09,  1.31it/s]Loading weights:  12%|█▏        | 90/729 [01:40<07:49,  1.36it/s]Loading weights:  14%|█▎        | 100/729 [01:44<05:49,  1.80it/s]Loading weights:  14%|█▍        | 102/729 [01:49<08:01,  1.30it/s]Loading weights:  15%|█▌        | 112/729 [01:53<06:04,  1.69it/s]Loading weights:  16%|█▌        | 113/729 [01:53<05:50,  1.76it/s]Loading weights:  17%|█▋        | 124/729 [02:01<06:29,  1.55it/s]Loading weights:  17%|█▋        | 125/729 [02:01<06:16,  1.61it/s]Loading weights:  17%|█▋        | 126/729 [02:01<05:53,  1.71it/s]Loading weights:  19%|█▊        | 136/729 [02:05<04:27,  2.22it/s]Loading weights:  19%|█▉        | 137/729 [02:09<07:28,  1.32it/s]Loading weights:  20%|██        | 148/729 [02:13<05:22,  1.80it/s]Loading weights:  20%|██        | 149/729 [02:14<05:06,  1.89it/s]Loading weights:  21%|██        | 150/729 [02:18<08:16,  1.17it/s]Loading weights:  22%|██▏       | 160/729 [02:22<05:51,  1.62it/s]Loading weights:  22%|██▏       | 161/729 [02:22<05:32,  1.71it/s]Loading weights:  22%|██▏       | 162/729 [02:23<05:08,  1.84it/s]Loading weights:  24%|██▎       | 172/729 [02:31<06:41,  1.39it/s]Loading weights:  24%|██▎       | 173/729 [02:31<06:25,  1.44it/s]Loading weights:  25%|██▌       | 184/729 [02:36<04:44,  1.91it/s]Loading weights:  25%|██▌       | 185/729 [02:40<07:04,  1.28it/s]Loading weights:  26%|██▌       | 186/729 [02:40<06:45,  1.34it/s]Loading weights:  27%|██▋       | 196/729 [02:44<04:49,  1.84it/s]Loading weights:  27%|██▋       | 197/729 [02:44<04:37,  1.91it/s]Loading weights:  27%|██▋       | 198/729 [02:49<07:58,  1.11it/s]Loading weights:  29%|██▊       | 208/729 [02:55<06:16,  1.38it/s]Loading weights:  29%|██▉       | 210/729 [02:55<05:27,  1.58it/s]Loading weights:  30%|███       | 220/729 [03:04<06:28,  1.31it/s]Loading weights:  30%|███       | 222/729 [03:04<05:43,  1.48it/s]Loading weights:  32%|███▏      | 232/729 [03:07<04:04,  2.03it/s]Loading weights:  32%|███▏      | 233/729 [03:12<06:40,  1.24it/s]Loading weights:  32%|███▏      | 234/729 [03:13<06:11,  1.33it/s]Loading weights:  33%|███▎      | 244/729 [03:16<04:14,  1.91it/s]Loading weights:  34%|███▎      | 245/729 [03:17<04:16,  1.89it/s]Loading weights:  34%|███▎      | 246/729 [03:22<07:41,  1.05it/s]Loading weights:  35%|███▌      | 256/729 [03:25<04:51,  1.62it/s]Loading weights:  35%|███▌      | 258/729 [03:25<04:15,  1.84it/s]Loading weights:  37%|███▋      | 268/729 [03:34<05:32,  1.39it/s]Loading weights:  38%|███▊      | 280/729 [03:38<04:01,  1.86it/s]Loading weights:  39%|███▊      | 281/729 [03:43<05:43,  1.31it/s]Loading weights:  40%|████      | 292/729 [03:47<04:14,  1.72it/s]Loading weights:  40%|████      | 294/729 [03:52<05:41,  1.28it/s]Loading weights:  42%|████▏     | 304/729 [03:56<04:19,  1.64it/s]Loading weights:  42%|████▏     | 305/729 [03:56<04:06,  1.72it/s]Loading weights:  43%|████▎     | 316/729 [04:05<04:46,  1.44it/s]Loading weights:  45%|████▍     | 328/729 [04:09<03:36,  1.86it/s]Loading weights:  45%|████▌     | 329/729 [04:14<04:58,  1.34it/s]Loading weights:  53%|█████▎    | 383/729 [04:14<00:56,  6.13it/s]Loading weights:  54%|█████▎    | 391/729 [04:15<00:50,  6.76it/s]Loading weights:  54%|█████▍    | 396/729 [04:15<00:45,  7.36it/s]Loading weights:  55%|█████▌    | 403/729 [04:15<00:41,  7.94it/s]Loading weights:  57%|█████▋    | 413/729 [04:16<00:31, 10.15it/s]Loading weights:  57%|█████▋    | 417/729 [04:16<00:32,  9.69it/s]Loading weights:  58%|█████▊    | 425/729 [04:16<00:24, 12.46it/s]Loading weights:  59%|█████▉    | 429/729 [04:17<00:26, 11.29it/s]Loading weights:  59%|█████▉    | 433/729 [04:17<00:23, 12.81it/s]Loading weights:  60%|██████    | 439/729 [04:18<00:23, 12.48it/s]Loading weights:  61%|██████    | 445/729 [04:18<00:18, 15.36it/s]Loading weights:  62%|██████▏   | 451/729 [04:18<00:20, 13.53it/s]Loading weights:  63%|██████▎   | 457/729 [04:18<00:15, 17.09it/s]Loading weights:  63%|██████▎   | 461/729 [04:19<00:13, 19.40it/s]Loading weights:  64%|██████▍   | 465/729 [04:19<00:18, 14.49it/s]Loading weights:  64%|██████▍   | 469/729 [04:19<00:15, 16.46it/s]Loading weights:  65%|██████▌   | 475/729 [04:20<00:17, 14.45it/s]Loading weights:  66%|██████▌   | 481/729 [04:20<00:14, 17.68it/s]Loading weights:  67%|██████▋   | 487/729 [04:20<00:16, 14.91it/s]Loading weights:  68%|██████▊   | 493/729 [04:21<00:12, 19.52it/s]Loading weights:  68%|██████▊   | 497/729 [04:21<00:10, 21.32it/s]Loading weights:  69%|██████▊   | 501/729 [04:21<00:14, 15.32it/s]Loading weights:  69%|██████▉   | 505/729 [04:21<00:13, 17.21it/s]Loading weights:  70%|███████   | 511/729 [04:22<00:15, 14.40it/s]Loading weights:  71%|███████   | 517/729 [04:22<00:10, 19.39it/s]Loading weights:  72%|███████▏  | 523/729 [04:23<00:14, 14.34it/s]Loading weights:  73%|███████▎  | 529/729 [04:23<00:10, 18.55it/s]Loading weights:  73%|███████▎  | 533/729 [04:23<00:09, 20.57it/s]Loading weights:  74%|███████▎  | 537/729 [04:23<00:12, 15.44it/s]Loading weights:  74%|███████▍  | 541/729 [04:23<00:10, 18.25it/s]Loading weights:  75%|███████▌  | 547/729 [04:24<00:13, 13.79it/s]Loading weights:  76%|███████▋  | 557/729 [04:24<00:07, 22.02it/s]Loading weights:  77%|███████▋  | 561/729 [04:25<00:10, 15.81it/s]Loading weights:  78%|███████▊  | 565/729 [04:25<00:09, 18.04it/s]Loading weights:  78%|███████▊  | 569/729 [04:25<00:07, 20.19it/s]Loading weights:  79%|███████▊  | 573/729 [04:25<00:11, 14.16it/s]Loading weights:  79%|███████▉  | 577/729 [04:26<00:09, 16.86it/s]Loading weights:  80%|███████▉  | 583/729 [04:26<00:09, 14.86it/s]Loading weights:  81%|████████  | 589/729 [04:26<00:07, 18.23it/s]Loading weights:  82%|████████▏ | 595/729 [04:27<00:09, 14.68it/s]Loading weights:  82%|████████▏ | 601/729 [04:27<00:06, 19.13it/s]Loading weights:  83%|████████▎ | 605/729 [04:27<00:05, 21.12it/s]Loading weights:  84%|████████▎ | 609/729 [04:27<00:07, 15.75it/s]Loading weights:  84%|████████▍ | 613/729 [04:28<00:06, 18.22it/s]Loading weights:  85%|████████▍ | 619/729 [04:28<00:07, 14.15it/s]Loading weights:  86%|████████▌ | 625/729 [04:28<00:05, 18.20it/s]Loading weights:  87%|████████▋ | 631/729 [04:29<00:06, 14.59it/s]Loading weights:  88%|████████▊ | 641/729 [04:29<00:04, 20.21it/s]Loading weights:  88%|████████▊ | 644/729 [04:30<00:05, 15.08it/s]Loading weights:  89%|████████▉ | 649/729 [04:30<00:04, 17.72it/s]Loading weights:  90%|████████▉ | 655/729 [04:30<00:05, 14.51it/s]Loading weights:  91%|█████████ | 661/729 [04:31<00:03, 18.04it/s]Loading weights:  91%|█████████▏| 667/729 [04:31<00:03, 15.71it/s]Loading weights:  93%|█████████▎| 677/729 [04:31<00:02, 22.97it/s]Loading weights:  93%|█████████▎| 681/729 [04:32<00:02, 16.41it/s]Loading weights:  94%|█████████▍| 685/729 [04:32<00:02, 18.75it/s]Loading weights:  95%|█████████▍| 689/729 [04:32<00:01, 21.43it/s]Loading weights:  95%|█████████▌| 693/729 [04:32<00:02, 15.47it/s]Loading weights:  96%|█████████▌| 697/729 [04:32<00:01, 17.86it/s]Loading weights:  96%|█████████▋| 703/729 [04:34<00:03,  7.36it/s]Loading weights:  98%|█████████▊| 713/729 [04:35<00:01, 11.13it/s]Loading weights:  98%|█████████▊| 716/729 [04:35<00:01,  9.70it/s]Loading weights:  99%|█████████▉| 721/729 [04:35<00:00, 12.47it/s]Loading weights: 100%|█████████▉| 726/729 [04:38<00:00,  4.26it/s]Loading weights: 100%|██████████| 729/729 [04:38<00:00,  2.62it/s]
+Model loaded.
+
+Clips: 100 | frames: 8 | TRIMMED
+
+[1/100] uniandes_bouldering_022_12 (GT=Novice)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[2/100] uniandes_bouldering_037_38 (GT=Late Expert)
+  exo: Intermediate Expert X | The climber appears to be at the Intermediate Expert level based on the followin
+  ego: Novice X | Novice  The climber is still learning the proper techniques for climbing and is 
+
+[3/100] uniandes_bouldering_024_44 (GT=Novice)
+  exo: Novice OK | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice OK | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[4/100] uniandes_bouldering_035_53 (GT=Early Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[5/100] uniandes_bouldering_027_19 (GT=Early Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber's body alignment is not ideal as the climber's feet are not 
+
+[6/100] uniandes_bouldering_034_56 (GT=Intermediate Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber appears to be struggling with the route and is not able to m
+
+[7/100] uniandes_bouldering_025_13 (GT=Novice)
+  exo: Intermediate Expert X | The climber in the video appears to be at an intermediate expert level based on 
+  ego: Novice OK | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[8/100] uniandes_bouldering_032_81 (GT=Intermediate Expert)
+  exo: Novice X | Novice  The climber in the video appears to be a novice based on their body alig
+  ego: Novice X | Novice  The climber's body alignment and movement fluency appear to be lacking. 
+
+[9/100] uniandes_bouldering_035_28 (GT=Early Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber is still learning the proper techniques for climbing and has
+
+[10/100] uniandes_bouldering_033_38 (GT=Intermediate Expert)
+  exo: Novice X | Novice  The climber in the video appears to be a novice based on their body alig
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[11/100] uniandes_bouldering_022_26 (GT=Late Expert)
+  exo: Novice X | Novice  The climber is still learning the proper techniques for climbing and has
+  ego: Novice X | Novice  The climber's body alignment is not very good as the climber is leaning 
+
+[12/100] uniandes_bouldering_034_94 (GT=Early Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber is still learning the proper techniques for climbing and has
+
+[13/100] uniandes_bouldering_027_20 (GT=Early Expert)
+  exo: Early Expert OK | The person in the video appears to be a novice or early expert climber. The body
+  ego: Novice X | Novice  The climber is still learning the proper techniques for climbing and is 
+
+[14/100] uniandes_bouldering_026_48 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | The climber in the video appears to be at an intermediate expert level based on 
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[15/100] uniandes_bouldering_023_42 (GT=Novice)
+  exo: Intermediate Expert X | The climber appears to be at the Intermediate Expert level based on the followin
+  ego: Novice OK | Novice  The climber's movements appear to be uncoordinated and lack fluidity. Th
+
+[16/100] uniandes_bouldering_033_60 (GT=Intermediate Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[17/100] uniandes_bouldering_027_56 (GT=Novice)
+  exo: Novice OK | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice OK | Novice  The climber's movements appear to be uncoordinated and lack fluidity. Th
+
+[18/100] uniandes_bouldering_035_98 (GT=Early Expert)
+  exo: Intermediate Expert X | The climber appears to be at the Intermediate Expert level based on the followin
+  ego: Novice X | Novice  The climber's body alignment is not ideal as they are leaning too far to
+
+[19/100] uniandes_bouldering_029_41 (GT=Novice)
+  exo: Early Expert X | The climber appears to be a novice or early expert based on the following observ
+  ego: Novice OK | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[20/100] uniandes_bouldering_034_98 (GT=Early Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber's body alignment and movement fluency appear to be lacking. 
+
+[21/100] uniandes_bouldering_030_60 (GT=Late Expert)
+  exo: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[22/100] uniandes_bouldering_023_53 (GT=Early Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[23/100] uniandes_bouldering_023_71 (GT=Early Expert)
+  exo: Novice X | Novice  The climber appears to be struggling with the wall and is not making muc
+  ego: Novice X | Novice  The climber's body alignment and movement fluency appear to be lacking. 
+
+[24/100] uniandes_bouldering_027_17 (GT=Early Expert)
+  exo: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+  ego: Novice X | Novice  The climber's body alignment appears to be off as they are not using the
+
+[25/100] uniandes_bouldering_029_77 (GT=Early Expert)
+  exo: Intermediate Expert X | The climber appears to be at the Intermediate Expert level based on the followin
+  ego: Novice X | Novice  The climber's body alignment is not ideal as the climber's body is not a
+
+[26/100] uniandes_bouldering_036_17 (GT=Late Expert)
+  exo: Novice X | Novice  The climber appears to be struggling with the wall and is not making muc
+  ego: Novice X | Novice  The climber's body alignment is not consistent throughout the climb. The
+
+[27/100] uniandes_bouldering_026_14 (GT=Novice)
+  exo: Novice OK | Novice  The climber appears to be struggling with the wall and is not making muc
+  ego: Novice OK | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[28/100] uniandes_bouldering_030_25 (GT=Late Expert)
+  exo: Novice X | Novice  The climber is still learning the proper techniques for climbing and has
+  ego: Novice X | Novice  The climber's body alignment is not ideal as the climber's feet are not 
+
+[29/100] uniandes_bouldering_029_71 (GT=Early Expert)
+  exo: Intermediate Expert X | The climber in the video appears to be at an intermediate expert level based on 
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[30/100] uniandes_bouldering_031_68 (GT=Late Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[31/100] uniandes_bouldering_036_4 (GT=Late Expert)
+  exo: Novice X | Novice  The climber's body alignment is not ideal as the climber is leaning too 
+  ego: Novice X | Novice  The climber's movements appear to be uncoordinated and lack fluidity. Th
+
+[32/100] uniandes_bouldering_023_77 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[33/100] uniandes_bouldering_037_49 (GT=Late Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber appears to be a novice based on the following observations: 
+
+[34/100] uniandes_bouldering_033_27 (GT=Late Expert)
+  exo: Novice X | Novice  The climber is not yet comfortable with the climbing wall and is still l
+  ego: Novice X | Novice  The climber's body alignment and movement fluency appear to be lacking. 
+
+[35/100] uniandes_bouldering_037_2 (GT=Intermediate Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber is still learning the basics and has not yet developed the n
+
+[36/100] uniandes_bouldering_036_47 (GT=Late Expert)
+  exo: Intermediate Expert X | The climber appears to be at the Intermediate Expert level based on the followin
+  ego: Novice X | Novice  The climber is still learning the proper techniques for climbing and has
+
+[37/100] uniandes_bouldering_024_6 (GT=Novice)
+  exo: Intermediate Expert X | The climber in the video appears to be at an intermediate expert level based on 
+  ego: Novice OK | Novice  The climber's movements appear to be uncoordinated and lack fluidity. Th
+
+[38/100] uniandes_bouldering_025_14 (GT=Novice)
+  exo: Intermediate Expert X | The climber in the video appears to be at an intermediate expert level based on 
+  ego: Novice OK | Novice  The climber's body alignment is not consistent throughout the climb. The
+
+[39/100] uniandes_bouldering_029_8 (GT=Early Expert)
+  exo: Early Expert OK | The climber appears to be a novice or early expert based on the following observ
+  ego: Novice X | Novice  The climber is still learning the proper techniques for climbing and has
+
+[40/100] uniandes_bouldering_035_37 (GT=Early Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber's body alignment is not ideal as the climber's feet are not 
+
+[41/100] uniandes_bouldering_022_20 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | The climber in the video appears to be at an intermediate expert level based on 
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[42/100] uniandes_bouldering_025_38 (GT=Early Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[43/100] uniandes_bouldering_027_114 (GT=Novice)
+  exo: Intermediate Expert X | The climber in the video appears to be at an intermediate expert level based on 
+  ego: Novice OK | Novice  The climber is still learning the proper techniques for climbing and is 
+
+[44/100] uniandes_bouldering_026_72 (GT=Novice)
+  exo: Intermediate Expert X | The climber appears to be at the Intermediate Expert level based on the followin
+  ego: Novice OK | Novice  The climber's body alignment appears to be off as they are not using the
+
+[45/100] uniandes_bouldering_033_33 (GT=Intermediate Expert)
+  exo: Novice X | Novice  The climber in the video appears to be a novice as they are still learni
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[46/100] uniandes_bouldering_022_33 (GT=Novice)
+  exo: Intermediate Expert X | The climber appears to be at the Intermediate Expert level based on the followin
+  ego: Novice OK | Novice  The climber's body alignment appears to be off as they are not using the
+
+[47/100] uniandes_bouldering_032_28 (GT=Intermediate Expert)
+  exo: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[48/100] uniandes_bouldering_029_65 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | The climber appears to be at the Intermediate Expert level based on the followin
+  ego: Novice X | Novice  The climber is still learning the proper techniques for climbing and is 
+
+[49/100] uniandes_bouldering_030_26 (GT=Late Expert)
+  exo: Novice X | Novice  The climber appears to be struggling with the route and is not making mu
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[50/100] uniandes_bouldering_033_12 (GT=Late Expert)
+  exo: Novice X | Novice  The climber is still learning the proper techniques for climbing and is 
+  ego: Novice X | Novice  The climber's movements appear to be uncoordinated and lack fluidity. Th
+
+[51/100] uniandes_bouldering_025_81 (GT=Novice)
+  exo: Intermediate Expert X | The climber in the video appears to be at an intermediate expert level based on 
+  ego: Novice OK | Novice  The climber's body alignment and movement fluency appear to be lacking. 
+
+[52/100] uniandes_bouldering_027_58 (GT=Novice)
+  exo: Late Expert X | The climber appears to be at the Intermediate Expert level based on the followin
+  ego: Novice OK | Novice  The climber's body alignment is not ideal as the climber's knees are ben
+
+[53/100] uniandes_bouldering_034_21 (GT=Early Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[54/100] uniandes_bouldering_034_8 (GT=Early Expert)
+  exo: Intermediate Expert X | The climber in the video appears to be at an intermediate expert level based on 
+  ego: Novice X | Novice  The climber's movements appear to be uncoordinated and lack fluidity. Th
+
+[55/100] uniandes_bouldering_034_65 (GT=Early Expert)
+  exo: Intermediate Expert X | The climber appears to be at the Intermediate Expert level based on the followin
+  ego: Novice X | Novice  The climber is still learning the basics and has not yet developed a con
+
+[56/100] uniandes_bouldering_028_52 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | The climber appears to be at the Intermediate Expert level based on the followin
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[57/100] uniandes_bouldering_029_74 (GT=Early Expert)
+  exo: Early Expert OK | The climber appears to be a novice or early expert based on the following observ
+  ego: Novice X | Novice  The climber's body alignment is not ideal as the climber's feet are not 
+
+[58/100] uniandes_bouldering_032_75 (GT=Intermediate Expert)
+  exo: Novice X | Novice  The climber appears to be struggling with the route and is not making mu
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[59/100] uniandes_bouldering_034_37 (GT=Early Expert)
+  exo: Novice X | Novice  The climber appears to be struggling with the wall and is not making muc
+  ego: Novice X | Novice  The climber's body alignment is not ideal as the climber's feet are not 
+
+[60/100] uniandes_bouldering_030_61 (GT=Late Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber appears to be a novice as they are still learning the proper
+
+[61/100] uniandes_bouldering_022_49 (GT=Novice)
+  exo: Novice OK | Novice  The climber is not yet comfortable with the climbing wall and is still l
+  ego: Novice OK | Novice  The climber appears to be a novice as they are still learning the proper
+
+[62/100] uniandes_bouldering_022_13 (GT=Novice)
+  exo: Novice OK | Novice  The climber appears to be struggling with the wall and is not able to ma
+  ego: Novice OK | Novice  The climber is still learning the basics and has not yet developed a str
+
+[63/100] uniandes_bouldering_028_34 (GT=Intermediate Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber's body alignment is not consistent throughout the climb. The
+
+[64/100] uniandes_bouldering_030_29 (GT=Late Expert)
+  exo: Novice X | Novice  The climber is not yet comfortable with the climbing wall and is still l
+  ego: Novice X | Novice  The climber's body alignment is not ideal as the climber's feet are not 
+
+[65/100] uniandes_bouldering_032_21 (GT=Intermediate Expert)
+  exo: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+  ego: Novice X | Novice  The climber appears to be a novice as they are still learning the proper
+
+[66/100] uniandes_bouldering_023_44 (GT=Novice)
+  exo: Early Expert X | The climber appears to be a novice or early expert based on the following observ
+  ego: Novice OK | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[67/100] uniandes_bouldering_024_60 (GT=Novice)
+  exo: Intermediate Expert X | The climber appears to be at the Intermediate Expert level based on the followin
+  ego: Novice OK | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[68/100] uniandes_bouldering_025_16 (GT=Novice)
+  exo: Intermediate Expert X | The climber appears to be at the Intermediate Expert level based on the followin
+  ego: Novice OK | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[69/100] uniandes_bouldering_022_62 (GT=Intermediate Expert)
+  exo: Novice X | Novice  The climber is still learning the proper techniques for climbing and has
+  ego: Novice X | Novice  The climber's movements appear to be uncoordinated and lack fluidity. Th
+
+[70/100] uniandes_bouldering_035_21 (GT=Early Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber is still learning the proper techniques for climbing and is 
+
+[71/100] uniandes_bouldering_036_48 (GT=Late Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[72/100] uniandes_bouldering_023_11 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[73/100] uniandes_bouldering_029_9 (GT=Early Expert)
+  exo: Late Expert X | The climber appears to be a novice or early expert based on the following observ
+  ego: Novice X | Novice  The climber's movements appear to be somewhat uncoordinated and lack flu
+
+[74/100] uniandes_bouldering_026_22 (GT=Novice)
+  exo: Intermediate Expert X | The climber in the video appears to be at an intermediate expert level based on 
+  ego: Novice OK | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[75/100] uniandes_bouldering_027_87 (GT=Novice)
+  exo ERROR: unsupported operand type(s) for *: 'NoneType' and 'float'
+  exo: Unknown X | ERROR
+  ego ERROR: unsupported operand type(s) for *: 'NoneType' and 'float'
+  ego: Unknown X | ERROR
+
+[76/100] uniandes_bouldering_036_60 (GT=Intermediate Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[77/100] uniandes_bouldering_032_66 (GT=Late Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[78/100] uniandes_bouldering_024_54 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[79/100] uniandes_bouldering_026_26 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | The climber in the video appears to be at an intermediate expert level based on 
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[80/100] uniandes_bouldering_024_32 (GT=Novice)
+  exo: Intermediate Expert X | The climber appears to be at the Intermediate Expert level based on the followin
+  ego: Novice OK | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[81/100] uniandes_bouldering_023_2 (GT=Early Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[82/100] uniandes_bouldering_026_23 (GT=Novice)
+  exo: Novice OK | Novice  The climber appears to be struggling with the wall and is not demonstrat
+  ego: Novice OK | Novice  The climber appears to be a novice based on the following observations: 
+
+[83/100] uniandes_bouldering_022_72 (GT=Novice)
+  exo: Novice OK | Novice  The climber appears to be struggling with the route and is not able to m
+  ego: Novice OK | Novice  The climber's movements appear to be uncoordinated and lack fluidity. Th
+
+[84/100] uniandes_bouldering_036_50 (GT=Late Expert)
+  exo: Intermediate Expert X | The climber appears to be at the Intermediate Expert level based on the followin
+  ego: Novice X | Novice  The climber's body alignment is not consistent throughout the video. The
+
+[85/100] uniandes_bouldering_033_45 (GT=Late Expert)
+  exo: Novice X | Novice  The climber is not yet comfortable with the climbing wall and is still l
+  ego: Intermediate Expert X | The climber appears to be at the Intermediate Expert level based on the followin
+
+[86/100] uniandes_bouldering_032_2 (GT=Late Expert)
+  exo: Novice X | Novice  The climber in the video appears to be a novice based on their body alig
+  ego: Novice X | Novice  The climber's body alignment appears to be off as they are not using the
+
+[87/100] uniandes_bouldering_022_5 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[88/100] uniandes_bouldering_033_55 (GT=Intermediate Expert)
+  exo: Novice X | Novice  The climber appears to be struggling with the wall and is not making muc
+  ego: Novice X | Novice  The climber's body alignment is not ideal as the climber's feet are not 
+
+[89/100] uniandes_bouldering_036_57 (GT=Intermediate Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber's body alignment is not ideal as the climber's feet are not 
+
+[90/100] uniandes_bouldering_037_52 (GT=Late Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber's body alignment is not ideal as the climber's feet are not 
+
+[91/100] uniandes_bouldering_026_21 (GT=Novice)
+  exo: Intermediate Expert X | The climber in the video appears to be at an intermediate expert level based on 
+  ego: Novice OK | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[92/100] uniandes_bouldering_031_30 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[93/100] uniandes_bouldering_036_12 (GT=Intermediate Expert)
+  exo: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+  ego: Novice X | Novice  The climber's body alignment appears to be off as they are not using the
+
+[94/100] uniandes_bouldering_025_52 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[95/100] uniandes_bouldering_029_28 (GT=Early Expert)
+  exo: Intermediate Expert X | The climber appears to be at the Intermediate Expert level based on the followin
+  ego: Novice X | Novice  The climber's body alignment is not ideal as the climber's feet are not 
+
+[96/100] uniandes_bouldering_027_2 (GT=Intermediate Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[97/100] uniandes_bouldering_028_24 (GT=Early Expert)
+  exo: Intermediate Expert X | The climber in the video appears to be at an intermediate expert level based on 
+  ego: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+
+[98/100] uniandes_bouldering_031_69 (GT=Late Expert)
+  exo: Novice X | Novice  The climber appears to be in the early stages of learning how to climb a
+  ego: Novice X | Novice  The climber's body alignment is not ideal as the climber's body is not a
+
+[99/100] uniandes_bouldering_029_48 (GT=Intermediate Expert)
+  exo: Novice X | Novice  The climber appears to be struggling with the wall and is not making muc
+  ego: Novice X | Novice  The climber's movements appear to be uncoordinated and lack fluidity. Th
+
+[100/100] uniandes_bouldering_036_8 (GT=Late Expert)
+  exo: Novice X | Novice  The climber appears to be struggling with the wall and is not able to ma
+  ego: Novice X | Novice  The climber's body alignment and movement fluency appear to be lacking. 
+
+============================================================
+RESULTS — Qwen reasoning 8f TRIMMED
+============================================================
+  exo: 15/100 = 15.0%
+  ego: 23/100 = 23.0%
+
+Random chance: 25%
+
+Exo predictions: {'Novice': 55, 'Intermediate Expert': 28, 'Unknown': 10, 'Early Expert': 5, 'Late Expert': 2}
+Ego predictions: {'Novice': 89, 'Unknown': 10, 'Intermediate Expert': 1}
+============================================================

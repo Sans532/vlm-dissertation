@@ -1,7 +1,8 @@
 #!/bin/bash
 #SBATCH --job-name=RQ_n8
 #SBATCH --partition=Teaching
-#SBATCH --gres=gpu:h200_3g.71gb:1
+#SBATCH --gres=gpu:nvidia_rtx_a6000:1
+#SBATCH --nodelist=landonia11
 #SBATCH --mem=40G
 #SBATCH --time=12:00:00
 #SBATCH --cpus-per-task=4

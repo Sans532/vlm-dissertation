@@ -1,101 +1,569 @@
 clip_id,take_folder,ground_truth,exo_full_answer,exo_predicted,exo_correct,ego_full_answer,ego_predicted,ego_correct
 0ec8c380-66df-414c-8ed1-a644c76539d1,uniandes_bouldering_022_12,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-586597cc-59c5-45d5-9596-0b6506d9c0ba,uniandes_bouldering_037_38,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
-9ceee09a-ab19-4463-baac-0ed48d21827e,uniandes_bouldering_024_44,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-08f0616c-d3c4-414c-a492-d8d157872915,uniandes_bouldering_035_53,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-5f1dd7a9-18b5-400a-a3de-1c30f547235e,uniandes_bouldering_027_19,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-baf283a8-4747-45f1-9c78-241003a8f1b5,uniandes_bouldering_034_56,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-ea2d7015-0bf2-422c-b6ac-ebcf88fef619,uniandes_bouldering_025_13,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-0dd0e0b5-cbd2-42d3-bc00-64375f14f374,uniandes_bouldering_032_81,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-1088fd1c-1562-4ee5-b85c-ceb59bf85f20,uniandes_bouldering_035_28,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-1c4f1db1-70bb-47e6-8d1f-00e924aa0a98,uniandes_bouldering_033_38,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-b92ec0ad-020b-4fed-87bf-002eaaa9a8ec,uniandes_bouldering_022_26,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
-d6462a6d-44d4-43eb-a0d9-11df808ef412,uniandes_bouldering_034_94,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-b3a28e5b-906f-40e0-9428-902c81a9cc55,uniandes_bouldering_027_20,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-b285942a-a30b-4d4b-a753-8a29b951c1cb,uniandes_bouldering_026_48,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-0a184bbf-43bf-4d02-bc32-f8989158446a,uniandes_bouldering_023_42,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-0ed9a2ce-0e62-43f9-a7e1-37e5a0b89fcc,uniandes_bouldering_033_60,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-97b78075-0a0c-4198-bc78-b08a2c92b0aa,uniandes_bouldering_027_56,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-c6e1946e-cd52-43ee-ac5c-acb609d821d6,uniandes_bouldering_035_98,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-5d5d169f-3cfa-47da-947d-ec7a93178a59,uniandes_bouldering_029_41,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-48c635f3-ef0c-436b-94dc-9fca68c779b7,uniandes_bouldering_034_98,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-841c5354-3711-45ce-a226-3d7ba0e6b3df,uniandes_bouldering_030_60,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
+586597cc-59c5-45d5-9596-0b6506d9c0ba,uniandes_bouldering_037_38,Late Expert,"Novice
+
+The climber in the video appears to be a novice based on their body alignment and movement fluency. The climber's movements seem uncoordinated and lack fluidity, indicating that they may not have much experience with rock climbing. Additionally, the climber's body alignment is not optimal, as they appear to be leaning too far forward and not using their core effectively. This suggests that the climber may need more practice and instruction to improve their technique and become more proficient at rock climbing.",Novice,False,"Novice
+
+The climber's body alignment is not ideal as the climber's feet are not aligned with the rock and the climber's knees are bent. The climber's movement is not fluent as the climber's movements appear to be slow and deliberate. The climber's technical precision is also lacking as the climber is not using the correct technique for climbing the wall.",Novice,False
+9ceee09a-ab19-4463-baac-0ed48d21827e,uniandes_bouldering_024_44,Novice,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the movements required for climbing. The climber's body alignment is not yet correct, as she is not using her core muscles effectively and is not maintaining proper posture. Her movement fluency is also lacking, as she is not yet able to move smoothly and efficiently up the wall. Finally, her technical precision is not yet developed, as she is not yet able to use the holds correctly and is not yet able to maintain a steady grip. Overall, the climber appears to be a novice and would benefit from more practice and instruction.",Novice,True,"Novice
+
+The climber appears to be struggling with the wall and is not able to maintain proper body alignment or movement fluency. The climber's hands are not positioned correctly on the holds, and there is no indication of technical precision in their movements.",Novice,True
+08f0616c-d3c4-414c-a492-d8d157872915,uniandes_bouldering_035_53,Early Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the techniques required for climbing. The climber's body alignment is not yet correct, as they are not using the proper hand and foot placement. Their movement is also not fluent, as they appear to be struggling with the climbing wall. Additionally, there is no indication that the climber has any technical precision, as they are not yet able to perform the necessary climbing techniques.",Novice,False,"Novice
+
+The climber appears to be struggling with the wall and is not able to maintain proper body alignment or movement fluency. The climber's hands are not positioned correctly on the holds, and they appear to be unsure of where to place them. Additionally, the climber's feet are not properly aligned with the wall, which can lead to instability and difficulty in maintaining balance. Overall, the climber's technique is lacking, and it is clear that they are still developing their skills.",Novice,False
+5f1dd7a9-18b5-400a-a3de-1c30f547235e,uniandes_bouldering_027_19,Early Expert,"The climber appears to be a novice or early expert based on the following observations:
+
+* **Body Alignment:** The climber's body is not aligned with the wall, which suggests that they may still be developing their technique and understanding of proper climbing form. This could be due to a lack of experience or a need for more practice in maintaining proper posture while climbing.
+
+* **Movement Fluency:** The climber's movements appear somewhat stiff and ungraceful, indicating that they may not have developed a natural rhythm or flow in their climbing technique. This could be due to a lack of practice or a need to work on improving their overall coordination and fluidity.
+
+* **Technical Precision:** While the climber seems to be making progress, there is room for improvement in terms of technical precision. For example, the climber's hand placement and foot positioning do not appear to be optimal, which could lead to a less efficient use of energy and increased risk of injury. Additionally, the climber's grip strength and finger placement also seem to be lacking, which could hinder their ability to maintain a secure hold on the holds.
+
+Overall, the climber's technique appears to be at a novice or early expert level, as they are still developing their skills and understanding of proper climbing form. With continued practice and guidance, the climber can improve their technique and become more proficient in the sport.",Early Expert,True,"Novice
+
+The climber's body alignment is not consistent throughout the climb. The climber's feet are not aligned with the holds and the climber's body is not in a straight line. The climber's movement is not fluent as the climber is not able to smoothly transition between the holds. The climber's technical precision is also lacking as the climber is not able to maintain a consistent grip on the holds.",Novice,False
+baf283a8-4747-45f1-9c78-241003a8f1b5,uniandes_bouldering_034_56,Intermediate Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the techniques required for climbing. The climber's body alignment is not yet correct, as they are not using the proper hand and foot placement. Their movement is also not fluent, as they appear to be struggling with the climbing wall. Additionally, there is no indication that the climber has any technical precision, as they are not yet able to perform the necessary techniques correctly.",Novice,False,"Novice
+
+The climber's body alignment is not consistent throughout the climb. The climber's feet are not aligned with the hand placements, which can lead to instability and increased risk of falling. The climber's movement appears to be somewhat fluent, but there is room for improvement in terms of technical precision. The climber's hand placements are inconsistent, and the climber does not seem to have a clear plan or strategy for the climb. Overall, the climber's technique suggests that they are still developing their skills and are likely at a novice level.",Novice,False
+ea2d7015-0bf2-422c-b6ac-ebcf88fef619,uniandes_bouldering_025_13,Novice,"The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The climber demonstrates good body alignment throughout the sequence. They maintain a strong core and use their legs effectively for support while reaching for holds with their arms. Their feet are positioned correctly, and they appear to be using the wall's features efficiently.
+
+* **Movement Fluency:** The climber's movements are fluid and controlled. There are no abrupt or jerky motions, indicating a high level of comfort and familiarity with the climbing techniques being used. The transitions between different holds and movements seem natural and well-coordinated.
+
+* **Technical Precision:** The climber exhibits a high degree of technical precision in their climbing. They select appropriate holds and make calculated decisions about which moves to execute next. Their hand placement and grip strength appear to be well-developed, allowing them to maintain a secure hold on the wall even when reaching for challenging holds.
+
+Overall, the climber's technique suggests that they have a solid foundation in climbing skills and are likely comfortable tackling more advanced routes. However, there may still be room for improvement in certain areas, such as increasing their speed or developing more varied climbing styles.",Intermediate Expert,False,"Novice
+
+The climber appears to be struggling with the climbing wall, as they are not able to maintain proper body alignment and are not moving fluidly. The climber's movements seem to lack technical precision, and it seems like they are still learning the basics of climbing.",Novice,True
+0dd0e0b5-cbd2-42d3-bc00-64375f14f374,uniandes_bouldering_032_81,Intermediate Expert,"Novice
+
+The climber in the video appears to be a novice based on their body alignment and movement fluency. The climber's body is not aligned with the wall, which can lead to inefficient use of energy and increased risk of injury. Additionally, the climber's movements appear to be somewhat stiff and uncoordinated, indicating a lack of technical precision. While the climber is making progress up the wall, there is room for improvement in terms of body positioning and movement fluidity.",Novice,False,"Novice
+
+The climber's body alignment appears to be off as they are not using the proper climbing techniques. Their movement is not fluent and they seem to be struggling with the wall. The climber also seems to lack technical precision in their movements.",Novice,False
+1088fd1c-1562-4ee5-b85c-ceb59bf85f20,uniandes_bouldering_035_28,Early Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the movements required for climbing. The climber's body alignment is not yet correct, as they are not using the proper techniques for climbing. Their movement is also not fluent, as they appear to be struggling with the movements required for climbing. Additionally, their technical precision is lacking, as they are not yet able to perform the necessary techniques with accuracy.",Novice,False,"Novice
+
+The climber's body alignment is not consistent throughout the video. The climber's feet are not aligned with the rock holds and the climber's body is not in a straight line. The climber's movement is not fluent as the climber struggles to find the right handholds and footholds. The climber's technical precision is also lacking as the climber does not use proper climbing techniques such as using the correct handholds and footholds.",Novice,False
+1c4f1db1-70bb-47e6-8d1f-00e924aa0a98,uniandes_bouldering_033_38,Intermediate Expert,"Novice
+
+The climber in the video appears to be a novice based on their body alignment and movement fluency. The climber's body is not aligned with the wall, which can lead to inefficient use of energy and increased risk of injury. Additionally, the climber's movements appear to be somewhat stiff and uncoordinated, indicating a lack of technical precision. While the climber has managed to reach the top of the wall, their overall performance suggests that they may benefit from further practice and instruction.",Novice,False,"Novice
+
+The climber's body alignment is not consistent throughout the climb. The climber's feet are not aligned with the holds and the climber's body is not in a straight line. The climber's movement is not fluent as the climber is not able to smoothly transition between the holds. The climber's technical precision is also lacking as the climber is not able to maintain a good grip on the holds and is not able to use the holds efficiently.",Novice,False
+b92ec0ad-020b-4fed-87bf-002eaaa9a8ec,uniandes_bouldering_022_26,Late Expert,"The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The climber maintains good body alignment throughout the climb, with their core engaged and their weight distributed evenly across their feet and hands. This suggests that they have a solid understanding of proper climbing mechanics and can maintain a stable position on the wall.
+
+* **Movement Fluency:** The climber's movements appear fluid and controlled, indicating a high level of comfort and familiarity with the route. They transition between holds smoothly and efficiently, suggesting that they have practiced the route before and have developed a strong sense of rhythm and timing.
+
+* **Technical Precision:** The climber demonstrates technical precision by using the correct hand and foot placements for each hold, as well as maintaining a consistent grip and release pattern. They also show good use of body weight and momentum to propel themselves up the wall, which indicates a strong understanding of the principles of climbing technique.
+
+Overall, the climber's technique is well-developed and efficient, suggesting that they have a good foundation in climbing skills and experience. However, there may still be room for improvement in certain areas, such as increasing their speed or developing more advanced techniques for specific sections of the route.",Intermediate Expert,False,"Novice
+
+The climber's body alignment is not ideal as the climber's feet are not placed properly and the climber's body is not aligned with the wall. The climber's movement is not fluent as the climber's movements appear to be slow and deliberate. The climber's technical precision is also lacking as the climber's hand placement and foot placement are not precise.",Novice,False
+d6462a6d-44d4-43eb-a0d9-11df808ef412,uniandes_bouldering_034_94,Early Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the techniques required for climbing. The climber's body alignment is not yet correct, as they are not using the proper hand and foot placement. Their movement is also not fluent, as they appear to be struggling with the climbing wall. Additionally, their technical precision is lacking, as they are not yet able to perform the necessary climbing techniques with accuracy.",Novice,False,"Novice
+
+The climber's body alignment is not ideal as the climber's feet are not aligned with the wall and the climber's knees are bent. The climber's movement is not fluent as the climber's movements appear to be slow and deliberate. The climber's technical precision is also lacking as the climber is not using the holds effectively and appears to be struggling to maintain balance.",Novice,False
+b3a28e5b-906f-40e0-9428-902c81a9cc55,uniandes_bouldering_027_20,Early Expert,"The climber in the video appears to be a novice or early expert based on her technique and body alignment. She is attempting to climb a wall with various holds, but her movements seem somewhat stiff and uncoordinated. Her body alignment is not optimal as she is not using her core muscles effectively, which can lead to a lack of stability and control. Additionally, her technical precision is lacking as she seems to be struggling with finding the right handholds and footholds. Overall, her movements are not fluid, and it appears that she may need more practice and guidance to improve her technique.",Early Expert,True,"Novice
+
+The climber is still learning the proper techniques for climbing and has not yet developed the necessary skills to climb efficiently or with ease. The climber's movements are not fluid and there is a lack of coordination between the arms and legs. The climber also seems to be struggling with maintaining balance and control while climbing.",Novice,False
+b285942a-a30b-4d4b-a753-8a29b951c1cb,uniandes_bouldering_026_48,Intermediate Expert,"The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The climber demonstrates good body alignment throughout the sequence. They maintain a strong core and use their legs effectively for support while reaching for holds with their arms. The climber's feet are positioned correctly, and they are able to distribute their weight evenly across the climbing surface.
+
+* **Movement Fluency:** The climber's movements appear fluid and controlled. There are no abrupt or jerky motions, which suggests that they have developed a good sense of rhythm and timing. The climber's transitions between different holds are smooth, indicating a high level of coordination and practice.
+
+* **Technical Precision:** The climber exhibits excellent technical precision in their climbing technique. They are able to select appropriate holds and make efficient use of their body to reach them. The climber's hand placement and grip strength also appear to be well-developed, allowing them to maintain a secure hold on the climbing surface.
+
+Overall, the climber's technique is well-executed, and they demonstrate a high level of skill and experience. However, there may still be room for improvement in certain areas, such as increasing their speed or developing more advanced techniques. With continued practice and training, the climber could potentially advance to a late expert level.",Late Expert,False,"Novice
+
+The climber appears to be struggling with the wall and is not able to maintain proper body alignment or movement fluency. The climber's hands are not positioned correctly on the holds, and there is no indication of technical precision in their movements.",Novice,False
+0a184bbf-43bf-4d02-bc32-f8989158446a,uniandes_bouldering_023_42,Novice,"Novice
+
+The climber is not yet comfortable with the climbing wall and is still learning how to use it. The climber is not yet able to maintain proper body alignment while climbing, as seen in frame 1 where the climber is leaning too far forward. The climber also seems to be struggling with movement fluency, as seen in frame 2 where the climber is not yet able to move smoothly up the wall. Finally, the climber is not yet able to perform any technical precision moves, as seen in frame 3 where the climber is not yet able to grip the holds properly.",Novice,True,"Novice
+
+The climber appears to be struggling with the wall and is not able to maintain proper body alignment or movement fluency. The climber's movements seem uncoordinated and they are not able to use the holds effectively. Technical precision is also lacking as the climber is not able to grip the holds properly.",Novice,True
+0ed9a2ce-0e62-43f9-a7e1-37e5a0b89fcc,uniandes_bouldering_033_60,Intermediate Expert,"Novice
+
+The climber is not aligned with the wall and is not moving fluently or with technical precision. The climber is not using the holds effectively and is not maintaining proper body positioning.",Novice,False,"Novice
+
+The climber's body alignment is not ideal as the torso is leaning forward and the knees are bent. The movement appears to be somewhat fluent but lacks precision in hand placement and grip strength. The climber seems to be struggling with the route and may benefit from more practice and instruction.",Novice,False
+97b78075-0a0c-4198-bc78-b08a2c92b0aa,uniandes_bouldering_027_56,Novice,"The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The climber maintains good body alignment throughout the climb, with her core engaged and her movements fluid. Her feet are positioned correctly for each hold, and she uses her body weight effectively to maintain balance and control.
+
+* **Movement Fluency:** The climber's movements are smooth and controlled, indicating a high level of technical proficiency. She transitions between holds seamlessly, and her arm movements are precise and deliberate.
+
+* **Technical Precision:** The climber demonstrates excellent technical precision, as evidenced by her ability to select the correct holds and execute complex moves with ease. Her hand placement and footwork are both accurate and efficient.
+
+Overall, the climber's technique is well-developed, and she appears to have a strong understanding of the fundamentals of climbing. However, there may still be room for improvement in certain areas, such as increasing her speed or adding more variety to her climbing style. With continued practice and experience, the climber could potentially reach late expert status.",Late Expert,False,"Novice
+
+The climber appears to be struggling with the route and is not able to maintain proper body alignment or movement fluency. The climber's movements seem to lack technical precision as well.",Novice,True
+c6e1946e-cd52-43ee-ac5c-acb609d821d6,uniandes_bouldering_035_98,Early Expert,"Novice
+
+The climber in the video appears to be a novice as they are not yet able to maintain proper body alignment and movement fluency while climbing. The climber's body is not aligned with the wall, and their movements appear to be uncoordinated and slow. Additionally, the climber does not seem to have any technical precision, which suggests that they may not yet have developed the necessary skills for climbing.",Novice,False,"Novice
+
+The climber's body alignment is not ideal as the climber's feet are not aligned with the wall and the climber's knees are bent too much. The climber's movement is not fluent as the climber's movements appear to be slow and deliberate. The climber's technical precision is also lacking as the climber is not using the holds effectively and is not maintaining a good grip.",Novice,False
+5d5d169f-3cfa-47da-947d-ec7a93178a59,uniandes_bouldering_029_41,Novice,"The climber in the video appears to be a novice or early expert. The climber is attempting to climb a wall with a variety of colorful holds, but their movements are not fluid and they seem to be struggling with the task. Their body alignment is not optimal as they are leaning too far forward and their arms are not positioned correctly for efficient climbing. Additionally, their technical precision is lacking as they are not using the holds effectively and appear to be relying more on brute strength than proper technique. Overall, the climber's movements are not smooth and their technique is not precise, indicating that they are still developing their skills.",Early Expert,False,"Novice
+
+The climber is still learning the basics and has not yet developed a strong sense of body alignment or movement fluency. The climber's movements appear to be somewhat awkward and uncoordinated, and there is room for improvement in terms of technical precision.",Novice,True
+48c635f3-ef0c-436b-94dc-9fca68c779b7,uniandes_bouldering_034_98,Early Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the techniques required for climbing. The climber's body alignment is not yet correct, as they are not using the proper hand and foot placement. Their movement is also not fluent, as they appear to be struggling with the climbing wall. Additionally, there is no indication that the climber has any technical precision, as they are not yet able to perform the necessary techniques correctly.",Novice,False,"Novice
+
+The climber is still learning the basics and is not yet comfortable with the climbing wall. The climber is not able to maintain proper body alignment while climbing and is not yet fluent in their movements. The climber also does not have the technical precision needed for climbing.",Novice,False
+841c5354-3711-45ce-a226-3d7ba0e6b3df,uniandes_bouldering_030_60,Late Expert,"Novice
+
+The climber in the video appears to be a novice based on their body alignment and movement fluency. The climber's movements seem uncoordinated and lack fluidity, indicating that they may not have much experience with climbing. Additionally, the climber's body alignment is not optimal, as they appear to be leaning too far forward and not using their core effectively. This suggests that the climber may need more practice and instruction to improve their technique.",Novice,False,"Novice
+
+The climber in the video appears to be a novice based on their body alignment and movement fluency. The climber's movements seem uncoordinated and lack fluidity, indicating that they may not have much experience with rock climbing. Additionally, the climber's body alignment is not optimal, as they appear to be leaning too far forward and not using proper foot placement. Technical precision is also lacking, as the climber seems to be struggling with finding the right handholds and footholds. Overall, the climber's technique suggests that they are still in the early stages of learning how to climb and would benefit from more practice and instruction.",Novice,False
 e77f05f8-2458-47de-952a-303245322f2f,uniandes_bouldering_023_53,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-7cef5f7e-d66d-4b23-b832-ff998d357784,uniandes_bouldering_023_71,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-6caff659-6697-498e-a5e3-04b50bc09d30,uniandes_bouldering_027_17,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-dcdf4cdc-2b50-4e2c-bbaf-b8a904965867,uniandes_bouldering_029_77,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-77f6641e-b713-4723-bafc-ca6b0b957c5e,uniandes_bouldering_036_17,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
-a7ee65f5-b365-4f69-bc6a-95a9583d7ff0,uniandes_bouldering_026_14,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-74bc0655-0e3e-433f-b8f5-243764621fe5,uniandes_bouldering_030_25,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
-04cd2bc7-f306-4bc5-b2ea-8d51a0e587a8,uniandes_bouldering_029_71,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-e8f2df2e-5d2d-4352-b06c-95554b1ecdb3,uniandes_bouldering_031_68,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
-4401cdfe-a383-4116-b1ed-1783b2e0ae7e,uniandes_bouldering_036_4,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
+7cef5f7e-d66d-4b23-b832-ff998d357784,uniandes_bouldering_023_71,Early Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the techniques required for climbing. The climber's body alignment is not yet correct, as they are not using the proper hand and foot placement. Their movement is also not fluent, as they appear to be struggling with the climbing wall. Additionally, there is no indication that the climber has any technical precision, as they are not yet able to perform the necessary techniques correctly.",Novice,False,"Novice
+
+The climber in the video appears to be a novice based on their body alignment and movement fluency. The climber's movements seem uncoordinated and lack fluidity, indicating that they may not have much experience with indoor rock climbing. Additionally, the climber's technical precision seems to be lacking as well, which is another indicator of a novice level of skill.",Novice,False
+6caff659-6697-498e-a5e3-04b50bc09d30,uniandes_bouldering_027_17,Early Expert,"Novice
+
+The climber appears to be struggling with the wall and is not able to maintain proper body alignment or movement fluency. The climber is also not demonstrating any technical precision in their climbing style.",Novice,False,"Novice
+
+The climber appears to be struggling with the wall and is not able to maintain proper body alignment or movement fluency. The climber's hands are not positioned correctly on the holds, and there is no indication of technical precision in their movements.",Novice,False
+dcdf4cdc-2b50-4e2c-bbaf-b8a904965867,uniandes_bouldering_029_77,Early Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the techniques required for climbing. The climber's body alignment is not yet correct, as they are not using the proper hand and foot placement. Their movement is also not fluent, as they appear to be struggling with the climbing wall. Additionally, there is no indication that the climber has any technical precision, as they are not yet able to perform the necessary techniques correctly.",Novice,False,"Novice
+
+The climber's body alignment appears to be off as they are not using the full range of motion and are not maintaining proper posture. Their movement is not fluid or smooth, and there is no indication of technical precision in their climbing style. The climber seems to be struggling with the wall and may benefit from more practice and instruction.",Novice,False
+77f6641e-b713-4723-bafc-ca6b0b957c5e,uniandes_bouldering_036_17,Late Expert,"Novice
+
+The climber appears to be struggling with the wall and is not able to maintain proper body alignment or movement fluency. The climber's movements seem to lack technical precision as well.",Novice,False,"Novice
+
+The climber's body alignment is not consistent throughout the climb. The climber's feet are not aligned with the holds and the climber's body is not in a straight line. The climber's movement is not fluent as the climber is not able to smoothly transition between the holds. The climber's technical precision is also lacking as the climber is not able to grip the holds properly and is not able to maintain a good hand position.",Novice,False
+a7ee65f5-b365-4f69-bc6a-95a9583d7ff0,uniandes_bouldering_026_14,Novice,"The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The climber demonstrates good body alignment throughout the sequence. They maintain a strong core and use their legs effectively for support while reaching for holds with their arms. This suggests they have a solid understanding of proper climbing mechanics.
+
+* **Movement Fluency:** The climber's movements appear fluid and controlled. There are no abrupt or jerky motions, indicating that they have developed a good sense of rhythm and timing. This fluency is a hallmark of intermediate climbers who have honed their skills through practice.
+
+* **Technical Precision:** The climber shows a high degree of technical precision in their hand placement and footwork. They consistently reach for the correct holds and adjust their body position accordingly. This level of technical proficiency is typically seen in intermediate climbers who have mastered the fundamentals of climbing and are now focusing on refining their techniques.
+
+Overall, the climber's body alignment, movement fluency, and technical precision suggest that they are an intermediate expert climber. However, it's important to note that this assessment is based on a limited number of frames, and further observation would be needed to confirm their skill level more definitively.",Intermediate Expert,False,"Novice
+
+The climber appears to be struggling with the wall and is not able to maintain proper body alignment or movement fluency. The climber's hands are not positioned correctly on the holds, and there is no indication of technical precision in their movements.",Novice,True
+74bc0655-0e3e-433f-b8f5-243764621fe5,uniandes_bouldering_030_25,Late Expert,"Novice
+
+The climber is not yet comfortable with the climbing wall and is still learning how to use it. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not",Novice,False,"Novice
+
+The climber in the video appears to be a novice based on their body alignment and movement fluency. The climber's movements seem uncoordinated and lack fluidity, indicating that they may not have much experience with rock climbing. Additionally, the climber's body alignment is not optimal, as they appear to be leaning too far forward and not using their core effectively. Technical precision is also lacking, as the climber seems to be struggling with finding the right handholds and footholds. Overall, the climber's technique suggests that they are still in the early stages of learning how to climb and would benefit from more practice and instruction.",Novice,False
+04cd2bc7-f306-4bc5-b2ea-8d51a0e587a8,uniandes_bouldering_029_71,Early Expert,"The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The climber maintains good body alignment throughout the climb, with their body positioned close to the wall and their weight distributed evenly across their feet and hands. This suggests that they have a solid understanding of proper climbing techniques and are able to maintain a stable position while ascending.
+
+* **Movement Fluency:** The climber's movements appear fluid and controlled, indicating a high level of comfort and familiarity with the climbing route. They are able to transition between holds smoothly and efficiently, suggesting that they have developed a strong sense of rhythm and timing.
+
+* **Technical Precision:** The climber demonstrates a high level of technical precision, as evidenced by their ability to select and place their feet and hands accurately on the holds. They also show good hand-eye coordination, which allows them to quickly adjust their grip and positioning as needed.
+
+Overall, the climber's technique and performance suggest that they have a solid foundation in climbing skills and are likely at an intermediate expert level. However, it's important to note that this assessment is based on a single video clip, and further observation over time would be necessary to confirm their skill level more definitively.",Intermediate Expert,False,"Novice
+
+The climber's movements appear to be uncoordinated and lack fluidity. The climber's body alignment seems off as well, with the climber not maintaining proper posture while climbing. The climber also seems to be struggling with technical precision, as they are not using the holds effectively or efficiently.",Novice,False
+e8f2df2e-5d2d-4352-b06c-95554b1ecdb3,uniandes_bouldering_031_68,Late Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the techniques required for climbing. The climber's body alignment is not yet correct, as they are not using the proper hand and foot placement. Their movement is also not fluent, as they appear to be struggling with the climbing wall. Additionally, their technical precision is lacking, as they are not yet able to perform the necessary climbing moves with accuracy.",Novice,False,"Novice
+
+The climber's body alignment is not consistent throughout the video. The climber's movements appear to be somewhat stiff and uncoordinated, which suggests that they may lack experience with the climbing wall. Additionally, the climber's hand placement and grip seem inconsistent, indicating a lack of technical precision. Overall, the climber's technique appears to be at a novice level.",Novice,False
+4401cdfe-a383-4116-b1ed-1783b2e0ae7e,uniandes_bouldering_036_4,Late Expert,"Novice
+
+The climber's body alignment and movement fluency are not yet refined. The climber's movements appear to be somewhat stiff and uncoordinated, which suggests that they may still be developing their technique. Additionally, the climber's technical precision appears to be lacking as they are not yet able to execute the moves with the necessary accuracy and control. Overall, the climber's skill level appears to be at the novice stage.",Novice,False,"Novice
+
+The climber's movements appear to be uncoordinated and lack fluidity. The climber's body alignment seems off as well, with the climber not maintaining proper posture while climbing. The climber also seems to be struggling with the technical aspects of the climb, as they are using their fingers instead of their feet for support. Overall, the climber appears to be a novice in terms of skill level.",Novice,False
 d065cac0-836c-4c1b-b255-134428b037c9,uniandes_bouldering_023_77,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-d33f338c-bebc-44a7-b3bb-17849a0fc068,uniandes_bouldering_037_49,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
-e0e7a1f3-3420-4ae2-88fb-666ac9d5cbdc,uniandes_bouldering_033_27,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
-d2268823-4c4b-4036-b313-a27083db529d,uniandes_bouldering_037_2,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-a237c7f1-4189-4f28-9a7d-233a976976d6,uniandes_bouldering_036_47,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
-3c519043-4e93-4f5e-b521-3b27c235c17c,uniandes_bouldering_024_6,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-ea71122a-5318-4c39-9207-10eb0fe6e668,uniandes_bouldering_025_14,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-ef362c0f-063b-4aeb-af18-d15f0c0a949d,uniandes_bouldering_029_8,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-74d47f9d-6264-4407-b9f0-9facc320c938,uniandes_bouldering_035_37,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-297d0185-6f12-4664-b53c-c5fc4054d680,uniandes_bouldering_022_20,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
+d33f338c-bebc-44a7-b3bb-17849a0fc068,uniandes_bouldering_037_49,Late Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the movements required for climbing. The climber's body alignment is not yet correct, as they are not using the proper techniques for climbing. Their movement fluency is also lacking, as they appear to be struggling with the movements required for climbing. Technical precision is also lacking, as the climber is not yet able to perform the necessary techniques with accuracy.",Novice,False,"Novice
+
+The climber's body alignment is not consistent throughout the climb. The climber's movement appears to be somewhat stiff and uncoordinated. The climber's technical precision is also lacking as they do not seem to be using the holds in a fluid manner.",Novice,False
+e0e7a1f3-3420-4ae2-88fb-666ac9d5cbdc,uniandes_bouldering_033_27,Late Expert,"Novice
+
+The climber is not yet comfortable with the climbing wall and is still learning how to use it. The climber is not yet able to climb up the wall without assistance or guidance. The climber is still learning how to use the wall and is not yet able to perform any advanced climbing techniques.",Novice,False,"Novice
+
+The climber's body alignment appears to be off as they are not using the proper climbing techniques. Their movement is not fluent and they seem to be struggling with the wall. The climber also seems to lack technical precision in their movements.",Novice,False
+d2268823-4c4b-4036-b313-a27083db529d,uniandes_bouldering_037_2,Intermediate Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the techniques required for climbing. The climber's body alignment is not yet correct, as they are not using the proper hand and foot placement. Their movement is also not fluent, as they appear to be struggling with the climbing wall. Additionally, there is no indication that the climber has any technical precision, as they are not yet able to perform the necessary techniques correctly.",Novice,False,"Novice
+
+The climber is still learning the basics and has not yet developed a strong sense of body alignment or movement fluency. The climber's movements appear to be somewhat awkward and uncoordinated, which suggests that they have not yet mastered the technical precision required for climbing.",Novice,False
+a237c7f1-4189-4f28-9a7d-233a976976d6,uniandes_bouldering_036_47,Late Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the movements required for climbing. The climber's body alignment is not yet correct, as they are not using the proper techniques for climbing. The climber also seems to lack the necessary movement fluency and technical precision to perform the climbs effectively.",Novice,False,"Novice
+
+The climber's body alignment is not consistent throughout the video. In some frames, the climber's body is aligned with the wall, but in others, it is not. The climber's movement appears to be somewhat fluent, but there are moments where the climber's movements seem to lack fluidity and control. The climber's technical precision is also inconsistent, as the climber struggles to maintain a consistent grip on the holds and often loses balance. Overall, the climber's technique suggests that they are still developing their skills and are not yet at a high level of proficiency.",Novice,False
+3c519043-4e93-4f5e-b521-3b27c235c17c,uniandes_bouldering_024_6,Novice,"Novice
+
+The climber in the video appears to be a novice based on their body alignment and movement fluency. The climber's body is not aligned with the wall, which can lead to inefficient use of energy and increased risk of injury. Additionally, the climber's movements appear to be somewhat stiff and uncoordinated, indicating a lack of technical precision. While the climber has made some progress up the wall, there is still room for improvement in terms of body positioning and movement fluidity.",Novice,True,"Novice
+
+The climber appears to be struggling with the wall and is not able to maintain proper body alignment or movement fluency. The climber's hands are not positioned correctly on the holds, and there is no indication of technical precision in their movements.",Novice,True
+ea71122a-5318-4c39-9207-10eb0fe6e668,uniandes_bouldering_025_14,Novice,"The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The climber maintains good body alignment throughout the sequence, with their core engaged and their movements fluid. This suggests they have a solid understanding of proper climbing techniques.
+
+* **Movement Fluency:** The climber's movements appear smooth and controlled, indicating a high level of comfort and familiarity with the climbing wall. They transition between holds with ease, suggesting they have developed a strong sense of rhythm and timing.
+
+* **Technical Precision:** The climber demonstrates technical precision by selecting appropriate handholds and footholds, maintaining balance, and executing moves with accuracy. Their ability to maintain control while reaching for higher holds indicates a strong foundation in climbing skills.
+
+Overall, the climber's technique and performance suggest they have reached an intermediate expert level in rock climbing. However, it's important to note that this assessment is based on a limited number of frames, and further observation would be needed to confirm their skill level more accurately.",Intermediate Expert,False,"Novice
+
+The climber's body alignment is not ideal as the climber's feet are not aligned with the wall and the climber's knees are bent. The climber's movement is not fluent as the climber's movements appear to be slow and deliberate. The climber's technical precision is also lacking as the climber's hand placement is not precise and the climber's grip strength appears to be weak.",Novice,True
+ef362c0f-063b-4aeb-af18-d15f0c0a949d,uniandes_bouldering_029_8,Early Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the techniques required for climbing. The climber's body alignment is not yet correct, as they are not using the proper hand placement and foot positioning. Their movement is also not fluent, as they appear to be struggling with the climbing wall. Additionally, there is no indication that the climber has any technical precision, as they are not yet able to perform the necessary climbing techniques correctly.",Novice,False,"Novice
+
+The climber's body alignment appears to be off as they are not using the proper climbing techniques. Their movement is not fluent and they seem to be struggling with the wall. The climber also seems to lack technical precision as they are not using the holds correctly.",Novice,False
+74d47f9d-6264-4407-b9f0-9facc320c938,uniandes_bouldering_035_37,Early Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the movements required for climbing. The climber's body alignment is not yet correct, as they are not using the proper techniques for climbing. Their movement fluency is also lacking, as they appear to be struggling with the movements required for climbing. Technical precision is also lacking, as the climber is not yet able to perform the necessary techniques with accuracy.",Novice,False,"Novice
+
+The climber's body alignment appears to be off as they are not using the proper climbing techniques. Their movement is not fluent and they seem to be struggling with the wall. The climber also seems to lack technical precision in their movements.",Novice,False
+297d0185-6f12-4664-b53c-c5fc4054d680,uniandes_bouldering_022_20,Intermediate Expert,"Novice
+
+The climber in the video appears to be a novice as they are still learning how to climb and are not yet able to perform the activity with much fluency or precision. The climber is still trying to find their way up the wall and is not yet able to maintain good body alignment or move fluidly. Additionally, the climber does not appear to have any technical skills that would indicate they are at a higher level of expertise.",Novice,False,"Novice
+
+The climber appears to be struggling with the wall and is not able to maintain proper body alignment or movement fluency. The climber's movements seem to lack technical precision as well.",Novice,False
 368bcbb7-e89b-4fb5-8049-981c46c8250d,uniandes_bouldering_025_38,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-599fccf2-b3c2-4eaf-95b2-0749fe66ef4c,uniandes_bouldering_027_114,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-947ac112-6848-49aa-8cac-aece95145e0d,uniandes_bouldering_026_72,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-4f3ad258-3d8e-430e-88be-d3f6d1db4e90,uniandes_bouldering_033_33,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-00f50674-1f3c-4847-ab4a-fa2f0f113987,uniandes_bouldering_022_33,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-73853c96-b212-4c0c-840b-521bf4db7109,uniandes_bouldering_032_28,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-00e60518-37eb-47ea-bc82-eefa572ffc8c,uniandes_bouldering_029_65,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-2915318c-1440-4a50-aced-d39ddc433ffd,uniandes_bouldering_030_26,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
-8eba5dea-598c-4884-a242-493868d74b9a,uniandes_bouldering_033_12,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
-515cb254-42d5-4107-bf65-f17eb654d6b2,uniandes_bouldering_025_81,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-b39b5e50-0271-42f2-a6ad-e9a3973f6f59,uniandes_bouldering_027_58,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-ded44860-08c8-48a6-bdc1-6fed5fbb2ca8,uniandes_bouldering_034_21,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-78eb1fd3-fd40-45b2-a322-75bf823917ce,uniandes_bouldering_034_8,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-4d46b132-1c9e-404d-86fd-f7fc1dd4c320,uniandes_bouldering_034_65,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-503cc92d-7052-44ff-a21d-da6c4a5d6927,uniandes_bouldering_028_52,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-490ba87f-dec2-421d-89ae-365b07059004,uniandes_bouldering_029_74,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-55a046e6-11d2-4860-a2a4-305e84f87c95,uniandes_bouldering_032_75,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-20339f53-7bb2-4b2f-9829-8b1317c7aefe,uniandes_bouldering_034_37,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-e5342798-15e1-496a-877e-599c41e661d2,uniandes_bouldering_030_61,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
-13187fc4-b19c-44c2-96c4-d6516e80e8c6,uniandes_bouldering_022_49,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-541fd573-8687-496a-8351-aa30f2524bd3,uniandes_bouldering_022_13,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-daebd508-2c03-4304-ad6e-44be5672755c,uniandes_bouldering_028_34,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-da19130e-ef5e-4255-9080-f714a618f934,uniandes_bouldering_030_29,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
-5a87d794-6b64-4287-b212-5142aefeefa2,uniandes_bouldering_032_21,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-efe3c403-3719-4276-b1b1-0492f93a8397,uniandes_bouldering_023_44,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-2aaaca24-108a-437e-ab9a-bc3e8d65fcdf,uniandes_bouldering_024_60,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-7b7365da-5cef-4fbc-8c9b-ab2987fddf0f,uniandes_bouldering_025_16,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-aaf0d082-a972-4620-a1e9-5699023c9c77,uniandes_bouldering_022_62,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-3f60a7dd-d004-4842-bdd0-2e112f554cd9,uniandes_bouldering_035_21,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-34c5de08-c113-4213-82e0-50a6751d794b,uniandes_bouldering_036_48,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
+599fccf2-b3c2-4eaf-95b2-0749fe66ef4c,uniandes_bouldering_027_114,Novice,"The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+1. Body Alignment: The climber maintains good body alignment throughout the climb, with their core engaged and their weight distributed evenly across their feet. This indicates a high level of control and understanding of proper climbing techniques.
+
+2. Movement Fluency: The climber's movements appear fluid and efficient, suggesting that they have developed a good sense of rhythm and timing while climbing. They are able to transition between holds smoothly without unnecessary hesitation or struggle.
+
+3. Technical Precision: The climber demonstrates a high level of technical proficiency by selecting appropriate handholds and footholds, maintaining balance, and executing moves with precision. Their ability to read the wall and choose the best route showcases a strong understanding of climbing strategy.
+
+Overall, the climber's performance suggests that they have a solid foundation in climbing skills and are well on their way to becoming a late expert climber. However, there may still be room for improvement in certain areas, such as increasing speed or developing more advanced techniques.",Late Expert,False,"Novice
+
+The climber's body alignment is not ideal as the climber's body is not aligned with the wall and the climber's feet are not positioned correctly. The climber's movement is not fluent as the climber's movements appear to be slow and deliberate. The climber's technical precision is also lacking as the climber is not using the holds effectively and is not maintaining a good grip.",Novice,True
+947ac112-6848-49aa-8cac-aece95145e0d,uniandes_bouldering_026_72,Novice,"The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The climber demonstrates good body alignment throughout the sequence. They maintain a strong core and proper posture while reaching for holds, which suggests they have a solid understanding of proper climbing techniques.
+
+* **Movement Fluency:** The climber's movements appear fluid and controlled. There are no abrupt or jerky motions, indicating that they have developed a good sense of rhythm and timing in their climbing.
+
+* **Technical Precision:** The climber shows a high level of technical precision by selecting appropriate handholds and footholds, as well as using their body weight effectively to maintain balance and momentum. They also demonstrate good hand-eye coordination when reaching for higher holds.
+
+Overall, the climber's technique is consistent with someone who has been climbing for some time and has developed a good foundation in the sport. However, there may still be room for improvement in certain areas, such as increasing speed or adding more variety to their climbing style.",Intermediate Expert,False,"Novice
+
+The climber's body alignment appears to be off as they are not using the full range of motion and are not maintaining proper posture. Their movement is not fluid or smooth, and there is no indication of technical precision in their climbing style. The climber seems to be struggling with the wall and may benefit from more practice and instruction.",Novice,True
+4f3ad258-3d8e-430e-88be-d3f6d1db4e90,uniandes_bouldering_033_33,Intermediate Expert,"Novice
+
+The climber in the video appears to be a novice as they are still learning how to climb and are not yet able to perform the activity with much fluency or technical precision. The climber is still trying to find their way up the wall and is not yet able to move smoothly and efficiently.",Novice,False,"Novice
+
+The climber's body alignment appears to be off as they are not using the proper climbing techniques. Their movement is not fluent and they seem to be struggling with the wall. The climber also seems to lack technical precision in their movements.",Novice,False
+00f50674-1f3c-4847-ab4a-fa2f0f113987,uniandes_bouldering_022_33,Novice,"Novice
+
+The climber is not yet comfortable with the climbing wall and is still learning how to use it. The climber is not yet able to maintain proper body alignment while climbing, as they are leaning too far forward and not using their core muscles effectively. The climber also appears to be moving in a jerky manner, which indicates that they are not yet fluent in their movements. Additionally, the climber is not yet able to perform any technical moves or techniques, which suggests that they are still in the early stages of learning how to climb.",Novice,True,"Novice
+
+The climber appears to be struggling with the wall and is not able to maintain proper body alignment or movement fluency. The climber's movements seem to lack technical precision as well.",Novice,True
+73853c96-b212-4c0c-840b-521bf4db7109,uniandes_bouldering_032_28,Intermediate Expert,"Novice
+
+The climber appears to be struggling with the wall and is not able to maintain proper body alignment or movement fluency. The climber is also not using technical precision in their movements.",Novice,False,"Novice
+
+The climber's body alignment and movement fluency appear to be lacking. The climber's movements seem to be slow and deliberate, which suggests that they may not have much experience with the sport. Additionally, the climber's technical precision seems to be low as well, as they are not able to grip the holds effectively or maintain a good body position while climbing. Overall, the climber appears to be a novice in rock climbing.",Novice,False
+00e60518-37eb-47ea-bc82-eefa572ffc8c,uniandes_bouldering_029_65,Intermediate Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the techniques required for climbing. The climber's body alignment is not yet correct, as they are not using the proper hand and foot placement. Their movement is also not fluent, as they appear to be struggling with the climbing wall. Additionally, their technical precision is lacking, as they are not yet able to perform the necessary climbing techniques with accuracy.",Novice,False,"Novice
+
+The climber's body alignment appears to be off as they are not using the proper climbing techniques. The movement is not fluent and there is no technical precision in the way they are climbing.",Novice,False
+2915318c-1440-4a50-aced-d39ddc433ffd,uniandes_bouldering_030_26,Late Expert,"Novice
+
+The climber is not yet comfortable with the climbing wall and is still learning how to use it. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not",Novice,False,"Novice
+
+The climber's body alignment appears to be off as they are not using the proper climbing techniques. Their movement is not fluent and they seem to be struggling with the wall. The climber also seems to lack technical precision as they are not using the holds correctly.",Novice,False
+8eba5dea-598c-4884-a242-493868d74b9a,uniandes_bouldering_033_12,Late Expert,"Novice
+
+The climber is not yet comfortable with the climbing wall and is still learning how to use it. The climber is not yet able to maintain proper body alignment or movement fluency. The climber is also not yet able to perform any technical precision.",Novice,False,"Novice
+
+The climber's body alignment appears to be off as they are not using the proper climbing techniques. Their movement is not fluent and they seem to be struggling with the wall. The climber also seems to lack technical precision as they are not using the correct hand and foot placement.",Novice,False
+515cb254-42d5-4107-bf65-f17eb654d6b2,uniandes_bouldering_025_81,Novice,"The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The climber maintains good body alignment throughout the sequence, with their body positioned close to the wall and their weight distributed evenly across their feet. This suggests that they have developed a strong sense of balance and control over their movements.
+
+* **Movement Fluency:** The climber's movements appear fluid and controlled, indicating a high level of proficiency in climbing techniques. They transition smoothly between different holds and maintain a consistent pace, which is characteristic of an intermediate expert climber.
+
+* **Technical Precision:** The climber demonstrates technical precision by selecting appropriate handholds and footholds, as well as using proper climbing techniques such as undercling and crimping. Their ability to execute these techniques accurately and consistently further supports the assessment of their intermediate expert status.
+
+Overall, the climber's body alignment, movement fluency, and technical precision suggest that they possess a solid foundation in climbing skills and are likely at an intermediate expert level. However, it is important to note that this assessment is based solely on the provided video clips and may not fully capture the climber's overall skill level or potential for improvement.",Intermediate Expert,False,"Novice
+
+The climber's body alignment appears to be off as they are not using the proper climbing techniques. Their movement is not fluent and they seem to be struggling with the wall. The climber also seems to lack technical precision in their movements.",Novice,True
+b39b5e50-0271-42f2-a6ad-e9a3973f6f59,uniandes_bouldering_027_58,Novice,"Novice
+
+The climber appears to be struggling with the wall and is not making much progress. Her body alignment is off, as she is leaning too far forward and her feet are not positioned correctly for stability. Her movement is not fluent, and it seems like she is having difficulty finding the right handholds and footholds. She also seems to be lacking in technical precision, as she is not using the proper climbing techniques. Overall, her performance suggests that she is still at a novice level.",Novice,True,"Novice
+
+The climber's body alignment appears to be off as they are not using the proper climbing techniques. Their movement is not fluent and they seem to be struggling with the wall. The climber also seems to lack technical precision as they are not using the holds correctly.",Novice,True
+ded44860-08c8-48a6-bdc1-6fed5fbb2ca8,uniandes_bouldering_034_21,Early Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the movements required for climbing. The climber's body alignment is not yet correct, as they are not using the proper techniques for climbing. The climber also seems to lack the necessary movement fluency and technical precision to perform the climbs effectively.",Novice,False,"Novice
+
+The climber's body alignment is not consistent throughout the climb. The climber's feet are not aligned with the rock holds and the climber's body is not in a straight line. The climber's movement is not fluent as the climber is not able to smoothly transition between the rock holds. The climber's technical precision is also lacking as the climber is not able to grip the rock holds properly and is not able to maintain a good hand position.",Novice,False
+78eb1fd3-fd40-45b2-a322-75bf823917ce,uniandes_bouldering_034_8,Early Expert,"Novice
+
+The climber in the video appears to be a novice based on their body alignment and movement fluency. The climber's body is not aligned with the wall, which can lead to inefficient use of energy and increased risk of injury. Additionally, the climber's movements appear to be somewhat stiff and uncoordinated, indicating a lack of technical precision. While the climber is making progress up the wall, there is room for improvement in terms of body positioning and movement fluidity.",Novice,False,"Novice
+
+The climber's movements appear to be uncoordinated and lack fluidity. The climber's body alignment is not consistent with the climbing wall, as they are not using the proper techniques for climbing. The climber's hands are not positioned correctly, and there is no indication of technical precision in their movements.",Novice,False
+4d46b132-1c9e-404d-86fd-f7fc1dd4c320,uniandes_bouldering_034_65,Early Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the techniques required for climbing. The climber's body alignment is not yet correct, as they are not using the proper hand and foot placement. Their movement is also not fluent, as they appear to be struggling with the climbing wall. Additionally, there is no indication that the climber has any technical precision, as they are not yet able to perform the necessary climbing techniques correctly.",Novice,False,"Novice
+
+The climber's body alignment is not consistent throughout the video. The climber's feet are not aligned with the climbing wall and the climber's body is not in a straight line. The climber's movement is not fluent as the climber's movements appear to be slow and deliberate. The climber's technical precision is also lacking as the climber does not seem to be using proper climbing techniques.",Novice,False
+503cc92d-7052-44ff-a21d-da6c4a5d6927,uniandes_bouldering_028_52,Intermediate Expert,"The person in the video appears to be a novice climber. Their body alignment is not yet optimized for climbing, as they are leaning forward and not maintaining a straight line with their body. Their movement fluency is also lacking, as they seem to be struggling with the climb and not moving smoothly. Additionally, their technical precision is not yet developed, as they are not using proper climbing techniques or form. Overall, their skill level appears to be at the novice stage.",Novice,False,"Novice
+
+The climber appears to be struggling with the wall and is not able to maintain proper body alignment or movement fluency. The climber's hand placement and foot placement appear to be inconsistent and uncoordinated. Technical precision is also lacking as the climber is not able to find the right holds and is not able to maintain balance.",Novice,False
+490ba87f-dec2-421d-89ae-365b07059004,uniandes_bouldering_029_74,Early Expert,"Novice
+
+The person in the video appears to be a novice climber based on their body alignment and movement fluency. Their body posture is not aligned with the wall, which suggests that they may not have a strong understanding of proper climbing techniques. Additionally, their movements appear to be somewhat stiff and ungraceful, indicating that they may not have much experience or practice in climbing. The person also seems to be struggling with maintaining balance and control while climbing, which further supports the idea that they are still developing their skills. Overall, the person's technique appears to be lacking in terms of body alignment, movement fluency, and technical precision, suggesting that they are still at a novice level.",Novice,False,"Novice
+
+The climber's body alignment is not consistent throughout the climb. The climber's feet are not aligned with the rock holds and the climber's body is not in a straight line. The climber's movement is not fluent as the climber is not able to smoothly transition between the rock holds. The climber's technical precision is also lacking as the climber is not able to maintain a good grip on the rock holds.",Novice,False
+55a046e6-11d2-4860-a2a4-305e84f87c95,uniandes_bouldering_032_75,Intermediate Expert,"Novice
+
+The climber in the video appears to be a novice based on their body alignment and movement fluency. The climber's movements seem uncoordinated and lack fluidity, indicating that they may not have much experience with rock climbing. Additionally, the climber's body alignment is not optimal, as they appear to be leaning too far forward and not using their core effectively. This suggests that the climber may need more practice and instruction to improve their technique and become more proficient at rock climbing.",Novice,False,"Novice
+
+The climber's body alignment appears to be off as they are not using the proper climbing techniques. Their movement is not fluent and they seem to be struggling with the wall. The climber also seems to lack technical precision as they are not using the correct handholds and footholds.",Novice,False
+20339f53-7bb2-4b2f-9829-8b1317c7aefe,uniandes_bouldering_034_37,Early Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the techniques required for climbing. The climber's body alignment is not yet correct, as they are not using the proper hand and foot placement. Their movement is also not fluent, as they appear to be struggling to find the right holds and are not moving smoothly up the wall. Additionally, there is no indication that the climber has any technical precision, as they are not yet able to perform the necessary techniques with accuracy.",Novice,False,"Novice
+
+The climber's body alignment is not consistent throughout the climb. The climber's feet are not aligned with the hand placements, which can lead to instability and increased risk of falling. The climber's movement appears to be somewhat fluent, but there is room for improvement in terms of fluidity and efficiency. The climber's technical precision is also lacking as they do not seem to be using the most efficient hand placements or footwork. Overall, the climber's technique suggests that they are still developing their skills and are likely at a novice level.",Novice,False
+e5342798-15e1-496a-877e-599c41e661d2,uniandes_bouldering_030_61,Late Expert,"Novice
+
+The climber appears to be a novice as they are still learning the proper techniques for climbing. They are not yet able to maintain good body alignment and their movements are not fluent or precise.",Novice,False,"Novice
+
+The climber appears to be a novice as they are still learning the proper techniques for climbing. They are not yet able to maintain good body alignment and their movements are not fluent or precise. The climber also seems to be struggling with the technical aspects of the climb, as they are not yet able to use the holds effectively.",Novice,False
+13187fc4-b19c-44c2-96c4-d6516e80e8c6,uniandes_bouldering_022_49,Novice,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the movements required for climbing. The body alignment is not correct as the climber is leaning too far back and not using her legs effectively. The movement is not fluent and the climber seems to be struggling with the technical precision needed to climb the wall.",Novice,True,"Novice
+
+The climber in the video appears to be a novice based on their body alignment and movement fluency. The climber's movements seem uncoordinated and lack fluidity, indicating that they may not have much experience with rock climbing. Additionally, the climber's body alignment is not optimal, as they appear to be leaning too far forward and not maintaining proper posture. This suggests that the climber may need more practice and instruction to improve their technique and become more proficient at rock climbing.",Novice,True
+541fd573-8687-496a-8351-aa30f2524bd3,uniandes_bouldering_022_13,Novice,"Novice
+
+The climber is not yet comfortable with the wall and is still learning how to climb it. The climber is not yet able to maintain good body alignment or movement fluency. The climber is also not yet able to perform the technical precision required for climbing.",Novice,True,"Novice
+
+The climber is still learning the basics and has not yet developed a strong sense of body alignment or movement fluency. The climber's movements appear to be somewhat awkward and uncoordinated, which suggests that they have not yet mastered the technical precision required for climbing.",Novice,True
+daebd508-2c03-4304-ad6e-44be5672755c,uniandes_bouldering_028_34,Intermediate Expert,"The climber in the video appears to be at an intermediate expert level based on her body alignment, movement fluency, and technical precision.
+
+* **Body Alignment:** The climber maintains good body alignment throughout the climb, with her core engaged and her weight distributed evenly across her feet. Her hips are slightly bent, allowing for better balance and control as she reaches for holds. This demonstrates a solid understanding of proper climbing mechanics.
+
+* **Movement Fluency:** The climber's movements are fluid and controlled, indicating that she has developed a good sense of rhythm and timing. She transitions smoothly between different holds without hesitation or awkwardness, suggesting that she has practiced this route before and is comfortable with its sequence of moves.
+
+* **Technical Precision:** The climber displays impressive technical precision, particularly when reaching for small or difficult-to-grab holds. Her fingers are well-placed, and she uses her body weight effectively to maintain grip strength. Additionally, she demonstrates excellent hand-eye coordination, which allows her to quickly identify and reach for the next hold.
+
+Overall, the climber's body alignment, movement fluency, and technical precision suggest that she has achieved an intermediate expert level of skill in rock climbing. While there may still be room for improvement, her performance indicates that she has put in significant practice and has developed a strong foundation in the sport.",Intermediate Expert,True,"Novice
+
+The climber's body alignment is not ideal as the climber's feet are not aligned with the rock holds and the climber's body is not in a straight line. The climber's movement is not fluent as the climber's movements appear to be slow and deliberate. The climber's technical precision is also lacking as the climber is not using the correct technique for climbing the wall.",Novice,False
+da19130e-ef5e-4255-9080-f714a618f934,uniandes_bouldering_030_29,Late Expert,"Novice
+
+The climber in the video appears to be a novice based on their body alignment and movement fluency. The climber's body is not aligned with the wall, which can lead to inefficient use of energy and increased risk of injury. Additionally, the climber's movements appear to be somewhat stiff and uncoordinated, indicating a lack of technical precision. While the climber is making progress up the wall, there is room for improvement in terms of body positioning and movement fluidity.",Novice,False,"Novice
+
+The climber in the video appears to be a novice based on their body alignment and movement fluency. The climber's movements seem uncoordinated and lack fluidity, indicating that they may not have much experience with rock climbing. Additionally, the climber's technical precision seems to be lacking as well, which is another indicator of a novice level of skill.",Novice,False
+5a87d794-6b64-4287-b212-5142aefeefa2,uniandes_bouldering_032_21,Intermediate Expert,"Novice
+
+The climber in the video appears to be a novice based on their body alignment and movement fluency. The climber's body is not aligned with the wall, which can lead to inefficient use of energy and increased risk of injury. Additionally, the climber's movements appear to be somewhat stiff and uncoordinated, indicating a lack of technical precision. While the climber is making progress up the wall, there is room for improvement in terms of body alignment, movement fluency, and technical precision.",Novice,False,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the techniques required for climbing. The climber's movements are not fluid or precise, and there is a lack of body alignment as they struggle to find the right handholds and footholds. The climber also seems to be using a phone as a guide, which suggests that they may not have a strong understanding of the climbing routes or the proper techniques needed to climb effectively. Overall, the climber's skill level appears to be novice.",Novice,False
+efe3c403-3719-4276-b1b1-0492f93a8397,uniandes_bouldering_023_44,Novice,"Novice
+
+The climber is not yet comfortable with the climbing wall and is still learning how to use it. The climber is not yet able to climb up the wall without assistance or guidance. The climber is not yet able to perform the climbing movements with ease and fluency. The climber is not yet able to perform the climbing movements with technical precision. The climber is not yet able to perform the climbing movements with body alignment.",Novice,True,"Novice
+
+The climber appears to be a novice as they are still learning the proper techniques for climbing. They are not yet able to maintain good body alignment and their movements are not fluent or precise. The climber is also not yet able to use the holds effectively and is still relying on their arms to do most of the work.",Novice,True
+2aaaca24-108a-437e-ab9a-bc3e8d65fcdf,uniandes_bouldering_024_60,Novice,"Novice
+
+The climber's body alignment and movement fluency appear to be lacking in these frames. The climber seems to be struggling with the route, as they are not making much progress up the wall. Their movements also seem to be quite stiff and uncoordinated, which suggests that they may still be developing their technique. Additionally, there is no indication of any technical precision in their climbing style, which further supports the assessment of them being at a novice level.",Novice,True,"Novice
+
+The climber's movements appear to be uncoordinated and lack fluidity. The climber's body alignment seems off as they struggle to find the right handholds and footholds. There is no evidence of technical precision in their climbing style.",Novice,True
+7b7365da-5cef-4fbc-8c9b-ab2987fddf0f,uniandes_bouldering_025_16,Novice,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the techniques required for climbing. The climber's body alignment is not correct, as they are not using the proper hand and foot placement on the holds. Their movement is also not fluent, as they appear to be struggling to maintain balance and control while climbing. Additionally, there is no evidence of technical precision, as the climber is not yet able to execute the necessary techniques with accuracy.",Novice,True,"Novice
+
+The climber's body alignment is not consistent throughout the climb. The climber's feet are not aligned with the rock holds and the climber's body is not in a straight line. The climber's movement is not fluent as the climber is not able to smoothly transition between the rock holds. The climber's technical precision is also lacking as the climber is not able to maintain a good grip on the rock holds.",Novice,True
+aaf0d082-a972-4620-a1e9-5699023c9c77,uniandes_bouldering_022_62,Intermediate Expert,"Novice
+
+The climber is not yet comfortable with the route and is still learning how to move up the wall. The climber's body alignment is not yet correct, as the climber is leaning too far forward and not using the full range of motion in the arms. The climber also seems to be struggling with the technical precision required for the route, as the climber is not able to maintain a consistent grip on the holds. Overall, the climber's movement fluency is also lacking, as the climber is not yet able to move smoothly and efficiently up the wall.",Novice,False,"Novice
+
+The climber's movements appear to be uncoordinated and lack fluidity. The climber's body alignment seems off as well, with the climber not maintaining proper posture while climbing. The climber also seems to be struggling with technical precision, as they are not using the holds effectively or efficiently. Overall, the climber appears to be a novice in rock climbing.",Novice,False
+3f60a7dd-d004-4842-bdd0-2e112f554cd9,uniandes_bouldering_035_21,Early Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the techniques required for climbing. The climber's body alignment is not yet correct, as they are not using the proper hand and foot placement on the holds. Their movement is also not fluent, as they appear to be struggling to maintain balance and control while climbing. Additionally, there is no indication that the climber has any technical precision, as they are not yet able to execute the necessary techniques with accuracy.",Novice,False,"Novice
+
+The climber's body alignment is not consistent throughout the climb. The climber's feet are not aligned with the holds and the climber's body is not in a straight line. The climber's movement is not fluent as the climber is not able to smoothly transition between the holds. The climber's technical precision is also lacking as the climber is not able to maintain a good grip on the holds and is not able to use the holds effectively.",Novice,False
+34c5de08-c113-4213-82e0-50a6751d794b,uniandes_bouldering_036_48,Late Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the movements required for climbing. The climber's body alignment is not yet correct, as they are leaning too far forward and not using their core muscles effectively. Their movement is also not fluent, as they appear to be struggling with the technical aspects of climbing. Additionally, their technical precision is lacking, as they are not yet able to use the holds correctly and are not yet able to maintain a good grip on the wall.",Novice,False,"Novice
+
+The climber's body alignment and movement fluency appear to be lacking. The climber's movements seem to be slow and deliberate, which suggests that they may not have much experience with climbing. Additionally, the climber's technique appears to be somewhat imprecise, as they are using their hands to grip the holds rather than their feet. This suggests that the climber may still be learning the proper techniques for climbing. Overall, the climber's skill level appears to be novice.",Novice,False
 783a070b-d9ca-4273-bb9d-0f6ad5939d60,uniandes_bouldering_023_11,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-4f53ded9-6a79-4ea0-bc28-f93981f4db82,uniandes_bouldering_029_9,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-7ddc0933-b409-4c1d-96e6-0ecce0d68d9a,uniandes_bouldering_026_22,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-06846813-9b38-4177-9caa-2fdef34bd868,uniandes_bouldering_027_87,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-ab2d04c4-9952-4554-8047-f624b7703523,uniandes_bouldering_036_60,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-55c0fbdf-e83e-44b2-ae04-a05cd1ac227e,uniandes_bouldering_032_66,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
+4f53ded9-6a79-4ea0-bc28-f93981f4db82,uniandes_bouldering_029_9,Early Expert,"Novice
+
+The climber appears to be struggling with the wall and is not making much progress. Her body alignment is off, as she is leaning too far forward and her feet are not properly positioned. Her movement is not fluent, and it seems like she is having difficulty finding the right handholds and footholds. She also seems to be lacking in technical precision, as she is not using the proper climbing techniques. Overall, her technique needs significant improvement before she can be considered even an early expert.",Early Expert,True,"Novice
+
+The climber's body alignment is not optimal as the climber's feet are not positioned correctly for climbing. The climber's movement is not fluent and there is a lack of technical precision in the climber's hand placement and grip.",Novice,False
+7ddc0933-b409-4c1d-96e6-0ecce0d68d9a,uniandes_bouldering_026_22,Novice,"The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The climber demonstrates good body alignment throughout the sequence. They maintain a strong core and use their legs effectively for support while reaching for holds with their arms. Their feet are positioned correctly, and they appear to be using proper foot placement techniques.
+
+* **Movement Fluency:** The climber's movements are fluid and controlled. There are no abrupt or jerky motions, indicating that they have developed a good sense of rhythm and timing. The transitions between different moves are smooth, suggesting that they have practiced and refined their technique over time.
+
+* **Technical Precision:** The climber shows a high degree of technical precision in their climbing style. They are able to select appropriate handholds and footholds, and they demonstrate good hand-eye coordination. The climber also appears to be using proper climbing techniques, such as undercling and crimping, which suggests that they have a solid understanding of the fundamentals of rock climbing.
+
+Overall, the climber in the video exhibits a high level of skill and technique, indicating that they are likely an intermediate expert climber. However, it is important to note that this assessment is based on a limited number of frames, and further observation would be needed to make a more definitive judgment about the climber's skill level.",Intermediate Expert,False,"Novice
+
+The climber's body alignment and movement fluency are not yet refined. The climber's movements appear to be somewhat stiff and awkward, indicating that they may still be learning the proper techniques for climbing. Additionally, the climber's technical precision is lacking as they are not able to grip the holds effectively or maintain a consistent rhythm while climbing.",Novice,True
+06846813-9b38-4177-9caa-2fdef34bd868,uniandes_bouldering_027_87,Novice,"The climber in the video appears to be a novice or early expert based on their body alignment and movement fluency. The climber's body alignment seems to be off as they are not maintaining proper posture while climbing. Their movement also appears to be somewhat stiff and ungraceful, which suggests that they may not have much experience with rock climbing. Additionally, there is no indication of technical precision in their movements, which further supports the idea that they are still developing their skills. Overall, it seems like the climber is still in the early stages of learning how to climb and would benefit from more practice and instruction.",Early Expert,False,"Novice
+
+The climber's body alignment and movement fluency appear to be lacking. The climber's movements seem to be slow and deliberate, which suggests that they may not have much experience with climbing. Additionally, the climber's technique appears to be somewhat imprecise, as they are not using the holds in a way that would suggest a high level of skill. Overall, it seems like the climber is still developing their skills and is likely at a novice level.",Novice,True
+ab2d04c4-9952-4554-8047-f624b7703523,uniandes_bouldering_036_60,Intermediate Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the techniques required for climbing. The climber's body alignment is not yet correct, as they are not using the proper hand and foot placement. Their movement is also not fluent, as they appear to be struggling with the climbing wall. Additionally, there is no indication that the climber has any technical precision, as they are not yet able to perform the necessary climbing techniques.",Novice,False,"Novice
+
+The climber's body alignment is not consistent throughout the climb. The climber's movement appears to be somewhat uncoordinated and lacks fluidity. The climber's technical precision is also lacking as they do not seem to be using the holds in a precise manner.",Novice,False
+55c0fbdf-e83e-44b2-ae04-a05cd1ac227e,uniandes_bouldering_032_66,Late Expert,"Novice
+
+The climber is not yet comfortable with the climbing wall and is still learning how to use it. The climber is not yet able to climb up the wall without assistance or guidance. The climber is still learning how to use the wall and is not yet able to perform any advanced climbing techniques.",Novice,False,"Novice
+
+The climber appears to be a novice based on the lack of fluidity and precision in their movements. The climber's body alignment seems off, as they are not using the proper climbing techniques. Their movement is also not fluent, as it appears to be slow and hesitant. Additionally, there is no indication of technical precision, which suggests that the climber may not have a strong understanding of the climbing techniques required for this activity.",Novice,False
 50b31b18-a540-4294-9e4a-6a1d2007b872,uniandes_bouldering_024_54,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
-54e52179-7f03-4a57-9b5b-bc526a89a33b,uniandes_bouldering_026_26,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-823628bf-e32c-4b93-9ec2-0c615eb6a999,uniandes_bouldering_024_32,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-03cee26b-3f48-435c-a617-db1130410157,uniandes_bouldering_023_2,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-67afb15d-7cde-4c6d-8826-2fb9b9192b61,uniandes_bouldering_026_23,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-2d440a5d-6f5d-447f-b0d7-5227df11da5f,uniandes_bouldering_022_72,Novice,ERROR,Unknown,False,ERROR,Unknown,False
-68308e20-76b7-4878-af8f-62e74c08e6d3,uniandes_bouldering_036_50,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
-cddea26a-1eac-4176-a541-fa38ca70a214,uniandes_bouldering_033_45,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
-53b52ea1-d45a-428e-989a-0afbd8914588,uniandes_bouldering_032_2,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
+54e52179-7f03-4a57-9b5b-bc526a89a33b,uniandes_bouldering_026_26,Intermediate Expert,"The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The climber maintains good body alignment throughout the sequence, with proper posture and weight distribution. This suggests a level of familiarity with the climbing techniques required for this route.
+
+* **Movement Fluency:** The climber demonstrates fluid movements as they transition between holds, indicating a high degree of control and coordination. This level of fluency is typically seen in climbers who have developed a strong understanding of the route and its specific challenges.
+
+* **Technical Precision:** The climber exhibits precise hand placement and footwork, which is essential for successfully navigating the route. The use of different types of holds (e.g., slopers, crimps) and the ability to maintain balance while transitioning between them suggest a solid grasp of technical climbing skills.
+
+Overall, the climber's performance in these frames indicates that they possess a high level of skill and experience in rock climbing. However, it is important to note that this assessment is based solely on the provided frames and may not fully capture the climber's overall abilities or potential.",Intermediate Expert,True,"Novice
+
+The climber's body alignment is not consistent throughout the climb. The climber's feet are not aligned with the rock holds and the climber's body is not in a straight line. The climber's movement is not fluent as the climber is not able to smoothly transition between the rock holds. The climber's technical precision is also lacking as the climber is not able to grip the rock holds properly and is not able to maintain a good hand position.",Novice,False
+823628bf-e32c-4b93-9ec2-0c615eb6a999,uniandes_bouldering_024_32,Novice,"Novice
+
+The climber's body alignment is not ideal as the climber's feet are not aligned with the wall and the climber's knees are bent too much. The movement fluency is also poor as the climber's movements appear to be slow and awkward. The technical precision is also lacking as the climber is not using the holds correctly and is not maintaining a good grip.",Novice,True,"Novice
+
+The climber's movements appear to be uncoordinated and lack fluidity. The climber's body alignment seems off as well, with the climber not maintaining proper posture while climbing. The climber also seems to be struggling with technical precision, as they are not using the holds effectively or efficiently. Overall, the climber appears to be a novice in terms of climbing technique.",Novice,True
+03cee26b-3f48-435c-a617-db1130410157,uniandes_bouldering_023_2,Early Expert,"Novice
+
+The climber in the video appears to be a novice based on her body alignment and movement fluency. Her body is not aligned with the wall, and she seems to be struggling with the technical precision required for climbing. Her movements appear to be slow and uncoordinated, which suggests that she may not have much experience with rock climbing.",Novice,False,"Novice
+
+The climber's body alignment appears to be off as they are not using the proper climbing techniques. Their movement is not fluent and they seem to be struggling with the wall. The climber also seems to lack technical precision as they are not using the correct handholds and footholds.",Novice,False
+67afb15d-7cde-4c6d-8826-2fb9b9192b61,uniandes_bouldering_026_23,Novice,"The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The climber demonstrates good body alignment throughout the climb. Her feet are positioned correctly for each hold, and her body remains relatively straight as she ascends. This suggests that she has a solid understanding of proper climbing techniques.
+
+* **Movement Fluency:** While the climber's movements are generally smooth, there are some instances where her movements appear slightly stiff or awkward. For example, in Frame 4, she seems to struggle with finding the right handhold, which could indicate a lack of familiarity with the specific route or a need for more practice.
+
+* **Technical Precision:** The climber shows a high level of technical precision, particularly in her use of the holds. She consistently places her feet and hands accurately, demonstrating a strong grasp of the fundamental climbing skills required for this route.
+
+Overall, the climber's technique is well-developed, but there is room for improvement in terms of movement fluency. With continued practice and exposure to different routes, she may be able to refine her movements and achieve a higher level of expertise.",Intermediate Expert,False,"Novice
+
+The climber in the video appears to be a novice based on their body alignment and movement fluency. The climber's movements seem uncoordinated and lack fluidity, which suggests that they may not have much experience with climbing. Additionally, the climber's technical precision seems to be lacking as well, as they are not able to effectively use the holds on the wall. Overall, the climber's technique appears to be at a very basic level, indicating that they are likely still in the early stages of learning how to climb.",Novice,True
+2d440a5d-6f5d-447f-b0d7-5227df11da5f,uniandes_bouldering_022_72,Novice,"Novice
+
+The climber is not yet comfortable with the climbing wall and is still learning how to use it. The climber's body alignment is not yet correct, as they are not using the proper techniques for climbing. The climber's movement is not fluent, as they are still learning how to move around the wall. The climber's technical precision is also lacking, as they are not yet able to perform the necessary moves with accuracy.",Novice,True,"Novice
+
+The climber's body alignment is not consistent throughout the climb. The climber's feet are not aligned with the hand placements, which can lead to instability and increased risk of falling. The climber's movement appears to be somewhat fluent, but there is room for improvement in terms of technical precision. The climber's hand placements are inconsistent, and they do not seem to be using the correct technique for each hold. Overall, the climber's technique is not yet refined, indicating that they are still in the novice stage of development.",Novice,True
+68308e20-76b7-4878-af8f-62e74c08e6d3,uniandes_bouldering_036_50,Late Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the movements required for climbing. The climber's body alignment is not yet correct, as they are not using the proper techniques for climbing. The climber also seems to lack the necessary movement fluency and technical precision to perform the climbs effectively.",Novice,False,"Novice
+
+The climber's body alignment appears to be off as they are not using the proper climbing techniques. Their movement is not fluent and they seem to be struggling with the wall. The climber also seems to lack technical precision in their movements.",Novice,False
+cddea26a-1eac-4176-a541-fa38ca70a214,uniandes_bouldering_033_45,Late Expert,"Novice
+
+The climber in the video appears to be a novice as they are still learning how to climb and are not yet able to perform the activity with much fluency or technical precision. The climber is still learning how to use the wall properly and is not yet able to climb with much speed or efficiency.",Novice,False,"The climber appears to be at the Intermediate Expert level based on the following observations:
+
+* **Body Alignment:** The climber demonstrates good body alignment throughout the climb, maintaining a strong core and proper posture. This suggests a high level of technical proficiency and experience in climbing.
+* **Movement Fluency:** The climber's movements appear fluid and controlled, indicating a high degree of comfort and familiarity with the climbing wall. The climber's ability to transition between holds and maintain balance suggests a high level of technical skill.
+* **Technical Precision:** The climber exhibits precise hand placement and footwork, demonstrating a strong understanding of the climbing techniques required for this route. The climber's ability to read the wall and choose the most efficient lines of ascent further indicates a high level of technical expertise.
+
+Overall, the climber's technique and performance suggest that they have a solid foundation in climbing and are likely at the Intermediate Expert level. However, it's important to note that this assessment is based on a limited number of frames, and a more comprehensive evaluation would require observing the climber over a longer period or on different routes.",Intermediate Expert,False
+53b52ea1-d45a-428e-989a-0afbd8914588,uniandes_bouldering_032_2,Late Expert,"Novice
+
+The climber in the video appears to be a novice as they are still learning how to climb and are not yet able to perform the activity with much fluency or technical precision. The climber is still trying to find their way up the wall and is not yet able to move smoothly and efficiently.",Novice,False,"Novice
+
+The climber's body alignment and movement fluency appear to be lacking. The climber's movements seem to be uncoordinated and awkward, which suggests that they may not have much experience with rock climbing. Additionally, the climber's technical precision seems to be low as well, as there are several instances where the climber appears to be struggling to find a grip or maintain balance. Overall, the climber's technique appears to be quite basic, indicating that they are likely still in the early stages of learning how to climb.",Novice,False
 fe9cc639-8550-4f4b-bb1b-b6474dc740d9,uniandes_bouldering_022_5,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-6cc51836-6b79-4921-9024-d351486ad88c,uniandes_bouldering_033_55,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-14e3d506-966c-4775-9499-e800ff752938,uniandes_bouldering_036_57,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-50a1d087-699a-4b98-a8d3-1c1b9adae130,uniandes_bouldering_037_52,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
-b0e3de53-17af-438a-80f5-7bbb2fed0125,uniandes_bouldering_026_21,Novice,ERROR,Unknown,False,ERROR,Unknown,False
+6cc51836-6b79-4921-9024-d351486ad88c,uniandes_bouldering_033_55,Intermediate Expert,"Novice
+
+The climber is not yet comfortable with the climbing wall and is still learning how to use it. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not yet able to climb up the wall without falling down. The climber is not",Novice,False,"Novice
+
+The climber's body alignment and movement fluency appear to be lacking. The climber's hand placement and foot positioning seem inconsistent, and the climber's movements are not fluid or smooth. The climber also seems to be struggling with the technical precision required for climbing, as evidenced by the lack of proper hand and foot placement on the holds. Overall, the climber's technique appears to be at a novice level.",Novice,False
+14e3d506-966c-4775-9499-e800ff752938,uniandes_bouldering_036_57,Intermediate Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the movements required for climbing. The climber's body alignment is not yet correct, as they are not using the proper techniques for climbing. The climber also seems to lack the necessary movement fluency and technical precision to perform the climbs effectively.",Novice,False,"Novice
+
+The climber in the video appears to be a novice based on their body alignment and movement fluency. The climber's body is not aligned with the wall, which can lead to inefficient use of energy and increased risk of injury. Additionally, the climber's movements appear to be somewhat stiff and uncoordinated, indicating a lack of technical precision. While the climber is making progress up the wall, there is room for improvement in terms of body positioning and movement fluidity.",Novice,False
+50a1d087-699a-4b98-a8d3-1c1b9adae130,uniandes_bouldering_037_52,Late Expert,"Novice
+
+The climber appears to be a novice based on the following observations:
+
+1. Body Alignment: The climber's body alignment seems off as they are not maintaining proper posture while climbing. Their feet and hands are not positioned correctly, which can lead to inefficient use of energy and increased risk of injury.
+
+2. Movement Fluency: The climber's movements appear to be uncoordinated and lack fluidity. They seem to be struggling with the route, which suggests that they may not have the necessary skills or experience to perform the climb efficiently.
+
+3. Technical Precision: The climber's technique is not precise, as they are not using the correct handholds and footholds. This can result in a slower climb and an increased risk of falling.
+
+Overall, the climber's technique and body alignment suggest that they are still developing their skills and are likely at a novice level.",Novice,False,"Novice
+
+The climber's body alignment is not ideal as the climber's feet are not aligned with the wall and the climber's knees are bent. The climber's movement is not fluent as the climber's movements appear to be slow and deliberate. The climber's technical precision is also lacking as the climber's hand placement and grip are not precise.",Novice,False
+b0e3de53-17af-438a-80f5-7bbb2fed0125,uniandes_bouldering_026_21,Novice,"The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The climber maintains good body alignment throughout the sequence, with proper posture and weight distribution. This suggests that they have a solid understanding of the mechanics involved in climbing and can execute them effectively.
+
+* **Movement Fluency:** The climber's movements appear fluid and controlled, indicating a high level of comfort and familiarity with the climbing wall. They transition between holds smoothly without hesitation or awkwardness, which is characteristic of someone who has practiced extensively.
+
+* **Technical Precision:** The climber demonstrates precise hand and foot placement, as well as good use of body mechanics to navigate the wall. They also show a good understanding of the different types of holds and how to use them effectively, which is indicative of a higher skill level.
+
+Overall, the climber's technique and performance suggest that they have a strong foundation in climbing and are likely at an intermediate expert level. However, it's important to note that this assessment is based on a limited number of frames, so a more comprehensive evaluation would require observing the climber over a longer period of time.",Intermediate Expert,False,"Novice
+
+The climber's body alignment is not consistent throughout the climb. The climber's feet are not aligned with the wall and the climber's body is not in a straight line. The climber's movement is not fluent as the climber's movements are not smooth and the climber's body is not moving in a coordinated manner. The climber's technical precision is also lacking as the climber is not using the holds correctly and the climber is not using the correct climbing techniques.",Novice,True
 8d755767-c021-4782-8374-93f46af70075,uniandes_bouldering_031_30,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
-103eefc6-4c85-4d2f-877a-c56458767c63,uniandes_bouldering_036_12,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
+103eefc6-4c85-4d2f-877a-c56458767c63,uniandes_bouldering_036_12,Intermediate Expert,"Novice
+
+The climber in the video appears to be a novice based on their body alignment and movement fluency. The climber's body is not aligned with the wall, which can lead to inefficient use of energy and increased risk of injury. Additionally, the climber's movements appear to be somewhat stiff and uncoordinated, indicating a lack of technical precision. While the climber has managed to reach the top of the wall, their overall performance suggests that they may benefit from further practice and instruction.",Novice,False,"Novice
+
+The climber's body alignment is not consistent throughout the climb. The climber's movement appears to be somewhat stiff and uncoordinated. The climber's technical precision is also lacking as they do not seem to be using the holds in a fluid manner.",Novice,False
 f994a8f3-14ff-418d-b7f4-239c1a07f06d,uniandes_bouldering_025_52,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
-b437ad8d-7d90-48b9-84ef-46e6db4a58da,uniandes_bouldering_029_28,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-08dc1e90-e64a-4420-a773-574758117821,uniandes_bouldering_027_2,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-e5c4c6aa-f142-4b45-bb12-97e312cb20fd,uniandes_bouldering_028_24,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
-c8dbedf6-61ec-497f-b57e-ee270238da13,uniandes_bouldering_031_69,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
-a729523b-c8c8-40a5-99b5-eebff3772724,uniandes_bouldering_029_48,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
-75286d45-1251-421a-90cb-3f0212443244,uniandes_bouldering_036_8,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
+b437ad8d-7d90-48b9-84ef-46e6db4a58da,uniandes_bouldering_029_28,Early Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the techniques required for climbing. The climber's body alignment is not yet correct, as they are not using the proper hand and foot placement. Their movement is also not fluent, as they appear to be struggling to maintain balance and control while climbing. Additionally, there is no evidence of technical precision, as the climber is not yet able to execute the necessary techniques with accuracy.",Novice,False,"Novice
+
+The climber's movements appear to be somewhat uncoordinated and lack fluidity. The climber's body alignment seems off as well, with the climber not maintaining proper posture throughout the climb. The climber also appears to be struggling with technical precision, as they are not using the holds in a way that would allow for efficient climbing. Overall, the climber's technique suggests that they are still developing their skills and are likely at a novice level.",Novice,False
+08dc1e90-e64a-4420-a773-574758117821,uniandes_bouldering_027_2,Intermediate Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the techniques required for climbing. The climber's body alignment is not yet correct, as they are leaning too far forward and not using their core muscles effectively. Their movement is also not fluent, as they appear to be struggling to find the right handholds and footholds. Additionally, their technical precision is lacking, as they are not yet able to use the proper climbing techniques to ascend the wall.",Novice,False,"Novice
+
+The climber in the video appears to be a novice based on their body alignment and movement fluency. The climber's body is not aligned with the wall, which can lead to inefficient use of energy and increased risk of injury. Additionally, the climber's movements appear to be somewhat stiff and uncoordinated, indicating a lack of technical precision. While the climber has some basic understanding of climbing techniques, they still have room for improvement in terms of body alignment, movement fluency, and technical precision.",Novice,False
+e5c4c6aa-f142-4b45-bb12-97e312cb20fd,uniandes_bouldering_028_24,Early Expert,"The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The climber maintains good body alignment throughout the climb, with their core engaged and their weight distributed evenly across their feet. This suggests that they have a solid understanding of proper climbing mechanics.
+
+* **Movement Fluency:** The climber's movements appear fluid and controlled, indicating a high level of comfort and familiarity with the route. They are able to transition between holds smoothly without hesitation or unnecessary movements.
+
+* **Technical Precision:** The climber demonstrates strong technical precision by selecting appropriate handholds and footholds, as well as maintaining a consistent grip and foot placement. Their ability to read the route and make calculated decisions about their next move is evident.
+
+Overall, the climber's technique is well-developed and efficient, suggesting that they have a significant amount of experience and training in rock climbing. However, there may still be room for improvement in certain areas, such as increasing their speed or developing more advanced techniques.",Intermediate Expert,False,"Novice
+
+The climber is still learning the proper techniques for climbing and has not yet developed the necessary skills to climb efficiently and effectively. The climber's movements are not fluid or precise, and there is room for improvement in terms of body alignment and technical precision.",Novice,False
+c8dbedf6-61ec-497f-b57e-ee270238da13,uniandes_bouldering_031_69,Late Expert,"Novice
+
+The climber appears to be in the early stages of learning how to climb and is not yet comfortable with the techniques required for climbing. The climber's body alignment is not yet correct, as they are not using the proper hand and foot placement. Their movement is also not fluent, as they appear to be struggling with the climbing wall. Additionally, there is no indication that the climber has any technical precision, as they are not yet able to perform the necessary techniques correctly.",Novice,False,"Novice
+
+The climber's body alignment appears to be off as they are not using the proper climbing techniques. Their movement is not fluent and they seem to be struggling with the wall. The climber also seems to lack technical precision as they are not using the correct hand and foot placement.",Novice,False
+a729523b-c8c8-40a5-99b5-eebff3772724,uniandes_bouldering_029_48,Intermediate Expert,"The climber in the video appears to be a novice or early expert based on their body alignment and movement fluency. The climber's body is not aligned with the wall, as they are leaning too far forward and their feet are not positioned correctly for proper balance. Additionally, their movements appear to be somewhat stiff and ungraceful, indicating that they may still be developing their technique. While the climber has made some progress by reaching up towards the wall, there is room for improvement in terms of body positioning and fluidity of movement. Overall, the climber's skill level appears to be at the novice or early expert stage.",Early Expert,False,"Novice
+
+The climber is still learning the proper techniques for climbing and is not yet able to perform the activity with much fluency or precision. The climber is still using their hands to climb up the wall instead of their feet, which is a common mistake for beginners. Additionally, the climber is not yet able to maintain good body alignment while climbing, as they are leaning too far forward and not using their core muscles effectively.",Novice,False
+75286d45-1251-421a-90cb-3f0212443244,uniandes_bouldering_036_8,Late Expert,"Novice
+
+The climber appears to be struggling with the wall and is not able to maintain proper body alignment or movement fluency. The climber's movements seem to lack technical precision as well.",Novice,False,"Novice
+
+The climber's body alignment is not consistent throughout the climb. The climber's feet are not aligned with the holds and the climber's body is not in a straight line. The climber's movement is not fluent as the climber is not able to smoothly transition between the holds. The climber's technical precision is also lacking as the climber is not able to grip the holds properly and is not able to maintain a good hand position.",Novice,False

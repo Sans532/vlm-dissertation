@@ -9,15 +9,6 @@
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
   },
   {
-    "clip_id": "6bdb5463-41a6-49fb-a8e0-d651f8832a39",
-    "take_folder": "uniandes_bouldering_023_13",
-    "video_path_ego": "takes/uniandes_bouldering_023_13/frame_aligned_videos/aria01_214-1.mp4",
-    "video_path_exo": "takes/uniandes_bouldering_023_13/frame_aligned_videos/cam01.mp4",
-    "activity": "Bouldering",
-    "ground_truth": "Expert",
-    "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
-  },
-  {
     "clip_id": "4401cdfe-a383-4116-b1ed-1783b2e0ae7e",
     "take_folder": "uniandes_bouldering_036_4",
     "video_path_ego": "takes/uniandes_bouldering_036_4/frame_aligned_videos/aria01_214-1.mp4",
@@ -148,15 +139,6 @@
     "take_folder": "uniandes_bouldering_037_8",
     "video_path_ego": "takes/uniandes_bouldering_037_8/frame_aligned_videos/aria01_214-1.mp4",
     "video_path_exo": "takes/uniandes_bouldering_037_8/frame_aligned_videos/cam01.mp4",
-    "activity": "Bouldering",
-    "ground_truth": "Expert",
-    "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
-  },
-  {
-    "clip_id": "fea346bb-5937-411c-b642-32f473b26cf8",
-    "take_folder": "uniandes_bouldering_031_27",
-    "video_path_ego": "takes/uniandes_bouldering_031_27/frame_aligned_videos/aria01_214-1.mp4",
-    "video_path_exo": "takes/uniandes_bouldering_031_27/frame_aligned_videos/cam01.mp4",
     "activity": "Bouldering",
     "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
@@ -448,5 +430,21 @@
     "activity": "Bouldering",
     "ground_truth": "Expert",
     "question_binary": "Is this person a novice or an expert at this activity? Answer only: Novice or Expert"
+  },
+  {
+    "clip_id": "2915318c-1440-4a50-aced-d39ddc433ffd",
+    "take_folder": "uniandes_bouldering_030_26",
+    "video_path_ego": "takes/uniandes_bouldering_030_26/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_bouldering_030_26/frame_aligned_videos/cam01.mp4",
+    "activity": "Bouldering",
+    "ground_truth": "Expert"
+  },
+  {
+    "clip_id": "e8f2df2e-5d2d-4352-b06c-95554b1ecdb3",
+    "take_folder": "uniandes_bouldering_031_68",
+    "video_path_ego": "takes/uniandes_bouldering_031_68/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_bouldering_031_68/frame_aligned_videos/cam01.mp4",
+    "activity": "Bouldering",
+    "ground_truth": "Expert"
   }
 ]

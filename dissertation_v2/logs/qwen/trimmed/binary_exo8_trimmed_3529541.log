@@ -1,0 +1,141 @@
+Sun Jul  5 01:05:49 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.211.01             Driver Version: 570.211.01     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA RTX A6000               Off |   00000000:84:00.0 Off |                  Off |
+| 77%   81C    P0            121W /  300W |       0MiB /  49140MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading takes metadata...
+Loaded 5035 takes.
+
+Loading Qwen2.5-VL-7B ...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [01:01<12:28:58, 61.73s/it]Loading weights:   0%|          | 2/729 [01:04<5:31:14, 27.34s/it] Loading weights:   7%|▋         | 54/729 [01:09<07:53,  1.43it/s] Loading weights:   9%|▉         | 64/729 [01:13<06:58,  1.59it/s]Loading weights:   9%|▉         | 66/729 [01:13<06:35,  1.68it/s]Loading weights:  10%|█         | 76/729 [01:21<07:08,  1.52it/s]Loading weights:  11%|█         | 77/729 [01:21<06:55,  1.57it/s]Loading weights:  12%|█▏        | 88/729 [01:25<05:29,  1.95it/s]Loading weights:  12%|█▏        | 89/729 [01:29<07:35,  1.41it/s]Loading weights:  14%|█▎        | 100/729 [01:33<05:42,  1.84it/s]Loading weights:  14%|█▍        | 101/729 [01:33<05:31,  1.89it/s]Loading weights:  14%|█▍        | 102/729 [01:37<08:20,  1.25it/s]Loading weights:  15%|█▌        | 112/729 [01:41<05:53,  1.75it/s]Loading weights:  16%|█▌        | 113/729 [01:41<05:35,  1.84it/s]Loading weights:  17%|█▋        | 124/729 [01:49<06:19,  1.59it/s]Loading weights:  17%|█▋        | 126/729 [01:49<05:38,  1.78it/s]Loading weights:  19%|█▊        | 136/729 [01:52<04:23,  2.25it/s]Loading weights:  19%|█▉        | 137/729 [01:57<07:03,  1.40it/s]Loading weights:  20%|██        | 148/729 [02:01<05:05,  1.90it/s]Loading weights:  21%|██        | 150/729 [02:05<06:55,  1.39it/s]Loading weights:  22%|██▏       | 160/729 [02:09<05:27,  1.74it/s]Loading weights:  23%|██▎       | 170/729 [02:09<03:18,  2.81it/s]Loading weights:  24%|██▍       | 174/729 [02:17<06:12,  1.49it/s]Loading weights:  25%|██▌       | 184/729 [02:21<04:59,  1.82it/s]Loading weights:  26%|██▌       | 186/729 [02:26<06:39,  1.36it/s]Loading weights:  27%|██▋       | 196/729 [02:29<05:08,  1.73it/s]Loading weights:  27%|██▋       | 198/729 [02:34<06:48,  1.30it/s]Loading weights:  29%|██▊       | 208/729 [02:38<05:10,  1.68it/s]Loading weights:  30%|███       | 220/729 [02:47<05:30,  1.54it/s]Loading weights:  32%|███▏      | 232/729 [02:50<04:09,  1.99it/s]Loading weights:  32%|███▏      | 233/729 [02:55<05:43,  1.44it/s]Loading weights:  33%|███▎      | 244/729 [02:58<04:20,  1.86it/s]Loading weights:  34%|███▎      | 246/729 [03:03<05:46,  1.39it/s]Loading weights:  35%|███▌      | 256/729 [03:06<04:29,  1.76it/s]Loading weights:  35%|███▌      | 258/729 [03:06<04:03,  1.94it/s]Loading weights:  37%|███▋      | 268/729 [03:16<05:17,  1.45it/s]Loading weights:  38%|███▊      | 280/729 [03:20<04:10,  1.79it/s]Loading weights:  39%|███▊      | 281/729 [03:25<05:38,  1.32it/s]Loading weights:  40%|████      | 292/729 [03:28<04:06,  1.77it/s]Loading weights:  40%|████      | 294/729 [03:33<05:21,  1.35it/s]Loading weights:  42%|████▏     | 304/729 [03:36<04:05,  1.73it/s]Loading weights:  42%|████▏     | 306/729 [03:37<03:41,  1.91it/s]Loading weights:  43%|████▎     | 316/729 [03:45<04:27,  1.55it/s]Loading weights:  45%|████▍     | 328/729 [03:49<03:23,  1.97it/s]Loading weights:  45%|████▌     | 329/729 [03:53<04:39,  1.43it/s]Loading weights:  53%|█████▎    | 383/729 [03:53<00:53,  6.52it/s]Loading weights:  54%|█████▎    | 391/729 [03:54<00:46,  7.26it/s]Loading weights:  54%|█████▍    | 395/729 [03:54<00:44,  7.56it/s]Loading weights:  55%|█████▌    | 403/729 [03:55<00:38,  8.50it/s]Loading weights:  56%|█████▌    | 407/729 [03:55<00:34,  9.43it/s]Loading weights:  57%|█████▋    | 413/729 [03:55<00:27, 11.54it/s]Loading weights:  57%|█████▋    | 417/729 [03:55<00:29, 10.52it/s]Loading weights:  58%|█████▊    | 425/729 [03:55<00:22, 13.79it/s]Loading weights:  59%|█████▉    | 429/729 [03:56<00:25, 11.93it/s]Loading weights:  59%|█████▉    | 433/729 [03:56<00:21, 13.52it/s]Loading weights:  60%|██████    | 439/729 [03:57<00:22, 12.62it/s]Loading weights:  62%|██████▏   | 449/729 [03:57<00:14, 19.36it/s]Loading weights:  62%|██████▏   | 453/729 [03:57<00:18, 14.91it/s]Loading weights:  63%|██████▎   | 461/729 [03:58<00:14, 18.69it/s]Loading weights:  64%|██████▎   | 464/729 [03:58<00:19, 13.62it/s]Loading weights:  64%|██████▍   | 469/729 [03:58<00:16, 16.15it/s]Loading weights:  65%|██████▌   | 475/729 [03:59<00:17, 14.41it/s]Loading weights:  66%|██████▌   | 481/729 [03:59<00:13, 18.29it/s]Loading weights:  67%|██████▋   | 487/729 [04:00<00:16, 14.62it/s]Loading weights:  68%|██████▊   | 497/729 [04:00<00:10, 22.26it/s]Loading weights:  69%|██████▊   | 501/729 [04:00<00:14, 16.23it/s]Loading weights:  70%|██████▉   | 509/729 [04:00<00:10, 21.14it/s]Loading weights:  70%|███████   | 513/729 [04:01<00:13, 16.16it/s]Loading weights:  71%|███████▏  | 521/729 [04:01<00:09, 20.90it/s]Loading weights:  72%|███████▏  | 525/729 [04:02<00:13, 15.54it/s]Loading weights:  73%|███████▎  | 529/729 [04:02<00:11, 17.32it/s]Loading weights:  73%|███████▎  | 535/729 [04:02<00:12, 15.46it/s]Loading weights:  74%|███████▍  | 541/729 [04:02<00:09, 19.71it/s]Loading weights:  75%|███████▌  | 547/729 [04:03<00:11, 15.95it/s]Loading weights:  76%|███████▌  | 553/729 [04:03<00:08, 20.39it/s]Loading weights:  76%|███████▋  | 557/729 [04:03<00:07, 22.95it/s]Loading weights:  77%|███████▋  | 561/729 [04:03<00:09, 16.87it/s]Loading weights:  78%|███████▊  | 565/729 [04:04<00:08, 18.28it/s]Loading weights:  78%|███████▊  | 571/729 [04:04<00:10, 14.62it/s]Loading weights:  79%|███████▉  | 577/729 [04:04<00:07, 19.14it/s]Loading weights:  80%|███████▉  | 583/729 [04:05<00:09, 16.18it/s]Loading weights:  81%|████████  | 589/729 [04:05<00:06, 20.26it/s]Loading weights:  81%|████████▏ | 593/729 [04:05<00:05, 22.71it/s]Loading weights:  82%|████████▏ | 597/729 [04:06<00:08, 15.69it/s]Loading weights:  82%|████████▏ | 601/729 [04:06<00:07, 18.12it/s]Loading weights:  83%|████████▎ | 607/729 [04:06<00:07, 15.71it/s]Loading weights:  84%|████████▍ | 613/729 [04:06<00:05, 20.40it/s]Loading weights:  85%|████████▍ | 619/729 [04:07<00:07, 15.21it/s]Loading weights:  86%|████████▌ | 625/729 [04:07<00:05, 19.88it/s]Loading weights:  87%|████████▋ | 631/729 [04:08<00:06, 15.31it/s]Loading weights:  87%|████████▋ | 637/729 [04:08<00:04, 19.03it/s]Loading weights:  88%|████████▊ | 643/729 [04:08<00:05, 15.39it/s]Loading weights:  90%|████████▉ | 653/729 [04:08<00:03, 22.54it/s]Loading weights:  90%|█████████ | 657/729 [04:09<00:04, 16.32it/s]Loading weights:  91%|█████████ | 665/729 [04:09<00:03, 20.86it/s]Loading weights:  92%|█████████▏| 669/729 [04:10<00:03, 17.04it/s]Loading weights:  92%|█████████▏| 673/729 [04:10<00:03, 18.63it/s]Loading weights:  93%|█████████▎| 679/729 [04:10<00:03, 15.04it/s]Loading weights:  94%|█████████▍| 685/729 [04:10<00:02, 19.24it/s]Loading weights:  95%|█████████▍| 691/729 [04:11<00:02, 15.93it/s]Loading weights:  96%|█████████▌| 701/729 [04:11<00:01, 21.91it/s]Loading weights:  97%|█████████▋| 705/729 [04:12<00:01, 16.46it/s]Loading weights:  97%|█████████▋| 709/729 [04:12<00:01, 18.06it/s]Loading weights:  98%|█████████▊| 715/729 [04:12<00:00, 15.50it/s]Loading weights:  99%|█████████▉| 721/729 [04:12<00:00, 20.14it/s]Loading weights: 100%|█████████▉| 726/729 [04:15<00:00,  4.92it/s]Loading weights: 100%|██████████| 729/729 [04:15<00:00,  2.85it/s]
+Model loaded.
+
+Clips: 50
+Frames: 8 (from task window only)
+Prompt: Is this person a Novice or an Expert at this activity? Answer only: Novice or Expert
+
+[1/50] uniandes_bouldering_027_56 (GT=Novice) task=0.9-8.8s
+  Novice OK
+[2/50] uniandes_bouldering_036_4 (GT=Expert) task=0.5-44.6s
+  Novice X
+[3/50] uniandes_bouldering_029_59 (GT=Novice) task=1.0-31.4s
+  Novice OK
+[4/50] uniandes_bouldering_037_51 (GT=Expert) task=0.7-29.6s
+  Novice X
+[5/50] uniandes_bouldering_036_73 (GT=Expert) task=4.8-32.1s
+  Novice X
+[6/50] uniandes_bouldering_022_32 (GT=Novice) task=0.2-14.9s
+  Novice OK
+[7/50] uniandes_bouldering_037_4 (GT=Expert) task=0.7-50.7s
+  Novice X
+[8/50] uniandes_bouldering_030_63 (GT=Expert) task=3.9-13.2s
+  Novice X
+[9/50] uniandes_bouldering_027_52 (GT=Novice) task=0.6-9.2s
+  Novice OK
+[10/50] uniandes_bouldering_030_25 (GT=Expert) task=2.1-42.0s
+  Novice X
+[11/50] uniandes_bouldering_026_37 (GT=Novice) task=2.2-2.9s
+  Novice OK
+[12/50] uniandes_bouldering_022_72 (GT=Novice) task=0.0-45.5s
+  Novice OK
+[13/50] uniandes_bouldering_036_21 (GT=Expert) task=0.6-81.2s
+  Novice X
+[14/50] uniandes_bouldering_025_46 (GT=Novice) task=19.8-66.1s
+  Novice OK
+[15/50] uniandes_bouldering_036_17 (GT=Expert) task=0.6-21.3s
+  Novice X
+[16/50] uniandes_bouldering_037_8 (GT=Expert) task=0.5-73.2s
+  Novice X
+[17/50] uniandes_bouldering_026_43 (GT=Novice) task=2.0-29.0s
+  Novice OK
+[18/50] uniandes_bouldering_022_71 (GT=Novice) task=11.3-39.1s
+  Novice OK
+[19/50] uniandes_bouldering_036_45 (GT=Expert) task=0.0-34.3s
+  Novice X
+[20/50] uniandes_bouldering_026_22 (GT=Novice) task=15.9-55.9s
+  Novice OK
+[21/50] uniandes_bouldering_026_63 (GT=Novice) task=0.9-20.9s
+  Novice OK
+[22/50] uniandes_bouldering_022_67 (GT=Expert) task=0.8-9.0s
+  Novice X
+[23/50] uniandes_bouldering_022_47 (GT=Novice) task=0.4-36.2s
+  Novice OK
+[24/50] uniandes_bouldering_022_31 (GT=Novice) task=0.3-11.8s
+  Novice OK
+[25/50] uniandes_bouldering_027_25 (GT=Novice) task=0.9-4.1s
+  Novice OK
+[26/50] uniandes_bouldering_033_44 (GT=Expert) task=1.6-27.0s
+  Novice X
+[27/50] uniandes_bouldering_026_38 (GT=Novice) task=1.5-16.8s
+  Novice OK
+[28/50] uniandes_bouldering_023_44 (GT=Novice) task=8.7-19.2s
+  Novice OK
+[29/50] uniandes_bouldering_027_23 (GT=Novice) task=0.6-17.8s
+  Novice OK
+[30/50] uniandes_bouldering_030_62 (GT=Expert) task=3.0-11.9s
+  Novice X
+[31/50] uniandes_bouldering_026_109 (GT=Novice) task=1.0-15.0s
+  Novice OK
+[32/50] uniandes_bouldering_030_8 (GT=Expert) task=0.9-51.6s
+  Novice X
+[33/50] uniandes_bouldering_026_102 (GT=Novice) task=1.5-33.5s
+  Novice OK
+[34/50] uniandes_bouldering_036_35 (GT=Expert) task=0.8-18.6s
+  Novice X
+[35/50] uniandes_bouldering_029_89 (GT=Novice) task=0.4-13.4s
+  Novice OK
+[36/50] uniandes_bouldering_027_50 (GT=Novice) task=0.6-12.3s
+  Novice OK
+[37/50] uniandes_bouldering_027_59 (GT=Novice) task=0.9-18.8s
+  Novice OK
+[38/50] uniandes_bouldering_036_49 (GT=Expert) task=0.3-4.2s
+  Novice X
+[39/50] uniandes_bouldering_036_14 (GT=Expert) task=0.7-40.2s
+  Novice X
+[40/50] uniandes_bouldering_027_27 (GT=Novice) task=0.9-10.1s
+  Novice OK
+[41/50] uniandes_bouldering_030_28 (GT=Expert) task=3.1-24.1s
+  Novice X
+[42/50] uniandes_bouldering_037_20 (GT=Expert) task=0.4-61.4s
+  Novice X
+[43/50] uniandes_bouldering_037_56 (GT=Expert) task=0.6-34.2s
+  Novice X
+[44/50] uniandes_bouldering_037_55 (GT=Expert) task=0.5-37.5s
+  Novice X
+[45/50] uniandes_bouldering_036_8 (GT=Expert) task=0.0-45.6s
+  Novice X
+[46/50] uniandes_bouldering_029_58 (GT=Novice) task=0.8-36.1s
+  Novice OK
+[47/50] uniandes_bouldering_022_33 (GT=Novice) task=0.4-16.2s
+  Novice OK
+[48/50] uniandes_bouldering_031_47 (GT=Expert) task=1.0-49.7s
+  Novice X
+[49/50] uniandes_bouldering_030_26 (GT=Expert) task=0.6-15.5s
+  Novice X
+[50/50] uniandes_bouldering_031_68 (GT=Expert) task=1.8-61.3s
+  Novice X
+
+============================================================
+RESULTS — Qwen binary 8f TRIMMED (task window only)
+============================================================
+Overall:  25/50 = 50.0%
+Novice:   25/25 = 100.0%
+Expert:   0/25 = 0.0%
+Random:   50%
+Answers:  {'Novice': 50}
+============================================================
