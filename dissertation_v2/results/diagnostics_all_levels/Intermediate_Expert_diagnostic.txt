@@ -12,6 +12,7 @@ not visible
     [body_position]: The person is holding a smartphone with their left hand, positioned in front of them, while standing upright with their feet slightly apart for balance.
     [confidence]: cannot tell
     [errors]: cannot tell
+    [skill_from_observations]: Novice
 
   Frame: frame_02_t2.1s.jpg
     [person_visible]: Yes.
@@ -20,6 +21,7 @@ not visible
     [body_position]: The person is standing with their hands reaching up towards the climbing holds, while their feet are positioned on the ground, ready to step onto the next hold if needed.
     [confidence]: yes
     [errors]: cannot tell
+    [skill_from_observations]: Novice
 
   Frame: frame_03_t4.2s.jpg
     [person_visible]: Yes.
@@ -28,6 +30,7 @@ not visible
     [body_position]: The person is standing with their hands extended towards the climbing wall, preparing to climb, while their feet are positioned on the ground for balance.
     [confidence]: yes
     [errors]: cannot tell
+    [skill_from_observations]: Novice
 
   Frame: frame_04_t6.3s.jpg
     [person_visible]: Yes.
@@ -36,6 +39,7 @@ not visible
     [body_position]: The person is positioned with one hand reaching up towards the climbing holds while their other arm is extended downward, and their legs are bent at the knees, indicating a dynamic climbing stance.
     [confidence]: yes
     [errors]: cannot tell
+    [skill_from_observations]: Intermediate Expert
 
   Frame: frame_05_t8.4s.jpg
     [person_visible]: Yes.
@@ -44,6 +48,7 @@ not visible
     [body_position]: The person is hanging from the climbing wall with their arms extended upwards and legs bent at the knees, maintaining a dynamic and challenging posture.
     [confidence]: cannot tell
     [errors]: cannot tell
+    [skill_from_observations]: Intermediate Expert
 
   Frame: frame_06_t10.5s.jpg
     [person_visible]: Yes.
@@ -52,6 +57,7 @@ not visible
     [body_position]: The person is hanging upside down with their hands gripping a hold at the top of the climbing wall, while their feet are positioned below, ready to find another grip.
     [confidence]: yes
     [errors]: cannot tell
+    [skill_from_observations]: Intermediate Expert
 
   Frame: frame_07_t12.6s.jpg
     [person_visible]: Yes.
@@ -60,6 +66,7 @@ not visible
     [body_position]: The person is gripping a hold with their right hand while their left hand is extended upwards, and their legs are positioned to maintain balance as they climb the wall.
     [confidence]: yes
     [errors]: cannot tell
+    [skill_from_observations]: Intermediate Expert
 
   Frame: frame_08_t14.7s.jpg
     [person_visible]: Yes.
@@ -68,5 +75,6 @@ not visible
     [body_position]: The person is lying on their stomach with their hands extended forward and feet tucked under, maintaining a relaxed posture on the floor below the climbing wall.
     [confidence]: cannot tell
     [errors]: cannot tell
+    [skill_from_observations]: Novice
 
 

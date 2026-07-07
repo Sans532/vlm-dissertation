@@ -37,6 +37,10 @@
         "errors": {
           "question": "Can you see any obvious errors in the person's technique or body position? Answer only: yes / no / cannot tell",
           "answer": "cannot tell"
+        },
+        "skill_from_observations": {
+          "question": "Based on these observations about the climber in this image:\n- Person visible: Yes.\n- Location: The person in the image is not visible. The focus of the image is on a smartphone screen displaying a QR code, and there is no indication of a person's presence in the frame.\n- Action: The person in the image appears to be standing and looking at the wall, as they are holding a smartphone with a QR code displayed on the screen, which suggests they might be interacting with something related to the wall or the climbing facility. The wall itself has various climbing holds, indicating it is a climbing wall. However, there is no direct evidence of the person actively climbing the wall in the image.\n- Body position: The person is holding a smartphone with both hands, positioned in front of their chest, with their feet not visible in the image.\n- Confident: cannot tell\n- Errors visible: cannot tell\nWhat is their skill level? Answer only: Novice / Early Expert / Intermediate Expert / Late Expert",
+          "answer": "Novice"
         }
       },
       "frame_02_t10.9s.jpg": {
@@ -63,6 +67,10 @@
         "errors": {
           "question": "Can you see any obvious errors in the person's technique or body position? Answer only: yes / no / cannot tell",
           "answer": "cannot tell"
+        },
+        "skill_from_observations": {
+          "question": "Based on these observations about the climber in this image:\n- Person visible: Yes.\n- Location: The person in the image is on the ground.\n- Action: The person in the image appears to be standing and looking at the wall.\n- Body position: The person is kneeling with their hands resting on the ground, facing the climbing wall, and their posture suggests they are preparing to climb or have just descended from it.\n- Confident: cannot tell\n- Errors visible: cannot tell\nWhat is their skill level? Answer only: Novice / Early Expert / Intermediate Expert / Late Expert",
+          "answer": "Novice"
         }
       },
       "frame_03_t21.9s.jpg": {
@@ -89,6 +97,10 @@
         "errors": {
           "question": "Can you see any obvious errors in the person's technique or body position? Answer only: yes / no / cannot tell",
           "answer": "cannot tell"
+        },
+        "skill_from_observations": {
+          "question": "Based on these observations about the climber in this image:\n- Person visible: Yes.\n- Location: The person in the image is on the ground.\n- Action: The person in the image appears to be standing and looking at the wall. They are not actively climbing, as their feet are on the ground and they are not positioned in a way that suggests they are in the middle of a climb.\n- Body position: The person is standing with their hands resting on the climbing wall, feet positioned apart for balance, and their back slightly arched as they prepare to climb.\n- Confident: cannot tell\n- Errors visible: cannot tell\nWhat is their skill level? Answer only: Novice / Early Expert / Intermediate Expert / Late Expert",
+          "answer": "Novice"
         }
       },
       "frame_04_t32.9s.jpg": {
@@ -115,6 +127,10 @@
         "errors": {
           "question": "Can you see any obvious errors in the person's technique or body position? Answer only: yes / no / cannot tell",
           "answer": "cannot tell"
+        },
+        "skill_from_observations": {
+          "question": "Based on these observations about the climber in this image:\n- Person visible: Yes.\n- Location: The person in the image is on the ground.\n- Action: The person in the image is climbing the wall.\n- Body position: The person is in a dynamic climbing stance with one hand reaching up to grasp a hold while the other hand is extended for balance, and their legs are positioned for stability as they prepare to ascend the wall.\n- Confident: yes\n- Errors visible: cannot tell\nWhat is their skill level? Answer only: Novice / Early Expert / Intermediate Expert / Late Expert",
+          "answer": "Intermediate Expert"
         }
       },
       "frame_05_t43.8s.jpg": {
@@ -141,6 +157,10 @@
         "errors": {
           "question": "Can you see any obvious errors in the person's technique or body position? Answer only: yes / no / cannot tell",
           "answer": "cannot tell"
+        },
+        "skill_from_observations": {
+          "question": "Based on these observations about the climber in this image:\n- Person visible: Yes.\n- Location: The person in the image is on the ground.\n- Action: The person in the image is climbing the wall.\n- Body position: The person is hanging upside down with their hands gripping the climbing holds and their feet extended upwards, demonstrating a unique and challenging climbing posture.\n- Confident: yes\n- Errors visible: cannot tell\nWhat is their skill level? Answer only: Novice / Early Expert / Intermediate Expert / Late Expert",
+          "answer": "Intermediate Expert"
         }
       },
       "frame_06_t54.8s.jpg": {
@@ -167,6 +187,10 @@
         "errors": {
           "question": "Can you see any obvious errors in the person's technique or body position? Answer only: yes / no / cannot tell",
           "answer": "cannot tell"
+        },
+        "skill_from_observations": {
+          "question": "Based on these observations about the climber in this image:\n- Person visible: Yes.\n- Location: The person in the image is on the ground.\n- Action: The person in the image is climbing the wall.\n- Body position: The person is hanging upside down with their hands gripping a hold at the top of the climbing wall, while their feet are positioned below, ready to find another grip.\n- Confident: yes\n- Errors visible: cannot tell\nWhat is their skill level? Answer only: Novice / Early Expert / Intermediate Expert / Late Expert",
+          "answer": "Intermediate Expert"
         }
       },
       "frame_07_t65.8s.jpg": {
@@ -193,6 +217,10 @@
         "errors": {
           "question": "Can you see any obvious errors in the person's technique or body position? Answer only: yes / no / cannot tell",
           "answer": "cannot tell"
+        },
+        "skill_from_observations": {
+          "question": "Based on these observations about the climber in this image:\n- Person visible: Yes.\n- Location: The person in the image is on the ground.\n- Action: The person in the image is climbing the wall.\n- Body position: The person is climbing with their hands gripping a hold near the top of the wall and their feet positioned lower, demonstrating a dynamic and focused climbing posture.\n- Confident: yes\n- Errors visible: cannot tell\nWhat is their skill level? Answer only: Novice / Early Expert / Intermediate Expert / Late Expert",
+          "answer": "Intermediate Expert"
         }
       },
       "frame_08_t76.7s.jpg": {
@@ -219,6 +247,10 @@
         "errors": {
           "question": "Can you see any obvious errors in the person's technique or body position? Answer only: yes / no / cannot tell",
           "answer": "cannot tell"
+        },
+        "skill_from_observations": {
+          "question": "Based on these observations about the climber in this image:\n- Person visible: Yes.\n- Location: The person in the image is on the ground.\n- Action: The person in the image is climbing the wall.\n- Body position: The person is climbing with one hand reaching up to a hold while their other arm is extended for balance, with one leg extended upwards and the other bent at the knee, maintaining a dynamic and focused posture.\n- Confident: yes\n- Errors visible: cannot tell\nWhat is their skill level? Answer only: Novice / Early Expert / Intermediate Expert / Late Expert",
+          "answer": "Intermediate Expert"
         }
       }
     }

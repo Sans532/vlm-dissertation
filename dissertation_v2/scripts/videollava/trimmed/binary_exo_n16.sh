@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=bV16Texo
 #SBATCH --partition=Teaching
-#SBATCH --gres=gpu:1
+#SBATCH --gres=gpu:nvidia_rtx_a6000:1
 #SBATCH --time=03:00:00
 #SBATCH --mem=30G
 #SBATCH --cpus-per-task=4
