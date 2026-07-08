@@ -1,0 +1,174 @@
+Wed Jul  8 01:41:24 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     Off |   00000000:89:00.0 Off |                  N/A |
+| 29%   28C    P8             13W /  250W |       1MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Building benchmark_3class.json ...
+Available:
+  Intermediate Expert -> Intermediate: 117
+  Novice -> Novice: 131
+  Late Expert -> Expert: 89
+
+Benchmark saved: /home/s2850007/dissertation/repo/dissertation_v2/benchmark/benchmark_3class.json
+Total: 30 clips
+Counter({'Intermediate': 10, 'Expert': 10, 'Novice': 10})
+
+Loading Qwen3-VL-2B ...
+Loading weights:   0%|          | 0/625 [00:00<?, ?it/s]Loading weights:   0%|          | 1/625 [00:38<6:45:08, 38.96s/it]Loading weights:  30%|███       | 190/625 [00:39<01:03,  6.88it/s]Loading weights:  40%|████      | 253/625 [00:48<00:53,  6.91it/s]Loading weights:  45%|████▍     | 280/625 [00:53<00:52,  6.55it/s]Loading weights:  47%|████▋     | 295/625 [00:55<00:49,  6.71it/s]Loading weights:  49%|████▉     | 305/625 [00:57<00:48,  6.57it/s]Loading weights:  50%|█████     | 314/625 [00:57<00:43,  7.19it/s]Loading weights:  51%|█████     | 319/625 [00:57<00:40,  7.56it/s]Loading weights:  52%|█████▏    | 328/625 [00:58<00:34,  8.60it/s]Loading weights:  53%|█████▎    | 332/625 [00:58<00:32,  9.10it/s]Loading weights:  54%|█████▍    | 340/625 [00:58<00:25, 11.06it/s]Loading weights:  55%|█████▌    | 344/625 [00:58<00:23, 11.86it/s]Loading weights:  56%|█████▋    | 352/625 [00:58<00:19, 13.88it/s]Loading weights:  58%|█████▊    | 362/625 [00:59<00:13, 18.86it/s]Loading weights:  59%|█████▊    | 366/625 [00:59<00:16, 15.95it/s]Loading weights:  60%|██████    | 376/625 [00:59<00:12, 20.40it/s]Loading weights:  61%|██████    | 380/625 [01:00<00:11, 21.00it/s]Loading weights:  62%|██████▏   | 386/625 [01:00<00:10, 22.44it/s]Loading weights:  62%|██████▏   | 389/625 [01:00<00:10, 23.12it/s]Loading weights:  63%|██████▎   | 392/625 [01:00<00:11, 19.96it/s]Loading weights:  64%|██████▍   | 400/625 [01:00<00:10, 21.39it/s]Loading weights:  66%|██████▌   | 410/625 [01:01<00:07, 28.47it/s]Loading weights:  66%|██████▌   | 414/625 [01:01<00:09, 21.89it/s]Loading weights:  68%|██████▊   | 422/625 [01:01<00:07, 28.26it/s]Loading weights:  68%|██████▊   | 426/625 [01:01<00:08, 22.39it/s]Loading weights:  69%|██████▉   | 434/625 [01:02<00:09, 19.35it/s]Loading weights:  70%|██████▉   | 437/625 [01:02<00:09, 20.26it/s]Loading weights:  70%|███████   | 440/625 [01:02<00:09, 19.68it/s]Loading weights:  72%|███████▏  | 448/625 [01:03<00:08, 20.86it/s]Loading weights:  73%|███████▎  | 458/625 [01:03<00:05, 29.57it/s]Loading weights:  74%|███████▍  | 462/625 [01:03<00:07, 20.64it/s]Loading weights:  76%|███████▌  | 472/625 [01:03<00:05, 26.92it/s]Loading weights:  76%|███████▌  | 476/625 [01:04<00:05, 25.71it/s]Loading weights:  77%|███████▋  | 484/625 [01:04<00:05, 23.86it/s]Loading weights:  78%|███████▊  | 487/625 [01:04<00:07, 19.66it/s]Loading weights:  80%|███████▉  | 498/625 [01:05<00:06, 19.13it/s]Loading weights:  82%|████████▏ | 510/625 [01:05<00:04, 27.44it/s]Loading weights:  83%|████████▎ | 518/625 [01:05<00:03, 28.11it/s]Loading weights:  84%|████████▎ | 522/625 [01:05<00:03, 26.03it/s]Loading weights:  85%|████████▌ | 532/625 [01:06<00:03, 25.73it/s]Loading weights:  86%|████████▌ | 535/625 [01:06<00:03, 23.47it/s]Loading weights:  87%|████████▋ | 544/625 [01:06<00:02, 29.67it/s]Loading weights:  88%|████████▊ | 548/625 [01:06<00:02, 26.52it/s]Loading weights:  89%|████████▉ | 556/625 [01:07<00:02, 25.41it/s]Loading weights:  91%|█████████ | 566/625 [01:07<00:01, 32.87it/s]Loading weights:  91%|█████████ | 570/625 [01:07<00:02, 23.95it/s]Loading weights:  93%|█████████▎| 580/625 [01:08<00:01, 24.79it/s]Loading weights:  94%|█████████▍| 590/625 [01:08<00:01, 32.73it/s]Loading weights:  95%|█████████▌| 595/625 [01:08<00:01, 24.10it/s]Loading weights:  96%|█████████▌| 600/625 [01:10<00:02,  9.48it/s]Loading weights:  97%|█████████▋| 606/625 [01:10<00:01, 11.03it/s]Loading weights:  98%|█████████▊| 612/625 [01:11<00:01,  9.27it/s]Loading weights:  99%|█████████▉| 618/625 [01:12<00:00,  8.21it/s]Loading weights: 100%|██████████| 625/625 [01:12<00:00,  8.62it/s]
+Model loaded.
+
+Evaluating on benchmark_3class.json ...
+Prompt: Based only on the expert commentary above:
+Step 1: Summarise the key technique observations mentioned.
+Step 2: Identify any errors or strengths noted by the expert.
+Step 3: Classify the climber's skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.
+Format:
+Observations: ...
+Errors/Strengths: ...
+Skill Level: ...
+
+[1/30] uniandes_bouldering_033_58 (orig=Intermediate Expert -> Intermediate)
+  exo: Expert X
+  ego: Intermediate OK
+
+[2/30] uniandes_bouldering_022_24 (orig=Intermediate Expert -> Intermediate)
+  exo: Expert X
+  ego: Expert X
+
+[3/30] uniandes_bouldering_030_28 (orig=Late Expert -> Expert)
+  exo: Expert OK
+  ego: Intermediate X
+
+[4/30] uniandes_bouldering_030_57 (orig=Late Expert -> Expert)
+  exo: Expert OK
+  ego: Intermediate X
+
+[5/30] uniandes_bouldering_027_79 (orig=Novice -> Novice)
+  exo: Expert X
+  ego: Expert X
+
+[6/30] uniandes_bouldering_030_25 (orig=Late Expert -> Expert)
+  exo: Expert OK
+  ego: Expert OK
+
+[7/30] uniandes_bouldering_036_49 (orig=Late Expert -> Expert)
+  exo: Expert OK
+  ego: Expert OK
+
+[8/30] uniandes_bouldering_027_115 (orig=Novice -> Novice)
+  exo: Expert X
+  ego: Expert X
+
+[9/30] uniandes_bouldering_032_27 (orig=Intermediate Expert -> Intermediate)
+  exo: Expert X
+  ego: Expert X
+
+[10/30] uniandes_bouldering_026_77 (orig=Intermediate Expert -> Intermediate)
+  exo: Expert X
+  ego: Expert X
+
+[11/30] uniandes_bouldering_033_10 (orig=Intermediate Expert -> Intermediate)
+  exo: Expert X
+  ego: Intermediate OK
+
+[12/30] uniandes_bouldering_036_74 (orig=Late Expert -> Expert)
+  exo: Expert OK
+  ego: Intermediate X
+
+[13/30] uniandes_bouldering_026_17 (orig=Novice -> Novice)
+  exo: Expert X
+  ego: Unknown X
+
+[14/30] uniandes_bouldering_026_95 (orig=Novice -> Novice)
+  exo: Expert X
+  ego: Intermediate X
+
+[15/30] uniandes_bouldering_031_68 (orig=Late Expert -> Expert)
+  exo: Expert OK
+  ego: Expert OK
+
+[16/30] uniandes_bouldering_033_53 (orig=Intermediate Expert -> Intermediate)
+  exo: Intermediate OK
+  ego: Unknown X
+
+[17/30] uniandes_bouldering_025_16 (orig=Novice -> Novice)
+  exo: Expert X
+  ego: Expert X
+
+[18/30] uniandes_bouldering_037_55 (orig=Late Expert -> Expert)
+  exo: Expert OK
+  ego: Expert OK
+
+[19/30] uniandes_bouldering_033_57 (orig=Intermediate Expert -> Intermediate)
+  exo: Expert X
+  ego: Intermediate OK
+
+[20/30] uniandes_bouldering_037_17 (orig=Late Expert -> Expert)
+  exo: Expert OK
+  ego: Expert OK
+
+[21/30] uniandes_bouldering_023_10 (orig=Intermediate Expert -> Intermediate)
+  exo: Expert X
+  ego: Expert X
+
+[22/30] uniandes_bouldering_026_48 (orig=Intermediate Expert -> Intermediate)
+  exo: Expert X
+  ego: Novice X
+
+[23/30] uniandes_bouldering_027_62 (orig=Novice -> Novice)
+  exo: Expert X
+  ego: Expert X
+
+[24/30] uniandes_bouldering_025_85 (orig=Novice -> Novice)
+  exo: Expert X
+  ego: Expert X
+
+[25/30] uniandes_bouldering_037_22 (orig=Late Expert -> Expert)
+  exo: Expert OK
+  ego: Intermediate X
+
+[26/30] uniandes_bouldering_026_16 (orig=Novice -> Novice)
+  exo: Expert X
+  ego: Expert X
+
+[27/30] uniandes_bouldering_031_15 (orig=Late Expert -> Expert)
+  exo: Expert OK
+  ego: Expert OK
+
+[28/30] uniandes_bouldering_022_31 (orig=Novice -> Novice)
+  exo: Expert X
+  ego: Expert X
+
+[29/30] uniandes_bouldering_033_17 (orig=Intermediate Expert -> Intermediate)
+  exo: Expert X
+  ego: Intermediate OK
+
+[30/30] uniandes_bouldering_023_48 (orig=Novice -> Novice)
+  exo: Expert X
+  ego: Expert X
+
+============================================================
+RESULTS — Qwen 3-class (Novice/Intermediate/Expert)
+============================================================
+  exo: 11/30 = 36.7%
+  ego: 10/30 = 33.3%
+Random chance: 33.3%
+Exo predictions: {'Expert': 29, 'Intermediate': 1}
+Ego predictions: {'Expert': 18, 'Intermediate': 9, 'Unknown': 2, 'Novice': 1}
+============================================================

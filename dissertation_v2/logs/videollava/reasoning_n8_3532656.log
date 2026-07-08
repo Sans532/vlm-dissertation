@@ -1,0 +1,456 @@
+Wed Jul  8 13:01:24 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.211.01             Driver Version: 570.211.01     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA RTX A6000               Off |   00000000:04:00.0 Off |                  Off |
+| 48%   65C    P0             37W /  300W |       0MiB /  49140MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading Video-LLaVA ...
+Loading weights:   0%|          | 0/1077 [00:00<?, ?it/s]Loading weights:   1%|          | 9/1077 [00:02<04:49,  3.69it/s]Loading weights:   1%|          | 11/1077 [00:02<03:53,  4.57it/s]Loading weights:   2%|▏         | 25/1077 [00:02<01:18, 13.36it/s]Loading weights:   3%|▎         | 29/1077 [00:02<01:07, 15.46it/s]Loading weights:   4%|▍         | 41/1077 [00:03<01:13, 14.15it/s]Loading weights:   4%|▍         | 44/1077 [00:03<01:10, 14.71it/s]Loading weights:   5%|▌         | 57/1077 [00:04<00:57, 17.62it/s]Loading weights:   7%|▋         | 73/1077 [00:05<00:51, 19.56it/s]Loading weights:   7%|▋         | 76/1077 [00:05<00:53, 18.72it/s]Loading weights:   8%|▊         | 89/1077 [00:05<00:46, 21.12it/s]Loading weights:   9%|▊         | 92/1077 [00:06<00:55, 17.85it/s]Loading weights:  10%|▉         | 105/1077 [00:06<00:48, 19.95it/s]Loading weights:  11%|█         | 121/1077 [00:07<00:40, 23.36it/s]Loading weights:  12%|█▏        | 124/1077 [00:07<00:41, 22.88it/s]Loading weights:  13%|█▎        | 137/1077 [00:08<00:43, 21.48it/s]Loading weights:  13%|█▎        | 140/1077 [00:08<00:53, 17.58it/s]Loading weights:  14%|█▍        | 153/1077 [00:09<00:42, 21.50it/s]Loading weights:  16%|█▌        | 169/1077 [00:09<00:39, 23.16it/s]Loading weights:  16%|█▌        | 172/1077 [00:09<00:38, 23.35it/s]Loading weights:  17%|█▋        | 185/1077 [00:10<00:47, 18.67it/s]Loading weights:  19%|█▊        | 201/1077 [00:11<00:42, 20.84it/s]Loading weights:  19%|█▉        | 204/1077 [00:11<00:43, 20.14it/s]Loading weights:  20%|██        | 217/1077 [00:12<00:41, 20.71it/s]Loading weights:  20%|██        | 220/1077 [00:12<00:47, 17.93it/s]Loading weights:  22%|██▏       | 233/1077 [00:12<00:41, 20.28it/s]Loading weights:  22%|██▏       | 235/1077 [00:13<00:43, 19.20it/s]Loading weights:  23%|██▎       | 249/1077 [00:13<00:35, 23.31it/s]Loading weights:  23%|██▎       | 252/1077 [00:13<00:34, 23.70it/s]Loading weights:  25%|██▍       | 265/1077 [00:14<00:39, 20.39it/s]Loading weights:  25%|██▍       | 268/1077 [00:14<00:44, 17.98it/s]Loading weights:  26%|██▌       | 281/1077 [00:15<00:37, 21.33it/s]Loading weights:  26%|██▋       | 284/1077 [00:15<00:35, 22.03it/s]Loading weights:  28%|██▊       | 297/1077 [00:16<00:40, 19.33it/s]Loading weights:  28%|██▊       | 300/1077 [00:16<00:39, 19.51it/s]Loading weights:  29%|██▉       | 313/1077 [00:16<00:29, 25.62it/s]Loading weights:  29%|██▉       | 316/1077 [00:16<00:29, 26.09it/s]Loading weights:  31%|███       | 329/1077 [00:17<00:36, 20.73it/s]Loading weights:  32%|███▏      | 345/1077 [00:18<00:34, 20.99it/s]Loading weights:  34%|███▎      | 361/1077 [00:19<00:37, 19.35it/s]Loading weights:  35%|███▌      | 377/1077 [00:19<00:33, 20.74it/s]Loading weights:  35%|███▌      | 380/1077 [00:19<00:34, 20.45it/s]Loading weights:  35%|███▌      | 380/1077 [00:30<00:34, 20.45it/s]Loading weights:  36%|███▋      | 392/1077 [00:49<09:46,  1.17it/s]Loading weights:  36%|███▋      | 393/1077 [00:52<10:25,  1.09it/s]Loading weights:  38%|███▊      | 404/1077 [00:53<06:52,  1.63it/s]Loading weights:  38%|███▊      | 406/1077 [00:59<09:28,  1.18it/s]Loading weights:  38%|███▊      | 411/1077 [01:00<07:32,  1.47it/s]Loading weights:  38%|███▊      | 413/1077 [01:08<11:38,  1.05s/it]Loading weights:  38%|███▊      | 414/1077 [01:10<12:37,  1.14s/it]Loading weights:  39%|███▉      | 419/1077 [01:11<08:57,  1.22it/s]Loading weights:  39%|███▉      | 420/1077 [01:12<09:17,  1.18it/s]Loading weights:  39%|███▉      | 422/1077 [01:20<16:36,  1.52s/it]Loading weights:  39%|███▉      | 424/1077 [01:21<13:42,  1.26s/it]Loading weights:  40%|███▉      | 428/1077 [01:24<11:05,  1.02s/it]Loading weights:  40%|███▉      | 429/1077 [01:24<10:14,  1.05it/s]Loading weights:  40%|████      | 431/1077 [01:30<16:16,  1.51s/it]Loading weights:  40%|████      | 432/1077 [01:31<14:45,  1.37s/it]Loading weights:  40%|████      | 433/1077 [01:34<16:52,  1.57s/it]Loading weights:  41%|████      | 437/1077 [01:34<08:36,  1.24it/s]Loading weights:  41%|████      | 438/1077 [01:35<08:35,  1.24it/s]Loading weights:  41%|████      | 440/1077 [01:42<18:00,  1.70s/it]Loading weights:  41%|████      | 441/1077 [01:44<17:48,  1.68s/it]Loading weights:  41%|████▏     | 446/1077 [01:46<09:58,  1.05it/s]Loading weights:  42%|████▏     | 447/1077 [01:46<09:36,  1.09it/s]Loading weights:  42%|████▏     | 449/1077 [01:54<17:52,  1.71s/it]Loading weights:  42%|████▏     | 450/1077 [01:54<15:08,  1.45s/it]Loading weights:  42%|████▏     | 451/1077 [01:55<14:45,  1.41s/it]Loading weights:  42%|████▏     | 455/1077 [01:57<09:54,  1.05it/s]Loading weights:  42%|████▏     | 456/1077 [01:58<08:59,  1.15it/s]Loading weights:  43%|████▎     | 458/1077 [02:04<16:33,  1.61s/it]Loading weights:  43%|████▎     | 459/1077 [02:05<15:23,  1.50s/it]Loading weights:  43%|████▎     | 460/1077 [02:07<15:40,  1.52s/it]Loading weights:  43%|████▎     | 464/1077 [02:08<08:32,  1.20it/s]Loading weights:  43%|████▎     | 465/1077 [02:09<08:51,  1.15it/s]Loading weights:  43%|████▎     | 467/1077 [02:15<16:41,  1.64s/it]Loading weights:  43%|████▎     | 468/1077 [02:17<16:15,  1.60s/it]Loading weights:  44%|████▎     | 469/1077 [02:18<14:37,  1.44s/it]Loading weights:  44%|████▍     | 473/1077 [02:19<08:39,  1.16it/s]Loading weights:  44%|████▍     | 474/1077 [02:20<08:22,  1.20it/s]Loading weights:  44%|████▍     | 476/1077 [02:27<16:54,  1.69s/it]Loading weights:  44%|████▍     | 477/1077 [02:28<15:06,  1.51s/it]Loading weights:  44%|████▍     | 478/1077 [02:30<15:45,  1.58s/it]Loading weights:  45%|████▍     | 482/1077 [02:31<09:20,  1.06it/s]Loading weights:  45%|████▍     | 483/1077 [02:32<08:56,  1.11it/s]Loading weights:  45%|████▌     | 485/1077 [02:38<16:01,  1.62s/it]Loading weights:  45%|████▌     | 486/1077 [02:40<16:29,  1.67s/it]Loading weights:  45%|████▌     | 487/1077 [02:42<16:17,  1.66s/it]Loading weights:  46%|████▌     | 491/1077 [02:42<08:19,  1.17it/s]Loading weights:  46%|████▌     | 492/1077 [02:44<09:28,  1.03it/s]Loading weights:  46%|████▌     | 494/1077 [02:51<16:43,  1.72s/it]Loading weights:  46%|████▌     | 495/1077 [02:52<16:16,  1.68s/it]Loading weights:  46%|████▌     | 496/1077 [02:53<14:25,  1.49s/it]Loading weights:  46%|████▋     | 500/1077 [02:55<08:50,  1.09it/s]Loading weights:  47%|████▋     | 501/1077 [02:56<09:24,  1.02it/s]Loading weights:  47%|████▋     | 503/1077 [03:03<16:41,  1.75s/it]Loading weights:  47%|████▋     | 504/1077 [03:03<14:32,  1.52s/it]Loading weights:  47%|████▋     | 505/1077 [03:05<15:20,  1.61s/it]Loading weights:  47%|████▋     | 509/1077 [03:07<09:15,  1.02it/s]Loading weights:  47%|████▋     | 510/1077 [03:08<08:35,  1.10it/s]Loading weights:  48%|████▊     | 512/1077 [03:14<16:06,  1.71s/it]Loading weights:  48%|████▊     | 513/1077 [03:16<14:56,  1.59s/it]Loading weights:  48%|████▊     | 514/1077 [03:17<15:25,  1.64s/it]Loading weights:  48%|████▊     | 518/1077 [03:18<08:22,  1.11it/s]Loading weights:  48%|████▊     | 519/1077 [03:19<08:19,  1.12it/s]Loading weights:  48%|████▊     | 521/1077 [03:26<16:00,  1.73s/it]Loading weights:  48%|████▊     | 522/1077 [03:28<15:55,  1.72s/it]Loading weights:  49%|████▊     | 523/1077 [03:29<14:55,  1.62s/it]Loading weights:  49%|████▉     | 527/1077 [03:30<08:05,  1.13it/s]Loading weights:  49%|████▉     | 528/1077 [03:32<08:46,  1.04it/s]Loading weights:  49%|████▉     | 530/1077 [03:38<15:21,  1.69s/it]Loading weights:  49%|████▉     | 531/1077 [03:39<14:27,  1.59s/it]Loading weights:  49%|████▉     | 532/1077 [03:40<13:27,  1.48s/it]Loading weights:  50%|████▉     | 536/1077 [03:42<08:18,  1.09it/s]Loading weights:  50%|████▉     | 537/1077 [03:43<07:58,  1.13it/s]Loading weights:  50%|█████     | 539/1077 [03:49<14:31,  1.62s/it]Loading weights:  50%|█████     | 540/1077 [03:50<13:35,  1.52s/it]Loading weights:  50%|█████     | 541/1077 [03:52<14:20,  1.61s/it]Loading weights:  51%|█████     | 545/1077 [03:53<07:42,  1.15it/s]Loading weights:  51%|█████     | 546/1077 [03:54<07:52,  1.12it/s]Loading weights:  51%|█████     | 548/1077 [04:01<14:25,  1.64s/it]Loading weights:  51%|█████     | 549/1077 [04:03<14:33,  1.65s/it]Loading weights:  51%|█████     | 550/1077 [04:04<13:19,  1.52s/it]Loading weights:  51%|█████▏    | 554/1077 [04:05<07:51,  1.11it/s]Loading weights:  52%|█████▏    | 555/1077 [04:06<08:11,  1.06it/s]Loading weights:  52%|█████▏    | 557/1077 [04:13<14:40,  1.69s/it]Loading weights:  52%|█████▏    | 558/1077 [04:14<13:24,  1.55s/it]Loading weights:  52%|█████▏    | 559/1077 [04:15<12:45,  1.48s/it]Loading weights:  52%|█████▏    | 563/1077 [04:17<08:06,  1.06it/s]Loading weights:  52%|█████▏    | 564/1077 [04:17<07:20,  1.16it/s]Loading weights:  53%|█████▎    | 566/1077 [04:23<12:10,  1.43s/it]Loading weights:  53%|█████▎    | 567/1077 [04:23<11:00,  1.29s/it]Loading weights:  53%|█████▎    | 568/1077 [04:25<10:36,  1.25s/it]Loading weights:  53%|█████▎    | 572/1077 [04:25<05:26,  1.55it/s]Loading weights:  53%|█████▎    | 573/1077 [04:26<05:11,  1.62it/s]Loading weights:  53%|█████▎    | 575/1077 [04:29<07:28,  1.12it/s]Loading weights:  53%|█████▎    | 576/1077 [04:30<08:43,  1.05s/it]Loading weights:  54%|█████▎    | 577/1077 [04:31<07:41,  1.08it/s]Loading weights:  54%|█████▍    | 582/1077 [04:32<04:24,  1.87it/s]Loading weights:  54%|█████▍    | 584/1077 [04:36<07:31,  1.09it/s]Loading weights:  54%|█████▍    | 585/1077 [04:37<06:57,  1.18it/s]Loading weights:  55%|█████▍    | 589/1077 [04:37<03:46,  2.15it/s]Loading weights:  55%|█████▍    | 591/1077 [04:39<05:01,  1.61it/s]Loading weights:  55%|█████▌    | 593/1077 [04:45<09:59,  1.24s/it]Loading weights:  55%|█████▌    | 594/1077 [04:45<08:34,  1.07s/it]Loading weights:  55%|█████▌    | 595/1077 [04:47<09:22,  1.17s/it]Loading weights:  56%|█████▌    | 599/1077 [04:47<04:57,  1.60it/s]Loading weights:  56%|█████▌    | 600/1077 [04:47<04:27,  1.78it/s]Loading weights:  56%|█████▌    | 602/1077 [04:51<08:08,  1.03s/it]Loading weights:  56%|█████▌    | 603/1077 [04:52<08:08,  1.03s/it]Loading weights:  56%|█████▌    | 604/1077 [04:53<06:49,  1.15it/s]Loading weights:  56%|█████▋    | 608/1077 [04:54<04:08,  1.89it/s]Loading weights:  57%|█████▋    | 609/1077 [04:54<03:36,  2.17it/s]Loading weights:  57%|█████▋    | 611/1077 [04:58<07:47,  1.00s/it]Loading weights:  57%|█████▋    | 612/1077 [04:58<06:46,  1.14it/s]Loading weights:  57%|█████▋    | 613/1077 [04:59<06:51,  1.13it/s]Loading weights:  57%|█████▋    | 617/1077 [05:00<04:06,  1.87it/s]Loading weights:  57%|█████▋    | 618/1077 [05:00<03:36,  2.12it/s]Loading weights:  58%|█████▊    | 620/1077 [05:04<07:04,  1.08it/s]Loading weights:  58%|█████▊    | 621/1077 [05:05<07:16,  1.05it/s]Loading weights:  58%|█████▊    | 622/1077 [05:07<07:41,  1.01s/it]Loading weights:  58%|█████▊    | 627/1077 [05:07<03:49,  1.96it/s]Loading weights:  58%|█████▊    | 629/1077 [05:11<06:40,  1.12it/s]Loading weights:  58%|█████▊    | 630/1077 [05:13<06:50,  1.09it/s]Loading weights:  59%|█████▉    | 635/1077 [05:14<04:08,  1.78it/s]Loading weights:  59%|█████▉    | 636/1077 [05:15<04:22,  1.68it/s]Loading weights:  59%|█████▉    | 638/1077 [05:18<06:52,  1.07it/s]Loading weights:  59%|█████▉    | 639/1077 [05:18<06:00,  1.22it/s]Loading weights:  59%|█████▉    | 640/1077 [05:19<06:11,  1.18it/s]Loading weights:  60%|█████▉    | 644/1077 [05:21<03:55,  1.84it/s]Loading weights:  60%|█████▉    | 645/1077 [05:21<03:37,  1.99it/s]Loading weights:  60%|██████    | 647/1077 [05:25<06:46,  1.06it/s]Loading weights:  60%|██████    | 648/1077 [05:25<06:20,  1.13it/s]Loading weights:  60%|██████    | 649/1077 [05:26<06:26,  1.11it/s]Loading weights:  61%|██████    | 653/1077 [05:27<03:33,  1.98it/s]Loading weights:  61%|██████    | 654/1077 [05:28<03:46,  1.87it/s]Loading weights:  61%|██████    | 656/1077 [05:31<06:33,  1.07it/s]Loading weights:  61%|██████    | 657/1077 [05:32<06:41,  1.05it/s]Loading weights:  61%|██████    | 658/1077 [05:33<05:52,  1.19it/s]Loading weights:  61%|██████▏   | 662/1077 [05:34<03:29,  1.98it/s]Loading weights:  62%|██████▏   | 663/1077 [05:34<03:53,  1.77it/s]Loading weights:  62%|██████▏   | 665/1077 [05:38<06:27,  1.06it/s]Loading weights:  62%|██████▏   | 666/1077 [05:38<05:49,  1.18it/s]Loading weights:  62%|██████▏   | 667/1077 [05:39<06:00,  1.14it/s]Loading weights:  62%|██████▏   | 671/1077 [05:40<03:27,  1.95it/s]Loading weights:  62%|██████▏   | 672/1077 [05:41<03:23,  1.99it/s]Loading weights:  63%|██████▎   | 674/1077 [05:45<06:43,  1.00s/it]Loading weights:  63%|██████▎   | 675/1077 [05:45<06:02,  1.11it/s]Loading weights:  63%|██████▎   | 676/1077 [05:46<05:47,  1.16it/s]Loading weights:  63%|██████▎   | 680/1077 [05:47<03:32,  1.87it/s]Loading weights:  63%|██████▎   | 681/1077 [05:47<03:22,  1.96it/s]Loading weights:  64%|██████▎   | 686/1077 [05:48<02:00,  3.25it/s]Loading weights:  68%|██████▊   | 727/1077 [05:49<00:18, 18.92it/s]Loading weights:  68%|██████▊   | 737/1077 [05:49<00:15, 22.39it/s]Loading weights:  69%|██████▉   | 743/1077 [05:49<00:15, 21.66it/s]Loading weights:  69%|██████▉   | 747/1077 [05:49<00:14, 22.68it/s]Loading weights:  70%|███████   | 759/1077 [05:50<00:12, 26.36it/s]Loading weights:  72%|███████▏  | 775/1077 [05:50<00:09, 31.41it/s]Loading weights:  72%|███████▏  | 779/1077 [05:50<00:09, 31.24it/s]Loading weights:  73%|███████▎  | 791/1077 [05:50<00:09, 30.56it/s]Loading weights:  75%|███████▍  | 807/1077 [05:51<00:07, 34.24it/s]Loading weights:  75%|███████▌  | 811/1077 [05:51<00:08, 31.62it/s]Loading weights:  76%|███████▋  | 823/1077 [05:51<00:07, 32.12it/s]Loading weights:  78%|███████▊  | 839/1077 [05:52<00:06, 35.74it/s]Loading weights:  79%|███████▉  | 855/1077 [05:52<00:06, 32.65it/s]Loading weights:  81%|████████  | 871/1077 [05:53<00:05, 36.24it/s]Loading weights:  82%|████████▏ | 887/1077 [05:53<00:05, 36.68it/s]Loading weights:  84%|████████▍ | 903/1077 [05:54<00:04, 35.55it/s]Loading weights:  85%|████████▌ | 919/1077 [05:54<00:04, 34.29it/s]Loading weights:  87%|████████▋ | 935/1077 [05:54<00:03, 35.73it/s]Loading weights:  88%|████████▊ | 951/1077 [05:55<00:03, 37.48it/s]Loading weights:  89%|████████▊ | 955/1077 [05:55<00:03, 37.49it/s]Loading weights:  90%|████████▉ | 967/1077 [05:55<00:03, 31.64it/s]Loading weights:  91%|█████████▏| 983/1077 [05:56<00:02, 33.90it/s]Loading weights:  93%|█████████▎| 999/1077 [05:56<00:02, 34.55it/s]Loading weights:  94%|█████████▍| 1015/1077 [05:57<00:01, 38.52it/s]Loading weights:  96%|█████████▌| 1031/1077 [05:57<00:01, 36.34it/s]Loading weights:  97%|█████████▋| 1047/1077 [05:57<00:00, 41.34it/s]Loading weights:  98%|█████████▊| 1052/1077 [05:58<00:00, 40.00it/s]Loading weights:  99%|█████████▊| 1063/1077 [05:58<00:00, 34.11it/s]Loading weights: 100%|██████████| 1077/1077 [05:58<00:00,  3.00it/s]
+[transformers] Requested torchvision backend is not available. Falling back to pil backend.
+Model loaded.
+
+Clips: 100 | frames: 8 | views: exo + ego
+
+[1/100] uniandes_bouldering_022_12 (GT=Novice)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[2/100] uniandes_bouldering_037_38 (GT=Late Expert)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the provided information, the person is performing a rock climbing acti
+
+[3/100] uniandes_bouldering_024_44 (GT=Novice)
+  exo: Late Expert X | Based on the video, the person appears to be a late expert in the activity. They
+  ego: Unknown X | Based on the provided information, the person is performing a rock climbing acti
+
+[4/100] uniandes_bouldering_035_53 (GT=Early Expert)
+  exo: Late Expert X | Based on the video, the person appears to be a late expert in rock climbing. The
+  ego: Unknown X | Based on the video, the person appears to be at an intermediate skill level. The
+
+[5/100] uniandes_bouldering_027_19 (GT=Early Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+
+[6/100] uniandes_bouldering_034_56 (GT=Intermediate Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the provided information, the person is performing a rock climbing acti
+
+[7/100] uniandes_bouldering_025_13 (GT=Novice)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the video, the person appears to be at an intermediate expert skill lev
+
+[8/100] uniandes_bouldering_032_81 (GT=Intermediate Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the provided information, the person is performing a rock climbing acti
+
+[9/100] uniandes_bouldering_035_28 (GT=Early Expert)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the provided information, the person is performing a climbing activity,
+
+[10/100] uniandes_bouldering_033_38 (GT=Intermediate Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the provided information, the person is performing an activity that inv
+
+[11/100] uniandes_bouldering_022_26 (GT=Late Expert)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the video, the person appears to be at an intermediate skill level. The
+
+[12/100] uniandes_bouldering_034_94 (GT=Early Expert)
+  exo: Late Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the video, the person appears to be at an intermediate skill level. The
+
+[13/100] uniandes_bouldering_027_20 (GT=Early Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the provided information, the person is performing a rock climbing acti
+
+[14/100] uniandes_bouldering_026_48 (GT=Intermediate Expert)
+  exo: Novice X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+
+[15/100] uniandes_bouldering_023_42 (GT=Novice)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the provided information, the person is performing a climbing activity,
+
+[16/100] uniandes_bouldering_033_60 (GT=Intermediate Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the provided information, the person is performing a climbing activity,
+
+[17/100] uniandes_bouldering_027_56 (GT=Novice)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the video, the person appears to be at an intermediate skill level. The
+
+[18/100] uniandes_bouldering_035_98 (GT=Early Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the provided information, the person is performing a climbing activity,
+
+[19/100] uniandes_bouldering_029_41 (GT=Novice)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Intermediate Expert X | Based on the video, the person appears to be at an intermediate expert skill lev
+
+[20/100] uniandes_bouldering_034_98 (GT=Early Expert)
+  exo: Late Expert X | Based on the video, the person appears to be a late expert in rock climbing. The
+  ego: Unknown X | Based on the provided information, the person is performing an activity that inv
+
+[21/100] uniandes_bouldering_030_60 (GT=Late Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert OK | Based on the provided information, the person is performing a rock climbing acti
+
+[22/100] uniandes_bouldering_023_53 (GT=Early Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[23/100] uniandes_bouldering_023_71 (GT=Early Expert)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the video, the person appears to be at an intermediate skill level. The
+
+[24/100] uniandes_bouldering_027_17 (GT=Early Expert)
+  exo: Late Expert X | Based on the video, the person appears to be at an intermediate expert skill lev
+  ego: Early Expert OK | Based on the provided information, the person is performing a rock climbing acti
+
+[25/100] uniandes_bouldering_029_77 (GT=Early Expert)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the video, the person appears to be at an intermediate skill level. The
+
+[26/100] uniandes_bouldering_036_17 (GT=Late Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the video, the person appears to be at an intermediate skill level. The
+
+[27/100] uniandes_bouldering_026_14 (GT=Novice)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level. The
+
+[28/100] uniandes_bouldering_030_25 (GT=Late Expert)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert OK | Based on the provided information, the person is performing a rock climbing acti
+
+[29/100] uniandes_bouldering_029_71 (GT=Early Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+
+[30/100] uniandes_bouldering_031_68 (GT=Late Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert OK | Based on the provided information, the person is performing an activity that inv
+
+[31/100] uniandes_bouldering_036_4 (GT=Late Expert)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the provided information, the person is performing a rock climbing acti
+
+[32/100] uniandes_bouldering_023_77 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[33/100] uniandes_bouldering_037_49 (GT=Late Expert)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+
+[34/100] uniandes_bouldering_033_27 (GT=Late Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert OK | Based on the provided information, the person is performing an activity that inv
+
+[35/100] uniandes_bouldering_037_2 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the video, the person appears to be at an intermediate skill level. The
+
+[36/100] uniandes_bouldering_036_47 (GT=Late Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Intermediate Expert X | Based on the provided information, the person is performing a rock climbing acti
+
+[37/100] uniandes_bouldering_024_6 (GT=Novice)
+  exo: Late Expert X | Based on the video, the person appears to be a late expert in the activity. The 
+  ego: Unknown X | Based on the provided information, the person is performing a rock climbing acti
+
+[38/100] uniandes_bouldering_025_14 (GT=Novice)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the provided information, the person is performing a rock climbing acti
+
+[39/100] uniandes_bouldering_029_8 (GT=Early Expert)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the video, the person appears to be at an intermediate skill level. The
+
+[40/100] uniandes_bouldering_035_37 (GT=Early Expert)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the provided information, the person is performing a rock climbing acti
+
+[41/100] uniandes_bouldering_022_20 (GT=Intermediate Expert)
+  exo: Late Expert X | Based on the video, the person appears to be at an intermediate skill level. The
+  ego: Late Expert X | Based on the provided information, the person is performing an activity that inv
+
+[42/100] uniandes_bouldering_025_38 (GT=Early Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[43/100] uniandes_bouldering_027_114 (GT=Novice)
+  exo: Late Expert X | Based on the video, the person appears to be a late expert in rock climbing. The
+  ego: Late Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+
+[44/100] uniandes_bouldering_026_72 (GT=Novice)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the provided information, the person is performing a rock climbing acti
+
+[45/100] uniandes_bouldering_033_33 (GT=Intermediate Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Intermediate Expert OK | Based on the provided information, the person is performing a rock climbing acti
+
+[46/100] uniandes_bouldering_022_33 (GT=Novice)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Early Expert X | Based on the provided information, the person is performing an activity that inv
+
+[47/100] uniandes_bouldering_032_28 (GT=Intermediate Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the provided information, the person is performing a climbing activity 
+
+[48/100] uniandes_bouldering_029_65 (GT=Intermediate Expert)
+  exo: Late Expert X | Based on the video, the person appears to be at an intermediate skill level. The
+  ego: Late Expert X | Based on the video, the person appears to be at an intermediate expert skill lev
+
+[49/100] uniandes_bouldering_030_26 (GT=Late Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the provided information, the person is performing an activity that inv
+
+[50/100] uniandes_bouldering_033_12 (GT=Late Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert OK | Based on the video, the person appears to be at an intermediate skill level. The
+
+[51/100] uniandes_bouldering_025_81 (GT=Novice)
+  exo: Late Expert X | Based on the video, the person appears to be at an intermediate skill level. The
+  ego: Late Expert X | Based on the video, the person appears to be at an intermediate expert skill lev
+
+[52/100] uniandes_bouldering_027_58 (GT=Novice)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Intermediate Expert X | Based on the provided information, the person is performing an activity that inv
+
+[53/100] uniandes_bouldering_034_21 (GT=Early Expert)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the provided information, the person is performing a rock climbing acti
+
+[54/100] uniandes_bouldering_034_8 (GT=Early Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Novice X | Based on the provided information, the person is performing an activity that inv
+
+[55/100] uniandes_bouldering_034_65 (GT=Early Expert)
+  exo: Novice X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the provided information, the person is performing an activity that inv
+
+[56/100] uniandes_bouldering_028_52 (GT=Intermediate Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+
+[57/100] uniandes_bouldering_029_74 (GT=Early Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the video, the person appears to be at an intermediate skill level. The
+
+[58/100] uniandes_bouldering_032_75 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+
+[59/100] uniandes_bouldering_034_37 (GT=Early Expert)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Intermediate Expert X | Based on the provided information, the person is performing a rock climbing acti
+
+[60/100] uniandes_bouldering_030_61 (GT=Late Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert OK | Based on the video, the person appears to be at an intermediate expert skill lev
+
+[61/100] uniandes_bouldering_022_49 (GT=Novice)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the video, the person appears to be at an intermediate skill level in t
+
+[62/100] uniandes_bouldering_022_13 (GT=Novice)
+  exo: Late Expert X | Based on the video, the person appears to be a late expert in the activity. They
+  ego: Late Expert X | Based on the provided information, the person is performing a rock climbing acti
+
+[63/100] uniandes_bouldering_028_34 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Intermediate Expert OK | Based on the video, the person appears to be at an intermediate expert skill lev
+
+[64/100] uniandes_bouldering_030_29 (GT=Late Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert OK | Based on the provided information, the person is performing an activity that inv
+
+[65/100] uniandes_bouldering_032_21 (GT=Intermediate Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the provided information, the person is performing a rock climbing acti
+
+[66/100] uniandes_bouldering_023_44 (GT=Novice)
+  exo: Late Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the provided information, the person is performing a rock climbing acti
+
+[67/100] uniandes_bouldering_024_60 (GT=Novice)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the provided information, the person is performing a rock climbing acti
+
+[68/100] uniandes_bouldering_025_16 (GT=Novice)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Intermediate Expert X | Based on the video, the person appears to be at an intermediate expert skill lev
+
+[69/100] uniandes_bouldering_022_62 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the provided information, the person is performing an activity that inv
+
+[70/100] uniandes_bouldering_035_21 (GT=Early Expert)
+  exo: Late Expert X | Based on the video, the person appears to be a late expert in rock climbing. The
+  ego: Unknown X | Based on the video, the person appears to be at an intermediate skill level. The
+
+[71/100] uniandes_bouldering_036_48 (GT=Late Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Early Expert X | Based on the provided information, the person is performing a climbing activity 
+
+[72/100] uniandes_bouldering_023_11 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[73/100] uniandes_bouldering_029_9 (GT=Early Expert)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Intermediate Expert X | Based on the video, the person appears to be at an intermediate expert skill lev
+
+[74/100] uniandes_bouldering_026_22 (GT=Novice)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Intermediate Expert X | Based on the video, the person appears to be at an intermediate expert skill lev
+
+[75/100] uniandes_bouldering_027_87 (GT=Novice)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the provided information, the person is performing a climbing activity,
+
+[76/100] uniandes_bouldering_036_60 (GT=Intermediate Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the provided information, the person is performing a rock climbing acti
+
+[77/100] uniandes_bouldering_032_66 (GT=Late Expert)
+  exo: Late Expert OK | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the provided information, the person is performing a rock climbing acti
+
+[78/100] uniandes_bouldering_024_54 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[79/100] uniandes_bouldering_026_26 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Based on the video, the person appears to be at an intermediate expert skill lev
+  ego: Late Expert X | Based on the provided information, the person is performing a rock climbing acti
+
+[80/100] uniandes_bouldering_024_32 (GT=Novice)
+  exo: Late Expert X | Based on the video, the person appears to be a late expert in the activity. They
+  ego: Intermediate Expert X | Based on the provided information, the person is performing an activity that inv
+
+[81/100] uniandes_bouldering_023_2 (GT=Early Expert)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Intermediate Expert X | Based on the provided information, the person is performing an activity that inv
+
+[82/100] uniandes_bouldering_026_23 (GT=Novice)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+
+[83/100] uniandes_bouldering_022_72 (GT=Novice)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the provided information, the person is performing a climbing activity,
+
+[84/100] uniandes_bouldering_036_50 (GT=Late Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the provided information, the person is performing a handstand on a bal
+
+[85/100] uniandes_bouldering_033_45 (GT=Late Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the video, the person appears to be at an intermediate skill level. The
+
+[86/100] uniandes_bouldering_032_2 (GT=Late Expert)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the provided information, the person is performing an activity that inv
+
+[87/100] uniandes_bouldering_022_5 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[88/100] uniandes_bouldering_033_55 (GT=Intermediate Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the video, the person appears to be at an intermediate skill level in t
+
+[89/100] uniandes_bouldering_036_57 (GT=Intermediate Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the provided information, the person is performing a rock climbing acti
+
+[90/100] uniandes_bouldering_037_52 (GT=Late Expert)
+  exo: Late Expert OK | Based on the video, the person appears to be a late expert in rock climbing. The
+  ego: Novice X | Based on the video, the person appears to be at an intermediate skill level. The
+
+[91/100] uniandes_bouldering_026_21 (GT=Novice)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the provided information, the person is performing an activity that inv
+
+[92/100] uniandes_bouldering_031_30 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[93/100] uniandes_bouldering_036_12 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Late Expert X | Based on the video, the person appears to be at an intermediate skill level in t
+
+[94/100] uniandes_bouldering_025_52 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[95/100] uniandes_bouldering_029_28 (GT=Early Expert)
+  exo: Intermediate Expert X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the provided information, the person is performing a climbing activity,
+
+[96/100] uniandes_bouldering_027_2 (GT=Intermediate Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Early Expert X | Based on the video, the person appears to be at an early expert level in rock cl
+
+[97/100] uniandes_bouldering_028_24 (GT=Early Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level. The
+  ego: Unknown X | Based on the provided information, the person is performing a climbing activity 
+
+[98/100] uniandes_bouldering_031_69 (GT=Late Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the provided information, the person is performing a rock climbing acti
+
+[99/100] uniandes_bouldering_029_48 (GT=Intermediate Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Novice X | Based on the video, the person appears to be at an intermediate skill level. The
+
+[100/100] uniandes_bouldering_036_8 (GT=Late Expert)
+  exo: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+  ego: Unknown X | Based on the video, the person appears to be at an intermediate skill level in r
+
+============================================================
+RESULTS — VideoLLaVA reasoning prompt 8 frames
+============================================================
+  exo: 8/100 = 8.0%
+  ego: 10/100 = 10.0%
+
+Random chance: 25%
+
+Exo predictions: {'Unknown': 52, 'Intermediate Expert': 30, 'Late Expert': 16, 'Novice': 2}
+Ego predictions: {'Unknown': 47, 'Late Expert': 34, 'Intermediate Expert': 12, 'Early Expert': 4, 'Novice': 3}
+============================================================
