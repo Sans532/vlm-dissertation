@@ -1,0 +1,101 @@
+clip_id,take_folder,ground_truth,exo_full_answer,exo_predicted,exo_correct,ego_full_answer,ego_predicted,ego_correct
+0ec8c380-66df-414c-8ed1-a644c76539d1,uniandes_bouldering_022_12,Novice,ERROR,Unknown,False,ERROR,Unknown,False
+586597cc-59c5-45d5-9596-0b6506d9c0ba,uniandes_bouldering_037_38,Late Expert,Novice,Novice,False,The person is in the early expert level.,Early Expert,False
+9ceee09a-ab19-4463-baac-0ed48d21827e,uniandes_bouldering_024_44,Novice,"The person is performing a climbing activity, and the video shows that the person is in the early expert stage.",Early Expert,False,Novice,Novice,True
+08f0616c-d3c4-414c-a492-d8d157872915,uniandes_bouldering_035_53,Early Expert,"The person is in the early expert stage, as they are not yet fully proficient in their movements.",Early Expert,True,"The person is performing an activity, but their body alignment and movement fluency are not very good.",Unknown,False
+5f1dd7a9-18b5-400a-a3de-1c30f547235e,uniandes_bouldering_027_19,Early Expert,Novice,Novice,False,Novice,Novice,False
+baf283a8-4747-45f1-9c78-241003a8f1b5,uniandes_bouldering_034_56,Intermediate Expert,Novice,Novice,False,Novice,Novice,False
+ea2d7015-0bf2-422c-b6ac-ebcf88fef619,uniandes_bouldering_025_13,Novice,Novice,Novice,True,Novice,Novice,True
+0dd0e0b5-cbd2-42d3-bc00-64375f14f374,uniandes_bouldering_032_81,Intermediate Expert,Novice,Novice,False,Novice,Novice,False
+1088fd1c-1562-4ee5-b85c-ceb59bf85f20,uniandes_bouldering_035_28,Early Expert,Novice,Novice,False,The person is performing a rock climbing activity.,Unknown,False
+1c4f1db1-70bb-47e6-8d1f-00e924aa0a98,uniandes_bouldering_033_38,Intermediate Expert,Novice,Novice,False,The person is a beginner.,Unknown,False
+b92ec0ad-020b-4fed-87bf-002eaaa9a8ec,uniandes_bouldering_022_26,Late Expert,The person is performing a rock climbing activity.,Unknown,False,Novice,Novice,False
+d6462a6d-44d4-43eb-a0d9-11df808ef412,uniandes_bouldering_034_94,Early Expert,Novice,Novice,False,Novice,Novice,False
+b3a28e5b-906f-40e0-9428-902c81a9cc55,uniandes_bouldering_027_20,Early Expert,Novice,Novice,False,Novice,Novice,False
+b285942a-a30b-4d4b-a753-8a29b951c1cb,uniandes_bouldering_026_48,Intermediate Expert,The person is performing a climb on a rock wall.,Unknown,False,Novice,Novice,False
+0a184bbf-43bf-4d02-bc32-f8989158446a,uniandes_bouldering_023_42,Novice,Novice,Novice,True,"The person is performing a rock climbing activity. The body alignment is not very good, and the movement fluency is not very smooth.",Unknown,False
+0ed9a2ce-0e62-43f9-a7e1-37e5a0b89fcc,uniandes_bouldering_033_60,Intermediate Expert,Novice,Novice,False,Novice,Novice,False
+97b78075-0a0c-4198-bc78-b08a2c92b0aa,uniandes_bouldering_027_56,Novice,"The person is in the early expert category, as they are still learning and improving their skills.",Early Expert,False,The person is performing a rock climbing activity.,Unknown,False
+c6e1946e-cd52-43ee-ac5c-acb609d821d6,uniandes_bouldering_035_98,Early Expert,Novice,Novice,False,The person is performing a rock climbing activity. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in the middle of the rock climbing wall. The person is in,Unknown,False
+5d5d169f-3cfa-47da-947d-ec7a93178a59,uniandes_bouldering_029_41,Novice,Novice,Novice,True,Novice,Novice,True
+48c635f3-ef0c-436b-94dc-9fca68c779b7,uniandes_bouldering_034_98,Early Expert,Novice,Novice,False,The person is performing a rock climbing activity.,Unknown,False
+841c5354-3711-45ce-a226-3d7ba0e6b3df,uniandes_bouldering_030_60,Late Expert,Novice,Novice,False,"The person is performing an activity, and the video shows 16 frames of the person's body alignment and movement fluency.",Unknown,False
+e77f05f8-2458-47de-952a-303245322f2f,uniandes_bouldering_023_53,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
+7cef5f7e-d66d-4b23-b832-ff998d357784,uniandes_bouldering_023_71,Early Expert,The person is performing a rock climbing activity.,Unknown,False,Novice,Novice,False
+6caff659-6697-498e-a5e3-04b50bc09d30,uniandes_bouldering_027_17,Early Expert,"The person is in the early expert stage, as they are still learning the proper techniques and body alignment.",Early Expert,True,Novice,Novice,False
+dcdf4cdc-2b50-4e2c-bbaf-b8a904965867,uniandes_bouldering_029_77,Early Expert,The person is performing a rock climbing activity.,Unknown,False,Novice,Novice,False
+77f6641e-b713-4723-bafc-ca6b0b957c5e,uniandes_bouldering_036_17,Late Expert,Novice,Novice,False,Novice,Novice,False
+a7ee65f5-b365-4f69-bc6a-95a9583d7ff0,uniandes_bouldering_026_14,Novice,The person is performing a climb on a rock wall. The person is in the middle of the wall and is in the middle of the wall. The person is in the middle of the wall and is in the middle of the wall. The person is in the middle of the wall and is in the middle of the wall. The person is in the middle of the wall and is in the middle of the wall. The person is in the middle of the wall and is in the middle of the wall. The person is in the middle of the wall and is in the middle of the wall. The person is in the middle of the wall and is in the middle of the wall. The person is in the middle of the wall and is in the middle of the wall. The person is in the middle of the wall and is in the middle of the wall. The person is in the middle of the wall. The person is in the middle of the wall. The person is in the middle of the wall. The person is in the middle of the wall. The person is in the middle of the wall. The person is in the middle of the wall. The person is in the middle of the wall. The person is in the middle of the wall. The person is in the middle of the wall. The person is in the middle of the wall. The person is in the middle of the wall. The person is in the middle of the wall. The person is in the middle,Unknown,False,Novice,Novice,True
+74bc0655-0e3e-433f-b8f5-243764621fe5,uniandes_bouldering_030_25,Late Expert,Novice,Novice,False,Novice,Novice,False
+04cd2bc7-f306-4bc5-b2ea-8d51a0e587a8,uniandes_bouldering_029_71,Early Expert,Novice,Novice,False,Novice,Novice,False
+e8f2df2e-5d2d-4352-b06c-95554b1ecdb3,uniandes_bouldering_031_68,Late Expert,Novice,Novice,False,Novice,Novice,False
+4401cdfe-a383-4116-b1ed-1783b2e0ae7e,uniandes_bouldering_036_4,Late Expert,The person is performing a rock climbing activity.,Unknown,False,Novice,Novice,False
+d065cac0-836c-4c1b-b255-134428b037c9,uniandes_bouldering_023_77,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
+d33f338c-bebc-44a7-b3bb-17849a0fc068,uniandes_bouldering_037_49,Late Expert,Novice,Novice,False,Novice,Novice,False
+e0e7a1f3-3420-4ae2-88fb-666ac9d5cbdc,uniandes_bouldering_033_27,Late Expert,The person is performing a climb on a rock wall.,Unknown,False,The person is performing an activity in a dark room. The person's body alignment and movement fluency are not very good.,Unknown,False
+d2268823-4c4b-4036-b313-a27083db529d,uniandes_bouldering_037_2,Intermediate Expert,Novice,Novice,False,Novice,Novice,False
+a237c7f1-4189-4f28-9a7d-233a976976d6,uniandes_bouldering_036_47,Late Expert,Novice,Novice,False,Novice,Novice,False
+3c519043-4e93-4f5e-b521-3b27c235c17c,uniandes_bouldering_024_6,Novice,Novice,Novice,True,"The person is performing an activity, but their body alignment and movement fluency are not very good.",Unknown,False
+ea71122a-5318-4c39-9207-10eb0fe6e668,uniandes_bouldering_025_14,Novice,"The person is in the early expert skill level, as they are still learning the proper body alignment and movement fluency.",Early Expert,False,Novice,Novice,True
+ef362c0f-063b-4aeb-af18-d15f0c0a949d,uniandes_bouldering_029_8,Early Expert,Novice,Novice,False,The person is performing a rock climbing activity. The person's body alignment and movement fluency are not very good.,Unknown,False
+74d47f9d-6264-4407-b9f0-9facc320c938,uniandes_bouldering_035_37,Early Expert,Novice,Novice,False,Novice,Novice,False
+297d0185-6f12-4664-b53c-c5fc4054d680,uniandes_bouldering_022_20,Intermediate Expert,The person is performing a rock climbing activity.,Unknown,False,The person is performing a rock climbing activity.,Unknown,False
+368bcbb7-e89b-4fb5-8049-981c46c8250d,uniandes_bouldering_025_38,Early Expert,ERROR,Unknown,False,ERROR,Unknown,False
+599fccf2-b3c2-4eaf-95b2-0749fe66ef4c,uniandes_bouldering_027_114,Novice,Novice,Novice,True,Novice,Novice,True
+947ac112-6848-49aa-8cac-aece95145e0d,uniandes_bouldering_026_72,Novice,"The person is in the early expert stage, as they are not yet fully mastering the technique.",Early Expert,False,Novice,Novice,True
+4f3ad258-3d8e-430e-88be-d3f6d1db4e90,uniandes_bouldering_033_33,Intermediate Expert,Novice,Novice,False,"The person is performing an activity, but their body alignment and movement fluency are not clear.",Unknown,False
+00f50674-1f3c-4847-ab4a-fa2f0f113987,uniandes_bouldering_022_33,Novice,The person is performing a rock climbing activity.,Unknown,False,"The person is performing a rock climbing activity. The body alignment is not very good, and the movement fluency is not very good.",Unknown,False
+73853c96-b212-4c0c-840b-521bf4db7109,uniandes_bouldering_032_28,Intermediate Expert,Novice,Novice,False,The person is performing a rock climbing activity.,Unknown,False
+00e60518-37eb-47ea-bc82-eefa572ffc8c,uniandes_bouldering_029_65,Intermediate Expert,Novice,Novice,False,Novice,Novice,False
+2915318c-1440-4a50-aced-d39ddc433ffd,uniandes_bouldering_030_26,Late Expert,The person is performing a rock climbing activity.,Unknown,False,Novice,Novice,False
+8eba5dea-598c-4884-a242-493868d74b9a,uniandes_bouldering_033_12,Late Expert,Novice,Novice,False,Novice,Novice,False
+515cb254-42d5-4107-bf65-f17eb654d6b2,uniandes_bouldering_025_81,Novice,The person is performing a rock climbing activity.,Unknown,False,Novice,Novice,True
+b39b5e50-0271-42f2-a6ad-e9a3973f6f59,uniandes_bouldering_027_58,Novice,Novice,Novice,True,Novice,Novice,True
+ded44860-08c8-48a6-bdc1-6fed5fbb2ca8,uniandes_bouldering_034_21,Early Expert,Novice,Novice,False,Novice,Novice,False
+78eb1fd3-fd40-45b2-a322-75bf823917ce,uniandes_bouldering_034_8,Early Expert,Novice,Novice,False,Novice,Novice,False
+4d46b132-1c9e-404d-86fd-f7fc1dd4c320,uniandes_bouldering_034_65,Early Expert,Novice,Novice,False,Novice,Novice,False
+503cc92d-7052-44ff-a21d-da6c4a5d6927,uniandes_bouldering_028_52,Intermediate Expert,"The person is in the early expert stage, as they are not yet fully proficient in their movements.",Early Expert,False,"The person is performing a rock climbing activity. The body alignment is not very good, and the movement is not very fluid.",Unknown,False
+490ba87f-dec2-421d-89ae-365b07059004,uniandes_bouldering_029_74,Early Expert,The person is performing a rock climbing activity.,Unknown,False,Novice,Novice,False
+55a046e6-11d2-4860-a2a4-305e84f87c95,uniandes_bouldering_032_75,Intermediate Expert,Novice,Novice,False,The person is a novice.,Novice,False
+20339f53-7bb2-4b2f-9829-8b1317c7aefe,uniandes_bouldering_034_37,Early Expert,Novice,Novice,False,Novice,Novice,False
+e5342798-15e1-496a-877e-599c41e661d2,uniandes_bouldering_030_61,Late Expert,Novice,Novice,False,Novice,Novice,False
+13187fc4-b19c-44c2-96c4-d6516e80e8c6,uniandes_bouldering_022_49,Novice,Novice,Novice,True,Novice,Novice,True
+541fd573-8687-496a-8351-aa30f2524bd3,uniandes_bouldering_022_13,Novice,Novice,Novice,True,The person is performing a rock climbing activity.,Unknown,False
+daebd508-2c03-4304-ad6e-44be5672755c,uniandes_bouldering_028_34,Intermediate Expert,Novice,Novice,False,Novice,Novice,False
+da19130e-ef5e-4255-9080-f714a618f934,uniandes_bouldering_030_29,Late Expert,The person is performing a rock climbing activity.,Unknown,False,"The person is performing an activity, but their body alignment and movement fluency are not yet at an expert level.",Unknown,False
+5a87d794-6b64-4287-b212-5142aefeefa2,uniandes_bouldering_032_21,Intermediate Expert,The person is performing a climb on a rock wall.,Unknown,False,Novice,Novice,False
+efe3c403-3719-4276-b1b1-0492f93a8397,uniandes_bouldering_023_44,Novice,Novice,Novice,True,"The person is performing an activity, but their body alignment and movement fluency are not clear.",Unknown,False
+2aaaca24-108a-437e-ab9a-bc3e8d65fcdf,uniandes_bouldering_024_60,Novice,The person is performing a climbing activity on a rock wall.,Unknown,False,The person is performing a rock climbing activity.,Unknown,False
+7b7365da-5cef-4fbc-8c9b-ab2987fddf0f,uniandes_bouldering_025_16,Novice,Novice,Novice,True,Novice,Novice,True
+aaf0d082-a972-4620-a1e9-5699023c9c77,uniandes_bouldering_022_62,Intermediate Expert,Novice,Novice,False,The person is performing an activity in a dark room. The person's body alignment and movement fluency are not very good.,Unknown,False
+3f60a7dd-d004-4842-bdd0-2e112f554cd9,uniandes_bouldering_035_21,Early Expert,Novice,Novice,False,Novice,Novice,False
+34c5de08-c113-4213-82e0-50a6751d794b,uniandes_bouldering_036_48,Late Expert,"The person is in the early expert stage, as they are not yet fully mastering the technique.",Early Expert,False,Novice,Novice,False
+783a070b-d9ca-4273-bb9d-0f6ad5939d60,uniandes_bouldering_023_11,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
+4f53ded9-6a79-4ea0-bc28-f93981f4db82,uniandes_bouldering_029_9,Early Expert,Novice,Novice,False,The person is performing a rock climbing activity.,Unknown,False
+7ddc0933-b409-4c1d-96e6-0ecce0d68d9a,uniandes_bouldering_026_22,Novice,Novice,Novice,True,Novice,Novice,True
+06846813-9b38-4177-9caa-2fdef34bd868,uniandes_bouldering_027_87,Novice,ERROR,Unknown,False,ERROR,Unknown,False
+ab2d04c4-9952-4554-8047-f624b7703523,uniandes_bouldering_036_60,Intermediate Expert,The person is performing a climbing activity.,Unknown,False,Novice,Novice,False
+55c0fbdf-e83e-44b2-ae04-a05cd1ac227e,uniandes_bouldering_032_66,Late Expert,Novice,Novice,False,Novice,Novice,False
+50b31b18-a540-4294-9e4a-6a1d2007b872,uniandes_bouldering_024_54,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
+54e52179-7f03-4a57-9b5b-bc526a89a33b,uniandes_bouldering_026_26,Intermediate Expert,Novice,Novice,False,Novice,Novice,False
+823628bf-e32c-4b93-9ec2-0c615eb6a999,uniandes_bouldering_024_32,Novice,Novice,Novice,True,Novice,Novice,True
+03cee26b-3f48-435c-a617-db1130410157,uniandes_bouldering_023_2,Early Expert,Novice,Novice,False,Novice,Novice,False
+67afb15d-7cde-4c6d-8826-2fb9b9192b61,uniandes_bouldering_026_23,Novice,Novice,Novice,True,Novice,Novice,True
+2d440a5d-6f5d-447f-b0d7-5227df11da5f,uniandes_bouldering_022_72,Novice,The person is performing a climbing activity on a rock wall.,Unknown,False,Novice,Novice,True
+68308e20-76b7-4878-af8f-62e74c08e6d3,uniandes_bouldering_036_50,Late Expert,The person is performing a rock climbing activity.,Unknown,False,Novice,Novice,False
+cddea26a-1eac-4176-a541-fa38ca70a214,uniandes_bouldering_033_45,Late Expert,Novice,Novice,False,Novice,Novice,False
+53b52ea1-d45a-428e-989a-0afbd8914588,uniandes_bouldering_032_2,Late Expert,The person is performing a rock climbing activity.,Unknown,False,Novice,Novice,False
+fe9cc639-8550-4f4b-bb1b-b6474dc740d9,uniandes_bouldering_022_5,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
+6cc51836-6b79-4921-9024-d351486ad88c,uniandes_bouldering_033_55,Intermediate Expert,Novice,Novice,False,Novice,Novice,False
+14e3d506-966c-4775-9499-e800ff752938,uniandes_bouldering_036_57,Intermediate Expert,The person is performing a rock climbing activity.,Unknown,False,Novice,Novice,False
+50a1d087-699a-4b98-a8d3-1c1b9adae130,uniandes_bouldering_037_52,Late Expert,Novice,Novice,False,Novice,Novice,False
+b0e3de53-17af-438a-80f5-7bbb2fed0125,uniandes_bouldering_026_21,Novice,Novice,Novice,True,The person is at the late expert level.,Late Expert,False
+8d755767-c021-4782-8374-93f46af70075,uniandes_bouldering_031_30,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
+103eefc6-4c85-4d2f-877a-c56458767c63,uniandes_bouldering_036_12,Intermediate Expert,Novice,Novice,False,Novice,Novice,False
+f994a8f3-14ff-418d-b7f4-239c1a07f06d,uniandes_bouldering_025_52,Late Expert,ERROR,Unknown,False,ERROR,Unknown,False
+b437ad8d-7d90-48b9-84ef-46e6db4a58da,uniandes_bouldering_029_28,Early Expert,Novice,Novice,False,The person is performing a rock climbing activity.,Unknown,False
+08dc1e90-e64a-4420-a773-574758117821,uniandes_bouldering_027_2,Intermediate Expert,Novice,Novice,False,Novice,Novice,False
+e5c4c6aa-f142-4b45-bb12-97e312cb20fd,uniandes_bouldering_028_24,Early Expert,Novice,Novice,False,Novice,Novice,False
+c8dbedf6-61ec-497f-b57e-ee270238da13,uniandes_bouldering_031_69,Late Expert,Novice,Novice,False,Novice,Novice,False
+a729523b-c8c8-40a5-99b5-eebff3772724,uniandes_bouldering_029_48,Intermediate Expert,Novice,Novice,False,Novice,Novice,False
+75286d45-1251-421a-90cb-3f0212443244,uniandes_bouldering_036_8,Late Expert,The person is performing a rock climbing activity.,Unknown,False,Novice,Novice,False

@@ -1,0 +1,653 @@
+Fri Jul 10 23:52:36 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H200                    On  |   00000000:4C:00.0 Off |                   On |
+| N/A   39C    P0            295W /  700W |   54951MiB / 143771MiB |     N/A      Default |
+|                                         |                        |              Enabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| MIG devices:                                                                            |
++------------------+----------------------------------+-----------+-----------------------+
+| GPU  GI  CI  MIG |              Shared Memory-Usage |        Vol|        Shared         |
+|      ID  ID  Dev |                Shared BAR1-Usage | SM     Unc| CE ENC  DEC  OFA  JPG |
+|                  |                                  |        ECC|                       |
+|==================+==================================+===========+=======================|
+|  0    2   0   0  |              44MiB / 71424MiB    | 60      0 |  3   0    3    0    3 |
+|                  |               0MiB / 59237MiB    |           |                       |
++------------------+----------------------------------+-----------+-----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading takes metadata...
+Loaded 5035 takes.
+
+Loading Video-LLaVA ...
+Loading weights:   0%|          | 0/1077 [00:00<?, ?it/s]Loading weights:   1%|          | 9/1077 [00:00<01:35, 11.18it/s]Loading weights:   2%|▏         | 25/1077 [00:01<00:39, 26.65it/s]Loading weights:   4%|▍         | 41/1077 [00:01<00:39, 26.55it/s]Loading weights:   5%|▌         | 57/1077 [00:01<00:29, 34.99it/s]Loading weights:   7%|▋         | 73/1077 [00:02<00:30, 33.14it/s]Loading weights:   8%|▊         | 89/1077 [00:02<00:24, 40.28it/s]Loading weights:  10%|▉         | 105/1077 [00:03<00:27, 35.60it/s]Loading weights:  11%|█         | 121/1077 [00:03<00:22, 41.63it/s]Loading weights:  13%|█▎        | 137/1077 [00:04<00:27, 34.42it/s]Loading weights:  14%|█▍        | 153/1077 [00:04<00:23, 39.41it/s]Loading weights:  16%|█▌        | 169/1077 [00:04<00:24, 37.20it/s]Loading weights:  17%|█▋        | 185/1077 [00:05<00:21, 40.97it/s]Loading weights:  19%|█▊        | 201/1077 [00:05<00:23, 37.73it/s]Loading weights:  20%|██        | 217/1077 [00:05<00:19, 43.07it/s]Loading weights:  22%|██▏       | 233/1077 [00:06<00:22, 36.91it/s]Loading weights:  23%|██▎       | 249/1077 [00:06<00:20, 41.26it/s]Loading weights:  25%|██▍       | 265/1077 [00:07<00:21, 38.17it/s]Loading weights:  26%|██▌       | 281/1077 [00:07<00:19, 41.81it/s]Loading weights:  28%|██▊       | 297/1077 [00:08<00:19, 39.07it/s]Loading weights:  29%|██▉       | 313/1077 [00:08<00:17, 44.29it/s]Loading weights:  31%|███       | 329/1077 [00:08<00:19, 39.31it/s]Loading weights:  32%|███▏      | 345/1077 [00:09<00:16, 43.36it/s]Loading weights:  34%|███▎      | 361/1077 [00:09<00:17, 40.25it/s]Loading weights:  35%|███▌      | 377/1077 [00:09<00:15, 45.77it/s]Loading weights:  35%|███▌      | 377/1077 [00:20<00:15, 45.77it/s]Loading weights:  36%|███▋      | 392/1077 [00:23<03:11,  3.57it/s]Loading weights:  36%|███▋      | 393/1077 [00:24<03:25,  3.32it/s]Loading weights:  38%|███▊      | 404/1077 [00:26<02:48,  4.00it/s]Loading weights:  38%|███▊      | 407/1077 [00:28<03:34,  3.12it/s]Loading weights:  38%|███▊      | 411/1077 [00:29<03:10,  3.49it/s]Loading weights:  38%|███▊      | 413/1077 [00:33<05:02,  2.20it/s]Loading weights:  39%|███▊      | 415/1077 [00:34<05:04,  2.17it/s]Loading weights:  39%|███▉      | 419/1077 [00:35<04:28,  2.45it/s]Loading weights:  39%|███▉      | 420/1077 [00:35<04:10,  2.62it/s]Loading weights:  39%|███▉      | 422/1077 [00:39<07:25,  1.47it/s]Loading weights:  39%|███▉      | 423/1077 [00:39<06:52,  1.58it/s]Loading weights:  39%|███▉      | 424/1077 [00:40<07:36,  1.43it/s]Loading weights:  40%|███▉      | 428/1077 [00:41<04:51,  2.22it/s]Loading weights:  40%|███▉      | 429/1077 [00:41<04:26,  2.44it/s]Loading weights:  40%|████      | 431/1077 [00:44<08:19,  1.29it/s]Loading weights:  40%|████      | 432/1077 [00:45<08:55,  1.20it/s]Loading weights:  40%|████      | 433/1077 [00:46<08:24,  1.28it/s]Loading weights:  41%|████      | 437/1077 [00:46<04:20,  2.46it/s]Loading weights:  41%|████      | 438/1077 [00:47<04:22,  2.43it/s]Loading weights:  41%|████      | 440/1077 [00:50<09:28,  1.12it/s]Loading weights:  41%|████      | 441/1077 [00:51<08:51,  1.20it/s]Loading weights:  41%|████      | 442/1077 [00:51<07:44,  1.37it/s]Loading weights:  41%|████▏     | 446/1077 [00:52<04:53,  2.15it/s]Loading weights:  42%|████▏     | 449/1077 [00:56<07:51,  1.33it/s]Loading weights:  42%|████▏     | 450/1077 [00:56<07:11,  1.45it/s]Loading weights:  42%|████▏     | 451/1077 [00:57<07:50,  1.33it/s]Loading weights:  42%|████▏     | 455/1077 [00:58<04:39,  2.22it/s]Loading weights:  43%|████▎     | 458/1077 [01:02<07:17,  1.41it/s]Loading weights:  43%|████▎     | 459/1077 [01:03<07:51,  1.31it/s]Loading weights:  43%|████▎     | 460/1077 [01:03<07:27,  1.38it/s]Loading weights:  43%|████▎     | 464/1077 [01:04<04:10,  2.45it/s]Loading weights:  43%|████▎     | 465/1077 [01:04<04:02,  2.52it/s]Loading weights:  43%|████▎     | 467/1077 [01:08<08:26,  1.20it/s]Loading weights:  43%|████▎     | 468/1077 [01:08<08:03,  1.26it/s]Loading weights:  44%|████▎     | 469/1077 [01:08<07:01,  1.44it/s]Loading weights:  44%|████▍     | 473/1077 [01:09<04:27,  2.26it/s]Loading weights:  44%|████▍     | 474/1077 [01:09<03:57,  2.54it/s]Loading weights:  44%|████▍     | 476/1077 [01:13<08:39,  1.16it/s]Loading weights:  44%|████▍     | 477/1077 [01:14<07:33,  1.32it/s]Loading weights:  44%|████▍     | 478/1077 [01:14<07:56,  1.26it/s]Loading weights:  45%|████▍     | 482/1077 [01:15<04:31,  2.19it/s]Loading weights:  45%|████▍     | 483/1077 [01:15<04:02,  2.45it/s]Loading weights:  45%|████▌     | 485/1077 [01:19<07:52,  1.25it/s]Loading weights:  45%|████▌     | 486/1077 [01:20<08:10,  1.20it/s]Loading weights:  45%|████▌     | 487/1077 [01:20<08:00,  1.23it/s]Loading weights:  46%|████▌     | 491/1077 [01:21<03:58,  2.45it/s]Loading weights:  46%|████▌     | 492/1077 [01:21<04:12,  2.32it/s]Loading weights:  46%|████▌     | 494/1077 [01:25<08:33,  1.14it/s]Loading weights:  46%|████▌     | 495/1077 [01:26<08:13,  1.18it/s]Loading weights:  46%|████▌     | 496/1077 [01:26<07:07,  1.36it/s]Loading weights:  46%|████▋     | 500/1077 [01:27<04:33,  2.11it/s]Loading weights:  47%|████▋     | 501/1077 [01:27<04:11,  2.29it/s]Loading weights:  47%|████▋     | 503/1077 [01:31<08:27,  1.13it/s]Loading weights:  47%|████▋     | 504/1077 [01:31<07:25,  1.29it/s]Loading weights:  47%|████▋     | 505/1077 [01:32<08:00,  1.19it/s]Loading weights:  47%|████▋     | 509/1077 [01:33<04:22,  2.17it/s]Loading weights:  47%|████▋     | 510/1077 [01:33<04:06,  2.30it/s]Loading weights:  48%|████▊     | 512/1077 [01:36<07:35,  1.24it/s]Loading weights:  48%|████▊     | 513/1077 [01:37<08:09,  1.15it/s]Loading weights:  48%|████▊     | 514/1077 [01:38<07:29,  1.25it/s]Loading weights:  48%|████▊     | 518/1077 [01:38<03:42,  2.51it/s]Loading weights:  48%|████▊     | 519/1077 [01:39<04:05,  2.27it/s]Loading weights:  48%|████▊     | 521/1077 [01:43<08:16,  1.12it/s]Loading weights:  48%|████▊     | 522/1077 [01:43<07:41,  1.20it/s]Loading weights:  49%|████▊     | 523/1077 [01:43<06:38,  1.39it/s]Loading weights:  49%|████▉     | 527/1077 [01:45<04:24,  2.08it/s]Loading weights:  49%|████▉     | 528/1077 [01:45<03:56,  2.33it/s]Loading weights:  49%|████▉     | 530/1077 [01:48<07:53,  1.16it/s]Loading weights:  49%|████▉     | 531/1077 [01:49<06:56,  1.31it/s]Loading weights:  49%|████▉     | 532/1077 [01:50<07:39,  1.19it/s]Loading weights:  50%|████▉     | 536/1077 [01:50<04:03,  2.22it/s]Loading weights:  50%|████▉     | 537/1077 [01:51<03:52,  2.32it/s]Loading weights:  50%|█████     | 539/1077 [01:54<07:16,  1.23it/s]Loading weights:  50%|█████     | 540/1077 [01:55<07:41,  1.16it/s]Loading weights:  50%|█████     | 541/1077 [01:55<07:04,  1.26it/s]Loading weights:  51%|█████     | 545/1077 [01:56<03:37,  2.44it/s]Loading weights:  51%|█████     | 546/1077 [01:57<03:59,  2.22it/s]Loading weights:  51%|█████     | 548/1077 [02:00<07:50,  1.12it/s]Loading weights:  51%|█████     | 549/1077 [02:01<07:16,  1.21it/s]Loading weights:  51%|█████     | 550/1077 [02:01<06:14,  1.41it/s]Loading weights:  51%|█████▏    | 554/1077 [02:02<04:06,  2.12it/s]Loading weights:  52%|█████▏    | 555/1077 [02:02<03:50,  2.26it/s]Loading weights:  52%|█████▏    | 557/1077 [02:06<07:32,  1.15it/s]Loading weights:  52%|█████▏    | 558/1077 [02:06<06:35,  1.31it/s]Loading weights:  52%|█████▏    | 559/1077 [02:07<07:03,  1.22it/s]Loading weights:  52%|█████▏    | 563/1077 [02:08<03:59,  2.14it/s]Loading weights:  52%|█████▏    | 564/1077 [02:08<03:40,  2.33it/s]Loading weights:  53%|█████▎    | 566/1077 [02:12<07:02,  1.21it/s]Loading weights:  53%|█████▎    | 567/1077 [02:13<07:11,  1.18it/s]Loading weights:  53%|█████▎    | 568/1077 [02:13<06:52,  1.24it/s]Loading weights:  53%|█████▎    | 572/1077 [02:14<03:35,  2.35it/s]Loading weights:  53%|█████▎    | 573/1077 [02:14<03:47,  2.21it/s]Loading weights:  53%|█████▎    | 575/1077 [02:39<36:02,  4.31s/it]Loading weights:  53%|█████▎    | 576/1077 [02:40<30:57,  3.71s/it]Loading weights:  54%|█████▎    | 577/1077 [02:41<25:14,  3.03s/it]Loading weights:  54%|█████▍    | 581/1077 [02:41<11:59,  1.45s/it]Loading weights:  54%|█████▍    | 582/1077 [02:42<10:34,  1.28s/it]Loading weights:  54%|█████▍    | 584/1077 [02:46<12:08,  1.48s/it]Loading weights:  54%|█████▍    | 585/1077 [02:46<10:35,  1.29s/it]Loading weights:  54%|█████▍    | 586/1077 [02:47<09:15,  1.13s/it]Loading weights:  55%|█████▍    | 590/1077 [02:48<05:15,  1.54it/s]Loading weights:  55%|█████▍    | 591/1077 [02:48<04:37,  1.75it/s]Loading weights:  55%|█████▌    | 593/1077 [02:51<07:41,  1.05it/s]Loading weights:  55%|█████▌    | 594/1077 [02:52<06:58,  1.15it/s]Loading weights:  55%|█████▌    | 595/1077 [02:53<07:06,  1.13it/s]Loading weights:  56%|█████▌    | 599/1077 [02:53<03:46,  2.11it/s]Loading weights:  56%|█████▌    | 600/1077 [02:54<03:38,  2.19it/s]Loading weights:  56%|█████▌    | 602/1077 [02:57<06:37,  1.19it/s]Loading weights:  56%|█████▌    | 603/1077 [02:58<06:50,  1.15it/s]Loading weights:  56%|█████▌    | 604/1077 [02:58<06:18,  1.25it/s]Loading weights:  56%|█████▋    | 608/1077 [02:59<03:12,  2.43it/s]Loading weights:  57%|█████▋    | 609/1077 [03:00<03:33,  2.19it/s]Loading weights:  57%|█████▋    | 611/1077 [03:03<06:51,  1.13it/s]Loading weights:  57%|█████▋    | 612/1077 [03:04<06:23,  1.21it/s]Loading weights:  57%|█████▋    | 613/1077 [03:04<05:26,  1.42it/s]Loading weights:  57%|█████▋    | 617/1077 [03:05<03:33,  2.16it/s]Loading weights:  57%|█████▋    | 618/1077 [03:05<03:25,  2.23it/s]Loading weights:  58%|█████▊    | 620/1077 [03:09<06:37,  1.15it/s]Loading weights:  58%|█████▊    | 621/1077 [03:09<05:42,  1.33it/s]Loading weights:  58%|█████▊    | 622/1077 [03:10<06:02,  1.25it/s]Loading weights:  58%|█████▊    | 626/1077 [03:11<03:27,  2.17it/s]Loading weights:  58%|█████▊    | 627/1077 [03:11<03:08,  2.39it/s]Loading weights:  58%|█████▊    | 629/1077 [03:14<06:04,  1.23it/s]Loading weights:  58%|█████▊    | 630/1077 [03:15<06:09,  1.21it/s]Loading weights:  59%|█████▊    | 631/1077 [03:16<05:55,  1.26it/s]Loading weights:  59%|█████▉    | 635/1077 [03:16<03:05,  2.38it/s]Loading weights:  59%|█████▉    | 636/1077 [03:17<03:14,  2.27it/s]Loading weights:  59%|█████▉    | 638/1077 [03:20<06:19,  1.16it/s]Loading weights:  59%|█████▉    | 639/1077 [03:21<06:05,  1.20it/s]Loading weights:  59%|█████▉    | 640/1077 [03:22<05:26,  1.34it/s]Loading weights:  60%|█████▉    | 644/1077 [03:22<03:14,  2.23it/s]Loading weights:  60%|█████▉    | 645/1077 [03:23<03:10,  2.27it/s]Loading weights:  60%|██████    | 647/1077 [03:26<06:19,  1.13it/s]Loading weights:  60%|██████    | 648/1077 [03:27<05:44,  1.24it/s]Loading weights:  60%|██████    | 649/1077 [03:28<05:39,  1.26it/s]Loading weights:  61%|██████    | 653/1077 [03:28<03:12,  2.21it/s]Loading weights:  61%|██████    | 654/1077 [03:29<03:06,  2.27it/s]Loading weights:  61%|██████    | 656/1077 [03:32<05:53,  1.19it/s]Loading weights:  61%|██████    | 657/1077 [03:33<05:48,  1.20it/s]Loading weights:  61%|██████    | 658/1077 [03:33<05:25,  1.29it/s]Loading weights:  61%|██████▏   | 662/1077 [03:34<02:58,  2.33it/s]Loading weights:  62%|██████▏   | 663/1077 [03:35<03:06,  2.21it/s]Loading weights:  62%|██████▏   | 665/1077 [03:38<05:52,  1.17it/s]Loading weights:  62%|██████▏   | 666/1077 [03:39<05:29,  1.25it/s]Loading weights:  62%|██████▏   | 667/1077 [03:39<05:05,  1.34it/s]Loading weights:  62%|██████▏   | 671/1077 [03:40<03:02,  2.22it/s]Loading weights:  62%|██████▏   | 672/1077 [03:40<03:00,  2.25it/s]Loading weights:  63%|██████▎   | 674/1077 [03:44<05:40,  1.18it/s]Loading weights:  63%|██████▎   | 675/1077 [03:44<05:15,  1.27it/s]Loading weights:  63%|██████▎   | 676/1077 [03:45<05:24,  1.24it/s]Loading weights:  63%|██████▎   | 680/1077 [03:46<02:58,  2.23it/s]Loading weights:  63%|██████▎   | 681/1077 [03:46<02:57,  2.23it/s]Loading weights:  64%|██████▎   | 686/1077 [03:47<01:43,  3.78it/s]Loading weights:  68%|██████▊   | 727/1077 [03:47<00:16, 21.13it/s]Loading weights:  69%|██████▉   | 743/1077 [03:47<00:12, 27.16it/s]Loading weights:  70%|███████   | 759/1077 [03:48<00:11, 27.70it/s]Loading weights:  72%|███████▏  | 775/1077 [03:48<00:09, 32.26it/s]Loading weights:  73%|███████▎  | 791/1077 [03:49<00:08, 34.47it/s]Loading weights:  75%|███████▍  | 807/1077 [03:49<00:06, 39.99it/s]Loading weights:  75%|███████▌  | 812/1077 [03:49<00:06, 40.95it/s]Loading weights:  76%|███████▋  | 823/1077 [03:50<00:07, 34.35it/s]Loading weights:  78%|███████▊  | 839/1077 [03:50<00:05, 41.22it/s]Loading weights:  79%|███████▉  | 855/1077 [03:50<00:06, 35.62it/s]Loading weights:  81%|████████  | 871/1077 [03:51<00:05, 39.20it/s]Loading weights:  82%|████████▏ | 887/1077 [03:51<00:04, 38.19it/s]Loading weights:  84%|████████▍ | 903/1077 [03:51<00:04, 41.90it/s]Loading weights:  85%|████████▌ | 919/1077 [03:52<00:04, 37.82it/s]Loading weights:  87%|████████▋ | 935/1077 [03:52<00:03, 41.52it/s]Loading weights:  88%|████████▊ | 951/1077 [03:53<00:03, 36.75it/s]Loading weights:  90%|████████▉ | 967/1077 [03:53<00:02, 41.26it/s]Loading weights:  91%|█████████▏| 983/1077 [03:54<00:02, 38.17it/s]Loading weights:  93%|█████████▎| 999/1077 [03:54<00:01, 41.93it/s]Loading weights:  94%|█████████▍| 1015/1077 [03:54<00:01, 38.05it/s]Loading weights:  96%|█████████▌| 1031/1077 [03:55<00:01, 41.81it/s]Loading weights:  97%|█████████▋| 1047/1077 [03:55<00:00, 39.08it/s]Loading weights:  99%|█████████▊| 1063/1077 [03:55<00:00, 41.98it/s]Loading weights: 100%|██████████| 1077/1077 [03:56<00:00,  4.56it/s]
+[transformers] Requested torchvision backend is not available. Falling back to pil backend.
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (4235 > 4096). Running this sequence through the model will result in indexing errors
+Model loaded.
+
+Clips: 100 | frames: 16 | TRIMMED
+
+[1/100] uniandes_bouldering_037_38 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[2/100] uniandes_bouldering_024_44 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[3/100] uniandes_bouldering_035_53 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[4/100] uniandes_bouldering_027_19 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[5/100] uniandes_bouldering_034_56 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[6/100] uniandes_bouldering_025_13 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[7/100] uniandes_bouldering_032_81 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[8/100] uniandes_bouldering_035_28 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[9/100] uniandes_bouldering_033_38 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[10/100] uniandes_bouldering_022_26 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[11/100] uniandes_bouldering_034_94 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[12/100] uniandes_bouldering_027_20 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[13/100] uniandes_bouldering_026_48 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[14/100] uniandes_bouldering_023_42 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[15/100] uniandes_bouldering_033_60 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[16/100] uniandes_bouldering_027_56 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[17/100] uniandes_bouldering_035_98 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[18/100] uniandes_bouldering_029_41 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[19/100] uniandes_bouldering_034_98 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[20/100] uniandes_bouldering_030_60 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[21/100] uniandes_bouldering_023_71 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[22/100] uniandes_bouldering_027_17 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[23/100] uniandes_bouldering_029_77 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[24/100] uniandes_bouldering_036_17 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[25/100] uniandes_bouldering_026_14 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[26/100] uniandes_bouldering_030_25 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[27/100] uniandes_bouldering_029_71 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[28/100] uniandes_bouldering_031_68 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[29/100] uniandes_bouldering_036_4 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[30/100] uniandes_bouldering_037_49 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[31/100] uniandes_bouldering_033_27 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[32/100] uniandes_bouldering_037_2 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[33/100] uniandes_bouldering_036_47 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[34/100] uniandes_bouldering_024_6 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[35/100] uniandes_bouldering_025_14 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[36/100] uniandes_bouldering_029_8 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[37/100] uniandes_bouldering_035_37 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[38/100] uniandes_bouldering_022_20 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[39/100] uniandes_bouldering_027_114 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[40/100] uniandes_bouldering_026_72 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[41/100] uniandes_bouldering_033_33 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[42/100] uniandes_bouldering_022_33 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[43/100] uniandes_bouldering_032_28 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[44/100] uniandes_bouldering_029_65 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[45/100] uniandes_bouldering_030_26 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[46/100] uniandes_bouldering_033_12 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[47/100] uniandes_bouldering_025_81 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[48/100] uniandes_bouldering_027_58 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[49/100] uniandes_bouldering_034_21 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[50/100] uniandes_bouldering_034_8 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[51/100] uniandes_bouldering_034_65 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[52/100] uniandes_bouldering_028_52 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[53/100] uniandes_bouldering_029_74 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[54/100] uniandes_bouldering_032_75 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[55/100] uniandes_bouldering_034_37 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[56/100] uniandes_bouldering_030_61 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[57/100] uniandes_bouldering_022_49 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[58/100] uniandes_bouldering_022_13 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[59/100] uniandes_bouldering_028_34 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[60/100] uniandes_bouldering_030_29 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[61/100] uniandes_bouldering_032_21 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[62/100] uniandes_bouldering_023_44 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[63/100] uniandes_bouldering_024_60 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[64/100] uniandes_bouldering_025_16 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[65/100] uniandes_bouldering_022_62 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[66/100] uniandes_bouldering_035_21 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[67/100] uniandes_bouldering_036_48 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[68/100] uniandes_bouldering_029_9 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[69/100] uniandes_bouldering_026_22 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[70/100] uniandes_bouldering_027_87 (GT=Novice)
+  exo ERROR: unsupported operand type(s) for *: 'NoneType' and 'float'
+  exo: Unknown X | ERROR
+  ego ERROR: unsupported operand type(s) for *: 'NoneType' and 'float'
+  ego: Unknown X | ERROR
+
+[71/100] uniandes_bouldering_036_60 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[72/100] uniandes_bouldering_032_66 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[73/100] uniandes_bouldering_026_26 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[74/100] uniandes_bouldering_024_32 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[75/100] uniandes_bouldering_023_2 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[76/100] uniandes_bouldering_026_23 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[77/100] uniandes_bouldering_022_72 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[78/100] uniandes_bouldering_036_50 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[79/100] uniandes_bouldering_033_45 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[80/100] uniandes_bouldering_032_2 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[81/100] uniandes_bouldering_033_55 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[82/100] uniandes_bouldering_036_57 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[83/100] uniandes_bouldering_037_52 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[84/100] uniandes_bouldering_026_21 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[85/100] uniandes_bouldering_036_12 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[86/100] uniandes_bouldering_029_28 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[87/100] uniandes_bouldering_027_2 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[88/100] uniandes_bouldering_028_24 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[89/100] uniandes_bouldering_031_69 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[90/100] uniandes_bouldering_029_48 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[91/100] uniandes_bouldering_036_8 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[92/100] uniandes_bouldering_027_52 (GT=Novice)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[93/100] uniandes_bouldering_029_75 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[94/100] uniandes_bouldering_034_69 (GT=Early Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[95/100] uniandes_bouldering_036_26 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[96/100] uniandes_bouldering_032_30 (GT=Intermediate Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[97/100] uniandes_bouldering_029_34 (GT=Intermediate Expert)
+  exo ERROR: unsupported operand type(s) for *: 'NoneType' and 'float'
+  exo: Unknown X | ERROR
+  ego ERROR: unsupported operand type(s) for *: 'NoneType' and 'float'
+  ego: Unknown X | ERROR
+
+[98/100] uniandes_bouldering_037_19 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[99/100] uniandes_bouldering_036_16 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+[100/100] uniandes_bouldering_030_62 (GT=Late Expert)
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  exo: Unknown X | ...
+    WARNING: prompt is 4235 tokens, exceeds 4096 limit
+  ego: Unknown X | ...
+
+============================================================
+RESULTS — VideoLLaVA structured 16f TRIMMED (original prompt)
+============================================================
+  exo: 0/100 = 0.0%
+  ego: 0/100 = 0.0%
+
+Random chance: 25%
+
+Exo predictions: {'Unknown': 100}
+Ego predictions: {'Unknown': 100}
+============================================================

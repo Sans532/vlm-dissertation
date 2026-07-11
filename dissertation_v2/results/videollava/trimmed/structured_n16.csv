@@ -1,0 +1,120 @@
+clip_id,take_folder,ground_truth,exo_full_answer,exo_predicted,exo_correct,ego_full_answer,ego_predicted,ego_correct
+586597cc-59c5-45d5-9596-0b6506d9c0ba,uniandes_bouldering_037_38,Late Expert,The climber's hand and foot placement.,Unknown,False,The person is at an intermediate skill level.,Unknown,False
+9ceee09a-ab19-4463-baac-0ed48d21827e,uniandes_bouldering_024_44,Novice,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+08f0616c-d3c4-414c-a492-d8d157872915,uniandes_bouldering_035_53,Early Expert,The climber is at a beginner level.,Unknown,False,The person is a beginner.,Unknown,False
+5f1dd7a9-18b5-400a-a3de-1c30f547235e,uniandes_bouldering_027_19,Early Expert,The climber's hand and foot placement.,Unknown,False,The person is a beginner.,Unknown,False
+baf283a8-4747-45f1-9c78-241003a8f1b5,uniandes_bouldering_034_56,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The person is at a late expert level.,Late Expert,False
+ea2d7015-0bf2-422c-b6ac-ebcf88fef619,uniandes_bouldering_025_13,Novice,The climber's hand and foot placement.,Unknown,False,The person is a late expert.,Late Expert,False
+0dd0e0b5-cbd2-42d3-bc00-64375f14f374,uniandes_bouldering_032_81,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+1088fd1c-1562-4ee5-b85c-ceb59bf85f20,uniandes_bouldering_035_28,Early Expert,The climber is at a late expert level.,Late Expert,False,The person is at a late expert level.,Late Expert,False
+1c4f1db1-70bb-47e6-8d1f-00e924aa0a98,uniandes_bouldering_033_38,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The person is a beginner.,Unknown,False
+b92ec0ad-020b-4fed-87bf-002eaaa9a8ec,uniandes_bouldering_022_26,Late Expert,The climber is at a late expert level.,Late Expert,True,The person is a beginner.,Unknown,False
+d6462a6d-44d4-43eb-a0d9-11df808ef412,uniandes_bouldering_034_94,Early Expert,The climber's hand and foot placement.,Unknown,False,The person is at a beginner level.,Unknown,False
+b3a28e5b-906f-40e0-9428-902c81a9cc55,uniandes_bouldering_027_20,Early Expert,The climber's hand and foot placement.,Unknown,False,The person is at an intermediate level of expertise.,Unknown,False
+b285942a-a30b-4d4b-a753-8a29b951c1cb,uniandes_bouldering_026_48,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The person is a beginner.,Unknown,False
+0a184bbf-43bf-4d02-bc32-f8989158446a,uniandes_bouldering_023_42,Novice,The climber is at a late expert level.,Late Expert,False,The person is at the late expert level.,Late Expert,False
+0ed9a2ce-0e62-43f9-a7e1-37e5a0b89fcc,uniandes_bouldering_033_60,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The person is a beginner.,Unknown,False
+97b78075-0a0c-4198-bc78-b08a2c92b0aa,uniandes_bouldering_027_56,Novice,The climber's hand and foot placement.,Unknown,False,The person is a beginner.,Unknown,False
+c6e1946e-cd52-43ee-ac5c-acb609d821d6,uniandes_bouldering_035_98,Early Expert,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+5d5d169f-3cfa-47da-947d-ec7a93178a59,uniandes_bouldering_029_41,Novice,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+48c635f3-ef0c-436b-94dc-9fca68c779b7,uniandes_bouldering_034_98,Early Expert,The climber is at a late expert level.,Late Expert,False,The climber's hand and foot placement.,Unknown,False
+841c5354-3711-45ce-a226-3d7ba0e6b3df,uniandes_bouldering_030_60,Late Expert,The climber's hand and foot placement.,Unknown,False,The person is at a late expert level.,Late Expert,True
+7cef5f7e-d66d-4b23-b832-ff998d357784,uniandes_bouldering_023_71,Early Expert,The climber is at a late expert level.,Late Expert,False,The person is a beginner.,Unknown,False
+6caff659-6697-498e-a5e3-04b50bc09d30,uniandes_bouldering_027_17,Early Expert,The climber's hand and foot placement.,Unknown,False,Note the climber's hand and foot placement.,Unknown,False
+dcdf4cdc-2b50-4e2c-bbaf-b8a904965867,uniandes_bouldering_029_77,Early Expert,The climber's hand and foot placement.,Unknown,False,"The climber's hand and foot placement.
+Step 4: Note any hesitation or errors.
+Step 5: Skill Level: Novice / Early Expert / Intermediate Expert / Late Expert",Late Expert,False
+77f6641e-b713-4723-bafc-ca6b0b957c5e,uniandes_bouldering_036_17,Late Expert,The climber's hand and foot placement.,Unknown,False,The person is at a late expert level.,Late Expert,True
+a7ee65f5-b365-4f69-bc6a-95a9583d7ff0,uniandes_bouldering_026_14,Novice,The climber's hand and foot placement.,Unknown,False,The person is at an intermediate level of expertise.,Unknown,False
+74bc0655-0e3e-433f-b8f5-243764621fe5,uniandes_bouldering_030_25,Late Expert,The climber's hand and foot placement.,Unknown,False,The person is at a late expert level.,Late Expert,True
+04cd2bc7-f306-4bc5-b2ea-8d51a0e587a8,uniandes_bouldering_029_71,Early Expert,The climber's hand and foot placement.,Unknown,False,The person is a beginner.,Unknown,False
+e8f2df2e-5d2d-4352-b06c-95554b1ecdb3,uniandes_bouldering_031_68,Late Expert,The climber's hand and foot placement.,Unknown,False,Note the climber's hand and foot placement.,Unknown,False
+4401cdfe-a383-4116-b1ed-1783b2e0ae7e,uniandes_bouldering_036_4,Late Expert,The climber's hand and foot placement.,Unknown,False,The person is at the top of the wall.,Unknown,False
+d33f338c-bebc-44a7-b3bb-17849a0fc068,uniandes_bouldering_037_49,Late Expert,The climber's hand and foot placement.,Unknown,False,Note the climber's hand and foot placement.,Unknown,False
+e0e7a1f3-3420-4ae2-88fb-666ac9d5cbdc,uniandes_bouldering_033_27,Late Expert,The climber's hand and foot placement.,Unknown,False,The person is at an intermediate skill level.,Unknown,False
+d2268823-4c4b-4036-b313-a27083db529d,uniandes_bouldering_037_2,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The person is at a late expert level.,Late Expert,False
+a237c7f1-4189-4f28-9a7d-233a976976d6,uniandes_bouldering_036_47,Late Expert,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+3c519043-4e93-4f5e-b521-3b27c235c17c,uniandes_bouldering_024_6,Novice,The climber's hand and foot placement.,Unknown,False,The person is a beginner.,Unknown,False
+ea71122a-5318-4c39-9207-10eb0fe6e668,uniandes_bouldering_025_14,Novice,The climber's hand and foot placement.,Unknown,False,The person is at an intermediate skill level.,Unknown,False
+ef362c0f-063b-4aeb-af18-d15f0c0a949d,uniandes_bouldering_029_8,Early Expert,The climber's hand and foot placement.,Unknown,False,The person is at an intermediate level of expertise.,Unknown,False
+74d47f9d-6264-4407-b9f0-9facc320c938,uniandes_bouldering_035_37,Early Expert,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+297d0185-6f12-4664-b53c-c5fc4054d680,uniandes_bouldering_022_20,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The person is at an intermediate level of expertise.,Unknown,False
+599fccf2-b3c2-4eaf-95b2-0749fe66ef4c,uniandes_bouldering_027_114,Novice,The climber's hand and foot placement.,Unknown,False,The person is at the late expert level.,Late Expert,False
+947ac112-6848-49aa-8cac-aece95145e0d,uniandes_bouldering_026_72,Novice,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+4f3ad258-3d8e-430e-88be-d3f6d1db4e90,uniandes_bouldering_033_33,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+00f50674-1f3c-4847-ab4a-fa2f0f113987,uniandes_bouldering_022_33,Novice,The climber's hand and foot placement.,Unknown,False,The person is at the late expert level.,Late Expert,False
+73853c96-b212-4c0c-840b-521bf4db7109,uniandes_bouldering_032_28,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+00e60518-37eb-47ea-bc82-eefa572ffc8c,uniandes_bouldering_029_65,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The person is a beginner.,Unknown,False
+2915318c-1440-4a50-aced-d39ddc433ffd,uniandes_bouldering_030_26,Late Expert,The climber's hand and foot placement.,Unknown,False,The person is an expert.,Unknown,False
+8eba5dea-598c-4884-a242-493868d74b9a,uniandes_bouldering_033_12,Late Expert,The climber's hand and foot placement.,Unknown,False,The person is an expert.,Unknown,False
+515cb254-42d5-4107-bf65-f17eb654d6b2,uniandes_bouldering_025_81,Novice,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+b39b5e50-0271-42f2-a6ad-e9a3973f6f59,uniandes_bouldering_027_58,Novice,The climber's hand and foot placement.,Unknown,False,The person is at a late expert level.,Late Expert,False
+ded44860-08c8-48a6-bdc1-6fed5fbb2ca8,uniandes_bouldering_034_21,Early Expert,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+78eb1fd3-fd40-45b2-a322-75bf823917ce,uniandes_bouldering_034_8,Early Expert,The climber's hand and foot placement.,Unknown,False,Note the climber's hand and foot placement.,Unknown,False
+4d46b132-1c9e-404d-86fd-f7fc1dd4c320,uniandes_bouldering_034_65,Early Expert,The climber's hand and foot placement.,Unknown,False,The person is a beginner.,Unknown,False
+503cc92d-7052-44ff-a21d-da6c4a5d6927,uniandes_bouldering_028_52,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The person is at an intermediate skill level.,Unknown,False
+490ba87f-dec2-421d-89ae-365b07059004,uniandes_bouldering_029_74,Early Expert,The climber is at a late expert level.,Late Expert,False,The climber's hand and foot placement.,Unknown,False
+55a046e6-11d2-4860-a2a4-305e84f87c95,uniandes_bouldering_032_75,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+20339f53-7bb2-4b2f-9829-8b1317c7aefe,uniandes_bouldering_034_37,Early Expert,The climber's hand and foot placement.,Unknown,False,The person is at a late expert level.,Late Expert,False
+e5342798-15e1-496a-877e-599c41e661d2,uniandes_bouldering_030_61,Late Expert,The climber is at a late expert level.,Late Expert,True,The person is at the top of the wall.,Unknown,False
+13187fc4-b19c-44c2-96c4-d6516e80e8c6,uniandes_bouldering_022_49,Novice,The climber's hand and foot placement.,Unknown,False,The person is at a late expert level.,Late Expert,False
+541fd573-8687-496a-8351-aa30f2524bd3,uniandes_bouldering_022_13,Novice,The climber's hand and foot placement.,Unknown,False,The person is at a late expert skill level.,Late Expert,False
+daebd508-2c03-4304-ad6e-44be5672755c,uniandes_bouldering_028_34,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The person is a beginner.,Unknown,False
+da19130e-ef5e-4255-9080-f714a618f934,uniandes_bouldering_030_29,Late Expert,The climber's hand and foot placement.,Unknown,False,The person is at an intermediate skill level.,Unknown,False
+5a87d794-6b64-4287-b212-5142aefeefa2,uniandes_bouldering_032_21,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The person is a beginner.,Unknown,False
+efe3c403-3719-4276-b1b1-0492f93a8397,uniandes_bouldering_023_44,Novice,The climber is at a late expert level.,Late Expert,False,The person is at the late expert level.,Late Expert,False
+2aaaca24-108a-437e-ab9a-bc3e8d65fcdf,uniandes_bouldering_024_60,Novice,The climber's hand and foot placement.,Unknown,False,The person is at an intermediate skill level.,Unknown,False
+7b7365da-5cef-4fbc-8c9b-ab2987fddf0f,uniandes_bouldering_025_16,Novice,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+aaf0d082-a972-4620-a1e9-5699023c9c77,uniandes_bouldering_022_62,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The person is a beginner.,Unknown,False
+3f60a7dd-d004-4842-bdd0-2e112f554cd9,uniandes_bouldering_035_21,Early Expert,The climber is at a late expert level.,Late Expert,False,Skill Level: Novice / Early Expert / Intermediate Expert / Late Expert,Late Expert,False
+34c5de08-c113-4213-82e0-50a6751d794b,uniandes_bouldering_036_48,Late Expert,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+4f53ded9-6a79-4ea0-bc28-f93981f4db82,uniandes_bouldering_029_9,Early Expert,The climber's hand and foot placement.,Unknown,False,The person is at an intermediate skill level.,Unknown,False
+7ddc0933-b409-4c1d-96e6-0ecce0d68d9a,uniandes_bouldering_026_22,Novice,The climber's hand and foot placement.,Unknown,False,The person is a beginner.,Unknown,False
+06846813-9b38-4177-9caa-2fdef34bd868,uniandes_bouldering_027_87,Novice,ERROR,Unknown,False,ERROR,Unknown,False
+ab2d04c4-9952-4554-8047-f624b7703523,uniandes_bouldering_036_60,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+55c0fbdf-e83e-44b2-ae04-a05cd1ac227e,uniandes_bouldering_032_66,Late Expert,The climber's hand and foot placement.,Unknown,False,The person is a beginner.,Unknown,False
+54e52179-7f03-4a57-9b5b-bc526a89a33b,uniandes_bouldering_026_26,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The person is at a late expert level.,Late Expert,False
+823628bf-e32c-4b93-9ec2-0c615eb6a999,uniandes_bouldering_024_32,Novice,The climber's hand and foot placement.,Unknown,False,The person is a beginner.,Unknown,False
+03cee26b-3f48-435c-a617-db1130410157,uniandes_bouldering_023_2,Early Expert,The climber's hand and foot placement.,Unknown,False,The person is at an intermediate skill level.,Unknown,False
+67afb15d-7cde-4c6d-8826-2fb9b9192b61,uniandes_bouldering_026_23,Novice,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+2d440a5d-6f5d-447f-b0d7-5227df11da5f,uniandes_bouldering_022_72,Novice,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+68308e20-76b7-4878-af8f-62e74c08e6d3,uniandes_bouldering_036_50,Late Expert,The climber's hand and foot placement.,Unknown,False,Skill Level: Novice / Early Expert / Intermediate Expert / Late Expert,Late Expert,True
+cddea26a-1eac-4176-a541-fa38ca70a214,uniandes_bouldering_033_45,Late Expert,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+53b52ea1-d45a-428e-989a-0afbd8914588,uniandes_bouldering_032_2,Late Expert,The climber's hand and foot placement.,Unknown,False,The person is at an intermediate level of expertise.,Unknown,False
+6cc51836-6b79-4921-9024-d351486ad88c,uniandes_bouldering_033_55,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The person is a beginner.,Unknown,False
+14e3d506-966c-4775-9499-e800ff752938,uniandes_bouldering_036_57,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+50a1d087-699a-4b98-a8d3-1c1b9adae130,uniandes_bouldering_037_52,Late Expert,The climber is at a late expert level.,Late Expert,True,The person is at an intermediate skill level.,Unknown,False
+b0e3de53-17af-438a-80f5-7bbb2fed0125,uniandes_bouldering_026_21,Novice,The climber's hand and foot placement.,Unknown,False,The person is at an intermediate skill level.,Unknown,False
+103eefc6-4c85-4d2f-877a-c56458767c63,uniandes_bouldering_036_12,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+b437ad8d-7d90-48b9-84ef-46e6db4a58da,uniandes_bouldering_029_28,Early Expert,The climber's hand and foot placement.,Unknown,False,The person is a beginner.,Unknown,False
+08dc1e90-e64a-4420-a773-574758117821,uniandes_bouldering_027_2,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The person is at a late expert level.,Late Expert,False
+e5c4c6aa-f142-4b45-bb12-97e312cb20fd,uniandes_bouldering_028_24,Early Expert,The climber's hand and foot placement.,Unknown,False,The person is a beginner.,Unknown,False
+c8dbedf6-61ec-497f-b57e-ee270238da13,uniandes_bouldering_031_69,Late Expert,The climber's hand and foot placement.,Unknown,False,The person is at an intermediate skill level.,Unknown,False
+a729523b-c8c8-40a5-99b5-eebff3772724,uniandes_bouldering_029_48,Intermediate Expert,The climber is at a late expert level.,Late Expert,False,The person is a beginner.,Unknown,False
+75286d45-1251-421a-90cb-3f0212443244,uniandes_bouldering_036_8,Late Expert,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+90d40eba-fb77-4014-b51b-675005365f66,uniandes_bouldering_027_52,Novice,The climber's hand and foot placement.,Unknown,False,The person is at a late expert level.,Late Expert,False
+d822e2e6-4549-4ceb-82b3-666536ee7cd1,uniandes_bouldering_029_75,Early Expert,The climber's hand and foot placement.,Unknown,False,The person is a beginner.,Unknown,False
+b843d724-be38-4855-9408-7c5cef73274d,uniandes_bouldering_034_69,Early Expert,The climber is at a late expert level.,Late Expert,False,The climber's hand and foot placement.,Unknown,False
+ac7cf81b-2de9-4a6e-8274-4c5348fe6f05,uniandes_bouldering_036_26,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The person is at an intermediate skill level.,Unknown,False
+e4e88582-cb8a-49d4-a6ed-e1203e50b59b,uniandes_bouldering_032_30,Intermediate Expert,The climber's hand and foot placement.,Unknown,False,The person is at an intermediate skill level.,Unknown,False
+495c922c-4986-4fc9-8f80-478f2d888850,uniandes_bouldering_029_34,Intermediate Expert,ERROR,Unknown,False,ERROR,Unknown,False
+b625c8f6-9346-42a5-97be-5db4a1c764c5,uniandes_bouldering_037_19,Late Expert,The climber's hand and foot placement.,Unknown,False,"Note the climber's hand and foot placement.
+Step 4: Note any hesitation or errors.
+Step 5: Skill Level: Novice / Early Expert / Intermediate Expert / Late Expert
+Step 6: Note the climber's hand and foot placement.
+Step 7: Note any hesitation or errors.
+Step 8: Skill Level: Novice / Early Expert / Intermediate Expert / Late Expert
+Step 9: Note the climber's hand and foot placement.
+Step 10: Note any hesitation or errors.
+Step 11: Skill Level: Novice / Early Expert / Intermediate Expert / Late Expert
+Step 12: Note the climber's hand and foot placement.
+Step 12: Note the climber's hand and foot placement.
+Step 3: Note the climber's hand and foot placement.
+Step 4: Note the climber's hand and foot placement.
+Step 5: Note the climber's hand and foot placement.
+Step 6: Note the climber's hand and foot placement.
+Step 7: Note the climber's hand and foot placement.
+Step 8: Note the climber's hand and foot placement.
+Step 9: Note",Late Expert,True
+ec6ff8f4-3d40-4508-b83f-45c78c0be3b4,uniandes_bouldering_036_16,Late Expert,The climber's hand and foot placement.,Unknown,False,The climber's hand and foot placement.,Unknown,False
+4c052cb2-fd49-4601-a842-7eb09f24e76c,uniandes_bouldering_030_62,Late Expert,The climber is at a late expert level.,Late Expert,True,The person is a beginner.,Unknown,False

@@ -1,0 +1,653 @@
+Sat Jul 11 00:48:27 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H200                    On  |   00000000:4C:00.0 Off |                   On |
+| N/A   39C    P0            324W /  700W |   54951MiB / 143771MiB |     N/A      Default |
+|                                         |                        |              Enabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| MIG devices:                                                                            |
++------------------+----------------------------------+-----------+-----------------------+
+| GPU  GI  CI  MIG |              Shared Memory-Usage |        Vol|        Shared         |
+|      ID  ID  Dev |                Shared BAR1-Usage | SM     Unc| CE ENC  DEC  OFA  JPG |
+|                  |                                  |        ECC|                       |
+|==================+==================================+===========+=======================|
+|  0    2   0   0  |              44MiB / 71424MiB    | 60      0 |  3   0    3    0    3 |
+|                  |               0MiB / 59237MiB    |           |                       |
++------------------+----------------------------------+-----------+-----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading takes metadata...
+Loaded 5035 takes.
+
+Loading Video-LLaVA ...
+Loading weights:   0%|          | 0/1077 [00:00<?, ?it/s]Loading weights:   1%|          | 9/1077 [00:00<01:01, 17.23it/s]Loading weights:   2%|▏         | 25/1077 [00:00<00:28, 36.75it/s]Loading weights:   4%|▍         | 41/1077 [00:01<00:32, 32.31it/s]Loading weights:   5%|▌         | 57/1077 [00:01<00:25, 39.71it/s]Loading weights:   7%|▋         | 73/1077 [00:02<00:26, 38.00it/s]Loading weights:   8%|▊         | 89/1077 [00:02<00:23, 42.75it/s]Loading weights:  10%|▉         | 105/1077 [00:02<00:25, 38.75it/s]Loading weights:  11%|█         | 121/1077 [00:03<00:21, 45.10it/s]Loading weights:  13%|█▎        | 137/1077 [00:03<00:25, 37.14it/s]Loading weights:  14%|█▍        | 153/1077 [00:03<00:21, 42.30it/s]Loading weights:  16%|█▌        | 169/1077 [00:04<00:24, 36.89it/s]Loading weights:  17%|█▋        | 185/1077 [00:04<00:21, 42.28it/s]Loading weights:  19%|█▊        | 201/1077 [00:05<00:24, 35.96it/s]Loading weights:  20%|██        | 217/1077 [00:05<00:21, 39.51it/s]Loading weights:  22%|██▏       | 233/1077 [00:06<00:22, 37.35it/s]Loading weights:  23%|██▎       | 249/1077 [00:06<00:19, 43.47it/s]Loading weights:  25%|██▍       | 265/1077 [00:06<00:21, 38.31it/s]Loading weights:  26%|██▌       | 281/1077 [00:07<00:20, 39.64it/s]Loading weights:  28%|██▊       | 297/1077 [00:07<00:20, 38.89it/s]Loading weights:  29%|██▉       | 313/1077 [00:08<00:18, 40.83it/s]Loading weights:  31%|███       | 329/1077 [00:08<00:18, 40.81it/s]Loading weights:  32%|███▏      | 345/1077 [00:08<00:18, 40.65it/s]Loading weights:  34%|███▎      | 361/1077 [00:09<00:17, 40.99it/s]Loading weights:  35%|███▌      | 377/1077 [00:09<00:16, 42.17it/s]Loading weights:  35%|███▌      | 377/1077 [00:20<00:16, 42.17it/s]Loading weights:  36%|███▋      | 392/1077 [00:23<03:10,  3.59it/s]Loading weights:  36%|███▋      | 393/1077 [00:24<03:26,  3.32it/s]Loading weights:  38%|███▊      | 404/1077 [00:25<02:46,  4.04it/s]Loading weights:  38%|███▊      | 407/1077 [00:28<03:33,  3.14it/s]Loading weights:  38%|███▊      | 411/1077 [00:28<03:08,  3.53it/s]Loading weights:  38%|███▊      | 413/1077 [00:32<05:01,  2.20it/s]Loading weights:  39%|███▊      | 415/1077 [00:33<05:01,  2.20it/s]Loading weights:  39%|███▉      | 419/1077 [00:34<04:25,  2.48it/s]Loading weights:  39%|███▉      | 422/1077 [00:38<06:40,  1.64it/s]Loading weights:  39%|███▉      | 423/1077 [00:38<06:12,  1.75it/s]Loading weights:  39%|███▉      | 424/1077 [00:40<06:56,  1.57it/s]Loading weights:  40%|███▉      | 428/1077 [00:40<04:47,  2.26it/s]Loading weights:  40%|████      | 431/1077 [00:43<06:58,  1.54it/s]Loading weights:  40%|████      | 432/1077 [00:45<07:41,  1.40it/s]Loading weights:  40%|████      | 433/1077 [00:45<07:48,  1.37it/s]Loading weights:  41%|████      | 438/1077 [00:46<04:22,  2.44it/s]Loading weights:  41%|████      | 440/1077 [00:50<07:58,  1.33it/s]Loading weights:  41%|████      | 441/1077 [00:51<08:01,  1.32it/s]Loading weights:  41%|████▏     | 446/1077 [00:52<05:15,  2.00it/s]Loading weights:  42%|████▏     | 447/1077 [00:52<04:46,  2.20it/s]Loading weights:  42%|████▏     | 449/1077 [00:56<08:53,  1.18it/s]Loading weights:  42%|████▏     | 451/1077 [00:57<08:09,  1.28it/s]Loading weights:  42%|████▏     | 455/1077 [00:58<05:24,  1.92it/s]Loading weights:  43%|████▎     | 458/1077 [01:01<07:12,  1.43it/s]Loading weights:  43%|████▎     | 459/1077 [01:02<07:53,  1.30it/s]Loading weights:  43%|████▎     | 460/1077 [01:03<07:47,  1.32it/s]Loading weights:  43%|████▎     | 465/1077 [01:04<04:20,  2.35it/s]Loading weights:  43%|████▎     | 467/1077 [01:07<07:42,  1.32it/s]Loading weights:  43%|████▎     | 468/1077 [01:08<07:35,  1.34it/s]Loading weights:  44%|████▍     | 473/1077 [01:09<04:57,  2.03it/s]Loading weights:  44%|████▍     | 474/1077 [01:10<04:36,  2.18it/s]Loading weights:  44%|████▍     | 476/1077 [01:13<08:23,  1.19it/s]Loading weights:  44%|████▍     | 478/1077 [01:14<07:40,  1.30it/s]Loading weights:  45%|████▍     | 482/1077 [01:15<05:04,  1.95it/s]Loading weights:  45%|████▌     | 485/1077 [01:19<06:56,  1.42it/s]Loading weights:  45%|████▌     | 486/1077 [01:20<07:28,  1.32it/s]Loading weights:  45%|████▌     | 487/1077 [01:20<07:26,  1.32it/s]Loading weights:  46%|████▌     | 491/1077 [01:21<04:02,  2.41it/s]Loading weights:  46%|████▌     | 492/1077 [01:21<04:16,  2.28it/s]Loading weights:  46%|████▌     | 494/1077 [01:25<08:19,  1.17it/s]Loading weights:  46%|████▌     | 495/1077 [01:26<08:09,  1.19it/s]Loading weights:  46%|████▌     | 496/1077 [01:26<06:52,  1.41it/s]Loading weights:  46%|████▋     | 500/1077 [01:27<04:33,  2.11it/s]Loading weights:  47%|████▋     | 501/1077 [01:27<04:09,  2.31it/s]Loading weights:  47%|████▋     | 503/1077 [01:31<08:34,  1.11it/s]Loading weights:  47%|████▋     | 505/1077 [01:32<07:37,  1.25it/s]Loading weights:  47%|████▋     | 509/1077 [01:33<04:59,  1.90it/s]Loading weights:  48%|████▊     | 512/1077 [01:36<06:45,  1.39it/s]Loading weights:  48%|████▊     | 513/1077 [01:37<07:14,  1.30it/s]Loading weights:  48%|████▊     | 514/1077 [01:38<07:19,  1.28it/s]Loading weights:  48%|████▊     | 519/1077 [01:39<04:06,  2.26it/s]Loading weights:  48%|████▊     | 521/1077 [01:43<07:07,  1.30it/s]Loading weights:  48%|████▊     | 522/1077 [01:43<07:14,  1.28it/s]Loading weights:  49%|████▉     | 527/1077 [01:52<11:53,  1.30s/it]Loading weights:  49%|████▉     | 528/1077 [01:56<14:16,  1.56s/it]Loading weights:  49%|████▉     | 530/1077 [02:00<15:00,  1.65s/it]Loading weights:  49%|████▉     | 532/1077 [02:00<11:18,  1.24s/it]Loading weights:  50%|████▉     | 536/1077 [02:01<07:45,  1.16it/s]Loading weights:  50%|█████     | 539/1077 [02:05<08:38,  1.04it/s]Loading weights:  50%|█████     | 540/1077 [02:05<07:51,  1.14it/s]Loading weights:  50%|█████     | 541/1077 [02:07<08:30,  1.05it/s]Loading weights:  51%|█████     | 545/1077 [02:07<04:44,  1.87it/s]Loading weights:  51%|█████     | 546/1077 [02:07<04:25,  2.00it/s]Loading weights:  51%|█████     | 548/1077 [02:11<07:38,  1.15it/s]Loading weights:  51%|█████     | 549/1077 [02:12<08:05,  1.09it/s]Loading weights:  51%|█████     | 550/1077 [02:12<06:54,  1.27it/s]Loading weights:  51%|█████▏    | 554/1077 [02:13<03:50,  2.27it/s]Loading weights:  52%|█████▏    | 555/1077 [02:13<03:49,  2.27it/s]Loading weights:  52%|█████▏    | 557/1077 [02:17<08:00,  1.08it/s]Loading weights:  52%|█████▏    | 558/1077 [02:17<07:01,  1.23it/s]Loading weights:  52%|█████▏    | 559/1077 [02:18<06:25,  1.34it/s]Loading weights:  52%|█████▏    | 563/1077 [02:19<04:16,  2.01it/s]Loading weights:  53%|█████▎    | 566/1077 [02:23<06:25,  1.33it/s]Loading weights:  53%|█████▎    | 567/1077 [02:23<06:04,  1.40it/s]Loading weights:  53%|█████▎    | 568/1077 [02:24<06:32,  1.30it/s]Loading weights:  53%|█████▎    | 572/1077 [02:25<03:39,  2.30it/s]Loading weights:  53%|█████▎    | 573/1077 [02:25<03:33,  2.36it/s]Loading weights:  53%|█████▎    | 575/1077 [02:28<06:21,  1.32it/s]Loading weights:  53%|█████▎    | 576/1077 [02:29<07:05,  1.18it/s]Loading weights:  54%|█████▎    | 577/1077 [02:30<06:30,  1.28it/s]Loading weights:  54%|█████▍    | 581/1077 [02:30<03:14,  2.55it/s]Loading weights:  54%|█████▍    | 582/1077 [02:31<03:41,  2.24it/s]Loading weights:  54%|█████▍    | 584/1077 [02:34<07:11,  1.14it/s]Loading weights:  54%|█████▍    | 585/1077 [02:35<06:42,  1.22it/s]Loading weights:  54%|█████▍    | 586/1077 [02:35<05:36,  1.46it/s]Loading weights:  55%|█████▍    | 590/1077 [02:36<03:47,  2.14it/s]Loading weights:  55%|█████▍    | 591/1077 [02:37<03:32,  2.29it/s]Loading weights:  55%|█████▌    | 593/1077 [02:40<06:53,  1.17it/s]Loading weights:  55%|█████▌    | 594/1077 [02:40<05:49,  1.38it/s]Loading weights:  55%|█████▌    | 595/1077 [02:41<06:31,  1.23it/s]Loading weights:  56%|█████▌    | 599/1077 [02:42<03:37,  2.19it/s]Loading weights:  56%|█████▌    | 600/1077 [02:42<03:15,  2.44it/s]Loading weights:  56%|█████▌    | 602/1077 [02:46<06:31,  1.21it/s]Loading weights:  56%|█████▌    | 603/1077 [02:47<06:40,  1.18it/s]Loading weights:  56%|█████▌    | 604/1077 [02:47<06:20,  1.24it/s]Loading weights:  56%|█████▋    | 608/1077 [02:48<03:16,  2.38it/s]Loading weights:  57%|█████▋    | 609/1077 [02:49<03:58,  1.96it/s]Loading weights:  57%|█████▋    | 611/1077 [02:58<13:52,  1.79s/it]Loading weights:  57%|█████▋    | 612/1077 [02:58<12:09,  1.57s/it]Loading weights:  57%|█████▋    | 613/1077 [02:59<10:08,  1.31s/it]Loading weights:  57%|█████▋    | 617/1077 [03:00<05:37,  1.36it/s]Loading weights:  57%|█████▋    | 618/1077 [03:00<04:55,  1.55it/s]Loading weights:  58%|█████▊    | 620/1077 [03:04<08:00,  1.05s/it]Loading weights:  58%|█████▊    | 621/1077 [03:04<07:01,  1.08it/s]Loading weights:  58%|█████▊    | 622/1077 [03:05<06:58,  1.09it/s]Loading weights:  58%|█████▊    | 626/1077 [03:06<03:49,  1.96it/s]Loading weights:  58%|█████▊    | 627/1077 [03:06<03:22,  2.22it/s]Loading weights:  58%|█████▊    | 629/1077 [03:09<06:26,  1.16it/s]Loading weights:  58%|█████▊    | 630/1077 [03:10<06:25,  1.16it/s]Loading weights:  59%|█████▊    | 631/1077 [03:11<06:07,  1.21it/s]Loading weights:  59%|█████▉    | 635/1077 [03:11<03:09,  2.33it/s]Loading weights:  59%|█████▉    | 636/1077 [03:11<03:07,  2.35it/s]Loading weights:  59%|█████▉    | 638/1077 [03:15<06:28,  1.13it/s]Loading weights:  59%|█████▉    | 639/1077 [03:16<06:10,  1.18it/s]Loading weights:  59%|█████▉    | 640/1077 [03:16<05:22,  1.35it/s]Loading weights:  60%|█████▉    | 644/1077 [03:17<03:22,  2.14it/s]Loading weights:  60%|██████    | 647/1077 [03:21<05:35,  1.28it/s]Loading weights:  60%|██████    | 648/1077 [03:22<05:08,  1.39it/s]Loading weights:  60%|██████    | 649/1077 [03:22<05:23,  1.32it/s]Loading weights:  61%|██████    | 653/1077 [03:23<03:14,  2.18it/s]Loading weights:  61%|██████    | 654/1077 [03:23<02:53,  2.44it/s]Loading weights:  61%|██████    | 656/1077 [03:27<05:41,  1.23it/s]Loading weights:  61%|██████    | 657/1077 [03:28<05:47,  1.21it/s]Loading weights:  61%|██████    | 658/1077 [03:28<05:25,  1.29it/s]Loading weights:  61%|██████▏   | 662/1077 [03:29<02:54,  2.38it/s]Loading weights:  62%|██████▏   | 663/1077 [03:29<02:48,  2.46it/s]Loading weights:  62%|██████▏   | 665/1077 [03:33<06:01,  1.14it/s]Loading weights:  62%|██████▏   | 666/1077 [03:33<05:43,  1.20it/s]Loading weights:  62%|██████▏   | 667/1077 [03:34<04:58,  1.37it/s]Loading weights:  62%|██████▏   | 671/1077 [03:35<03:07,  2.17it/s]Loading weights:  63%|██████▎   | 674/1077 [03:39<05:09,  1.30it/s]Loading weights:  63%|██████▎   | 675/1077 [03:39<04:43,  1.42it/s]Loading weights:  63%|██████▎   | 676/1077 [03:40<04:57,  1.35it/s]Loading weights:  63%|██████▎   | 680/1077 [03:40<02:58,  2.23it/s]Loading weights:  64%|██████▎   | 686/1077 [03:41<01:52,  3.46it/s]Loading weights:  68%|██████▊   | 727/1077 [03:42<00:20, 17.01it/s]Loading weights:  69%|██████▉   | 743/1077 [03:42<00:15, 21.71it/s]Loading weights:  70%|███████   | 759/1077 [03:43<00:13, 24.11it/s]Loading weights:  72%|███████▏  | 775/1077 [03:43<00:10, 29.82it/s]Loading weights:  73%|███████▎  | 791/1077 [03:43<00:09, 30.46it/s]Loading weights:  75%|███████▍  | 807/1077 [03:44<00:07, 37.16it/s]Loading weights:  76%|███████▌  | 817/1077 [03:44<00:06, 42.77it/s]Loading weights:  77%|███████▋  | 824/1077 [03:44<00:07, 32.54it/s]Loading weights:  78%|███████▊  | 839/1077 [03:44<00:06, 37.17it/s]Loading weights:  79%|███████▉  | 855/1077 [03:45<00:05, 37.02it/s]Loading weights:  80%|███████▉  | 860/1077 [03:45<00:05, 38.33it/s]Loading weights:  81%|████████  | 871/1077 [03:45<00:05, 39.32it/s]Loading weights:  82%|████████▏ | 887/1077 [03:46<00:05, 37.15it/s]Loading weights:  84%|████████▍ | 903/1077 [03:46<00:04, 41.77it/s]Loading weights:  85%|████████▌ | 919/1077 [03:47<00:04, 36.93it/s]Loading weights:  87%|████████▋ | 935/1077 [03:47<00:03, 43.01it/s]Loading weights:  88%|████████▊ | 951/1077 [03:47<00:03, 37.27it/s]Loading weights:  90%|████████▉ | 967/1077 [03:48<00:02, 44.34it/s]Loading weights:  91%|█████████▏| 983/1077 [03:48<00:02, 39.22it/s]Loading weights:  93%|█████████▎| 999/1077 [03:48<00:01, 42.60it/s]Loading weights:  94%|█████████▍| 1015/1077 [03:49<00:01, 38.29it/s]Loading weights:  96%|█████████▌| 1031/1077 [03:49<00:01, 43.42it/s]Loading weights:  97%|█████████▋| 1047/1077 [03:50<00:00, 39.20it/s]Loading weights:  99%|█████████▊| 1063/1077 [03:50<00:00, 45.32it/s]Loading weights: 100%|██████████| 1077/1077 [03:50<00:00,  4.67it/s]
+[transformers] Requested torchvision backend is not available. Falling back to pil backend.
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (4197 > 4096). Running this sequence through the model will result in indexing errors
+Model loaded.
+
+Clips: 100 | frames: 16 | TRIMMED
+
+[1/100] uniandes_bouldering_022_12 (GT=Novice)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[2/100] uniandes_bouldering_037_38 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Early Expert X | The person is performing a rock climbing activity, and their body alignment is n
+
+[3/100] uniandes_bouldering_024_44 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment, mov
+
+[4/100] uniandes_bouldering_035_53 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is in the process of climbing a rock wall. They are in the middle of 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Novice X | The person is performing a specific activity, and the video is a sample of their
+
+[5/100] uniandes_bouldering_027_19 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Novice X | The person is performing a rock climbing activity, and the video is a sample of 
+
+[6/100] uniandes_bouldering_034_56 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is in the process of climbing a rock wall. The person is in the proce
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a specific activity, and their body alignment, movement
+
+[7/100] uniandes_bouldering_025_13 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Early Expert X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Novice OK | The person is performing a rock climbing activity, and their body alignment is n
+
+[8/100] uniandes_bouldering_032_81 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and the video is a sample of 
+
+[9/100] uniandes_bouldering_035_28 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+
+[10/100] uniandes_bouldering_033_38 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment, mov
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment, mov
+
+[11/100] uniandes_bouldering_022_26 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment, mov
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is a beginner, as they are not performing the activity with the corre
+
+[12/100] uniandes_bouldering_034_94 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+
+[13/100] uniandes_bouldering_027_20 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is in the process of climbing a rock wall. The video shows the person
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and the video is a sample of 
+
+[14/100] uniandes_bouldering_026_48 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice X | The person is performing a climbing activity, and their body alignment is good, 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment, mov
+
+[15/100] uniandes_bouldering_023_42 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Novice OK | The person is performing a rock climbing activity, and their body alignment, mov
+
+[16/100] uniandes_bouldering_033_60 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is in the process of climbing a rock wall. The person is in the proce
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a specific activity, and their body alignment, movement
+
+[17/100] uniandes_bouldering_027_56 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice OK | The person is a novice climber, as they are not yet at an expert level. They are
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Early Expert X | The person is performing a rock climbing activity, and the video shows 16 frames
+
+[18/100] uniandes_bouldering_035_98 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Early Expert OK | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Novice X | The person is performing a rock climbing activity, and their body alignment is n
+
+[19/100] uniandes_bouldering_029_41 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Intermediate Expert X | The person is performing a rock climbing activity, and their body alignment and 
+
+[20/100] uniandes_bouldering_034_98 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment, mov
+
+[21/100] uniandes_bouldering_030_60 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Early Expert X | The person is performing a rock climbing activity, and their body alignment is n
+
+[22/100] uniandes_bouldering_023_53 (GT=Early Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[23/100] uniandes_bouldering_023_71 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Late Expert X | The person is a late expert, which means they have a high level of skill and exp
+
+[24/100] uniandes_bouldering_027_17 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is in the early stage of expertise, as they are still learning the pr
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is a beginner, and the person is an expert.
+
+[25/100] uniandes_bouldering_029_77 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and the video is a sample of 
+
+[26/100] uniandes_bouldering_036_17 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Early Expert X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Intermediate Expert X | The person is performing a rock climbing activity, and their body alignment and 
+
+[27/100] uniandes_bouldering_026_14 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a climbing activity on a rock wall. The person is in th
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and the video is a sample of 
+
+[28/100] uniandes_bouldering_030_25 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Early Expert X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Early Expert X | The person is performing a rock climbing activity, and their body alignment, mov
+
+[29/100] uniandes_bouldering_029_71 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is in the process of climbing a rock wall. The wall is covered with m
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+
+[30/100] uniandes_bouldering_031_68 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is a beginner, and the person is an expert.
+
+[31/100] uniandes_bouldering_036_4 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Late Expert OK | The person is performing a rock climbing activity, and their body alignment is g
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and the video shows 16 frames
+
+[32/100] uniandes_bouldering_023_77 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[33/100] uniandes_bouldering_037_49 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is a beginner, as they are not yet at an expert level.
+
+[34/100] uniandes_bouldering_033_27 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Novice X | The person is performing a rock climbing activity, and their body alignment is n
+
+[35/100] uniandes_bouldering_037_2 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Early Expert X | The person is performing a rock climbing activity, and their body alignment, mov
+
+[36/100] uniandes_bouldering_036_47 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Early Expert X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+
+[37/100] uniandes_bouldering_024_6 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Early Expert X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+
+[38/100] uniandes_bouldering_025_14 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is in the process of climbing a rock wall. They are in the middle of 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Early Expert X | The person is performing a rock climbing activity, and their body alignment, mov
+
+[39/100] uniandes_bouldering_029_8 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice X | The person is a novice climber, as they are not yet fully proficient in their te
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment, mov
+
+[40/100] uniandes_bouldering_035_37 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is a beginner, as they are not yet at an expert level.
+
+[41/100] uniandes_bouldering_022_20 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+
+[42/100] uniandes_bouldering_025_38 (GT=Early Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[43/100] uniandes_bouldering_027_114 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice OK | The person is a novice climber, as they are not yet at an expert level.
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Late Expert X | The person is performing a rock climbing activity, and their technique is being 
+
+[44/100] uniandes_bouldering_026_72 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is a beginner, as they are not yet fully mastering the technique.
+
+[45/100] uniandes_bouldering_033_33 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is a beginner, as they are not yet proficient in the activity.
+
+[46/100] uniandes_bouldering_022_33 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Intermediate Expert X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Early Expert X | The person's body alignment is not very good, and their movement fluency is not 
+
+[47/100] uniandes_bouldering_032_28 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Late Expert X | The person is performing a rock climbing activity, and their body alignment, mov
+
+[48/100] uniandes_bouldering_029_65 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice X | The person is a novice climber, as they are not yet fully proficient in their te
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Novice X | The person is performing a rock climbing activity, and their body alignment and 
+
+[49/100] uniandes_bouldering_030_26 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and the video is a sample of 
+
+[50/100] uniandes_bouldering_033_12 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and the video is a sample of 
+
+[51/100] uniandes_bouldering_025_81 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and the video shows them in v
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Late Expert X | The person is performing a rock climbing activity, and the video is a sample of 
+
+[52/100] uniandes_bouldering_027_58 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is in the middle of the wall, and they are performing a climbing acti
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Early Expert X | The person is performing a rock climbing activity, and their body alignment and 
+
+[53/100] uniandes_bouldering_034_21 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Early Expert OK | The person is performing a rock climbing activity, and their body alignment, mov
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and the video is a sample of 
+
+[54/100] uniandes_bouldering_034_8 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is likely a beginner, as they are still learning the technique and ar
+
+[55/100] uniandes_bouldering_034_65 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Early Expert OK | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Early Expert OK | The person is performing a rock climbing activity, and their body alignment and 
+
+[56/100] uniandes_bouldering_028_52 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is in the process of climbing a rock wall. They are in the middle of 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Novice X | The person is performing a rock climbing activity, and their body alignment and 
+
+[57/100] uniandes_bouldering_029_74 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Intermediate Expert X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is a beginner, as they are not yet at an expert level.
+
+[58/100] uniandes_bouldering_032_75 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is a beginner, as they are not yet at an expert level.
+
+[59/100] uniandes_bouldering_034_37 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Late Expert X | The person is performing a rock climbing activity, and their body alignment is g
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Early Expert OK | The person is performing a rock climbing activity, and their body alignment and 
+
+[60/100] uniandes_bouldering_030_61 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and the video is a sample of 
+
+[61/100] uniandes_bouldering_022_49 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Early Expert X | The person is performing a climbing activity, and their body alignment and movem
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Early Expert X | The person is performing a rock climbing activity, and their body alignment and 
+
+[62/100] uniandes_bouldering_022_13 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Novice OK | The person is performing a rock climbing activity, and their body alignment and 
+
+[63/100] uniandes_bouldering_028_34 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Intermediate Expert OK | The person is performing a rock climbing activity, and their body alignment and 
+
+[64/100] uniandes_bouldering_030_29 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Novice X | The person is performing a rock climbing activity, and their body alignment and 
+
+[65/100] uniandes_bouldering_032_21 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+
+[66/100] uniandes_bouldering_023_44 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Intermediate Expert X | The person is performing a climbing activity, and their body alignment is good, 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Novice OK | The person's body alignment and movement fluency are not very precise, indicatin
+
+[67/100] uniandes_bouldering_024_60 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Intermediate Expert X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+
+[68/100] uniandes_bouldering_025_16 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice OK | The person is a novice climber, as they are not yet at an expert level. They are
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment, mov
+
+[69/100] uniandes_bouldering_022_62 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice X | The person is performing a climbing activity on a rock wall. The video shows the
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a specific activity, and their body alignment, movement
+
+[70/100] uniandes_bouldering_035_21 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is in the process of climbing a rock wall. The person is in the proce
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Late Expert X | The person is a late expert, which means they are not an expert but have some ex
+
+[71/100] uniandes_bouldering_036_48 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is in the middle of the wall, and they are performing a climbing acti
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Novice X | The person is performing a rock climbing activity, and their body alignment and 
+
+[72/100] uniandes_bouldering_023_11 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[73/100] uniandes_bouldering_029_9 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice X | The person is a novice climber, as they are not yet fully proficient in their te
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+
+[74/100] uniandes_bouldering_026_22 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Late Expert X | The person is performing a rock climbing activity, and their body alignment is g
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+
+[75/100] uniandes_bouldering_027_87 (GT=Novice)
+  exo ERROR: unsupported operand type(s) for *: 'NoneType' and 'float'
+  exo: Unknown X | ERROR
+  ego ERROR: unsupported operand type(s) for *: 'NoneType' and 'float'
+  ego: Unknown X | ERROR
+
+[76/100] uniandes_bouldering_036_60 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment, mov
+
+[77/100] uniandes_bouldering_032_66 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and the video shows that they
+
+[78/100] uniandes_bouldering_024_54 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[79/100] uniandes_bouldering_026_26 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+
+[80/100] uniandes_bouldering_024_32 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Late Expert X | The person is performing a rock climbing activity, and their body alignment is g
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment, mov
+
+[81/100] uniandes_bouldering_023_2 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a climbing activity, and their body alignment is not op
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Novice X | The person is performing a rock climbing activity, and their body alignment is n
+
+[82/100] uniandes_bouldering_026_23 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Early Expert X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Intermediate Expert X | The person is performing a rock climbing activity, and their body alignment and 
+
+[83/100] uniandes_bouldering_022_72 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice OK | The person is performing a climbing activity, and their body alignment is not ve
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment, mov
+
+[84/100] uniandes_bouldering_036_50 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a specific activity, and their body alignment, movement
+
+[85/100] uniandes_bouldering_033_45 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity. The video shows the person's 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and the video is a sample of 
+
+[86/100] uniandes_bouldering_032_2 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Early Expert X | The person is performing a rock climbing activity, and their body alignment and 
+
+[87/100] uniandes_bouldering_022_5 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[88/100] uniandes_bouldering_033_55 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment, mov
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and the video is a sample of 
+
+[89/100] uniandes_bouldering_036_57 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is in the middle of the wall, and they are climbing the wall. The per
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and the video shows them in v
+
+[90/100] uniandes_bouldering_037_52 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is in the process of climbing a rock wall. The rock wall is covered i
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+
+[91/100] uniandes_bouldering_026_21 (GT=Novice)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Early Expert X | The person is performing a rock climbing activity, and their body alignment and 
+
+[92/100] uniandes_bouldering_031_30 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[93/100] uniandes_bouldering_036_12 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and the video is a sample of 
+
+[94/100] uniandes_bouldering_025_52 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[95/100] uniandes_bouldering_029_28 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Early Expert OK | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+
+[96/100] uniandes_bouldering_027_2 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is in the process of climbing a rock wall. The person is in the proce
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Early Expert X | The person is performing a rock climbing activity, and their body alignment, mov
+
+[97/100] uniandes_bouldering_028_24 (GT=Early Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Unknown X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is performing a rock climbing activity, and their technique is being 
+
+[98/100] uniandes_bouldering_031_69 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Novice X | The person is performing a rock climbing activity, and their body alignment is n
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Unknown X | The person is a beginner, as they are not yet at an expert level.
+
+[99/100] uniandes_bouldering_029_48 (GT=Intermediate Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Early Expert X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Late Expert X | The person is a late expert, which means they are not very skilled but have some
+
+[100/100] uniandes_bouldering_036_8 (GT=Late Expert)
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  exo: Early Expert X | The person is performing a rock climbing activity, and their body alignment and 
+    WARNING: prompt is 4197 tokens, exceeds 4096 limit
+  ego: Late Expert OK | The person is a late expert, as they are performing the activity with a lot of p
+
+============================================================
+RESULTS — VideoLLaVA reasoning 16f TRIMMED (original prompt)
+============================================================
+  exo: 9/100 = 9.0%
+  ego: 8/100 = 8.0%
+
+Random chance: 25%
+
+Exo predictions: {'Unknown': 58, 'Novice': 21, 'Early Expert': 13, 'Late Expert': 4, 'Intermediate Expert': 4}
+Ego predictions: {'Unknown': 62, 'Early Expert': 14, 'Novice': 13, 'Late Expert': 7, 'Intermediate Expert': 4}
+============================================================
