@@ -1,0 +1,449 @@
+Sun Jul 12 18:05:51 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H200                    On  |   00000000:4C:00.0 Off |                   On |
+| N/A   25C    P0            123W /  700W |   16161MiB / 143771MiB |     N/A      Default |
+|                                         |                        |              Enabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| MIG devices:                                                                            |
++------------------+----------------------------------+-----------+-----------------------+
+| GPU  GI  CI  MIG |              Shared Memory-Usage |        Vol|        Shared         |
+|      ID  ID  Dev |                Shared BAR1-Usage | SM     Unc| CE ENC  DEC  OFA  JPG |
+|                  |                                  |        ECC|                       |
+|==================+==================================+===========+=======================|
+|  0    2   0   0  |              44MiB / 71424MiB    | 60      0 |  3   0    3    0    3 |
+|                  |               0MiB / 59237MiB    |           |                       |
++------------------+----------------------------------+-----------+-----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading takes metadata...
+Loaded 5035 takes.
+
+Loading Qwen2.5-VL-7B ...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:01<13:58,  1.15s/it]Loading weights:   0%|          | 2/729 [00:01<06:44,  1.80it/s]Loading weights:   5%|▌         | 40/729 [00:01<00:15, 44.78it/s]Loading weights:   7%|▋         | 52/729 [00:01<00:13, 50.30it/s]Loading weights:   8%|▊         | 60/729 [00:01<00:13, 50.95it/s]Loading weights:  10%|█         | 76/729 [00:02<00:12, 51.12it/s]Loading weights:  12%|█▏        | 89/729 [00:02<00:10, 62.96it/s]Loading weights:  14%|█▎        | 100/729 [00:02<00:11, 56.68it/s]Loading weights:  15%|█▌        | 112/729 [00:02<00:09, 66.97it/s]Loading weights:  17%|█▋        | 124/729 [00:02<00:10, 57.91it/s]Loading weights:  19%|█▊        | 136/729 [00:02<00:08, 67.49it/s]Loading weights:  20%|█▉        | 145/729 [00:03<00:09, 64.87it/s]Loading weights:  22%|██▏       | 160/729 [00:03<00:09, 58.39it/s]Loading weights:  24%|██▎       | 172/729 [00:03<00:08, 68.18it/s]Loading weights:  25%|██▍       | 181/729 [00:03<00:08, 67.32it/s]Loading weights:  26%|██▌       | 189/729 [00:03<00:08, 64.55it/s]Loading weights:  27%|██▋       | 197/729 [00:03<00:08, 60.06it/s]Loading weights:  29%|██▊       | 208/729 [00:04<00:08, 59.62it/s]Loading weights:  30%|███       | 220/729 [00:04<00:07, 68.72it/s]Loading weights:  32%|███▏      | 232/729 [00:05<00:20, 24.11it/s]Loading weights:  33%|███▎      | 238/729 [00:12<02:06,  3.89it/s]Loading weights:  33%|███▎      | 244/729 [00:27<05:57,  1.36it/s]Loading weights:  34%|███▎      | 245/729 [00:31<07:12,  1.12it/s]Loading weights:  34%|███▍      | 248/729 [00:32<06:33,  1.22it/s]Loading weights:  35%|███▌      | 256/729 [00:38<06:14,  1.26it/s]Loading weights:  35%|███▌      | 258/729 [00:46<08:59,  1.15s/it]Loading weights:  37%|███▋      | 268/729 [00:53<07:14,  1.06it/s]Loading weights:  37%|███▋      | 270/729 [00:55<07:05,  1.08it/s]Loading weights:  38%|███▊      | 280/729 [01:09<08:33,  1.14s/it]Loading weights:  39%|███▊      | 281/729 [01:10<08:53,  1.19s/it]Loading weights:  40%|████      | 292/729 [01:28<09:58,  1.37s/it]Loading weights:  40%|████      | 293/729 [01:29<10:10,  1.40s/it]Loading weights:  40%|████      | 294/729 [01:30<09:50,  1.36s/it]Loading weights:  42%|████▏     | 304/729 [01:33<05:41,  1.24it/s]Loading weights:  42%|████▏     | 305/729 [01:35<06:18,  1.12it/s]Loading weights:  42%|████▏     | 306/729 [01:38<07:37,  1.08s/it]Loading weights:  43%|████▎     | 316/729 [01:49<07:11,  1.04s/it]Loading weights:  43%|████▎     | 317/729 [01:49<06:42,  1.02it/s]Loading weights:  44%|████▎     | 318/729 [01:54<09:24,  1.37s/it]Loading weights:  45%|████▍     | 328/729 [02:01<06:32,  1.02it/s]Loading weights:  45%|████▌     | 329/729 [02:01<06:10,  1.08it/s]Loading weights:  49%|████▊     | 355/729 [02:01<01:31,  4.07it/s]Loading weights:  50%|████▉     | 361/729 [02:03<01:28,  4.15it/s]Loading weights:  52%|█████▏    | 379/729 [02:03<00:48,  7.25it/s]Loading weights:  53%|█████▎    | 385/729 [02:03<00:41,  8.27it/s]Loading weights:  54%|█████▎    | 391/729 [02:04<00:38,  8.84it/s]Loading weights:  54%|█████▍    | 397/729 [02:04<00:30, 10.78it/s]Loading weights:  55%|█████▌    | 403/729 [02:04<00:27, 11.73it/s]Loading weights:  56%|█████▌    | 406/729 [02:04<00:25, 12.83it/s]Loading weights:  56%|█████▌    | 409/729 [02:05<00:28, 11.09it/s]Loading weights:  57%|█████▋    | 415/729 [02:05<00:21, 14.57it/s]Loading weights:  57%|█████▋    | 419/729 [02:05<00:23, 13.12it/s]Loading weights:  59%|█████▊    | 427/729 [02:05<00:18, 16.52it/s]Loading weights:  59%|█████▉    | 431/729 [02:06<00:19, 14.98it/s]Loading weights:  59%|█████▉    | 433/729 [02:06<00:19, 14.87it/s]Loading weights:  60%|██████    | 439/729 [02:06<00:17, 16.76it/s]Loading weights:  60%|██████    | 441/729 [02:06<00:16, 16.94it/s]Loading weights:  61%|██████    | 445/729 [02:07<00:15, 18.01it/s]Loading weights:  62%|██████▏   | 451/729 [02:07<00:18, 14.95it/s]Loading weights:  63%|██████▎   | 457/729 [02:07<00:13, 19.93it/s]Loading weights:  64%|██████▎   | 463/729 [02:08<00:16, 16.33it/s]Loading weights:  64%|██████▍   | 469/729 [02:08<00:12, 20.97it/s]Loading weights:  65%|██████▌   | 475/729 [02:08<00:14, 17.47it/s]Loading weights:  66%|██████▌   | 479/729 [02:09<00:16, 14.89it/s]Loading weights:  67%|██████▋   | 487/729 [02:09<00:16, 14.24it/s]Loading weights:  68%|██████▊   | 497/729 [02:09<00:10, 21.17it/s]Loading weights:  69%|██████▊   | 501/729 [02:10<00:19, 11.41it/s]Loading weights:  70%|███████   | 511/729 [02:11<00:17, 12.58it/s]Loading weights:  72%|███████▏  | 523/729 [02:12<00:12, 16.01it/s]Loading weights:  72%|███████▏  | 526/729 [02:12<00:13, 15.41it/s]Loading weights:  73%|███████▎  | 535/729 [02:12<00:12, 15.75it/s]Loading weights:  74%|███████▍  | 541/729 [02:12<00:09, 18.83it/s]Loading weights:  75%|███████▌  | 547/729 [02:13<00:11, 15.75it/s]Loading weights:  75%|███████▌  | 550/729 [02:13<00:10, 16.57it/s]Loading weights:  77%|███████▋  | 559/729 [02:14<00:10, 16.52it/s]Loading weights:  78%|███████▊  | 565/729 [02:14<00:08, 19.44it/s]Loading weights:  78%|███████▊  | 571/729 [02:14<00:09, 16.45it/s]Loading weights:  79%|███████▉  | 575/729 [02:15<00:08, 17.26it/s]Loading weights:  80%|███████▉  | 583/729 [02:15<00:08, 17.70it/s]Loading weights:  81%|████████  | 589/729 [02:15<00:06, 20.64it/s]Loading weights:  82%|████████▏ | 595/729 [02:16<00:08, 16.59it/s]Loading weights:  82%|████████▏ | 599/729 [02:16<00:07, 17.86it/s]Loading weights:  83%|████████▎ | 607/729 [02:16<00:07, 17.26it/s]Loading weights:  84%|████████▎ | 610/729 [02:17<00:09, 12.35it/s]Loading weights:  84%|████████▍ | 612/729 [02:17<00:09, 12.96it/s]Loading weights:  84%|████████▍ | 614/729 [02:17<00:08, 12.83it/s]Loading weights:  85%|████████▍ | 619/729 [02:17<00:07, 14.45it/s]Loading weights:  86%|████████▌ | 625/729 [02:18<00:05, 17.53it/s]Loading weights:  87%|████████▋ | 631/729 [02:18<00:06, 15.53it/s]Loading weights:  87%|████████▋ | 635/729 [02:18<00:05, 17.53it/s]Loading weights:  88%|████████▊ | 643/729 [02:19<00:05, 16.71it/s]Loading weights:  89%|████████▉ | 647/729 [02:19<00:04, 18.57it/s]Loading weights:  90%|████████▉ | 655/729 [02:19<00:03, 18.70it/s]Loading weights:  90%|█████████ | 658/729 [02:20<00:04, 17.13it/s]Loading weights:  91%|█████████▏| 667/729 [02:20<00:03, 18.14it/s]Loading weights:  92%|█████████▏| 671/729 [02:20<00:02, 19.65it/s]Loading weights:  92%|█████████▏| 674/729 [02:20<00:02, 20.91it/s]Loading weights:  93%|█████████▎| 679/729 [02:21<00:03, 14.81it/s]Loading weights:  94%|█████████▎| 683/729 [02:21<00:02, 17.27it/s]Loading weights:  95%|█████████▍| 691/729 [02:21<00:02, 17.63it/s]Loading weights:  95%|█████████▌| 694/729 [02:22<00:01, 18.24it/s]Loading weights:  96%|█████████▌| 697/729 [02:22<00:01, 18.80it/s]Loading weights:  96%|█████████▋| 703/729 [02:22<00:01, 15.56it/s]Loading weights:  97%|█████████▋| 709/729 [02:22<00:01, 19.31it/s]Loading weights:  98%|█████████▊| 715/729 [02:23<00:00, 17.55it/s]Loading weights:  99%|█████████▊| 719/729 [02:23<00:00, 18.34it/s]Loading weights: 100%|█████████▉| 726/729 [02:26<00:00,  4.60it/s]Loading weights: 100%|██████████| 729/729 [02:26<00:00,  4.96it/s]
+Model loaded.
+
+Clips: 100 | frames: 8 | TRIMMED | Dance
+
+[1/100] upenn_0730_Dance_1_7 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is standing with his feet apart, arms at his sides, and
+  ego: Intermediate Expert OK | Observations: The person is dancing in an office space with desks, chairs, and a
+
+[2/100] uniandes_dance_017_3 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a backdrop that says "Ile." 
+  ego: Novice OK | Observations: The person is dancing in a room with a black curtain. They are wea
+
+[3/100] uniandes_dance_023_26 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a backdrop that says "Le Yog
+  ego: Novice X | Observations: A man is dancing in front of a black curtain. He is wearing a whit
+
+[4/100] uniandes_dance_008_51 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The woman is dancing in a studio with a man filming her. She is we
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain in the backgr
+
+[5/100] uniandes_dance_022_3 (GT=Novice)
+  exo: Novice OK | Observations: The person is standing with his feet apart, facing forward. He is 
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a black curtain in the backgr
+
+[6/100] upenn_0629_Dance_3_6 (GT=Early Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a wooden floor, wearing a pla
+  ego: Novice X | Observations: The person is dancing in a room with a wooden floor. They are wear
+
+[7/100] uniandes_dance_015_22 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a white floor and a red wall
+  ego: Intermediate Expert X | Observations: The man X dances in the room.  Errors: N/A  Skill Level: Intermedi
+
+[8/100] uniandes_dance_016_43 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The person is dancing in a studio with a backdrop that says "Ile."
+  ego: Novice OK | Observations: The person is dancing in front of a black curtain with white dots 
+
+[9/100] uniandes_dance_022_11 (GT=Novice)
+  exo: Novice OK | Observations: The person is dancing in a studio with a backdrop that says "1Lè".
+  ego: Novice OK | Observations: The person is dancing in a room with a black curtain in the backgr
+
+[10/100] uniandes_dance_013_7 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The man is dancing in a room with a white floor and a white wall. 
+  ego: Novice X | Observations: The person is dancing in a room with a wooden floor and black curt
+
+[11/100] uniandes_dance_008_11 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a man filming her. She is we
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain and a tripod.
+
+[12/100] uniandes_dance_023_51 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The man is dancing in a studio with a backdrop that says "Le Sport
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain. They are wea
+
+[13/100] uniandes_dance_024_3 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The man X dances in the studio.  Errors: None.  Skill Level: Inter
+  ego: Novice OK | Observations: The person is dancing in front of a black curtain with white dots 
+
+[14/100] uniandes_dance_017_4 (GT=Novice)
+  exo: Novice OK | Observations: The woman is dancing in a studio with a backdrop that says "Ile." 
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains and a tripod. 
+
+[15/100] uniandes_dance_022_17 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a backdrop that says "Le Des
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain and a white f
+
+[16/100] uniandes_dance_017_6 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a backdrop that says "Ileo."
+  ego: Novice OK | Observations: The person is dancing in a studio with a black curtain backdrop. T
+
+[17/100] uniandes_dance_002_3 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a studio with a white floor and orange wa
+  ego: Novice X | Observations: The person is dancing in a room with a white wall and a black curt
+
+[18/100] uniandes_dance_002_13 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a man standing behind her. S
+  ego: Novice X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[19/100] uniandes_dance_020_28 (GT=Novice)
+  exo: Novice OK | Observations: The person is dancing in a studio with a backdrop. They are wearin
+  ego: Novice OK | Observations: The person is dancing in a room with a camera on a tripod. They ar
+
+[20/100] upenn_0629_Dance_2_2 (GT=Early Expert)
+  exo: Novice X | Observations: The person is standing with their feet apart, knees slightly bent,
+  ego: Novice X | Observations: The person is dancing in a room with a wooden floor, a table, a co
+
+[21/100] uniandes_dance_016_46 (GT=Novice)
+  exo: Novice OK | Observations: The person is dancing in a studio with a backdrop that says "Le". 
+  ego: Novice OK | Observations: The person is dancing in a room with a black curtain and a tripod.
+
+[22/100] uniandes_dance_019_7 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The woman is dancing in a studio with a backdrop that says "Le Des
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain and a tripod.
+
+[23/100] uniandes_dance_021_29 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The woman is dancing in a studio with a white floor and a black ba
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain and a tripod.
+
+[24/100] uniandes_dance_008_50 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The woman is dancing in a studio with a man filming her. She is we
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain in the backgr
+
+[25/100] uniandes_dance_021_19 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The man is dancing in a studio with a black backdrop. He is wearin
+  ego: Novice X | Observations: The person is dancing in a studio with a black backdrop. They are 
+
+[26/100] uniandes_dance_008_13 (GT=Late Expert)
+  exo: Late Expert OK | Observations: The woman is performing a dance routine that involves a series of 
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain and a tripod.
+
+[27/100] uniandes_dance_024_8 (GT=Novice)
+  exo: Novice OK | Observations: The man is dancing in a studio with a backdrop that says "Le Desig
+  ego: Novice OK | Observations: The person is dancing in a room with a black curtain and a white w
+
+[28/100] uniandes_dance_007_7 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The woman is dancing in a studio with a man filming her. She is we
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain and a tripod.
+
+[29/100] uniandes_dance_021_12 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a white floor and a black ba
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a black curtain and a white w
+
+[30/100] uniandes_dance_013_15 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a white floor and a red wall
+  ego: Intermediate Expert X | Observations: The man D dances in the room.  Errors: N/A  Skill Level: Intermedi
+
+[31/100] uniandes_dance_012_24 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The woman is dancing in a studio with a white floor and a window i
+  ego: Novice X | Observations: A man is sitting on a chair with a laptop on his lap. He is lookin
+
+[32/100] uniandes_dance_020_27 (GT=Novice)
+  exo: Novice OK | Observations: The person is dancing in a studio with a backdrop that says "Le". 
+  ego: Novice OK | Observations: The person is dancing in a room with a black curtain and a white f
+
+[33/100] upenn_0720_Dance_4_5 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a large room with a black floor and white 
+  ego: Novice X | Observations: The person is dancing in a large room with a high ceiling. They ar
+
+[34/100] uniandes_dance_019_20 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The person is performing a dance routine with fluid movements, tra
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain and a white f
+
+[35/100] uniandes_dance_016_8 (GT=Early Expert)
+  exo: Novice X | Observations: The person is dancing in a studio with a backdrop that says "Ile."
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain. They are wea
+
+[36/100] uniandes_dance_020_34 (GT=Late Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a white floor and a black bac
+  ego: Intermediate Expert X | Observations: The person is dancing in a studio with a black backdrop. They are 
+
+[37/100] uniandes_dance_013_22 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a white floor and walls. She
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains and a white fl
+
+[38/100] upenn_0706_Dance_4_3 (GT=Early Expert)
+  exo: Novice X | Observations: The man is dancing in a room with wooden floors and white walls. H
+  ego: Novice X | Observations: The man is dancing in a room with a chandelier and a ceiling fan. 
+
+[39/100] uniandes_dance_012_19 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The woman is dancing in a studio with a white floor and a window i
+  ego: Late Expert X | Observations: The person is dancing in front of a black backdrop with white dots
+
+[40/100] uniandes_dance_002_24 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a man filming her. She is we
+  ego: Intermediate Expert X | Observations: The man X dances in the room.  Errors: N/A  Skill Level: Intermedi
+
+[41/100] uniandes_dance_020_22 (GT=Novice)
+  exo: Novice OK | Observations: The person is dancing in a room with a white floor and a black cur
+  ego: Novice OK | Observations: The person is dancing in a room with a black curtain and a white f
+
+[42/100] uniandes_dance_019_6 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The woman is dancing in a studio with a backdrop that says "Le Dan
+  ego: Intermediate Expert OK | Observations: A man is dancing in a room with a white floor and black curtains. 
+
+[43/100] upenn_0720_Dance_3_7 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a spacious room with a high ceiling, weari
+  ego: Intermediate Expert X | Observations: The person is dancing in a large, open space with a high ceiling a
+
+[44/100] uniandes_dance_024_7 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The man is dancing in a studio with a backdrop that says "Le Desig
+  ego: Novice OK | Observations: The person is dancing in a room with a black curtain. They are wea
+
+[45/100] upenn_0727_Partner_Dance_2_1_4 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The woman steps forward with her left foot, then her right foot, a
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a wooden floor, wearing a pin
+
+[46/100] upenn_0720_Dance_3_11 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a spacious room with a high ceiling and la
+  ego: Novice X | Observations: The person is dancing in a large room with a high ceiling. They ar
+
+[47/100] uniandes_dance_012_25 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The woman is dancing in a studio with a white floor and a red wall
+  ego: Novice X | Observations: The person is standing in a room with a black curtain, a tripod, a
+
+[48/100] upenn_0730_Dance_2_5 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The person is performing a dance routine that involves a series of
+  ego: Novice X | Observations: The person is dancing in a room with desks, chairs, and a piano. T
+
+[49/100] uniandes_dance_008_8 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a mirror on the wall. She is
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain and a tripod.
+
+[50/100] uniandes_dance_019_58 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a backdrop that says "Le Dan
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain and a white f
+
+[51/100] uniandes_dance_011_29 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a studio with a white floor and a red wal
+  ego: Intermediate Expert X | Observations: The man X dances in the room.  Errors: N/A  Skill Level: Intermedi
+
+[52/100] uniandes_dance_016_45 (GT=Novice)
+  exo: Novice OK | Observations: The person is dancing in a studio with a backdrop that says "ILE."
+  ego: Novice OK | Observations: The person is dancing in a room with a black curtain. They are wea
+
+[53/100] uniandes_dance_011_43 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a white floor and red walls.
+  ego: Novice X | Observations: The person is dancing in front of a black curtain. They are wearin
+
+[54/100] upenn_0727_Partner_Dance_2_2_4 (GT=Early Expert)
+  exo: Unknown X | Observations: The woman steps forward with her left foot, then her right foot, a
+  ego: Novice X | Observations: The person is dancing in a room with wooden floors, chairs, and a 
+
+[55/100] uniandes_dance_016_44 (GT=Novice)
+  exo: Novice OK | Observations: The person is dancing in a studio with a backdrop that says "ILE."
+  ego: Novice OK | Observations: The person is dancing in a room with black curtains. They are wear
+
+[56/100] uniandes_dance_022_9 (GT=Novice)
+  exo: Novice OK | Observations: The person is dancing in a studio with a backdrop that says "1Lè".
+  ego: Novice OK | Observations: The person is dancing in a room with a black curtain and a tripod.
+
+[57/100] uniandes_dance_021_20 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is dancing in a studio with a black backdrop. They are 
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain and a white f
+
+[58/100] uniandes_dance_022_48 (GT=Late Expert)
+  exo: Novice X | Observations: The woman is standing with her feet together, facing forward. She 
+  ego: Novice X | Observations: The person is dancing in a room with black curtains and a white fl
+
+[59/100] uniandes_dance_008_38 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The man is dancing in a studio with a white floor and orange walls
+  ego: Novice X | Observations: The person is dancing in front of a black curtain with white dots 
+
+[60/100] uniandes_dance_013_8 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The man is dancing in a room with a white floor and a white wall. 
+  ego: Novice X | Observations: The person is dancing in a room with black curtains on the wall. T
+
+[61/100] uniandes_dance_021_53 (GT=Early Expert)
+  exo: Novice X | Observations: The person is performing a dance routine with fluid movements, inc
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain in the backgr
+
+[62/100] uniandes_dance_017_5 (GT=Novice)
+  exo: Novice OK | Observations: The person is dancing in a studio with a backdrop that says "Ile."
+  ego: Novice OK | Observations: The person is dancing in a room with a white floor and black curta
+
+[63/100] uniandes_dance_021_5 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a white floor and a black ba
+  ego: Novice X | Observations: The person is dancing in a room with a white floor and black curta
+
+[64/100] uniandes_dance_012_28 (GT=Late Expert)
+  exo: Novice X | Observations: The man is dancing in a room with a white floor and a red wall. He
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[65/100] uniandes_dance_016_12 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a backdrop that says "Ile." 
+  ego: Novice X | Observations: The person is dancing in front of a black curtain with white dots 
+
+[66/100] uniandes_dance_024_17 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a backdrop that says "Le Des
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain in the backgr
+
+[67/100] uniandes_dance_022_7 (GT=Novice)
+  exo: Novice OK | Observations: The woman is dancing in a studio with a backdrop that says "1Le". 
+  ego: Novice OK | Observations: The person is dancing in a room with black curtains and a white fl
+
+[68/100] uniandes_dance_021_23 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The man is dancing in a studio with a backdrop. He is wearing a bl
+  ego: Novice X | Observations: The person is dancing in a room with a white floor and black curta
+
+[69/100] uniandes_dance_011_16 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The person is dancing in a studio with a white floor and red walls
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain in the backgr
+
+[70/100] uniandes_dance_019_18 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The person is dancing in a studio with a backdrop that says "Le Da
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain. They are wea
+
+[71/100] uniandes_dance_017_36 (GT=Early Expert)
+  exo: Novice X | Observations: The person is dancing in a studio with a black backdrop. They are 
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain. They are wea
+
+[72/100] uniandes_dance_012_22 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The woman is dancing in a studio with a white floor and a window i
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain. They are wea
+
+[73/100] uniandes_dance_012_29 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The man is dancing in a room with white walls and a wooden floor. 
+  ego: Novice X | Observations: The person is dancing in a room with black curtains on the walls. 
+
+[74/100] upenn_0706_Dance_1_7 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a room with wooden floors and white walls.
+  ego: Novice X | Observations: The person is dancing in a room with wooden floors and white walls
+
+[75/100] upenn_0730_Dance_1_4 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is standing with his feet apart, arms at his sides, and
+  ego: Novice X | Observations: A man X walks into the room.  Errors: N/A  Skill Level: Novice
+
+[76/100] upenn_0720_Dance_3_13 (GT=Early Expert)
+  exo: Novice X | Observations: The man is standing with his feet together and his arms at his sid
+  ego: Intermediate Expert X | Observations: The person is dancing in a large room with a high ceiling. They ar
+
+[77/100] uniandes_dance_007_4 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The woman is dancing in a studio with a man filming her. She is we
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain in the backgr
+
+[78/100] uniandes_dance_012_33 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The man is dancing in a room with a white floor and a window in th
+  ego: Unknown X | Observations: The man X sits on the chair. A woman Y sits on the chair. C walks 
+
+[79/100] upenn_0706_Dance_2_2 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The woman is dancing in a room with a wooden floor. She is wearing
+  ego: Novice X | Observations: The person is dancing in a room with a wooden floor, a table, chai
+
+[80/100] uniandes_dance_020_61 (GT=Early Expert)
+  exo: Novice X | Observations: The person is dancing in a studio with a black backdrop. They are 
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain and a white f
+
+[81/100] uniandes_dance_022_5 (GT=Novice)
+  exo: Novice OK | Observations: The person is standing with their feet apart, facing forward. They
+  ego: Novice OK | Observations: The person is dancing in a room with black curtains. They are wear
+
+[82/100] uniandes_dance_021_17 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is dancing in a studio with a black backdrop. They are 
+  ego: Intermediate Expert OK | Observations: The man X dances in the room.  Errors: N/A  Skill Level: Intermedi
+
+[83/100] uniandes_dance_019_15 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The woman is dancing in a studio with a backdrop that says "Le Dan
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain in the backgr
+
+[84/100] uniandes_dance_022_27 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a backdrop that says "Le Dan
+  ego: Novice X | Observations: The person is dancing in a room with black curtains and a tripod. 
+
+[85/100] uniandes_dance_024_4 (GT=Novice)
+  exo: Novice OK | Observations: The man is dancing in a studio with a backdrop that says "Le Desig
+  ego: Novice OK | Observations: The person is dancing in a room with black curtains. They are wear
+
+[86/100] uniandes_dance_008_44 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The person is dancing with their arms raised above their head, mov
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain in the backgr
+
+[87/100] uniandes_dance_024_2 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The man is dancing in a studio with a backdrop that says "Le Desig
+  ego: Intermediate Expert X | Observations: The man D dances in the room. The man B dances in the room. The ma
+
+[88/100] uniandes_dance_011_33 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The man is dancing in a room with a white floor and a red wall. He
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain in the backgr
+
+[89/100] uniandes_dance_019_49 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The person is performing a dance routine with fluid movements, tra
+  ego: Novice X | Observations: A man is dancing in a room with a camera on a tripod. There are tw
+
+[90/100] uniandes_dance_022_10 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The person is dancing in a studio with a backdrop that says "1Lè".
+  ego: Novice OK | Observations: The person is dancing in a room with a black curtain and a white f
+
+[91/100] upenn_0706_Dance_2_5 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The woman is dancing in a room with wooden floors and white walls.
+  ego: Intermediate Expert OK | Observations: The person is dancing in a room with a wooden floor, a chandelier,
+
+[92/100] uniandes_dance_015_18 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a white floor and red walls.
+  ego: Novice X | Observations: The person is dancing in a room with black curtains on the walls. 
+
+[93/100] uniandes_dance_017_58 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a black backdrop. She is wea
+  ego: Intermediate Expert X | Observations: The man X walks towards the wall. The man X dances. The man X walk
+
+[94/100] upenn_0720_Dance_3_3 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The person is performing a dance routine that involves a series of
+  ego: Intermediate Expert X | Observations: The person is dancing in a large room with a high ceiling and a cu
+
+[95/100] uniandes_dance_020_11 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The woman is dancing in a studio with a backdrop that says "Le Dan
+  ego: Novice X | Observations: The person is dancing in a room with a black curtain. They are wea
+
+[96/100] upenn_0629_Dance_3_4 (GT=Early Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a wooden floor, wearing a pla
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a wooden floor, a table, and 
+
+[97/100] uniandes_dance_022_6 (GT=Novice)
+  exo: Novice OK | Observations: The person is dancing in a studio with a backdrop that says "Le De
+  ego: Intermediate Expert X | Observations: The man D dances in the room.  Errors: N/A  Skill Level: Intermedi
+
+[98/100] uniandes_dance_020_18 (GT=Novice)
+  exo: Novice OK | Observations: The person is dancing in a studio with a backdrop. They are wearin
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[99/100] uniandes_dance_012_14 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The woman is dancing in a studio with a white floor and a large mi
+  ego: Intermediate Expert OK | Observations: The person is dancing in a room with a white wall and a black curt
+
+[100/100] uniandes_dance_023_56 (GT=Early Expert)
+  exo: Novice X | Observations: The man turns his head to the left, then to the right, and then ba
+  ego: Novice X | Observations: The person is dancing in front of a black curtain with white dots 
+
+============================================================
+RESULTS — Dance | Qwen structured 8f TRIMMED
+============================================================
+  exo: 35/100 = 35.0%
+  ego: 24/100 = 24.0%
+Random chance: 25%
+Exo predictions: {'Intermediate Expert': 60, 'Novice': 38, 'Late Expert': 1, 'Unknown': 1}
+Ego predictions: {'Novice': 74, 'Intermediate Expert': 24, 'Late Expert': 1, 'Unknown': 1}
+============================================================

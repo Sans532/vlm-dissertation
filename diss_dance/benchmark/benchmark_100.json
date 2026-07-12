@@ -1,0 +1,901 @@
+[
+  {
+    "clip_id": "b40e861f-60a7-4b55-8757-41a6af4e62e8",
+    "take_folder": "upenn_0730_Dance_1_7",
+    "video_path_ego": "takes/upenn_0730_Dance_1_7/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0730_Dance_1_7/frame_aligned_videos/gp01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "4e468597-ba96-40c7-977b-7736a4a3bd73",
+    "take_folder": "uniandes_dance_017_3",
+    "video_path_ego": "takes/uniandes_dance_017_3/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_017_3/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "7d810b75-87a9-4b95-86d0-c970ae6d03a5",
+    "take_folder": "uniandes_dance_023_26",
+    "video_path_ego": "takes/uniandes_dance_023_26/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_023_26/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "6da46fdf-32e1-4f44-a903-ab609f0d750c",
+    "take_folder": "uniandes_dance_008_51",
+    "video_path_ego": "takes/uniandes_dance_008_51/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_008_51/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "92ee422b-2245-4efa-b300-0c5dc2744043",
+    "take_folder": "uniandes_dance_022_3",
+    "video_path_ego": "takes/uniandes_dance_022_3/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_022_3/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "6cce39fb-95c0-44b3-bddd-b20cd271f6b6",
+    "take_folder": "upenn_0629_Dance_3_6",
+    "video_path_ego": "takes/upenn_0629_Dance_3_6/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0629_Dance_3_6/frame_aligned_videos/gp01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "ed917883-c69b-4f94-83bd-1c7f583b4331",
+    "take_folder": "uniandes_dance_015_22",
+    "video_path_ego": "takes/uniandes_dance_015_22/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_015_22/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "8aa071f1-fcea-4bf4-9a0a-e885a32da656",
+    "take_folder": "uniandes_dance_016_43",
+    "video_path_ego": "takes/uniandes_dance_016_43/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_016_43/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "71e8d768-1bd4-4f21-91bd-da53bfe29279",
+    "take_folder": "uniandes_dance_022_11",
+    "video_path_ego": "takes/uniandes_dance_022_11/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_022_11/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "88ec5df5-24f4-48d4-8452-ad4c12103a0a",
+    "take_folder": "uniandes_dance_013_7",
+    "video_path_ego": "takes/uniandes_dance_013_7/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_013_7/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "b8afa573-2f0f-4b77-b4b3-5fbb7197dd1f",
+    "take_folder": "uniandes_dance_008_11",
+    "video_path_ego": "takes/uniandes_dance_008_11/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_008_11/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "50e6c59b-737e-447c-984c-fde5cd3e5e80",
+    "take_folder": "uniandes_dance_023_51",
+    "video_path_ego": "takes/uniandes_dance_023_51/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_023_51/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "7c8dc8cc-c863-4082-a011-ba385306537a",
+    "take_folder": "uniandes_dance_024_3",
+    "video_path_ego": "takes/uniandes_dance_024_3/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_024_3/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "c198cb21-159d-4a1f-b395-976f44c24166",
+    "take_folder": "uniandes_dance_017_4",
+    "video_path_ego": "takes/uniandes_dance_017_4/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_017_4/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "be44efc7-77ac-43ff-906b-3d49387ce118",
+    "take_folder": "uniandes_dance_022_17",
+    "video_path_ego": "takes/uniandes_dance_022_17/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_022_17/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "dc26e79e-f38f-4711-a212-6a7de087d8ac",
+    "take_folder": "uniandes_dance_017_6",
+    "video_path_ego": "takes/uniandes_dance_017_6/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_017_6/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "1f5b9ba5-a7c0-496d-b164-444251f45d25",
+    "take_folder": "uniandes_dance_002_3",
+    "video_path_ego": "takes/uniandes_dance_002_3/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_002_3/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "be64949d-750d-4272-a561-a6c7c2d5a6b9",
+    "take_folder": "uniandes_dance_002_13",
+    "video_path_ego": "takes/uniandes_dance_002_13/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_002_13/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "0c162693-cd79-4d37-9dd9-d1a6a5c653a3",
+    "take_folder": "uniandes_dance_020_28",
+    "video_path_ego": "takes/uniandes_dance_020_28/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_020_28/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "94b7d4d2-0ddc-47d2-a88e-71193c2315cc",
+    "take_folder": "upenn_0629_Dance_2_2",
+    "video_path_ego": "takes/upenn_0629_Dance_2_2/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0629_Dance_2_2/frame_aligned_videos/gp01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "8aef970a-22d8-4f21-94de-9737be02abd1",
+    "take_folder": "uniandes_dance_016_46",
+    "video_path_ego": "takes/uniandes_dance_016_46/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_016_46/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "4db61f0f-e35b-4ad8-bc3a-8d4a02094c19",
+    "take_folder": "uniandes_dance_019_7",
+    "video_path_ego": "takes/uniandes_dance_019_7/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_019_7/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "a79d5151-c4f8-4b6e-9084-c563b317c4e8",
+    "take_folder": "uniandes_dance_021_29",
+    "video_path_ego": "takes/uniandes_dance_021_29/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_021_29/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "0d1c01f6-74c9-45b4-8ccd-8c64eb39a2f5",
+    "take_folder": "uniandes_dance_008_50",
+    "video_path_ego": "takes/uniandes_dance_008_50/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_008_50/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "53d819a4-f540-44ed-8dcd-2260112fc54c",
+    "take_folder": "uniandes_dance_021_19",
+    "video_path_ego": "takes/uniandes_dance_021_19/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_021_19/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "fdaecdd1-2ef5-44d6-bc6c-26ff4a21c3d6",
+    "take_folder": "uniandes_dance_008_13",
+    "video_path_ego": "takes/uniandes_dance_008_13/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_008_13/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "27b3c35b-8799-4294-b4ff-dc33f52e0220",
+    "take_folder": "uniandes_dance_024_8",
+    "video_path_ego": "takes/uniandes_dance_024_8/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_024_8/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "9235aa5a-d273-4932-be5f-b74ac82f5bcc",
+    "take_folder": "uniandes_dance_007_7",
+    "video_path_ego": "takes/uniandes_dance_007_7/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_007_7/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "97fff617-93c7-4d83-a13e-1ff5ab6fc79d",
+    "take_folder": "uniandes_dance_021_12",
+    "video_path_ego": "takes/uniandes_dance_021_12/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_021_12/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "6af8d123-939a-410a-9d29-72687bd4dac5",
+    "take_folder": "uniandes_dance_013_15",
+    "video_path_ego": "takes/uniandes_dance_013_15/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_013_15/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "8fdcfd22-239e-44b9-90a7-f29588cb7d82",
+    "take_folder": "uniandes_dance_012_24",
+    "video_path_ego": "takes/uniandes_dance_012_24/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_012_24/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "5286fd37-f72e-42c5-bb9e-e09811887981",
+    "take_folder": "uniandes_dance_020_27",
+    "video_path_ego": "takes/uniandes_dance_020_27/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_020_27/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "7992ceca-a566-4679-b116-6fc0b811b70f",
+    "take_folder": "upenn_0720_Dance_4_5",
+    "video_path_ego": "takes/upenn_0720_Dance_4_5/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0720_Dance_4_5/frame_aligned_videos/gp01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "c5c271ee-08ad-4dd8-ac8c-417f830db685",
+    "take_folder": "uniandes_dance_019_20",
+    "video_path_ego": "takes/uniandes_dance_019_20/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_019_20/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "26ca925c-845d-4419-ae37-93f28cb415e8",
+    "take_folder": "uniandes_dance_016_8",
+    "video_path_ego": "takes/uniandes_dance_016_8/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_016_8/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "e10d385c-3b3f-4cc4-8e2d-2c5e7d986f42",
+    "take_folder": "uniandes_dance_020_34",
+    "video_path_ego": "takes/uniandes_dance_020_34/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_020_34/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "24b8af0b-b50e-4ddb-8421-a23dab506580",
+    "take_folder": "uniandes_dance_013_22",
+    "video_path_ego": "takes/uniandes_dance_013_22/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_013_22/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "04f0854f-7a61-4902-a5ea-cf9b9ff2785f",
+    "take_folder": "upenn_0706_Dance_4_3",
+    "video_path_ego": "takes/upenn_0706_Dance_4_3/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0706_Dance_4_3/frame_aligned_videos/gp01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "7e4cdc23-31d4-4449-b6a1-1100985cfcb1",
+    "take_folder": "uniandes_dance_012_19",
+    "video_path_ego": "takes/uniandes_dance_012_19/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_012_19/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "6d348ad5-d8f5-47f3-93c4-c2252910d310",
+    "take_folder": "uniandes_dance_002_24",
+    "video_path_ego": "takes/uniandes_dance_002_24/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_002_24/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "98ca3100-848b-4267-be0b-3c53c301cd96",
+    "take_folder": "uniandes_dance_020_22",
+    "video_path_ego": "takes/uniandes_dance_020_22/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_020_22/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "ad71e6d3-b828-4dbf-8853-18f5fcc59768",
+    "take_folder": "uniandes_dance_019_6",
+    "video_path_ego": "takes/uniandes_dance_019_6/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_019_6/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "03d2dc5b-24fa-4190-8392-587fbdf31785",
+    "take_folder": "upenn_0720_Dance_3_7",
+    "video_path_ego": "takes/upenn_0720_Dance_3_7/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0720_Dance_3_7/frame_aligned_videos/gp01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "be4e32c4-1537-44bc-9f66-5d61098c08dd",
+    "take_folder": "uniandes_dance_024_7",
+    "video_path_ego": "takes/uniandes_dance_024_7/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_024_7/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "7ab10395-024c-4fe4-994d-c7f57a42b354",
+    "take_folder": "upenn_0727_Partner_Dance_2_1_4",
+    "video_path_ego": "takes/upenn_0727_Partner_Dance_2_1_4/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0727_Partner_Dance_2_1_4/frame_aligned_videos/gp01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "e0ee6d25-73ea-4301-900d-c40a4d1e82dc",
+    "take_folder": "upenn_0720_Dance_3_11",
+    "video_path_ego": "takes/upenn_0720_Dance_3_11/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0720_Dance_3_11/frame_aligned_videos/gp01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "a34204b4-1ebb-4cec-a338-f4e543669820",
+    "take_folder": "uniandes_dance_012_25",
+    "video_path_ego": "takes/uniandes_dance_012_25/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_012_25/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "3f508ce8-ba11-49d3-848c-ccd8c8b52c3d",
+    "take_folder": "upenn_0730_Dance_2_5",
+    "video_path_ego": "takes/upenn_0730_Dance_2_5/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0730_Dance_2_5/frame_aligned_videos/gp01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "6b3a51f3-973e-44de-b300-ed1c25bc82d3",
+    "take_folder": "uniandes_dance_008_8",
+    "video_path_ego": "takes/uniandes_dance_008_8/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_008_8/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "5c4e796b-cb0b-4a72-b7ed-ad0dcc6aec1c",
+    "take_folder": "uniandes_dance_019_58",
+    "video_path_ego": "takes/uniandes_dance_019_58/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_019_58/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "b0f9aa8b-0632-44a1-a6ab-8d698208169c",
+    "take_folder": "uniandes_dance_011_29",
+    "video_path_ego": "takes/uniandes_dance_011_29/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_011_29/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "95bcacb6-e524-4aa8-91f3-22b12898779d",
+    "take_folder": "uniandes_dance_016_45",
+    "video_path_ego": "takes/uniandes_dance_016_45/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_016_45/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "841d97d5-8a6b-4221-adea-5fa1aa3e9707",
+    "take_folder": "uniandes_dance_011_43",
+    "video_path_ego": "takes/uniandes_dance_011_43/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_011_43/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "5b5a6017-4b2e-4529-a348-84bc64d1d3c3",
+    "take_folder": "upenn_0727_Partner_Dance_2_2_4",
+    "video_path_ego": "takes/upenn_0727_Partner_Dance_2_2_4/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0727_Partner_Dance_2_2_4/frame_aligned_videos/gp01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "b0f43b31-88d6-4173-bc98-543c8f8d938d",
+    "take_folder": "uniandes_dance_016_44",
+    "video_path_ego": "takes/uniandes_dance_016_44/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_016_44/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "6e4400c5-0bd9-454f-97d4-4fe35fe31682",
+    "take_folder": "uniandes_dance_022_9",
+    "video_path_ego": "takes/uniandes_dance_022_9/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_022_9/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "1e31765b-d0e0-4317-a361-2e81613a5c61",
+    "take_folder": "uniandes_dance_021_20",
+    "video_path_ego": "takes/uniandes_dance_021_20/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_021_20/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "3cffe89e-da73-4297-808a-d185d49959f1",
+    "take_folder": "uniandes_dance_022_48",
+    "video_path_ego": "takes/uniandes_dance_022_48/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_022_48/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "f1415a2f-c967-450e-bc9a-53a49abdd5e5",
+    "take_folder": "uniandes_dance_008_38",
+    "video_path_ego": "takes/uniandes_dance_008_38/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_008_38/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "3a327064-721f-4571-a510-29de32f82342",
+    "take_folder": "uniandes_dance_013_8",
+    "video_path_ego": "takes/uniandes_dance_013_8/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_013_8/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "f809a447-5414-4539-8bfd-2f6baa32dc1c",
+    "take_folder": "uniandes_dance_021_53",
+    "video_path_ego": "takes/uniandes_dance_021_53/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_021_53/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "a20971f0-7778-436f-a3de-ffbc64d59b06",
+    "take_folder": "uniandes_dance_017_5",
+    "video_path_ego": "takes/uniandes_dance_017_5/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_017_5/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "6eba8ef2-4d47-4d63-a864-e4dc64f8231b",
+    "take_folder": "uniandes_dance_021_5",
+    "video_path_ego": "takes/uniandes_dance_021_5/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_021_5/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "0f2b6d29-7921-402f-9a5b-59dd9a15f515",
+    "take_folder": "uniandes_dance_012_28",
+    "video_path_ego": "takes/uniandes_dance_012_28/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_012_28/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "88f21f26-5c09-485c-9e63-a096acf58336",
+    "take_folder": "uniandes_dance_016_12",
+    "video_path_ego": "takes/uniandes_dance_016_12/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_016_12/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "3abfad56-574e-41ad-abb1-6a002c69a5c7",
+    "take_folder": "uniandes_dance_024_17",
+    "video_path_ego": "takes/uniandes_dance_024_17/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_024_17/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "cbc710de-4393-470d-91bd-f6af9f09f7c4",
+    "take_folder": "uniandes_dance_022_7",
+    "video_path_ego": "takes/uniandes_dance_022_7/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_022_7/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "24437400-1478-4239-8f4d-788d88568a9e",
+    "take_folder": "uniandes_dance_021_23",
+    "video_path_ego": "takes/uniandes_dance_021_23/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_021_23/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "d351ce4f-6cd3-45f3-8514-77c1eb3adffa",
+    "take_folder": "uniandes_dance_011_16",
+    "video_path_ego": "takes/uniandes_dance_011_16/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_011_16/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "ee8eed89-5348-4a6a-8eb3-f9fc80fad1ea",
+    "take_folder": "uniandes_dance_019_18",
+    "video_path_ego": "takes/uniandes_dance_019_18/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_019_18/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "1e5e4324-4624-468a-9ec0-679f4be6da72",
+    "take_folder": "uniandes_dance_017_36",
+    "video_path_ego": "takes/uniandes_dance_017_36/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_017_36/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "96f28cc0-fa8c-4502-afff-092aee3a875b",
+    "take_folder": "uniandes_dance_012_22",
+    "video_path_ego": "takes/uniandes_dance_012_22/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_012_22/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "a49424bb-676f-471c-8152-6a0b1b5bb6e6",
+    "take_folder": "uniandes_dance_012_29",
+    "video_path_ego": "takes/uniandes_dance_012_29/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_012_29/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "09d78f26-514a-43c2-a55e-d9b17d5e1a32",
+    "take_folder": "upenn_0706_Dance_1_7",
+    "video_path_ego": "takes/upenn_0706_Dance_1_7/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0706_Dance_1_7/frame_aligned_videos/gp01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "989d5e04-bb58-4db9-9d58-9639adc4cd43",
+    "take_folder": "upenn_0730_Dance_1_4",
+    "video_path_ego": "takes/upenn_0730_Dance_1_4/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0730_Dance_1_4/frame_aligned_videos/gp01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "62d2aac8-8afb-4193-830f-8d156bedf232",
+    "take_folder": "upenn_0720_Dance_3_13",
+    "video_path_ego": "takes/upenn_0720_Dance_3_13/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0720_Dance_3_13/frame_aligned_videos/gp01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "f6890d9d-d0c3-43c8-9400-6cff7cc17801",
+    "take_folder": "uniandes_dance_007_4",
+    "video_path_ego": "takes/uniandes_dance_007_4/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_007_4/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "f60ab291-aa57-4e41-bbbe-e9ab817f3246",
+    "take_folder": "uniandes_dance_012_33",
+    "video_path_ego": "takes/uniandes_dance_012_33/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_012_33/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "49bb4a74-17a2-4375-9073-2beb29c76137",
+    "take_folder": "upenn_0706_Dance_2_2",
+    "video_path_ego": "takes/upenn_0706_Dance_2_2/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0706_Dance_2_2/frame_aligned_videos/gp01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "479f94a8-acb9-4157-b6bd-4f2a2a6cf3c9",
+    "take_folder": "uniandes_dance_020_61",
+    "video_path_ego": "takes/uniandes_dance_020_61/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_020_61/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "dd258fcf-873f-4fcd-b2d3-04525159b68a",
+    "take_folder": "uniandes_dance_022_5",
+    "video_path_ego": "takes/uniandes_dance_022_5/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_022_5/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "603787e2-be4b-4b24-9632-34921013623f",
+    "take_folder": "uniandes_dance_021_17",
+    "video_path_ego": "takes/uniandes_dance_021_17/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_021_17/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "fad811da-e457-4d2a-8cf4-c3a09c11a41a",
+    "take_folder": "uniandes_dance_019_15",
+    "video_path_ego": "takes/uniandes_dance_019_15/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_019_15/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "0eadf1dd-55c6-4cd1-8b2d-5b132fcb5016",
+    "take_folder": "uniandes_dance_022_27",
+    "video_path_ego": "takes/uniandes_dance_022_27/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_022_27/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "9d950899-e619-4399-867c-70871cc0d679",
+    "take_folder": "uniandes_dance_024_4",
+    "video_path_ego": "takes/uniandes_dance_024_4/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_024_4/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "7e4d7d4f-abfb-4e89-87e0-7f86e27ada86",
+    "take_folder": "uniandes_dance_008_44",
+    "video_path_ego": "takes/uniandes_dance_008_44/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_008_44/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "d5d3590f-44e7-4305-b612-ff055b0e688a",
+    "take_folder": "uniandes_dance_024_2",
+    "video_path_ego": "takes/uniandes_dance_024_2/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_024_2/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "cd81519b-13c1-437e-b357-8ec99ae9c757",
+    "take_folder": "uniandes_dance_011_33",
+    "video_path_ego": "takes/uniandes_dance_011_33/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_011_33/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "adad25b8-0920-4181-9bd4-1f8207e85d82",
+    "take_folder": "uniandes_dance_019_49",
+    "video_path_ego": "takes/uniandes_dance_019_49/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_019_49/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "dfb66cb4-6235-4f55-b361-934586fbcaaa",
+    "take_folder": "uniandes_dance_022_10",
+    "video_path_ego": "takes/uniandes_dance_022_10/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_022_10/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "35a3c4e1-f420-4242-bcab-4d208dc9a391",
+    "take_folder": "upenn_0706_Dance_2_5",
+    "video_path_ego": "takes/upenn_0706_Dance_2_5/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0706_Dance_2_5/frame_aligned_videos/gp01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "4d159481-830d-4789-b0ff-368031a98757",
+    "take_folder": "uniandes_dance_015_18",
+    "video_path_ego": "takes/uniandes_dance_015_18/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_015_18/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Late Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "28c3553f-3212-43ee-a050-7ea2d49fdf0e",
+    "take_folder": "uniandes_dance_017_58",
+    "video_path_ego": "takes/uniandes_dance_017_58/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_017_58/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "02d13286-0b54-46e8-8461-9c056627a97d",
+    "take_folder": "upenn_0720_Dance_3_3",
+    "video_path_ego": "takes/upenn_0720_Dance_3_3/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0720_Dance_3_3/frame_aligned_videos/gp01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "e5488136-6259-4050-bc34-4717cc15dd1a",
+    "take_folder": "uniandes_dance_020_11",
+    "video_path_ego": "takes/uniandes_dance_020_11/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_020_11/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "824f472b-db42-4d38-99ed-2750bc14817e",
+    "take_folder": "upenn_0629_Dance_3_4",
+    "video_path_ego": "takes/upenn_0629_Dance_3_4/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0629_Dance_3_4/frame_aligned_videos/gp01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "215abe5f-a97f-4ee6-87bd-d261e75f1701",
+    "take_folder": "uniandes_dance_022_6",
+    "video_path_ego": "takes/uniandes_dance_022_6/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_022_6/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "657b877d-3cdb-4798-a9bf-101ab82cc95b",
+    "take_folder": "uniandes_dance_020_18",
+    "video_path_ego": "takes/uniandes_dance_020_18/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_020_18/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Novice",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "3a2303bf-8d6f-4211-8c25-4430cd051e2d",
+    "take_folder": "uniandes_dance_012_14",
+    "video_path_ego": "takes/uniandes_dance_012_14/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_012_14/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Intermediate Expert",
+    "question_fourclass": "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+  },
+  {
+    "clip_id": "590c85d3-71c1-4896-9899-a843ccaa6ef2",
+    "take_folder": "uniandes_dance_023_56",
+    "video_path_ego": "takes/uniandes_dance_023_56/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_dance_023_56/frame_aligned_videos/cam01.mp4",
+    "activity": "Dance",
+    "ground_truth": "Early Expert"
+  }
+]

@@ -20,10 +20,17 @@ LABELS     = ["Late Expert", "Intermediate Expert", "Early Expert", "Novice"]
 os.makedirs(os.path.dirname(RESULTS), exist_ok=True)
 
 QUESTION = (
-    "Step 1: Note the climber's hand and foot placement.\n"
-    "Step 2: Note any hesitation or errors.\n"
-    "Step 3: Skill Level: Novice / Early Expert / Intermediate Expert / Late Expert"
+    "Look at the hands, feet, and body posture.\n"
+    "First note one technical observation. Then note one error if visible.\n"
+    "Finally answer with exactly this format:\n"
+    "Skill Level: [Novice/Early Expert/Intermediate Expert/Late Expert]"
 )
+
+test_prompt = "USER: <video>\n" + QUESTION + " ASSISTANT:"
+from transformers import VideoLlavaProcessor
+test_processor = VideoLlavaProcessor.from_pretrained(MODEL_PATH)
+test_tokens = test_processor.tokenizer(test_prompt, return_tensors="pt")["input_ids"].shape[1]
+print("Text-only prompt tokens (excluding video): " + str(test_tokens))
 
 print("Loading takes metadata...")
 takes_list = json.load(open(TAKES_PATH))
@@ -65,39 +72,44 @@ def get_frames_trimmed(video_path, take_folder):
         frames.append(frames[-1])
     return np.stack(frames)
 
-
-def ask(video_path, take_folder, question):
+def ask(video_path, take_folder, QUESTION):
     video = get_frames_trimmed(video_path, take_folder)
     if video is None:
         raise Exception("No frames")
-    prompt = "USER: <video>\nThese are " + str(NUM_FRAMES) + " frames sampled from a video of a person performing an activity. " + question + " ASSISTANT:"
+    prompt = "USER: <video>\n" + QUESTION + " ASSISTANT:"
     inputs = processor(text=prompt, videos=video, return_tensors="pt").to("cuda")
 
-    # Check token length before generating — warn if close to/over limit
     n_tokens = inputs["input_ids"].shape[1]
     if n_tokens > 4096:
-        print("    WARNING: prompt is " + str(n_tokens) + " tokens, exceeds 4096 limit")
+        print("\nFATAL: prompt is " + str(n_tokens) + " tokens, exceeds 4096 limit. Stopping.")
+        exit(1)
 
-    out = model.generate(**inputs, max_new_tokens=300, do_sample=False)
+    out = model.generate(**inputs, max_new_tokens=100, do_sample=False)
     raw = processor.batch_decode(out, skip_special_tokens=True)[0]
     clean = raw.split("ASSISTANT:")[-1].strip() if "ASSISTANT:" in raw else raw.strip()
     del inputs, out, video
     torch.cuda.empty_cache(); gc.collect()
     return clean
 
-
 def extract_label(answer):
     a = answer.lower()
-    match = re.search(r'skill level[:\s]+(.+?)(?:\n|$)', a)
+    match = re.search(r'skill level[:\s\[]+(.+?)(?:\]|\n|$)', a)
     search_text = match.group(1).strip() if match else a
-    for label in LABELS:
-        if label.lower() in search_text:
-            return label
-    for label in LABELS:
-        if label.lower() in a:
-            return label
-    return "Unknown"
 
+    for label in ["late expert", "intermediate expert", "early expert"]:
+        if label in search_text:
+            return label.title()
+    if "novice" in search_text or "beginner" in search_text:
+        return "Novice"
+
+    # fallback: search full answer
+    for label in ["late expert", "intermediate expert", "early expert"]:
+        if label in a:
+            return label.title()
+    if "novice" in a or "beginner" in a:
+        return "Novice"
+
+    return "Unknown"
 
 benchmark = json.load(open(BENCHMARK))
 print("Clips: " + str(len(benchmark)) + " | frames: " + str(NUM_FRAMES) + " | TRIMMED\n")

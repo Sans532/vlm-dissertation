@@ -1,0 +1,511 @@
+clip_id,take_folder,ground_truth,exo_full_answer,exo_predicted,exo_correct,ego_full_answer,ego_predicted,ego_correct
+b40e861f-60a7-4b55-8757-41a6af4e62e8,upenn_0730_Dance_1_7,Intermediate Expert,"Observations: The person is dancing in a large room with a lot of chairs and a dining table. They are wearing a grey shirt and blue jeans. The person is moving their arms and legs in a coordinated manner, suggesting that they have some experience in dancing.
+Errors: The person is not using their feet to move, which is a common technique in dancing. They are also not using their hips and torso to move, which is another essential aspect of dancing.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a circle, moving their arms and legs in a coordinated manner. They are wearing a black shirt and pants, and their hair is tied back in a ponytail. The dance appears to be a combination of hip hop and modern dance styles.
+Errors: The person's footwork is not as precise as it could be, and they could improve their technique by focusing on their foot placement and weight distribution.
+Skill Level: Intermediate Expert",Intermediate Expert,True
+4e468597-ba96-40c7-977b-7736a4a3bd73,uniandes_dance_017_3,Novice,"Observations: The person is dancing in a room with a black background. They are wearing a blue shirt and black pants. They are holding a white stick in their right hand and a white ball in their left hand. They are performing a dance routine with the ball and stick.
+Errors: The person is not using the ball and stick in a proper manner. They are not following the correct technique for using the ball and stick.
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with black curtains. They are wearing a blue shirt and black pants. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+7d810b75-87a9-4b95-86d0-c970ae6d03a5,uniandes_dance_023_26,Late Expert,"Observations: The person is dancing in a room with a red wall and a white floor. They are wearing a black tank top and black pants. They are performing a dance routine with their arms and legs, moving in a coordinated manner.
+Errors: The person's movements are not perfectly synchronized, and they are not following a specific choreography.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's technique is precise and well-executed, with fluid movements and a strong sense of rhythm.
+Errors: There are no noticeable errors in the dancer's technique or form.
+Skill Level: Late Expert",Late Expert,True
+6da46fdf-32e1-4f44-a903-ab609f0d750c,uniandes_dance_008_51,Intermediate Expert,"Observations: The person is dancing in a room with a white shirt and black pants. They are performing a dance routine with their arms and legs, and they are wearing a camera on their head.
+Errors: The person is not using their arms and legs in a coordinated manner, which could affect the overall flow and effectiveness of the dance.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a black background. They are wearing black clothing and are in a standing position. The dancer's movements are fluid and graceful, indicating a high level of skill and experience.
+Errors: There are no noticeable errors in the dancer's technique or body position.
+Skill Level: Late Expert",Late Expert,False
+92ee422b-2245-4efa-b300-0c5dc2744043,uniandes_dance_022_3,Novice,"Observations: The person is dancing in a room with a red wall and a white floor. They are wearing blue jeans and a black jacket. They are moving their arms and legs in a coordinated manner, suggesting that they have some level of skill in dancing.
+Errors: The person is not using their feet to move, which is a common technique in dancing. They are also not using their hips and torso to move, which is another essential aspect of dancing.
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's technique is precise and well-executed, with fluid movements and a strong sense of rhythm.
+Errors: There are no noticeable errors in the dancer's technique or form.
+Skill Level: Late Expert",Late Expert,False
+6cce39fb-95c0-44b3-bddd-b20cd271f6b6,upenn_0629_Dance_3_6,Early Expert,"Observations: The person is dancing in a room with a hardwood floor. They are wearing blue jeans and a plaid shirt. They are moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing on a wooden floor, wearing a black dress. They are moving their arms and legs in a coordinated manner, displaying a good sense of rhythm and timing. The dancer appears to be in control of their movements and maintains a steady pace throughout the performance.
+Errors: There are no apparent errors in the dancer's technique or body position.
+Skill Level: The dancer appears to be an intermediate expert in their craft, as they demonstrate a good level of control and coordination in their movements.",Intermediate Expert,False
+ed917883-c69b-4f94-83bd-1c7f583b4331,uniandes_dance_015_22,Late Expert,"Observations: The person is performing a dance routine in a room with a white wall. They are wearing black pants and a black top. The person is moving their arms and legs in a coordinated manner, suggesting a good level of skill and experience in dancing.
+Errors: The person's feet are not in sync with their body movements, which could indicate a lack of proper technique or a beginner's mistake.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with black curtains and a white floor. They are wearing a black shirt and black pants. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+8aa071f1-fcea-4bf4-9a0a-e885a32da656,uniandes_dance_016_43,Novice,"Observations: The person is dancing in a room with a red and black sign on the wall. They are wearing a blue jacket and black pants. They are holding a stick in their hand and are moving their body in a rhythmic manner.
+Errors: The person is not following the rhythm of the music, which is a crucial aspect of dancing.
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and are performing a dance routine. The person's body position is well-balanced, and they are using their arms and legs to move in a coordinated manner. The dancer's technique is precise, and they are executing the dance moves with ease.
+Errors: There are no errors or imprecisions in the dancer's movement.
+Skill Level: Late Expert",Late Expert,False
+71e8d768-1bd4-4f21-91bd-da53bfe29279,uniandes_dance_022_11,Novice,"Observations: The person is dancing in a room with a red wall and a white floor. They are wearing blue jeans and a black shirt. They are moving their arms and legs in a coordinated manner, suggesting that they have some level of skill in dancing.
+Errors: The person is not using their feet to move, which is a common technique in dancing. They are also not using their hips and torso to move, which is another essential aspect of dancing.
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's movements are fluid and graceful, indicating a high level of skill and experience.
+Errors: There are no noticeable errors in the dancer's technique or body position.
+Skill Level: Late Expert",Late Expert,False
+88ec5df5-24f4-48d4-8452-ad4c12103a0a,uniandes_dance_013_7,Early Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing a blue shirt and black pants. They are moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a red wall and a window. They are wearing a black dress and are moving their arms and legs in a coordinated manner. The dancer appears to be in sync with the music.
+Errors: The dancer's feet are not in the correct position, and their arms are not moving in a fluid motion.
+Skill Level: Novice",Novice,False
+b8afa573-2f0f-4b77-b4b3-5fbb7197dd1f,uniandes_dance_008_11,Late Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing a purple shirt and black pants. They are holding a camera and a tripod. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person is not using the camera and tripod to capture their own movements, which could be a mistake.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black background. They are wearing a black shirt and black pants. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+50e6c59b-737e-447c-984c-fde5cd3e5e80,uniandes_dance_023_51,Early Expert,"Observations: The person is dancing in a room with a large sign on the wall. They are wearing a black shirt and black pants. They are moving their arms and legs in a coordinated manner, suggesting that they are skilled in their dance technique.
+Errors: The person's movements are not perfectly synchronized with the music, indicating that they may not be an expert dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black background. They are wearing a white shirt and black pants. The dancer is moving their arms and legs in a coordinated manner, suggesting a good level of skill.
+Errors: The dancer's movements are not perfectly synchronized, indicating that they may be a novice or early expert dancer.
+Skill Level: Novice",Novice,False
+7c8dc8cc-c863-4082-a011-ba385306537a,uniandes_dance_024_3,Novice,"Observations: The person is dancing in a room with a red background and a black background. They are wearing a black shirt and jeans. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized with the music, indicating that they may not be an expert dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's body position is well-balanced, and they are moving in a rhythmic manner.
+Errors: The dancer's feet are not in sync with the rest of their body, which could be a sign of an imprecise movement.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+c198cb21-159d-4a1f-b395-976f44c24166,uniandes_dance_017_4,Novice,"Observations: The person is dancing in a room with a black background. They are wearing a blue jacket and black pants. They are performing a dance routine with their arms and legs, moving in a fluid motion. The person appears to be skilled in their dance technique.
+Errors: There are no errors observed in the person's dance routine.
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and are performing a dance routine. The person's body position is well-balanced, and they are executing the dance moves with precision.
+Errors: There are no errors or imprecisions in their movement.
+Skill Level: Late Expert",Late Expert,False
+be44efc7-77ac-43ff-906b-3d49387ce118,uniandes_dance_022_17,Late Expert,"Observations: The person is dancing in a room with a red wall and a white floor. They are wearing a black shirt and jeans. They are performing a dance routine with their arms and legs, and they are moving in a rhythmic manner.
+Errors: The person is not following the choreography perfectly, and they are not moving in sync with the music.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a black background. They are wearing a white shirt and black pants. The dancer is performing a routine that involves spinning around and moving their arms and legs in a coordinated manner. The dancer's technique is precise and well-executed, with smooth transitions between movements.
+
+Errors: There are no noticeable errors in the dancer's technique or body position.
+
+Skill Level: The dancer appears to be an intermediate expert in their craft, as they demonstrate a high level of skill and control in their movements.",Intermediate Expert,False
+dc26e79e-f38f-4711-a212-6a7de087d8ac,uniandes_dance_017_6,Novice,"Observations: The person is dancing in a room with a black background. They are wearing a blue jacket and black pants. They are moving their arms and legs in a coordinated manner, suggesting a good level of skill.
+Errors: The person is not wearing any shoes, which is a potential safety hazard.
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black shirt and black pants. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+1f5b9ba5-a7c0-496d-b164-444251f45d25,uniandes_dance_002_3,Late Expert,"Observations: The person is dancing in a room with a window and a mirror. They are wearing black pants and a black shirt. They are holding a microphone and a stick in their hands. The person is moving their body in a rhythmic manner, suggesting that they are dancing to music.
+Errors: The person is not using the microphone to its full potential, as they are not singing or speaking into it.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a red wall and a window. They are wearing a black dress and are performing a dance routine. The person's body position is well-balanced, and their technique is precise. They move their arms and legs in a coordinated manner, and their movements are fluid and graceful.
+
+Errors: There are no errors or imprecisions in their movement.
+
+Skill Level: Late Expert",Late Expert,True
+be64949d-750d-4272-a561-a6c7c2d5a6b9,uniandes_dance_002_13,Early Expert,"Observations: The person is dancing in a room with a window and a bench. They are wearing a black shirt and black pants. They are moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person is not using their feet to move, which is a common technique in dancing. They are also not using their hips to move, which is another essential technique in dancing.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's body position is well-balanced, and they are moving in a rhythmic manner.
+Errors: The dancer's feet are not in sync with the rest of their body, which could be a sign of an imprecise movement.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+0c162693-cd79-4d37-9dd9-d1a6a5c653a3,uniandes_dance_020_28,Novice,"Observations: The person is dancing in a room with a wooden floor and a black background. They are wearing a red shirt and black pants. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's feet are not in sync with their body movements, which could indicate a lack of proper technique or a beginner's mistake.
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with a white floor and black walls. They are wearing a red shirt and black pants. The dancer is moving their arms and legs in a coordinated manner, displaying a good sense of rhythm and timing.
+Errors: The dancer's feet are not in sync with their arms, which could be improved for a more fluid and graceful performance.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+94b7d4d2-0ddc-47d2-a88e-71193c2315cc,upenn_0629_Dance_2_2,Early Expert,"Observations: The person is dancing in a room with a hardwood floor. They are wearing a blue shirt and black shorts. They are moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's feet are not in sync with their body movements, which could indicate a lack of proper technique or a beginner's mistake.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a wooden floor and a white couch. They are wearing a white shirt and black pants. The dancer is moving their arms and legs in a coordinated manner, displaying a good sense of rhythm and timing.
+Errors: The dancer's feet are not in sync with their arms, which could be improved.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+8aef970a-22d8-4f21-94de-9737be02abd1,uniandes_dance_016_46,Novice,"Observations: The person is dancing in a room with a black background. They are wearing a blue jacket and black pants. They are performing a dance routine with their arms and legs. The person is moving their body in a fluid motion, and their technique appears to be well-executed.
+Errors: There are no errors in the person's movement.
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black shirt and black pants. The dancer is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience.
+Errors: The dancer's movements are not perfectly synchronized, indicating that they may be a novice or early expert dancer.
+Skill Level: Novice",Novice,True
+4db61f0f-e35b-4ad8-bc3a-8d4a02094c19,uniandes_dance_019_7,Intermediate Expert,"Observations: The person is dancing in a room with a red sign on the wall. They are wearing black pants and a black top. They are moving their arms and legs in a coordinated manner, suggesting that they are skilled in their dance technique.
+Errors: The person's feet are not in sync with their body movements, which could indicate a lack of proper footwork or a lack of experience in dancing.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's technique is precise and well-executed, with fluid movements and a strong sense of rhythm.
+Errors: There are no noticeable errors in the dancer's technique or body position.
+Skill Level: Late Expert",Late Expert,False
+a79d5151-c4f8-4b6e-9084-c563b317c4e8,uniandes_dance_021_29,Intermediate Expert,"Observations: The person is dancing in a room with a black background. They are wearing a red shirt and black pants. They are moving their arms and legs in a coordinated manner, suggesting that they are skilled in their dance technique.
+Errors: The person's feet are not in sync with their body movements, which could indicate a lack of proper footwork or a lack of experience in dancing.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a black background. They are wearing a black shirt and white pants. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,True
+0d1c01f6-74c9-45b4-8ccd-8c64eb39a2f5,uniandes_dance_008_50,Intermediate Expert,"Observations: The person is dancing in a room with a white wall and a window. They are wearing black pants and a white shirt. They are moving their arms and legs in a coordinated manner, suggesting a good level of skill and experience.
+Errors: There are no apparent errors in their movement.
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with a red wall and a black floor. They are wearing a black dress and have their arms outstretched. The dancer's technique is precise and well-executed, with fluid movements and a strong sense of rhythm.
+Errors: There are no noticeable errors in the dancer's technique or form.
+Skill Level: Late Expert",Late Expert,False
+53d819a4-f540-44ed-8dcd-2260112fc54c,uniandes_dance_021_19,Intermediate Expert,"Observations: The person is dancing in a room with a black background and a white floor. They are wearing black pants and a black shirt. The person is moving their arms and legs in a coordinated manner, suggesting a good level of skill.
+Errors: The person is not wearing any shoes, which could be a safety concern.
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with a black background. They are wearing a black shirt and pants. The dancer is moving their arms and legs in a coordinated manner, suggesting a good level of skill.
+Errors: The dancer's movements are not perfectly synchronized, indicating that they may be a novice or early expert dancer.
+Skill Level: Novice",Novice,False
+fdaecdd1-2ef5-44d6-bc6c-26ff4a21c3d6,uniandes_dance_008_13,Late Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing a purple shirt and black pants. They are moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's posture is not perfect, and they are not moving in a perfectly synchronized manner.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's technique is precise and well-executed, with fluid movements and a strong sense of rhythm.
+Errors: There are no noticeable errors in the dancer's technique or body position.
+Skill Level: Late Expert",Late Expert,True
+27b3c35b-8799-4294-b4ff-dc33f52e0220,uniandes_dance_024_8,Novice,"Observations: The person is dancing in a room with a red wall and a black background. They are wearing a black shirt and jeans. The dancer is performing a routine that involves spinning around and moving their arms and legs. They are also wearing a mask, which adds a unique element to their performance.
+Errors: The dancer's movements are not perfectly synchronized with the music, which could be a result of improper timing or lack of practice.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's body position is well-balanced, and they are moving in a rhythmic manner.
+Errors: The dancer's feet are not in sync with the rest of their body, which could be a sign of an imprecise movement.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+9235aa5a-d273-4932-be5f-b74ac82f5bcc,uniandes_dance_007_7,Intermediate Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing black pants and red shoes. They are holding a camera and a tripod. The person is moving their arms and legs in a coordinated manner, suggesting that they are skilled in dancing.
+Errors: The person is not using the camera and tripod properly, as they are not filming themselves.
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is dancing in a room with a black background. They are wearing a black shirt and black pants. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized with the music, indicating that they may not be an expert dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,True
+97fff617-93c7-4d83-a13e-1ff5ab6fc79d,uniandes_dance_021_12,Late Expert,"Observations: The person is dancing in a room with a black background. They are wearing black pants and a black shirt. They are moving their arms and legs in a coordinated manner, suggesting that they are skilled in their dance technique.
+Errors: There are no apparent errors in their movement.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's movements are fluid and graceful, indicating a high level of skill and experience.
+Errors: There are no noticeable errors in the dancer's technique or body position.
+Skill Level: Late Expert",Late Expert,True
+6af8d123-939a-410a-9d29-72687bd4dac5,uniandes_dance_013_15,Late Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing black pants and a black shirt. They are moving their arms and legs in a coordinated manner, suggesting that they have some level of skill in dancing.
+Errors: The person is not using their feet to move, which is a common technique in dancing. They are also not using their hips to move, which is another essential technique in dancing.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a black background. They are wearing a black shirt and black pants. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+8fdcfd22-239e-44b9-90a7-f29588cb7d82,uniandes_dance_012_24,Intermediate Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing black pants and a black shirt. They are moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person is not using their feet to move, which is a common technique in dancing. Instead, they are using their arms and legs to move, which is not as efficient or graceful as using feet.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a red wall. They are wearing a black shirt and pants. The dancer is performing a routine that involves spinning around while holding a microphone. The dancer's body position is well-balanced, and they are executing the routine with precision.
+
+Errors: There are no errors in the dancer's technique or movement.
+
+Skill Level: The dancer appears to be an intermediate expert in their craft.",Intermediate Expert,True
+5286fd37-f72e-42c5-bb9e-e09811887981,uniandes_dance_020_27,Novice,"Observations: The person is dancing in a room with a wooden floor. They are wearing a red shirt and black pants. They are moving their arms and legs in a coordinated manner, suggesting that they are skilled in dancing.
+Errors: The person is not wearing shoes, which could affect their footing and stability.
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's body position is well-balanced, and they are moving in a rhythmic manner.
+Errors: The dancer's feet are not in sync with the rest of their body, which could be a sign of an imprecise movement.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+7992ceca-a566-4679-b116-6fc0b811b70f,upenn_0720_Dance_4_5,Early Expert,"Observations: The person is dancing in a black shirt and white shorts, with their arms outstretched and legs moving in a fluid motion. They are performing a routine that involves a lot of spinning and twirling.
+Errors: The person's movements are not perfectly synchronized with the music, and they seem to be struggling to maintain their balance.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a large window. They are wearing a black shirt and pants, and their hair is tied back in a ponytail. They are moving their arms and legs in a coordinated manner, suggesting that they have some experience in dancing.
+Errors: The person's footwork is not very precise, and they seem to be moving their arms and legs in a somewhat disorganized manner.
+Skill Level: Novice",Novice,False
+c5c271ee-08ad-4dd8-ac8c-417f830db685,uniandes_dance_019_20,Intermediate Expert,"Observations: The person is dancing in a room with a black background. They are wearing black pants and a black shirt. They are moving their arms and legs in a coordinated manner, suggesting that they are skilled in their dance technique.
+Errors: There are no apparent errors in their movement.
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and are performing a dance routine. The person's body position is well-balanced, and they are executing the dance moves with precision.
+Errors: There are no errors or imprecisions in their movement.
+Skill Level: Late Expert",Late Expert,False
+26ca925c-845d-4419-ae37-93f28cb415e8,uniandes_dance_016_8,Early Expert,"Observations: The person is dancing in a room with a red and black sign on the wall. They are wearing black pants and a black top. They are moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized with the music, indicating that they may not be an expert dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's movements are fluid and graceful, indicating a high level of skill and experience.
+Errors: There are no apparent errors in the dancer's technique or body position.
+Skill Level: Late Expert",Late Expert,False
+e10d385c-3b3f-4cc4-8e2d-2c5e7d986f42,uniandes_dance_020_34,Late Expert,"Observations: The person is dancing in a room with a black background. They are wearing a grey shirt and black pants. They are moving their arms and legs in a coordinated manner, suggesting that they are skilled in dancing.
+Errors: The person is not wearing shoes, which could affect their stability and movement.
+Skill Level: Late Expert",Late Expert,True,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's technique is precise and well-executed, with fluid movements and a strong sense of rhythm.
+Errors: There are no noticeable errors in the dancer's technique or form.
+Skill Level: Late Expert",Late Expert,True
+24b8af0b-b50e-4ddb-8421-a23dab506580,uniandes_dance_013_22,Late Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing black pants and red shoes. The person is moving their arms and legs in a coordinated manner, suggesting a good level of skill.
+Errors: The person is not using their feet to move, which is a common technique in dance.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black shirt and black pants. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+04f0854f-7a61-4902-a5ea-cf9b9ff2785f,upenn_0706_Dance_4_3,Early Expert,"Observations: The person is dancing in a large room with a wooden floor. They are wearing a blue shirt and brown pants. They are moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person is not wearing any shoes, which is an unusual choice for dancing.
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is dancing in a room with chairs and a dining table. They are wearing a blue shirt and khaki shorts. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's footwork could be improved, as they are not using their feet to their full potential.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+7e4cdc23-31d4-4449-b6a1-1100985cfcb1,uniandes_dance_012_19,Intermediate Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing black pants and a black top. They are moving their arms and legs in a coordinated manner, suggesting that they are skilled in their dance technique.
+Errors: There are no apparent errors in their movement.
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and are performing a dance routine. The person's body position is well-balanced, and they are using their arms and legs to move in a coordinated manner.
+Errors: The person's movements are not perfectly synchronized, and there are some moments where they lose balance.
+Skill Level: Intermediate Expert",Intermediate Expert,True
+6d348ad5-d8f5-47f3-93c4-c2252910d310,uniandes_dance_002_24,Early Expert,"Observations: The person is dancing in a room with a window and a mirror. They are wearing black pants and a black shirt. They are holding a tennis racket in their right hand and a tennis ball in their left hand. They are moving their body in a rhythmic manner, with their feet moving in a coordinated manner.
+Errors: The person is not using the tennis racket and ball in a traditional manner, as they are not hitting the ball with the racket.
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black shirt and black pants. The dancer is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience.
+Errors: The dancer's movements are not perfectly synchronized, indicating that they may be a novice or early expert dancer.
+Skill Level: Novice",Novice,False
+98ca3100-848b-4267-be0b-3c53c301cd96,uniandes_dance_020_22,Novice,"Observations: The person is dancing in a room with a black background. They are wearing a red shirt and black pants. They are moving their arms and legs in a coordinated manner, suggesting that they are skilled in their dance technique.
+Errors: The person's feet are not in sync with their body movements, which could indicate a lack of proper footwork or a lack of experience in dancing.
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's technique is precise and well-executed, with fluid movements and a strong sense of rhythm.
+Errors: There are no noticeable errors in the dancer's technique or form.
+Skill Level: Late Expert",Late Expert,False
+ad71e6d3-b828-4dbf-8853-18f5fcc59768,uniandes_dance_019_6,Intermediate Expert,"Observations: The person is dancing in a room with a red sign on the wall. They are wearing a black shirt and black pants. They are moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized with the music, indicating that they may not be an expert dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person in the video is performing a dance routine, with their body position and technique being the main focus. They are moving their arms and legs in a coordinated manner, showcasing their skill and artistry.
+Errors: There are no apparent errors in the person's movement, indicating a high level of skill and precision.
+Skill Level: Late Expert",Late Expert,False
+03d2dc5b-24fa-4190-8392-587fbdf31785,upenn_0720_Dance_3_7,Early Expert,"Observations: The person is dancing in a room with a large window. They are wearing a pink shirt and grey pants. They are moving their arms and legs in a coordinated manner, suggesting that they have some level of experience in dancing.
+Errors: The person is not wearing shoes, which could be a safety hazard in case of slipping or falling.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a large window. They are wearing a black dress and are moving their arms and legs in a coordinated manner. The dancer appears to be in sync with the music and is displaying a good level of skill.
+Errors: The dancer's feet are not in perfect sync with their body movements, which could be improved.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+be4e32c4-1537-44bc-9f66-5d61098c08dd,uniandes_dance_024_7,Novice,"Observations: The person is dancing in a room with a large sign on the wall. They are wearing a black shirt and jeans. They are moving their arms and legs in a coordinated manner, suggesting that they have some level of skill in dancing.
+Errors: The person is not following the choreography of the dance, which could indicate a lack of experience or improvisation.
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's body position is well-balanced, and they are moving in a rhythmic manner.
+Errors: The dancer's feet are not in sync with the rest of their body, which could be a sign of an imprecise movement.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+7ab10395-024c-4fe4-994d-c7f57a42b354,upenn_0727_Partner_Dance_2_1_4,Late Expert,"Observations: The person is dancing in a ballroom style, with a focus on the feet and legs. They are moving in a coordinated manner, with the arms and upper body following the rhythm of the music. The person is wearing a pink dress and black pants, and they are moving gracefully across the dance floor.
+Errors: There are no apparent errors in the person's movement.
+Skill Level: Late Expert",Late Expert,True,"Observations: The person is dancing in a room with a wooden floor. They are wearing a pink dress and are holding a Wii remote in their hand. They are moving their arms and legs in a coordinated manner, suggesting that they are following a choreography or a specific dance routine.
+Errors: The person is not using the Wii remote in the correct way, as they are not holding it in the correct position. They are also not following the choreography or dance routine properly, which could be due to inexperience or lack of practice.
+Skill Level: Novice",Novice,False
+e0ee6d25-73ea-4301-900d-c40a4d1e82dc,upenn_0720_Dance_3_11,Early Expert,"Observations: The person is dancing in a large room, wearing a pink shirt and grey pants. They are holding a Wii remote in their right hand and a Nunchuck in their left hand. They are moving their arms and legs in a coordinated manner, suggesting that they are playing a video game.
+Errors: The person is not using the Wii remote and Nunchuck properly, as they are not swinging the remote and Nunchuck in a way that would mimic the movements of a real tennis racket.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a yellow wall. They are wearing a black shirt and pants. The dancer is moving their arms and legs in a coordinated manner, displaying a good sense of rhythm and timing.
+Errors: The dancer's feet are not in sync with the music, which could be improved.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+a34204b4-1ebb-4cec-a338-f4e543669820,uniandes_dance_012_25,Intermediate Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing black pants and a black top. They are holding a camera in their right hand and a pole in their left hand. They are moving their body in a rhythmic manner, with their arms and legs moving in sync.
+Errors: The person is not using the pole properly, as they are not holding it correctly. They are also not using the camera properly, as they are not holding it in a way that would allow them to capture the best angle.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a black background. They are wearing a black dress and are performing a dance routine. The person's body position is well-balanced, and they are using their arms and legs to move in a coordinated manner.
+Errors: The person's movements are not perfectly synchronized, and there are some moments where they lose balance.
+Skill Level: Intermediate Expert",Intermediate Expert,True
+3f508ce8-ba11-49d3-848c-ccd8c8b52c3d,upenn_0730_Dance_2_5,Late Expert,"Observations: The person is dancing in a large room with a pole in the middle. They are wearing black clothing and are performing a dance routine. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person is not using the pole in their dance routine, which could be a missed opportunity to add an additional element of difficulty and challenge to their performance.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a large number of chairs arranged in a circle. They are moving their body in a fluid motion, with their arms and legs moving in sync. The person appears to be skilled in their technique, as they are able to maintain their balance and rhythm throughout the dance.
+Errors: There are no apparent errors in the person's movement.
+Skill Level: Late Expert",Late Expert,True
+6b3a51f3-973e-44de-b300-ed1c25bc82d3,uniandes_dance_008_8,Late Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing a purple shirt and black pants. They are moving their arms and legs in a coordinated manner, suggesting that they are skilled in their dance technique.
+Errors: There are no apparent errors in their movement.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person in the video is performing a dance routine, and their body position and technique are quite impressive. They seem to be in sync with the music and are executing the moves with precision.
+Errors: There are no apparent errors in their movement.
+Skill Level: Late Expert",Late Expert,True
+5c4e796b-cb0b-4a72-b7ed-ad0dcc6aec1c,uniandes_dance_019_58,Late Expert,"Observations: The person is wearing black pants and a black shirt, and they are dancing in a room with a black background. They are moving their arms and legs in a coordinated manner, suggesting that they are skilled in their dance technique.
+Errors: There are no apparent errors in their movement.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their hands up in the air. The dancer's body position is well-balanced, and they are moving their arms and legs in a coordinated manner.
+Errors: The dancer's feet are not in sync with their arms, which could be improved.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+b0f9aa8b-0632-44a1-a6ab-8d698208169c,uniandes_dance_011_29,Late Expert,"Observations: The person is dancing on a hardwood floor, wearing a black shirt and yellow shoes. They are holding a white stick in their right hand and a yellow frisbee in their left hand. The person is moving their body in a rhythmic manner, with their feet moving in a coordinated manner.
+Errors: The person is not using the frisbee as a prop, which is a common technique in some dance styles.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black background. They are wearing a black shirt and black pants. The person is moving their arms and legs in a coordinated manner, suggesting a good level of skill.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+95bcacb6-e524-4aa8-91f3-22b12898779d,uniandes_dance_016_45,Novice,"Observations: The person is dancing in a room with a red and black backdrop. They are wearing black pants and a blue jacket. They are performing a dance routine that involves spinning and moving their arms and legs. The person's technique is precise and well-executed, with smooth movements and good posture.
+Errors: There are no errors in the person's movement.
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is dancing in a room with a black background. They are wearing a blue shirt and black pants. The dancer is moving their arms and legs in a coordinated manner, suggesting a good level of skill.
+Errors: The dancer's movements are not perfectly synchronized, indicating that they may be a novice or early expert dancer.
+Skill Level: Novice",Novice,True
+841d97d5-8a6b-4221-adea-5fa1aa3e9707,uniandes_dance_011_43,Early Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing black pants and a black top. They are holding a pole in their right hand and a ball in their left hand. They are moving their body in a rhythmic manner, with their feet moving in a coordinated manner.
+Errors: The person is not using the pole properly, as they are not holding it correctly. They are also not using the ball in a proper manner, as they are not throwing it in a coordinated manner.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black shirt and black pants. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+5b5a6017-4b2e-4529-a348-84bc64d1d3c3,upenn_0727_Partner_Dance_2_2_4,Early Expert,"Observations: The person is dancing in a large room, wearing a pink dress. They are moving their arms and legs in a coordinated manner, suggesting a good level of skill.
+Errors: The person is not wearing shoes, which could affect their stability and movement.
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is dancing in a room with chairs and a dining table. They are wearing a black shirt and glasses. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized with the music, indicating that they may not be an expert dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+b0f43b31-88d6-4173-bc98-543c8f8d938d,uniandes_dance_016_44,Novice,"Observations: The person is dancing in a room with a red and white sign on the wall. They are wearing a blue jacket and black pants. They are moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized with the music, indicating that they may not be an expert dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's body position is well-balanced, and they are moving in a rhythmic manner.
+Errors: The dancer's feet are not in sync with the rest of their body, which could be a sign of an imprecise movement.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+6e4400c5-0bd9-454f-97d4-4fe35fe31682,uniandes_dance_022_9,Novice,"Observations: The person is dancing in a room with a large sign on the wall. They are wearing blue jeans and a black shirt. They are moving their arms and legs in a coordinated manner, suggesting that they have some level of skill in dancing.
+Errors: The person's movements are not perfectly synchronized with the music, indicating that they may not be an expert dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black background. They are wearing a black dress and are moving their arms and legs in a coordinated manner. The dancer appears to be in sync with the music.
+Errors: The dancer's movements are not perfectly synchronized with the music, and there are some moments where they are not in the right position.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+1e31765b-d0e0-4317-a361-2e81613a5c61,uniandes_dance_021_20,Intermediate Expert,"Observations: The person is dancing in a room with a black background and a white floor. They are wearing a black shirt and black pants. The person is moving their arms and legs in a coordinated manner, suggesting a good level of skill.
+Errors: The person is not wearing any shoes, which could be a safety concern.
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with a black background. They are wearing a black shirt and pants. The dancer is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience.
+Errors: The dancer's movements are not perfectly synchronized, indicating that they may be a novice or early expert dancer.
+Skill Level: Novice",Novice,False
+3cffe89e-da73-4297-808a-d185d49959f1,uniandes_dance_022_48,Late Expert,"Observations: The person is dancing in a room with a red wall and a white wall. They are wearing black pants and a white shirt. They are moving their arms and legs in a coordinated manner, suggesting that they are skilled in their dance technique.
+Errors: The person's feet are not in sync with their body movements, which could indicate a lack of proper footwork or a lack of experience in dancing.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with black curtains. They are wearing a pink shirt and black pants. The dancer is performing a routine that involves spinning and moving their arms and legs. The dancer's technique is precise and well-executed, with smooth movements and a good sense of rhythm.
+
+Errors: There are no errors or imprecisions in the dancer's movement.
+
+Skill Level: The dancer's skill level is late expert. The dancer's movements are fluid and well-coordinated, indicating a high level of experience and mastery in their craft.",Late Expert,True
+f1415a2f-c967-450e-bc9a-53a49abdd5e5,uniandes_dance_008_38,Late Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing a grey shirt and red pants. They are moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's feet are not in sync with their body movements, which could indicate a lack of proper technique or a beginner's mistake.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and are performing a dance routine. The person's body position is well-balanced, and they are using their arms and legs to move in a coordinated manner.
+Errors: The person's movements are not perfectly synchronized, and there are some moments where they lose balance or stumble.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+3a327064-721f-4571-a510-29de32f82342,uniandes_dance_013_8,Early Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing a blue shirt and black pants. They are moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a blue shirt and black pants. The dancer is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience.
+Errors: The dancer's movements are not perfectly synchronized, indicating that they may be a novice or early expert dancer.
+Skill Level: Novice",Novice,False
+f809a447-5414-4539-8bfd-2f6baa32dc1c,uniandes_dance_021_53,Early Expert,"Observations: The person is dancing in a room with a black background. They are wearing a purple shirt and black pants. They are performing a dance routine with their arms and legs, moving in a coordinated manner. The person's body position and technique are precise and well-executed.
+Errors: There are no errors or imprecisions in their movement.
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's technique is precise and well-executed, with fluid movements and a strong sense of rhythm.
+Errors: There are no noticeable errors in the dancer's technique or form.
+Skill Level: Late Expert",Late Expert,False
+a20971f0-7778-436f-a3de-ffbc64d59b06,uniandes_dance_017_5,Novice,"Observations: The person is dancing in a room with a black background. They are wearing a blue shirt and black pants. They are moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's movements are fluid and graceful, indicating a high level of skill and experience.
+Errors: There are no apparent errors in the dancer's technique or body position.
+Skill Level: Late Expert",Late Expert,False
+6eba8ef2-4d47-4d63-a864-e4dc64f8231b,uniandes_dance_021_5,Late Expert,"Observations: The person is dancing in a room with a black background. They are wearing black clothing and are moving their arms and legs in a coordinated manner. The dancer appears to be in sync with the music and is displaying a good level of skill.
+Errors: There are no apparent errors in the dancer's technique or body position.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a white wall and a black background. They are wearing a black shirt and pants, and their body position is upright with their arms and legs moving in a coordinated manner. The dancer's technique is precise and well-executed, with smooth transitions between movements.
+Errors: There are no noticeable errors in the dancer's technique or body position.
+Skill Level: Late Expert",Late Expert,True
+0f2b6d29-7921-402f-9a5b-59dd9a15f515,uniandes_dance_012_28,Late Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing black pants and a grey shirt. They are holding a Wii remote in their right hand and a Nunchuck in their left hand. They are moving their arms and legs in a coordinated manner, suggesting that they are following a choreography or a specific dance routine.
+Errors: The person is not using the Wii remote and Nunchuck in the correct manner, as they are not pointing the remote at the sensor bar and are not using the Nunchuck to control the character's movement.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a white floor and black curtains. They are wearing a black shirt and black pants. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+88f21f26-5c09-485c-9e63-a096acf58336,uniandes_dance_016_12,Early Expert,"Observations: The person is dancing in a room with a red wall and a black background. They are wearing a black tank top and black pants. The dancer is performing a routine with a lot of spins and turns. They are using their arms and legs to create fluid movements.
+Errors: The dancer's movements are not perfectly synchronized with the music, and they are not following a specific choreography.
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's body position is well-balanced, and they are moving in a rhythmic manner.
+Errors: The dancer's feet are not in sync with the rest of their body, which could be a sign of an imprecise movement.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+3abfad56-574e-41ad-abb1-6a002c69a5c7,uniandes_dance_024_17,Early Expert,"Observations: The person is wearing a black bodysuit and is dancing in a room with a red wall. They are moving their arms and legs in a coordinated manner, suggesting a good level of skill and experience in dancing.
+Errors: There are no apparent errors in their movement.
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black shirt and black pants. The dancer is moving their arms and legs in a coordinated manner, suggesting a good level of skill.
+Errors: The dancer's movements are not perfectly synchronized, indicating that they may be a novice or early expert dancer.
+Skill Level: Novice",Novice,False
+cbc710de-4393-470d-91bd-f6af9f09f7c4,uniandes_dance_022_7,Novice,"Observations: The person is dancing in a room with a large sign on the wall. They are wearing a black shirt and blue jeans. They are moving their arms and legs in a coordinated manner, suggesting that they have some level of skill in dancing.
+Errors: The person is not following the choreography of the dance, which could indicate a lack of experience or a lack of focus on the dance.
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's body position is well-balanced, and they are moving in a rhythmic manner.
+Errors: The dancer's feet are not in sync with the rest of their body, which could be a sign of an imprecise movement.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+24437400-1478-4239-8f4d-788d88568a9e,uniandes_dance_021_23,Intermediate Expert,"Observations: The person is dancing in a room with a black background. They are wearing a black shirt and black pants. The person is moving their arms and legs in a coordinated manner, suggesting a good level of skill.
+Errors: The person is not wearing shoes, which could be a safety concern.
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with a white wall and a black floor. They are wearing black pants and a black shirt. The person is moving their arms and legs in a coordinated manner, suggesting that they are skilled in dancing.
+Errors: The person's feet are not in sync with their arms, which could indicate a lack of coordination or a beginner's mistake.
+Skill Level: Novice",Novice,False
+d351ce4f-6cd3-45f3-8514-77c1eb3adffa,uniandes_dance_011_16,Intermediate Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing blue pants and a blue shirt. They are moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with a wooden floor. They are wearing a blue shirt and jeans. The dancer is moving their arms and legs in a coordinated manner, suggesting a good level of skill.
+Errors: The dancer's feet are not in sync with their arms, which could indicate a lack of proper technique.
+Skill Level: Novice",Novice,False
+ee8eed89-5348-4a6a-8eb3-f9fc80fad1ea,uniandes_dance_019_18,Intermediate Expert,"Observations: The person is dancing in a room with a red wall and a black background. They are wearing black pants and a black shirt. They are moving their arms and legs in a coordinated manner, suggesting that they are skilled in their dance technique.
+Errors: The person's feet are not in sync with their body movements, which could indicate a lack of proper footwork or a lack of experience in dancing.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and are performing a dance routine. The person's body position is well-balanced, and they are executing the dance moves with precision.
+Errors: There are no errors or imprecisions in their movement.
+Skill Level: Late Expert",Late Expert,False
+1e5e4324-4624-468a-9ec0-679f4be6da72,uniandes_dance_017_36,Early Expert,"Observations: The person is dancing in a room with a black background. They are wearing black pants and a black shirt. They are moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black walls and a black floor. They are wearing a black shirt and black pants. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+96f28cc0-fa8c-4502-afff-092aee3a875b,uniandes_dance_012_22,Intermediate Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing black pants and a black shirt. They are holding a pair of sticks in their hands and are moving their arms and legs in a coordinated manner.
+Errors: The person is not using the sticks in a proper manner, as they are not swinging them in a rhythmic pattern.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a black background. They are wearing a black dress and are moving their arms and legs in a coordinated manner. The dancer appears to be in sync with the music.
+Errors: The dancer's movements are not perfectly synchronized with the music, and there are some moments where they are not in the right position.
+Skill Level: Intermediate Expert",Intermediate Expert,True
+a49424bb-676f-471c-8152-6a0b1b5bb6e6,uniandes_dance_012_29,Late Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing a black shirt and black pants. They are moving their arms and legs in a coordinated manner, suggesting that they are skilled in dancing.
+Errors: The person is not wearing shoes, which could be a safety concern.
+Skill Level: Late Expert",Late Expert,True,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's body position is well-balanced, and they are moving in a rhythmic manner.
+Errors: The dancer's feet are not in sync with the rest of their body, which could be a sign of an imprecise movement.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+09d78f26-514a-43c2-a55e-d9b17d5e1a32,upenn_0706_Dance_1_7,Early Expert,"Observations: The person is dancing in a large room, wearing a black and white dress. They are moving their arms and legs in a coordinated manner, suggesting a good level of skill and experience.
+Errors: The person is not using their feet to move, which is a common technique in dance.
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is dancing in a room with a wooden floor. They are wearing a black dress and are moving their arms and legs in a coordinated manner. The dancer appears to be in sync with the music.
+Errors: The dancer's feet are not in the correct position, and their arms are not moving in a fluid motion.
+Skill Level: Novice",Novice,False
+989d5e04-bb58-4db9-9d58-9639adc4cd43,upenn_0730_Dance_1_4,Intermediate Expert,"Observations: The person is dancing in a large room with a lot of chairs and a dining table. They are wearing a grey shirt and jeans. The person is moving their arms and legs in a coordinated manner, suggesting that they have some experience in dancing.
+Errors: The person is not using their feet to move, which is a common technique in dancing. They are also not using their hips and torso to move, which is another essential aspect of dancing.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a green and white wall. They are wearing a white shirt and black shorts. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,True
+62d2aac8-8afb-4193-830f-8d156bedf232,upenn_0720_Dance_3_13,Early Expert,"Observations: The person is dancing in a large open space, with their arms and legs moving in a coordinated manner. They are wearing a pink shirt and blue shorts, and their hair is tied up in a ponytail. The dancer appears to be in good physical shape and has a good sense of rhythm.
+Errors: The dancer's feet are not in sync with the rest of their body, which could be a result of improper footwork or lack of practice.
+Skill Level: Early Expert",Early Expert,True,"Observations: The person is dancing in a dark room, and their body position is not clearly visible. However, based on the movements, it appears that they are performing a simple dance routine.
+Errors: The person's technique is not very precise, and their movements are not very fluid.
+Skill Level: Novice",Novice,False
+f6890d9d-d0c3-43c8-9400-6cff7cc17801,uniandes_dance_007_4,Intermediate Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing black and red clothing and are holding a tennis racket. They are moving their arms and legs in a coordinated manner, suggesting that they are skilled in their dance technique.
+Errors: There are no apparent errors in their movement.
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with a black floor and white walls. They are wearing a black shirt and black pants. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,True
+f60ab291-aa57-4e41-bbbe-e9ab817f3246,uniandes_dance_012_33,Late Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing black pants and a grey shirt. They are moving their arms and legs in a coordinated manner, suggesting that they are skilled in dancing.
+Errors: The person is not wearing shoes, which could affect their stability and movement.
+Skill Level: Late Expert",Late Expert,True,"Observations: The person is dancing in a room with a large window. They are wearing a black shirt and pants, and their hair is tied back in a ponytail. They are moving their arms and legs in a coordinated manner, suggesting that they have some experience in dancing.
+Errors: The person's movements are not perfectly synchronized, and they are not following a specific choreography.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+49bb4a74-17a2-4375-9073-2beb29c76137,upenn_0706_Dance_2_2,Intermediate Expert,"Observations: The person is dancing in a large room with a wooden floor. They are wearing a yellow shirt and black skirt, and they are holding a stick in their hand. They are moving their body in a rhythmic manner, and their movements are coordinated with the music.
+Errors: The person is not using the stick in a traditional manner, and their movements are not perfectly synchronized with the music.
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with a wooden floor and chairs arranged around the room. They are wearing a black dress and are moving their arms and legs in a coordinated manner. The dancer appears to be in sync with the music and is displaying a good sense of rhythm and timing.
+Errors: The dancer's feet are not in sync with the music, which could be a result of improper footwork or lack of practice.
+Skill Level: Intermediate Expert",Intermediate Expert,True
+479f94a8-acb9-4157-b6bd-4f2a2a6cf3c9,uniandes_dance_020_61,Early Expert,"Observations: The person is dancing in a room with a black background. They are wearing a black shirt and black pants. They are performing a dance routine with their arms and legs. The person is moving their body in a fluid motion, and their movements are well-coordinated.
+Errors: There are no errors in the person's movement.
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is dancing in a room with a black background. They are wearing a black dress and have their hands up in the air. The dancer's body position is upright, and they are moving their arms and legs in a coordinated manner.
+Errors: The dancer's feet are not in sync with their arms, which could be improved for a more fluid and graceful performance.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+dd258fcf-873f-4fcd-b2d3-04525159b68a,uniandes_dance_022_5,Novice,"Observations: The person is dancing in a room with a large sign on the wall. They are wearing a black shirt and blue jeans. They are moving their arms and legs in a coordinated manner, suggesting that they have some level of skill in dancing.
+Errors: The person's movements are not perfectly synchronized with the music, indicating that they may not be an expert dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's body position is well-balanced, and they are moving in a rhythmic manner.
+Errors: The dancer's feet are not in sync with the rest of their body, which could be a sign of an imprecise movement.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+603787e2-be4b-4b24-9632-34921013623f,uniandes_dance_021_17,Intermediate Expert,"Observations: The person is dancing in a room with a black background and a white floor. They are wearing a black shirt and black pants. The person is moving their arms and legs in a coordinated manner, suggesting that they are skilled in dancing.
+Errors: The person is not wearing any shoes, which could be a safety concern.
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is dancing in a room with a black background. They are wearing a black dress and have their arms outstretched. The dancer's technique is precise and well-executed, with fluid movements and a strong sense of rhythm.
+Errors: There are no noticeable errors in the dancer's technique or form.
+Skill Level: Late Expert",Late Expert,False
+fad811da-e457-4d2a-8cf4-c3a09c11a41a,uniandes_dance_019_15,Intermediate Expert,"Observations: The person is dancing in a room with a black background. They are wearing a black shirt and black pants. They are performing a dance routine that involves spinning around and moving their arms and legs. The person's body position is well-coordinated, and they seem to be in control of their movements.
+Errors: There are no apparent errors in the person's movement.
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's body position is well-balanced, and they are moving in a rhythmic manner.
+Errors: The dancer's feet are not in sync with the rest of their body, which could be a sign of an imprecise movement.
+Skill Level: Intermediate Expert",Intermediate Expert,True
+0eadf1dd-55c6-4cd1-8b2d-5b132fcb5016,uniandes_dance_022_27,Late Expert,"Observations: The person is dancing in a room with a red wall and a black background. They are wearing a black shirt and black pants. The person is moving their arms and legs in a coordinated manner, suggesting a good level of skill.
+Errors: The person is not using their feet to move, which is a common technique in dance.
+Skill Level: Late Expert",Late Expert,True,"Observations: The person is dancing in a room with a black background. They are wearing a white shirt and black pants. The dancer is performing a routine that involves spinning around and moving their arms and legs in a coordinated manner. The dancer's technique is precise and well-executed, with smooth transitions between movements.
+
+Errors: There are no noticeable errors in the dancer's technique or body position.
+
+Skill Level: The dancer appears to be an intermediate expert in their craft, as they demonstrate a high level of skill and control in their movements.",Intermediate Expert,False
+9d950899-e619-4399-867c-70871cc0d679,uniandes_dance_024_4,Novice,"Observations: The person is dancing in a room with a red wall and a black background. They are wearing a black shirt and jeans. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized with the music, indicating that they may not be an expert dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's body position is well-balanced, and they are moving in a rhythmic manner.
+Errors: The dancer's feet are not in sync with the rest of their body, which could be a sign of an imprecise movement.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+7e4d7d4f-abfb-4e89-87e0-7f86e27ada86,uniandes_dance_008_44,Intermediate Expert,"Observations: The person is dancing in a room with a white wall and a window. They are wearing black pants and a white shirt. They are holding a stick in their right hand and a ball in their left hand. They are moving their arms and legs in a coordinated manner, suggesting that they are skilled in their dance technique.
+Errors: The person is not using the ball in their left hand, which is an essential part of the dance routine.
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's technique is precise and well-executed, with fluid movements and a strong sense of rhythm.
+Errors: There are no noticeable errors in the dancer's technique or form.
+Skill Level: Late Expert",Late Expert,False
+d5d3590f-44e7-4305-b612-ff055b0e688a,uniandes_dance_024_2,Novice,"Observations: The person is dancing in a room with a red wall and a white floor. They are wearing a black shirt and jeans. They are moving their arms and legs in a coordinated manner, suggesting that they have some level of skill in dancing.
+Errors: The person is not wearing any shoes, which could affect their stability and balance while dancing.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black background. They are wearing a white shirt and black pants. The dancer is moving their arms and legs in a coordinated manner, suggesting a good level of skill.
+Errors: The dancer's movements are not perfectly synchronized, indicating that they may be a novice or early expert dancer.
+Skill Level: Novice",Novice,True
+cd81519b-13c1-437e-b357-8ec99ae9c757,uniandes_dance_011_33,Late Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing a black shirt and orange pants. They are moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person is not using any props or additional equipment to enhance their dance performance.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a white floor and black curtains. They are wearing a black shirt and are moving their arms and legs in a coordinated manner. The dancer appears to be in sync with the music.
+Errors: The dancer's movements are not perfectly synchronized with the music, and there are some moments where they are not in the correct position.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+adad25b8-0920-4181-9bd4-1f8207e85d82,uniandes_dance_019_49,Late Expert,"Observations: The person is wearing black pants and a black shirt, and they are dancing in a room with a black background. They are moving their arms and legs in a coordinated manner, suggesting that they are skilled in their dance technique.
+Errors: There are no apparent errors in their movement.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's body position is well-balanced, and they are moving in a rhythmic manner.
+Errors: The dancer's feet are not in sync with the rest of their body, which could be a sign of an imprecise movement.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+dfb66cb4-6235-4f55-b361-934586fbcaaa,uniandes_dance_022_10,Novice,"Observations: The person is dancing in a room with a red wall and a white floor. They are wearing blue jeans and a black jacket. They are moving their arms and legs in a coordinated manner, suggesting that they have some level of skill in dancing.
+Errors: The person is not wearing any shoes, which could be a safety hazard.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's movements are fluid and graceful, indicating a high level of skill.
+Errors: There are no noticeable errors in the dancer's technique or body position.
+Skill Level: Late Expert",Late Expert,False
+35a3c4e1-f420-4242-bcab-4d208dc9a391,upenn_0706_Dance_2_5,Intermediate Expert,"Observations: The person is dancing in a large room, wearing a black skirt and yellow top. They are moving their arms and legs in a coordinated manner, suggesting a good level of skill and experience.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with a wooden floor and chairs arranged around the perimeter. They are wearing a black dress and are performing a routine that involves spinning and twirling. The dancer's technique is precise and well-executed, with fluid movements and controlled spins.
+Errors: There are no noticeable errors in the dancer's technique or body position.
+Skill Level: Late Expert",Late Expert,False
+4d159481-830d-4789-b0ff-368031a98757,uniandes_dance_015_18,Late Expert,"Observations: The person is dancing in a room with a white wall and a red wall. They are wearing black pants and a black shirt. They are holding a tennis racket in their right hand and a tennis ball in their left hand. They are moving their body in a rhythmic manner, with their feet moving in a coordinated manner.
+Errors: The person is not using the tennis racket to hit the ball, but rather holding it in their hand.
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black shirt and black pants. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+28c3553f-3212-43ee-a050-7ea2d49fdf0e,uniandes_dance_017_58,Novice,"Observations: The person is dancing in a room with a black background. They are wearing black pants and a black top. They are performing a dance routine with their arms and legs. The person is moving their body in a fluid motion, and their technique appears to be well-executed.
+Errors: There are no errors in the person's movement.
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is dancing in a room with a white wall and a black curtain. They are wearing a black shirt and pants. The dancer is moving their arms and legs in a coordinated manner, displaying a good sense of rhythm and timing.
+Errors: The dancer's movements are not perfectly synchronized with the music, which could be improved.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+02d13286-0b54-46e8-8461-9c056627a97d,upenn_0720_Dance_3_3,Early Expert,"Observations: The person is performing a dance routine in a room with a wooden floor. They are wearing a black shirt and red shorts. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person is not wearing shoes, which could be a safety hazard and affect their performance.
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is dancing in a room with a large ceiling and a few lights. They are wearing a black dress and are moving their arms and legs in a rhythmic manner. The dancer appears to be in sync with the music.
+Errors: The dancer's movements are not perfectly synchronized with the music, and there are a few moments where they lose their rhythm.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+e5488136-6259-4050-bc34-4717cc15dd1a,uniandes_dance_020_11,Early Expert,"Observations: The person is dancing in a room with a black background. They are wearing a black shirt and jeans. The person is moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized with the music, indicating that they may not be an expert dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black background. They are wearing a white shirt and black pants. The dancer is moving their arms and legs in a coordinated manner, suggesting a good level of skill.
+Errors: The dancer's movements are not perfectly synchronized, indicating that they may be a novice or early expert dancer.
+Skill Level: Novice",Novice,False
+824f472b-db42-4d38-99ed-2750bc14817e,upenn_0629_Dance_3_4,Early Expert,"Observations: The person is dancing in a room with a wooden floor. They are wearing blue jeans and a plaid shirt. They are moving their arms and legs in a coordinated manner, suggesting a certain level of skill and experience in dancing.
+Errors: The person's movements are not perfectly synchronized, indicating that they may be a beginner or intermediate dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a wooden floor and a white chair. They are wearing a black shirt and pants and are moving their arms and legs in a coordinated manner. The dancer appears to be in sync with the music and is displaying good technique.
+Errors: There are no apparent errors in the dancer's movement.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+215abe5f-a97f-4ee6-87bd-d261e75f1701,uniandes_dance_022_6,Novice,"Observations: The person is dancing in a room with a large sign on the wall. They are wearing a black shirt and blue jeans. They are moving their arms and legs in a coordinated manner, suggesting that they have some level of skill in dancing.
+Errors: The person is not following the rhythm of the music, which could be a sign of inexperience or lack of focus.
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's body position is well-balanced, and they are moving in a rhythmic manner.
+Errors: The dancer's feet are not in sync with the rest of their body, which could be a sign of an imprecise movement.
+Skill Level: Intermediate Expert",Intermediate Expert,False
+657b877d-3cdb-4798-a9bf-101ab82cc95b,uniandes_dance_020_18,Novice,"Observations: The person is dancing in a room with a black background. They are wearing a red shirt and black pants. They are moving their arms and legs in a coordinated manner, suggesting that they are skilled in dancing.
+Errors: The person is not wearing shoes, which could affect their stability and movement.
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is dancing in a room with black walls and a white floor. They are wearing a red shirt and black pants. The dancer is moving their arms and legs in a coordinated manner, suggesting a good level of skill.
+Errors: The dancer's movements are not perfectly synchronized, indicating that they may be a novice or early expert dancer.
+Skill Level: Novice",Novice,True
+3a2303bf-8d6f-4211-8c25-4430cd051e2d,uniandes_dance_012_14,Intermediate Expert,"Observations: The person is dancing in a room with a white floor and a window. They are wearing black pants and a black top. They are holding a stick in their right hand and a ball in their left hand. The person is moving their body in a rhythmic manner, with their feet moving in a coordinated manner.
+Errors: The person is not using the ball in their left hand, which is an essential part of the dance routine.
+Skill Level: Novice",Novice,False,"Observations: The person in the video is performing a dance routine, with their body position and technique being the main focus. They are moving their arms and legs in a coordinated manner, showcasing their skill and artistry.
+Errors: There are no apparent errors in the person's movement, indicating a high level of skill and precision.
+Skill Level: Late Expert",Late Expert,False
+590c85d3-71c1-4896-9899-a843ccaa6ef2,uniandes_dance_023_56,Early Expert,"Observations: The person is dancing in a room with a large sign on the wall. They are wearing a black shirt and black pants. They are moving their arms and legs in a coordinated manner, suggesting that they are skilled in their dance technique.
+Errors: The person's movements are not perfectly synchronized with the music, indicating that they may not be an expert dancer.
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black dress and have their arms outstretched. The dancer's body position is well-balanced, and they are moving in a rhythmic manner.
+Errors: The dancer's feet are not in sync with the rest of their body, which could be a sign of an imprecise movement.
+Skill Level: Intermediate Expert",Intermediate Expert,False

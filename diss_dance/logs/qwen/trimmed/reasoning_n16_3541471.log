@@ -1,0 +1,449 @@
+Sun Jul 12 23:25:36 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H200                    On  |   00000000:4C:00.0 Off |                   On |
+| N/A   27C    P0            124W /  700W |   16559MiB / 143771MiB |     N/A      Default |
+|                                         |                        |              Enabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| MIG devices:                                                                            |
++------------------+----------------------------------+-----------+-----------------------+
+| GPU  GI  CI  MIG |              Shared Memory-Usage |        Vol|        Shared         |
+|      ID  ID  Dev |                Shared BAR1-Usage | SM     Unc| CE ENC  DEC  OFA  JPG |
+|                  |                                  |        ECC|                       |
+|==================+==================================+===========+=======================|
+|  0    1   0   0  |              44MiB / 71424MiB    | 60      0 |  3   0    3    0    3 |
+|                  |               0MiB / 59237MiB    |           |                       |
++------------------+----------------------------------+-----------+-----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading takes metadata...
+Loaded 5035 takes.
+
+Loading Qwen2.5-VL-7B ...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:01<14:10,  1.17s/it]Loading weights:   5%|▍         | 34/729 [00:01<00:19, 35.03it/s]Loading weights:   7%|▋         | 48/729 [00:01<00:16, 41.34it/s]Loading weights:   8%|▊         | 59/729 [00:01<00:15, 43.78it/s]Loading weights:   9%|▉         | 68/729 [00:01<00:14, 46.17it/s]Loading weights:  11%|█         | 77/729 [00:02<00:12, 52.38it/s]Loading weights:  12%|█▏        | 88/729 [00:02<00:12, 51.20it/s]Loading weights:  14%|█▍        | 101/729 [00:02<00:10, 61.34it/s]Loading weights:  15%|█▌        | 112/729 [00:02<00:10, 57.67it/s]Loading weights:  17%|█▋        | 124/729 [00:02<00:08, 68.63it/s]Loading weights:  18%|█▊        | 133/729 [00:02<00:08, 68.70it/s]Loading weights:  19%|█▉        | 141/729 [00:02<00:09, 64.66it/s]Loading weights:  20%|██        | 149/729 [00:03<00:10, 53.37it/s]Loading weights:  22%|██▏       | 161/729 [00:03<00:10, 53.86it/s]Loading weights:  24%|██▍       | 174/729 [00:03<00:08, 66.82it/s]Loading weights:  25%|██▌       | 184/729 [00:03<00:08, 62.33it/s]Loading weights:  27%|██▋       | 196/729 [00:03<00:07, 72.42it/s]Loading weights:  28%|██▊       | 205/729 [00:03<00:07, 72.88it/s]Loading weights:  29%|██▉       | 213/729 [00:04<00:07, 69.68it/s]Loading weights:  30%|███       | 221/729 [00:04<00:09, 51.82it/s]Loading weights:  32%|███▏      | 234/729 [00:04<00:07, 63.31it/s]Loading weights:  33%|███▎      | 244/729 [00:04<00:07, 64.01it/s]Loading weights:  35%|███▌      | 257/729 [00:04<00:08, 58.77it/s]Loading weights:  37%|███▋      | 270/729 [00:05<00:06, 71.54it/s]Loading weights:  38%|███▊      | 280/729 [00:05<00:07, 61.75it/s]Loading weights:  40%|████      | 293/729 [00:05<00:06, 66.33it/s]Loading weights:  42%|████▏     | 304/729 [00:05<00:05, 73.90it/s]Loading weights:  43%|████▎     | 316/729 [00:05<00:06, 65.72it/s]Loading weights:  45%|████▍     | 328/729 [00:05<00:05, 73.76it/s]Loading weights:  53%|█████▎    | 383/729 [00:05<00:01, 174.26it/s]Loading weights:  65%|██████▌   | 474/729 [00:06<00:00, 344.91it/s]Loading weights:  78%|███████▊  | 565/729 [00:06<00:00, 482.91it/s]Loading weights:  91%|█████████ | 661/729 [00:06<00:00, 607.16it/s]Loading weights: 100%|██████████| 729/729 [00:06<00:00, 114.91it/s]
+Model loaded.
+
+Clips: 100 | frames: 16 | TRIMMED | Dance
+
+[1/100] upenn_0730_Dance_1_7 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The person in the video appears to be a novice dancer. Their movements a
+
+[2/100] uniandes_dance_017_3 (GT=Novice)
+  exo: Intermediate Expert X | The dancer in the video demonstrates a moderate level of skill, which can be cat
+  ego: Novice OK | Novice  The dancer's movements appear to be uncoordinated and lack fluidity. The
+
+[3/100] uniandes_dance_023_26 (GT=Late Expert)
+  exo: Late Expert OK | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's movements appear to be uncoordinated and lack fluidity. The
+
+[4/100] uniandes_dance_008_51 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[5/100] uniandes_dance_022_3 (GT=Novice)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice OK | Novice  The dancer's body alignment appears to be off, as the shoulders and hips
+
+[6/100] upenn_0629_Dance_3_6 (GT=Early Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[7/100] uniandes_dance_015_22 (GT=Late Expert)
+  exo: Unknown X | The dancer in the video demonstrates a good understanding of basic dance techniq
+  ego: Novice X | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[8/100] uniandes_dance_016_43 (GT=Novice)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice OK | Novice  The dancer's body alignment appears to be off, as the shoulders and hips
+
+[9/100] uniandes_dance_022_11 (GT=Novice)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice OK | Novice  The dancer's body alignment appears to be off, as the shoulders and hips
+
+[10/100] uniandes_dance_013_7 (GT=Early Expert)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[11/100] uniandes_dance_008_11 (GT=Late Expert)
+  exo: Late Expert OK | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[12/100] uniandes_dance_023_51 (GT=Early Expert)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off, as the shoulders and hips
+
+[13/100] uniandes_dance_024_3 (GT=Novice)
+  exo: Novice OK | Novice  The dancer in the video appears to be a novice due to several factors. F
+  ego: Novice OK | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[14/100] uniandes_dance_017_4 (GT=Novice)
+  exo: Intermediate Expert X | The dancer in the video demonstrates a moderate level of skill, which can be cat
+  ego: Novice OK | Novice  The dancer's movements appear to be uncoordinated and lack fluidity. The
+
+[15/100] uniandes_dance_022_17 (GT=Late Expert)
+  exo: Late Expert OK | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off, as the person is not stan
+
+[16/100] uniandes_dance_017_6 (GT=Novice)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice OK | Novice  The dancer's body alignment appears to be off, as the posture and positi
+
+[17/100] uniandes_dance_002_3 (GT=Late Expert)
+  exo: Late Expert OK | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off, as the person is not stan
+
+[18/100] uniandes_dance_002_13 (GT=Early Expert)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off, as the shoulders and hips
+
+[19/100] uniandes_dance_020_28 (GT=Novice)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice OK | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[20/100] upenn_0629_Dance_2_2 (GT=Early Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off, as the person is not stan
+
+[21/100] uniandes_dance_016_46 (GT=Novice)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice OK | Novice  The dancer's body alignment appears to be off, as the shoulders and hips
+
+[22/100] uniandes_dance_019_7 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | The dancer in the video demonstrates a moderate level of skill, which can be cat
+  ego: Novice X | Novice  The dancer's movements appear to be uncoordinated and lack fluidity. The
+
+[23/100] uniandes_dance_021_29 (GT=Intermediate Expert)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off, as the shoulders and hips
+
+[24/100] uniandes_dance_008_50 (GT=Intermediate Expert)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's movements appear to be uncoordinated and lack fluidity. The
+
+[25/100] uniandes_dance_021_19 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off, as the shoulders and hips
+
+[26/100] uniandes_dance_008_13 (GT=Late Expert)
+  exo: Late Expert OK | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[27/100] uniandes_dance_024_8 (GT=Novice)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice OK | Novice  The dancer's body alignment appears to be off, as the person is not stan
+
+[28/100] uniandes_dance_007_7 (GT=Intermediate Expert)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's movements appear to be uncoordinated and lack fluidity. The
+
+[29/100] uniandes_dance_021_12 (GT=Late Expert)
+  exo: Intermediate Expert X | The dancer in the video demonstrates a moderate level of skill, which can be cat
+  ego: Novice X | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[30/100] uniandes_dance_013_15 (GT=Late Expert)
+  exo: Novice X | Novice  The dancer in the video appears to be a novice due to several factors. F
+  ego: Novice X | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[31/100] uniandes_dance_012_24 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[32/100] uniandes_dance_020_27 (GT=Novice)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice OK | Novice  The dancer's body alignment appears to be off, as the shoulders and hips
+
+[33/100] upenn_0720_Dance_4_5 (GT=Early Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[34/100] uniandes_dance_019_20 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | The dancer in the video demonstrates a moderate level of skill, which can be cat
+  ego: Novice X | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[35/100] uniandes_dance_016_8 (GT=Early Expert)
+  exo: Intermediate Expert X | The dancer in the video demonstrates a moderate level of skill, which can be cat
+  ego: Novice X | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[36/100] uniandes_dance_020_34 (GT=Late Expert)
+  exo: Intermediate Expert X | The dancer appears to be at the Intermediate Expert level based on the following
+  ego: Novice X | Novice  The dancer's body alignment appears to be off, as the shoulders and hips
+
+[37/100] uniandes_dance_013_22 (GT=Late Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's movements appear to be uncoordinated and lack fluidity. The
+
+[38/100] upenn_0706_Dance_4_3 (GT=Early Expert)
+  exo: Novice X | Novice  The dancer in the video appears to be a novice due to several factors:  
+  ego: Novice X | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[39/100] uniandes_dance_012_19 (GT=Intermediate Expert)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off, as the person is not stan
+
+[40/100] uniandes_dance_002_24 (GT=Early Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[41/100] uniandes_dance_020_22 (GT=Novice)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice OK | Novice  The dancer's body alignment appears to be off, as the shoulders and hips
+
+[42/100] uniandes_dance_019_6 (GT=Intermediate Expert)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off, as the person is not stan
+
+[43/100] upenn_0720_Dance_3_7 (GT=Early Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[44/100] uniandes_dance_024_7 (GT=Novice)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice OK | Novice  The dancer's body alignment appears to be off, as the shoulders and hips
+
+[45/100] upenn_0727_Partner_Dance_2_1_4 (GT=Late Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer in the video appears to be a novice due to her lack of fluidi
+
+[46/100] upenn_0720_Dance_3_11 (GT=Early Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[47/100] uniandes_dance_012_25 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's movements appear to be uncoordinated and lack fluidity. The
+
+[48/100] upenn_0730_Dance_2_5 (GT=Late Expert)
+  exo: Late Expert OK | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer appears to be a novice based on the lack of fluidity and prec
+
+[49/100] uniandes_dance_008_8 (GT=Late Expert)
+  exo: Late Expert OK | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's movements appear to be uncoordinated and lack fluidity. The
+
+[50/100] uniandes_dance_019_58 (GT=Late Expert)
+  exo: Intermediate Expert X | The dancer in the video demonstrates a moderate level of skill, which can be cat
+  ego: Novice X | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[51/100] uniandes_dance_011_29 (GT=Late Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off, as the shoulders and hips
+
+[52/100] uniandes_dance_016_45 (GT=Novice)
+  exo: Intermediate Expert X | The dancer in the video demonstrates a moderate level of skill, which can be cat
+  ego: Novice OK | Novice  The dancer's body alignment appears to be off, as the shoulders and hips
+
+[53/100] uniandes_dance_011_43 (GT=Early Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's movements appear to be uncoordinated and lack fluidity. The
+
+[54/100] upenn_0727_Partner_Dance_2_2_4 (GT=Early Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[55/100] uniandes_dance_016_44 (GT=Novice)
+  exo: Intermediate Expert X | The dancer in the video demonstrates a moderate level of skill, which can be cat
+  ego: Novice OK | Novice  The dancer's body alignment appears to be off, as the shoulders and hips
+
+[56/100] uniandes_dance_022_9 (GT=Novice)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice OK | Novice  The dancer's movements appear to be uncoordinated and lack fluidity. The
+
+[57/100] uniandes_dance_021_20 (GT=Intermediate Expert)
+  exo: Late Expert X | The dancer in the video demonstrates a moderate level of skill, which can be cat
+  ego: Novice X | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[58/100] uniandes_dance_022_48 (GT=Late Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off, as the person is not stan
+
+[59/100] uniandes_dance_008_38 (GT=Late Expert)
+  exo: Late Expert OK | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off, as the shoulders and hips
+
+[60/100] uniandes_dance_013_8 (GT=Early Expert)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's movements appear to be uncoordinated and lack fluidity. The
+
+[61/100] uniandes_dance_021_53 (GT=Early Expert)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[62/100] uniandes_dance_017_5 (GT=Novice)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice OK | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[63/100] uniandes_dance_021_5 (GT=Late Expert)
+  exo: Late Expert OK | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off, as the person is not stan
+
+[64/100] uniandes_dance_012_28 (GT=Late Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's movements appear to be uncoordinated and lack fluidity. The
+
+[65/100] uniandes_dance_016_12 (GT=Early Expert)
+  exo: Intermediate Expert X | The dancer in the video demonstrates a moderate level of skill, which can be cat
+  ego: Novice X | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[66/100] uniandes_dance_024_17 (GT=Early Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on h
+  ego: Novice X | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[67/100] uniandes_dance_022_7 (GT=Novice)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice OK | Novice  The dancer's body alignment appears to be off, as the shoulders and hips
+
+[68/100] uniandes_dance_021_23 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[69/100] uniandes_dance_011_16 (GT=Intermediate Expert)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[70/100] uniandes_dance_019_18 (GT=Intermediate Expert)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off, as the shoulders and hips
+
+[71/100] uniandes_dance_017_36 (GT=Early Expert)
+  exo: Intermediate Expert X | The dancer in the video demonstrates a moderate level of skill, which can be cat
+  ego: Novice X | Novice  The dancer's body alignment appears to be off, as the shoulders and hips
+
+[72/100] uniandes_dance_012_22 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's movements appear to be uncoordinated and lack fluidity. The
+
+[73/100] uniandes_dance_012_29 (GT=Late Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's movements appear to be uncoordinated and lack fluidity. The
+
+[74/100] upenn_0706_Dance_1_7 (GT=Early Expert)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[75/100] upenn_0730_Dance_1_4 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The person in the video appears to be a novice dancer. Their movements a
+
+[76/100] upenn_0720_Dance_3_13 (GT=Early Expert)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[77/100] uniandes_dance_007_4 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's movements appear to be uncoordinated and lack fluidity. The
+
+[78/100] uniandes_dance_012_33 (GT=Late Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[79/100] upenn_0706_Dance_2_2 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[80/100] uniandes_dance_020_61 (GT=Early Expert)
+  exo: Intermediate Expert X | The dancer in the video demonstrates a moderate level of skill, which can be cat
+  ego: Novice X | Novice  The dancer's body alignment appears to be off, as the shoulders and hips
+
+[81/100] uniandes_dance_022_5 (GT=Novice)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice OK | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[82/100] uniandes_dance_021_17 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | The dancer in the video demonstrates a moderate level of skill, which can be cat
+  ego: Novice X | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[83/100] uniandes_dance_019_15 (GT=Intermediate Expert)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off, as the person is not stan
+
+[84/100] uniandes_dance_022_27 (GT=Late Expert)
+  exo: Intermediate Expert X | The dancer in the video demonstrates a moderate level of skill, which can be cat
+  ego: Novice X | Novice  The dancer's body alignment appears to be off, as the posture is not str
+
+[85/100] uniandes_dance_024_4 (GT=Novice)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice OK | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[86/100] uniandes_dance_008_44 (GT=Intermediate Expert)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[87/100] uniandes_dance_024_2 (GT=Novice)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice OK | Novice  The dancer's body alignment appears to be off, as the person is not stan
+
+[88/100] uniandes_dance_011_33 (GT=Late Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[89/100] uniandes_dance_019_49 (GT=Late Expert)
+  exo: Intermediate Expert X | The dancer in the video demonstrates a moderate level of skill, which can be cat
+  ego: Novice X | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[90/100] uniandes_dance_022_10 (GT=Novice)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice OK | Novice  The dancer's movements appear to be uncoordinated and lack fluidity. The
+
+[91/100] upenn_0706_Dance_2_5 (GT=Intermediate Expert)
+  exo: Late Expert X | The dancer appears to be at the Intermediate Expert level based on the following
+  ego: Novice X | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[92/100] uniandes_dance_015_18 (GT=Late Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's movements appear to be uncoordinated and lack fluidity. The
+
+[93/100] uniandes_dance_017_58 (GT=Novice)
+  exo: Intermediate Expert X | The dancer in the video demonstrates a moderate level of skill, which can be cat
+  ego: Novice OK | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[94/100] upenn_0720_Dance_3_3 (GT=Early Expert)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[95/100] uniandes_dance_020_11 (GT=Early Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[96/100] upenn_0629_Dance_3_4 (GT=Early Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer in the video appears to be a novice due to the lack of fluidi
+
+[97/100] uniandes_dance_022_6 (GT=Novice)
+  exo: Late Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice OK | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[98/100] uniandes_dance_020_18 (GT=Novice)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice OK | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[99/100] uniandes_dance_012_14 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | The dancer in the video appears to be at an intermediate expert level based on h
+  ego: Novice X | Novice  The dancer's body alignment appears to be off as they are not standing s
+
+[100/100] uniandes_dance_023_56 (GT=Early Expert)
+  exo: Intermediate Expert X | The dancer in the video appears to be at an intermediate expert level based on t
+  ego: Novice X | Novice  The dancer's body alignment appears to be off, as the person is not stan
+
+============================================================
+RESULTS — Dance | Qwen reasoning 16f TRIMMED
+============================================================
+  exo: 24/100 = 24.0%
+  ego: 25/100 = 25.0%
+Random chance: 25%
+Exo predictions: {'Intermediate Expert': 61, 'Late Expert': 35, 'Novice': 3, 'Unknown': 1}
+Ego predictions: {'Novice': 100}
+============================================================

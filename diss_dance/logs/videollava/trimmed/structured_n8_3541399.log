@@ -1,0 +1,450 @@
+Sun Jul 12 19:20:47 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H200                    On  |   00000000:3B:00.0 Off |                   On |
+| N/A   41C    P0            299W /  700W |   54949MiB / 143771MiB |     N/A      Default |
+|                                         |                        |              Enabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| MIG devices:                                                                            |
++------------------+----------------------------------+-----------+-----------------------+
+| GPU  GI  CI  MIG |              Shared Memory-Usage |        Vol|        Shared         |
+|      ID  ID  Dev |                Shared BAR1-Usage | SM     Unc| CE ENC  DEC  OFA  JPG |
+|                  |                                  |        ECC|                       |
+|==================+==================================+===========+=======================|
+|  0    1   0   0  |              44MiB / 71424MiB    | 60      0 |  3   0    3    0    3 |
+|                  |               0MiB / 59237MiB    |           |                       |
++------------------+----------------------------------+-----------+-----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading takes metadata...
+Loaded 5035 takes.
+
+Loading Video-LLaVA ...
+Loading weights:   0%|          | 0/1077 [00:00<?, ?it/s]Loading weights:   1%|          | 9/1077 [00:00<00:45, 23.42it/s]Loading weights:   2%|▏         | 25/1077 [00:00<00:26, 39.16it/s]Loading weights:   4%|▍         | 41/1077 [00:01<00:32, 31.52it/s]Loading weights:   4%|▍         | 45/1077 [00:01<00:49, 20.96it/s]Loading weights:   5%|▌         | 57/1077 [00:02<00:38, 26.55it/s]Loading weights:   7%|▋         | 73/1077 [00:02<00:35, 28.49it/s]Loading weights:   7%|▋         | 77/1077 [00:02<00:40, 24.77it/s]Loading weights:   9%|▉         | 99/1077 [00:03<00:21, 45.34it/s]Loading weights:  10%|█         | 108/1077 [00:03<00:29, 32.91it/s]Loading weights:  11%|█         | 121/1077 [00:03<00:27, 35.18it/s]Loading weights:  12%|█▏        | 127/1077 [00:04<00:48, 19.50it/s]Loading weights:  13%|█▎        | 137/1077 [00:05<00:43, 21.79it/s]Loading weights:  14%|█▍        | 153/1077 [00:05<00:32, 28.86it/s]Loading weights:  15%|█▍        | 158/1077 [00:05<00:29, 30.71it/s]Loading weights:  16%|█▌        | 169/1077 [00:05<00:28, 31.96it/s]Loading weights:  17%|█▋        | 185/1077 [00:06<00:28, 31.49it/s]Loading weights:  19%|█▊        | 201/1077 [00:06<00:28, 31.19it/s]Loading weights:  20%|██        | 217/1077 [00:07<00:23, 36.97it/s]Loading weights:  21%|██        | 227/1077 [00:08<00:38, 21.95it/s]Loading weights:  22%|██▏       | 239/1077 [00:08<00:29, 28.00it/s]Loading weights:  23%|██▎       | 249/1077 [00:08<00:29, 27.95it/s]Loading weights:  25%|██▍       | 265/1077 [00:08<00:23, 34.24it/s]Loading weights:  25%|██▌       | 270/1077 [00:09<00:26, 30.95it/s]Loading weights:  26%|██▌       | 281/1077 [00:09<00:24, 32.54it/s]Loading weights:  28%|██▊       | 297/1077 [00:09<00:19, 40.98it/s]Loading weights:  28%|██▊       | 302/1077 [00:09<00:20, 36.98it/s]Loading weights:  29%|██▉       | 313/1077 [00:10<00:19, 39.17it/s]Loading weights:  31%|███       | 329/1077 [00:11<00:29, 25.13it/s]Loading weights:  31%|███       | 333/1077 [00:11<00:33, 22.08it/s]Loading weights:  33%|███▎      | 355/1077 [00:11<00:18, 38.94it/s]Loading weights:  34%|███▎      | 363/1077 [00:12<00:22, 31.77it/s]Loading weights:  35%|███▌      | 377/1077 [00:12<00:25, 27.77it/s]Loading weights:  35%|███▌      | 377/1077 [00:30<00:25, 27.77it/s]Loading weights:  36%|███▋      | 392/1077 [00:33<05:35,  2.04it/s]Loading weights:  36%|███▋      | 393/1077 [00:36<06:26,  1.77it/s]Loading weights:  38%|███▊      | 404/1077 [00:38<05:12,  2.15it/s]Loading weights:  38%|███▊      | 407/1077 [00:39<04:56,  2.26it/s]Loading weights:  38%|███▊      | 409/1077 [00:40<04:51,  2.29it/s]Loading weights:  38%|███▊      | 411/1077 [00:41<04:47,  2.32it/s]Loading weights:  38%|███▊      | 413/1077 [00:45<07:16,  1.52it/s]Loading weights:  38%|███▊      | 414/1077 [00:47<08:36,  1.28it/s]Loading weights:  39%|███▊      | 415/1077 [00:47<08:27,  1.30it/s]Loading weights:  39%|███▉      | 419/1077 [00:48<05:41,  1.93it/s]Loading weights:  39%|███▉      | 420/1077 [00:48<05:37,  1.95it/s]Loading weights:  39%|███▉      | 422/1077 [00:52<09:17,  1.17it/s]Loading weights:  39%|███▉      | 423/1077 [00:53<08:58,  1.22it/s]Loading weights:  39%|███▉      | 424/1077 [00:54<09:53,  1.10it/s]Loading weights:  40%|███▉      | 428/1077 [00:55<05:41,  1.90it/s]Loading weights:  40%|███▉      | 429/1077 [00:55<05:56,  1.82it/s]Loading weights:  40%|████      | 431/1077 [00:59<09:31,  1.13it/s]Loading weights:  40%|████      | 432/1077 [00:59<09:16,  1.16it/s]Loading weights:  40%|████      | 433/1077 [01:00<08:16,  1.30it/s]Loading weights:  41%|████      | 437/1077 [01:01<05:15,  2.03it/s]Loading weights:  41%|████      | 438/1077 [01:01<05:36,  1.90it/s]Loading weights:  41%|████      | 440/1077 [01:11<19:20,  1.82s/it]Loading weights:  41%|████      | 441/1077 [01:11<16:08,  1.52s/it]Loading weights:  41%|████      | 442/1077 [01:12<15:17,  1.44s/it]Loading weights:  41%|████▏     | 446/1077 [01:13<08:01,  1.31it/s]Loading weights:  42%|████▏     | 447/1077 [01:13<07:01,  1.49it/s]Loading weights:  42%|████▏     | 449/1077 [01:17<12:00,  1.15s/it]Loading weights:  42%|████▏     | 450/1077 [01:18<10:42,  1.02s/it]Loading weights:  42%|████▏     | 451/1077 [01:19<10:16,  1.01it/s]Loading weights:  42%|████▏     | 455/1077 [01:20<05:47,  1.79it/s]Loading weights:  42%|████▏     | 456/1077 [01:20<05:47,  1.79it/s]Loading weights:  43%|████▎     | 458/1077 [01:23<09:31,  1.08it/s]Loading weights:  43%|████▎     | 459/1077 [01:24<08:53,  1.16it/s]Loading weights:  43%|████▎     | 460/1077 [01:25<08:31,  1.21it/s]Loading weights:  43%|████▎     | 464/1077 [01:26<04:58,  2.05it/s]Loading weights:  43%|████▎     | 465/1077 [01:26<05:06,  2.00it/s]Loading weights:  43%|████▎     | 467/1077 [01:30<09:03,  1.12it/s]Loading weights:  43%|████▎     | 468/1077 [01:30<07:49,  1.30it/s]Loading weights:  44%|████▎     | 469/1077 [01:31<07:52,  1.29it/s]Loading weights:  44%|████▍     | 473/1077 [01:33<06:18,  1.60it/s]Loading weights:  44%|████▍     | 474/1077 [01:33<05:43,  1.76it/s]Loading weights:  44%|████▍     | 476/1077 [01:37<09:46,  1.02it/s]Loading weights:  44%|████▍     | 477/1077 [01:37<08:44,  1.14it/s]Loading weights:  44%|████▍     | 478/1077 [01:38<09:17,  1.07it/s]Loading weights:  45%|████▍     | 482/1077 [01:39<04:46,  2.08it/s]Loading weights:  45%|████▍     | 483/1077 [01:39<04:18,  2.30it/s]Loading weights:  45%|████▌     | 485/1077 [01:43<09:47,  1.01it/s]Loading weights:  45%|████▌     | 486/1077 [01:45<10:36,  1.08s/it]Loading weights:  45%|████▌     | 487/1077 [01:47<14:10,  1.44s/it]Loading weights:  46%|████▌     | 491/1077 [01:49<08:47,  1.11it/s]Loading weights:  46%|████▌     | 492/1077 [01:51<10:03,  1.03s/it]Loading weights:  46%|████▌     | 494/1077 [02:00<20:13,  2.08s/it]Loading weights:  46%|████▌     | 495/1077 [02:01<19:00,  1.96s/it]Loading weights:  46%|████▌     | 496/1077 [02:03<18:24,  1.90s/it]Loading weights:  46%|████▋     | 500/1077 [02:03<09:14,  1.04it/s]Loading weights:  47%|████▋     | 501/1077 [02:04<08:30,  1.13it/s]Loading weights:  47%|████▋     | 503/1077 [02:09<13:34,  1.42s/it]Loading weights:  47%|████▋     | 504/1077 [02:13<17:33,  1.84s/it]Loading weights:  47%|████▋     | 505/1077 [02:17<22:11,  2.33s/it]Loading weights:  47%|████▋     | 509/1077 [02:18<10:46,  1.14s/it]Loading weights:  47%|████▋     | 510/1077 [02:18<10:01,  1.06s/it]Loading weights:  48%|████▊     | 512/1077 [02:22<12:23,  1.32s/it]Loading weights:  48%|████▊     | 513/1077 [02:23<11:06,  1.18s/it]Loading weights:  48%|████▊     | 514/1077 [02:23<09:42,  1.04s/it]Loading weights:  48%|████▊     | 518/1077 [02:25<06:44,  1.38it/s]Loading weights:  48%|████▊     | 519/1077 [02:25<06:33,  1.42it/s]Loading weights:  48%|████▊     | 521/1077 [02:30<10:31,  1.14s/it]Loading weights:  48%|████▊     | 522/1077 [02:30<09:18,  1.01s/it]Loading weights:  49%|████▊     | 523/1077 [02:31<09:36,  1.04s/it]Loading weights:  49%|████▉     | 527/1077 [02:32<05:16,  1.74it/s]Loading weights:  49%|████▉     | 528/1077 [02:32<05:01,  1.82it/s]Loading weights:  49%|████▉     | 530/1077 [02:36<09:11,  1.01s/it]Loading weights:  49%|████▉     | 531/1077 [02:37<08:19,  1.09it/s]Loading weights:  49%|████▉     | 532/1077 [02:38<08:42,  1.04it/s]Loading weights:  50%|████▉     | 536/1077 [02:39<04:59,  1.81it/s]Loading weights:  50%|████▉     | 537/1077 [02:39<04:19,  2.08it/s]Loading weights:  50%|█████     | 539/1077 [02:43<08:56,  1.00it/s]Loading weights:  50%|█████     | 540/1077 [02:44<08:58,  1.00s/it]Loading weights:  50%|█████     | 541/1077 [02:45<08:29,  1.05it/s]Loading weights:  51%|█████     | 545/1077 [02:45<04:15,  2.08it/s]Loading weights:  51%|█████     | 546/1077 [02:46<04:39,  1.90it/s]Loading weights:  51%|█████     | 548/1077 [02:50<08:20,  1.06it/s]Loading weights:  51%|█████     | 549/1077 [02:50<07:52,  1.12it/s]Loading weights:  51%|█████     | 550/1077 [02:51<07:42,  1.14it/s]Loading weights:  51%|█████▏    | 554/1077 [02:52<04:50,  1.80it/s]Loading weights:  52%|█████▏    | 555/1077 [02:53<04:54,  1.77it/s]Loading weights:  52%|█████▏    | 557/1077 [02:58<09:36,  1.11s/it]Loading weights:  52%|█████▏    | 558/1077 [02:58<08:17,  1.04it/s]Loading weights:  52%|█████▏    | 559/1077 [02:59<08:46,  1.02s/it]Loading weights:  52%|█████▏    | 563/1077 [03:00<04:37,  1.85it/s]Loading weights:  52%|█████▏    | 564/1077 [03:00<04:11,  2.04it/s]Loading weights:  53%|█████▎    | 566/1077 [03:04<08:38,  1.01s/it]Loading weights:  53%|█████▎    | 567/1077 [03:06<09:29,  1.12s/it]Loading weights:  53%|█████▎    | 568/1077 [03:07<09:21,  1.10s/it]Loading weights:  53%|█████▎    | 572/1077 [03:09<06:23,  1.32it/s]Loading weights:  53%|█████▎    | 573/1077 [03:09<06:06,  1.37it/s]Loading weights:  53%|█████▎    | 575/1077 [03:13<08:42,  1.04s/it]Loading weights:  53%|█████▎    | 576/1077 [03:14<08:55,  1.07s/it]Loading weights:  54%|█████▎    | 577/1077 [03:14<08:01,  1.04it/s]Loading weights:  54%|█████▍    | 581/1077 [03:15<04:06,  2.01it/s]Loading weights:  54%|█████▍    | 582/1077 [03:16<04:30,  1.83it/s]Loading weights:  54%|█████▍    | 584/1077 [03:20<08:40,  1.06s/it]Loading weights:  54%|█████▍    | 585/1077 [03:21<08:23,  1.02s/it]Loading weights:  54%|█████▍    | 586/1077 [03:21<07:22,  1.11it/s]Loading weights:  55%|█████▍    | 590/1077 [03:22<04:29,  1.81it/s]Loading weights:  55%|█████▍    | 591/1077 [03:23<04:43,  1.71it/s]Loading weights:  55%|█████▌    | 593/1077 [03:27<08:08,  1.01s/it]Loading weights:  55%|█████▌    | 594/1077 [03:27<06:48,  1.18it/s]Loading weights:  55%|█████▌    | 595/1077 [03:28<07:39,  1.05it/s]Loading weights:  56%|█████▌    | 599/1077 [03:29<04:40,  1.71it/s]Loading weights:  56%|█████▌    | 602/1077 [04:38<1:09:20,  8.76s/it]Loading weights:  56%|█████▌    | 603/1077 [04:54<1:17:37,  9.83s/it]Loading weights:  56%|█████▌    | 604/1077 [05:31<1:55:19, 14.63s/it]Loading weights:  56%|█████▋    | 608/1077 [05:31<57:10,  7.31s/it]  Loading weights:  57%|█████▋    | 610/1077 [05:32<43:08,  5.54s/it]Loading weights:  57%|█████▋    | 611/1077 [05:39<44:04,  5.67s/it]Loading weights:  57%|█████▋    | 612/1077 [05:40<38:00,  4.90s/it]Loading weights:  57%|█████▋    | 613/1077 [05:40<30:32,  3.95s/it]Loading weights:  57%|█████▋    | 617/1077 [05:42<16:00,  2.09s/it]Loading weights:  57%|█████▋    | 618/1077 [05:43<14:06,  1.84s/it]Loading weights:  58%|█████▊    | 620/1077 [05:49<17:21,  2.28s/it]Loading weights:  58%|█████▊    | 622/1077 [05:51<13:26,  1.77s/it]Loading weights:  58%|█████▊    | 626/1077 [05:52<07:51,  1.04s/it]Loading weights:  58%|█████▊    | 627/1077 [05:52<07:05,  1.06it/s]Loading weights:  58%|█████▊    | 629/1077 [05:58<11:36,  1.55s/it]Loading weights:  58%|█████▊    | 630/1077 [05:59<10:40,  1.43s/it]Loading weights:  59%|█████▊    | 631/1077 [06:00<09:45,  1.31s/it]Loading weights:  59%|█████▉    | 635/1077 [06:01<05:16,  1.40it/s]Loading weights:  59%|█████▉    | 636/1077 [06:01<05:09,  1.42it/s]Loading weights:  59%|█████▉    | 638/1077 [06:05<08:03,  1.10s/it]Loading weights:  59%|█████▉    | 639/1077 [06:06<07:44,  1.06s/it]Loading weights:  59%|█████▉    | 640/1077 [06:07<07:17,  1.00s/it]Loading weights:  60%|█████▉    | 644/1077 [06:08<04:04,  1.77it/s]Loading weights:  60%|█████▉    | 645/1077 [06:08<04:00,  1.80it/s]Loading weights:  60%|██████    | 647/1077 [06:12<07:13,  1.01s/it]Loading weights:  60%|██████    | 648/1077 [06:12<06:16,  1.14it/s]Loading weights:  60%|██████    | 649/1077 [06:14<07:26,  1.04s/it]Loading weights:  61%|██████    | 653/1077 [06:15<04:09,  1.70it/s]Loading weights:  61%|██████    | 654/1077 [06:15<03:51,  1.83it/s]Loading weights:  61%|██████    | 656/1077 [06:19<06:39,  1.05it/s]Loading weights:  61%|██████    | 657/1077 [06:20<06:56,  1.01it/s]Loading weights:  61%|██████    | 658/1077 [06:21<06:18,  1.11it/s]Loading weights:  61%|██████▏   | 662/1077 [06:21<03:26,  2.01it/s]Loading weights:  62%|██████▏   | 663/1077 [06:22<04:14,  1.63it/s]Loading weights:  62%|██████▏   | 665/1077 [06:26<06:54,  1.01s/it]Loading weights:  62%|██████▏   | 666/1077 [06:26<05:57,  1.15it/s]Loading weights:  62%|██████▏   | 667/1077 [06:27<06:10,  1.11it/s]Loading weights:  62%|██████▏   | 671/1077 [06:28<03:45,  1.80it/s]Loading weights:  62%|██████▏   | 672/1077 [06:29<03:23,  1.99it/s]Loading weights:  63%|██████▎   | 674/1077 [06:34<07:40,  1.14s/it]Loading weights:  63%|██████▎   | 675/1077 [06:34<06:46,  1.01s/it]Loading weights:  63%|██████▎   | 676/1077 [06:35<06:42,  1.00s/it]Loading weights:  63%|██████▎   | 680/1077 [06:36<03:47,  1.75it/s]Loading weights:  63%|██████▎   | 681/1077 [06:36<03:25,  1.93it/s]Loading weights:  64%|██████▎   | 686/1077 [06:37<02:16,  2.86it/s]Loading weights:  68%|██████▊   | 727/1077 [06:38<00:21, 16.51it/s]Loading weights:  69%|██████▉   | 743/1077 [06:38<00:16, 20.81it/s]Loading weights:  70%|███████   | 759/1077 [06:39<00:13, 23.07it/s]Loading weights:  71%|███████   | 762/1077 [06:39<00:13, 22.60it/s]Loading weights:  72%|███████▏  | 775/1077 [06:39<00:12, 24.55it/s]Loading weights:  73%|███████▎  | 791/1077 [06:40<00:10, 28.50it/s]Loading weights:  75%|███████▍  | 807/1077 [06:40<00:10, 26.00it/s]Loading weights:  75%|███████▌  | 810/1077 [06:41<00:13, 20.38it/s]Loading weights:  76%|███████▋  | 823/1077 [06:41<00:08, 28.59it/s]Loading weights:  78%|███████▊  | 839/1077 [06:42<00:07, 30.75it/s]Loading weights:  79%|███████▉  | 855/1077 [06:42<00:06, 36.56it/s]Loading weights:  80%|███████▉  | 861/1077 [06:42<00:05, 38.54it/s]Loading weights:  81%|████████  | 871/1077 [06:42<00:06, 29.89it/s]Loading weights:  82%|████████▏ | 887/1077 [06:43<00:05, 34.39it/s]Loading weights:  84%|████████▍ | 903/1077 [06:43<00:05, 34.17it/s]Loading weights:  85%|████████▌ | 919/1077 [06:44<00:04, 34.76it/s]Loading weights:  86%|████████▌ | 923/1077 [06:44<00:04, 35.22it/s]Loading weights:  87%|████████▋ | 935/1077 [06:44<00:04, 34.32it/s]Loading weights:  88%|████████▊ | 951/1077 [06:45<00:03, 33.13it/s]Loading weights:  90%|████████▉ | 967/1077 [06:45<00:03, 35.71it/s]Loading weights:  91%|█████████▏| 983/1077 [06:46<00:03, 26.67it/s]Loading weights:  92%|█████████▏| 987/1077 [06:46<00:03, 27.53it/s]Loading weights:  93%|█████████▎| 999/1077 [06:46<00:02, 29.62it/s]Loading weights:  94%|█████████▍| 1015/1077 [06:47<00:02, 30.76it/s]Loading weights:  95%|█████████▍| 1019/1077 [06:47<00:01, 30.87it/s]Loading weights:  96%|█████████▌| 1031/1077 [06:47<00:01, 30.76it/s]Loading weights:  97%|█████████▋| 1047/1077 [06:48<00:00, 31.30it/s]Loading weights:  99%|█████████▊| 1063/1077 [06:49<00:00, 29.64it/s]Loading weights:  99%|█████████▉| 1067/1077 [06:49<00:00, 30.48it/s]Loading weights: 100%|██████████| 1077/1077 [06:49<00:00,  2.63it/s]
+[transformers] Requested torchvision backend is not available. Falling back to pil backend.
+Model loaded.
+
+Clips: 100 | frames: 8 | TRIMMED | Dance
+
+[1/100] upenn_0730_Dance_1_7 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is dancing in a large room with a lot of chairs and a d
+  ego: Intermediate Expert OK | Observations: The person is dancing in a circle, moving their arms and legs in a
+
+[2/100] uniandes_dance_017_3 (GT=Novice)
+  exo: Novice OK | Observations: The person is dancing in a room with a black background. They are 
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[3/100] uniandes_dance_023_26 (GT=Late Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a red wall and a white floor.
+  ego: Late Expert OK | Observations: The person is dancing in a room with black curtains. They are wear
+
+[4/100] uniandes_dance_008_51 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a white shirt and black pants
+  ego: Late Expert X | Observations: The person is dancing in a room with a black background. They are 
+
+[5/100] uniandes_dance_022_3 (GT=Novice)
+  exo: Novice OK | Observations: The person is dancing in a room with a red wall and a white floor.
+  ego: Late Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[6/100] upenn_0629_Dance_3_6 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a hardwood floor. They are we
+  ego: Intermediate Expert X | Observations: The person is dancing on a wooden floor, wearing a black dress. Th
+
+[7/100] uniandes_dance_015_22 (GT=Late Expert)
+  exo: Novice X | Observations: The person is performing a dance routine in a room with a white wa
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains and a white fl
+
+[8/100] uniandes_dance_016_43 (GT=Novice)
+  exo: Novice OK | Observations: The person is dancing in a room with a red and black sign on the w
+  ego: Late Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[9/100] uniandes_dance_022_11 (GT=Novice)
+  exo: Novice OK | Observations: The person is dancing in a room with a red wall and a white floor.
+  ego: Late Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[10/100] uniandes_dance_013_7 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Novice X | Observations: The person is dancing in a room with a red wall and a window. They
+
+[11/100] uniandes_dance_008_11 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a black background. They are 
+
+[12/100] uniandes_dance_023_51 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a large sign on the wall. The
+  ego: Novice X | Observations: The person is dancing in a room with a black background. They are 
+
+[13/100] uniandes_dance_024_3 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a red background and a black 
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[14/100] uniandes_dance_017_4 (GT=Novice)
+  exo: Late Expert X | Observations: The person is dancing in a room with a black background. They are 
+  ego: Late Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[15/100] uniandes_dance_022_17 (GT=Late Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a red wall and a white floor.
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a black background. They are 
+
+[16/100] uniandes_dance_017_6 (GT=Novice)
+  exo: Late Expert X | Observations: The person is dancing in a room with a black background. They are 
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[17/100] uniandes_dance_002_3 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a window and a mirror. They a
+  ego: Late Expert OK | Observations: The person is dancing in a room with a red wall and a window. They
+
+[18/100] uniandes_dance_002_13 (GT=Early Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a window and a bench. They ar
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[19/100] uniandes_dance_020_28 (GT=Novice)
+  exo: Novice OK | Observations: The person is dancing in a room with a wooden floor and a black ba
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a white floor and black walls
+
+[20/100] upenn_0629_Dance_2_2 (GT=Early Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a hardwood floor. They are we
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a wooden floor and a white co
+
+[21/100] uniandes_dance_016_46 (GT=Novice)
+  exo: Late Expert X | Observations: The person is dancing in a room with a black background. They are 
+  ego: Novice OK | Observations: The person is dancing in a room with black curtains. They are wear
+
+[22/100] uniandes_dance_019_7 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a red sign on the wall. They 
+  ego: Late Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[23/100] uniandes_dance_021_29 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a black background. They are 
+  ego: Intermediate Expert OK | Observations: The person is dancing in a room with a black background. They are 
+
+[24/100] uniandes_dance_008_50 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The person is dancing in a room with a white wall and a window. Th
+  ego: Late Expert X | Observations: The person is dancing in a room with a red wall and a black floor.
+
+[25/100] uniandes_dance_021_19 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The person is dancing in a room with a black background and a whit
+  ego: Novice X | Observations: The person is dancing in a room with a black background. They are 
+
+[26/100] uniandes_dance_008_13 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Late Expert OK | Observations: The person is dancing in a room with black curtains. They are wear
+
+[27/100] uniandes_dance_024_8 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a red wall and a black backgr
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[28/100] uniandes_dance_007_7 (GT=Intermediate Expert)
+  exo: Late Expert X | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Intermediate Expert OK | Observations: The person is dancing in a room with a black background. They are 
+
+[29/100] uniandes_dance_021_12 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a black background. They are 
+  ego: Late Expert OK | Observations: The person is dancing in a room with black curtains. They are wear
+
+[30/100] uniandes_dance_013_15 (GT=Late Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a black background. They are 
+
+[31/100] uniandes_dance_012_24 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Intermediate Expert OK | Observations: The person is dancing in a room with a red wall. They are wearing 
+
+[32/100] uniandes_dance_020_27 (GT=Novice)
+  exo: Late Expert X | Observations: The person is dancing in a room with a wooden floor. They are wear
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[33/100] upenn_0720_Dance_4_5 (GT=Early Expert)
+  exo: Novice X | Observations: The person is dancing in a black shirt and white shorts, with thei
+  ego: Novice X | Observations: The person is dancing in a room with a large window. They are wear
+
+[34/100] uniandes_dance_019_20 (GT=Intermediate Expert)
+  exo: Late Expert X | Observations: The person is dancing in a room with a black background. They are 
+  ego: Late Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[35/100] uniandes_dance_016_8 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a red and black sign on the w
+  ego: Late Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[36/100] uniandes_dance_020_34 (GT=Late Expert)
+  exo: Late Expert OK | Observations: The person is dancing in a room with a black background. They are 
+  ego: Late Expert OK | Observations: The person is dancing in a room with black curtains. They are wear
+
+[37/100] uniandes_dance_013_22 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[38/100] upenn_0706_Dance_4_3 (GT=Early Expert)
+  exo: Late Expert X | Observations: The person is dancing in a large room with a wooden floor. They ar
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with chairs and a dining table. Th
+
+[39/100] uniandes_dance_012_19 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Intermediate Expert OK | Observations: The person is dancing in a room with black curtains. They are wear
+
+[40/100] uniandes_dance_002_24 (GT=Early Expert)
+  exo: Late Expert X | Observations: The person is dancing in a room with a window and a mirror. They a
+  ego: Novice X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[41/100] uniandes_dance_020_22 (GT=Novice)
+  exo: Novice OK | Observations: The person is dancing in a room with a black background. They are 
+  ego: Late Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[42/100] uniandes_dance_019_6 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The person is dancing in a room with a red sign on the wall. They 
+  ego: Late Expert X | Observations: The person in the video is performing a dance routine, with their 
+
+[43/100] upenn_0720_Dance_3_7 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a large window. They are wear
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a large window. They are wear
+
+[44/100] uniandes_dance_024_7 (GT=Novice)
+  exo: Novice OK | Observations: The person is dancing in a room with a large sign on the wall. The
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[45/100] upenn_0727_Partner_Dance_2_1_4 (GT=Late Expert)
+  exo: Late Expert OK | Observations: The person is dancing in a ballroom style, with a focus on the fee
+  ego: Novice X | Observations: The person is dancing in a room with a wooden floor. They are wear
+
+[46/100] upenn_0720_Dance_3_11 (GT=Early Expert)
+  exo: Novice X | Observations: The person is dancing in a large room, wearing a pink shirt and gr
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a yellow wall. They are weari
+
+[47/100] uniandes_dance_012_25 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Intermediate Expert OK | Observations: The person is dancing in a room with a black background. They are 
+
+[48/100] upenn_0730_Dance_2_5 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a large room with a pole in the middle. T
+  ego: Late Expert OK | Observations: The person is dancing in a room with a large number of chairs arra
+
+[49/100] uniandes_dance_008_8 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Late Expert OK | Observations: The person in the video is performing a dance routine, and their b
+
+[50/100] uniandes_dance_019_58 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The person is wearing black pants and a black shirt, and they are 
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[51/100] uniandes_dance_011_29 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing on a hardwood floor, wearing a black shirt a
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a black background. They are 
+
+[52/100] uniandes_dance_016_45 (GT=Novice)
+  exo: Late Expert X | Observations: The person is dancing in a room with a red and black backdrop. The
+  ego: Novice OK | Observations: The person is dancing in a room with a black background. They are 
+
+[53/100] uniandes_dance_011_43 (GT=Early Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[54/100] upenn_0727_Partner_Dance_2_2_4 (GT=Early Expert)
+  exo: Late Expert X | Observations: The person is dancing in a large room, wearing a pink dress. They 
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with chairs and a dining table. Th
+
+[55/100] uniandes_dance_016_44 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a red and white sign on the w
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[56/100] uniandes_dance_022_9 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a large sign on the wall. The
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a black background. They are 
+
+[57/100] uniandes_dance_021_20 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The person is dancing in a room with a black background and a whit
+  ego: Novice X | Observations: The person is dancing in a room with a black background. They are 
+
+[58/100] uniandes_dance_022_48 (GT=Late Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a red wall and a white wall. 
+  ego: Late Expert OK | Observations: The person is dancing in a room with black curtains. They are wear
+
+[59/100] uniandes_dance_008_38 (GT=Late Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[60/100] uniandes_dance_013_8 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Novice X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[61/100] uniandes_dance_021_53 (GT=Early Expert)
+  exo: Late Expert X | Observations: The person is dancing in a room with a black background. They are 
+  ego: Late Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[62/100] uniandes_dance_017_5 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a black background. They are 
+  ego: Late Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[63/100] uniandes_dance_021_5 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a black background. They are 
+  ego: Late Expert OK | Observations: The person is dancing in a room with a white wall and a black back
+
+[64/100] uniandes_dance_012_28 (GT=Late Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a white floor and black curta
+
+[65/100] uniandes_dance_016_12 (GT=Early Expert)
+  exo: Late Expert X | Observations: The person is dancing in a room with a red wall and a black backgr
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[66/100] uniandes_dance_024_17 (GT=Early Expert)
+  exo: Late Expert X | Observations: The person is wearing a black bodysuit and is dancing in a room wi
+  ego: Novice X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[67/100] uniandes_dance_022_7 (GT=Novice)
+  exo: Novice OK | Observations: The person is dancing in a room with a large sign on the wall. The
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[68/100] uniandes_dance_021_23 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The person is dancing in a room with a black background. They are 
+  ego: Novice X | Observations: The person is dancing in a room with a white wall and a black floo
+
+[69/100] uniandes_dance_011_16 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Novice X | Observations: The person is dancing in a room with a wooden floor. They are wear
+
+[70/100] uniandes_dance_019_18 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a red wall and a black backgr
+  ego: Late Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[71/100] uniandes_dance_017_36 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a black background. They are 
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black walls and a black floor
+
+[72/100] uniandes_dance_012_22 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Intermediate Expert OK | Observations: The person is dancing in a room with a black background. They are 
+
+[73/100] uniandes_dance_012_29 (GT=Late Expert)
+  exo: Late Expert OK | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[74/100] upenn_0706_Dance_1_7 (GT=Early Expert)
+  exo: Late Expert X | Observations: The person is dancing in a large room, wearing a black and white d
+  ego: Novice X | Observations: The person is dancing in a room with a wooden floor. They are wear
+
+[75/100] upenn_0730_Dance_1_4 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is dancing in a large room with a lot of chairs and a d
+  ego: Intermediate Expert OK | Observations: The person is dancing in a room with a green and white wall. They 
+
+[76/100] upenn_0720_Dance_3_13 (GT=Early Expert)
+  exo: Early Expert OK | Observations: The person is dancing in a large open space, with their arms and l
+  ego: Novice X | Observations: The person is dancing in a dark room, and their body position is n
+
+[77/100] uniandes_dance_007_4 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Intermediate Expert OK | Observations: The person is dancing in a room with a black floor and white walls
+
+[78/100] uniandes_dance_012_33 (GT=Late Expert)
+  exo: Late Expert OK | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a large window. They are wear
+
+[79/100] upenn_0706_Dance_2_2 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The person is dancing in a large room with a wooden floor. They ar
+  ego: Intermediate Expert OK | Observations: The person is dancing in a room with a wooden floor and chairs arr
+
+[80/100] uniandes_dance_020_61 (GT=Early Expert)
+  exo: Late Expert X | Observations: The person is dancing in a room with a black background. They are 
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a black background. They are 
+
+[81/100] uniandes_dance_022_5 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a large sign on the wall. The
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[82/100] uniandes_dance_021_17 (GT=Intermediate Expert)
+  exo: Late Expert X | Observations: The person is dancing in a room with a black background and a whit
+  ego: Late Expert X | Observations: The person is dancing in a room with a black background. They are 
+
+[83/100] uniandes_dance_019_15 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The person is dancing in a room with a black background. They are 
+  ego: Intermediate Expert OK | Observations: The person is dancing in a room with black curtains. They are wear
+
+[84/100] uniandes_dance_022_27 (GT=Late Expert)
+  exo: Late Expert OK | Observations: The person is dancing in a room with a red wall and a black backgr
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a black background. They are 
+
+[85/100] uniandes_dance_024_4 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a red wall and a black backgr
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[86/100] uniandes_dance_008_44 (GT=Intermediate Expert)
+  exo: Late Expert X | Observations: The person is dancing in a room with a white wall and a window. Th
+  ego: Late Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[87/100] uniandes_dance_024_2 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a red wall and a white floor.
+  ego: Novice OK | Observations: The person is dancing in a room with a black background. They are 
+
+[88/100] uniandes_dance_011_33 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a white floor and black curta
+
+[89/100] uniandes_dance_019_49 (GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The person is wearing black pants and a black shirt, and they are 
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[90/100] uniandes_dance_022_10 (GT=Novice)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a red wall and a white floor.
+  ego: Late Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[91/100] upenn_0706_Dance_2_5 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The person is dancing in a large room, wearing a black skirt and y
+  ego: Late Expert X | Observations: The person is dancing in a room with a wooden floor and chairs arr
+
+[92/100] uniandes_dance_015_18 (GT=Late Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a white wall and a red wall. 
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[93/100] uniandes_dance_017_58 (GT=Novice)
+  exo: Late Expert X | Observations: The person is dancing in a room with a black background. They are 
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a white wall and a black curt
+
+[94/100] upenn_0720_Dance_3_3 (GT=Early Expert)
+  exo: Late Expert X | Observations: The person is performing a dance routine in a room with a wooden f
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a large ceiling and a few lig
+
+[95/100] uniandes_dance_020_11 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a black background. They are 
+  ego: Novice X | Observations: The person is dancing in a room with a black background. They are 
+
+[96/100] upenn_0629_Dance_3_4 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a wooden floor. They are wear
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with a wooden floor and a white ch
+
+[97/100] uniandes_dance_022_6 (GT=Novice)
+  exo: Novice OK | Observations: The person is dancing in a room with a large sign on the wall. The
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+[98/100] uniandes_dance_020_18 (GT=Novice)
+  exo: Late Expert X | Observations: The person is dancing in a room with a black background. They are 
+  ego: Novice OK | Observations: The person is dancing in a room with black walls and a white floor
+
+[99/100] uniandes_dance_012_14 (GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is dancing in a room with a white floor and a window. T
+  ego: Late Expert X | Observations: The person in the video is performing a dance routine, with their 
+
+[100/100] uniandes_dance_023_56 (GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The person is dancing in a room with a large sign on the wall. The
+  ego: Intermediate Expert X | Observations: The person is dancing in a room with black curtains. They are wear
+
+============================================================
+RESULTS — Dance | VideoLLaVA structured 8f TRIMMED
+============================================================
+  exo: 26/100 = 26.0%
+  ego: 24/100 = 24.0%
+Random chance: 25%
+Exo predictions: {'Intermediate Expert': 42, 'Novice': 32, 'Late Expert': 25, 'Early Expert': 1}
+Ego predictions: {'Intermediate Expert': 54, 'Late Expert': 28, 'Novice': 18}
+============================================================

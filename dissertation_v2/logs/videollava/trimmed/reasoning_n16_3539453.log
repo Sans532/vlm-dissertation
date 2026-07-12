@@ -1,0 +1,833 @@
+Sat Jul 11 23:23:26 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H200                    On  |   00000000:4C:00.0 Off |                   On |
+| N/A   29C    P0            165W /  700W |   14741MiB / 143771MiB |     N/A      Default |
+|                                         |                        |              Enabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| MIG devices:                                                                            |
++------------------+----------------------------------+-----------+-----------------------+
+| GPU  GI  CI  MIG |              Shared Memory-Usage |        Vol|        Shared         |
+|      ID  ID  Dev |                Shared BAR1-Usage | SM     Unc| CE ENC  DEC  OFA  JPG |
+|                  |                                  |        ECC|                       |
+|==================+==================================+===========+=======================|
+|  0    2   0   0  |              44MiB / 71424MiB    | 60      0 |  3   0    3    0    3 |
+|                  |               0MiB / 59237MiB    |           |                       |
++------------------+----------------------------------+-----------+-----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading takes metadata...
+Loaded 5035 takes.
+
+Loading Video-LLaVA ...
+Loading weights:   0%|          | 0/1077 [00:00<?, ?it/s]Loading weights:   1%|          | 9/1077 [00:00<01:00, 17.63it/s]Loading weights:   2%|▏         | 25/1077 [00:00<00:28, 37.17it/s]Loading weights:   4%|▍         | 41/1077 [00:01<00:31, 33.03it/s]Loading weights:   5%|▌         | 57/1077 [00:01<00:25, 40.80it/s]Loading weights:   7%|▋         | 73/1077 [00:02<00:28, 35.71it/s]Loading weights:   8%|▊         | 89/1077 [00:02<00:25, 38.91it/s]Loading weights:   9%|▉         | 99/1077 [00:02<00:21, 44.97it/s]Loading weights:  10%|▉         | 105/1077 [00:03<00:31, 30.41it/s]Loading weights:  11%|█         | 121/1077 [00:03<00:24, 39.33it/s]Loading weights:  13%|█▎        | 137/1077 [00:03<00:27, 34.08it/s]Loading weights:  14%|█▍        | 153/1077 [00:04<00:24, 37.56it/s]Loading weights:  16%|█▌        | 169/1077 [00:04<00:23, 38.63it/s]Loading weights:  17%|█▋        | 185/1077 [00:04<00:22, 40.06it/s]Loading weights:  19%|█▊        | 201/1077 [00:05<00:22, 39.04it/s]Loading weights:  20%|██        | 217/1077 [00:05<00:20, 41.02it/s]Loading weights:  22%|██▏       | 233/1077 [00:06<00:33, 25.51it/s]Loading weights:  23%|██▎       | 249/1077 [00:07<00:29, 28.01it/s]Loading weights:  23%|██▎       | 253/1077 [00:07<00:28, 28.44it/s]Loading weights:  25%|██▍       | 265/1077 [00:07<00:27, 29.30it/s]Loading weights:  26%|██▌       | 281/1077 [00:08<00:24, 33.05it/s]Loading weights:  26%|██▋       | 285/1077 [00:08<00:23, 33.08it/s]Loading weights:  28%|██▊       | 297/1077 [00:08<00:22, 34.87it/s]Loading weights:  29%|██▉       | 313/1077 [00:09<00:19, 38.20it/s]Loading weights:  31%|███       | 329/1077 [00:09<00:24, 30.82it/s]Loading weights:  32%|███▏      | 345/1077 [00:10<00:20, 35.54it/s]Loading weights:  34%|███▎      | 361/1077 [00:10<00:20, 34.47it/s]Loading weights:  35%|███▌      | 377/1077 [00:10<00:18, 38.83it/s]Loading weights:  36%|███▋      | 392/1077 [00:25<03:37,  3.16it/s]Loading weights:  36%|███▋      | 393/1077 [00:27<04:00,  2.85it/s]Loading weights:  38%|███▊      | 404/1077 [00:29<03:14,  3.46it/s]Loading weights:  38%|███▊      | 407/1077 [00:31<03:48,  2.93it/s]Loading weights:  38%|███▊      | 410/1077 [00:31<03:24,  3.27it/s]Loading weights:  38%|███▊      | 412/1077 [00:32<03:27,  3.20it/s]Loading weights:  38%|███▊      | 414/1077 [00:37<06:52,  1.61it/s]Loading weights:  39%|███▊      | 415/1077 [00:37<06:26,  1.71it/s]Loading weights:  39%|███▉      | 419/1077 [00:39<05:49,  1.88it/s]Loading weights:  39%|███▉      | 422/1077 [00:43<08:06,  1.35it/s]Loading weights:  39%|███▉      | 423/1077 [00:43<07:27,  1.46it/s]Loading weights:  39%|███▉      | 424/1077 [00:45<08:39,  1.26it/s]Loading weights:  40%|███▉      | 428/1077 [00:45<05:17,  2.04it/s]Loading weights:  40%|███▉      | 429/1077 [00:45<04:55,  2.19it/s]Loading weights:  40%|████      | 431/1077 [00:49<08:45,  1.23it/s]Loading weights:  40%|████      | 432/1077 [00:50<09:46,  1.10it/s]Loading weights:  40%|████      | 433/1077 [00:50<08:34,  1.25it/s]Loading weights:  41%|████      | 437/1077 [00:51<04:26,  2.40it/s]Loading weights:  41%|████      | 438/1077 [00:51<04:49,  2.20it/s]Loading weights:  41%|████      | 440/1077 [00:56<10:10,  1.04it/s]Loading weights:  41%|████      | 441/1077 [00:56<09:06,  1.16it/s]Loading weights:  41%|████      | 442/1077 [00:56<07:33,  1.40it/s]Loading weights:  41%|████▏     | 446/1077 [00:58<05:34,  1.88it/s]Loading weights:  42%|████▏     | 449/1077 [01:02<09:33,  1.10it/s]Loading weights:  42%|████▏     | 450/1077 [01:02<08:17,  1.26it/s]Loading weights:  42%|████▏     | 451/1077 [01:04<09:15,  1.13it/s]Loading weights:  42%|████▏     | 455/1077 [01:04<05:19,  1.95it/s]Loading weights:  42%|████▏     | 456/1077 [01:04<04:43,  2.19it/s]Loading weights:  43%|████▎     | 458/1077 [01:08<08:35,  1.20it/s]Loading weights:  43%|████▎     | 459/1077 [01:09<09:19,  1.10it/s]Loading weights:  43%|████▎     | 460/1077 [01:10<08:34,  1.20it/s]Loading weights:  43%|████▎     | 464/1077 [01:10<04:12,  2.43it/s]Loading weights:  43%|████▎     | 465/1077 [01:10<04:29,  2.27it/s]Loading weights:  43%|████▎     | 467/1077 [01:14<09:12,  1.10it/s]Loading weights:  43%|████▎     | 468/1077 [01:15<08:20,  1.22it/s]Loading weights:  44%|████▎     | 469/1077 [01:15<07:06,  1.42it/s]Loading weights:  44%|████▍     | 473/1077 [01:16<04:52,  2.07it/s]Loading weights:  44%|████▍     | 474/1077 [01:16<04:26,  2.26it/s]Loading weights:  44%|████▍     | 476/1077 [01:20<08:43,  1.15it/s]Loading weights:  44%|████▍     | 477/1077 [01:20<07:36,  1.31it/s]Loading weights:  44%|████▍     | 478/1077 [01:22<08:48,  1.13it/s]Loading weights:  45%|████▍     | 482/1077 [01:22<04:31,  2.19it/s]Loading weights:  45%|████▍     | 483/1077 [01:22<04:12,  2.35it/s]Loading weights:  45%|████▌     | 485/1077 [01:26<08:27,  1.17it/s]Loading weights:  45%|████▌     | 486/1077 [01:27<09:13,  1.07it/s]Loading weights:  45%|████▌     | 487/1077 [01:27<08:02,  1.22it/s]Loading weights:  46%|████▌     | 491/1077 [01:28<04:11,  2.33it/s]Loading weights:  46%|████▌     | 492/1077 [01:29<04:38,  2.10it/s]Loading weights:  46%|████▌     | 494/1077 [01:33<09:13,  1.05it/s]Loading weights:  46%|████▌     | 495/1077 [01:33<08:12,  1.18it/s]Loading weights:  46%|████▌     | 496/1077 [01:33<07:11,  1.35it/s]Loading weights:  46%|████▋     | 500/1077 [01:35<04:53,  1.96it/s]Loading weights:  47%|████▋     | 503/1077 [01:38<07:28,  1.28it/s]Loading weights:  47%|████▋     | 504/1077 [01:39<07:45,  1.23it/s]Loading weights:  47%|████▋     | 505/1077 [01:46<17:31,  1.84s/it]Loading weights:  47%|████▋     | 509/1077 [01:47<09:55,  1.05s/it]Loading weights:  47%|████▋     | 510/1077 [01:47<08:55,  1.06it/s]Loading weights:  48%|████▊     | 512/1077 [01:51<11:06,  1.18s/it]Loading weights:  48%|████▊     | 513/1077 [01:52<11:11,  1.19s/it]Loading weights:  48%|████▊     | 514/1077 [01:53<10:04,  1.07s/it]Loading weights:  48%|████▊     | 518/1077 [01:53<05:05,  1.83it/s]Loading weights:  48%|████▊     | 519/1077 [01:54<05:04,  1.83it/s]Loading weights:  48%|████▊     | 521/1077 [01:58<09:42,  1.05s/it]Loading weights:  48%|████▊     | 522/1077 [01:58<08:41,  1.06it/s]Loading weights:  49%|████▊     | 523/1077 [01:59<07:35,  1.22it/s]Loading weights:  49%|████▉     | 527/1077 [02:00<04:41,  1.95it/s]Loading weights:  49%|████▉     | 528/1077 [02:00<04:07,  2.21it/s]Loading weights:  49%|████▉     | 530/1077 [02:04<08:18,  1.10it/s]Loading weights:  49%|████▉     | 531/1077 [02:04<07:27,  1.22it/s]Loading weights:  49%|████▉     | 532/1077 [02:05<07:48,  1.16it/s]Loading weights:  50%|████▉     | 536/1077 [02:06<04:17,  2.10it/s]Loading weights:  50%|████▉     | 537/1077 [02:06<03:55,  2.29it/s]Loading weights:  50%|█████     | 539/1077 [02:10<07:52,  1.14it/s]Loading weights:  50%|█████     | 540/1077 [02:11<08:09,  1.10it/s]Loading weights:  50%|█████     | 541/1077 [02:11<07:29,  1.19it/s]Loading weights:  51%|█████     | 545/1077 [02:12<03:56,  2.25it/s]Loading weights:  51%|█████     | 546/1077 [02:12<03:41,  2.39it/s]Loading weights:  51%|█████     | 548/1077 [02:17<09:02,  1.03s/it]Loading weights:  51%|█████     | 549/1077 [02:17<08:18,  1.06it/s]Loading weights:  51%|█████     | 550/1077 [02:18<07:27,  1.18it/s]Loading weights:  51%|█████▏    | 554/1077 [02:18<04:21,  2.00it/s]Loading weights:  52%|█████▏    | 555/1077 [02:19<04:01,  2.16it/s]Loading weights:  52%|█████▏    | 557/1077 [02:23<08:40,  1.00s/it]Loading weights:  52%|█████▏    | 558/1077 [02:23<07:43,  1.12it/s]Loading weights:  52%|█████▏    | 559/1077 [02:24<07:32,  1.15it/s]Loading weights:  52%|█████▏    | 563/1077 [02:25<04:23,  1.95it/s]Loading weights:  53%|█████▎    | 566/1077 [02:29<06:51,  1.24it/s]Loading weights:  53%|█████▎    | 567/1077 [02:30<06:39,  1.28it/s]Loading weights:  53%|█████▎    | 568/1077 [02:31<06:53,  1.23it/s]Loading weights:  53%|█████▎    | 572/1077 [02:31<03:52,  2.17it/s]Loading weights:  53%|█████▎    | 575/1077 [02:34<05:48,  1.44it/s]Loading weights:  53%|█████▎    | 576/1077 [02:36<06:47,  1.23it/s]Loading weights:  54%|█████▎    | 577/1077 [02:36<06:08,  1.36it/s]Loading weights:  54%|█████▍    | 581/1077 [02:36<03:13,  2.57it/s]Loading weights:  54%|█████▍    | 583/1077 [02:37<03:08,  2.63it/s]Loading weights:  54%|█████▍    | 584/1077 [02:47<15:52,  1.93s/it]Loading weights:  54%|█████▍    | 585/1077 [02:48<13:16,  1.62s/it]Loading weights:  55%|█████▍    | 590/1077 [02:49<07:00,  1.16it/s]Loading weights:  55%|█████▍    | 591/1077 [02:49<06:20,  1.28it/s]Loading weights:  55%|█████▌    | 593/1077 [02:53<08:49,  1.10s/it]Loading weights:  55%|█████▌    | 594/1077 [02:53<07:28,  1.08it/s]Loading weights:  55%|█████▌    | 595/1077 [02:55<08:02,  1.00s/it]Loading weights:  56%|█████▌    | 599/1077 [02:55<04:21,  1.82it/s]Loading weights:  56%|█████▌    | 600/1077 [02:55<03:53,  2.04it/s]Loading weights:  56%|█████▌    | 602/1077 [03:00<08:00,  1.01s/it]Loading weights:  56%|█████▌    | 603/1077 [03:03<11:30,  1.46s/it]Loading weights:  56%|█████▌    | 604/1077 [03:06<14:15,  1.81s/it]Loading weights:  56%|█████▋    | 608/1077 [03:07<07:33,  1.03it/s]Loading weights:  57%|█████▋    | 609/1077 [03:08<06:43,  1.16it/s]Loading weights:  57%|█████▋    | 611/1077 [03:12<09:39,  1.24s/it]Loading weights:  57%|█████▋    | 612/1077 [03:12<08:32,  1.10s/it]Loading weights:  57%|█████▋    | 613/1077 [03:13<07:33,  1.02it/s]Loading weights:  57%|█████▋    | 617/1077 [03:14<04:17,  1.79it/s]Loading weights:  57%|█████▋    | 618/1077 [03:14<03:48,  2.01it/s]Loading weights:  58%|█████▊    | 620/1077 [03:17<07:08,  1.07it/s]Loading weights:  58%|█████▊    | 621/1077 [03:18<06:31,  1.17it/s]Loading weights:  58%|█████▊    | 622/1077 [03:19<06:20,  1.19it/s]Loading weights:  58%|█████▊    | 626/1077 [03:20<03:47,  1.99it/s]Loading weights:  58%|█████▊    | 627/1077 [03:20<03:32,  2.12it/s]Loading weights:  58%|█████▊    | 629/1077 [03:24<06:53,  1.08it/s]Loading weights:  58%|█████▊    | 630/1077 [03:25<07:54,  1.06s/it]Loading weights:  59%|█████▊    | 631/1077 [03:28<09:34,  1.29s/it]Loading weights:  59%|█████▉    | 635/1077 [03:28<05:06,  1.44it/s]Loading weights:  59%|█████▉    | 636/1077 [03:29<05:38,  1.30it/s]Loading weights:  59%|█████▉    | 638/1077 [03:35<10:03,  1.37s/it]Loading weights:  59%|█████▉    | 639/1077 [03:36<09:10,  1.26s/it]Loading weights:  59%|█████▉    | 640/1077 [03:36<08:12,  1.13s/it]Loading weights:  60%|█████▉    | 644/1077 [03:37<04:17,  1.68it/s]Loading weights:  60%|█████▉    | 645/1077 [03:37<04:14,  1.70it/s]Loading weights:  60%|██████    | 647/1077 [03:41<07:32,  1.05s/it]Loading weights:  60%|██████    | 648/1077 [03:42<07:01,  1.02it/s]Loading weights:  60%|██████    | 649/1077 [03:43<06:14,  1.14it/s]Loading weights:  61%|██████    | 653/1077 [03:43<03:37,  1.95it/s]Loading weights:  61%|██████    | 654/1077 [03:44<03:28,  2.03it/s]Loading weights:  61%|██████    | 656/1077 [03:48<06:35,  1.07it/s]Loading weights:  61%|██████    | 657/1077 [03:48<05:59,  1.17it/s]Loading weights:  61%|██████    | 658/1077 [03:49<05:55,  1.18it/s]Loading weights:  61%|██████▏   | 662/1077 [03:50<03:16,  2.11it/s]Loading weights:  62%|██████▏   | 663/1077 [03:50<03:04,  2.25it/s]Loading weights:  62%|██████▏   | 665/1077 [03:54<06:22,  1.08it/s]Loading weights:  62%|██████▏   | 666/1077 [03:55<06:13,  1.10it/s]Loading weights:  62%|██████▏   | 667/1077 [03:55<05:40,  1.20it/s]Loading weights:  62%|██████▏   | 671/1077 [03:56<03:08,  2.15it/s]Loading weights:  62%|██████▏   | 672/1077 [03:56<03:03,  2.21it/s]Loading weights:  63%|██████▎   | 674/1077 [04:00<06:36,  1.02it/s]Loading weights:  63%|██████▎   | 675/1077 [04:01<05:57,  1.12it/s]Loading weights:  63%|██████▎   | 676/1077 [04:02<05:37,  1.19it/s]Loading weights:  63%|██████▎   | 680/1077 [04:02<03:14,  2.04it/s]Loading weights:  63%|██████▎   | 681/1077 [04:03<03:00,  2.19it/s]Loading weights:  64%|██████▎   | 686/1077 [04:03<01:54,  3.41it/s]Loading weights:  68%|██████▊   | 727/1077 [04:04<00:16, 20.88it/s]Loading weights:  69%|██████▉   | 743/1077 [04:04<00:13, 25.56it/s]Loading weights:  70%|███████   | 759/1077 [04:05<00:11, 27.31it/s]Loading weights:  72%|███████▏  | 775/1077 [04:05<00:09, 31.02it/s]Loading weights:  73%|███████▎  | 791/1077 [04:05<00:08, 33.35it/s]Loading weights:  75%|███████▍  | 807/1077 [04:06<00:07, 34.31it/s]Loading weights:  76%|███████▋  | 823/1077 [04:06<00:07, 35.21it/s]Loading weights:  78%|███████▊  | 839/1077 [04:07<00:06, 36.47it/s]Loading weights:  79%|███████▉  | 855/1077 [04:07<00:05, 37.61it/s]Loading weights:  81%|████████  | 871/1077 [04:07<00:05, 37.59it/s]Loading weights:  82%|████████▏ | 887/1077 [04:08<00:04, 39.25it/s]Loading weights:  83%|████████▎ | 892/1077 [04:08<00:04, 39.92it/s]Loading weights:  84%|████████▍ | 903/1077 [04:08<00:05, 32.89it/s]Loading weights:  85%|████████▌ | 919/1077 [04:09<00:04, 35.76it/s]Loading weights:  87%|████████▋ | 935/1077 [04:09<00:03, 37.36it/s]Loading weights:  88%|████████▊ | 951/1077 [04:10<00:03, 38.94it/s]Loading weights:  90%|████████▉ | 967/1077 [04:10<00:02, 38.28it/s]Loading weights:  91%|█████████▏| 983/1077 [04:10<00:02, 40.42it/s]Loading weights:  92%|█████████▏| 988/1077 [04:11<00:02, 38.59it/s]Loading weights:  93%|█████████▎| 999/1077 [04:11<00:01, 39.01it/s]Loading weights:  94%|█████████▍| 1015/1077 [04:11<00:01, 38.65it/s]Loading weights:  96%|█████████▌| 1031/1077 [04:12<00:01, 39.24it/s]Loading weights:  97%|█████████▋| 1047/1077 [04:12<00:00, 41.19it/s]Loading weights:  98%|█████████▊| 1052/1077 [04:12<00:00, 40.94it/s]Loading weights:  99%|█████████▊| 1063/1077 [04:12<00:00, 40.12it/s]Loading weights: 100%|██████████| 1077/1077 [04:12<00:00,  4.26it/s]
+[transformers] Requested torchvision backend is not available. Falling back to pil backend.
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (4200 > 4096). Running this sequence through the model will result in indexing errors
+Model loaded.
+
+Clips: 100 | frames: 16 | TRIMMED
+
+[1/100] uniandes_bouldering_022_12 (GT=Novice)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[2/100] uniandes_bouldering_037_38 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[3/100] uniandes_bouldering_024_44 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[4/100] uniandes_bouldering_035_53 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[5/100] uniandes_bouldering_027_19 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[6/100] uniandes_bouldering_034_56 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[7/100] uniandes_bouldering_025_13 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[8/100] uniandes_bouldering_032_81 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[9/100] uniandes_bouldering_035_28 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[10/100] uniandes_bouldering_033_38 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[11/100] uniandes_bouldering_022_26 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[12/100] uniandes_bouldering_034_94 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[13/100] uniandes_bouldering_027_20 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[14/100] uniandes_bouldering_026_48 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[15/100] uniandes_bouldering_023_42 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[16/100] uniandes_bouldering_033_60 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[17/100] uniandes_bouldering_027_56 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[18/100] uniandes_bouldering_035_98 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[19/100] uniandes_bouldering_029_41 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[20/100] uniandes_bouldering_034_98 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[21/100] uniandes_bouldering_030_60 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[22/100] uniandes_bouldering_023_53 (GT=Early Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[23/100] uniandes_bouldering_023_71 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[24/100] uniandes_bouldering_027_17 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[25/100] uniandes_bouldering_029_77 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[26/100] uniandes_bouldering_036_17 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[27/100] uniandes_bouldering_026_14 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[28/100] uniandes_bouldering_030_25 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[29/100] uniandes_bouldering_029_71 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[30/100] uniandes_bouldering_031_68 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[31/100] uniandes_bouldering_036_4 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[32/100] uniandes_bouldering_023_77 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[33/100] uniandes_bouldering_037_49 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[34/100] uniandes_bouldering_033_27 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[35/100] uniandes_bouldering_037_2 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[36/100] uniandes_bouldering_036_47 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[37/100] uniandes_bouldering_024_6 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[38/100] uniandes_bouldering_025_14 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[39/100] uniandes_bouldering_029_8 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[40/100] uniandes_bouldering_035_37 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[41/100] uniandes_bouldering_022_20 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[42/100] uniandes_bouldering_025_38 (GT=Early Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[43/100] uniandes_bouldering_027_114 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[44/100] uniandes_bouldering_026_72 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[45/100] uniandes_bouldering_033_33 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[46/100] uniandes_bouldering_022_33 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[47/100] uniandes_bouldering_032_28 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[48/100] uniandes_bouldering_029_65 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[49/100] uniandes_bouldering_030_26 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[50/100] uniandes_bouldering_033_12 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[51/100] uniandes_bouldering_025_81 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[52/100] uniandes_bouldering_027_58 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[53/100] uniandes_bouldering_034_21 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[54/100] uniandes_bouldering_034_8 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[55/100] uniandes_bouldering_034_65 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[56/100] uniandes_bouldering_028_52 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[57/100] uniandes_bouldering_029_74 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[58/100] uniandes_bouldering_032_75 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[59/100] uniandes_bouldering_034_37 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[60/100] uniandes_bouldering_030_61 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[61/100] uniandes_bouldering_022_49 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[62/100] uniandes_bouldering_022_13 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[63/100] uniandes_bouldering_028_34 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[64/100] uniandes_bouldering_030_29 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[65/100] uniandes_bouldering_032_21 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[66/100] uniandes_bouldering_023_44 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[67/100] uniandes_bouldering_024_60 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[68/100] uniandes_bouldering_025_16 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[69/100] uniandes_bouldering_022_62 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[70/100] uniandes_bouldering_035_21 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[71/100] uniandes_bouldering_036_48 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[72/100] uniandes_bouldering_023_11 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[73/100] uniandes_bouldering_029_9 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[74/100] uniandes_bouldering_026_22 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[75/100] uniandes_bouldering_027_87 (GT=Novice)
+  exo ERROR: unsupported operand type(s) for *: 'NoneType' and 'float'
+  exo: Unknown X | ERROR
+  ego ERROR: unsupported operand type(s) for *: 'NoneType' and 'float'
+  ego: Unknown X | ERROR
+
+[76/100] uniandes_bouldering_036_60 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[77/100] uniandes_bouldering_032_66 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[78/100] uniandes_bouldering_024_54 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[79/100] uniandes_bouldering_026_26 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[80/100] uniandes_bouldering_024_32 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[81/100] uniandes_bouldering_023_2 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[82/100] uniandes_bouldering_026_23 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[83/100] uniandes_bouldering_022_72 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[84/100] uniandes_bouldering_036_50 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[85/100] uniandes_bouldering_033_45 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[86/100] uniandes_bouldering_032_2 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[87/100] uniandes_bouldering_022_5 (GT=Intermediate Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[88/100] uniandes_bouldering_033_55 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[89/100] uniandes_bouldering_036_57 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[90/100] uniandes_bouldering_037_52 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[91/100] uniandes_bouldering_026_21 (GT=Novice)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[92/100] uniandes_bouldering_031_30 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[93/100] uniandes_bouldering_036_12 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[94/100] uniandes_bouldering_025_52 (GT=Late Expert)
+  exo ERROR: No frames
+  exo: Unknown X | ERROR
+  ego ERROR: No frames
+  ego: Unknown X | ERROR
+
+[95/100] uniandes_bouldering_029_28 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[96/100] uniandes_bouldering_027_2 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[97/100] uniandes_bouldering_028_24 (GT=Early Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[98/100] uniandes_bouldering_031_69 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[99/100] uniandes_bouldering_029_48 (GT=Intermediate Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+[100/100] uniandes_bouldering_036_8 (GT=Late Expert)
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  exo ERROR: name 're' is not defined
+  exo: Unknown X | ERROR
+    WARNING: prompt is 4200 tokens, exceeds 4096 limit
+  ego ERROR: name 're' is not defined
+  ego: Unknown X | ERROR
+
+============================================================
+RESULTS — VideoLLaVA reasoning 16f TRIMMED (original prompt)
+============================================================
+  exo: 0/100 = 0.0%
+  ego: 0/100 = 0.0%
+
+Random chance: 25%
+
+Exo predictions: {'Unknown': 100}
+Ego predictions: {'Unknown': 100}
+============================================================

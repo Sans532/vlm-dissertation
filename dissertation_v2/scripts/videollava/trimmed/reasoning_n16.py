@@ -5,6 +5,7 @@ import json, os, csv, gc, warnings
 import torch, cv2, numpy as np
 from transformers import VideoLlavaForConditionalGeneration, VideoLlavaProcessor
 from collections import Counter
+import re
 
 warnings.filterwarnings("ignore")
 
@@ -20,8 +21,10 @@ LABELS     = ["Late Expert", "Intermediate Expert", "Early Expert", "Novice"]
 os.makedirs(os.path.dirname(RESULTS), exist_ok=True)
 
 QUESTION = (
-    "As an expert coach, judge this person's body alignment and movement fluency.\n"
-    "Skill Level: Novice / Early Expert / Intermediate Expert / Late Expert"
+    "You are an expert coach evaluating this person's technique.\n"
+    "Judge body alignment and movement fluency.\n"
+    "Skill Level: [Novice/Early Expert/Intermediate Expert/Late Expert]\n"
+    "Reason: (one short sentence)"
 )
 
 print("Loading takes metadata...")
@@ -69,7 +72,7 @@ def ask(video_path, take_folder, question):
     video = get_frames_trimmed(video_path, take_folder)
     if video is None:
         raise Exception("No frames")
-    prompt = "USER: <video>\nThese are " + str(NUM_FRAMES) + " frames sampled from a video of a person performing an activity. " + question + " ASSISTANT:"
+    prompt = "USER: <video>\n" + question + " ASSISTANT:"
     inputs = processor(text=prompt, videos=video, return_tensors="pt").to("cuda")
 
     # Check token length before generating — warn if close to/over limit
@@ -77,7 +80,7 @@ def ask(video_path, take_folder, question):
     if n_tokens > 4096:
         print("    WARNING: prompt is " + str(n_tokens) + " tokens, exceeds 4096 limit")
 
-    out = model.generate(**inputs, max_new_tokens=300, do_sample=False)
+    out = model.generate(**inputs, max_new_tokens=100, do_sample=False)
     raw = processor.batch_decode(out, skip_special_tokens=True)[0]
     clean = raw.split("ASSISTANT:")[-1].strip() if "ASSISTANT:" in raw else raw.strip()
     del inputs, out, video
@@ -87,11 +90,23 @@ def ask(video_path, take_folder, question):
 
 def extract_label(answer):
     a = answer.lower()
-    for label in LABELS:
-        if label.lower() in a:
-            return label
-    return "Unknown"
+    match = re.search(r'skill level[:\s\[]+(.+?)(?:\]|\n|$)', a)
+    search_text = match.group(1).strip() if match else a
 
+    for label in ["late expert", "intermediate expert", "early expert"]:
+        if label in search_text:
+            return label.title()
+    if "novice" in search_text or "beginner" in search_text:
+        return "Novice"
+
+    # fallback: search full answer
+    for label in ["late expert", "intermediate expert", "early expert"]:
+        if label in a:
+            return label.title()
+    if "novice" in a or "beginner" in a:
+        return "Novice"
+
+    return "Unknown"
 
 benchmark = json.load(open(BENCHMARK))
 print("Clips: " + str(len(benchmark)) + " | frames: " + str(NUM_FRAMES) + " | TRIMMED\n")
