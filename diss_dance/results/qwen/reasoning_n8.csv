@@ -1,0 +1,902 @@
+clip_id,take_folder,ground_truth,exo_full_answer,exo_predicted,exo_correct,ego_full_answer,ego_predicted,ego_correct
+b40e861f-60a7-4b55-8757-41a6af4e62e8,upenn_0730_Dance_1_7,Intermediate Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good body alignment throughout the routine. Their posture is upright, and they demonstrate proper weight transfer between their feet as they move through the space. This suggests that they have a solid understanding of basic dance techniques and are able to execute them with confidence.
+
+* **Movement Fluency:** The dancer's movements are fluid and well-coordinated. They transition smoothly between different steps and gestures, indicating a high level of practice and familiarity with the choreography. There are no noticeable hesitations or awkwardness in their footwork or arm movements.
+
+* **Technical Precision:** While the dancer demonstrates a high degree of technical proficiency, there are some areas for improvement. For example, the dancer's arms could be more expressive and dynamic, and their leg movements could be more precise and controlled. Additionally, the dancer could work on improving their balance and stability during more challenging steps.
+
+Overall, the dancer's performance is impressive and suggests that they have a strong foundation in dance technique. However, there is still room for growth and refinement in certain areas. With continued practice and dedication, the dancer has the potential to reach a late expert level of skill.",Late Expert,False,"Novice
+
+The person in the video appears to be a novice dancer. Their movements are not fluid or precise, and they seem to lack the technical skills necessary for more advanced dance techniques. The person's body alignment is also not ideal, as they appear to be leaning forward and not maintaining proper posture throughout the video. Overall, the person's technique is lacking, and they would benefit from more practice and instruction before attempting more complex dance moves.",Novice,False
+4e468597-ba96-40c7-977b-7736a4a3bd73,uniandes_dance_017_3,Novice,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her shoulders are level, her back is straight, and her core is engaged, which suggests she has a solid understanding of proper form.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning between steps and gestures smoothly without any noticeable hesitation or stiffness. This indicates that she has practiced the routine enough to perform it with ease and confidence.
+
+* **Technical Precision:** While the dancer's technique is generally precise, there are some minor inconsistencies in her footwork and arm movements. For example, in Frame 4, her left arm appears slightly stiff as she extends it outward. Additionally, in Frame 6, her right leg seems to be slightly bent at the knee, which could potentially affect her balance and overall flow.
+
+Overall, the dancer's performance shows a high level of skill and experience, but there is still room for improvement in certain technical aspects. With continued practice and refinement, she could reach late expert status.",Late Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, there is a lack of technical precision in their movements, which suggests that they may still be developing their skills. Overall, the dancer's movements appear to be stiff and uncoordinated, indicating that they are still in the early stages of learning how to dance.",Novice,True
+7d810b75-87a9-4b95-86d0-c970ae6d03a5,uniandes_dance_023_26,Late Expert,"Novice
+
+The dancer's body alignment appears to be off as her feet are not in line with each other and her knees are bent. Her movement fluency seems to be lacking as she is not moving smoothly or gracefully. The technical precision is also lacking as the dancer does not seem to have a clear understanding of the dance steps and their execution.",Novice,False,"Novice
+
+The dancer's body alignment appears to be off as the dancer seems to be leaning forward and not standing straight. The movement fluency is also questionable as the dancer seems to be moving in a jerky manner. The technical precision is also lacking as the dancer seems to be moving without any control or coordination.",Novice,False
+6da46fdf-32e1-4f44-a903-ab609f0d750c,uniandes_dance_008_51,Intermediate Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good body alignment throughout the routine, with proper posture and core engagement. Her movements are fluid and controlled, indicating a high level of technical proficiency.
+
+* **Movement Fluency:** The dancer demonstrates smooth and flowing movements, with no noticeable hesitations or awkwardness. Her transitions between steps and gestures appear natural and well-coordinated, suggesting a high level of practice and familiarity with the routine.
+
+* **Technical Precision:** The dancer exhibits precise and accurate movements, with clean lines and sharp angles. Her footwork is solid, and her arm movements are well-timed and expressive. The dancer's use of space and timing also indicates a high level of technical precision.
+
+Overall, the dancer's performance in the video suggests that she has a strong foundation in dance technique and is capable of executing complex routines with ease. While there may still be room for improvement in certain areas, such as adding more variety to her movements or refining her style, the dancer's overall skill level appears to be at an intermediate expert level.",Intermediate Expert,True,"Novice
+
+The dancer's body alignment is not consistent throughout the video. The dancer's feet are not in line with each other and the dancer's knees are bent at different angles. The dancer's movements are not fluid and there are some awkward movements. The dancer's technical precision is also lacking as the dancer's arms are not in line with the body and the dancer's hands are not in the correct position.",Novice,False
+92ee422b-2245-4efa-b300-0c5dc2744043,uniandes_dance_022_3,Novice,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off as they are not maintaining proper posture throughout the dance routine. Additionally, the dancer's movements appear to be stiff and uncoordinated, which suggests that they may not have had much practice or experience with dancing. Overall, the dancer's technique is lacking in terms of body alignment, movement fluency, and technical precision, indicating that they are still at a novice level.",Novice,True,"Novice
+
+The dancer's body alignment appears to be off as they are not standing straight and tall. Their movement fluency seems to be lacking as well, with some awkward movements. The technical precision is also not very good, as the dancer seems to be struggling with the steps and not executing them correctly.",Novice,True
+6cce39fb-95c0-44b3-bddd-b20cd271f6b6,upenn_0629_Dance_3_6,Early Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good body alignment throughout the routine, with proper posture and core engagement. This suggests a level of technical proficiency and understanding of dance mechanics.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in their movements, transitioning between steps and gestures smoothly without hesitation or awkwardness. This indicates a high degree of practice and familiarity with the choreography.
+
+* **Technical Precision:** While the dancer exhibits a high level of technical precision, there are some minor imperfections that suggest they may still be refining their technique. For example, the dancer's arms could be more relaxed and natural during certain movements, and their footwork could be slightly more precise.
+
+Overall, the dancer's performance showcases a strong foundation in dance technique and a high level of skill and experience. However, there is room for continued growth and refinement in specific areas.",Intermediate Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off as they are not standing straight or maintaining proper posture throughout the dance. Additionally, the dancer's movements appear to be stiff and uncoordinated, which suggests that they may not have much experience with dance. Overall, the dancer's technique is lacking in terms of body alignment, movement fluency, and technical precision, indicating that they are still at a novice level.",Novice,False
+ed917883-c69b-4f94-83bd-1c7f583b4331,uniandes_dance_015_22,Late Expert,"The dancer in the video appears to be at an intermediate expert level. The dancer demonstrates good body alignment and movement fluency throughout the routine. The dancer's movements are smooth and well-coordinated, indicating a high level of technical precision. However, there are some minor inconsistencies in the dancer's form that suggest they may not yet be at a late expert level. Overall, the dancer's performance is impressive and shows a strong foundation in dance technique.",Late Expert,True,"Novice
+
+The person in the video appears to be a novice dancer. Their movements are not fluid or precise, and they seem to lack confidence and control. The person's body alignment is also not ideal, as they appear to be leaning forward and not maintaining proper posture. Overall, the person's technique is lacking, and they would benefit from more practice and instruction.",Novice,False
+8aa071f1-fcea-4bf4-9a0a-e885a32da656,uniandes_dance_016_43,Novice,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+1. **Body Alignment**: The dancer maintains good posture and alignment throughout the routine. Her spine remains straight, and her weight is distributed evenly between her feet, indicating a solid understanding of proper body mechanics.
+
+2. **Movement Fluency**: The dancer demonstrates fluidity in her movements. She transitions smoothly between different steps and gestures, showing a high degree of control and coordination. Her arm movements are well-timed with her steps, contributing to a cohesive and visually appealing performance.
+
+3. **Technical Precision**: The dancer exhibits precise execution of her dance moves. Her footwork is clean, and she maintains a consistent rhythm. The placement of her feet and the timing of her steps suggest a strong grasp of technical details, which is characteristic of dancers who have developed a significant amount of skill through practice.
+
+Overall, the dancer's performance shows a high level of proficiency, with a strong foundation in both body alignment and technical precision. While there may still be room for further refinement and complexity in her routine, her current skill level places her firmly in the category of an intermediate expert.",Intermediate Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, there is a lack of technical precision in their movements, which suggests that they may still be developing their skills.",Novice,True
+71e8d768-1bd4-4f21-91bd-da53bfe29279,uniandes_dance_022_11,Novice,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the sequence. Her shoulders are level, her back is straight, and her core is engaged, which suggests she has a solid understanding of proper form.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning between steps with ease. There are no abrupt or jerky motions, indicating a high level of comfort and control over her technique.
+
+* **Technical Precision:** The dancer exhibits precise footwork and timing, as evidenced by her consistent placement of each step and her ability to maintain rhythm. She also shows a good grasp of the dance's technical elements, such as turns and arm movements.
+
+Overall, the dancer's technique is well-developed, and she appears to have a strong foundation in the art of dancing. However, there may still be room for improvement in certain areas, such as increasing the complexity of her routine or refining her style. With continued practice and dedication, the dancer could potentially reach late expert status.",Late Expert,False,"Novice
+
+The dancer's body alignment appears to be off as the feet are not in line with each other and the knees are bent. The movement fluency seems to be lacking as the dancer is not moving smoothly. The technical precision is also poor as the dancer is not following any specific dance steps or patterns.",Novice,True
+88ec5df5-24f4-48d4-8452-ad4c12103a0a,uniandes_dance_013_7,Early Expert,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off as they are not maintaining proper posture throughout the dance routine. Additionally, the dancer's movements appear to be stiff and uncoordinated, which suggests that they may not have had much practice or experience with dancing. Overall, the dancer's technique is lacking in terms of body alignment, movement fluency, and technical precision, indicating that they are still at a novice level.",Novice,False,"Novice
+
+The dancer's movements appear to be uncoordinated and lack fluidity. The body alignment seems off as the dancer's feet do not seem to be in line with each other. The dancer also seems to be moving too fast for the music, which could indicate that they are still learning the steps.",Novice,False
+b8afa573-2f0f-4b77-b4b3-5fbb7197dd1f,uniandes_dance_008_11,Late Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good body alignment throughout the routine. Her posture is upright, and her movements are fluid, indicating a high level of control over her body mechanics.
+
+* **Movement Fluency:** The dancer demonstrates smooth and flowing movements, suggesting that she has a good understanding of the dance style and can execute the steps with ease. There are no abrupt or jerky movements observed in the video.
+
+* **Technical Precision:** The dancer exhibits technical precision in her movements. She performs the steps with accuracy and consistency, showing a strong grasp of the choreography. Her arm movements are well-coordinated with her body, and she maintains a steady rhythm throughout the routine.
+
+Overall, the dancer's performance in the video suggests that she has achieved a high level of skill and technical proficiency in her dance routine. While there may still be room for improvement, the dancer's ability to execute the steps with ease and precision indicates that she is likely an intermediate expert in her dance discipline.",Intermediate Expert,False,"Novice
+
+The dancer's movements appear to be uncoordinated and lack fluidity. The body alignment seems off, with the dancer not maintaining proper posture throughout the dance. The technical precision is also lacking as the dancer's movements do not seem to follow any specific pattern or rhythm. Overall, the dancer appears to be at a novice level in terms of technique and skill.",Novice,False
+50e6c59b-737e-447c-984c-fde5cd3e5e80,uniandes_dance_023_51,Early Expert,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off as they are not maintaining proper posture throughout the dance routine. Additionally, the dancer's movements appear to be stiff and uncoordinated, which suggests that they may not have had much practice or experience with dance. Overall, the dancer's technique is lacking in terms of body alignment, movement fluency, and technical precision, indicating that they are still at a novice level.",Novice,False,"Novice
+
+The dancer's body alignment appears to be off as they are not standing straight and tall. Their movement fluency seems to be lacking as well, with some awkward movements. The technical precision is also not very good, as the dancer seems to be struggling with the steps and not executing them correctly.",Novice,False
+7c8dc8cc-c863-4082-a011-ba385306537a,uniandes_dance_024_3,Novice,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off as they are not maintaining proper posture throughout the dance routine. Additionally, the dancer's movements appear to be stiff and uncoordinated, which suggests that they may not have had much practice or experience with dancing. Overall, the dancer's technique is lacking in terms of body alignment, movement fluency, and technical precision, indicating that they are still at a novice level.",Novice,True,"Novice
+
+The dancer in the video appears to be a novice. The movements are not fluid and there is a lack of coordination between the different parts of the body. The dancer seems to be struggling with maintaining proper body alignment and balance. There is also a lack of technical precision, as the dancer does not seem to have a clear understanding of the steps or the rhythm of the music. Overall, the dancer's technique is very basic and lacks the refinement that would be expected from someone who has more experience.",Novice,True
+c198cb21-159d-4a1f-b395-976f44c24166,uniandes_dance_017_4,Novice,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her shoulders are level, her back is straight, and her core is engaged, which are essential for both safety and aesthetic appeal.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning between steps and gestures smoothly without any noticeable hesitations or awkwardness. This suggests a high level of practice and familiarity with the choreography.
+
+* **Technical Precision:** The dancer executes various dance moves with precision, including arm movements, leg extensions, and turns. Her footwork is also well-timed, indicating a strong understanding of rhythm and timing.
+
+Overall, the dancer's performance exhibits a high degree of skill and confidence, making it clear that she has progressed beyond the novice stage and is well on her way to becoming an expert dancer.",Intermediate Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, there is a lack of technical precision, as the dancer's movements appear to be uncoordinated and inconsistent. Overall, the dancer's technique suggests that they are still in the early stages of learning and developing their skills.",Novice,True
+be44efc7-77ac-43ff-906b-3d49387ce118,uniandes_dance_022_17,Late Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her spine remains straight, and her shoulders are relaxed, which suggests she has a solid understanding of proper body mechanics.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning between steps and gestures smoothly. This indicates that she has practiced the routine enough to perform it with ease and confidence.
+
+* **Technical Precision:** While the dancer shows a high level of technical proficiency, there are some minor inconsistencies in her footwork and arm movements. For example, in some frames, her feet appear to be slightly out of sync with each other, and her arms sometimes seem to lag behind her body. These small imperfections suggest that she may still be refining her technique.
+
+Overall, the dancer's performance is impressive, but there is room for improvement in terms of technical precision. With continued practice and attention to detail, she could reach late expert level.",Late Expert,True,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they appear to be leaning or shifting their weight awkwardly at times. Additionally, there is no clear indication of technical precision, as the dancer's movements do not seem to follow any specific pattern or rhythm. Overall, the dancer's technique suggests that they are still in the early stages of learning and developing their skills.",Novice,False
+dc26e79e-f38f-4711-a212-6a7de087d8ac,uniandes_dance_017_6,Novice,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her core is engaged, and her movements are fluid, indicating a solid understanding of proper body mechanics.
+
+* **Movement Fluency:** The dancer demonstrates a high degree of movement fluency, transitioning between different steps and gestures with ease. Her movements appear well-rehearsed, suggesting that she has practiced extensively.
+
+* **Technical Precision:** The dancer exhibits technical precision in her execution of the dance moves. She maintains a consistent tempo and rhythm, and her footwork is precise, indicating a strong foundation in dance technique.
+
+Overall, the dancer's performance suggests that she has a good grasp of the fundamentals of dance and has developed a high level of skill through practice. However, there may still be room for improvement in certain areas, such as adding more variety to her routine or incorporating more complex choreography. With continued practice and dedication, the dancer could potentially reach a late expert level of skill.",Late Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, there is a lack of technical precision in their movements, which suggests that they may still be developing their skills.",Novice,True
+1f5b9ba5-a7c0-496d-b164-444251f45d25,uniandes_dance_002_3,Late Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the sequence. Their spine remains straight, and their shoulders are level, indicating a solid understanding of proper body mechanics.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in their movements, transitioning between steps with ease. There are no abrupt or jerky motions, suggesting a high level of practice and familiarity with the dance routine.
+
+* **Technical Precision:** The dancer exhibits precise footwork and timing, as evidenced by the consistent placement of their feet and the accuracy of their steps. They also maintain a steady rhythm, which is crucial for a well-executed dance performance.
+
+Overall, the dancer's technique is impressive, and they appear to have a strong foundation in the art of dance. However, there may still be room for improvement in certain aspects, such as adding more variety to their movements or incorporating more complex choreography. Nonetheless, the dancer's skill level can be classified as intermediate expert.",Intermediate Expert,False,"Novice
+
+The dancer's body alignment appears to be off as the torso is not straight and the legs are not in line with each other. The movement fluency seems to be lacking as the dancer is not moving smoothly or gracefully. The technical precision is also poor as the dancer is not performing any specific dance moves or steps correctly.",Novice,False
+be64949d-750d-4272-a561-a6c7c2d5a6b9,uniandes_dance_002_13,Early Expert,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in her movements. Her body alignment seems off as she struggles to maintain proper posture throughout the dance routine. Additionally, her movements appear to be stiff and uncoordinated, indicating that she may not have had much practice or experience with dance. Overall, her performance lacks the grace and control expected of even an intermediate dancer.",Novice,False,"Novice
+
+The dancer's body alignment appears to be off as the feet are not in line with each other and the knees are bent. The movement fluency seems to be lacking as the dancer is not moving smoothly. The technical precision is also poor as the dancer is not performing any specific dance moves or steps.",Novice,False
+0c162693-cd79-4d37-9dd9-d1a6a5c653a3,uniandes_dance_020_28,Novice,"The dancer in the video appears to be at an **Intermediate Expert** skill level based on the following observations:
+
+1. **Body Alignment**: The dancer maintains good posture and alignment throughout the sequence. Their spine remains straight, and their weight is distributed evenly between both legs. This indicates a solid understanding of basic body mechanics.
+
+2. **Movement Fluency**: The dancer demonstrates fluidity in their movements. There are no abrupt or jerky actions, suggesting that they have practiced and refined their technique over time. The transitions between different steps appear smooth, which is characteristic of someone who has developed a good sense of rhythm and timing.
+
+3. **Technical Precision**: The dancer executes various dance moves with reasonable accuracy. While there may not be perfect execution of every step due to the complexity of the routine, the overall performance shows a high level of technical proficiency. The dancer seems to understand the required footwork, arm movements, and body isolations necessary for the choreography.
+
+4. **Consistency**: The dancer maintains a consistent level of performance across the frames, indicating a high degree of practice and familiarity with the routine.
+
+While the dancer exhibits a strong foundation in dance techniques, there might still be room for improvement in certain aspects such as more intricate footwork, more dynamic arm movements, or better isolation of specific body parts. However, considering the overall quality of the performance, the dancer can be classified as an Intermediate Expert.",Intermediate Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance. Additionally, there is a lack of technical precision in their movements, which suggests that they may still be learning the steps and techniques required for a more advanced level of dancing.",Novice,True
+94b7d4d2-0ddc-47d2-a88e-71193c2315cc,upenn_0629_Dance_2_2,Early Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+1. **Body Alignment**: The dancer maintains good posture and alignment throughout the routine. Their spine remains straight, and their weight distribution appears balanced, which is crucial for both aesthetic appeal and safety during dance movements.
+
+2. **Movement Fluency**: The dancer demonstrates fluidity in their movements. There are no abrupt or jerky actions, indicating a high level of control and practice. The transitions between different steps and gestures appear smooth, suggesting a well-rehearsed routine.
+
+3. **Technical Precision**: The dancer executes various dance techniques with precision. This includes proper footwork, arm movements, and body isolations. The use of specific dance techniques, such as turns and steps, shows a good understanding of the choreography and the ability to perform them accurately.
+
+Overall, the dancer's performance exhibits a high degree of skill and experience, making it clear that they are at an intermediate expert level. They have a strong foundation in dance technique and are able to execute complex routines with ease.",Intermediate Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer seems to be struggling with maintaining proper body alignment and coordination, which is evident in the uneven and jerky movements throughout the video. Additionally, the dancer's posture and positioning do not appear to be well-executed, as they seem to be leaning or shifting their weight awkwardly at times. Overall, the dancer's technique lacks the smoothness and control that would be expected from someone who has more experience with dance.",Novice,False
+8aef970a-22d8-4f21-94de-9737be02abd1,uniandes_dance_016_46,Novice,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her core is engaged, and her movements are fluid, indicating a solid understanding of proper body mechanics.
+
+* **Movement Fluency:** The dancer demonstrates a high degree of movement fluency, transitioning between different dance steps with ease and grace. Her movements are well-coordinated, suggesting that she has practiced extensively and has a strong grasp of the choreography.
+
+* **Technical Precision:** The dancer exhibits technical precision in her execution of the dance moves. She maintains a consistent tempo and rhythm, and her footwork is precise, indicating a high level of technical skill.
+
+Overall, the dancer's performance suggests that she has a strong foundation in dance technique and has developed a high level of proficiency through practice and experience. While there may still be room for improvement in certain areas, such as adding more variety to her movements or refining specific steps, the dancer's overall skill level can be classified as intermediate expert.",Intermediate Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in her movements. Her body alignment seems off as she is not maintaining proper posture throughout the dance. Additionally, there is no evidence of technical precision or fluency in her movements.",Novice,True
+4db61f0f-e35b-4ad8-bc3a-8d4a02094c19,uniandes_dance_019_7,Intermediate Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her spine remains straight, and her shoulders are level, indicating a strong sense of core stability. Her feet are positioned correctly for each step, suggesting she has a good understanding of proper foot placement.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning between steps and gestures smoothly. Her arm movements appear natural and well-coordinated with her body, contributing to the overall flow of the dance. She maintains a consistent tempo, which suggests she has practiced the routine enough to perform it confidently.
+
+* **Technical Precision:** The dancer exhibits technical precision in her execution of the dance moves. She performs each step with accuracy, maintaining proper form and technique. Her timing is also precise, as she executes each movement in sync with the music. The dancer's ability to maintain these technical elements indicates that she has a solid foundation in dance technique.
+
+Overall, the dancer's performance shows a high level of skill and experience, making her an intermediate expert. However, there may still be room for improvement in certain areas, such as adding more variety to her movements or incorporating more complex choreography. With continued practice and exposure to different styles of dance, the dancer could potentially advance to a late expert level.",Late Expert,False,"Novice
+
+The dancer's movements appear to be uncoordinated and lack fluidity. The body alignment seems off, and the technical precision is not evident in the video.",Novice,False
+a79d5151-c4f8-4b6e-9084-c563b317c4e8,uniandes_dance_021_29,Intermediate Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her spine remains straight, and her shoulders are level, indicating a strong sense of core stability. Her feet are positioned correctly for each step, suggesting she has a good understanding of proper foot placement.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning between steps and gestures smoothly. Her arm movements appear natural and well-coordinated with her body, which suggests she has practiced the routine multiple times and has a good grasp of the choreography.
+
+* **Technical Precision:** The dancer exhibits technical precision in her execution of the dance moves. She maintains a consistent tempo and rhythm, and her movements are precise and controlled. Her use of arm gestures and body isolations indicates that she has a good understanding of the technical aspects of the dance style.
+
+Overall, the dancer's performance shows a high level of skill and experience, making it clear that she is an intermediate expert. However, there may still be room for improvement in certain areas, such as increasing the speed and intensity of her movements or adding more variety to her routine.",Intermediate Expert,True,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, there is a lack of technical precision in their movements, which suggests that they may still be developing their skills.",Novice,False
+0d1c01f6-74c9-45b4-8ccd-8c64eb39a2f5,uniandes_dance_008_50,Intermediate Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her spine remains straight, and her shoulders are relaxed, which suggests she has a solid understanding of proper body mechanics.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning between steps and gestures smoothly. This indicates that she has practiced the routine enough to perform it with ease and confidence.
+
+* **Technical Precision:** While the dancer shows a high level of technical proficiency, there are some minor inconsistencies in her footwork and arm movements. For example, in some frames, her feet appear to be slightly out of sync with each other, and her arms sometimes seem to lag behind her body. These small imperfections suggest that she may still be refining her technique.
+
+Overall, the dancer's performance is impressive, but there is room for improvement in terms of technical precision. With continued practice and attention to detail, she could potentially reach late expert status.",Late Expert,False,"Novice
+
+The dancer's movements appear to be uncoordinated and lack fluidity. The body alignment seems off as well, with the dancer not maintaining proper posture throughout the dance. There is also no evidence of technical precision in the dancer's movements.",Novice,False
+53d819a4-f540-44ed-8dcd-2260112fc54c,uniandes_dance_021_19,Intermediate Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Their spine remains straight, and their shoulders are relaxed, which suggests they have a solid understanding of proper form.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in their movements, transitioning between steps and gestures smoothly without any noticeable hesitation or stiffness. This indicates a high level of comfort and familiarity with the dance style.
+
+* **Technical Precision:** The dancer executes various steps and gestures with precision, showing attention to detail in their footwork and hand movements. They maintain a consistent rhythm and tempo, which is indicative of a strong technical foundation.
+
+Overall, the dancer's performance exhibits a high degree of skill and confidence, suggesting that they have likely been practicing for some time and possess a solid understanding of the dance style. However, there may still be room for improvement in certain aspects, such as adding more variety to their routine or incorporating more complex steps.",Intermediate Expert,True,"Novice
+
+The dancer in the video appears to be a novice based on their body alignment and movement fluency. The dancer's movements seem stiff and uncoordinated, with little fluidity or grace. The dancer's body alignment also seems off, as they appear to be leaning forward and not maintaining proper posture throughout the dance. Additionally, the dancer's technical precision is lacking, as there are several instances where the dancer's feet do not land properly or their arms are not positioned correctly. Overall, the dancer's technique suggests that they are still in the early stages of learning and developing their skills.",Novice,False
+fdaecdd1-2ef5-44d6-bc6c-26ff4a21c3d6,uniandes_dance_008_13,Late Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good body alignment throughout the routine, with proper posture and core engagement. Her movements are fluid and controlled, indicating a high level of technical proficiency.
+
+* **Movement Fluency:** The dancer demonstrates smooth and flowing movements, with no noticeable hesitations or awkwardness. Her transitions between different steps and gestures appear seamless, suggesting a high degree of practice and familiarity with the routine.
+
+* **Technical Precision:** The dancer exhibits precise and accurate movements, with clear and defined footwork and arm gestures. Her timing and rhythm are well-executed, and she maintains a consistent tempo throughout the routine.
+
+Overall, the dancer's technique and execution suggest that she has a solid foundation in dance and has likely been practicing for some time. While there may still be room for improvement in certain areas, her overall skill level falls within the range of an intermediate expert.",Intermediate Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, there is a lack of technical precision, which is evident in the dancer's inconsistent footwork and arm movements. Overall, the dancer's movements appear to be stiff and uncoordinated, indicating that they are still in the early stages of learning and developing their dance skills.",Novice,False
+27b3c35b-8799-4294-b4ff-dc33f52e0220,uniandes_dance_024_8,Novice,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off as they are not maintaining proper posture throughout the dance routine. Additionally, the dancer's movements appear to be stiff and uncoordinated, which suggests that they may not have had much practice or experience with dancing. Overall, the dancer's technique is lacking in terms of body alignment, movement fluency, and technical precision, indicating that they are still at a novice level.",Novice,True,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, there is a noticeable lack of technical precision, which suggests that the dancer may still be developing their skills and understanding of the dance style. Overall, the dancer's movements appear to be somewhat stiff and uncoordinated, indicating that they are still in the early stages of learning and practicing the dance.",Novice,True
+9235aa5a-d273-4932-be5f-b74ac82f5bcc,uniandes_dance_007_7,Intermediate Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her spine remains straight, and her shoulders are relaxed, indicating a high level of control over her body movements.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning between steps and gestures seamlessly. Her timing and rhythm appear well-coordinated, suggesting a strong understanding of the dance style and its requirements.
+
+* **Technical Precision:** The dancer exhibits precise execution of various dance techniques, including footwork, arm movements, and body isolations. Her movements are clean and controlled, with minimal hesitation or error.
+
+Overall, the dancer's performance showcases a high level of skill and experience, making it evident that she has reached an intermediate expert level. However, there may still be room for improvement in certain aspects of her technique, such as increasing the complexity of her routines or refining specific movements.",Intermediate Expert,True,"Novice
+
+The person in the video appears to be a novice dancer. Their movements are not fluid or precise, and they seem to lack confidence and control. The person's body alignment is also not ideal, as they appear to be leaning forward and not maintaining proper posture. Overall, the person's technique is lacking, and they would benefit from more practice and instruction.",Novice,False
+97fff617-93c7-4d83-a13e-1ff5ab6fc79d,uniandes_dance_021_12,Late Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her spine remains straight, and her shoulders are relaxed, indicating a high level of control over her body movements.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning between steps and gestures seamlessly. There are no abrupt or jerky motions, suggesting that she has developed a strong sense of rhythm and timing.
+
+* **Technical Precision:** The dancer exhibits technical precision in her footwork and arm movements. She maintains proper foot placement and uses her arms effectively to enhance the overall flow of her dance. Her use of the floor markers also suggests that she is aware of her position within the space.
+
+Overall, the dancer's performance shows a high level of skill and experience, with a strong foundation in technique and a confident execution of her routine. While there may still be room for improvement in certain aspects, such as adding more variety to her movements or refining specific steps, the dancer's intermediate expert level is evident in her overall performance.",Intermediate Expert,False,"Novice
+
+The dancer's body alignment appears to be off as the shoulders and hips are not in line with each other. The movement fluency seems to be lacking as the dancer is not moving smoothly. The technical precision is also poor as the dancer is not executing the dance steps correctly.",Novice,False
+6af8d123-939a-410a-9d29-72687bd4dac5,uniandes_dance_013_15,Late Expert,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in her movements. Her body alignment seems off as she struggles to maintain proper posture throughout the dance routine. Additionally, her movements appear to be stiff and uncoordinated, indicating that she may not have had much practice or experience with dance. Overall, her performance suggests that she is still in the early stages of learning and developing her skills.",Novice,False,"Novice
+
+The dancer's body alignment appears to be off as they are not standing straight and tall. Their movement fluency seems to be lacking as well, with some awkward movements. The technical precision is also not very good, as the dancer seems to be struggling with the steps and not executing them correctly.",Novice,False
+8fdcfd22-239e-44b9-90a7-f29588cb7d82,uniandes_dance_012_24,Intermediate Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her spine remains straight, and her shoulders are relaxed, indicating a high level of control over her body movements.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning between steps and gestures seamlessly. There are no abrupt or jerky motions, suggesting that she has developed a strong sense of rhythm and timing.
+
+* **Technical Precision:** The dancer exhibits a high degree of technical precision in her movements. She performs each step with accuracy and control, demonstrating a solid understanding of the dance style and its technical requirements.
+
+Overall, the dancer's performance suggests that she has a strong foundation in dance technique and has likely been practicing for several years. While there may still be room for improvement in certain aspects of her routine, her overall skill level is consistent with that of an intermediate expert dancer.",Intermediate Expert,True,"Novice
+
+The dancer's body alignment appears to be off as the person is not standing straight and tall. The movement fluency seems to be lacking as the person is not moving in a smooth manner. The technical precision is also not evident as the person is not performing any specific dance moves or steps with accuracy.",Novice,False
+5286fd37-f72e-42c5-bb9e-e09811887981,uniandes_dance_020_27,Novice,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the sequence. Their spine remains straight, and their weight is distributed evenly between both legs. This indicates a solid understanding of proper body mechanics.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in their movements, transitioning smoothly between different steps without hesitation or awkwardness. This suggests that they have developed a good sense of rhythm and timing.
+
+* **Technical Precision:** While the dancer performs with a high degree of technical proficiency, there are some minor inconsistencies in their footwork and arm movements. For example, in Frame 6, the dancer's left foot appears to be slightly off-balance, and in Frame 7, their right arm seems to be moving in an uncoordinated manner. These small errors suggest that the dancer may still be refining their technique.
+
+Overall, the dancer exhibits a strong foundation in dance technique and has developed a good sense of rhythm and movement. However, there is room for improvement in terms of consistency and refinement of specific movements. With continued practice and attention to detail, the dancer could potentially reach a late expert level.",Late Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they appear to be leaning or shifting their weight awkwardly at times. Additionally, there is no clear indication of technical precision, as the dancer's movements do not seem to follow any specific pattern or rhythm. Overall, the dancer's technique suggests that they are still in the early stages of learning and developing their skills.",Novice,True
+7992ceca-a566-4679-b116-6fc0b811b70f,upenn_0720_Dance_4_5,Early Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good body alignment throughout the routine. Her posture is upright, and her movements are fluid, indicating a high level of control over her body mechanics.
+
+* **Movement Fluency:** The dancer demonstrates smooth and flowing movements, with no visible signs of hesitation or awkwardness. This suggests that she has a good understanding of the choreography and can execute it with ease.
+
+* **Technical Precision:** The dancer performs various technical elements with precision, such as arm movements, leg extensions, and turns. Her timing and coordination appear to be well-developed, which is indicative of a higher skill level.
+
+Overall, the dancer's performance shows a strong foundation in dance technique and a high degree of proficiency in executing the choreography. While there may still be room for improvement in certain areas, the dancer's skill level falls within the range of an intermediate expert.",Intermediate Expert,False,"Novice
+
+The dancer in the video appears to be a novice. The movements are not fluid and there is a lack of technical precision. The dancer seems to be struggling with basic steps and does not have a clear understanding of the dance style or choreography.",Novice,False
+c5c271ee-08ad-4dd8-ac8c-417f830db685,uniandes_dance_019_20,Intermediate Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her spine remains straight, and her shoulders are relaxed, which suggests she has a solid understanding of proper form.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning between steps and gestures smoothly without any noticeable hesitation or stiffness. This indicates that she has practiced the routine enough to perform it with ease.
+
+* **Technical Precision:** While the dancer's technique seems proficient, there are some minor inconsistencies in her footwork and arm movements. For example, in some frames, her feet appear slightly off-balance, and her arms do not always follow through with the intended gestures. These small errors suggest that she may still be refining her technique.
+
+Overall, the dancer's performance shows a high level of skill and experience, but there is room for improvement in terms of technical precision. With continued practice and attention to detail, she could potentially reach late expert status.",Late Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, there is a noticeable lack of technical precision, which suggests that the dancer may still be developing their skills and understanding of the dance style. Overall, the dancer's movements appear to be somewhat stiff and uncoordinated, indicating that they are still in the early stages of learning and practicing the dance.",Novice,False
+26ca925c-845d-4419-ae37-93f28cb415e8,uniandes_dance_016_8,Early Expert,"The dancer in the video demonstrates a moderate level of skill, which can be categorized as Intermediate Expert.
+
+Here's the reasoning behind this assessment:
+
+1. **Body Alignment**: The dancer maintains good posture and alignment throughout the sequence. Her spine appears straight, and her weight is distributed evenly between her feet, indicating a solid understanding of basic body mechanics. However, there might be room for improvement in maintaining perfect alignment during more complex movements or transitions.
+
+2. **Movement Fluency**: The dancer exhibits fluidity in her movements, transitioning smoothly between different poses and steps. Her gestures and footwork appear well-coordinated, suggesting a decent level of practice and familiarity with the dance style. However, there may be slight hesitations or lack of smoothness in some parts of the routine, indicating that she could benefit from further refinement and practice.
+
+3. **Technical Precision**: The dancer demonstrates a reasonable level of technical precision, executing various dance elements with acceptable accuracy. She manages to maintain proper form while performing different movements, such as arm extensions, leg lifts, and turns. Nevertheless, there are minor inconsistencies in the execution of specific techniques, which might be improved through additional training and practice.
+
+Overall, the dancer's performance shows a solid foundation in dance technique and a moderate level of skill. With continued dedication and practice, she has the potential to advance to a higher skill level, potentially reaching the Late Expert category.",Late Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they appear to be leaning or shifting their weight awkwardly at times. Additionally, there is no clear indication of technical precision, as the dancer's movements do not seem to follow any specific pattern or rhythm. Overall, the dancer's technique suggests that they are still in the early stages of learning and developing their skills.",Novice,False
+e10d385c-3b3f-4cc4-8e2d-2c5e7d986f42,uniandes_dance_020_34,Late Expert,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, the dancer's movements appear to be stiff and uncoordinated, which suggests that they may not have had much practice or experience with dancing. Overall, the dancer's technique is lacking, and they would benefit from more training and practice to improve their skills.",Novice,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance. Additionally, there is a lack of technical precision in their movements, which suggests that they may still be learning the steps and techniques required for a more advanced level of dancing.",Novice,False
+24b8af0b-b50e-4ddb-8421-a23dab506580,uniandes_dance_013_22,Late Expert,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in her movements. Her body alignment seems off as she struggles to maintain proper posture throughout the dance routine. Additionally, her movements appear to be stiff and uncoordinated, indicating that she may not have had much practice or experience with dance. Overall, her performance suggests that she is still in the early stages of learning and developing her skills.",Novice,False,"Novice
+
+The dancer's movements appear to be uncoordinated and lack fluidity. The body alignment seems off as well, with the dancer not maintaining proper posture throughout the dance. There is also no evidence of technical precision in the dancer's movements.",Novice,False
+04f0854f-7a61-4902-a5ea-cf9b9ff2785f,upenn_0706_Dance_4_3,Early Expert,"The dancer appears to be at the Intermediate Expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Their shoulders are level, their back is straight, and their core is engaged. This suggests that they have a solid understanding of proper body mechanics and are able to maintain it during complex movements.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in their movements, transitioning between steps and gestures with ease. There are no abrupt or jerky motions, indicating a high level of coordination and control over their body.
+
+* **Technical Precision:** The dancer exhibits a high degree of technical precision in their movements. They execute each step and gesture with accuracy, demonstrating a strong grasp of the dance technique. The dancer's footwork is precise, and their arm movements are well-timed and purposeful.
+
+Overall, the dancer's performance shows a high level of skill and experience, making them an Intermediate Expert. However, there may still be room for improvement in certain areas, such as adding more variety to their routine or incorporating more challenging steps.",Intermediate Expert,False,"Novice
+
+The dancer in the video appears to be a novice. The movements are not fluid and there is a lack of technical precision. The dancer seems to be struggling with basic steps and coordination.",Novice,False
+7e4cdc23-31d4-4449-b6a1-1100985cfcb1,uniandes_dance_012_19,Intermediate Expert,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in her movements. Her body alignment seems off as she struggles to maintain proper posture throughout the dance routine. Additionally, her movements appear to be stiff and uncoordinated, indicating that she may not have had much practice or experience with dance. Overall, her technique is lacking, which suggests that she is still in the early stages of learning how to dance.",Novice,False,"Novice
+
+The dancer's body alignment appears to be off as they are not standing straight and tall. Their movement fluency seems to be lacking as well, with some awkward movements. The technical precision is also not very good, as the dancer seems to be struggling with the steps and not executing them correctly.",Novice,False
+6d348ad5-d8f5-47f3-93c4-c2252910d310,uniandes_dance_002_24,Early Expert,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in her movements. Her body alignment seems off as she struggles to maintain proper posture throughout the dance routine. Additionally, her movements appear to be stiff and uncoordinated, indicating that she may not have had much practice or experience with dance. Overall, her technique is lacking, which suggests that she is still in the early stages of learning and developing her skills.",Novice,False,"Novice
+
+The dancer's body alignment is not consistent throughout the video. The dancer's feet are not in line with each other and the dancer's knees are not bent. The dancer's movements are not fluid and there are some awkward movements. The dancer's technical precision is also lacking as the dancer's feet do not move in a straight line and the dancer's arms are not in sync with the rest of the body.",Novice,False
+98ca3100-848b-4267-be0b-3c53c301cd96,uniandes_dance_020_22,Novice,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The body alignment seems off, as the dancer's posture is not straight or balanced. Additionally, the movement fluency is poor, with the dancer appearing stiff and awkward. The technical precision is also lacking, as the dancer does not seem to have a clear understanding of the dance steps and their execution. Overall, the dancer's technique suggests that they are still in the early stages of learning and developing their skills.",Novice,True,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they appear to be leaning or shifting their weight awkwardly at times. Additionally, there is no clear indication of technical precision, as the dancer's movements do not seem to follow any specific pattern or rhythm. Overall, the dancer's technique suggests that they are still in the early stages of learning and developing their skills.",Novice,True
+ad71e6d3-b828-4dbf-8853-18f5fcc59768,uniandes_dance_019_6,Intermediate Expert,"The dancer in the video appears to be at an intermediate expert level based on her body alignment, movement fluency, and technical precision.
+
+Here's why:
+
+* **Body Alignment:** The dancer maintains good posture throughout the sequence, with her shoulders back, core engaged, and weight balanced evenly between her feet. Her arms move fluidly, complementing her steps without becoming stiff or rigid. This suggests she has a solid understanding of proper body mechanics for dance.
+
+* **Movement Fluency:** The dancer demonstrates smooth transitions between movements, showing a natural flow in her steps. She maintains a consistent rhythm and tempo, indicating that she has practiced and refined her technique over time. Her facial expressions also convey confidence and enjoyment, which adds to the overall fluency of her performance.
+
+* **Technical Precision:** The dancer exhibits precise footwork, with clear placement and timing of each step. Her arm movements are well-coordinated with her body, enhancing the visual appeal of her routine. Additionally, she shows control over her movements, avoiding any awkward or ungraceful gestures. These details suggest that she has developed a strong foundation in dance technique and is able to execute complex sequences with accuracy.
+
+Overall, the dancer's body alignment, movement fluency, and technical precision indicate that she is an intermediate expert. While there may still be room for improvement in certain aspects of her technique, she demonstrates a high level of skill and artistry in her dance performance.",Intermediate Expert,True,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, there is a lack of technical precision in their movements, which suggests that they may still be developing their skills. Overall, the dancer's movements appear to be somewhat stiff and uncoordinated, indicating that they are likely still in the early stages of learning how to dance.",Novice,False
+03d2dc5b-24fa-4190-8392-587fbdf31785,upenn_0720_Dance_3_7,Early Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good body alignment throughout the routine, with proper posture and core engagement. Her feet are positioned correctly for each step, and her weight shifts smoothly between them.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning seamlessly between steps without hesitation or awkwardness. Her timing is well-executed, and she maintains a consistent rhythm throughout the routine.
+
+* **Technical Precision:** The dancer exhibits technical precision in her footwork, arm movements, and overall dance technique. She performs each step with accuracy and control, demonstrating a strong understanding of the dance style and its specific requirements.
+
+Overall, the dancer's performance suggests that they have a solid foundation in dance technique and are capable of executing complex routines with ease. While there may still be room for improvement in certain areas, such as adding more variety to their movements or refining their timing, the dancer's skill level falls within the range of an intermediate expert.",Intermediate Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they appear to be leaning or off-balance at times. Additionally, there is no clear indication of technical precision, as the dancer's movements do not seem to follow any specific pattern or style. Overall, the dancer's movements are choppy and uncoordinated, which suggests that they may still be developing their skills.",Novice,False
+be4e32c4-1537-44bc-9f66-5d61098c08dd,uniandes_dance_024_7,Novice,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off as they are not maintaining proper posture throughout the dance routine. Additionally, the dancer's movements appear to be stiff and uncoordinated, which suggests that they may not have had much practice or experience with dancing. Overall, the dancer's technique is lacking in terms of body alignment, movement fluency, and technical precision, indicating that they are still at a novice level.",Novice,True,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, there is a lack of technical precision in their movements, which suggests that they may still be developing their skills.",Novice,True
+7ab10395-024c-4fe4-994d-c7f57a42b354,upenn_0727_Partner_Dance_2_1_4,Late Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good body alignment throughout the routine, with proper posture and weight distribution. This suggests that they have a solid understanding of basic dance techniques and are able to execute them consistently.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in their movements, transitioning between steps and turns smoothly without hesitation. This indicates a high level of practice and familiarity with the choreography.
+
+* **Technical Precision:** While the dancer shows a high degree of technical proficiency, there are some minor inconsistencies in their footwork and timing. For example, in frame 3, the dancer's left foot appears to be slightly off the ground during a step, which could potentially affect their balance and overall flow. Additionally, in frame 6, the dancer's right arm seems to be slightly stiff, which may detract from the overall elegance of their movements.
+
+Overall, the dancer's performance exhibits a strong foundation in dance technique and a high level of skill in executing the routine. However, there is room for improvement in terms of technical precision, particularly in areas such as footwork and arm placement. With continued practice and attention to detail, the dancer has the potential to reach late expert status.",Late Expert,True,"Novice
+
+The dancer in the video appears to be a novice. Her movements are not fluid and she seems to lack coordination. She also seems to be struggling with her body alignment as she is not standing straight and her arms are not moving in a smooth manner.",Novice,False
+e0ee6d25-73ea-4301-900d-c40a4d1e82dc,upenn_0720_Dance_3_11,Early Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer demonstrates good body alignment throughout the routine. Her posture is upright and balanced, with her weight distributed evenly between her feet. Her arms move fluidly and in harmony with her body movements, indicating a high level of control and coordination.
+
+* **Movement Fluency:** The dancer's movements are smooth and flowing, suggesting a high degree of practice and familiarity with the routine. There are no abrupt or jerky motions, which indicates that she has developed a strong sense of rhythm and timing.
+
+* **Technical Precision:** The dancer exhibits technical precision in her footwork and arm movements. Her steps are well-defined and executed with accuracy, and her arm movements are graceful and controlled. She also demonstrates a good understanding of the spatial relationships between her body parts, allowing for fluid transitions between different movements.
+
+Overall, the dancer's performance suggests a high level of skill and experience in dance. While there may still be room for improvement in certain areas, such as increasing the complexity of the routine or refining specific techniques, the dancer's current level of proficiency places her in the intermediate expert category.",Intermediate Expert,False,"The dancer in the video appears to be a novice or early expert. The movements are not fluid and there is a lack of technical precision. The dancer seems to be struggling with maintaining proper body alignment and control over their movements. The dance steps appear to be basic and unrefined. Overall, the dancer's technique needs significant improvement before they can be considered intermediate or late experts.",Late Expert,False
+a34204b4-1ebb-4cec-a338-f4e543669820,uniandes_dance_012_25,Intermediate Expert,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in her movements. Her body alignment seems off as she struggles to maintain proper posture throughout the dance routine. Additionally, her movements appear to be stiff and uncoordinated, indicating that she may not have had much practice or experience with dance. Overall, her performance suggests that she is still in the early stages of learning and developing her skills.",Novice,False,"Novice
+
+The dancer's body alignment and movement fluency appear to be lacking in this video. The dancer seems to be moving awkwardly and not in a fluid manner. There is also no indication that the dancer has any technical precision.",Novice,False
+3f508ce8-ba11-49d3-848c-ccd8c8b52c3d,upenn_0730_Dance_2_5,Late Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer demonstrates good body alignment throughout the routine. They maintain proper posture and balance while executing various dance moves, which suggests they have a solid understanding of fundamental techniques.
+
+* **Movement Fluency:** The dancer exhibits fluidity in their movements, transitioning smoothly between different steps and gestures. This indicates that they have practiced and refined their technique over time, allowing for a more natural and expressive performance.
+
+* **Technical Precision:** While the dancer shows a high level of technical proficiency, there are some minor areas for improvement. For example, in Frame 3, the dancer's arms appear slightly stiff as they extend them outward during a step. Additionally, in Frame 6, the dancer's left leg seems to be slightly bent, which could potentially affect their balance and overall flow.
+
+Overall, the dancer's performance displays a strong foundation in dance technique and a high degree of skill. However, with continued practice and refinement, they could achieve even greater technical precision and fluency in their movements.",Intermediate Expert,False,"Novice
+
+The person in the video appears to be a novice dancer. Their movements are not fluid or precise, and they seem to lack confidence and control. The body alignment is also not correct, as the person seems to be leaning forward and not maintaining proper posture. Overall, the person's technique is lacking, and it would be beneficial for them to receive more instruction and practice before attempting to dance at a higher level.",Novice,False
+6b3a51f3-973e-44de-b300-ed1c25bc82d3,uniandes_dance_008_8,Late Expert,"The dancer in the video appears to be at an intermediate expert level based on her body alignment, movement fluency, and technical precision.
+
+Here's why:
+
+* **Body Alignment:** The dancer maintains good posture throughout the sequence, with her shoulders squared, core engaged, and weight balanced evenly between her feet. Her arms move fluidly, complementing her steps without becoming stiff or rigid. This suggests she has a solid understanding of proper body mechanics for dance.
+
+* **Movement Fluency:** The dancer demonstrates smooth transitions between movements, with no abrupt stops or stumbles. Her steps flow seamlessly into each other, indicating a high level of practice and familiarity with the choreography. She also shows a good sense of rhythm, which is crucial for dance performance.
+
+* **Technical Precision:** The dancer executes her steps with accuracy, maintaining consistent foot placement and timing. Her arm movements are precise and purposeful, enhancing the overall aesthetic of her performance. She also shows a good understanding of the spatial relationships between her body and the surrounding environment, suggesting she has developed a strong sense of spatial awareness through practice.
+
+Overall, the dancer's body alignment, movement fluency, and technical precision indicate that she has achieved an intermediate level of expertise in dance. However, there may still be room for improvement in certain aspects of her technique, such as increasing the variety of her movements or refining her use of space. With continued practice and dedication, she could potentially advance to a late expert level.",Late Expert,True,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, there is a lack of technical precision in their movements, which suggests that they may still be developing their skills.",Novice,False
+5c4e796b-cb0b-4a72-b7ed-ad0dcc6aec1c,uniandes_dance_019_58,Late Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her spine remains straight, and her weight is evenly distributed between both legs. This indicates a strong understanding of proper body mechanics.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning smoothly between different steps and gestures. Her arm movements are well-coordinated with her body, suggesting a high level of practice and familiarity with the dance style.
+
+* **Technical Precision:** The dancer exhibits precise footwork and timing, which is evident in her ability to maintain rhythm and execute complex steps accurately. Her use of space and positioning also suggests a solid grasp of the choreography.
+
+Overall, the dancer's performance showcases a high level of skill and experience, making it clear that she is an intermediate expert. However, there may still be room for improvement in certain areas, such as increasing the variety of movements or adding more dynamic elements to the routine.",Intermediate Expert,False,"Novice
+
+The dancer's body alignment appears to be off as they are not standing straight and tall. Their movement fluency seems to be lacking as well, with some awkward movements. The technical precision is also not very good, as the dancer seems to be struggling with basic steps and footwork. Overall, the dancer's technique suggests that they are still in the early stages of learning and developing their skills.",Novice,False
+b0f9aa8b-0632-44a1-a6ab-8d698208169c,uniandes_dance_011_29,Late Expert,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off as they are not maintaining proper posture throughout the dance routine. Additionally, the dancer's movements appear to be stiff and uncoordinated, which suggests that they may not have had much practice or experience with dancing. Overall, the dancer's technique is lacking in terms of body alignment, movement fluency, and technical precision, indicating that they are still at a novice level.",Novice,False,"Novice
+
+The person in the video appears to be a novice dancer. The movements are not fluid and there is a lack of technical precision. The person seems to be struggling with basic steps and coordination.",Novice,False
+95bcacb6-e524-4aa8-91f3-22b12898779d,uniandes_dance_016_45,Novice,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her spine remains straight, and her weight is distributed evenly between her feet. This indicates a strong understanding of proper body mechanics.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning smoothly between steps and gestures. Her arm movements are graceful, and she maintains a consistent rhythm throughout the routine. This suggests that she has developed a high degree of coordination and timing.
+
+* **Technical Precision:** The dancer executes various dance techniques with precision, such as footwork, arm gestures, and body isolations. She shows control over her movements and can perform complex sequences without hesitation or error. This indicates a solid foundation in technical skills.
+
+Overall, the dancer's performance exhibits a high level of skill and artistry, making it clear that she is well beyond a novice level. While there may still be room for improvement in certain areas, her intermediate expert status is evident in her overall technique, fluency, and precision.",Intermediate Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they appear to be leaning or shifting their weight awkwardly at times. Additionally, there is no clear indication of technical precision, as the dancer's movements do not seem to follow any specific pattern or rhythm. Overall, the dancer's technique suggests that they are still in the early stages of learning and developing their skills.",Novice,True
+841d97d5-8a6b-4221-adea-5fa1aa3e9707,uniandes_dance_011_43,Early Expert,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in her movements. Her body alignment seems off as she is not maintaining proper posture throughout the dance routine. Additionally, her movements appear to be stiff and uncoordinated, which suggests that she may still be developing her technique. Overall, her performance lacks the grace and control expected of a more experienced dancer.",Novice,False,"Novice
+
+The dancer's body alignment is not consistent throughout the video. The dancer's feet are not in line with each other and the dancer's knees are not bent at all times. The dancer's movements are not fluid and there are some awkward movements. The dancer's technical precision is also lacking as the dancer's arms are not in sync with the rest of the body.",Novice,False
+5b5a6017-4b2e-4529-a348-84bc64d1d3c3,upenn_0727_Partner_Dance_2_2_4,Early Expert,"The dancer in the video appears to be at an intermediate expert level. The dancer demonstrates good body alignment and movement fluency throughout the routine. The dancer's movements are smooth and well-coordinated, indicating a high level of technical precision. However, there are some minor flaws that suggest the dancer may not yet be at a late expert level. For example, the dancer's footwork could be more precise, and the dancer's arms could be more fluid. Overall, the dancer's performance is impressive and suggests a strong foundation in dance technique.",Late Expert,False,"Novice
+
+The dancer in the video appears to be a novice. The movements are not fluid and there is a lack of technical precision. The dancer seems to be struggling with basic steps and coordination.",Novice,False
+b0f43b31-88d6-4173-bc98-543c8f8d938d,uniandes_dance_016_44,Novice,"The dancer in the video demonstrates a moderate level of skill, which can be categorized as Intermediate Expert.
+
+Here's the reasoning behind this assessment:
+
+1. **Body Alignment**: The dancer maintains good posture and alignment throughout the routine. Her spine appears straight, and her weight is distributed evenly between her feet, indicating a solid understanding of basic dance principles. However, there might be room for improvement in maintaining perfect alignment during more complex movements or transitions.
+
+2. **Movement Fluency**: The dancer exhibits fluidity in her movements, transitioning between steps and gestures smoothly. She maintains a consistent tempo and rhythm, suggesting a good grasp of timing and pacing. However, there could be slight hesitations or inconsistencies in certain sequences, which might indicate that she is still refining her technique.
+
+3. **Technical Precision**: The dancer performs various dance moves with reasonable accuracy, but there are some minor errors in execution. For example, in some frames, her foot placement or arm positioning may not be perfectly aligned with the intended movement. This suggests that while she has a decent understanding of the techniques involved, she is not yet fully mastering them.
+
+Overall, the dancer's performance shows a high level of proficiency, but there is still room for improvement in terms of technical precision and consistency. With continued practice and dedication, she has the potential to reach a higher skill level.",Intermediate Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, there is a lack of technical precision in their movements, which suggests that they may still be developing their skills. Overall, the dancer's technique is not yet refined, indicating that they are still in the early stages of learning how to dance.",Novice,True
+6e4400c5-0bd9-454f-97d4-4fe35fe31682,uniandes_dance_022_9,Novice,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Their spine remains straight, and their weight is distributed evenly between both legs. This indicates a strong understanding of proper body mechanics.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in their movements, transitioning smoothly between different steps and gestures. There are no abrupt or jerky motions, suggesting a high level of practice and familiarity with the choreography.
+
+* **Technical Precision:** The dancer exhibits precise execution of various dance techniques, including footwork, arm movements, and body isolations. They maintain control over their movements, ensuring that each step and gesture is executed correctly.
+
+Overall, the dancer's technique and performance suggest they have a solid foundation in dance and are well-practiced in their chosen style. While there may still be room for improvement in certain areas, the dancer's skill level falls within the range of an intermediate expert.",Intermediate Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off as they are not standing straight or maintaining proper posture throughout the dance. Additionally, there is no evidence of technical precision in their movements, which suggests that they may still be learning the steps and techniques required for a more advanced level of dancing.",Novice,True
+1e31765b-d0e0-4317-a361-2e81613a5c61,uniandes_dance_021_20,Intermediate Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. His shoulders are level, his back is straight, and his core is engaged, which suggests he has a solid understanding of proper form.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in his movements, transitioning between steps and gestures smoothly without any noticeable hesitation or stiffness. This indicates a high level of comfort and familiarity with the dance style.
+
+* **Technical Precision:** The dancer executes various steps and gestures with precision, showing attention to detail and control over his movements. His footwork is consistent, and he maintains a steady rhythm throughout the routine.
+
+Overall, the dancer's technique and execution suggest that they have a strong foundation in the dance style and are capable of performing at a high level. However, there may still be room for improvement in certain aspects of their performance, such as adding more variety to their movements or incorporating more dynamic elements into their routine.",Intermediate Expert,True,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they appear to be leaning or shifting their weight awkwardly at times. Additionally, there is no clear indication of technical precision, as the dancer's movements do not seem to follow any specific pattern or rhythm. Overall, the dancer's technique suggests that they are still in the early stages of learning and developing their skills.",Novice,False
+3cffe89e-da73-4297-808a-d185d49959f1,uniandes_dance_022_48,Late Expert,"Novice
+
+The dancer appears to be in the early stages of learning and developing her dance skills. Her body alignment is not yet consistent or precise, as she seems to be struggling with maintaining proper posture throughout the routine. Additionally, her movements lack fluidity and grace, which suggests that she may still be working on mastering the basic steps and techniques required for more advanced dancing. Overall, her performance indicates that she is still a novice dancer and would benefit from further practice and instruction.",Novice,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, there is a lack of technical precision, which is evident in the dancer's inconsistent footwork and arm movements. Overall, the dancer's movements appear to be stiff and uncoordinated, indicating that they are still in the early stages of learning and developing their dance skills.",Novice,False
+f1415a2f-c967-450e-bc9a-53a49abdd5e5,uniandes_dance_008_38,Late Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Their shoulders are level, their core is engaged, and their knees track over their toes during footwork. This indicates a strong understanding of proper body mechanics.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in their movements, transitioning between steps and gestures smoothly without hesitation. They maintain a consistent rhythm and tempo, suggesting a high level of practice and familiarity with the choreography.
+
+* **Technical Precision:** The dancer executes various dance techniques with precision, including turns, kicks, and arm movements. They demonstrate control and accuracy in their footwork, maintaining proper alignment and balance. The dancer also shows a good understanding of timing and phrasing, as evidenced by their ability to perform complex sequences seamlessly.
+
+Overall, the dancer's technique, body alignment, and movement fluency suggest that they have achieved an intermediate level of expertise. However, there may still be room for improvement in certain areas, such as increasing the complexity of their routines or refining specific technical elements. With continued practice and dedication, the dancer has the potential to advance to a late expert level.",Late Expert,True,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, there is a lack of technical precision in their movements, which suggests that they may still be developing their skills. Overall, the dancer's movements appear to be somewhat stiff and uncoordinated, indicating that they are likely still in the early stages of learning how to dance.",Novice,False
+3a327064-721f-4571-a510-29de32f82342,uniandes_dance_013_8,Early Expert,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off as they are not maintaining proper posture throughout the dance routine. Additionally, the dancer's movements appear to be stiff and uncoordinated, which suggests that they may not have much experience with dance. Overall, the dancer's technique is lacking in terms of body alignment, movement fluency, and technical precision, indicating that they are still at a novice level.",Novice,False,"Novice
+
+The dancer's movements appear to be uncoordinated and lack fluidity. The body alignment seems off as well, with the dancer not maintaining proper posture throughout the dance. There is also no evidence of technical precision in the dancer's movements.",Novice,False
+f809a447-5414-4539-8bfd-2f6baa32dc1c,uniandes_dance_021_53,Early Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+1. **Body Alignment**: The dancer maintains good posture and alignment throughout the routine. Her spine remains straight, and her weight is distributed evenly between both legs. This indicates a high level of control over her body movements.
+
+2. **Movement Fluency**: The dancer's movements are fluid and well-coordinated. There are no abrupt or jerky motions, suggesting that she has a good understanding of the dance steps and how they should flow together. Her transitions between different movements appear smooth, which is characteristic of someone with intermediate expertise.
+
+3. **Technical Precision**: The dancer demonstrates a high degree of technical precision in her execution of the dance steps. She performs each movement with accuracy and consistency, indicating a strong foundation in the techniques required for the dance style being performed. Her use of arm gestures and leg movements is precise, showing attention to detail and a solid grasp of the choreography.
+
+Overall, the dancer's performance exhibits a high level of skill and control, making it evident that she is an intermediate expert. However, there may still be room for further refinement and improvement in certain aspects of her technique.",Intermediate Expert,False,"Novice
+
+The dancer's movements appear to be uncoordinated and lack fluidity. The body alignment seems off as the dancer's arms and legs do not move in a synchronized manner. There is also no technical precision in the movements, which suggests that the dancer may still be learning the steps or has not yet mastered them.",Novice,False
+a20971f0-7778-436f-a3de-ffbc64d59b06,uniandes_dance_017_5,Novice,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her spine remains straight, and her shoulders are level, indicating a strong sense of core stability. Her feet are positioned correctly for each step, which suggests she has a good understanding of proper foot placement.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning smoothly between steps without hesitation. Her arm movements are well-coordinated with her body, adding to the overall flow of the dance. This indicates that she has practiced the routine enough to perform it with ease and confidence.
+
+* **Technical Precision:** The dancer executes various dance techniques with precision, such as her footwork, arm movements, and body isolations. She maintains a consistent tempo and rhythm, which shows that she has a good grasp of the choreography. Her facial expressions also convey emotion, suggesting that she understands the intended mood of the piece.
+
+Overall, the dancer's performance exhibits a high level of technical proficiency, fluidity, and body alignment. While there may still be room for improvement in certain aspects of her technique, her overall skill level can be classified as intermediate expert.",Intermediate Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they appear to be leaning or shifting their weight awkwardly at times. Additionally, there is no clear indication of technical precision, as the dancer's movements do not seem to follow any specific pattern or rhythm. Overall, the dancer's technique suggests that they are still developing their skills and may benefit from more practice and guidance.",Novice,True
+6eba8ef2-4d47-4d63-a864-e4dc64f8231b,uniandes_dance_021_5,Late Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good body alignment throughout the routine, with proper posture and core engagement. Her movements are fluid and controlled, indicating a high level of technical proficiency.
+
+* **Movement Fluency:** The dancer demonstrates smooth and flowing movements, transitioning between steps and gestures seamlessly. Her timing and rhythm suggest a strong understanding of the choreography and a high level of practice.
+
+* **Technical Precision:** The dancer executes various dance techniques with precision, including kicks, turns, and arm movements. Her form is consistent and well-executed, indicating a high level of technical skill.
+
+Overall, the dancer's performance exhibits a high level of technical proficiency, movement fluency, and body alignment, suggesting that she is an intermediate expert dancer.",Intermediate Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they appear to be leaning or shifting their weight awkwardly at times. Additionally, there is no clear indication of technical precision, as the dancer's movements do not seem to follow any specific pattern or rhythm. Overall, the dancer's technique suggests that they are still in the early stages of learning and developing their skills.",Novice,False
+0f2b6d29-7921-402f-9a5b-59dd9a15f515,uniandes_dance_012_28,Late Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Their spine remains straight, and their shoulders are relaxed, indicating a high level of control over their body movements.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in their movements, transitioning between steps and gestures seamlessly. There are no abrupt or jerky motions, suggesting a well-practiced routine.
+
+* **Technical Precision:** The dancer exhibits precise footwork and arm movements, with clear definition in each step and gesture. The timing of their movements is also well-coordinated, indicating a strong understanding of the choreography.
+
+Overall, the dancer's technique is highly refined, and they appear to have a solid foundation in dance. However, there may still be room for improvement in certain aspects of their performance, such as adding more variety to their movements or incorporating more complex steps. With continued practice and dedication, the dancer could potentially reach late expert status.",Late Expert,True,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, there is a lack of technical precision in their movements, which suggests that they may still be developing their skills. Overall, the dancer's performance lacks the grace and control expected of someone with more experience.",Novice,False
+88f21f26-5c09-485c-9e63-a096acf58336,uniandes_dance_016_12,Early Expert,"The dancer in the video demonstrates a moderate level of skill, which can be categorized as Intermediate Expert.
+
+Here's the reasoning behind this assessment:
+
+* **Body Alignment:** The dancer maintains good body alignment throughout the routine. Her posture appears straight and balanced, with her weight distributed evenly between her feet. This suggests that she has a solid understanding of proper form and technique.
+* **Movement Fluency:** The dancer's movements appear fluid and well-coordinated. She transitions smoothly between different steps and gestures, indicating a high level of practice and familiarity with the choreography. However, there are some minor inconsistencies in her timing and synchronization with the music, which may suggest that she could benefit from further refinement.
+* **Technical Precision:** While the dancer displays a good grasp of the basic steps and gestures, there are areas where she could improve her technical precision. For example, her arm movements sometimes lack control or flow, and her footwork could be more consistent. Additionally, her facial expressions and overall energy level could be enhanced to convey more emotion and passion during the performance.
+
+Overall, the dancer's skill level falls within the Intermediate Expert category. She demonstrates a strong foundation in dance technique and has the potential to elevate her performance by focusing on refining her technical precision and enhancing her overall stage presence.",Intermediate Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they appear to be leaning or shifting their weight awkwardly at times. Additionally, there is no clear indication of technical precision, as the dancer's movements do not seem to follow any specific pattern or rhythm. Overall, the dancer's technique suggests that they are still in the early stages of learning and developing their skills.",Novice,False
+3abfad56-574e-41ad-abb1-6a002c69a5c7,uniandes_dance_024_17,Early Expert,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in her movements. Her body alignment seems off as she struggles to maintain proper posture throughout the dance routine. Additionally, her movements appear to be stiff and uncoordinated, which suggests that she may not have had much practice or experience with dance. Overall, her technique is lacking, and it would be beneficial for her to work on improving her body alignment, movement fluency, and technical precision before attempting more advanced routines.",Novice,False,"Novice
+
+The dancer's movements appear to be uncoordinated and lack fluidity. The body alignment seems off, and the technical precision is lacking. The dancer appears to be struggling with basic steps and coordination.",Novice,False
+cbc710de-4393-470d-91bd-f6af9f09f7c4,uniandes_dance_022_7,Novice,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, the dancer's movements appear to be stiff and uncoordinated, which suggests that they may not have had much practice or experience with dance. Overall, the dancer's technique is lacking in terms of body alignment, movement fluency, and technical precision, indicating that they are still at a novice level.",Novice,True,"Novice
+
+The dancer's body alignment appears to be off as they are not standing straight and tall. Their movement fluency seems to be lacking as well, with some awkward movements. The technical precision is also not very good, as the dancer seems to be struggling with the steps and not executing them correctly.",Novice,True
+24437400-1478-4239-8f4d-788d88568a9e,uniandes_dance_021_23,Intermediate Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. His spine remains straight, and his shoulders are relaxed, which suggests he has a solid understanding of proper body mechanics.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in his movements, transitioning between steps and gestures smoothly without any noticeable hesitations or awkwardness. This indicates that he has practiced the routine enough to perform it with ease.
+
+* **Technical Precision:** While the dancer's movements are generally precise, there are some minor inconsistencies in his footwork and arm positioning. For example, in some frames, his feet appear slightly off-balance, and his arms do not always follow through with the intended gestures. These small errors suggest that he may still be refining his technique.
+
+Overall, the dancer's performance shows a high level of skill and experience, but there is room for improvement in terms of technical precision. With continued practice and attention to detail, he could potentially reach late expert status.",Late Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance. Additionally, there is a lack of technical precision, as the dancer's movements appear to be uncoordinated and inconsistent.",Novice,False
+d351ce4f-6cd3-45f3-8514-77c1eb3adffa,uniandes_dance_011_16,Intermediate Expert,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off as they are not maintaining proper posture throughout the dance routine. Additionally, the dancer's movements appear to be stiff and uncoordinated, which suggests that they may not have had much practice or experience with dancing. Overall, the dancer's technique is lacking in terms of body alignment, movement fluency, and technical precision, indicating that they are still at a novice level.",Novice,False,"Novice
+
+The person in the video appears to be a novice dancer. Their movements are not fluid or precise, and they seem to lack confidence and control. The person's body alignment is also not ideal, as they appear to be leaning forward and not maintaining proper posture. Overall, the person's technique is lacking, and they would benefit from more practice and instruction.",Novice,False
+ee8eed89-5348-4a6a-8eb3-f9fc80fad1ea,uniandes_dance_019_18,Intermediate Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her spine remains straight, and her shoulders are relaxed, which suggests she has a solid understanding of proper body mechanics.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning between steps and gestures smoothly without any noticeable hesitations or awkwardness. This indicates that she has practiced the routine enough to perform it with ease.
+
+* **Technical Precision:** While the dancer's technique seems proficient, there are some minor inconsistencies in her footwork and arm movements. For example, in some frames, her feet appear slightly off-balance, and her arms do not always follow through with the intended gestures. These small errors suggest that she may still be refining her technique.
+
+Overall, the dancer's performance shows a high level of skill and experience, but there is room for improvement in terms of technical precision. With continued practice and attention to detail, she could potentially reach late expert status.",Late Expert,False,"Novice
+
+The dancer's body alignment appears to be off as they are not standing straight and tall. Their movement fluency seems to be lacking as well, with some awkward movements. The technical precision is also not very good, as the dancer seems to be struggling with the steps and not executing them correctly.",Novice,False
+1e5e4324-4624-468a-9ec0-679f4be6da72,uniandes_dance_017_36,Early Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her core is engaged, and her movements are fluid and controlled. This suggests that she has a solid understanding of proper body mechanics and alignment.
+
+* **Movement Fluency:** The dancer demonstrates a high degree of movement fluency, transitioning between different steps and gestures with ease. Her movements appear natural and well-coordinated, indicating a strong foundation in dance technique.
+
+* **Technical Precision:** While the dancer's technique is generally precise, there are some minor inconsistencies in her footwork and arm movements. For example, in Frame 6, her left foot appears slightly off-balance, and in Frame 7, her right arm seems to be moving in a slightly awkward manner. These small errors suggest that the dancer may still be refining her technical skills.
+
+Overall, the dancer's performance exhibits a high level of skill and artistry, but there is room for improvement in terms of technical precision. With continued practice and refinement, she could potentially reach late expert status.",Late Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they appear to be leaning or shifting their weight awkwardly at times. Additionally, there is no clear indication of technical precision, as the dancer's movements do not seem to follow any specific pattern or rhythm. Overall, the dancer's technique suggests that they are still in the early stages of learning and developing their skills.",Novice,False
+96f28cc0-fa8c-4502-afff-092aee3a875b,uniandes_dance_012_22,Intermediate Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her spine remains straight, and her shoulders are relaxed, indicating a high level of control over her body movements.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning between steps and gestures seamlessly. There are no abrupt or jerky motions, suggesting that she has developed a strong sense of rhythm and timing.
+
+* **Technical Precision:** The dancer exhibits a high degree of technical precision in her movements. She performs each step with accuracy and control, demonstrating a solid understanding of the dance style and its technical requirements.
+
+Overall, the dancer's performance suggests that she has a strong foundation in dance technique and has likely been practicing for several years. While there may still be room for improvement in certain aspects of her routine, her overall skill level is consistent with that of an intermediate expert dancer.",Intermediate Expert,True,"Novice
+
+The person in the video appears to be a novice dancer. The movements are not fluid and there is no clear sense of rhythm or timing. The person's body alignment is also not correct, as they appear to be moving awkwardly and not using their body effectively. There is also no technical precision in the movements, which suggests that the person has not yet developed the necessary skills to perform the dance moves correctly.",Novice,False
+a49424bb-676f-471c-8152-6a0b1b5bb6e6,uniandes_dance_012_29,Late Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. His shoulders are level, his back is straight, and his core is engaged. This indicates a high level of control and awareness of his body mechanics.
+
+* **Movement Fluency:** The dancer demonstrates fluid and graceful movements, with smooth transitions between steps. There are no abrupt or jerky motions, suggesting that he has developed a strong sense of rhythm and timing.
+
+* **Technical Precision:** The dancer executes various dance moves with precision, including turns, steps, and arm movements. He shows a good understanding of the choreography and is able to perform it consistently across multiple repetitions.
+
+Overall, the dancer's technique and performance suggest that he has a solid foundation in dance and is well on his way to becoming an expert. However, there may still be room for improvement in certain areas, such as increasing the speed and intensity of his movements or adding more variety to his routine.",Intermediate Expert,False,"Novice
+
+The dancer's body alignment is not consistent throughout the video. The dancer's feet are not in line with each other and the dancer's knees are bent at different angles. The dancer's movement is not fluid and there are some awkward movements. The dancer's technical precision is also lacking as the dancer's arms are not in the correct position and the dancer's head is not aligned with the rest of the body.",Novice,False
+09d78f26-514a-43c2-a55e-d9b17d5e1a32,upenn_0706_Dance_1_7,Early Expert,"Novice
+
+The dancer appears to be in the early stages of learning the dance routine. Her movements are not fluid and she seems to be struggling with the timing and coordination required for the dance steps. Her body alignment is also not consistent throughout the routine, which suggests that she may still be developing her understanding of proper posture and positioning. Overall, her performance indicates that she is still a novice dancer.",Novice,False,"Novice
+
+The dancer in the video appears to be a novice. The movements are not fluid and there is a lack of technical precision. The dancer seems to be struggling with basic steps and does not have a clear understanding of the dance style being performed.",Novice,False
+989d5e04-bb58-4db9-9d58-9639adc4cd43,upenn_0730_Dance_1_4,Intermediate Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good body alignment throughout the routine, with proper posture and core engagement. This suggests that they have a solid understanding of basic dance techniques and can execute them with confidence.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in their movements, transitioning between steps and gestures smoothly without hesitation. This indicates a high level of practice and familiarity with the choreography.
+
+* **Technical Precision:** While the dancer shows a high degree of technical proficiency, there are some minor inconsistencies in their execution. For example, in some frames, the dancer's arms appear slightly stiff or disconnected from their body, which could be improved with further refinement of their technique.
+
+Overall, the dancer exhibits a strong foundation in dance technique and has achieved a high level of fluency in their movements. However, there is still room for improvement in terms of technical precision, particularly in the coordination of their arms and torso. With continued practice and attention to detail, the dancer has the potential to reach late expert status.",Late Expert,False,"Novice
+
+The person in the video appears to be a novice dancer. Their movements are not fluid or precise, and they seem to lack the technical skills necessary for more advanced dance techniques. The person's body alignment is also not ideal, as they appear to be leaning forward and not maintaining proper posture throughout the video. Overall, the person's technique is lacking, and they would benefit from more practice and instruction before attempting more complex dance moves.",Novice,False
+62d2aac8-8afb-4193-830f-8d156bedf232,upenn_0720_Dance_3_13,Early Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good body alignment throughout the routine. Their posture is upright, and they demonstrate proper weight transfer between their feet as they move. This suggests that they have a solid understanding of basic dance techniques and are able to execute them with confidence.
+
+* **Movement Fluency:** The dancer's movements are fluid and well-coordinated. They transition smoothly between different steps and maintain a consistent rhythm throughout the routine. This indicates that they have developed a good sense of timing and are able to perform their routine with ease.
+
+* **Technical Precision:** While the dancer demonstrates a high level of technical proficiency, there are some areas for improvement. For example, the dancer's arms could be more expressive and dynamic, and their footwork could be more precise. Additionally, the dancer could benefit from working on their overall style and choreography to add more variety and interest to their routine.
+
+Overall, the dancer in the video appears to be at an intermediate expert level, with a strong foundation in basic dance techniques and a good sense of movement fluency. However, there is still room for growth and development in terms of technical precision and overall style.",Intermediate Expert,False,"Novice
+
+The dancer's body alignment is not consistent throughout the video. The dancer's feet are not in line with each other and the dancer's knees are bent at different angles. The dancer's movements are not fluid and there are some awkward movements. The dancer's technical precision is also lacking as the dancer's arms are not in the correct position and the dancer's head is not aligned with the rest of the body.",Novice,False
+f6890d9d-d0c3-43c8-9400-6cff7cc17801,uniandes_dance_007_4,Intermediate Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her spine remains straight, and her weight is evenly distributed between both legs. This indicates a high level of control over her body movements.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning smoothly between different steps and gestures. There are no abrupt or jerky motions, which suggests that she has developed a good sense of rhythm and timing.
+
+* **Technical Precision:** The dancer exhibits precise execution of various dance techniques, including footwork, arm movements, and body isolations. She maintains a consistent tempo and shows a clear understanding of the choreography.
+
+Overall, the dancer's performance displays a high degree of skill and technical proficiency, indicating that she is likely an intermediate expert in dance. However, it is important to note that further observation and analysis would be needed to determine if she is a late expert or a professional dancer.",Late Expert,False,"Novice
+
+The dancer's movements appear to be uncoordinated and lack fluidity. The body alignment seems off as the dancer's feet do not seem to be in line with each other. The dancer also seems to be struggling with technical precision as the movements are not smooth or well-timed.",Novice,False
+f60ab291-aa57-4e41-bbbe-e9ab817f3246,uniandes_dance_012_33,Late Expert,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off as they are not maintaining proper posture throughout the dance routine. Additionally, the dancer's movements appear to be stiff and uncoordinated, which suggests that they may not have had much practice or experience with dancing. Overall, the dancer's technique is lacking in terms of body alignment, movement fluency, and technical precision, indicating that they are still at a novice level.",Novice,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, there is a lack of technical precision, which is evident in the dancer's inconsistent footwork and arm movements. Overall, the dancer's movements appear to be stiff and uncoordinated, indicating that they are still in the early stages of learning and developing their dance skills.",Novice,False
+49bb4a74-17a2-4375-9073-2beb29c76137,upenn_0706_Dance_2_2,Intermediate Expert,"The dancer appears to be a novice or early expert based on the following observations:
+
+* **Body Alignment:** The dancer's posture seems slightly off, with her shoulders not fully aligned and her back not perfectly straight. This could be due to inexperience or lack of proper instruction.
+* **Movement Fluency:** The dancer's movements appear somewhat stiff and ungraceful, suggesting that she may still be developing her technique and fluidity.
+* **Technical Precision:** While the dancer seems to have some basic understanding of dance steps, there is room for improvement in terms of precision and accuracy.
+
+Overall, the dancer's skill level appears to be at the novice or early expert stage, as she demonstrates some basic dance techniques but lacks the fluency, body alignment, and technical precision required for intermediate or advanced levels.",Early Expert,False,"Novice
+
+The dancer in the video appears to be a novice. The movements are not fluid and there is a lack of coordination between the arms and legs. The dancer also seems to be struggling with maintaining proper body alignment.",Novice,False
+479f94a8-acb9-4157-b6bd-4f2a2a6cf3c9,uniandes_dance_020_61,Early Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer demonstrates good body alignment throughout the routine. Her posture is upright and balanced, with her weight distributed evenly between her feet. She maintains a straight spine and engages her core muscles, which helps in maintaining stability and control during the dance movements.
+
+* **Movement Fluency:** The dancer exhibits fluid and graceful movements, indicating a high level of coordination and timing. Her steps are smooth, and she transitions between different dance elements seamlessly. The dancer's arms and legs move in harmony, contributing to the overall flow of the routine.
+
+* **Technical Precision:** The dancer performs various dance techniques with precision and accuracy. Her footwork is well-executed, and she maintains proper alignment while executing turns and steps. Her arm movements are controlled and purposeful, adding to the aesthetic appeal of the performance. The dancer's facial expressions and body language convey confidence and engagement with the music.
+
+In conclusion, the dancer's body alignment, movement fluency, and technical precision suggest that she has achieved an intermediate expert level of skill. However, there may still be room for improvement in certain aspects of her technique or choreography.",Intermediate Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off as they are not maintaining proper posture throughout the dance. Additionally, there is a lack of coordination between the dancer's feet and arms, which suggests that they may still be developing their technical skills. Overall, the dancer's movements appear to be somewhat stiff and ungraceful, indicating that they are still in the early stages of learning how to dance.",Novice,False
+dd258fcf-873f-4fcd-b2d3-04525159b68a,uniandes_dance_022_5,Novice,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off as they are not maintaining proper posture throughout the dance routine. Additionally, the dancer's movements appear to be stiff and uncoordinated, which suggests that they may not have had much practice or experience with dance. Overall, the dancer's technique is lacking in terms of body alignment, movement fluency, and technical precision, indicating that they are still at a novice level.",Novice,True,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they appear to be leaning or shifting their weight awkwardly at times. Additionally, there is no clear indication of technical precision, as the dancer's movements do not seem to follow any specific pattern or rhythm. Overall, the dancer's technique suggests that they are still in the early stages of learning and developing their skills.",Novice,True
+603787e2-be4b-4b24-9632-34921013623f,uniandes_dance_021_17,Intermediate Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. His shoulders are level, his back is straight, and his core is engaged, which suggests he has a solid understanding of proper form.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in his movements, transitioning between steps and gestures smoothly without any noticeable hesitation or stiffness. This indicates a high level of comfort and familiarity with the dance style.
+
+* **Technical Precision:** The dancer executes various dance moves with precision, including footwork, arm movements, and body isolations. His timing and coordination appear to be well-developed, as evidenced by the seamless execution of complex sequences.
+
+Overall, the dancer's technique and performance suggest that they have a strong foundation in dance and are likely at an intermediate expert level. However, it's important to note that this assessment is based on a limited number of frames, and further observation would be needed to confirm the dancer's skill level more accurately.",Intermediate Expert,True,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, there is a lack of technical precision in their movements, which suggests that they may still be developing their skills.",Novice,False
+fad811da-e457-4d2a-8cf4-c3a09c11a41a,uniandes_dance_019_15,Intermediate Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer demonstrates good body alignment throughout the routine. Her posture is upright and her movements are fluid, indicating a high level of control over her body. She maintains a strong core, which is essential for maintaining balance and executing complex movements.
+
+* **Movement Fluency:** The dancer's movements are smooth and well-coordinated. She transitions between different steps and poses with ease, showing a high degree of technical proficiency. Her timing is precise, and she maintains a consistent rhythm throughout the routine.
+
+* **Technical Precision:** The dancer exhibits a high level of technical precision in her movements. She executes each step and pose with accuracy, demonstrating a deep understanding of the dance style. Her footwork is clean, and she maintains proper alignment of her feet and legs during each movement.
+
+Overall, the dancer's performance suggests that she has a solid foundation in dance technique and is capable of executing complex routines with ease. While there may still be room for improvement in certain areas, such as adding more variety to her movements or refining her timing, the dancer's overall skill level is that of an intermediate expert.",Intermediate Expert,True,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they appear to be leaning or shifting their weight awkwardly at times. Additionally, there is no clear indication of technical precision, as the dancer's movements do not seem to follow any specific pattern or rhythm. Overall, the dancer's technique suggests that they are still in the early stages of learning and developing their skills.",Novice,False
+0eadf1dd-55c6-4cd1-8b2d-5b132fcb5016,uniandes_dance_022_27,Late Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her spine remains straight, and her shoulders are level, indicating a strong sense of core stability. Her feet are positioned correctly for each step, suggesting she has a good understanding of proper foot placement.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning between steps and gestures smoothly. Her arms and legs move in harmony with one another, creating a cohesive and visually appealing performance. This suggests that she has practiced the routine multiple times and has developed a natural rhythm.
+
+* **Technical Precision:** The dancer exhibits technical precision in her execution of the dance moves. She performs each step with accuracy, maintaining proper form and technique. Her timing is also well-controlled, as evidenced by her ability to execute complex sequences without hesitation or error.
+
+Overall, the dancer's body alignment, movement fluency, and technical precision indicate that she is an intermediate expert. While there may still be room for improvement, her performance demonstrates a high level of skill and artistry.",Intermediate Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, there is a lack of technical precision in their movements, which suggests that they may still be developing their skills.",Novice,False
+9d950899-e619-4399-867c-70871cc0d679,uniandes_dance_024_4,Novice,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off as they are not maintaining proper posture throughout the dance routine. Additionally, the dancer's movements appear to be stiff and uncoordinated, which suggests that they may not have had much practice or experience with dancing. Overall, the dancer's technique is lacking in terms of body alignment, movement fluency, and technical precision, indicating that they are still at a novice level.",Novice,True,"Novice
+
+The dancer's body alignment is not consistent throughout the video. The dancer's feet are not in line with each other and the dancer's knees are bent at different angles. The dancer's movements are not fluid and there are some awkward movements. The dancer's technical precision is also lacking as the dancer's arms are not in the correct position and the dancer's head is not aligned with the rest of the body.",Novice,True
+7e4d7d4f-abfb-4e89-87e0-7f86e27ada86,uniandes_dance_008_44,Intermediate Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her shoulders are level, her back is straight, and her core is engaged, which suggests she has a solid understanding of proper form.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning between steps and gestures smoothly without any noticeable hesitation or stiffness. This indicates that she has practiced the routine enough to perform it with ease and confidence.
+
+* **Technical Precision:** While the dancer's technique is generally precise, there are some minor inconsistencies in her footwork and arm movements. For example, in Frame 3, her left foot appears to be slightly off-balance as she transitions into a new step. Additionally, in Frame 6, her right arm seems to be slightly stiff as she extends it outward.
+
+Overall, the dancer's performance shows a high level of skill and experience, but there is still room for improvement in certain technical aspects. With continued practice and refinement, she could potentially reach late expert status.",Late Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they appear to be leaning or shifting their weight awkwardly at times. Additionally, there is no clear indication of technical precision, as the dancer's movements do not seem to follow any specific pattern or rhythm. Overall, the dancer's technique suggests that they are still in the early stages of learning and developing their skills.",Novice,False
+d5d3590f-44e7-4305-b612-ff055b0e688a,uniandes_dance_024_2,Novice,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off as they are not maintaining proper posture throughout the dance routine. Additionally, the dancer's movements appear to be stiff and uncoordinated, which suggests that they may not have had much practice or experience with dancing. Overall, the dancer's technique is lacking in terms of body alignment, movement fluency, and technical precision, indicating that they are still at a novice level.",Novice,True,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they appear to be leaning or shifting their weight awkwardly at times. Additionally, there is no clear indication of technical precision, as the dancer's movements do not seem to follow any specific pattern or rhythm. Overall, the dancer's technique suggests that they are still in the early stages of learning and developing their skills.",Novice,True
+cd81519b-13c1-437e-b357-8ec99ae9c757,uniandes_dance_011_33,Late Expert,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off as they are not maintaining proper posture throughout the dance routine. Additionally, the dancer's movements appear to be stiff and uncoordinated, which suggests that they may not have had much practice or experience with dancing. Overall, the dancer's technique is lacking in terms of body alignment, movement fluency, and technical precision, indicating that they are still at a novice level.",Novice,False,"Novice
+
+The person in the video appears to be a novice dancer as they are not able to maintain proper body alignment and their movements lack fluency and technical precision.",Novice,False
+adad25b8-0920-4181-9bd4-1f8207e85d82,uniandes_dance_019_49,Late Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her shoulders are level, her core is engaged, and her hips are aligned with her feet. This indicates a strong understanding of proper body mechanics.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning between steps and gestures smoothly. There are no abrupt or jerky motions, suggesting that she has practiced the routine multiple times and has a good grasp of the choreography.
+
+* **Technical Precision:** The dancer executes the steps with precision, maintaining consistent timing and rhythm. Her footwork is solid, and she maintains a steady beat throughout the routine. She also shows control over her arms and hands, using them effectively to enhance the overall performance.
+
+Overall, the dancer's technique is well-developed, and she exhibits a high level of skill and confidence in her dance routine. While there may still be room for improvement in certain aspects, such as adding more variety to her movements or refining specific steps, the dancer is clearly at an intermediate expert level.",Intermediate Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they appear to be leaning or shifting their weight awkwardly at times. Additionally, there is no clear indication of technical precision, as the dancer's movements do not seem to follow any specific pattern or rhythm. Overall, the dancer's technique suggests that they are still in the early stages of learning and developing their skills.",Novice,False
+dfb66cb4-6235-4f55-b361-934586fbcaaa,uniandes_dance_022_10,Novice,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in her movements. Her body alignment seems off as she struggles to maintain proper posture throughout the dance routine. Additionally, her movements appear to be stiff and uncoordinated, indicating that she may not have had much practice or experience with dance. Overall, her performance lacks the grace and control expected of even an intermediate dancer.",Novice,True,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, there is a lack of coordination between the dancer's feet and arms, which suggests that they may still be developing their technical skills. Overall, the dancer's movements appear to be somewhat stiff and ungraceful, indicating that they are still in the early stages of learning how to dance.",Novice,True
+35a3c4e1-f420-4242-bcab-4d208dc9a391,upenn_0706_Dance_2_5,Intermediate Expert,"The dancer appears to be at the Intermediate Expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her shoulders are level, her back is straight, and her core is engaged. This indicates a strong understanding of proper body mechanics.
+
+* **Movement Fluency:** The dancer demonstrates fluid and graceful movements. She transitions between steps smoothly without any noticeable hesitation or stiffness. This suggests that she has developed a high degree of coordination and timing.
+
+* **Technical Precision:** The dancer executes various dance techniques with accuracy and consistency. Her footwork is precise, and she maintains a steady rhythm throughout the routine. This indicates a solid foundation in technical skills.
+
+Overall, the dancer's performance exhibits a high level of skill and artistry, making it clear that they have progressed beyond the novice stage and possess intermediate expertise in dance.",Intermediate Expert,True,"Novice
+
+The dancer in the video appears to be a novice. The movements are not fluid and there is a lack of technical precision. The dancer seems to be struggling with basic steps and does not have a clear understanding of the dance style being performed.",Novice,False
+4d159481-830d-4789-b0ff-368031a98757,uniandes_dance_015_18,Late Expert,"The dancer in the video appears to be at an intermediate expert level based on her body alignment, movement fluency, and technical precision.
+
+Body Alignment:
+The dancer maintains good body alignment throughout the sequence. Her posture is upright, and she keeps her core engaged, which is essential for maintaining balance and control during dance movements. Her feet are positioned correctly, with her weight evenly distributed between them, allowing for smooth transitions between steps.
+
+Movement Fluency:
+The dancer demonstrates fluidity in her movements, transitioning seamlessly between different steps and gestures. Her arm movements are graceful and well-coordinated with her body, adding to the overall flow of her performance. The dancer's timing is also precise, as she maintains a consistent rhythm throughout the sequence.
+
+Technical Precision:
+The dancer exhibits a high level of technical precision in her movements. She executes each step with accuracy, ensuring that her feet make contact with the floor at the correct moment. Her arm movements are controlled and deliberate, contributing to the overall aesthetic of her performance. The dancer's use of space is also noteworthy, as she moves gracefully within the available area without appearing cramped or awkward.
+
+In conclusion, the dancer's body alignment, movement fluency, and technical precision suggest that she is at an intermediate expert level. While there may still be room for improvement, her performance demonstrates a strong foundation in dance technique and a high degree of skill in executing complex movements.",Intermediate Expert,False,"Novice
+
+The dancer's movements appear to be uncoordinated and lack fluidity. The body alignment seems off as the dancer's feet do not seem to be in line with each other. The dancer also seems to be struggling with technical precision as there are no clear steps or patterns being followed.",Novice,False
+28c3553f-3212-43ee-a050-7ea2d49fdf0e,uniandes_dance_017_58,Novice,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Her spine remains straight, and her shoulders are relaxed, which suggests she has a solid understanding of proper body mechanics.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning between steps and gestures smoothly without any noticeable hesitation or stiffness. This indicates that she has practiced the routine enough to perform it with ease.
+
+* **Technical Precision:** While the dancer's technique seems proficient, there are some minor areas for improvement. For example, her arm movements could be more precise, and her footwork could be more consistent. However, these issues do not significantly detract from her overall performance.
+
+In conclusion, the dancer's skill level appears to be at an intermediate expert level, as she exhibits a high degree of proficiency in body alignment, movement fluency, and technical precision. With continued practice and refinement, she could potentially advance to a late expert level.",Late Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they appear to be leaning or shifting their weight awkwardly at times. Additionally, there is no clear indication of technical precision, as the dancer's movements do not seem to follow any specific pattern or rhythm. Overall, the dancer's technique suggests that they are still in the early stages of learning and developing their skills.",Novice,True
+02d13286-0b54-46e8-8461-9c056627a97d,upenn_0720_Dance_3_3,Early Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good body alignment throughout the routine, with proper posture and core engagement. This suggests a solid understanding of basic dance techniques and the ability to execute them consistently.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in their movements, transitioning between steps and gestures smoothly without hesitation. This indicates a high level of practice and familiarity with the choreography.
+
+* **Technical Precision:** While the dancer shows a high degree of technical proficiency, there are some minor inconsistencies in their execution. For example, in some frames, the dancer's arms appear slightly stiff or rigid, which could be improved for a more polished performance. Additionally, the dancer's footwork could benefit from more precise placement and timing.
+
+Overall, the dancer exhibits a strong foundation in dance technique and a high level of fluency in their movements. However, there is room for improvement in terms of technical precision, particularly in areas such as arm and foot work. With continued practice and attention to detail, the dancer has the potential to reach late expert status.",Late Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they appear to be leaning or off-balance at times. Additionally, there is no clear indication of technical precision, as the dancer's movements do not seem to follow any specific pattern or style. Overall, the dancer's movements are choppy and uncoordinated, which suggests that they may still be in the early stages of learning and developing their dance skills.",Novice,False
+e5488136-6259-4050-bc34-4717cc15dd1a,uniandes_dance_020_11,Early Expert,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in her movements. Her body alignment seems off as she struggles to maintain proper posture throughout the dance routine. Additionally, her movements appear to be stiff and uncoordinated, which suggests that she may not have had much practice or experience with dance. Overall, her technique is lacking, and it would be beneficial for her to work on improving her body alignment, movement fluency, and technical precision before attempting more advanced dance routines.",Novice,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off as they are not maintaining proper posture throughout the dance. Additionally, the dancer's movements appear to be stiff and uncoordinated, which suggests that they may not have much experience with dance.",Novice,False
+824f472b-db42-4d38-99ed-2750bc14817e,upenn_0629_Dance_3_4,Early Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good body alignment throughout the routine, with proper posture and core engagement. This suggests a level of technical proficiency and understanding of dance mechanics.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in their movements, transitioning between steps and gestures smoothly without hesitation or awkwardness. This indicates a high degree of practice and familiarity with the choreography.
+
+* **Technical Precision:** While the dancer shows a strong grasp of the basic steps and transitions, there may be room for improvement in certain technical aspects. For example, the dancer's footwork could be more precise, and their arm movements might benefit from greater control and synchronization with the body.
+
+Overall, the dancer exhibits a solid foundation in dance technique and has developed a comfortable level of fluency in their movements. However, they may still be working on refining specific technical elements to reach a late expert level.",Late Expert,False,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off as they are not maintaining proper posture throughout the dance. Additionally, the dancer's movements appear to be stiff and uncoordinated, which suggests that they may not have much experience with dance.",Novice,False
+215abe5f-a97f-4ee6-87bd-d261e75f1701,uniandes_dance_022_6,Novice,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the sequence. Their spine remains straight, and their weight is distributed evenly between both legs. This indicates a solid understanding of proper body mechanics.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in their movements, transitioning smoothly between different steps and gestures. There are no abrupt or jerky motions, suggesting a high level of practice and familiarity with the dance routine.
+
+* **Technical Precision:** The dancer exhibits precise footwork and timing, as evidenced by their ability to maintain rhythm and execute specific steps accurately. They also show control over their arms and upper body, which adds to the overall technical proficiency of their performance.
+
+In conclusion, while the dancer may not yet be classified as a late expert due to some minor inconsistencies (e.g., slight hesitation during certain steps), they possess a strong foundation in body alignment, movement fluency, and technical precision. With continued practice and refinement, they could potentially advance to a late expert level.",Late Expert,False,"Novice
+
+The dancer's body alignment is not consistent throughout the video. The dancer's feet are not in line with each other and the dancer's knees are bent at different angles. The dancer's movement is not fluid and there are some awkward movements. The dancer's technical precision is also lacking as the dancer's arms are not in the correct position and the dancer's head is not aligned with the rest of the body.",Novice,True
+657b877d-3cdb-4798-a9bf-101ab82cc95b,uniandes_dance_020_18,Novice,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in their movements. The dancer's body alignment seems off, as they are not maintaining proper posture throughout the dance routine. Additionally, the dancer's movements appear to be stiff and uncoordinated, which suggests that they may not have had much practice or experience with dance. Overall, the dancer's technique is lacking, and they would benefit from more training and practice to improve their skills.",Novice,True,"Novice
+
+The dancer in the video appears to be a novice due to the lack of fluidity and precision in her movements. Her body alignment seems off as she is not standing straight or maintaining proper posture throughout the dance routine. Additionally, there is no evidence of technical precision in her movements, which suggests that she may still be developing her skills.",Novice,True
+3a2303bf-8d6f-4211-8c25-4430cd051e2d,uniandes_dance_012_14,Intermediate Expert,"Novice
+
+The dancer in the video appears to be a novice due to her lack of fluidity and technical precision. Her movements are stiff and awkward, and she seems to be struggling with maintaining proper body alignment. Additionally, her steps appear to be uneven and inconsistent, which further indicates that she is still developing her skills.",Novice,False,"Novice
+
+The dancer's body alignment is not consistent throughout the video. The dancer's feet are not in line with each other and the dancer's knees are not bent. The dancer's movements are not fluid and there are some awkward movements. The dancer's technical precision is also lacking as the dancer's arms are not in the correct position and the dancer's head is not facing forward.",Novice,False
+590c85d3-71c1-4896-9899-a843ccaa6ef2,uniandes_dance_023_56,Early Expert,"The dancer in the video appears to be at an intermediate expert level based on the following observations:
+
+* **Body Alignment:** The dancer maintains good posture and alignment throughout the routine. Their spine remains straight, and their shoulders are relaxed, which suggests they have a solid understanding of proper body mechanics.
+
+* **Movement Fluency:** The dancer demonstrates fluidity in their movements, transitioning between steps and gestures smoothly. This indicates that they have practiced the routine enough to perform it with ease and confidence.
+
+* **Technical Precision:** While the dancer shows a high level of technical proficiency, there are some minor inconsistencies in their footwork and arm movements. For example, in Frame 3, the dancer's right arm appears slightly stiff as they raise it above their head. Additionally, in Frame 6, the dancer's left leg appears to be slightly bent, which could potentially affect their balance and overall flow.
+
+Overall, the dancer exhibits a strong foundation in dance technique and has developed a high degree of fluency in their movements. However, there is room for improvement in terms of technical precision, particularly in areas such as footwork and arm movements. With continued practice and attention to detail, the dancer can further refine their technique and achieve a higher level of expertise.",Intermediate Expert,False,"Novice
+
+The dancer's body alignment appears to be off as they are not standing straight and tall. Their movement fluency seems to be lacking as well, with some awkward movements. The technical precision is also not very good, as the dancer seems to be struggling with the steps and not executing them correctly.",Novice,False

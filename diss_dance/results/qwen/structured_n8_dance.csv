@@ -1,0 +1,885 @@
+clip_id,take_folder,ground_truth,exo_full_answer,exo_predicted,exo_correct,ego_full_answer,ego_predicted,ego_correct
+b40e861f-60a7-4b55-8757-41a6af4e62e8,upenn_0730_Dance_1_7,Intermediate Expert,"Observations: The person is standing with his feet apart, arms bent at the elbows, and hands near his chest. He then raises his arms above his head, bending his knees slightly, and steps forward with his right foot. He then lowers his arms to his sides and steps back with his left foot.
+
+Errors: The person's movements are not fluid and appear to be stiff. His arms do not move in a smooth arc, and his steps are not synchronized with his arm movements.
+
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with desks, chairs, and a whiteboard. They are wearing a black shirt and gray shorts. Their arms are outstretched and they are moving their hips and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid and there are some awkward steps. They also seem to be struggling with maintaining balance at times.
+
+Skill Level: Novice",Novice,False
+4e468597-ba96-40c7-977b-7736a4a3bd73,uniandes_dance_017_3,Novice,"Observations: The woman is dancing in a studio with a backdrop that says ""Ileo."" She is wearing a blue jacket, black pants, and glasses. She is moving her arms and legs in a rhythmic manner, stepping side to side and raising her arms above her head at times.
+
+Errors: The woman's movements appear to be somewhat stiff and lack fluidity. Her steps are not perfectly aligned, and she seems to be struggling to maintain a consistent rhythm. Additionally, her facial expression does not convey much emotion, which could make it difficult for viewers to connect with her performance.
+
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with a black curtain and a tripod. They are wearing a blue shirt and jeans. There is a camera on the tripod, and a person is standing behind them.
+
+Errors: The person is not moving their arms or legs in a coordinated manner. Their movements are not fluid and they appear to be struggling to keep up with the music.
+
+Skill Level: Novice",Novice,True
+7d810b75-87a9-4b95-86d0-c970ae6d03a5,uniandes_dance_023_26,Late Expert,"Observations: The woman is dancing in a studio with a backdrop that says ""Le Yoga"". She is wearing a black tank top and black leggings. She is wearing sunglasses and has her hair pulled back. She is moving her arms and legs in a fluid motion, and she appears to be enjoying herself.
+
+Errors: There are no errors in her movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black curtain in the background. They are wearing a white shirt and black pants. The person is moving their arms and legs in a rhythmic manner, and they are stepping on the floor with their feet.
+
+Errors: The person's movements are not very fluid, and there are some awkward steps. Their arms are not moving in sync with their legs, which can be seen in the video.
+
+Skill Level: Novice",Novice,False
+6da46fdf-32e1-4f44-a903-ab609f0d750c,uniandes_dance_008_51,Intermediate Expert,"Observations: The woman is dancing in a studio with a man filming her. She is wearing a white shirt and black pants. She is moving her arms and legs in a rhythmic manner, stepping side to side and raising her arms above her head.
+
+Errors: The woman's movements are not perfectly synchronized with the music. Her steps are not consistent in speed and rhythm. She also seems to be struggling with maintaining her balance at times.
+
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a camera on a tripod. They are wearing a white shirt and black pants. They are moving their arms and legs in a fluid motion, and their feet are off the ground at times.
+
+Errors: The person's movements are not perfectly synchronized with the music, and they occasionally lose their balance and stumble.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+92ee422b-2245-4efa-b300-0c5dc2744043,uniandes_dance_022_3,Novice,"Observations: The man is dancing in a studio with a backdrop that says ""1Lè"". He is wearing a black shirt, blue jeans, and sneakers. He is moving his arms and legs in a rhythmic manner, stepping side to side and swaying his hips.
+
+Errors: The man's movements are not very fluid or precise. His steps are uneven and he appears to be struggling to maintain a consistent rhythm. His arm movements are also not very smooth and he seems to be flailing them around.
+
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with a black curtain in the background. They are wearing a black shirt and blue jeans. Their arms are moving in a circular motion, and they are stepping side to side.
+
+Errors: The person's movements are not very fluid, and there are some awkward steps. They also seem to be struggling with maintaining balance while dancing.
+
+Skill Level: Novice",Novice,True
+6cce39fb-95c0-44b3-bddd-b20cd271f6b6,upenn_0629_Dance_3_6,Early Expert,"Observations: The person is dancing in a room with a wooden floor, a couch, and some equipment. They are wearing a plaid shirt and jeans. Their movements include stepping side to side, raising their arms, and swaying their hips.
+
+Errors: The person's movements appear to be somewhat stiff and lack fluidity. They may benefit from practicing more to improve their technique and flow.
+
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a piano, a microphone stand, and a table. They are wearing a plaid shirt and black pants. Their arms are outstretched and they are moving their feet in a rhythmic manner.
+
+Errors: The person's movements appear to be somewhat stiff and uncoordinated. They may benefit from practicing more to improve their fluidity and grace.
+
+Skill Level: Novice",Novice,False
+ed917883-c69b-4f94-83bd-1c7f583b4331,uniandes_dance_015_22,Late Expert,"Observations: The woman is dancing in a studio with a white floor and red walls. She is wearing a black tank top and black leggings. She is moving her arms and legs in a rhythmic manner, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in the woman's movement. She is dancing in a fluid and graceful manner.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains and a tripod. They are wearing a watch on their left wrist. Their arms are outstretched, and they are moving their hands in a circular motion.
+
+Errors: The person's movements are not very fluid, and there are some awkward movements that suggest they are still learning the dance routine.
+
+Skill Level: Novice",Novice,False
+8aa071f1-fcea-4bf4-9a0a-e885a32da656,uniandes_dance_016_43,Novice,"Observations: The person is dancing in a studio with a backdrop that says ""Ile."" They are wearing a blue jacket, black pants, and sunglasses. They are moving their arms and legs in a rhythmic manner, stepping side to side and raising their arms above their head.
+
+Errors: The person's movements appear to be somewhat stiff and lack fluidity. Their steps are not perfectly aligned, and there are moments where they seem to hesitate or lose their rhythm.
+
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with a black curtain in the background. They are wearing a red shirt and have long hair. They are moving their arms and legs in a rhythmic manner, and their movements appear to be fluid and graceful.
+
+Errors: There are no apparent errors in the person's movement. Their dance appears to be well-executed and in sync with the music.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+71e8d768-1bd4-4f21-91bd-da53bfe29279,uniandes_dance_022_11,Novice,"Observations: The person is dancing in a studio with a backdrop that says ""Le"". They are wearing a black shirt and blue jeans. They are moving their arms and legs in a rhythmic manner, stepping side to side and swaying their hips.
+
+Errors: The person's movements are not perfectly synchronized with the music, and they occasionally lose their balance and stumble.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black curtain and a tripod. They are wearing a black shirt and blue jeans. There are other people in the background, but they are not the focus of the video.
+
+Errors: The person's movements are not very fluid or graceful. They seem to be struggling with their dance moves and are not performing them with much confidence.
+
+Skill Level: Novice",Novice,True
+88ec5df5-24f4-48d4-8452-ad4c12103a0a,uniandes_dance_013_7,Early Expert,"Observations: The man is dancing in a room with a white floor and a red wall. He is wearing a blue shirt and black pants. He is moving his arms and legs in a rhythmic manner, and he appears to be enjoying himself.
+
+Errors: There are no apparent errors in the man's movement. He is dancing in a fluid and graceful manner.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black curtain in the background. They are wearing a blue shirt and black pants. Their arms are moving in a circular motion, and they are stepping side to side.
+
+Errors: The person's movements are not very fluid, and there are some awkward steps. They also seem to be struggling with maintaining balance while dancing.
+
+Skill Level: Novice",Novice,False
+b8afa573-2f0f-4b77-b4b3-5fbb7197dd1f,uniandes_dance_008_11,Late Expert,"Observations: The woman is dancing in a studio with a man filming her. She is wearing a purple shirt and black pants. She is moving her arms and legs in a fluid motion, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in her movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black curtain and a tripod. They are wearing a blue shirt and black pants. Their arms are moving in a fluid motion, and they are stepping side to side.
+
+Errors: The person's movements are not very precise, and there are some awkward steps. They also seem to be struggling with maintaining balance while dancing.
+
+Skill Level: Novice",Novice,False
+50e6c59b-737e-447c-984c-fde5cd3e5e80,uniandes_dance_023_51,Early Expert,"Observations: The man stands with his feet apart, facing forward. He raises his right arm to his side, then lowers it. He then raises his left arm to his side, then lowers it. He then raises both arms to his sides, then lowers them. He then raises his right arm to his side, then lowers it. He then raises his left arm to his side, then lowers it. He then raises both arms to his sides, then lowers them. He then raises his right arm to his side, then lowers it. He then raises his left arm to his side, then lowers it. He then raises both arms to his sides, then lowers them. He then raises his right arm to his side, then lowers it. He then raises his left arm to his side, then lowers it. He then raises both arms to his sides, then lowers them. He then raises his right arm to his side, then lowers it. He then raises his left arm to his side, then lowers it. He then raises both arms to his sides, then lowers them. He then raises his right arm to his side, then lowers it. He then raises his left arm to his side, then lowers it. He then raises both arms to his sides, then lowers them. He then raises his right arm to his side, then lowers it. He then raises his left arm to his side, then lowers it. He then raises both arms to his sides, then lowers them.",Unknown,False,"Observations: The person is dancing in a room with a black curtain backdrop. They are wearing a white shirt and black pants. Their movements are fluid and rhythmic, suggesting they are comfortable with the dance routine.
+
+Errors: There are no apparent errors in the person's movements. They appear to be executing the dance steps correctly.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+7c8dc8cc-c863-4082-a011-ba385306537a,uniandes_dance_024_3,Novice,"Observations: The man is dancing in a studio with a backdrop that says ""Le Design"". He is wearing sunglasses and a black t-shirt. He is moving his arms and legs in a rhythmic manner, and he appears to be enjoying himself.
+
+Errors: There are no apparent errors in the man's movement. He seems to be dancing with confidence and grace.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black curtain in the background. They are wearing a white shirt and black pants. Their arms are outstretched, and they are moving their hips and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid, and there are some awkward steps. They also seem to be struggling with maintaining balance while dancing.
+
+Skill Level: Novice",Novice,True
+c198cb21-159d-4a1f-b395-976f44c24166,uniandes_dance_017_4,Novice,"Observations: The woman is dancing in a studio with a backdrop that says ""Ileo."" She is wearing a blue jacket and black pants. She is moving her arms and legs in a rhythmic manner, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in her movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains and a tripod. They are wearing a blue shirt and have long hair. They are moving their arms and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid, and they seem to be struggling with some steps. Their posture is not very good, and they are not using their full range of motion.
+
+Skill Level: Novice",Novice,True
+be44efc7-77ac-43ff-906b-3d49387ce118,uniandes_dance_022_17,Late Expert,"Observations: The woman is dancing in a studio with a backdrop that says ""Le Design"". She is wearing a black outfit and sunglasses. She is moving her arms and legs in a rhythmic manner, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in her movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: A man is dancing in a room with a black curtain. He is wearing a white shirt and black pants. He is moving his arms and legs in a rhythmic fashion. There is a camera on a tripod in front of him.
+
+Errors: The man is not following a specific dance routine. His movements are not precise and he is not following a specific rhythm.
+
+Skill Level: Novice",Novice,False
+dc26e79e-f38f-4711-a212-6a7de087d8ac,uniandes_dance_017_6,Novice,"Observations: The woman is dancing in a studio with a backdrop that says ""Ile."" She is wearing a blue jacket, black pants, and sunglasses. She is moving her arms and legs in a rhythmic manner, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in her movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black curtain and a white floor. They are wearing a black shirt and black pants. They are moving their arms and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid, and they seem to be struggling to keep up with the rhythm. Their steps are not very precise, and they are often off-beat.
+
+Skill Level: Novice",Novice,True
+1f5b9ba5-a7c0-496d-b164-444251f45d25,uniandes_dance_002_3,Late Expert,"Observations: The person is dancing in a studio with a white floor and orange walls. They are wearing a black shirt and black pants. They are moving their arms and legs in a rhythmic manner, stepping side to side and swaying their hips.
+
+Errors: The person's movements are not perfectly synchronized with the music. They appear to be slightly off rhythm at times.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains and a white floor. They are wearing a black shirt and black pants. They are moving their arms and legs in a rhythmic manner, and their feet are moving in a circular motion.
+
+Errors: The person's movements are not very precise, and they are not following a specific dance routine. Their steps are not consistent, and they are not maintaining a steady rhythm.
+
+Skill Level: Novice",Novice,False
+be64949d-750d-4272-a561-a6c7c2d5a6b9,uniandes_dance_002_13,Early Expert,"Observations: The woman is dancing in a studio with a man standing behind her, holding a camera on a tripod. She is wearing a black top and pants, and she is moving her arms and legs in a rhythmic manner.
+
+Errors: The woman's movements appear to be somewhat stiff and uncoordinated, suggesting that she may not have much experience dancing. Her steps are not fluid, and she seems to be struggling to maintain a consistent rhythm.
+
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with black curtains and a tripod. They are wearing a black shirt and black pants. Their arms are outstretched, and they are moving their hips and legs.
+
+Errors: The person's movements are not very fluid, and there are some awkward steps. They also seem to be struggling with maintaining balance.
+
+Skill Level: Novice",Novice,False
+0c162693-cd79-4d37-9dd9-d1a6a5c653a3,uniandes_dance_020_28,Novice,"Observations: The person is performing a dance routine, moving his arms and legs in a rhythmic manner. He appears to be practicing a specific sequence of steps.
+
+Errors: The person's movements seem to lack fluidity and precision. His arm movements appear stiff and not in sync with the rhythm. Additionally, his leg movements are not consistent, and he seems to be struggling with maintaining proper posture.
+
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with a black curtain and a white floor. They are wearing a red shirt and black pants. They are moving their arms and legs in a rhythmic manner, and they are looking at the camera.
+
+Errors: The person is not following a specific dance routine, but rather improvising their movements to the music. There are no errors in their movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+94b7d4d2-0ddc-47d2-a88e-71193c2315cc,upenn_0629_Dance_2_2,Early Expert,"Observations: The person is dancing in a room with a wooden floor and white walls. They are wearing a blue shirt and black shorts. They are moving their arms and legs in a rhythmic manner, stepping side to side and swaying their hips.
+
+Errors: The person's movements are not very fluid or precise. Their steps are uneven and they appear to be struggling to maintain a consistent rhythm.
+
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a wooden floor, a table, a chair, and some equipment. They are wearing a blue shirt and white shorts. They are moving their arms and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid and they seem to be struggling with the dance steps. Their posture is not very good and they are not able to maintain balance well.
+
+Skill Level: Novice",Novice,False
+8aef970a-22d8-4f21-94de-9737be02abd1,uniandes_dance_016_46,Novice,"Observations: The woman is dancing in a studio with a backdrop that says ""ILE"". She is wearing sunglasses and a blue jacket. She is moving her arms and legs in a rhythmic manner, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in her movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: A woman is dancing in a room with a black curtain. She is wearing an orange shirt and has her hair pulled back. There are other people in the background, but they are not the focus of the video.
+
+Errors: The woman's movements are not very fluid or graceful. She seems to be struggling to keep up with the music and her steps are not very precise.
+
+Skill Level: Novice",Novice,True
+4db61f0f-e35b-4ad8-bc3a-8d4a02094c19,uniandes_dance_019_7,Intermediate Expert,"Observations: The woman is dancing in a studio with a backdrop that says ""Le Dance"". She is wearing a black outfit and sunglasses. She is moving her arms and legs in a rhythmic manner, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in her movement. She seems to be performing the dance moves correctly.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with a black curtain and a tripod. They are wearing a white shirt and black pants. The person is moving their arms and legs in a rhythmic manner, and they are looking at the camera.
+
+Errors: The person is not following a specific dance routine, and their movements are not precise. They are also not following the beat of the music.
+
+Skill Level: Novice",Novice,False
+a79d5151-c4f8-4b6e-9084-c563b317c4e8,uniandes_dance_021_29,Intermediate Expert,"Observations: The woman is dancing in a studio with a white floor and a black backdrop. She is wearing a red tank top, black leggings, and black sneakers. Her hair is long and dark. She is wearing sunglasses and has a watch on her left wrist. She is moving her arms and legs in a rhythmic manner, and her movements appear to be fluid and coordinated.
+
+Errors: There are no apparent errors in the woman's movement. Her steps and arm movements are smooth and well-timed.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with a black curtain and a tripod. They are wearing a white dress and are moving their arms and legs in a rhythmic manner.
+
+Errors: The person's movements are not very precise, and they seem to be struggling with maintaining a consistent rhythm.
+
+Skill Level: Novice",Novice,False
+0d1c01f6-74c9-45b4-8ccd-8c64eb39a2f5,uniandes_dance_008_50,Intermediate Expert,"Observations: The woman is dancing in a studio with a white floor and orange walls. She is wearing a white shirt and black pants. She is moving her arms and legs in a fluid motion, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in the woman's movement. She is dancing in a smooth and graceful manner.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with a black curtain in the background. They are wearing a white shirt and black pants. Their arms are outstretched, and they are moving their hips and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid, and there are some awkward steps. They also seem to be struggling to keep up with the rhythm.
+
+Skill Level: Novice",Novice,False
+53d819a4-f540-44ed-8dcd-2260112fc54c,uniandes_dance_021_19,Intermediate Expert,"Observations: The man is dancing in a studio with a black backdrop. He is wearing a black t-shirt, black pants, and sneakers. He is moving his arms and legs in a rhythmic manner.
+
+Errors: The man's movements are not very fluid. His steps are not consistent, and he seems to be struggling to maintain a steady rhythm.
+
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a studio with a black backdrop. They are wearing a black shirt and black pants. Their arms are outstretched, and they are moving their hips and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid, and there are some awkward steps. They also seem to be struggling with maintaining balance at times.
+
+Skill Level: Novice",Novice,False
+fdaecdd1-2ef5-44d6-bc6c-26ff4a21c3d6,uniandes_dance_008_13,Late Expert,"Observations: The woman is dancing in a studio with a white floor and orange walls. She is wearing a purple shirt and black pants. She is moving her arms and legs in a fluid motion, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in the woman's movement. She is dancing in a controlled and graceful manner.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in front of a black curtain with white dots on it. They are wearing a watch on their left wrist. The camera is positioned to capture the person from a distance, showing the entire room.
+
+Errors: The person's movements appear to be somewhat stiff and uncoordinated. There are no clear steps or patterns that can be identified in their dance routine.
+
+Skill Level: Novice",Novice,False
+27b3c35b-8799-4294-b4ff-dc33f52e0220,uniandes_dance_024_8,Novice,"Observations: The man X dances in the studio.
+
+Errors: N/A
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a studio with a black backdrop. They are wearing a pink top and black pants. The person is moving their arms and legs in a fluid motion, and their feet are tapping on the floor.
+
+Errors: The person's movements are not perfectly synchronized with the music. There are some small mistakes in their footwork and arm movements.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+9235aa5a-d273-4932-be5f-b74ac82f5bcc,uniandes_dance_007_7,Intermediate Expert,"Observations: The woman is dancing in a studio with a man filming her. She is wearing a black shirt and black pants, and she is wearing red shoes. She is moving her arms and legs in a rhythmic manner.
+
+Errors: There are no apparent errors in her movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with a black curtain. They are wearing a black shirt and have a watch on their left wrist. They are moving their arms and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid, and they seem to be struggling with some steps. Their arms and legs do not move in perfect sync with the music.
+
+Skill Level: Novice",Novice,False
+97fff617-93c7-4d83-a13e-1ff5ab6fc79d,uniandes_dance_021_12,Late Expert,"Observations: The woman is dancing in a studio with a white floor and a black backdrop. She is wearing a black outfit and sunglasses. She is moving her arms and legs in a rhythmic manner, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in the woman's movement. She seems to be dancing with confidence and grace.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black curtain. They are wearing a blue shirt and black pants. They are moving their arms and legs in a rhythmic manner.
+
+Errors: The person is not following a specific dance routine, but rather improvising their movements to the music. There are no errors in their movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+6af8d123-939a-410a-9d29-72687bd4dac5,uniandes_dance_013_15,Late Expert,"Observations: The woman is dancing in a studio with a white floor and a large mirror on the wall. She is wearing a black outfit and has long hair. She is moving her arms and legs in a fluid motion, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in the woman's movement. She is dancing in a controlled and graceful manner.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains on the walls. They are wearing a black shirt and black pants. Their arms are moving in a circular motion, and they are stepping side to side.
+
+Errors: The person's movements are not very fluid, and there are some awkward steps. They also seem to be struggling to maintain balance at times.
+
+Skill Level: Novice",Novice,False
+8fdcfd22-239e-44b9-90a7-f29588cb7d82,uniandes_dance_012_24,Intermediate Expert,"Observations: The woman is dancing in a studio with a white floor and a large mirror on the wall. She is wearing a black tank top and black leggings. She is moving her arms and legs in a fluid motion, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in the woman's movement. She is dancing in a controlled and graceful manner.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The man D dances in the room.
+
+Errors: N/A
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+5286fd37-f72e-42c5-bb9e-e09811887981,uniandes_dance_020_27,Novice,"Observations: The person is standing with his feet apart, arms crossed over his chest, and then extends his right arm out to the side while bending his left knee slightly. He then returns to the initial stance.
+
+Errors: The person's movement appears to be slow and deliberate, which may not be ideal for dance. It seems like he is practicing a specific move rather than performing a dance routine.
+
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with a black curtain backdrop. They are wearing casual clothing and appear to be moving rhythmically, possibly to music. Their movements seem fluid and expressive.
+
+Errors: The person's movements could be more precise and controlled, especially when it comes to maintaining a consistent rhythm. There may also be some hesitation or uncertainty in their steps at times.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+7992ceca-a566-4679-b116-6fc0b811b70f,upenn_0720_Dance_4_5,Early Expert,"Observations: The person is performing a dance routine that involves various arm movements, including raising her arms above her head and bringing them down to her sides. She also steps forward with one leg while keeping the other leg extended behind her.
+
+Errors: The person's movements appear to be somewhat stiff and lack fluidity. Her arm movements are not perfectly synchronized with her steps, and she seems to be struggling to maintain proper posture throughout the routine.
+
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a large room with a high ceiling. They are wearing a black shirt and blue shorts. They are moving their arms and legs in a fluid motion, and their feet are moving quickly across the floor.
+
+Errors: The person's movements are not perfectly synchronized with the music. There are some moments where they appear to be hesitating or struggling to keep up with the rhythm.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+c5c271ee-08ad-4dd8-ac8c-417f830db685,uniandes_dance_019_20,Intermediate Expert,"Observations: The person is performing a dance routine with fluid movements, transitioning between different poses and steps. They appear to be comfortable and confident in their movements, suggesting they have some experience with dance.
+
+Errors: There are no significant errors observed in the person's movements. Their technique appears to be smooth and well-coordinated.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: A man is dancing in a room with a black curtain. He is wearing a red shirt and blue jeans. There are two people standing behind him, watching him dance.
+
+Errors: The man is not moving his arms or legs in a coordinated manner. His movements are stiff and awkward.
+
+Skill Level: Novice",Novice,False
+26ca925c-845d-4419-ae37-93f28cb415e8,uniandes_dance_016_8,Early Expert,"Observations: The person is dancing in a studio with a backdrop that says ""Ile."" They are wearing a black outfit and sunglasses. They are moving their arms and legs in a rhythmic manner, stepping side to side and raising their arms above their head.
+
+Errors: The person's movements appear to be somewhat stiff and lack fluidity. Their steps are not perfectly aligned, and there are moments where they seem to hesitate or lose their rhythm.
+
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a black curtain. They are wearing a white shirt and black pants. They are moving their arms and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid, and they seem to be struggling to keep up with the music. Their steps are not very precise, and they are often off-beat.
+
+Skill Level: Novice",Novice,False
+e10d385c-3b3f-4cc4-8e2d-2c5e7d986f42,uniandes_dance_020_34,Late Expert,"Observations: The man is dancing in a studio with a backdrop that says ""Le Design"". He is wearing a grey shirt and black pants. He is moving his arms and legs in a rhythmic manner, stepping side to side and swaying his hips.
+
+Errors: The man's movements are not very fluid or precise. His steps are uneven and he appears to be struggling to maintain a consistent rhythm. His arm movements are also not very graceful and seem to lack coordination with his feet.
+
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a black curtain and a white wall. They are wearing a gray shirt and blue jeans. They are moving their arms and legs in a rhythmic manner, and they are looking at the camera.
+
+Errors: The person's movements are not very fluid, and they seem to be struggling with some of the dance steps. Their arms and legs are not moving in a coordinated manner, and they appear to be hesitating between steps.
+
+Skill Level: Novice",Novice,False
+24b8af0b-b50e-4ddb-8421-a23dab506580,uniandes_dance_013_22,Late Expert,"Observations: The woman is dancing in a studio with a white floor and a large mirror on the wall. She is wearing a black shirt and black pants, and she has long hair. She is moving her arms and legs in a fluid motion, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in the woman's movement. She is dancing in a controlled and graceful manner.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains and a white floor. They are wearing a black shirt and blue jeans. Their arms are moving in a circular motion, and they are stepping side to side.
+
+Errors: The person's movements are not very fluid, and there are some awkward steps. They also seem to be struggling to maintain balance at times.
+
+Skill Level: Novice",Novice,False
+04f0854f-7a61-4902-a5ea-cf9b9ff2785f,upenn_0706_Dance_4_3,Early Expert,"Observations: The man is dancing in a room with wooden floors and white walls. He is wearing a blue shirt and brown pants. He is moving his arms and legs in a rhythmic manner, and he appears to be enjoying himself.
+
+Errors: There are no apparent errors in the man's movement. He is dancing in a fluid and graceful manner.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a wooden floor and white walls. They are wearing a blue shirt and black pants. They are moving their arms and legs in a rhythmic manner, and their feet are moving quickly across the floor.
+
+Errors: The person's movements are not very fluid, and they appear to be struggling to keep up with the rhythm. Their steps are not consistent, and they are frequently stepping on their own feet.
+
+Skill Level: Novice",Novice,False
+7e4cdc23-31d4-4449-b6a1-1100985cfcb1,uniandes_dance_012_19,Intermediate Expert,"Observations: The woman is dancing in a studio with a white floor and walls. She is wearing a black tank top and black pants. She is moving her arms and legs in a fluid motion, and her hair is pulled back into a ponytail.
+
+Errors: There are no apparent errors in the woman's movement. She appears to be dancing with proper form and technique.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,Observations: A man is sitting on a chair. A woman is sitting on a chair. The woman is holding a phone. The man is holding a phone. The man is talking. The woman is looking at the phone. The man is looking at the phone. The man is moving his hand. The woman is moving her hand. The man is moving his head. The woman is moving her head. The man is moving his leg. The woman is moving her leg. The man is moving his foot. The woman is moving her foot. The man is moving his arm. The woman is moving her arm. The man is moving his shoulder. The woman is moving her shoulder. The man is moving his hip. The woman is moving her hip. The man is moving his waist. The woman is moving her waist. The man is moving his knee. The woman is moving her knee. The man is moving his ankle. The woman is moving her ankle. The man is moving his toe. The woman is moving her toe. The man is moving his finger. The woman is moving her finger. The man is moving his thumb. The woman is moving her thumb. The man is moving his elbow. The woman is moving her elbow. The man is moving his wrist. The woman is moving her wrist. The man is moving his hand. The woman is moving her hand. The man is moving his head. The woman is moving her head. The man is moving his leg. The,Unknown,False
+6d348ad5-d8f5-47f3-93c4-c2252910d310,uniandes_dance_002_24,Early Expert,"Observations: The woman is dancing in a studio with a man standing behind her, holding a camera. She is wearing a black outfit and sunglasses. She starts by raising her arms above her head, then lowers them to her sides. She then raises her arms again, this time bringing them up to shoulder height. She continues to move her arms in a fluid motion, occasionally bending her knees and shifting her weight from side to side.
+
+Errors: The woman's movements are not perfectly synchronized with the music, but she appears to be following a choreographed routine. Her footwork could be more precise, and she may benefit from practicing her balance and coordination further.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The man D dances in the room.
+
+Errors: N/A
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+98ca3100-848b-4267-be0b-3c53c301cd96,uniandes_dance_020_22,Novice,"Observations: The person is standing with his feet apart, facing forward. He is holding a baton in his right hand and is moving it around while standing still.
+
+Errors: The person is not moving his feet or body, which suggests that he may be struggling to maintain balance or control over the baton.
+
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with a black curtain and a white floor. They are wearing a red shirt and black pants. There is a tripod in the background.
+
+Errors: The person is not moving their arms or legs in a coordinated manner. Their movements are not fluid and they appear to be struggling to keep up with the music.
+
+Skill Level: Novice",Novice,True
+ad71e6d3-b828-4dbf-8853-18f5fcc59768,uniandes_dance_019_6,Intermediate Expert,"Observations: The woman is dancing in a studio with a backdrop that says ""Le Dance"". She is wearing a black outfit and sunglasses. She is moving her arms and legs in a fluid motion, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in her movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with a black curtain backdrop. They are wearing a white shirt and blue jeans. Their movements are fluid and graceful, suggesting they have some experience with dance.
+
+Errors: There are no apparent errors in the person's movements. They appear to be performing a choreographed routine with precision and grace.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+03d2dc5b-24fa-4190-8392-587fbdf31785,upenn_0720_Dance_3_7,Early Expert,"Observations: The person is dancing in a spacious room with a high ceiling, wearing a pink shirt and gray pants. They are moving their arms and legs rhythmically to the music, stepping side to side and raising their arms above their head at times.
+
+Errors: The person's movements appear to be somewhat stiff and lack fluidity. Their steps are not perfectly aligned with the beat of the music, and there are moments where they seem to hesitate or struggle to maintain the rhythm.
+
+Skill Level: Novice",Novice,False,"Observations: The man is dancing in a large room with a high ceiling. He is wearing a black shirt and blue shorts. He is moving his arms and legs in a rhythmic fashion.
+
+Errors: The man is not following a specific dance routine. His movements are not precise and he is not following a specific rhythm.
+
+Skill Level: Novice",Novice,False
+be4e32c4-1537-44bc-9f66-5d61098c08dd,uniandes_dance_024_7,Novice,"Observations: The man is dancing in a studio with a backdrop. He is wearing sunglasses, a black t-shirt, and jeans. He is moving his arms and legs in a rhythmic manner.
+
+Errors: The man's movements are not very fluid. His steps are not consistent, and he seems to be struggling to maintain a steady rhythm.
+
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with a black curtain and a tripod. There are people sitting on chairs in the background. The person is wearing a white shirt and black pants.
+
+Errors: The person's movements are not very fluid, and they seem to be struggling with some steps. Their arms are not moving in sync with their legs, and they appear to be hesitating at times.
+
+Skill Level: Novice",Novice,True
+7ab10395-024c-4fe4-994d-c7f57a42b354,upenn_0727_Partner_Dance_2_1_4,Late Expert,"Observations: The woman steps forward with her right foot, then her left foot, and repeats the sequence. She turns to the side and steps back with her right foot, then her left foot, and repeats the sequence. She turns around and steps forward with her right foot, then her left foot, and repeats the sequence.
+
+Errors: The woman's steps are not perfectly aligned with each other, and she appears to be slightly off balance at times.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The woman is dancing in a room with a wooden floor. She is wearing a pink skirt and a white top with red polka dots. She is wearing glasses and has her hair pulled back. She is smiling and appears to be enjoying herself.
+
+Errors: The woman is not following a specific dance routine. Her movements are not precise and she is not following a specific rhythm. She is not using her arms and legs in a coordinated manner.
+
+Skill Level: Novice",Novice,False
+e0ee6d25-73ea-4301-900d-c40a4d1e82dc,upenn_0720_Dance_3_11,Early Expert,"Observations: The person is performing a dance routine that involves stepping side to side, raising her arms, and turning around. She appears to be wearing a pink shirt and gray pants.
+
+Errors: The person's movements seem to lack fluidity and precision. Her steps appear to be uneven, and she seems to be struggling with maintaining balance while turning around. Additionally, her arm movements do not seem to be in sync with her steps.
+
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a large, dimly lit room with a high ceiling. They are wearing dark clothing and appear to be moving their arms and legs in a fluid, rhythmic manner. The camera captures the dancer from various angles, including front, side, and back views.
+
+Errors: The dancer's movements are not entirely precise, as they occasionally lose their balance and stumble slightly. Their footwork could also be improved, as there are moments where their steps do not align perfectly with the music.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+a34204b4-1ebb-4cec-a338-f4e543669820,uniandes_dance_012_25,Intermediate Expert,"Observations: The woman is dancing in a studio with a white floor and a white wall. She is wearing a black tank top and black pants. She is moving her arms and legs in a fluid motion, and she appears to be practicing a dance routine.
+
+Errors: There are no apparent errors in the woman's movement. She is dancing in a controlled and graceful manner.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with black curtains and a tripod. They are wearing a watch on their left wrist. The person is moving their arms and legs in a rhythmic manner, suggesting they are performing a dance routine.
+
+Errors: There are no apparent errors in the person's movement. Their dance appears to be well-coordinated and fluid.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+3f508ce8-ba11-49d3-848c-ccd8c8b52c3d,upenn_0730_Dance_2_5,Late Expert,"Observations: The person is dancing in a large room with desks and chairs arranged around it. They are wearing a black top and black pants, and they are moving their arms and legs in a fluid motion. Their feet are positioned apart, and they are stepping side to side while moving their arms in a circular motion.
+
+Errors: The person's movements are not perfectly synchronized, and there are some small errors in their footwork and arm positioning. However, overall, their technique is good, and they appear to be comfortable and confident in their movements.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with desks, chairs, and a whiteboard. They are wearing a blue shirt and black pants. Their arms are outstretched and they are moving their hips and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid and there are some awkward steps. They also seem to be struggling with maintaining balance at times.
+
+Skill Level: Novice",Novice,False
+6b3a51f3-973e-44de-b300-ed1c25bc82d3,uniandes_dance_008_8,Late Expert,"Observations: The woman is dancing in a studio with a white floor and orange walls. She is wearing a purple shirt and black pants. She is moving her arms and legs in a fluid motion, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in the woman's movement. She is dancing in a controlled and graceful manner.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The man D dances in the room.
+
+Errors: N/A
+
+Skill Level: Novice",Novice,False
+5c4e796b-cb0b-4a72-b7ed-ad0dcc6aec1c,uniandes_dance_019_58,Late Expert,"Observations: The woman is dancing in a studio with a backdrop that says ""Le Dance"". She is wearing a black outfit and sunglasses. She is moving her arms and legs in a fluid motion, and her posture is upright.
+
+Errors: There are no visible errors in her movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black curtain and a tripod. They are wearing a black shirt and black pants. There is a light on the ceiling and a speaker on the wall.
+
+Errors: The person is not moving their arms or legs in a coordinated manner. Their movements are not fluid and they appear to be struggling to keep up with the music.
+
+Skill Level: Novice",Novice,False
+b0f9aa8b-0632-44a1-a6ab-8d698208169c,uniandes_dance_011_29,Late Expert,"Observations: The person is dancing in a studio with a white floor and red walls. They are wearing a blue shirt and black pants. They are moving their arms and legs in a rhythmic manner, stepping side to side and swaying their hips.
+
+Errors: The person's movements are not very fluid or precise. Their steps are uneven and they appear to be struggling to maintain a consistent rhythm.
+
+Skill Level: Novice",Novice,False,"Observations: The man X walks around the room.
+
+Errors: N/A
+
+Skill Level: Novice",Novice,False
+95bcacb6-e524-4aa8-91f3-22b12898779d,uniandes_dance_016_45,Novice,"Observations: The person is dancing in a studio with a backdrop that says ""ILE"". They are wearing a blue jacket and black pants. They are moving their arms and legs in a rhythmic manner, stepping side to side and raising their arms above their head.
+
+Errors: The person's movements are not perfectly synchronized with the music, and they appear to be struggling with some of the steps. Their posture is not always upright, and they occasionally lose balance.
+
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with black curtains on the walls. They are wearing a red shirt and black pants. There is a tripod in the room, and a person is standing next to it.
+
+Errors: The person is not moving their arms or legs in a coordinated manner. Their movements are not fluid and they appear to be struggling to keep their balance.
+
+Skill Level: Novice",Novice,True
+841d97d5-8a6b-4221-adea-5fa1aa3e9707,uniandes_dance_011_43,Early Expert,"Observations: The person is dancing in a studio with a white floor and a red wall. They are wearing a black tank top and black pants. They are moving their arms and legs in a rhythmic manner, and they appear to be enjoying themselves.
+
+Errors: There are no apparent errors in the person's movement. They seem to be dancing with confidence and grace.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in front of a black curtain with white dots on it. They are wearing a black shirt and black pants. The person is moving their arms and legs in a rhythmic manner, and they are stepping side to side.
+
+Errors: The person's movements are not very fluid, and there are some awkward steps. Their arms are not moving in sync with their legs, which can make their dance look disjointed.
+
+Skill Level: Novice",Novice,False
+5b5a6017-4b2e-4529-a348-84bc64d1d3c3,upenn_0727_Partner_Dance_2_2_4,Early Expert,"Observations: The woman X steps back with her left leg, then steps forward with her right leg. She turns to the left and steps back with her right leg, then steps forward with her left leg. She turns to the right and steps back with her left leg, then steps forward with her right leg. She turns to the left and steps back with her right leg, then steps forward with her left leg. She turns to the right and steps back with her left leg, then steps forward with her right leg. She turns to the left and steps back with her right leg, then steps forward with her left leg. She turns to the right and steps back with her left leg, then steps forward with her right leg. She turns to the left and steps back with her right leg, then steps forward with her left leg. She turns to the right and steps back with her left leg, then steps forward with her right leg. She turns to the left and steps back with her right leg, then steps forward with her left leg. She turns to the right and steps back with her left leg, then steps forward with her right leg. She turns to the left and steps back with her right leg, then steps forward with her left leg. She turns to the right and steps back with her left leg, then steps forward with her right leg. She turns to the left and steps back with her right leg, then steps forward with her left leg. She turns to the right and",Unknown,False,"Observations: The person is dancing in a room with wooden floors and white walls. They are wearing a black shirt and sunglasses. Their arms are moving in a fluid motion, and they appear to be enjoying themselves.
+
+Errors: The person's movements are not very precise, and there are some awkward steps. They also seem to be moving too fast for the music.
+
+Skill Level: Novice",Novice,False
+b0f43b31-88d6-4173-bc98-543c8f8d938d,uniandes_dance_016_44,Novice,"Observations: The person is dancing in a studio with a backdrop that says ""ILE."" They are wearing a blue jacket, black pants, and a hat. They are moving their arms and legs in a rhythmic manner, stepping side to side and raising their arms above their head.
+
+Errors: The person's movements appear to be somewhat stiff and lack fluidity. Their steps are not perfectly aligned with the beat, and there are moments where they seem to hesitate or lose their rhythm.
+
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with black curtains. They are wearing a blue shirt and black pants. They are moving their arms and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid, and they seem to be struggling with some steps. Their posture is not very good, and they are not using their full range of motion.
+
+Skill Level: Novice",Novice,True
+6e4400c5-0bd9-454f-97d4-4fe35fe31682,uniandes_dance_022_9,Novice,"Observations: The person is dancing in a studio with a backdrop that says ""1Lè"". They are wearing a black shirt, blue jeans, and brown shoes. They are moving their arms and legs in a rhythmic manner, stepping side to side and swaying their hips.
+
+Errors: The person's movements are not very fluid or precise. Their steps are uneven and they appear to be struggling to maintain a consistent rhythm. Their arms are not moving in a coordinated manner with their legs.
+
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with a black curtain and a tripod. They are wearing a black shirt and blue jeans. They are moving their arms and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid, and they seem to be struggling with some steps. Their arms and legs are not moving in sync with each other.
+
+Skill Level: Novice",Novice,True
+1e31765b-d0e0-4317-a361-2e81613a5c61,uniandes_dance_021_20,Intermediate Expert,"Observations: The man is dancing in a studio with a black backdrop. He is wearing a black t-shirt, black pants, and silver shoes. He is moving his arms and legs in a rhythmic manner, stepping side to side and swaying his hips.
+
+Errors: The man's movements appear to be somewhat stiff and lack fluidity. His steps are not perfectly aligned with the beat, and he seems to be struggling to maintain a consistent rhythm.
+
+Skill Level: Novice",Novice,False,"Observations: A woman is dancing in a room with a black curtain. She is wearing a blue shirt and jeans. There is a tripod in front of her. The camera is on a tripod.
+
+Errors: The woman is not moving her arms properly while dancing. Her movements are stiff and not fluid.
+
+Skill Level: Novice",Novice,False
+3cffe89e-da73-4297-808a-d185d49959f1,uniandes_dance_022_48,Late Expert,"Observations: The woman is dancing in a studio with a backdrop that says ""Le Dancer."" She is wearing a white shirt and black pants. She is moving her arms and legs in a fluid motion, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in her movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a pink shirt and black pants. They are moving their arms and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid, and they seem to be struggling with some steps. Their posture is not very good, and they are not using their full range of motion.
+
+Skill Level: Novice",Novice,False
+f1415a2f-c967-450e-bc9a-53a49abdd5e5,uniandes_dance_008_38,Late Expert,"Observations: The man is dancing in a studio with a camera set up to film him. He is wearing sunglasses and a gray shirt. He is moving his arms and legs in a rhythmic fashion, and he appears to be enjoying himself.
+
+Errors: There are no apparent errors in the man's movement. He is dancing in a fluid and natural manner.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black curtain in the background. They are wearing a black shirt and black pants. Their arms are moving in a circular motion, and they are stepping side to side.
+
+Errors: The person's movements are not very fluid, and there are some awkward steps. They also seem to be struggling with maintaining balance while dancing.
+
+Skill Level: Novice",Novice,False
+3a327064-721f-4571-a510-29de32f82342,uniandes_dance_013_8,Early Expert,"Observations: The man is dancing in a room with a white floor and a red wall. He is wearing a blue shirt and black pants. He is moving his arms and legs in a rhythmic manner, and he appears to be enjoying himself.
+
+Errors: There are no apparent errors in the man's movement. He is dancing in a fluid and graceful manner.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a blue shirt and black pants. They are moving their arms and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid, and they seem to be struggling with some steps. Their arms and legs are not moving in perfect sync with the music.
+
+Skill Level: Novice",Novice,False
+f809a447-5414-4539-8bfd-2f6baa32dc1c,uniandes_dance_021_53,Early Expert,"Observations: The woman is dancing in a studio with a backdrop that says ""Le Dance."" She is wearing a blue shirt and black pants. She is moving her arms and legs in a fluid motion, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in her movement. She seems to be comfortable and confident in her dance routine.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black curtain in the background. They are wearing a blue shirt and have long hair. They are moving their arms and legs in a rhythmic manner, and their movements appear to be fluid and graceful.
+
+Errors: There are no apparent errors in the person's movement. Their dance appears to be well-executed and in sync with the music.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+a20971f0-7778-436f-a3de-ffbc64d59b06,uniandes_dance_017_5,Novice,"Observations: The person is dancing in a studio with a backdrop that says ""Ileo."" They are wearing a blue jacket, black pants, and black shoes. They are moving their arms and legs in a rhythmic manner, stepping side to side and raising their arms above their head.
+
+Errors: The person's movements appear to be somewhat stiff and lack fluidity. Their steps are not perfectly aligned, and there are moments where they seem to hesitate or lose their rhythm.
+
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with black curtains. They are wearing a red shirt and blue jeans. There are other people in the background, but they are not the focus of the video.
+
+Errors: The person's movements are not very fluid or graceful. They seem to be struggling to keep up with the music and are not able to perform complex dance moves.
+
+Skill Level: Novice",Novice,True
+6eba8ef2-4d47-4d63-a864-e4dc64f8231b,uniandes_dance_021_5,Late Expert,"Observations: The woman is performing a dance routine that involves a series of steps, including a kick to the side and a turn. She is wearing a black outfit and appears to be practicing in a studio setting with a backdrop and lighting equipment visible.
+
+Errors: The woman's movements appear to be somewhat stiff and lack fluidity. Her kicks and turns could be more dynamic and expressive if she were to practice more. Additionally, her posture could be improved by maintaining better balance and alignment throughout the routine.
+
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a white floor and a black curtain. There are two people standing behind the person, watching them dance. The person is wearing a black shirt and black pants. The person is moving their arms and legs in a rhythmic motion.
+
+Errors: The person is not following the rhythm of the music. They are not moving their arms and legs in a coordinated manner.
+
+Skill Level: Novice",Novice,False
+0f2b6d29-7921-402f-9a5b-59dd9a15f515,uniandes_dance_012_28,Late Expert,"Observations: The man is dancing in a room with a white floor and a window in the background. He is wearing a black shirt and black pants. He is moving his arms and legs in a rhythmic manner, and he appears to be enjoying himself.
+
+Errors: There are no apparent errors in the man's movement. He is dancing in a fluid and graceful manner.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The man X dances in the room.
+
+Errors: N/A
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+88f21f26-5c09-485c-9e63-a096acf58336,uniandes_dance_016_12,Early Expert,"Observations: The woman is performing a dance routine in a studio. She is wearing a black tank top and black leggings. She is moving her arms and legs in a fluid motion, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in her movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in front of a black curtain with white dots on it. They are wearing a white shirt and black pants. The person is moving their arms and legs in a rhythmic manner, and they appear to be enjoying themselves.
+
+Errors: The person's movements are not very precise, and there are some awkward steps that could be improved upon. Additionally, the person's posture is not always correct, and they may need to work on their balance.
+
+Skill Level: Novice",Novice,False
+3abfad56-574e-41ad-abb1-6a002c69a5c7,uniandes_dance_024_17,Early Expert,"Observations: The woman is dancing in a studio with a backdrop that says ""Le Design"". She is wearing a black tank top and black leggings. She is moving her arms and legs in a fluid motion, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in her movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black curtain and a white wall. They are wearing a black shirt and black pants. They are moving their arms and legs in a rhythmic manner, and they are also moving their head and torso.
+
+Errors: The person is not following a specific dance routine, and their movements are not precise. They are also not following the rhythm of the music.
+
+Skill Level: Novice",Novice,False
+cbc710de-4393-470d-91bd-f6af9f09f7c4,uniandes_dance_022_7,Novice,"Observations: The person is dancing in a studio with a backdrop that says ""1Lè"". They are wearing a black shirt, blue jeans, and sneakers. They are moving their arms and legs in a rhythmic manner, stepping side to side and raising their arms above their head.
+
+Errors: The person's movements are not very fluid or precise. Their steps are uneven and their arms do not move in a smooth, flowing manner. It appears that they are still learning the dance routine.
+
+Skill Level: Novice",Novice,True,"Observations: A man is dancing in a room with a black curtain. He is wearing a blue shirt and black pants. There is a tripod in front of him. The camera is facing the man.
+
+Errors: The man is not moving his arms or legs in a coordinated manner. His movements are not fluid and he appears to be struggling to keep his balance.
+
+Skill Level: Novice",Novice,True
+24437400-1478-4239-8f4d-788d88568a9e,uniandes_dance_021_23,Intermediate Expert,"Observations: The man is dancing in a studio with a black curtain in the background. He is wearing a black shirt and black pants. He is moving his arms and legs in a fluid motion, and he appears to be enjoying himself.
+
+Errors: There are no apparent errors in the man's movement. He is dancing in a controlled and graceful manner.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with a camera on a tripod. There are two people sitting on chairs in the background, watching the dancer. The dancer is wearing a black shirt and jeans. The dancer is moving their arms and legs in a rhythmic manner.
+
+Errors: The dancer's movements are not very fluid. They seem to be struggling to keep up with the rhythm of the music.
+
+Skill Level: Novice",Novice,False
+d351ce4f-6cd3-45f3-8514-77c1eb3adffa,uniandes_dance_011_16,Intermediate Expert,"Observations: The person is dancing in a studio with a white floor and red walls. They are wearing a blue shirt and jeans. They are moving their arms and legs in a rhythmic manner, stepping side to side and swaying their hips.
+
+Errors: The person's movements are not perfectly synchronized with the music. They occasionally take small steps instead of larger, fluid movements. Their arms are not always in sync with their legs.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The man X walks around the room.
+
+Errors: N/A
+
+Skill Level: Novice",Novice,False
+ee8eed89-5348-4a6a-8eb3-f9fc80fad1ea,uniandes_dance_019_18,Intermediate Expert,"Observations: The person is dancing in a studio with a backdrop that says ""Le Danseur."" They are wearing a black outfit and appear to be practicing a dance routine. Their movements are fluid and graceful, suggesting they have some experience with dance.
+
+Errors: There are no significant errors in the person's movements. However, it is difficult to determine if they are performing a specific dance style without more context.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with black curtains. They are wearing a white shirt and blue jeans. They are moving their arms and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid, and they seem to be struggling with some steps. Their posture is not very good, and they are not using their full range of motion.
+
+Skill Level: Novice",Novice,False
+1e5e4324-4624-468a-9ec0-679f4be6da72,uniandes_dance_017_36,Early Expert,"Observations: The woman is dancing in a studio with a black backdrop. She is wearing a black outfit and sunglasses. She is moving her arms and legs in a rhythmic manner, stepping side to side and raising her arms above her head.
+
+Errors: The woman's movements appear to be somewhat stiff and lack fluidity. Her steps are not perfectly aligned, and she seems to be struggling to maintain a consistent rhythm.
+
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in front of a camera. They are wearing a red shirt and black pants. They are moving their arms and legs in a rhythmic fashion.
+
+Errors: The person's movements are not very fluid. They seem to be struggling with the dance moves.
+
+Skill Level: Novice",Novice,False
+96f28cc0-fa8c-4502-afff-092aee3a875b,uniandes_dance_012_22,Intermediate Expert,"Observations: The woman is dancing in a studio with a white floor and red walls. She is wearing a black tank top and black pants. She is moving her arms and legs in a fluid motion, and she appears to be practicing a dance routine.
+
+Errors: There are no apparent errors in the woman's movement. She is dancing smoothly and gracefully.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The man X dances in the room.
+
+Errors: N/A
+
+Skill Level: Novice",Novice,False
+a49424bb-676f-471c-8152-6a0b1b5bb6e6,uniandes_dance_012_29,Late Expert,"Observations: The man is dancing in a room with a white floor and a window in the background. He is wearing sunglasses and a gray shirt. He is moving his arms and legs in a rhythmic manner, and he appears to be enjoying himself.
+
+Errors: There are no apparent errors in the man's movement. He seems to be dancing with confidence and grace.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The man D dances in the room.
+
+Errors: N/A
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+09d78f26-514a-43c2-a55e-d9b17d5e1a32,upenn_0706_Dance_1_7,Early Expert,"Observations: The woman is dancing in a room with wooden floors and white walls. She is wearing a sleeveless top and shorts, and she has her hair pulled back. She is moving her arms and legs in a fluid motion, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in the woman's movement. She is dancing with grace and confidence.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with tables and chairs. They are wearing a white shirt and black pants. They are moving their arms and legs in a fluid motion.
+
+Errors: The person is not following a specific dance routine, but rather improvising their movements. This could be seen as a positive trait for a novice dancer, as it shows creativity and confidence.
+
+Skill Level: Novice",Novice,False
+989d5e04-bb58-4db9-9d58-9639adc4cd43,upenn_0730_Dance_1_4,Intermediate Expert,"Observations: The person is standing with his feet apart, facing forward. He is moving his arms in a circular motion, bringing them up to his chest and then out to the sides. He is also stepping side to side, keeping his weight balanced on his feet.
+
+Errors: The person's movements are not very fluid or precise. His steps are uneven and his arms do not move in a smooth, continuous motion.
+
+Skill Level: Novice",Novice,False,"Observations: A man is standing in front of a whiteboard. He is writing on the whiteboard with a marker. There is a projector on the wall above the whiteboard. There are several chairs and tables in the room. The man is wearing a white shirt and blue shorts.
+
+Errors: The man is not dancing. He is writing on the whiteboard.
+
+Skill Level: Novice",Novice,False
+62d2aac8-8afb-4193-830f-8d156bedf232,upenn_0720_Dance_3_13,Early Expert,"Observations: The person is dancing in an open space with a grid pattern on the floor. They are wearing a purple shirt and black shorts. Their movements include stepping side to side, raising their arms, and turning their body.
+
+Errors: The person's movements appear to be somewhat stiff and lack fluidity. There are no significant errors in their technique, but they could improve by adding more dynamic and expressive movements.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a large room with a high ceiling. They are wearing a black shirt and black pants. They are moving their arms and legs in a fluid motion, and their feet are tapping on the floor. There is a camera on a tripod in the room.
+
+Errors: The person is not following a specific routine or pattern in their dance moves. They are simply moving their arms and legs in a fluid motion, which could be seen as a lack of precision.
+
+Skill Level: Novice",Novice,False
+f6890d9d-d0c3-43c8-9400-6cff7cc17801,uniandes_dance_007_4,Intermediate Expert,"Observations: The woman is dancing in a studio with a man filming her. She is wearing a black shirt and black pants, and she is wearing red shoes. She is moving her arms and legs in a rhythmic manner.
+
+Errors: There are no apparent errors in her movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with a black curtain in the background. They are wearing a black shirt and black pants, and they have a watch on their left wrist. They are moving their arms and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid, and there are some awkward steps that could be improved upon. Their footwork is also not very precise, and they seem to be struggling with maintaining balance.
+
+Skill Level: Novice",Novice,False
+f60ab291-aa57-4e41-bbbe-e9ab817f3246,uniandes_dance_012_33,Late Expert,"Observations: The man is dancing in a room with a white floor and a window in the background. He is wearing a black shirt and black pants. He is moving his arms and legs in a rhythmic manner, and he appears to be enjoying himself.
+
+Errors: There are no apparent errors in the man's movement. He is dancing in a fluid and graceful manner.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,Observations: The man X sits on the chair with his legs crossed. A man Y sits on the chair with his legs crossed. A man Z sits on the chair with his legs crossed. A man W sits on the chair with his legs crossed. A man V sits on the chair with his legs crossed. A man U sits on the chair with his legs crossed. A man T sits on the chair with his legs crossed. A man S sits on the chair with his legs crossed. A man R sits on the chair with his legs crossed. A man Q sits on the chair with his legs crossed. A man P sits on the chair with his legs crossed. A man O sits on the chair with his legs crossed. A man N sits on the chair with his legs crossed. A man M sits on the chair with his legs crossed. A man L sits on the chair with his legs crossed. A man K sits on the chair with his legs crossed. A man J sits on the chair with his legs crossed. A man I sits on the chair with his legs crossed. A man H sits on the chair with his legs crossed. A man G sits on the chair with his legs crossed. A man F sits on the chair with his legs crossed. A man E sits on the chair with his legs crossed. A man D sits on the chair with his legs crossed. A man C sits on the chair with his legs crossed. A man B sits on the chair with his,Unknown,False
+49bb4a74-17a2-4375-9073-2beb29c76137,upenn_0706_Dance_2_2,Intermediate Expert,"Observations: The woman is dancing in a room with wooden floors and white walls. She is wearing a yellow top and black skirt. She is moving her arms and legs in a rhythmic manner, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in the woman's movement. She is dancing in a fluid and graceful manner.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The man X is standing on the floor. The man Y is standing on the floor. The man Z is standing on the floor. The man X is holding a remote control in his hands. The man Y is holding a camera in his hands. The man Z is holding a camera in his hands.
+
+Errors: The man X is not moving. The man Y is not moving. The man Z is not moving.
+
+Skill Level: Novice",Novice,False
+479f94a8-acb9-4157-b6bd-4f2a2a6cf3c9,uniandes_dance_020_61,Early Expert,"Observations: The woman is dancing in a studio with a black backdrop. She is wearing a black shirt and black pants. She is moving her arms and legs in a fluid motion, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in her movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a wooden floor and black curtains. They are wearing a black shirt and have blue nail polish on their fingers. They are moving their arms and legs in a rhythmic manner, and their feet are tapping the floor.
+
+Errors: The person's movements are not very fluid, and they seem to be struggling with maintaining a consistent rhythm. Their steps are uneven, and they appear to be hesitating at times.
+
+Skill Level: Novice",Novice,False
+dd258fcf-873f-4fcd-b2d3-04525159b68a,uniandes_dance_022_5,Novice,"Observations: The person is dancing in a studio with a backdrop that says ""1Lè"". They are wearing sunglasses and a black shirt. They are moving their arms and legs in a rhythmic manner, stepping side to side and swaying their hips.
+
+Errors: The person's movements are not very fluid or precise. Their steps are uneven and they appear to be struggling to maintain a consistent rhythm.
+
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with black curtains. They are wearing a black shirt and black pants. They are moving their arms and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid, and they seem to be struggling with some steps. Their posture is not very good, and they are not using their full range of motion.
+
+Skill Level: Novice",Novice,True
+603787e2-be4b-4b24-9632-34921013623f,uniandes_dance_021_17,Intermediate Expert,"Observations: The person is dancing in a studio with a backdrop. They are wearing a black shirt and black pants. Their movements include stepping side to side, raising their arms, and turning their head.
+
+Errors: The person's movements appear to be somewhat stiff and lack fluidity. Their steps are not perfectly aligned, and there are moments where they seem to hesitate or lose balance.
+
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a black curtain and a tripod. They are wearing a watch on their left wrist. There are two people standing behind them, one of whom is holding a camera.
+
+Errors: The person's movements are not very fluid or graceful. They appear to be struggling to maintain their balance and control over their movements.
+
+Skill Level: Novice",Novice,False
+fad811da-e457-4d2a-8cf4-c3a09c11a41a,uniandes_dance_019_15,Intermediate Expert,"Observations: The woman is dancing in a studio with a backdrop that says ""Le Design"". She is wearing a black outfit and sunglasses. She is moving her arms and legs in a fluid motion, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in her movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with a black curtain. They are wearing a black shirt and blue jeans. There are other people in the room, but they are not dancing.
+
+Errors: The person is not dancing correctly. They are not moving their arms and legs in a coordinated manner. Their movements are not fluid and they are not following a specific dance routine.
+
+Skill Level: Novice",Novice,False
+0eadf1dd-55c6-4cd1-8b2d-5b132fcb5016,uniandes_dance_022_27,Late Expert,"Observations: The woman is dancing in a studio with a backdrop that says ""Le Dance"". She is wearing a black tank top and black pants. She is moving her arms and legs in a fluid motion, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in her movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black curtain and a white floor. They are wearing a black shirt and black pants. They are moving their arms and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid, and they seem to be struggling with some steps. Their arms and legs do not move in perfect sync with the music.
+
+Skill Level: Novice",Novice,False
+9d950899-e619-4399-867c-70871cc0d679,uniandes_dance_024_4,Novice,"Observations: The man X dances in the studio.
+
+Errors: N/A
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains and a white floor. They are wearing a pink dress and are moving their arms and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid, and they seem to be struggling with maintaining a consistent rhythm.
+
+Skill Level: Novice",Novice,True
+7e4d7d4f-abfb-4e89-87e0-7f86e27ada86,uniandes_dance_008_44,Intermediate Expert,"Observations: The person is dancing in a studio with a white floor and orange walls. They are wearing a white shirt and black pants. They are moving their arms and legs in a fluid motion, and their feet are moving in a rhythmic pattern.
+
+Errors: There are no apparent errors in the person's movement. They appear to be dancing with good form and technique.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is dancing in a room with a black curtain in the background. They are wearing a white shirt and black pants. Their arms are moving in a circular motion, and they are stepping side to side.
+
+Errors: The person's movements are not very fluid, and there are some awkward steps. They also seem to be struggling to maintain balance at times.
+
+Skill Level: Novice",Novice,False
+d5d3590f-44e7-4305-b612-ff055b0e688a,uniandes_dance_024_2,Novice,"Observations: The man X dances in the studio.
+
+Errors: None.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The man D dances in the room. The man B dances in the room. The man A dances in the room. The man F dances in the room. The man E dances in the room. The man G dances in the room. The man H dances in the room.
+
+Errors: The man D steps on the floor with his right leg. The man B steps on the floor with his left leg. The man A steps on the floor with his right leg. The man F steps on the floor with his left leg. The man E steps on the floor with his right leg. The man G steps on the floor with his left leg. The man H steps on the floor with his right leg.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+cd81519b-13c1-437e-b357-8ec99ae9c757,uniandes_dance_011_33,Late Expert,"Observations: The man is dancing in a studio with a white floor and a red wall. He is wearing a blue shirt and gray pants. He is moving his arms and legs in a rhythmic manner, and he appears to be enjoying himself.
+
+Errors: There are no apparent errors in the man's movement. He is dancing in a fluid and graceful manner.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The man X dances in the room.
+
+Errors: N/A
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+adad25b8-0920-4181-9bd4-1f8207e85d82,uniandes_dance_019_49,Late Expert,"Observations: The woman is performing a dance routine with fluid movements, including arm gestures and leg steps. She appears to be practicing in a studio setting with a backdrop and lighting equipment visible.
+
+Errors: The woman's movements seem to lack precision and control at times, particularly in her arm gestures and footwork. Her posture also appears slightly stiff, which may indicate a lack of familiarity with the dance style or a need for more practice.
+
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a black curtain and a tripod. There are people standing around the room, watching the dancer. The dancer is wearing a red shirt and black pants.
+
+Errors: The dancer is moving her arms and legs in a rhythmic manner, but she is not following a specific dance routine. Her movements are not precise and she is not performing any complex dance steps.
+
+Skill Level: Novice",Novice,False
+dfb66cb4-6235-4f55-b361-934586fbcaaa,uniandes_dance_022_10,Novice,"Observations: The person is dancing in a studio with a backdrop that says ""Le"". They are wearing a black top, blue jeans, and sneakers. They are moving their arms and legs in a rhythmic manner, stepping side to side and swaying their hips.
+
+Errors: The person's movements are not perfectly synchronized with the music, and they occasionally lose their balance and stumble slightly. Their footwork could be more precise, and they could work on maintaining a steady rhythm throughout the dance.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black curtain and a white floor. They are wearing a black shirt and blue jeans. They are moving their arms and legs in a rhythmic manner.
+
+Errors: The person's movements are not very precise, and they seem to be struggling with some steps. Their footwork is not very smooth, and they are not able to maintain a consistent rhythm.
+
+Skill Level: Novice",Novice,True
+35a3c4e1-f420-4242-bcab-4d208dc9a391,upenn_0706_Dance_2_5,Intermediate Expert,"Observations: The woman is dancing in a room with wooden floors and white walls. She is wearing a yellow top and black skirt. Her arms are outstretched, and she is moving her feet in a rhythmic manner.
+
+Errors: The woman's movements appear to be somewhat stiff and lack fluidity. Her steps seem to be uneven, and there is a lack of coordination between her arms and legs.
+
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a wooden floor, a table, chairs, and a chandelier. They are wearing a white shirt and black pants. Their movements are fluid and graceful.
+
+Errors: There are no visible errors in the person's movements.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+4d159481-830d-4789-b0ff-368031a98757,uniandes_dance_015_18,Late Expert,"Observations: The woman is dancing in a studio with a white floor and a red wall. She is wearing a black outfit and has her hair tied back. She is moving her arms and legs in a rhythmic manner, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in the woman's movement. She is dancing in a fluid and graceful manner.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with black curtains. They are wearing a black shirt and black pants. They are moving their arms and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid, and they seem to be struggling with some steps. Their arms and legs do not move in perfect sync with each other.
+
+Skill Level: Novice",Novice,False
+28c3553f-3212-43ee-a050-7ea2d49fdf0e,uniandes_dance_017_58,Novice,"Observations: The woman is dancing in a studio with a black backdrop that has white text on it. She is wearing a black tank top and black leggings. She is moving her arms and legs in a fluid motion, and she appears to be practicing a dance routine.
+
+Errors: There are no apparent errors in the woman's movement. She is performing the dance routine with precision and grace.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black curtain. They are wearing a watch on their left wrist. There are other people in the background, some of whom are also dancing.
+
+Errors: The person's movements appear to be somewhat stiff and uncoordinated. Their arms and legs do not move fluidly, and they seem to be struggling to maintain rhythm.
+
+Skill Level: Novice",Novice,True
+02d13286-0b54-46e8-8461-9c056627a97d,upenn_0720_Dance_3_3,Early Expert,"Observations: The person is dancing in a spacious room with a high ceiling, wearing a black shirt and shorts. They are moving their arms and legs rhythmically to the music, stepping side to side and raising their arms above their head at times.
+
+Errors: The person's movements appear to be somewhat stiff and lack fluidity. Their steps are not perfectly aligned with the beat of the music, and they seem to be struggling to maintain a consistent rhythm.
+
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a large room with a high ceiling and a wooden floor. They are wearing a black outfit and are moving their arms and legs in a fluid motion. The camera is positioned at a low angle, capturing the dancer from the front.
+
+Errors: The dancer's movements are not perfectly synchronized, and there are some moments where they appear to be hesitating or struggling to maintain their rhythm. Additionally, the dancer's posture is not always upright, which could indicate a lack of confidence or experience.
+
+Skill Level: Novice",Novice,False
+e5488136-6259-4050-bc34-4717cc15dd1a,uniandes_dance_020_11,Early Expert,"Observations: The woman is dancing in a studio with a backdrop that says ""Le Design"". She is wearing a black tank top and gray leggings. She is moving her arms and legs in a fluid motion, and she appears to be enjoying herself.
+
+Errors: There are no apparent errors in her movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black curtain in the background. They are wearing a bracelet on their left wrist. Their right hand is raised in the air, and they are moving their arms and legs in a rhythmic manner.
+
+Errors: The person's movements appear to be somewhat stiff and uncoordinated. They may benefit from practicing more to improve their fluidity and precision.
+
+Skill Level: Novice",Novice,False
+824f472b-db42-4d38-99ed-2750bc14817e,upenn_0629_Dance_3_4,Early Expert,"Observations: The person is dancing in a room with a wooden floor, wearing a plaid shirt and jeans. They are moving their arms and legs in a rhythmic manner, stepping side to side and swaying their hips.
+
+Errors: The person's movements appear to be somewhat stiff and lack fluidity. Their steps are not perfectly aligned with the rhythm, and there are moments where they seem to hesitate or lose their balance.
+
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a wooden floor, a table, a chair, and some equipment on the floor. They are wearing a plaid shirt and black shoes. They are moving their arms and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid or precise. They appear to be struggling with the dance steps and may be lacking in experience.
+
+Skill Level: Novice",Novice,False
+215abe5f-a97f-4ee6-87bd-d261e75f1701,uniandes_dance_022_6,Novice,"Observations: The man is dancing in a studio with a backdrop that says ""Le Design"". He is wearing a black shirt, blue jeans, and glasses. He is standing on a white floor with a few small objects scattered around. There is another person sitting on a chair to the right of the man, holding a camera.
+
+Errors: The man's movements are not very fluid or graceful. He seems to be struggling with his dance moves and appears to be making some mistakes. His posture is not very good either, as he is leaning forward and not standing straight.
+
+Skill Level: Novice",Novice,True,"Observations: The person is dancing in a room with a black curtain in the background. They are wearing a blue shirt and black pants. They are moving their arms and legs in a rhythmic manner, and their feet are tapping on the floor.
+
+Errors: The person's movements are not very fluid, and they seem to be struggling with maintaining a consistent rhythm. Their steps are uneven, and they appear to be hesitating at times.
+
+Skill Level: Novice",Novice,True
+657b877d-3cdb-4798-a9bf-101ab82cc95b,uniandes_dance_020_18,Novice,"Observations: The person is dancing in a studio with a backdrop that says ""Le Design"". They are wearing a red jacket, black pants, and sunglasses. They are moving their arms and legs in a rhythmic manner, stepping side to side and swaying their hips.
+
+Errors: The person's movements are not very fluid or precise. Their steps are uneven and they seem to be struggling to maintain a consistent rhythm. Their arm movements are also not very smooth and appear to be more of a flailing motion rather than a graceful dance move.
+
+Skill Level: Novice",Novice,True,"Observations: A woman is dancing in a room with a black curtain. She is wearing a black shirt and blue jeans. There is a man standing behind her, holding a camera. The woman is moving her arms and legs in a rhythmic motion.
+
+Errors: The woman's movements are not very fluid. Her steps are not precise and she seems to be struggling to keep up with the music.
+
+Skill Level: Novice",Novice,True
+3a2303bf-8d6f-4211-8c25-4430cd051e2d,uniandes_dance_012_14,Intermediate Expert,"Observations: The woman is dancing in a studio with a white floor and a large mirror on the wall. She is wearing a black tank top and black pants. She is moving her arms and legs in a rhythmic manner, stepping side to side and swaying her hips. She appears to be practicing a dance routine.
+
+Errors: The woman's movements are not perfectly synchronized with the music. Her steps are not always even, and she occasionally stumbles or loses her balance. Her arm movements are also not always fluid, and she sometimes hesitates before continuing.
+
+Skill Level: Novice",Novice,False,"Observations: The person is dancing in a room with a black curtain. They are wearing a white shirt and black pants. They are moving their arms and legs in a rhythmic manner.
+
+Errors: The person is not following a specific dance routine, but rather improvising their movements to the music.
+
+Skill Level: Novice",Novice,False
+590c85d3-71c1-4896-9899-a843ccaa6ef2,uniandes_dance_023_56,Early Expert,"Observations: The man is dancing in a studio with a backdrop that says ""Le Sport."" He is wearing a black shirt and black pants. He is moving his arms and legs in a rhythmic manner, and he appears to be enjoying himself.
+
+Errors: There are no apparent errors in the man's movement. He is dancing in a fluid and graceful manner.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is dancing in a room with a black curtain. They are wearing a white shirt and black pants. They are moving their arms and legs in a rhythmic manner.
+
+Errors: The person's movements are not very fluid, and they seem to be struggling with some steps. Their posture is not very good, and they are not using their full range of motion.
+
+Skill Level: Novice",Novice,False

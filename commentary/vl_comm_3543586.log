@@ -1,0 +1,453 @@
+Mon Jul 13 22:16:08 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H200                    On  |   00000000:BB:00.0 Off |                   On |
+| N/A   23C    P0             78W /  700W |     102MiB / 143771MiB |     N/A      Default |
+|                                         |                        |              Enabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| MIG devices:                                                                            |
++------------------+----------------------------------+-----------+-----------------------+
+| GPU  GI  CI  MIG |              Shared Memory-Usage |        Vol|        Shared         |
+|      ID  ID  Dev |                Shared BAR1-Usage | SM     Unc| CE ENC  DEC  OFA  JPG |
+|                  |                                  |        ECC|                       |
+|==================+==================================+===========+=======================|
+|  0    8   0   0  |              15MiB / 16384MiB    | 16      0 |  1   0    1    0    1 |
+|                  |               0MiB / 14809MiB    |           |                       |
++------------------+----------------------------------+-----------+-----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading Video-LLaVA ...
+Loading weights:   0%|          | 0/1077 [00:00<?, ?it/s]Loading weights:  19%|█▊        | 201/1077 [00:00<00:00, 1956.51it/s]Loading weights:  37%|███▋      | 397/1077 [00:00<00:01, 613.66it/s] Loading weights:  47%|████▋     | 502/1077 [00:02<00:03, 149.50it/s]Loading weights:  52%|█████▏    | 562/1077 [00:03<00:04, 108.77it/s]Loading weights:  56%|█████▌    | 601/1077 [00:04<00:05, 94.89it/s] Loading weights:  58%|█████▊    | 628/1077 [00:04<00:05, 85.50it/s]Loading weights:  60%|██████    | 648/1077 [00:05<00:05, 76.44it/s]Loading weights:  62%|██████▏   | 663/1077 [00:05<00:05, 76.12it/s]Loading weights:  63%|██████▎   | 676/1077 [00:05<00:05, 69.30it/s]Loading weights:  76%|███████▌  | 817/1077 [00:05<00:01, 187.57it/s]Loading weights:  96%|█████████▌| 1031/1077 [00:05<00:00, 405.83it/s]Loading weights: 100%|██████████| 1077/1077 [00:06<00:00, 179.23it/s]
+[transformers] Requested torchvision backend is not available. Falling back to pil backend.
+Model loaded.
+
+Clips (all levels): 100
+Prompt: Read this entire commentary carefully. Based ONLY on what the commentary says, what is this climber's skill level? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert
+
+[1/100] uniandes_bouldering_036_71 (GT=Late Expert)
+  Predicted: Intermediate Expert X
+  Answer: Intermediate Expert
+
+[2/100] uniandes_bouldering_037_46 (GT=Intermediate Expert)
+  Predicted: Intermediate Expert OK
+  Answer: Intermediate Expert
+
+[3/100] uniandes_bouldering_035_19 (GT=Early Expert)
+  Predicted: Unknown X
+  Answer: Based on the commentary, the climber is described as being able to establish on 
+
+[4/100] uniandes_bouldering_032_46 (GT=Intermediate Expert)
+  Predicted: Novice X
+  Answer: Novice
+
+[5/100] uniandes_bouldering_032_63 (GT=Intermediate Expert)
+  Predicted: Novice X
+  Answer: Novice
+
+[6/100] uniandes_bouldering_029_76 (GT=Early Expert)
+  Predicted: Novice X
+  Answer: Novice
+
+[7/100] uniandes_bouldering_032_59 (GT=Intermediate Expert)
+  Predicted: Novice X
+  Answer: Novice
+
+[8/100] uniandes_bouldering_035_62 (GT=Early Expert)
+  Predicted: Intermediate Expert X
+  Answer: Based on the commentary, it seems that the climber is at an intermediate expert 
+
+[9/100] uniandes_bouldering_035_23 (GT=Early Expert)
+  Predicted: Intermediate Expert X
+  Answer: Based on the commentary, the climber appears to be at an intermediate expert ski
+
+[10/100] uniandes_bouldering_028_42 (GT=Novice)
+  Predicted: Intermediate Expert X
+  Answer: Intermediate Expert
+
+[11/100] uniandes_bouldering_027_30 (GT=Novice)
+  Predicted: Novice OK
+  Answer: Novice
+
+[12/100] uniandes_bouldering_032_44 (GT=Intermediate Expert)
+  Predicted: Intermediate Expert OK
+  Answer: Based on the commentary, the climber appears to be at an intermediate expert ski
+
+[13/100] uniandes_bouldering_027_92 (GT=Intermediate Expert)
+  Predicted: Intermediate Expert OK
+  Answer: Based on the commentary, it seems that the climber is at an intermediate expert 
+
+[14/100] uniandes_bouldering_033_6 (GT=Intermediate Expert)
+  Predicted: Intermediate Expert OK
+  Answer: Intermediate Expert
+
+[15/100] uniandes_bouldering_035_36 (GT=Early Expert)
+  Predicted: Intermediate Expert X
+  Answer: Intermediate Expert
+
+[16/100] uniandes_bouldering_027_50 (GT=Novice)
+  Predicted: Intermediate Expert X
+  Answer: Based on the commentary, it seems that the climber is at an intermediate expert 
+
+[17/100] uniandes_bouldering_027_49 (GT=Novice)
+  Predicted: Novice OK
+  Answer: Novice
+
+[18/100] uniandes_bouldering_037_32 (GT=Late Expert)
+  Predicted: Unknown X
+  Answer: Based on the commentary, it seems that the climber is at an intermediate skill l
+
+[19/100] uniandes_bouldering_028_11 (GT=Novice)
+  Predicted: Novice OK
+  Answer: Novice
+
+[20/100] uniandes_bouldering_027_26 (GT=Novice)
+  Predicted: Novice OK
+  Answer: Novice
+
+[21/100] uniandes_bouldering_029_87 (GT=Novice)
+  Predicted: Unknown X
+  Answer: Based on the commentary, it seems that the climber is at an intermediate skill l
+
+[22/100] uniandes_bouldering_037_20 (GT=Late Expert)
+  Predicted: Intermediate Expert X
+  Answer: Based on the commentary, the climber appears to be at an intermediate expert ski
+
+[23/100] uniandes_bouldering_027_84 (GT=Novice)
+  Predicted: Novice OK
+  Answer: Novice
+
+[24/100] uniandes_bouldering_031_68 (GT=Late Expert)
+  Predicted: Unknown X
+  Answer: Based on the commentary, it seems that the climber is at an intermediate skill l
+
+[25/100] uniandes_bouldering_029_9 (GT=Early Expert)
+  Predicted: Novice X
+  Answer: Novice
+
+[26/100] uniandes_bouldering_027_29 (GT=Novice)
+  Predicted: Novice OK
+  Answer: Novice
+
+[27/100] uniandes_bouldering_036_27 (GT=Intermediate Expert)
+  Predicted: Novice X
+  Answer: Novice
+
+[28/100] uniandes_bouldering_027_18 (GT=Early Expert)
+  Predicted: Unknown X
+  Answer: Based on the commentary, it is difficult to determine the climber's exact skill 
+
+[29/100] uniandes_bouldering_027_108 (GT=Early Expert)
+  Predicted: Intermediate Expert X
+  Answer: Based on the commentary, it seems that the climber is at an intermediate expert 
+
+[30/100] uniandes_bouldering_029_66 (GT=Intermediate Expert)
+  Predicted: Unknown X
+  Answer: Based on the commentary, it seems that the climber is at an intermediate skill l
+
+[31/100] uniandes_bouldering_036_62 (GT=Intermediate Expert)
+  Predicted: Novice X
+  Answer: Novice
+
+[32/100] uniandes_bouldering_034_34 (GT=Early Expert)
+  Predicted: Novice X
+  Answer: Novice
+
+[33/100] uniandes_bouldering_028_48 (GT=Intermediate Expert)
+  Predicted: Intermediate Expert OK
+  Answer: Intermediate Expert
+
+[34/100] uniandes_bouldering_037_30 (GT=Intermediate Expert)
+  Predicted: Intermediate Expert OK
+  Answer: Intermediate Expert
+
+[35/100] uniandes_bouldering_034_62 (GT=Early Expert)
+  Predicted: Novice X
+  Answer: Novice
+
+[36/100] uniandes_bouldering_037_54 (GT=Late Expert)
+  Predicted: Intermediate Expert X
+  Answer: Intermediate Expert
+
+[37/100] uniandes_bouldering_031_47 (GT=Late Expert)
+  Predicted: Intermediate Expert X
+  Answer: Based on the commentary, the climber appears to be at an intermediate expert ski
+
+[38/100] uniandes_bouldering_032_53 (GT=Intermediate Expert)
+  Predicted: Intermediate Expert OK
+  Answer: Intermediate Expert
+
+[39/100] uniandes_bouldering_029_89 (GT=Novice)
+  Predicted: Novice OK
+  Answer: Novice
+
+[40/100] uniandes_bouldering_036_39 (GT=Late Expert)
+  Predicted: Unknown X
+  Answer: Based on the commentary, it seems that the climber is at an intermediate skill l
+
+[41/100] uniandes_bouldering_029_5 (GT=Intermediate Expert)
+  Predicted: Unknown X
+  Answer: Based on the commentary, the climber appears to be at an intermediate skill leve
+
+[42/100] uniandes_bouldering_027_31 (GT=Novice)
+  Predicted: Novice OK
+  Answer: Novice
+
+[43/100] uniandes_bouldering_030_8 (GT=Late Expert)
+  Predicted: Unknown X
+  Answer: Based on the commentary, the climber is described as being one move into the bou
+
+[44/100] uniandes_bouldering_029_72 (GT=Early Expert)
+  Predicted: Unknown X
+  Answer: Based on the commentary, the climber appears to be at an intermediate skill leve
+
+[45/100] uniandes_bouldering_027_114 (GT=Novice)
+  Predicted: Novice OK
+  Answer: Novice
+
+[46/100] uniandes_bouldering_035_30 (GT=Early Expert)
+  Predicted: Intermediate Expert X
+  Answer: Intermediate Expert
+
+[47/100] uniandes_bouldering_037_39 (GT=Late Expert)
+  Predicted: Novice X
+  Answer: Novice
+
+[48/100] uniandes_bouldering_037_16 (GT=Late Expert)
+  Predicted: Intermediate Expert X
+  Answer: Intermediate Expert
+
+[49/100] uniandes_bouldering_037_29 (GT=Intermediate Expert)
+  Predicted: Intermediate Expert OK
+  Answer: Intermediate Expert
+
+[50/100] uniandes_bouldering_037_51 (GT=Late Expert)
+  Predicted: Unknown X
+  Answer: Based on the commentary, the climber is described as a "bouldering climber" and 
+
+[51/100] uniandes_bouldering_036_73 (GT=Late Expert)
+  Predicted: Unknown X
+  Answer: Based on the commentary, the climber is described as attempting a difficult move
+
+[52/100] uniandes_bouldering_037_36 (GT=Late Expert)
+  Predicted: Intermediate Expert X
+  Answer: Intermediate Expert
+
+[53/100] uniandes_bouldering_029_90 (GT=Novice)
+  Predicted: Unknown X
+  Answer: Based on the commentary, the climber appears to be at an intermediate skill leve
+
+[54/100] uniandes_bouldering_035_68 (GT=Early Expert)
+  Predicted: Intermediate Expert X
+  Answer: Based on the commentary, it seems that the climber is at an intermediate expert 
+
+[55/100] uniandes_bouldering_027_61 (GT=Novice)
+  Predicted: Novice OK
+  Answer: Novice
+
+[56/100] uniandes_bouldering_036_8 (GT=Late Expert)
+  Predicted: Unknown X
+  Answer: Based on the commentary, the climber is described as a "bouldering climber" and 
+
+[57/100] uniandes_bouldering_036_42 (GT=Late Expert)
+  Predicted: Unknown X
+  Answer: Based on the commentary, it seems that the climber is still in the early stages 
+
+[58/100] uniandes_bouldering_027_53 (GT=Novice)
+  Predicted: Novice OK
+  Answer: Novice
+
+[59/100] uniandes_bouldering_037_10 (GT=Intermediate Expert)
+  Predicted: Intermediate Expert OK
+  Answer: Based on the commentary, the climber appears to be at an intermediate expert ski
+
+[60/100] uniandes_bouldering_027_35 (GT=Novice)
+  Predicted: Novice OK
+  Answer: Novice
+
+[61/100] uniandes_bouldering_037_38 (GT=Late Expert)
+  Predicted: Intermediate Expert X
+  Answer: Intermediate Expert
+
+[62/100] uniandes_bouldering_035_50 (GT=Early Expert)
+  Predicted: Intermediate Expert X
+  Answer: Based on the commentary, the climber appears to be at an intermediate expert ski
+
+[63/100] uniandes_bouldering_032_32 (GT=Late Expert)
+  Predicted: Late Expert OK
+  Answer: Based on the commentary, the climber is described as having "a lot of experience
+
+[64/100] uniandes_bouldering_027_82 (GT=Novice)
+  Predicted: Novice OK
+  Answer: Novice
+
+[65/100] uniandes_bouldering_036_35 (GT=Late Expert)
+  Predicted: Novice X
+  Answer: Novice
+
+[66/100] uniandes_bouldering_036_12 (GT=Intermediate Expert)
+  Predicted: Intermediate Expert OK
+  Answer: Intermediate Expert
+
+[67/100] uniandes_bouldering_037_43 (GT=Intermediate Expert)
+  Predicted: Novice X
+  Answer: Novice
+
+[68/100] uniandes_bouldering_036_37 (GT=Late Expert)
+  Predicted: Intermediate Expert X
+  Answer: Intermediate Expert
+
+[69/100] uniandes_bouldering_028_29 (GT=Novice)
+  Predicted: Unknown X
+  Answer: Based on the commentary, it seems that the climber is at an intermediate skill l
+
+[70/100] uniandes_bouldering_035_42 (GT=Early Expert)
+  Predicted: Novice X
+  Answer: Novice
+
+[71/100] uniandes_bouldering_027_117 (GT=Novice)
+  Predicted: Novice OK
+  Answer: Novice
+
+[72/100] uniandes_bouldering_033_57 (GT=Intermediate Expert)
+  Predicted: Intermediate Expert OK
+  Answer: Based on the commentary, the climber appears to be at an intermediate expert ski
+
+[73/100] uniandes_bouldering_027_80 (GT=Novice)
+  Predicted: Unknown X
+  Answer: Based on the commentary, it seems that the climber is at an intermediate skill l
+
+[74/100] uniandes_bouldering_037_48 (GT=Late Expert)
+  Predicted: Unknown X
+  Answer: Based on the commentary, the climber appears to be at an intermediate skill leve
+
+[75/100] uniandes_bouldering_029_32 (GT=Intermediate Expert)
+  Predicted: Unknown X
+  Answer: Based on the commentary, the climber appears to be at an intermediate skill leve
+
+[76/100] uniandes_bouldering_035_90 (GT=Early Expert)
+  Predicted: Novice X
+  Answer: Novice
+
+[77/100] uniandes_bouldering_034_17 (GT=Early Expert)
+  Predicted: Novice X
+  Answer: Novice
+
+[78/100] uniandes_bouldering_035_40 (GT=Early Expert)
+  Predicted: Intermediate Expert X
+  Answer: Intermediate Expert
+
+[79/100] uniandes_bouldering_034_31 (GT=Early Expert)
+  Predicted: Intermediate Expert X
+  Answer: Based on the commentary, the climber appears to be at an intermediate expert ski
+
+[80/100] uniandes_bouldering_032_57 (GT=Intermediate Expert)
+  Predicted: Novice X
+  Answer: Novice
+
+[81/100] uniandes_bouldering_029_10 (GT=Early Expert)
+  Predicted: Intermediate Expert X
+  Answer: Based on the commentary, it seems that the climber is at an intermediate expert 
+
+[82/100] uniandes_bouldering_032_2 (GT=Late Expert)
+  Predicted: Unknown X
+  Answer: Based on the commentary, the climber is described as being one move in on the bo
+
+[83/100] uniandes_bouldering_035_38 (GT=Early Expert)
+  Predicted: Unknown X
+  Answer: Based on the commentary, it seems that the climber is at an intermediate skill l
+
+[84/100] uniandes_bouldering_027_118 (GT=Novice)
+  Predicted: Novice OK
+  Answer: Novice
+
+[85/100] uniandes_bouldering_027_81 (GT=Novice)
+  Predicted: Unknown X
+  Answer: Based on the commentary, the climber is described as a "bouldering climber" and 
+
+[86/100] uniandes_bouldering_029_93 (GT=Early Expert)
+  Predicted: Novice X
+  Answer: Novice
+
+[87/100] uniandes_bouldering_031_69 (GT=Late Expert)
+  Predicted: Novice X
+  Answer: Novice
+
+[88/100] uniandes_bouldering_027_25 (GT=Novice)
+  Predicted: Unknown X
+  Answer: Based on the commentary, the climber is described as a "bouldering climber" and 
+
+[89/100] uniandes_bouldering_028_3 (GT=Intermediate Expert)
+  Predicted: Intermediate Expert OK
+  Answer: Intermediate Expert
+
+[90/100] uniandes_bouldering_029_88 (GT=Novice)
+  Predicted: Intermediate Expert X
+  Answer: Based on the commentary, it seems that the climber is at an intermediate expert 
+
+[91/100] uniandes_bouldering_028_12 (GT=Novice)
+  Predicted: Intermediate Expert X
+  Answer: Based on the commentary, the climber appears to be at an intermediate expert ski
+
+[92/100] uniandes_bouldering_028_22 (GT=Intermediate Expert)
+  Predicted: Intermediate Expert OK
+  Answer: Based on the commentary, it seems that the climber is at an intermediate expert 
+
+[93/100] uniandes_bouldering_036_45 (GT=Late Expert)
+  Predicted: Novice X
+  Answer: Novice
+
+[94/100] uniandes_bouldering_034_92 (GT=Early Expert)
+  Predicted: Intermediate Expert X
+  Answer: Based on the commentary, it seems that the climber is at an intermediate expert 
+
+[95/100] uniandes_bouldering_036_33 (GT=Late Expert)
+  Predicted: Intermediate Expert X
+  Answer: Intermediate Expert
+
+[96/100] uniandes_bouldering_036_15 (GT=Late Expert)
+  Predicted: Intermediate Expert X
+  Answer: Intermediate Expert
+
+[97/100] uniandes_bouldering_035_13 (GT=Early Expert)
+  Predicted: Unknown X
+  Answer: Based on the commentary, the climber appears to be at an intermediate skill leve
+
+[98/100] uniandes_bouldering_033_59 (GT=Intermediate Expert)
+  Predicted: Novice X
+  Answer: Novice
+
+[99/100] uniandes_bouldering_036_56 (GT=Intermediate Expert)
+  Predicted: Unknown X
+  Answer: Based on the commentary, it seems that the climber is at an intermediate skill l
+
+[100/100] uniandes_bouldering_034_29 (GT=Early Expert)
+  Predicted: Intermediate Expert X
+  Answer: Based on the commentary, the climber appears to be at an intermediate expert ski
+
+============================================================
+RESULTS — VideoLLaVA text-only 4-class (Novice included)
+============================================================
+Overall: 29/100 = 29.0%
+Random chance: 25%
+
+Per class:
+  Late Expert: 1/25 = 4.0%
+  Intermediate Expert: 13/25 = 52.0%
+  Early Expert: 0/25 = 0.0%
+  Novice: 15/25 = 60.0%
+
+Prediction distribution: {'Intermediate Expert': 39, 'Novice': 35, 'Unknown': 25, 'Late Expert': 1}
+============================================================

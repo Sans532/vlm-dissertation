@@ -1,0 +1,248 @@
+Mon Jul 13 15:37:49 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H200                    On  |   00000000:3B:00.0 Off |                   On |
+| N/A   30C    P0            131W /  700W |     767MiB / 143771MiB |     N/A      Default |
+|                                         |                        |              Enabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| MIG devices:                                                                            |
++------------------+----------------------------------+-----------+-----------------------+
+| GPU  GI  CI  MIG |              Shared Memory-Usage |        Vol|        Shared         |
+|      ID  ID  Dev |                Shared BAR1-Usage | SM     Unc| CE ENC  DEC  OFA  JPG |
+|                  |                                  |        ECC|                       |
+|==================+==================================+===========+=======================|
+|  0    1   0   0  |              44MiB / 71424MiB    | 60      0 |  3   0    3    0    3 |
+|                  |               0MiB / 59237MiB    |           |                       |
++------------------+----------------------------------+-----------+-----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading Qwen2.5-VL-7B ...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:58<11:48:26, 58.39s/it]Loading weights:   0%|          | 2/729 [00:59<5:00:03, 24.76s/it] Loading weights:   7%|▋         | 52/729 [01:02<07:03,  1.60it/s] Loading weights:   7%|▋         | 54/729 [01:06<08:03,  1.40it/s]Loading weights:   9%|▉         | 64/729 [01:14<08:02,  1.38it/s]Loading weights:   9%|▉         | 65/729 [01:15<08:06,  1.36it/s]Loading weights:   9%|▉         | 66/729 [01:16<08:23,  1.32it/s]Loading weights:  10%|█         | 76/729 [01:32<11:56,  1.10s/it]Loading weights:  11%|█         | 77/729 [01:32<11:19,  1.04s/it]Loading weights:  11%|█         | 78/729 [01:32<10:36,  1.02it/s]Loading weights:  12%|█▏        | 88/729 [01:38<08:07,  1.32it/s]Loading weights:  12%|█▏        | 89/729 [01:42<10:33,  1.01it/s]Loading weights:  12%|█▏        | 90/729 [01:42<09:45,  1.09it/s]Loading weights:  14%|█▎        | 100/729 [01:46<06:28,  1.62it/s]Loading weights:  14%|█▍        | 101/729 [01:46<06:22,  1.64it/s]Loading weights:  14%|█▍        | 102/729 [01:50<09:15,  1.13it/s]Loading weights:  15%|█▌        | 112/729 [01:53<06:07,  1.68it/s]Loading weights:  16%|█▌        | 114/729 [01:54<05:41,  1.80it/s]Loading weights:  17%|█▋        | 124/729 [02:01<06:31,  1.55it/s]Loading weights:  19%|█▊        | 136/729 [02:05<04:54,  2.01it/s]Loading weights:  19%|█▉        | 137/729 [02:09<06:45,  1.46it/s]Loading weights:  20%|██        | 148/729 [02:13<05:03,  1.91it/s]Loading weights:  20%|██        | 149/729 [02:14<05:03,  1.91it/s]Loading weights:  21%|██        | 150/729 [02:18<07:28,  1.29it/s]Loading weights:  22%|██▏       | 160/729 [02:21<05:27,  1.74it/s]Loading weights:  22%|██▏       | 161/729 [02:22<05:11,  1.82it/s]Loading weights:  22%|██▏       | 162/729 [02:22<04:50,  1.95it/s]Loading weights:  24%|██▎       | 172/729 [02:29<06:06,  1.52it/s]Loading weights:  24%|██▎       | 173/729 [02:30<05:54,  1.57it/s]Loading weights:  24%|██▍       | 174/729 [02:30<05:31,  1.67it/s]Loading weights:  25%|██▌       | 184/729 [02:34<04:15,  2.14it/s]Loading weights:  25%|██▌       | 185/729 [02:39<07:40,  1.18it/s]Loading weights:  26%|██▌       | 186/729 [02:40<07:26,  1.22it/s]Loading weights:  27%|██▋       | 196/729 [02:43<04:50,  1.83it/s]Loading weights:  27%|██▋       | 198/729 [02:47<06:42,  1.32it/s]Loading weights:  29%|██▊       | 208/729 [02:54<06:14,  1.39it/s]Loading weights:  29%|██▊       | 209/729 [02:55<06:09,  1.41it/s]Loading weights:  30%|███       | 220/729 [03:12<09:51,  1.16s/it]Loading weights:  30%|███       | 221/729 [03:13<09:39,  1.14s/it]Loading weights:  32%|███▏      | 232/729 [03:16<05:50,  1.42it/s]Loading weights:  32%|███▏      | 233/729 [03:21<08:09,  1.01it/s]Loading weights:  32%|███▏      | 234/729 [03:22<07:46,  1.06it/s]Loading weights:  33%|███▎      | 244/729 [03:24<04:31,  1.79it/s]Loading weights:  34%|███▎      | 245/729 [03:25<04:55,  1.64it/s]Loading weights:  34%|███▎      | 246/729 [03:29<07:25,  1.09it/s]Loading weights:  35%|███▌      | 256/729 [03:32<04:29,  1.75it/s]Loading weights:  35%|███▌      | 257/729 [03:33<04:37,  1.70it/s]Loading weights:  35%|███▌      | 258/729 [03:33<04:15,  1.84it/s]Loading weights:  37%|███▋      | 268/729 [03:40<04:56,  1.55it/s]Loading weights:  37%|███▋      | 269/729 [03:41<04:46,  1.60it/s]Loading weights:  37%|███▋      | 270/729 [03:41<04:46,  1.60it/s]Loading weights:  38%|███▊      | 280/729 [03:45<03:25,  2.19it/s]Loading weights:  39%|███▊      | 281/729 [03:48<05:17,  1.41it/s]Loading weights:  40%|████      | 292/729 [03:59<06:16,  1.16it/s]Loading weights:  40%|████      | 293/729 [04:00<06:07,  1.19it/s]Loading weights:  40%|████      | 294/729 [04:09<11:11,  1.54s/it]Loading weights:  42%|████▏     | 304/729 [04:14<06:43,  1.05it/s]Loading weights:  42%|████▏     | 305/729 [04:14<06:32,  1.08it/s]Loading weights:  43%|████▎     | 316/729 [04:22<05:39,  1.22it/s]Loading weights:  43%|████▎     | 317/729 [04:22<05:22,  1.28it/s]Loading weights:  44%|████▎     | 318/729 [04:23<05:01,  1.36it/s]Loading weights:  45%|████▍     | 328/729 [04:27<03:43,  1.80it/s]Loading weights:  45%|████▌     | 329/729 [04:31<05:27,  1.22it/s]Loading weights:  51%|█████     | 369/729 [04:31<00:58,  6.17it/s]Loading weights:  52%|█████▏    | 377/729 [04:32<00:50,  6.95it/s]Loading weights:  53%|█████▎    | 383/729 [04:32<00:47,  7.35it/s]Loading weights:  54%|█████▎    | 391/729 [04:33<00:41,  8.08it/s]Loading weights:  55%|█████▌    | 401/729 [04:33<00:30, 10.82it/s]Loading weights:  56%|█████▌    | 405/729 [04:34<00:32, 10.08it/s]Loading weights:  56%|█████▌    | 409/729 [04:34<00:27, 11.47it/s]Loading weights:  57%|█████▋    | 415/729 [04:34<00:27, 11.22it/s]Loading weights:  58%|█████▊    | 425/729 [04:34<00:19, 15.74it/s]Loading weights:  59%|█████▊    | 428/729 [04:35<00:23, 12.73it/s]Loading weights:  60%|█████▉    | 437/729 [04:35<00:16, 18.08it/s]Loading weights:  60%|██████    | 441/729 [04:36<00:20, 14.38it/s]Loading weights:  61%|██████    | 445/729 [04:36<00:24, 11.40it/s]Loading weights:  62%|██████▏   | 455/729 [04:37<00:16, 16.53it/s]Loading weights:  63%|██████▎   | 458/729 [04:37<00:17, 15.06it/s]Loading weights:  64%|██████▎   | 463/729 [04:37<00:18, 14.59it/s]Loading weights:  64%|██████▍   | 465/729 [04:37<00:18, 14.34it/s]Loading weights:  64%|██████▍   | 467/729 [04:37<00:18, 14.48it/s]Loading weights:  65%|██████▌   | 475/729 [04:38<00:15, 16.56it/s]Loading weights:  65%|██████▌   | 477/729 [04:38<00:16, 15.65it/s]Loading weights:  66%|██████▌   | 479/729 [04:38<00:19, 12.86it/s]Loading weights:  67%|██████▋   | 487/729 [04:39<00:19, 12.36it/s]Loading weights:  68%|██████▊   | 497/729 [04:39<00:11, 20.64it/s]Loading weights:  69%|██████▊   | 501/729 [04:40<00:20, 11.01it/s]Loading weights:  70%|███████   | 511/729 [04:41<00:17, 12.56it/s]Loading weights:  71%|███████▏  | 521/729 [04:41<00:11, 18.09it/s]Loading weights:  72%|███████▏  | 525/729 [04:42<00:17, 11.89it/s]Loading weights:  73%|███████▎  | 533/729 [04:42<00:12, 15.62it/s]Loading weights:  74%|███████▎  | 537/729 [04:42<00:14, 13.33it/s]Loading weights:  74%|███████▍  | 540/729 [04:43<00:16, 11.42it/s]Loading weights:  76%|███████▌  | 551/729 [04:43<00:09, 17.87it/s]Loading weights:  76%|███████▌  | 554/729 [04:43<00:11, 15.90it/s]Loading weights:  77%|███████▋  | 559/729 [04:44<00:09, 18.07it/s]Loading weights:  77%|███████▋  | 562/729 [04:44<00:09, 17.60it/s]Loading weights:  78%|███████▊  | 565/729 [04:44<00:10, 15.19it/s]Loading weights:  78%|███████▊  | 571/729 [04:44<00:09, 15.85it/s]Loading weights:  79%|███████▉  | 575/729 [04:45<00:08, 18.72it/s]Loading weights:  79%|███████▉  | 578/729 [04:45<00:07, 19.81it/s]Loading weights:  80%|███████▉  | 583/729 [04:45<00:09, 16.00it/s]Loading weights:  81%|████████  | 587/729 [04:45<00:07, 18.30it/s]Loading weights:  82%|████████▏ | 595/729 [04:46<00:08, 16.19it/s]Loading weights:  82%|████████▏ | 598/729 [04:46<00:08, 15.68it/s]Loading weights:  83%|████████▎ | 607/729 [04:47<00:08, 15.13it/s]Loading weights:  84%|████████▎ | 609/729 [04:47<00:07, 15.51it/s]Loading weights:  84%|████████▍ | 613/729 [04:47<00:08, 14.04it/s]Loading weights:  85%|████████▍ | 617/729 [04:47<00:06, 16.90it/s]Loading weights:  85%|████████▌ | 620/729 [04:48<00:08, 13.35it/s]Loading weights:  86%|████████▌ | 625/729 [04:48<00:06, 16.98it/s]Loading weights:  87%|████████▋ | 631/729 [04:48<00:07, 12.53it/s]Loading weights:  88%|████████▊ | 641/729 [04:49<00:04, 20.91it/s]Loading weights:  88%|████████▊ | 645/729 [04:49<00:05, 15.20it/s]Loading weights:  89%|████████▉ | 648/729 [04:49<00:04, 16.37it/s]Loading weights:  90%|████████▉ | 655/729 [04:50<00:04, 15.16it/s]Loading weights:  90%|█████████ | 659/729 [04:50<00:04, 15.75it/s]Loading weights:  91%|█████████▏| 667/729 [04:50<00:03, 15.92it/s]Loading weights:  92%|█████████▏| 672/729 [04:51<00:02, 19.43it/s]Loading weights:  93%|█████████▎| 675/729 [04:51<00:03, 14.48it/s]Loading weights:  93%|█████████▎| 679/729 [04:52<00:04, 11.82it/s]Loading weights:  94%|█████████▍| 685/729 [04:52<00:02, 15.59it/s]Loading weights:  95%|█████████▍| 691/729 [04:52<00:02, 15.39it/s]Loading weights:  95%|█████████▌| 694/729 [04:52<00:02, 14.76it/s]Loading weights:  96%|█████████▌| 701/729 [04:52<00:01, 19.93it/s]Loading weights:  97%|█████████▋| 704/729 [04:53<00:01, 14.29it/s]Loading weights:  97%|█████████▋| 709/729 [04:53<00:01, 17.36it/s]Loading weights:  98%|█████████▊| 715/729 [04:54<00:00, 15.71it/s]Loading weights:  99%|█████████▊| 719/729 [04:54<00:00, 18.02it/s]Loading weights: 100%|█████████▉| 726/729 [04:56<00:00,  5.48it/s]Loading weights: 100%|██████████| 729/729 [04:56<00:00,  2.46it/s]
+Model loaded.
+
+Clips: 50 | frames: 8 | activity: Dance
+
+Prompt: Is this person a Novice or an Expert at this activity? Answer only: Novice or Expert
+
+[1/50] upenn_0730_Dance_2_5 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[2/50] uniandes_dance_022_6 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[3/50] uniandes_dance_022_5 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[4/50] uniandes_dance_013_14 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[5/50] uniandes_dance_022_7 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[6/50] uniandes_dance_021_2 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[7/50] uniandes_dance_015_18 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[8/50] uniandes_dance_021_9 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[9/50] uniandes_dance_020_27 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[10/50] upenn_0727_Partner_Dance_2_1_4 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[11/50] uniandes_dance_020_26 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[12/50] uniandes_dance_013_22 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[13/50] uniandes_dance_002_3 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[14/50] uniandes_dance_024_6 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[15/50] uniandes_dance_022_3 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[16/50] uniandes_dance_022_23 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[17/50] uniandes_dance_022_10 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[18/50] uniandes_dance_016_44 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[19/50] uniandes_dance_017_4 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[20/50] uniandes_dance_024_4 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[21/50] uniandes_dance_022_8 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[22/50] uniandes_dance_017_56 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[23/50] upenn_0727_Partner_Dance_2_1_2 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[24/50] uniandes_dance_017_5 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[25/50] uniandes_dance_008_13 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[26/50] uniandes_dance_017_3 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[27/50] uniandes_dance_020_25 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[28/50] uniandes_dance_011_32 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[29/50] uniandes_dance_019_51 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[30/50] uniandes_dance_011_28 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[31/50] uniandes_dance_016_45 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[32/50] uniandes_dance_017_54 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[33/50] uniandes_dance_012_28 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[34/50] uniandes_dance_016_42 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[35/50] uniandes_dance_020_18 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[36/50] upenn_0727_Partner_Dance_2_1_3 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[37/50] uniandes_dance_016_46 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[38/50] uniandes_dance_019_52 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[39/50] uniandes_dance_012_36 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[40/50] uniandes_dance_008_36 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[41/50] uniandes_dance_022_9 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[42/50] uniandes_dance_020_21 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[43/50] uniandes_dance_012_31 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[44/50] uniandes_dance_015_14 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[45/50] uniandes_dance_012_35 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[46/50] uniandes_dance_023_26 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[47/50] uniandes_dance_020_22 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[48/50] uniandes_dance_022_27 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[49/50] uniandes_dance_011_36 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[50/50] uniandes_dance_024_7 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+============================================================
+RESULTS — Dance | Qwen binary 8f
+============================================================
+  exo: 25/50 = 50.0%
+  ego: 25/50 = 50.0%
+Random chance: 50%
+Exo predictions: {'Novice': 50}
+Ego predictions: {'Novice': 50}
+============================================================
