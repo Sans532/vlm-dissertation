@@ -1,0 +1,228 @@
+
+############################################################
+Run started: 2026-07-21T11:14:27.324231
+############################################################
+
+Total: 100 | Done: 0 | Remaining: 100
+Model: gemini-3.1-flash-lite
+Prompt: Watch this video carefully.
+Step 1: Describe the person's body position and technique in detail.
+Step 2: Identify any errors or imprecisions in their movement.
+Step 3: Classify skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.
+Format your answer as:
+Observations: ...
+Errors: ...
+Skill Level: ...
+
+[1/100] upenn_0730_Dance_1_7 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The person is demonstrating a martial arts or 
+[2/100] uniandes_dance_017_3 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing a contemporary/urban 
+[3/100] uniandes_dance_023_26 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of controlle
+[4/100] uniandes_dance_008_51 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The dancer is performing a contemporary/jazz-s
+[5/100] uniandes_dance_022_3 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of Afro-Cuba
+[6/100] upenn_0629_Dance_3_6 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The individual is performing an Irish dance st
+[7/100] uniandes_dance_015_22 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of dance fit
+[8/100] uniandes_dance_016_43 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of hip-hop i
+[9/100] uniandes_dance_022_11 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The person is performing a choreographed dance
+[10/100] uniandes_dance_013_7 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The subject is practicing footwork and upper b
+[11/100] uniandes_dance_008_11 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of Afro-Cari
+[12/100] uniandes_dance_023_51 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of Afro-Cuba
+[13/100] uniandes_dance_024_3 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The individual is performing basic footwork in
+[14/100] uniandes_dance_017_4 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing a contemporary/modern
+[15/100] uniandes_dance_022_17 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of dance mov
+[16/100] uniandes_dance_017_6 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing a sequence of stylize
+[17/100] uniandes_dance_002_3 (GT=Late Expert)
+  Novice X | raw: Observations: The individual is practicing a series of speci
+[18/100] uniandes_dance_002_13 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of Afro-Cari
+[19/100] uniandes_dance_020_28 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of dance mov
+[20/100] upenn_0629_Dance_2_2 (GT=Early Expert)
+  Novice X | raw: Observations: The person is performing a standard basketball
+[21/100] uniandes_dance_016_46 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing a choreography focusi
+[22/100] uniandes_dance_019_7 (GT=Intermediate Expert)
+  Retrying after error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The service is currently unavailable.', 'status
+  Intermediate Expert OK | raw: Observations: The dancer is performing a series of dance mov
+[23/100] uniandes_dance_021_29 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The dancer is performing a series of Latin dan
+[24/100] uniandes_dance_008_50 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The dancer is performing a contemporary/modern
+[25/100] uniandes_dance_021_19 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The individual is practicing a series of dance
+[26/100] uniandes_dance_008_13 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a contemporary/expres
+[27/100] uniandes_dance_024_8 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of Afro-Cuba
+[28/100] uniandes_dance_007_7 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The individual is performing a choreographed d
+[29/100] uniandes_dance_021_12 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The individual is performing a choreographed d
+[30/100] uniandes_dance_013_15 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The person is performing a standard Latin danc
+[31/100] uniandes_dance_012_24 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The dancer is performing a series of dance mov
+[32/100] uniandes_dance_020_27 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of dance ste
+[33/100] upenn_0720_Dance_4_5 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The person is performing a series of repetitiv
+[34/100] uniandes_dance_019_20 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The dancer is performing a series of controlle
+[35/100] uniandes_dance_016_8 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a contemporary/modern
+[36/100] uniandes_dance_020_34 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of Afro-Cuba
+[37/100] uniandes_dance_013_22 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of dance mov
+[38/100] upenn_0706_Dance_4_3 (GT=Early Expert)
+  Novice X | raw: Observations: The person is practicing a baton twirling rout
+[39/100] uniandes_dance_012_19 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The dancer is performing a series of dance mov
+[40/100] uniandes_dance_002_24 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The person is performing a choreographed dance
+[41/100] uniandes_dance_020_22 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing a K-pop inspired rout
+[42/100] uniandes_dance_019_6 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The dancer is performing a rhythmic routine, f
+[43/100] upenn_0720_Dance_3_7 (GT=Early Expert)
+  Novice X | raw: Observations: The person is barefoot and wearing a pink t-sh
+[44/100] uniandes_dance_024_7 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing basic Salsa solo foot
+[45/100] upenn_0727_Partner_Dance_2_1_4 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The dancers are performing a routine that feat
+[46/100] upenn_0720_Dance_3_11 (GT=Early Expert)
+  Novice X | raw: Observations: The subject performs a sequence of movements t
+[47/100] uniandes_dance_012_25 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The dancer is performing a series of dance mov
+[48/100] upenn_0730_Dance_2_5 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a contemporary/modern
+[49/100] uniandes_dance_008_8 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of Afro-Cuba
+[50/100] uniandes_dance_019_58 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of dance mov
+[51/100] uniandes_dance_011_29 (GT=Late Expert)
+  Novice X | raw: Observations: The person is practicing basic footwork techni
+[52/100] uniandes_dance_016_45 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing a K-pop style dance r
+[53/100] uniandes_dance_011_43 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The dancer is wearing sports leggings and a ta
+[54/100] upenn_0727_Partner_Dance_2_2_4 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The couple is practicing East Coast Swing in a
+[55/100] uniandes_dance_016_44 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing a contemporary/modern
+[56/100] uniandes_dance_022_9 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of Afro-Lati
+[57/100] uniandes_dance_021_20 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The dancer is performing a series of dance mov
+[58/100] uniandes_dance_022_48 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of flamenco-
+[59/100] uniandes_dance_008_38 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The performer is practicing a routine characte
+[60/100] uniandes_dance_013_8 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of hip-hop a
+[61/100] uniandes_dance_021_53 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of controlle
+[62/100] uniandes_dance_017_5 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of dance mov
+[63/100] uniandes_dance_021_5 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of dance mov
+[64/100] uniandes_dance_012_28 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The person is practicing a specific type of fo
+[65/100] uniandes_dance_016_12 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a contemporary dance 
+[66/100] uniandes_dance_024_17 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a choreographed dance
+[67/100] uniandes_dance_022_7 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of Afro-cont
+[68/100] uniandes_dance_021_23 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The dancer is performing a sequence of high-en
+[69/100] uniandes_dance_011_16 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The individual is practicing dance movements i
+[70/100] uniandes_dance_019_18 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The dancer is performing a series of controlle
+[71/100] uniandes_dance_017_36 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of controlle
+[72/100] uniandes_dance_012_22 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The dancer is performing a series of dance mov
+[73/100] uniandes_dance_012_29 (GT=Late Expert)
+  Novice X | raw: Observations: The individual is performing a salsa "paso bas
+[74/100] upenn_0706_Dance_1_7 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of tap steps
+[75/100] upenn_0730_Dance_1_4 (GT=Intermediate Expert)
+  Novice X | raw: Observations: The person is performing a simulated casting m
+[76/100] upenn_0720_Dance_3_13 (GT=Early Expert)
+  Novice X | raw: Observations: The practitioner is performing a martial arts 
+[77/100] uniandes_dance_007_4 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The dancer is executing a series of basic rhyt
+[78/100] uniandes_dance_012_33 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of dance mov
+[79/100] upenn_0706_Dance_2_2 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The dancer is performing a series of turns and
+[80/100] uniandes_dance_020_61 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a contemporary/modern
+[81/100] uniandes_dance_022_5 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of hip-hop o
+[82/100] uniandes_dance_021_17 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The dancer is performing a series of dance ste
+[83/100] uniandes_dance_019_15 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The dancer is performing a choreographed routi
+[84/100] uniandes_dance_022_27 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a high-energy dance r
+[85/100] uniandes_dance_024_4 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The person is performing a solo dance drill, s
+[86/100] uniandes_dance_008_44 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The dancer is performing a series of dance ste
+[87/100] uniandes_dance_024_2 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of Afro-Cuba
+[88/100] uniandes_dance_011_33 (GT=Late Expert)
+  Novice X | raw: Observations: The person is performing a shuffle dance varia
+[89/100] uniandes_dance_019_49 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of controlle
+[90/100] uniandes_dance_022_10 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of Afro-cont
+[91/100] upenn_0706_Dance_2_5 (GT=Intermediate Expert)
+  Novice X | raw: Observations: The dancer is practicing footwork drills, spec
+[92/100] uniandes_dance_015_18 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The individual is performing a choreographed d
+[93/100] uniandes_dance_017_58 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of Afro-cont
+[94/100] upenn_0720_Dance_3_3 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The person is performing a martial arts drill,
+[95/100] uniandes_dance_020_11 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of dance mov
+[96/100] upenn_0629_Dance_3_4 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The subject is practicing a dance routine (res
+[97/100] uniandes_dance_022_6 (GT=Novice)
+  Novice OK | raw: Observations: The dancer is performing a series of Afro-Braz
+[98/100] uniandes_dance_020_18 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of liquid an
+[99/100] uniandes_dance_012_14 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The dancer is performing a series of Afro-Cari
+[100/100] uniandes_dance_023_56 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The dancer is performing a series of controlle
+
+Batch complete. Processed 100 clips.
+
+RESULTS — Gemini structured dance
+Overall: 24/100 = 24.0%
+Late Expert           : 0/25 = 0.0%
+Early Expert          : 0/25 = 0.0%
+Intermediate Expert   : 23/25 = 92.0%
+Novice                : 1/25 = 4.0%
+Random: 25%
+Answers: {'Intermediate Expert': 88, 'Novice': 12}

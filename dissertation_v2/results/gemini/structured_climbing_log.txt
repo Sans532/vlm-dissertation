@@ -1,0 +1,227 @@
+
+############################################################
+Run started: 2026-07-21T15:46:22.634174
+############################################################
+
+Total: 100 | Done: 0 | Remaining: 100
+Model: gemini-3.1-flash-lite
+Prompt: Watch this video carefully.
+Step 1: Describe the person's body position and technique in detail.
+Step 2: Identify any errors or imprecisions in their movement.
+Step 3: Classify skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.
+Format your answer as:
+Observations: ...
+Errors: ...
+Skill Level: ...
+
+[1/100] uniandes_bouldering_025_56 (GT=Novice)
+  Novice OK | raw: Observations: The climber begins by lying on the mats, then 
+[2/100] uniandes_bouldering_028_24 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The climber approaches the overhanging boulder
+[3/100] uniandes_bouldering_023_68 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The climber approaches a steep, overhanging bo
+[4/100] uniandes_bouldering_027_32 (GT=Novice)
+  Novice OK | raw: Observations: The climber begins in a low, seated position o
+[5/100] uniandes_bouldering_034_99 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The climber begins by approaching the wall wit
+[6/100] uniandes_bouldering_032_77 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber begins with a dynamic start, utili
+[7/100] uniandes_bouldering_034_65 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The climber begins in a low, compressed starti
+[8/100] uniandes_bouldering_023_23 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The climber begins by standing in front of the
+[9/100] uniandes_bouldering_022_39 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The climber approaches the wall and begins on 
+[10/100] uniandes_bouldering_034_88 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber begins in a low, seated starting p
+[11/100] uniandes_bouldering_027_31 (GT=Novice)
+  Novice OK | raw: Observations: The climber begins by kneeling, then performs 
+[12/100] uniandes_bouldering_033_27 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber is attempting a steep, overhanging
+[13/100] uniandes_bouldering_035_38 (GT=Early Expert)
+  Novice X | raw: Observations: The climber approaches the wall, sets up in a 
+[14/100] uniandes_bouldering_037_38 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber begins with a low crouch start, ma
+[15/100] uniandes_bouldering_022_63 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber begins with a kneeling start, util
+[16/100] uniandes_bouldering_024_14 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The climber starts with a static approach, est
+[17/100] uniandes_bouldering_033_19 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber approaches the overhanging wall wi
+[18/100] uniandes_bouldering_022_73 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The climber begins in a seated, crouched posit
+[19/100] uniandes_bouldering_036_46 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber approaches the overhanging wall wi
+[20/100] uniandes_bouldering_035_59 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber approaches a steep, overhanging bo
+[21/100] uniandes_bouldering_030_59 (GT=Late Expert)
+  Novice X | raw: Observations: The climber begins by scanning a QR code to se
+[22/100] uniandes_bouldering_037_28 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber starts in a crouching position, in
+[23/100] uniandes_bouldering_025_46 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The climber approaches the overhanging wall wi
+[24/100] uniandes_bouldering_037_50 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber approaches the overhanging wall wi
+[25/100] uniandes_bouldering_037_24 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber engages in a dynamic bouldering ro
+[26/100] uniandes_bouldering_022_6 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber approaches the wall and begins on 
+[27/100] uniandes_bouldering_025_85 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The climber starts with a static sit-start, ut
+[28/100] uniandes_bouldering_032_34 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber executes a dynamic "deadpoint" sty
+[29/100] uniandes_bouldering_033_45 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber is attempting a bouldering problem
+[30/100] uniandes_bouldering_029_41 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The climber begins with an athletic start, est
+[31/100] uniandes_bouldering_034_53 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber approaches the wall from a kneelin
+[32/100] uniandes_bouldering_027_60 (GT=Novice)
+  Novice OK | raw: Observations: The climber begins from a kneeling position, e
+[33/100] uniandes_bouldering_030_8 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber approaches the wall and begins in 
+[34/100] uniandes_bouldering_036_15 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber approaches a steeply overhanging b
+[35/100] uniandes_bouldering_027_114 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The climber begins with an open-handed grip on
+[36/100] uniandes_bouldering_037_22 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber begins by applying chalk and visua
+[37/100] uniandes_bouldering_032_56 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber is attempting a dynamic move on a 
+[38/100] uniandes_bouldering_026_97 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The climber is navigating a steep, overhanging
+[39/100] uniandes_bouldering_035_41 (GT=Early Expert)
+  Novice X | raw: Observations: The climber begins in a kneeling position, rea
+[40/100] uniandes_bouldering_036_51 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber begins with an athletic stance, ar
+[41/100] uniandes_bouldering_022_21 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber begins by walking into the frame, 
+[42/100] uniandes_bouldering_022_32 (GT=Novice)
+  Novice OK | raw: Observations: The climber approaches the bouldering wall, ch
+[43/100] uniandes_bouldering_023_8 (GT=Intermediate Expert)
+  Novice X | raw: Observations: The climber begins in a seated position, using
+[44/100] uniandes_bouldering_033_22 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber begins in a seated start position 
+[45/100] uniandes_bouldering_030_27 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber begins with a low, seated start on
+[46/100] uniandes_bouldering_024_12 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The climber displays strong technique on a sig
+[47/100] uniandes_bouldering_029_61 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The climber begins with a static, controlled s
+[48/100] uniandes_bouldering_031_47 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber starts in a low, seated position a
+[49/100] uniandes_bouldering_027_52 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The climber begins in a crouching start positi
+[50/100] uniandes_bouldering_034_82 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The climber begins by performing a sit-start. 
+[51/100] uniandes_bouldering_032_30 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber performs a start from a seated pos
+[52/100] uniandes_bouldering_032_28 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber begins with a dynamic start, utili
+[53/100] uniandes_bouldering_036_49 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber is attempting a dynamic start on a
+[54/100] uniandes_bouldering_036_25 (GT=Intermediate Expert)
+  Novice X | raw: Observations: The climber begins in a crouching start positi
+[55/100] uniandes_bouldering_034_48 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The climber is attempting a move on a steep ov
+[56/100] uniandes_bouldering_033_60 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber approaches the overhanging wall wi
+[57/100] uniandes_bouldering_034_74 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The climber begins by kneeling, then performs 
+[58/100] uniandes_bouldering_028_56 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The climber approaches the wall and begins on 
+[59/100] uniandes_bouldering_026_103 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The climber begins with an athletic stance, ar
+[60/100] uniandes_bouldering_024_30 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The climber begins with a wide, stable stance,
+[61/100] uniandes_bouldering_024_60 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The climber approaches the overhanging wall wi
+[62/100] uniandes_bouldering_037_29 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber approaches the overhanging boulder
+[63/100] uniandes_bouldering_029_77 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The climber begins by approaching the wall and
+[64/100] uniandes_bouldering_036_36 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber starts from a seated position, usi
+[65/100] uniandes_bouldering_026_59 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The climber approaches the overhanging boulder
+[66/100] uniandes_bouldering_022_31 (GT=Novice)
+  Novice OK | raw: Observations: The climber is attempting a move on a steep, o
+[67/100] uniandes_bouldering_033_12 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber approaches the problem with a deli
+[68/100] uniandes_bouldering_027_2 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber approaches the wall and begins on 
+[69/100] uniandes_bouldering_036_34 (GT=Late Expert)
+  Novice X | raw: Observations: The climber approaches the overhanging wall, c
+[70/100] uniandes_bouldering_025_70 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber begins in a low, seated starting p
+[71/100] uniandes_bouldering_036_16 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber approaches the wall and begins on 
+[72/100] uniandes_bouldering_032_62 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber is attempting a move on a steep, o
+[73/100] uniandes_bouldering_029_89 (GT=Novice)
+  Novice OK | raw: Observations: The climber approaches a steep, overhanging bo
+[74/100] uniandes_bouldering_029_44 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The climber begins with a low crouch/kneel sta
+[75/100] uniandes_bouldering_036_38 (GT=Late Expert)
+  Novice X | raw: Observations: The climber approaches a steep, overhanging bo
+[76/100] uniandes_bouldering_023_56 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber approaches the overhanging wall wi
+[77/100] uniandes_bouldering_027_58 (GT=Novice)
+  Novice OK | raw: Observations: The climber begins by approaching the overhang
+[78/100] uniandes_bouldering_037_17 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber approaches the overhanging wall wi
+[79/100] uniandes_bouldering_037_39 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber approaches the overhanging boulder
+[80/100] uniandes_bouldering_029_73 (GT=Early Expert)
+  Novice X | raw: Observations: The climber approaches a steep, overhanging bo
+[81/100] uniandes_bouldering_023_2 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The climber begins by scoping the route and ch
+[82/100] uniandes_bouldering_022_18 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The climber executes a dynamic traverse across
+[83/100] uniandes_bouldering_033_10 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber starts in a deep crouch, utilizing
+[84/100] uniandes_bouldering_035_63 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The climber begins by performing a quick, rhyt
+[85/100] uniandes_bouldering_035_96 (GT=Early Expert)
+  Novice X | raw: Observations: The climber approaches the overhanging wall wi
+[86/100] uniandes_bouldering_033_59 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber approaches the overhanging wall wi
+[87/100] uniandes_bouldering_022_47 (GT=Novice)
+  Novice OK | raw: Observations: The climber begins in a kneeling position, eng
+[88/100] uniandes_bouldering_027_19 (GT=Early Expert)
+  Novice X | raw: Observations: The climber begins in a seated position at the
+[89/100] uniandes_bouldering_026_18 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The climber begins with an open stance and app
+[90/100] uniandes_bouldering_029_40 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The climber approaches the overhanging boulder
+[91/100] uniandes_bouldering_034_69 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The climber approaches the wall and initiates 
+[92/100] uniandes_bouldering_034_102 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The climber approaches a steep, overhanging bo
+[93/100] uniandes_bouldering_022_26 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber approaches the start of the boulde
+[94/100] uniandes_bouldering_032_32 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber approaches the wall, sets their fe
+[95/100] uniandes_bouldering_034_98 (GT=Early Expert)
+  Intermediate Expert X | raw: Observations: The climber begins by utilizing a deep squat p
+[96/100] uniandes_bouldering_037_58 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber executes a V-scale bouldering prob
+[97/100] uniandes_bouldering_031_46 (GT=Late Expert)
+  Intermediate Expert X | raw: Observations: The climber approaches a steep, overhanging bo
+[98/100] uniandes_bouldering_027_36 (GT=Novice)
+  Novice OK | raw: Observations: The climber begins in a seated position on the
+[99/100] uniandes_bouldering_033_53 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Observations: The climber approaches the overhanging wall wi
+[100/100] uniandes_bouldering_027_85 (GT=Novice)
+  Intermediate Expert X | raw: Observations: The climber begins in a low, seated starting p
+
+Batch complete. Processed 100 clips.
+
+RESULTS — Gemini structured climbing
+Overall: 33/100 = 33.0%
+Late Expert           : 0/25 = 0.0%
+Early Expert          : 0/25 = 0.0%
+Intermediate Expert   : 23/25 = 92.0%
+Novice                : 10/25 = 40.0%
+Random: 25%
+Answers: {'Intermediate Expert': 80, 'Novice': 20}
