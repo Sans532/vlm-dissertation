@@ -1,0 +1,116 @@
+
+############################################################
+Run started: 2026-07-23T10:36:13.001526
+############################################################
+
+Total: 50 | Done: 0 | Remaining: 50
+Model: gemini-3.1-flash-lite
+Prompt: Is this person a Novice or an Expert at this activity? Answer only: Novice or Expert
+
+[1/50] uniandes_bouldering_027_56 (GT=Novice)
+  Novice OK | raw: Novice
+[2/50] uniandes_bouldering_036_4 (GT=Expert)
+  Expert OK | raw: Expert
+[3/50] uniandes_bouldering_029_59 (GT=Novice)
+  Novice OK | raw: Novice
+[4/50] uniandes_bouldering_037_51 (GT=Expert)
+  Novice X | raw: Novice
+[5/50] uniandes_bouldering_036_73 (GT=Expert)
+  Expert OK | raw: Expert
+[6/50] uniandes_bouldering_022_32 (GT=Novice)
+  Novice OK | raw: Novice
+[7/50] uniandes_bouldering_037_4 (GT=Expert)
+  Expert OK | raw: Expert
+[8/50] uniandes_bouldering_030_63 (GT=Expert)
+  Expert OK | raw: Expert
+[9/50] uniandes_bouldering_027_52 (GT=Novice)
+  Novice OK | raw: Novice
+[10/50] uniandes_bouldering_030_25 (GT=Expert)
+  Novice X | raw: Novice
+[11/50] uniandes_bouldering_026_37 (GT=Novice)
+  Novice OK | raw: Novice
+[12/50] uniandes_bouldering_022_72 (GT=Novice)
+  Novice OK | raw: Novice
+[13/50] uniandes_bouldering_036_21 (GT=Expert)
+  Expert OK | raw: Expert
+[14/50] uniandes_bouldering_025_46 (GT=Novice)
+  Novice OK | raw: Novice
+[15/50] uniandes_bouldering_036_17 (GT=Expert)
+  Expert OK | raw: Expert
+[16/50] uniandes_bouldering_037_8 (GT=Expert)
+  Expert OK | raw: Expert
+[17/50] uniandes_bouldering_026_43 (GT=Novice)
+  Novice OK | raw: Novice
+[18/50] uniandes_bouldering_022_71 (GT=Novice)
+  Novice OK | raw: Novice
+[19/50] uniandes_bouldering_036_45 (GT=Expert)
+  Expert OK | raw: Expert
+[20/50] uniandes_bouldering_026_22 (GT=Novice)
+  Expert X | raw: Expert
+[21/50] uniandes_bouldering_026_63 (GT=Novice)
+  Novice OK | raw: Novice
+[22/50] uniandes_bouldering_022_67 (GT=Expert)
+  Novice X | raw: Novice
+[23/50] uniandes_bouldering_022_47 (GT=Novice)
+  Novice OK | raw: Novice
+[24/50] uniandes_bouldering_022_31 (GT=Novice)
+  Novice OK | raw: Novice
+[25/50] uniandes_bouldering_027_25 (GT=Novice)
+  Novice OK | raw: Novice
+[26/50] uniandes_bouldering_033_44 (GT=Expert)
+  Novice X | raw: Novice
+[27/50] uniandes_bouldering_026_38 (GT=Novice)
+  Novice OK | raw: Novice
+[28/50] uniandes_bouldering_023_44 (GT=Novice)
+  Novice OK | raw: Novice
+[29/50] uniandes_bouldering_027_23 (GT=Novice)
+  Novice OK | raw: Novice
+[30/50] uniandes_bouldering_030_62 (GT=Expert)
+  Novice X | raw: Novice
+[31/50] uniandes_bouldering_026_109 (GT=Novice)
+  Novice OK | raw: Novice
+[32/50] uniandes_bouldering_030_8 (GT=Expert)
+  Expert OK | raw: Expert
+[33/50] uniandes_bouldering_026_102 (GT=Novice)
+  Expert X | raw: Expert
+[34/50] uniandes_bouldering_036_35 (GT=Expert)
+  Novice X | raw: Novice
+[35/50] uniandes_bouldering_029_89 (GT=Novice)
+  Novice OK | raw: Novice
+[36/50] uniandes_bouldering_027_50 (GT=Novice)
+  Novice OK | raw: Novice
+[37/50] uniandes_bouldering_027_59 (GT=Novice)
+  Expert X | raw: Expert
+[38/50] uniandes_bouldering_036_49 (GT=Expert)
+  Novice X | raw: Novice
+[39/50] uniandes_bouldering_036_14 (GT=Expert)
+  Expert OK | raw: Expert
+[40/50] uniandes_bouldering_027_27 (GT=Novice)
+  Novice OK | raw: Novice
+[41/50] uniandes_bouldering_030_28 (GT=Expert)
+  Novice X | raw: Novice
+[42/50] uniandes_bouldering_037_20 (GT=Expert)
+  Expert OK | raw: Expert
+[43/50] uniandes_bouldering_037_56 (GT=Expert)
+  Expert OK | raw: Expert
+[44/50] uniandes_bouldering_037_55 (GT=Expert)
+  Expert OK | raw: Expert
+[45/50] uniandes_bouldering_036_8 (GT=Expert)
+  Expert OK | raw: Expert
+[46/50] uniandes_bouldering_029_58 (GT=Novice)
+  Novice OK | raw: Novice
+[47/50] uniandes_bouldering_022_33 (GT=Novice)
+  Expert X | raw: Expert
+[48/50] uniandes_bouldering_031_47 (GT=Expert)
+  Expert OK | raw: Expert
+[49/50] uniandes_bouldering_030_26 (GT=Expert)
+  Expert OK | raw: Expert
+[50/50] uniandes_bouldering_031_68 (GT=Expert)
+  Expert OK | raw: Expert
+
+Batch complete. Processed 50 clips.
+
+RESULTS — Gemini binary climbing (ego)
+Overall: 38/50 = 76.0%
+Random: 50%
+Answers: {'Novice': 29, 'Expert': 21}

@@ -1,0 +1,249 @@
+
+############################################################
+Run started: 2026-07-23T11:42:29.491780
+############################################################
+
+Total: 100 | Done: 0 | Remaining: 100
+Model: gemini-3.1-flash-lite
+Prompt: You are an expert coach evaluating this person's technique.
+Focus on: body alignment, movement fluency, technical precision.
+What is their skill level? Novice / Early Expert / Intermediate Expert / Late Expert
+Explain your reasoning.
+
+[1/100] uniandes_bouldering_025_56 (GT=Novice)
+  Intermediate Expert X | raw: Based on the footage provided, I would classify this climber
+[2/100] uniandes_bouldering_028_24 (GT=Early Expert)
+  Late Expert X | raw: Based on the video provided, I would categorize this climber
+[3/100] uniandes_bouldering_023_68 (GT=Early Expert)
+  Novice X | raw: Based on the footage provided, here is an evaluation of the 
+[4/100] uniandes_bouldering_027_32 (GT=Novice)
+  Late Expert X | raw: Based on the video provided, I would categorize this climber
+[5/100] uniandes_bouldering_034_99 (GT=Early Expert)
+  Late Expert X | raw: The climber’s skill level is **Intermediate Expert**.
+
+### A
+[6/100] uniandes_bouldering_032_77 (GT=Intermediate Expert)
+  Late Expert X | raw: This climber is at an **Intermediate Expert** level.
+
+### Te
+[7/100] uniandes_bouldering_034_65 (GT=Early Expert)
+  Novice X | raw: Based on the video footage provided, here is an evaluation o
+[8/100] uniandes_bouldering_023_23 (GT=Early Expert)
+  Intermediate Expert X | raw: Based on the video provided, I would categorize this climber
+[9/100] uniandes_bouldering_022_39 (GT=Early Expert)
+  Late Expert X | raw: Based on the footage provided, I would classify this climber
+[10/100] uniandes_bouldering_034_88 (GT=Intermediate Expert)
+  Late Expert X | raw: Based on the video provided, I would categorize this climber
+[11/100] uniandes_bouldering_027_31 (GT=Novice)
+  Intermediate Expert X | raw: Based on the footage provided, I would classify the climber 
+[12/100] uniandes_bouldering_033_27 (GT=Late Expert)
+  Intermediate Expert X | raw: Based on the footage provided, I would classify this climber
+[13/100] uniandes_bouldering_035_38 (GT=Early Expert)
+  Intermediate Expert X | raw: Based on the footage provided, here is an evaluation of the 
+[14/100] uniandes_bouldering_037_38 (GT=Late Expert)
+  Late Expert OK | raw: Based on the video provided, this climber demonstrates a ski
+[15/100] uniandes_bouldering_022_63 (GT=Intermediate Expert)
+  Late Expert X | raw: Based on the footage provided, I would categorize this climb
+[16/100] uniandes_bouldering_024_14 (GT=Novice)
+  Intermediate Expert X | raw: ### Technique Evaluation
+
+**Skill Level: Intermediate**
+
+The
+[17/100] uniandes_bouldering_033_19 (GT=Intermediate Expert)
+  Late Expert X | raw: This climber demonstrates an **Intermediate Expert** skill l
+[18/100] uniandes_bouldering_022_73 (GT=Novice)
+  Intermediate Expert X | raw: Based on the video provided, this climber demonstrates the m
+[19/100] uniandes_bouldering_036_46 (GT=Late Expert)
+  Late Expert OK | raw: Based on the provided video, the climber is an **Intermediat
+[20/100] uniandes_bouldering_035_59 (GT=Intermediate Expert)
+  Late Expert X | raw: Based on the footage provided, this climber falls into the *
+[21/100] uniandes_bouldering_030_59 (GT=Late Expert)
+  Intermediate Expert X | raw: Based on the video provided, the climber displays the charac
+[22/100] uniandes_bouldering_037_28 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: ### Analysis of Climbing Technique
+
+**Skill Level: Intermedi
+[23/100] uniandes_bouldering_025_46 (GT=Novice)
+  Late Expert X | raw: The climber in the video displays skills consistent with an 
+[24/100] uniandes_bouldering_037_50 (GT=Late Expert)
+  Late Expert OK | raw: This climber demonstrates the characteristics of an **Interm
+[25/100] uniandes_bouldering_037_24 (GT=Intermediate Expert)
+  Late Expert X | raw: Based on the footage provided, I would classify this climber
+[26/100] uniandes_bouldering_022_6 (GT=Intermediate Expert)
+  Late Expert X | raw: This climber is operating at an **Intermediate Expert** leve
+[27/100] uniandes_bouldering_025_85 (GT=Novice)
+  Late Expert X | raw: Based on the video provided, I would classify the climber as
+[28/100] uniandes_bouldering_032_34 (GT=Late Expert)
+  Late Expert OK | raw: This climber displays skills consistent with an **Intermedia
+[29/100] uniandes_bouldering_033_45 (GT=Late Expert)
+  Late Expert OK | raw: This climber demonstrates a skill level of **Intermediate Ex
+[30/100] uniandes_bouldering_029_41 (GT=Novice)
+  Intermediate Expert X | raw: Based on the footage provided, I would categorize this climb
+[31/100] uniandes_bouldering_034_53 (GT=Intermediate Expert)
+  Late Expert X | raw: This climber exhibits a skill level that is best described a
+[32/100] uniandes_bouldering_027_60 (GT=Novice)
+  Novice OK | raw: Based on the video provided, I would categorize this climber
+[33/100] uniandes_bouldering_030_8 (GT=Late Expert)
+  Late Expert OK | raw: This climber exhibits the characteristics of an **Intermedia
+[34/100] uniandes_bouldering_036_15 (GT=Late Expert)
+  Late Expert OK | raw: This climber is at an **Intermediate Expert** level.
+
+### Te
+[35/100] uniandes_bouldering_027_114 (GT=Novice)
+  Novice OK | raw: Based on the footage provided, here is an evaluation of the 
+[36/100] uniandes_bouldering_037_22 (GT=Late Expert)
+  Intermediate Expert X | raw: This climber demonstrates **Intermediate Expert** level tech
+[37/100] uniandes_bouldering_032_56 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Based on the video provided, here is an evaluation of the cl
+[38/100] uniandes_bouldering_026_97 (GT=Novice)
+  Novice OK | raw: Based on the provided video, the climber’s skill level is **
+[39/100] uniandes_bouldering_035_41 (GT=Early Expert)
+  Novice X | raw: Based on the video provided, here is my assessment of the cl
+[40/100] uniandes_bouldering_036_51 (GT=Late Expert)
+  Late Expert OK | raw: This climber demonstrates the characteristics of an **Interm
+[41/100] uniandes_bouldering_022_21 (GT=Intermediate Expert)
+  Unknown X | raw: Based on the video provided, it is not possible to evaluate 
+[42/100] uniandes_bouldering_022_32 (GT=Novice)
+  Late Expert X | raw: Based on the video provided, the climber is at an **Intermed
+[43/100] uniandes_bouldering_023_8 (GT=Intermediate Expert)
+  Novice X | raw: ### Skill Level: Novice
+
+**Reasoning:**
+
+The climber display
+[44/100] uniandes_bouldering_033_22 (GT=Intermediate Expert)
+  Late Expert X | raw: Based on the video provided, I would categorize this climber
+[45/100] uniandes_bouldering_030_27 (GT=Late Expert)
+  Late Expert OK | raw: This climber is at an **Intermediate Expert** level.
+
+### Te
+[46/100] uniandes_bouldering_024_12 (GT=Novice)
+  Intermediate Expert X | raw: Based on the footage, this climber exhibits **Intermediate E
+[47/100] uniandes_bouldering_029_61 (GT=Early Expert)
+  Late Expert X | raw: Based on the provided footage, the climber is at an **Interm
+[48/100] uniandes_bouldering_031_47 (GT=Late Expert)
+  Late Expert OK | raw: This climber demonstrates a solid foundation of movement and
+[49/100] uniandes_bouldering_027_52 (GT=Novice)
+  Intermediate Expert X | raw: Based on the video provided, here is an evaluation of the cl
+[50/100] uniandes_bouldering_034_82 (GT=Early Expert)
+  Late Expert X | raw: This climber exhibits an **Intermediate Expert** skill level
+[51/100] uniandes_bouldering_032_30 (GT=Intermediate Expert)
+  Late Expert X | raw: Based on the footage provided, this climber demonstrates the
+[52/100] uniandes_bouldering_032_28 (GT=Intermediate Expert)
+  Late Expert X | raw: Based on the video provided, I would categorize this climber
+[53/100] uniandes_bouldering_036_49 (GT=Late Expert)
+  Novice X | raw: Based on the video provided, here is an evaluation of the cl
+[54/100] uniandes_bouldering_036_25 (GT=Intermediate Expert)
+  Late Expert X | raw: This climber is at the **Intermediate Expert** level.
+
+### T
+[55/100] uniandes_bouldering_034_48 (GT=Early Expert)
+  Intermediate Expert X | raw: Based on the footage provided, I would classify this climber
+[56/100] uniandes_bouldering_033_60 (GT=Intermediate Expert)
+  Late Expert X | raw: Based on the footage provided, I would classify this climber
+[57/100] uniandes_bouldering_034_74 (GT=Early Expert)
+  Intermediate Expert X | raw: This climber exhibits characteristics of an **Intermediate**
+[58/100] uniandes_bouldering_028_56 (GT=Early Expert)
+  Intermediate Expert X | raw: Based on the provided footage, the climber’s skill level is 
+[59/100] uniandes_bouldering_026_103 (GT=Novice)
+  Late Expert X | raw: Based on the video provided, I would categorize this climber
+[60/100] uniandes_bouldering_024_30 (GT=Novice)
+  Late Expert X | raw: Based on the video provided, I would categorize this climber
+[61/100] uniandes_bouldering_024_60 (GT=Novice)
+  Intermediate Expert X | raw: Based on the provided video, the climber’s skill level is **
+[62/100] uniandes_bouldering_037_29 (GT=Intermediate Expert)
+  Late Expert X | raw: This climber demonstrates a skill level of **Intermediate Ex
+[63/100] uniandes_bouldering_029_77 (GT=Early Expert)
+  Late Expert X | raw: Based on the footage provided, I would classify the climber 
+[64/100] uniandes_bouldering_036_36 (GT=Late Expert)
+  Late Expert OK | raw: This climber is at an **Intermediate Expert** level.
+
+Here i
+[65/100] uniandes_bouldering_026_59 (GT=Early Expert)
+  Intermediate Expert X | raw: Based on the video provided, I would classify this climber a
+[66/100] uniandes_bouldering_022_31 (GT=Novice)
+  Intermediate Expert X | raw: Based on the video provided, here is an evaluation of the cl
+[67/100] uniandes_bouldering_033_12 (GT=Late Expert)
+  Late Expert OK | raw: This climber demonstrates the movement patterns and technica
+[68/100] uniandes_bouldering_027_2 (GT=Intermediate Expert)
+  Late Expert X | raw: This climber displays skills consistent with an **Intermedia
+[69/100] uniandes_bouldering_036_34 (GT=Late Expert)
+  Late Expert OK | raw: Based on the video provided, I would categorize this climber
+[70/100] uniandes_bouldering_025_70 (GT=Intermediate Expert)
+  Late Expert X | raw: This climber demonstrates the characteristics of an **Interm
+[71/100] uniandes_bouldering_036_16 (GT=Late Expert)
+  Late Expert OK | raw: Based on the provided video, this climber is at an **Interme
+[72/100] uniandes_bouldering_032_62 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Based on the footage, I would classify this climber as **Int
+[73/100] uniandes_bouldering_029_89 (GT=Novice)
+  Late Expert X | raw: Based on the video provided, I would categorize this climber
+[74/100] uniandes_bouldering_029_44 (GT=Early Expert)
+  Intermediate Expert X | raw: This climber is at an **Intermediate** level.
+
+Here is a bre
+[75/100] uniandes_bouldering_036_38 (GT=Late Expert)
+  Late Expert OK | raw: This climber displays a skill level of **Intermediate Expert
+[76/100] uniandes_bouldering_023_56 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: The climber in the video exhibits a skill level that is best
+[77/100] uniandes_bouldering_027_58 (GT=Novice)
+  Intermediate Expert X | raw: This climber exhibits a skill level that is best described a
+[78/100] uniandes_bouldering_037_17 (GT=Late Expert)
+  Late Expert OK | raw: This climber demonstrates a solid foundation of technique, p
+[79/100] uniandes_bouldering_037_39 (GT=Late Expert)
+  Intermediate Expert X | raw: Based on the video provided, here is an evaluation of the cl
+[80/100] uniandes_bouldering_029_73 (GT=Early Expert)
+  Intermediate Expert X | raw: Based on the provided video, the climber is at a **Novice** 
+[81/100] uniandes_bouldering_023_2 (GT=Early Expert)
+  Late Expert X | raw: This climber demonstrates the characteristics of an **Interm
+[82/100] uniandes_bouldering_022_18 (GT=Early Expert)
+  Late Expert X | raw: Based on the footage provided, I would categorize this climb
+[83/100] uniandes_bouldering_033_10 (GT=Intermediate Expert)
+  Late Expert X | raw: This climber is clearly at an **Intermediate Expert** level.
+[84/100] uniandes_bouldering_035_63 (GT=Early Expert)
+  Late Expert X | raw: Based on the video provided, I would categorize this climber
+[85/100] uniandes_bouldering_035_96 (GT=Early Expert)
+  Late Expert X | raw: Based on the video provided, I would categorize this climber
+[86/100] uniandes_bouldering_033_59 (GT=Intermediate Expert)
+  Late Expert X | raw: This climber demonstrates an **Intermediate Expert** skill l
+[87/100] uniandes_bouldering_022_47 (GT=Novice)
+  Late Expert X | raw: This climber demonstrates the characteristics of an **Interm
+[88/100] uniandes_bouldering_027_19 (GT=Early Expert)
+  Late Expert X | raw: Based on the video provided, I would categorize this climber
+[89/100] uniandes_bouldering_026_18 (GT=Novice)
+  Late Expert X | raw: Based on the provided video, this climber is at an **Interme
+[90/100] uniandes_bouldering_029_40 (GT=Novice)
+  Intermediate Expert X | raw: This climber displays an **Intermediate Expert** skill level
+[91/100] uniandes_bouldering_034_69 (GT=Early Expert)
+  Intermediate Expert X | raw: Based on the video provided, I would classify the climber as
+[92/100] uniandes_bouldering_034_102 (GT=Early Expert)
+  Intermediate Expert X | raw: This climber demonstrates **Intermediate** technical ability
+[93/100] uniandes_bouldering_022_26 (GT=Late Expert)
+  Late Expert OK | raw: Based on the video provided, I would categorize this climber
+[94/100] uniandes_bouldering_032_32 (GT=Late Expert)
+  Late Expert OK | raw: This climber displays skills consistent with an **Intermedia
+[95/100] uniandes_bouldering_034_98 (GT=Early Expert)
+  Late Expert X | raw: Based on the video provided, I would categorize this climber
+[96/100] uniandes_bouldering_037_58 (GT=Late Expert)
+  Late Expert OK | raw: Based on the footage provided, this climber is at an **Inter
+[97/100] uniandes_bouldering_031_46 (GT=Late Expert)
+  Late Expert OK | raw: This climber is at an **Intermediate Expert** level.
+
+### Te
+[98/100] uniandes_bouldering_027_36 (GT=Novice)
+  Late Expert X | raw: Based on the provided video, this climber is at an **Interme
+[99/100] uniandes_bouldering_033_53 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: The climber demonstrates a level of **Intermediate Expert** 
+[100/100] uniandes_bouldering_027_85 (GT=Novice)
+  Novice OK | raw: Based on the video provided, here is an evaluation of the cl
+
+Batch complete. Processed 100 clips.
+
+RESULTS — Gemini reasoning climbing (ego)
+Overall: 29/100 = 29.0%
+Late Expert           : 20/25 = 80.0%
+Early Expert          : 0/25 = 0.0%
+Intermediate Expert   : 5/25 = 20.0%
+Novice                : 4/25 = 16.0%
+Random: 25%
+Answers: {'Late Expert': 60, 'Intermediate Expert': 30, 'Novice': 9, 'Unknown': 1}
