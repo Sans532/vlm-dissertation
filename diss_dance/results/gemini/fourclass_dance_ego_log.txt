@@ -1,6 +1,6 @@
 
 ############################################################
-Run started: 2026-07-22T18:45:16.219692
+Run started: 2026-07-22T19:58:21.473893
 ############################################################
 
 Total: 100 | Done: 0 | Remaining: 100
@@ -8,21 +8,21 @@ Model: gemini-3.1-flash-lite
 Prompt: What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert
 
 [1/100] upenn_0730_Dance_1_7 (GT=Intermediate Expert)
-  Novice X | raw: Novice
-[2/100] uniandes_dance_017_3 (GT=Novice)
-  Intermediate Expert X | raw: Intermediate Expert
-[3/100] uniandes_dance_023_26 (GT=Late Expert)
-  Intermediate Expert X | raw: Intermediate Expert
-[4/100] uniandes_dance_008_51 (GT=Intermediate Expert)
   Intermediate Expert OK | raw: Intermediate Expert
+[2/100] uniandes_dance_017_3 (GT=Novice)
+  Novice OK | raw: Novice
+[3/100] uniandes_dance_023_26 (GT=Late Expert)
+  Novice X | raw: Novice
+[4/100] uniandes_dance_008_51 (GT=Intermediate Expert)
+  Novice X | raw: Novice
 [5/100] uniandes_dance_022_3 (GT=Novice)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice OK | raw: Novice
 [6/100] upenn_0629_Dance_3_6 (GT=Early Expert)
   Novice X | raw: Novice
 [7/100] uniandes_dance_015_22 (GT=Late Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: Novice
 [8/100] uniandes_dance_016_43 (GT=Novice)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice OK | raw: Novice
 [9/100] uniandes_dance_022_11 (GT=Novice)
   Intermediate Expert X | raw: Intermediate Expert
 [10/100] uniandes_dance_013_7 (GT=Early Expert)
@@ -30,97 +30,97 @@ Prompt: What is the skill level of the person in this video? Answer only one: No
 [11/100] uniandes_dance_008_11 (GT=Late Expert)
   Intermediate Expert X | raw: Intermediate Expert
 [12/100] uniandes_dance_023_51 (GT=Early Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: Novice
 [13/100] uniandes_dance_024_3 (GT=Novice)
   Intermediate Expert X | raw: Intermediate Expert
 [14/100] uniandes_dance_017_4 (GT=Novice)
   Intermediate Expert X | raw: Intermediate Expert
 [15/100] uniandes_dance_022_17 (GT=Late Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: Novice
 [16/100] uniandes_dance_017_6 (GT=Novice)
   Intermediate Expert X | raw: Intermediate Expert
 [17/100] uniandes_dance_002_3 (GT=Late Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: Novice
 [18/100] uniandes_dance_002_13 (GT=Early Expert)
   Novice X | raw: Novice
 [19/100] uniandes_dance_020_28 (GT=Novice)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice OK | raw: Novice
 [20/100] upenn_0629_Dance_2_2 (GT=Early Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: Novice
 [21/100] uniandes_dance_016_46 (GT=Novice)
   Intermediate Expert X | raw: Intermediate Expert
 [22/100] uniandes_dance_019_7 (GT=Intermediate Expert)
-  Intermediate Expert OK | raw: Intermediate Expert
+  Novice X | raw: Novice
 [23/100] uniandes_dance_021_29 (GT=Intermediate Expert)
   Intermediate Expert OK | raw: Intermediate Expert
 [24/100] uniandes_dance_008_50 (GT=Intermediate Expert)
-  Intermediate Expert OK | raw: Intermediate Expert
+  Novice X | raw: Novice
 [25/100] uniandes_dance_021_19 (GT=Intermediate Expert)
   Intermediate Expert OK | raw: Intermediate Expert
 [26/100] uniandes_dance_008_13 (GT=Late Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: Novice
 [27/100] uniandes_dance_024_8 (GT=Novice)
-  Early Expert X | raw: Early Expert
+  Novice OK | raw: Novice
 [28/100] uniandes_dance_007_7 (GT=Intermediate Expert)
-  Intermediate Expert OK | raw: Intermediate Expert
+  Novice X | raw: Novice
 [29/100] uniandes_dance_021_12 (GT=Late Expert)
   Intermediate Expert X | raw: Intermediate Expert
 [30/100] uniandes_dance_013_15 (GT=Late Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: Novice
 [31/100] uniandes_dance_012_24 (GT=Intermediate Expert)
-  Intermediate Expert OK | raw: Intermediate Expert
+  Novice X | raw: Novice
 [32/100] uniandes_dance_020_27 (GT=Novice)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice OK | raw: Novice
 [33/100] upenn_0720_Dance_4_5 (GT=Early Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: Novice
 [34/100] uniandes_dance_019_20 (GT=Intermediate Expert)
-  Intermediate Expert OK | raw: Intermediate Expert
+  Novice X | raw: Novice
 [35/100] uniandes_dance_016_8 (GT=Early Expert)
   Intermediate Expert X | raw: Intermediate Expert
 [36/100] uniandes_dance_020_34 (GT=Late Expert)
-  Intermediate Expert X | raw: Intermediate Expert
-[37/100] uniandes_dance_013_22 (GT=Late Expert)
-  Intermediate Expert X | raw: Intermediate Expert
-[38/100] upenn_0706_Dance_4_3 (GT=Early Expert)
   Novice X | raw: Novice
+[37/100] uniandes_dance_013_22 (GT=Late Expert)
+  Novice X | raw: Novice
+[38/100] upenn_0706_Dance_4_3 (GT=Early Expert)
+  Intermediate Expert X | raw: Intermediate Expert
 [39/100] uniandes_dance_012_19 (GT=Intermediate Expert)
-  Intermediate Expert OK | raw: Intermediate Expert
+  Novice X | raw: Novice
 [40/100] uniandes_dance_002_24 (GT=Early Expert)
   Novice X | raw: Novice
 [41/100] uniandes_dance_020_22 (GT=Novice)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice OK | raw: Novice
 [42/100] uniandes_dance_019_6 (GT=Intermediate Expert)
-  Intermediate Expert OK | raw: Intermediate Expert
+  Novice X | raw: Novice
 [43/100] upenn_0720_Dance_3_7 (GT=Early Expert)
   Novice X | raw: Novice
 [44/100] uniandes_dance_024_7 (GT=Novice)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice OK | raw: Novice
 [45/100] upenn_0727_Partner_Dance_2_1_4 (GT=Late Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: Novice
 [46/100] upenn_0720_Dance_3_11 (GT=Early Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: Novice
 [47/100] uniandes_dance_012_25 (GT=Intermediate Expert)
-  Intermediate Expert OK | raw: Intermediate Expert
+  Novice X | raw: Novice
 [48/100] upenn_0730_Dance_2_5 (GT=Late Expert)
-  Late Expert OK | raw: Late Expert
+  Intermediate Expert X | raw: Intermediate Expert
 [49/100] uniandes_dance_008_8 (GT=Late Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: Novice
 [50/100] uniandes_dance_019_58 (GT=Late Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: Novice
 [51/100] uniandes_dance_011_29 (GT=Late Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: Novice
 [52/100] uniandes_dance_016_45 (GT=Novice)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice OK | raw: Novice
 [53/100] uniandes_dance_011_43 (GT=Early Expert)
   Intermediate Expert X | raw: Intermediate Expert
 [54/100] upenn_0727_Partner_Dance_2_2_4 (GT=Early Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: Novice
 [55/100] uniandes_dance_016_44 (GT=Novice)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice OK | raw: Novice
 [56/100] uniandes_dance_022_9 (GT=Novice)
   Intermediate Expert X | raw: Intermediate Expert
 [57/100] uniandes_dance_021_20 (GT=Intermediate Expert)
-  Early Expert X | raw: Early Expert
+  Intermediate Expert OK | raw: Intermediate Expert
 [58/100] uniandes_dance_022_48 (GT=Late Expert)
   Intermediate Expert X | raw: Intermediate Expert
 [59/100] uniandes_dance_008_38 (GT=Late Expert)
@@ -134,37 +134,37 @@ Prompt: What is the skill level of the person in this video? Answer only one: No
 [63/100] uniandes_dance_021_5 (GT=Late Expert)
   Intermediate Expert X | raw: Intermediate Expert
 [64/100] uniandes_dance_012_28 (GT=Late Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: Novice
 [65/100] uniandes_dance_016_12 (GT=Early Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: Novice
 [66/100] uniandes_dance_024_17 (GT=Early Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: Novice
 [67/100] uniandes_dance_022_7 (GT=Novice)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice OK | raw: Novice
 [68/100] uniandes_dance_021_23 (GT=Intermediate Expert)
-  Intermediate Expert OK | raw: Intermediate Expert
+  Novice X | raw: Novice
 [69/100] uniandes_dance_011_16 (GT=Intermediate Expert)
-  Intermediate Expert OK | raw: Intermediate Expert
+  Novice X | raw: Novice
 [70/100] uniandes_dance_019_18 (GT=Intermediate Expert)
-  Intermediate Expert OK | raw: Intermediate Expert
+  Novice X | raw: Novice
 [71/100] uniandes_dance_017_36 (GT=Early Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: Novice
 [72/100] uniandes_dance_012_22 (GT=Intermediate Expert)
-  Intermediate Expert OK | raw: Intermediate Expert
+  Novice X | raw: Novice
 [73/100] uniandes_dance_012_29 (GT=Late Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: Novice
 [74/100] upenn_0706_Dance_1_7 (GT=Early Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: The skill level of the person in this video is: Novice
 [75/100] upenn_0730_Dance_1_4 (GT=Intermediate Expert)
   Novice X | raw: Novice
 [76/100] upenn_0720_Dance_3_13 (GT=Early Expert)
-  Novice X | raw: Novice
-[77/100] uniandes_dance_007_4 (GT=Intermediate Expert)
-  Intermediate Expert OK | raw: Intermediate Expert
-[78/100] uniandes_dance_012_33 (GT=Late Expert)
   Intermediate Expert X | raw: Intermediate Expert
+[77/100] uniandes_dance_007_4 (GT=Intermediate Expert)
+  Novice X | raw: Novice
+[78/100] uniandes_dance_012_33 (GT=Late Expert)
+  Novice X | raw: Novice
 [79/100] upenn_0706_Dance_2_2 (GT=Intermediate Expert)
-  Intermediate Expert OK | raw: Intermediate Expert
+  Novice X | raw: Novice
 [80/100] uniandes_dance_020_61 (GT=Early Expert)
   Intermediate Expert X | raw: Intermediate Expert
 [81/100] uniandes_dance_022_5 (GT=Novice)
@@ -178,7 +178,7 @@ Prompt: What is the skill level of the person in this video? Answer only one: No
 [85/100] uniandes_dance_024_4 (GT=Novice)
   Intermediate Expert X | raw: Intermediate Expert
 [86/100] uniandes_dance_008_44 (GT=Intermediate Expert)
-  Intermediate Expert OK | raw: Intermediate Expert
+  Novice X | raw: Novice
 [87/100] uniandes_dance_024_2 (GT=Novice)
   Intermediate Expert X | raw: Intermediate Expert
 [88/100] uniandes_dance_011_33 (GT=Late Expert)
@@ -186,17 +186,17 @@ Prompt: What is the skill level of the person in this video? Answer only one: No
 [89/100] uniandes_dance_019_49 (GT=Late Expert)
   Intermediate Expert X | raw: Intermediate Expert
 [90/100] uniandes_dance_022_10 (GT=Novice)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice OK | raw: Novice
 [91/100] upenn_0706_Dance_2_5 (GT=Intermediate Expert)
   Novice X | raw: Novice
 [92/100] uniandes_dance_015_18 (GT=Late Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Early Expert X | raw: Early Expert
 [93/100] uniandes_dance_017_58 (GT=Novice)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice OK | raw: Novice
 [94/100] upenn_0720_Dance_3_3 (GT=Early Expert)
   Novice X | raw: Novice
 [95/100] uniandes_dance_020_11 (GT=Early Expert)
-  Intermediate Expert X | raw: Intermediate Expert
+  Novice X | raw: Novice
 [96/100] upenn_0629_Dance_3_4 (GT=Early Expert)
   Intermediate Expert X | raw: Intermediate Expert
 [97/100] uniandes_dance_022_6 (GT=Novice)
@@ -204,17 +204,29 @@ Prompt: What is the skill level of the person in this video? Answer only one: No
 [98/100] uniandes_dance_020_18 (GT=Novice)
   Novice OK | raw: Novice
 [99/100] uniandes_dance_012_14 (GT=Intermediate Expert)
-  Intermediate Expert OK | raw: Intermediate Expert
+  Novice X | raw: Novice
 [100/100] uniandes_dance_023_56 (GT=Early Expert)
   Intermediate Expert X | raw: Intermediate Expert
 
 Batch complete. Processed 100 clips.
 
-RESULTS — Gemini fourclass dance
-Overall: 24/100 = 24.0%
-Late Expert           : 1/25 = 4.0%
+RESULTS — Gemini fourclass dance (ego)
+Overall: 21/100 = 21.0%
+Late Expert           : 0/25 = 0.0%
 Early Expert          : 0/25 = 0.0%
-Intermediate Expert   : 21/25 = 84.0%
-Novice                : 2/25 = 8.0%
+Intermediate Expert   : 6/25 = 24.0%
+Novice                : 15/25 = 60.0%
 Random: 25%
-Answers: {'Intermediate Expert': 84, 'Novice': 13, 'Early Expert': 2, 'Late Expert': 1}
+Answers: {'Novice': 65, 'Intermediate Expert': 34, 'Early Expert': 1}
+
+############################################################
+Run started: 2026-07-26T16:44:51.418376
+############################################################
+
+Found 100 already-completed clips. Resuming.
+
+Total: 100 | Done: 100 | Remaining: 0
+Model: gemini-3.1-flash-lite
+Prompt: What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert
+
+All clips already completed!

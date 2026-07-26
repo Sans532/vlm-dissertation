@@ -1,0 +1,133 @@
+
+############################################################
+Run started: 2026-07-22T18:08:42.225435
+############################################################
+
+
+############################################################
+Run started: 2026-07-22T18:16:13.455822
+############################################################
+
+Total: 50 | Done: 0 | Remaining: 50
+Model: gemini-3.1-flash-lite
+Prompt: Is this person a Novice or an Expert at this activity? Answer only: Novice or Expert
+
+[1/50] upenn_0730_Dance_2_5 (GT=Late Expert)
+  Novice X | raw: Novice
+[2/50] uniandes_dance_022_6 (GT=Novice)
+  Novice OK | raw: Novice
+[3/50] uniandes_dance_022_5 (GT=Novice)
+  Novice OK | raw: Novice
+[4/50] uniandes_dance_013_14 (GT=Late Expert)
+  Novice X | raw: Novice
+[5/50] uniandes_dance_022_7 (GT=Novice)
+  Novice OK | raw: Novice
+[6/50] uniandes_dance_021_2 (GT=Late Expert)
+  Novice X | raw: Novice
+[7/50] uniandes_dance_015_18 (GT=Late Expert)
+  Novice X | raw: Novice
+[8/50] uniandes_dance_021_9 (GT=Late Expert)
+  Novice X | raw: Novice
+[9/50] uniandes_dance_020_27 (GT=Novice)
+  Novice OK | raw: Novice
+[10/50] upenn_0727_Partner_Dance_2_1_4 (GT=Late Expert)
+  Novice X | raw: Novice
+[11/50] uniandes_dance_020_26 (GT=Novice)
+  Novice OK | raw: Novice
+[12/50] uniandes_dance_013_22 (GT=Late Expert)
+  Novice X | raw: Novice
+[13/50] uniandes_dance_002_3 (GT=Late Expert)
+  Novice X | raw: Novice
+[14/50] uniandes_dance_024_6 (GT=Novice)
+  Novice OK | raw: Novice
+[15/50] uniandes_dance_022_3 (GT=Novice)
+  Novice OK | raw: Novice
+[16/50] uniandes_dance_022_23 (GT=Late Expert)
+  Novice X | raw: Novice
+[17/50] uniandes_dance_022_10 (GT=Novice)
+  Novice OK | raw: Novice
+[18/50] uniandes_dance_016_44 (GT=Novice)
+  Novice OK | raw: Novice
+[19/50] uniandes_dance_017_4 (GT=Novice)
+  Novice OK | raw: Novice
+[20/50] uniandes_dance_024_4 (GT=Novice)
+  Novice OK | raw: Novice
+[21/50] uniandes_dance_022_8 (GT=Novice)
+  Novice OK | raw: Novice
+[22/50] uniandes_dance_017_56 (GT=Novice)
+  Novice OK | raw: Novice
+[23/50] upenn_0727_Partner_Dance_2_1_2 (GT=Late Expert)
+  Novice X | raw: Novice
+[24/50] uniandes_dance_017_5 (GT=Novice)
+  Novice OK | raw: Novice
+[25/50] uniandes_dance_008_13 (GT=Late Expert)
+  Novice X | raw: Novice
+[26/50] uniandes_dance_017_3 (GT=Novice)
+  Novice OK | raw: Novice
+[27/50] uniandes_dance_020_25 (GT=Novice)
+  Novice OK | raw: Novice
+[28/50] uniandes_dance_011_32 (GT=Late Expert)
+  Novice X | raw: Novice
+[29/50] uniandes_dance_019_51 (GT=Late Expert)
+  Novice X | raw: Novice
+[30/50] uniandes_dance_011_28 (GT=Late Expert)
+  Novice X | raw: Novice
+[31/50] uniandes_dance_016_45 (GT=Novice)
+  Novice OK | raw: Novice
+[32/50] uniandes_dance_017_54 (GT=Novice)
+  Novice OK | raw: Novice
+[33/50] uniandes_dance_012_28 (GT=Late Expert)
+  Novice X | raw: Novice
+[34/50] uniandes_dance_016_42 (GT=Novice)
+  Novice OK | raw: Novice
+[35/50] uniandes_dance_020_18 (GT=Novice)
+  Novice OK | raw: Novice
+[36/50] upenn_0727_Partner_Dance_2_1_3 (GT=Late Expert)
+  Novice X | raw: Novice
+[37/50] uniandes_dance_016_46 (GT=Novice)
+  Novice OK | raw: Novice
+[38/50] uniandes_dance_019_52 (GT=Late Expert)
+  Novice X | raw: Novice
+[39/50] uniandes_dance_012_36 (GT=Late Expert)
+  Novice X | raw: Novice
+[40/50] uniandes_dance_008_36 (GT=Late Expert)
+  Novice X | raw: Novice
+[41/50] uniandes_dance_022_9 (GT=Novice)
+  Novice OK | raw: Novice
+[42/50] uniandes_dance_020_21 (GT=Novice)
+  Novice OK | raw: Novice
+[43/50] uniandes_dance_012_31 (GT=Late Expert)
+  Novice X | raw: Novice
+[44/50] uniandes_dance_015_14 (GT=Late Expert)
+  Novice X | raw: Novice
+[45/50] uniandes_dance_012_35 (GT=Late Expert)
+  Novice X | raw: Novice
+[46/50] uniandes_dance_023_26 (GT=Late Expert)
+  Expert OK | raw: Expert
+[47/50] uniandes_dance_020_22 (GT=Novice)
+  Novice OK | raw: Novice
+[48/50] uniandes_dance_022_27 (GT=Late Expert)
+  Novice X | raw: Novice
+[49/50] uniandes_dance_011_36 (GT=Late Expert)
+  Novice X | raw: Novice
+[50/50] uniandes_dance_024_7 (GT=Novice)
+  Novice OK | raw: Novice
+
+Batch complete. Processed 50 clips.
+
+RESULTS — Gemini binary dance (ego)
+Overall: 26/50 = 52.0%
+Random: 50%
+Answers: {'Novice': 49, 'Expert': 1}
+
+############################################################
+Run started: 2026-07-26T16:44:46.971456
+############################################################
+
+Found 50 already-completed clips. Resuming.
+
+Total: 50 | Done: 50 | Remaining: 0
+Model: gemini-3.1-flash-lite
+Prompt: Is this person a Novice or an Expert at this activity? Answer only: Novice or Expert
+
+All clips already completed!
