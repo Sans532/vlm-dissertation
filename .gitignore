@@ -1,1 +1,5 @@
 dissertation_v2/results/all_frames.zip
+.DS_Store
+__pycache__/
+*.bak
+.claude/

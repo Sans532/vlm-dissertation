@@ -73,19 +73,33 @@ class QuotaExceeded(Exception):
     pass
 
 
+LABEL_TOKEN_RE = re.compile(
+    r"\b(late\s+expert|intermediate\s+expert|early\s+expert|late|intermediate|early|novice)\b",
+    re.IGNORECASE,
+)
+VERDICT_WINDOW = 400
+
+
+def _normalize_label_token(tok):
+    t = tok.lower()
+    if "late" in t: return "Late Expert"
+    if "intermediate" in t: return "Intermediate Expert"
+    if "early" in t: return "Early Expert"
+    if "novice" in t: return "Novice"
+    return None
+
+
 def extract_label(answer):
-    a = answer.lower()
-    match = re.search(r"skill level:\s*(.+)", a, re.IGNORECASE)
-    search_text = match.group(1) if match else a
-    if "late expert" in search_text: return "Late Expert"
-    if "intermediate" in search_text: return "Intermediate Expert"
-    if "early expert" in search_text: return "Early Expert"
-    if "novice" in search_text: return "Novice"
-    if "late expert" in a: return "Late Expert"
-    if "intermediate" in a: return "Intermediate Expert"
-    if "early expert" in a: return "Early Expert"
-    if "novice" in a: return "Novice"
-    return "Unknown"
+    # The model's real verdict is always stated near the start of the answer;
+    # later text often restates a label again as a comparison or coaching aside
+    # ("to progress toward Late Expert..."). Take the first label mention by
+    # position, not by a fixed severity priority, so asides can't override the
+    # actual verdict.
+    window = answer[:VERDICT_WINDOW]
+    match = LABEL_TOKEN_RE.search(window)
+    if not match:
+        match = LABEL_TOKEN_RE.search(answer)
+    return _normalize_label_token(match.group(1)) if match else "Unknown"
 
 
 benchmark = json.load(open(BENCHMARK_PATH))

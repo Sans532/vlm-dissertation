@@ -1,0 +1,13 @@
+Wrote /Users/sans/Documents/Msc courses/vlm-dissertation/dissertation_v2/results/videollava/vl_climbing_entire_n8_reasoning_fixed.csv
+
+============================================================
+RESULTS — VideoLLaVA reasoning prompt 8 frames (fixed extraction)
+============================================================
+  exo: 22/100 = 22.0%
+  ego: 12/100 = 12.0%
+
+Random chance: 25%
+
+Exo predictions: {'Intermediate Expert': 75, 'Late Expert': 16, 'Unknown': 9}
+Ego predictions: {'Unknown': 48, 'Intermediate Expert': 29, 'Late Expert': 17, 'Novice': 4, 'Early Expert': 2}
+============================================================
