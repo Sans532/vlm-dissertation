@@ -1,0 +1,466 @@
+Fri Jul 31 14:13:28 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H200                    On  |   00000000:3B:00.0 Off |                   On |
+| N/A   35C    P0            132W /  700W |     777MiB / 143771MiB |     N/A      Default |
+|                                         |                        |              Enabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| MIG devices:                                                                            |
++------------------+----------------------------------+-----------+-----------------------+
+| GPU  GI  CI  MIG |              Shared Memory-Usage |        Vol|        Shared         |
+|      ID  ID  Dev |                Shared BAR1-Usage | SM     Unc| CE ENC  DEC  OFA  JPG |
+|                  |                                  |        ECC|                       |
+|==================+==================================+===========+=======================|
+|  0    1   0   0  |              44MiB / 71424MiB    | 60      0 |  3   0    3    0    3 |
+|                  |               0MiB / 59237MiB    |           |                       |
++------------------+----------------------------------+-----------+-----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading takes metadata...
+Loaded 5035 takes.
+
+Loading Qwen2.5-VL-7B ...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [01:11<14:21:28, 71.00s/it]Loading weights:   0%|          | 2/729 [01:14<6:18:02, 31.20s/it] Loading weights:   7%|▋         | 54/729 [01:20<09:09,  1.23it/s] Loading weights:   9%|▉         | 64/729 [01:24<08:04,  1.37it/s]Loading weights:   9%|▉         | 65/729 [01:26<08:17,  1.33it/s]Loading weights:  10%|█         | 76/729 [01:34<08:08,  1.34it/s]Loading weights:  11%|█         | 78/729 [01:35<08:01,  1.35it/s]Loading weights:  12%|█▏        | 88/729 [01:39<06:42,  1.59it/s]Loading weights:  12%|█▏        | 89/729 [01:43<08:20,  1.28it/s]Loading weights:  14%|█▎        | 100/729 [01:48<06:49,  1.54it/s]Loading weights:  14%|█▍        | 102/729 [01:55<09:32,  1.10it/s]Loading weights:  15%|█▌        | 112/729 [02:38<24:04,  2.34s/it]Loading weights:  16%|█▌        | 113/729 [02:45<26:29,  2.58s/it]Loading weights:  17%|█▋        | 124/729 [03:12<25:29,  2.53s/it]Loading weights:  17%|█▋        | 126/729 [03:13<23:08,  2.30s/it]Loading weights:  19%|█▊        | 136/729 [03:18<14:49,  1.50s/it]Loading weights:  19%|█▉        | 137/729 [03:32<22:08,  2.24s/it]Loading weights:  20%|██        | 148/729 [03:37<13:35,  1.40s/it]Loading weights:  20%|██        | 149/729 [03:38<13:10,  1.36s/it]Loading weights:  21%|██        | 150/729 [03:42<15:07,  1.57s/it]Loading weights:  22%|██▏       | 160/729 [03:48<09:55,  1.05s/it]Loading weights:  22%|██▏       | 161/729 [03:48<09:22,  1.01it/s]Loading weights:  22%|██▏       | 162/729 [03:48<08:54,  1.06it/s]Loading weights:  24%|██▎       | 172/729 [03:57<08:32,  1.09it/s]Loading weights:  24%|██▎       | 173/729 [03:59<08:46,  1.06it/s]Loading weights:  25%|██▌       | 184/729 [04:04<06:12,  1.46it/s]Loading weights:  25%|██▌       | 185/729 [04:07<07:55,  1.14it/s]Loading weights:  26%|██▌       | 186/729 [04:09<08:12,  1.10it/s]Loading weights:  27%|██▋       | 196/729 [04:13<05:47,  1.54it/s]Loading weights:  27%|██▋       | 197/729 [04:14<05:45,  1.54it/s]Loading weights:  27%|██▋       | 198/729 [04:17<08:12,  1.08it/s]Loading weights:  29%|██▊       | 208/729 [04:23<06:10,  1.41it/s]Loading weights:  29%|██▊       | 209/729 [04:23<05:46,  1.50it/s]Loading weights:  29%|██▉       | 210/729 [04:23<05:36,  1.54it/s]Loading weights:  30%|███       | 220/729 [04:31<06:10,  1.37it/s]Loading weights:  30%|███       | 221/729 [04:32<06:19,  1.34it/s]Loading weights:  32%|███▏      | 232/729 [04:36<04:17,  1.93it/s]Loading weights:  32%|███▏      | 233/729 [04:40<06:32,  1.26it/s]Loading weights:  32%|███▏      | 234/729 [04:41<06:39,  1.24it/s]Loading weights:  33%|███▎      | 244/729 [04:46<04:52,  1.66it/s]Loading weights:  34%|███▎      | 246/729 [04:50<06:26,  1.25it/s]Loading weights:  35%|███▌      | 256/729 [04:55<05:12,  1.51it/s]Loading weights:  35%|███▌      | 257/729 [04:55<04:59,  1.57it/s]Loading weights:  37%|███▋      | 268/729 [05:04<05:25,  1.42it/s]Loading weights:  37%|███▋      | 269/729 [05:05<05:27,  1.41it/s]Loading weights:  38%|███▊      | 280/729 [05:09<04:19,  1.73it/s]Loading weights:  39%|███▊      | 281/729 [05:13<05:52,  1.27it/s]Loading weights:  39%|███▊      | 282/729 [05:14<05:38,  1.32it/s]Loading weights:  40%|████      | 292/729 [05:18<04:19,  1.68it/s]Loading weights:  40%|████      | 293/729 [05:19<04:05,  1.77it/s]Loading weights:  40%|████      | 294/729 [05:23<06:39,  1.09it/s]Loading weights:  42%|████▏     | 304/729 [05:28<04:42,  1.50it/s]Loading weights:  42%|████▏     | 305/729 [05:28<04:28,  1.58it/s]Loading weights:  43%|████▎     | 316/729 [05:37<05:04,  1.36it/s]Loading weights:  43%|████▎     | 317/729 [05:37<04:49,  1.42it/s]Loading weights:  45%|████▍     | 328/729 [05:41<03:34,  1.87it/s]Loading weights:  45%|████▌     | 329/729 [05:46<05:21,  1.24it/s]Loading weights:  45%|████▌     | 330/729 [05:46<05:00,  1.33it/s]Loading weights:  52%|█████▏    | 379/729 [05:47<00:42,  8.27it/s]Loading weights:  53%|█████▎    | 383/729 [05:47<00:39,  8.86it/s]Loading weights:  53%|█████▎    | 389/729 [05:47<00:33, 10.21it/s]Loading weights:  54%|█████▍    | 393/729 [05:48<00:35,  9.41it/s]Loading weights:  54%|█████▍    | 396/729 [05:48<00:32, 10.28it/s]Loading weights:  55%|█████▌    | 401/729 [05:48<00:26, 12.45it/s]Loading weights:  56%|█████▌    | 405/729 [05:49<00:31, 10.20it/s]Loading weights:  57%|█████▋    | 413/729 [05:49<00:21, 14.95it/s]Loading weights:  57%|█████▋    | 417/729 [05:50<00:31,  9.90it/s]Loading weights:  59%|█████▊    | 427/729 [05:50<00:27, 11.10it/s]Loading weights:  60%|█████▉    | 437/729 [05:51<00:18, 15.81it/s]Loading weights:  60%|██████    | 441/729 [05:51<00:20, 13.72it/s]Loading weights:  61%|██████    | 445/729 [05:52<00:24, 11.56it/s]Loading weights:  62%|██████▏   | 451/729 [05:52<00:19, 14.45it/s]Loading weights:  62%|██████▏   | 455/729 [05:52<00:19, 13.79it/s]Loading weights:  63%|██████▎   | 458/729 [05:52<00:18, 14.85it/s]Loading weights:  64%|██████▎   | 463/729 [05:53<00:19, 13.74it/s]Loading weights:  64%|██████▍   | 465/729 [05:53<00:20, 13.05it/s]Loading weights:  64%|██████▍   | 469/729 [05:53<00:16, 15.85it/s]Loading weights:  65%|██████▌   | 475/729 [05:54<00:19, 12.95it/s]Loading weights:  66%|██████▌   | 479/729 [05:54<00:16, 15.12it/s]Loading weights:  66%|██████▌   | 482/729 [05:54<00:17, 13.84it/s]Loading weights:  67%|██████▋   | 487/729 [05:54<00:17, 13.58it/s]Loading weights:  67%|██████▋   | 491/729 [05:55<00:14, 16.03it/s]Loading weights:  68%|██████▊   | 494/729 [05:55<00:15, 15.44it/s]Loading weights:  68%|██████▊   | 499/729 [05:55<00:15, 14.66it/s]Loading weights:  69%|██████▉   | 503/729 [05:56<00:17, 13.13it/s]Loading weights:  70%|███████   | 511/729 [05:56<00:16, 13.09it/s]Loading weights:  71%|███████   | 515/729 [05:56<00:14, 15.22it/s]Loading weights:  71%|███████▏  | 521/729 [05:56<00:10, 19.62it/s]Loading weights:  72%|███████▏  | 524/729 [05:57<00:16, 12.36it/s]Loading weights:  73%|███████▎  | 529/729 [05:57<00:12, 15.39it/s]Loading weights:  73%|███████▎  | 533/729 [05:57<00:10, 18.03it/s]Loading weights:  74%|███████▎  | 536/729 [05:58<00:15, 12.60it/s]Loading weights:  74%|███████▍  | 541/729 [05:58<00:12, 14.78it/s]Loading weights:  75%|███████▌  | 547/729 [05:59<00:13, 13.23it/s]Loading weights:  76%|███████▌  | 551/729 [05:59<00:12, 14.34it/s]Loading weights:  77%|███████▋  | 559/729 [05:59<00:12, 14.14it/s]Loading weights:  77%|███████▋  | 563/729 [06:00<00:10, 15.35it/s]Loading weights:  78%|███████▊  | 571/729 [06:00<00:11, 13.81it/s]Loading weights:  79%|███████▉  | 575/729 [06:00<00:09, 15.71it/s]Loading weights:  80%|███████▉  | 583/729 [06:01<00:10, 14.05it/s]Loading weights:  81%|████████  | 589/729 [06:01<00:08, 17.22it/s]Loading weights:  82%|████████▏ | 595/729 [06:02<00:09, 13.99it/s]Loading weights:  82%|████████▏ | 597/729 [06:02<00:09, 14.19it/s]Loading weights:  83%|████████▎ | 605/729 [06:02<00:05, 20.93it/s]Loading weights:  84%|████████▎ | 609/729 [06:03<00:10, 11.07it/s]Loading weights:  85%|████████▍ | 619/729 [06:03<00:08, 13.67it/s]Loading weights:  85%|████████▌ | 623/729 [06:04<00:07, 14.42it/s]Loading weights:  87%|████████▋ | 631/729 [06:04<00:06, 14.58it/s]Loading weights:  87%|████████▋ | 633/729 [06:04<00:06, 13.92it/s]Loading weights:  87%|████████▋ | 635/729 [06:05<00:06, 14.08it/s]Loading weights:  88%|████████▊ | 643/729 [06:05<00:06, 13.35it/s]Loading weights:  90%|████████▉ | 653/729 [06:05<00:03, 20.28it/s]Loading weights:  90%|████████▉ | 656/729 [06:06<00:05, 13.45it/s]Loading weights:  90%|█████████ | 659/729 [06:06<00:04, 14.27it/s]Loading weights:  91%|█████████ | 665/729 [06:06<00:03, 19.27it/s]Loading weights:  92%|█████████▏| 669/729 [06:07<00:04, 13.76it/s]Loading weights:  92%|█████████▏| 673/729 [06:07<00:03, 16.22it/s]Loading weights:  93%|█████████▎| 677/729 [06:07<00:02, 17.51it/s]Loading weights:  93%|█████████▎| 680/729 [06:08<00:04, 12.18it/s]Loading weights:  94%|█████████▍| 685/729 [06:08<00:03, 14.13it/s]Loading weights:  95%|█████████▍| 691/729 [06:08<00:02, 12.88it/s]Loading weights:  95%|█████████▌| 695/729 [06:09<00:02, 14.24it/s]Loading weights:  96%|█████████▋| 703/729 [06:09<00:02, 12.97it/s]Loading weights:  97%|█████████▋| 707/729 [06:09<00:01, 14.22it/s]Loading weights:  98%|█████████▊| 713/729 [06:10<00:00, 18.75it/s]Loading weights:  98%|█████████▊| 716/729 [06:10<00:00, 13.18it/s]Loading weights:  99%|█████████▊| 719/729 [06:10<00:00, 14.82it/s]Loading weights:  99%|█████████▉| 722/729 [06:10<00:00, 16.50it/s]Loading weights: 100%|█████████▉| 726/729 [06:14<00:00,  3.28it/s]Loading weights: 100%|██████████| 729/729 [06:14<00:00,  1.95it/s]
+Model loaded.
+
+Clips: 100 | frames: 8 | TRIMMED | Mixed activities
+
+Activities: {'Music': 20, 'Cooking': 21, 'Basketball': 48, 'Soccer': 11}
+Prompt: Watch these frames carefully.
+Step 1: Describe the person's body position and technique in detail.
+Step 2: Identify any errors or imprecisions in their movement.
+Step 3: Classify skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.
+Format your answer as:
+Observations: ...
+Errors: ...
+Skill Level: ...
+
+[1/100] upenn_0717_Piano_3_3 (Music, GT=Late Expert)
+  exo: Novice X | Observations: The man is playing the piano with his right hand. He is looking at
+  ego: Novice X | Observations: The person plays the piano with both hands. The left hand plays th
+
+[2/100] sfu_cooking_009_3 (Cooking, GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The woman is standing at the kitchen counter, holding a knife in h
+  ego: Intermediate Expert X | Observations: The person picks up the spatula with her right hand and uses it to
+
+[3/100] sfu_basketball015_20 (Basketball, GT=Novice)
+  exo: Novice OK | Observations: The woman in pink is dribbling a basketball on a court. She is wea
+  ego: Intermediate Expert X | Observations: A man X throws a ball into a basketball hoop. A woman Y catches th
+
+[4/100] iiith_cooking_13_1 (Cooking, GT=Novice)
+  exo: Novice OK | Observations: The woman is cooking on the stove. She is wearing glasses and has 
+  ego: Intermediate Expert X | Observations: The person is cooking an omelette on a stove. They are using a spa
+
+[5/100] utokyo_soccer_8000_46_47_10 (Soccer, GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is kicking a ball on a field.  Errors: The person is no
+  ego: Novice X | Observations: The person kicks the ball with his right foot.  Errors: The person
+
+[6/100] upenn_0702_Cooking_3_2 (Cooking, GT=Novice)
+  exo: Intermediate Expert X | Observations: The man X picks a bowl on the kitchen counter with his right hand.
+  ego: Intermediate Expert X | Observations: The person picks up a cucumber from the chopping board with his le
+
+[7/100] unc_basketball_03-16-23_02_25 (Basketball, GT=Early Expert)
+  exo: Novice X | Observations: A woman is standing on a basketball court, holding a basketball in
+  ego: Unknown X | Observations: The man X throws the ball to C. C throws the ball to the basketbal
+
+[8/100] unc_basketball_03-16-23_02_7 (Basketball, GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The man X throws the ball to the basketball hoop. The woman Y catc
+  ego: Unknown X | Observations: The man X throws the ball to C. C throws the ball to the basket. T
+
+[9/100] unc_basketball_03-16-23_02_14 (Basketball, GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The man A throws the ball to the basket. The man B catches the bal
+  ego: Novice X | Observations: A man X throws a ball into a basketball hoop.  Errors: The ball is
+
+[10/100] uniandes_basketball_005_3 (Basketball, GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The man jumps up and throws the ball into the hoop.  Errors: The m
+  ego: Unknown X | Observations: A man is playing basketball. The man throws the ball to the basket
+
+[11/100] uniandes_basketball_004_49 (Basketball, GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The man jumps up and throws the ball into the hoop.  Errors: The m
+  ego: Intermediate Expert X | Observations: The man X throws the ball to the basketball hoop. The man Y catche
+
+[12/100] upenn_0331_Guitar_1_5 (Music, GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is playing the guitar while wearing a helmet with senso
+  ego: Unknown X | Observations: A man X walks into the room. The man X stands behind the camera. T
+
+[13/100] upenn_0710_Cooking_1_3 (Cooking, GT=Novice)
+  exo: Novice OK | Observations: A woman is standing in front of the oven with a camera on her head
+  ego: Intermediate Expert X | Observations: The person is cooking food on a stove. They are using a spatula to
+
+[14/100] iiith_guitar_002_6 (Music, GT=Early Expert)
+  exo: Novice X | Observations: The man is playing guitar while sitting on a chair. He is wearing 
+  ego: Intermediate Expert X | Observations: The man X plays the guitar with his left hand on the neck of the g
+
+[15/100] sfu_cooking_003_1 (Cooking, GT=Early Expert)
+  exo: Intermediate Expert X | Observations: A man X stirs food in a pot on the stove with chopsticks. He holds
+  ego: Intermediate Expert X | Observations: The person puts the bowl on the counter and picks up the pan with 
+
+[16/100] iiith_cooking_44_1 (Cooking, GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The woman is cooking food on a stove. She is using a spatula to fl
+  ego: Intermediate Expert OK | Observations: The woman is cooking on a stove. She is using a spatula to flip a 
+
+[17/100] unc_basketball_03-16-23_02_15 (Basketball, GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The man jumps up and throws the ball into the hoop.  Errors: The m
+  ego: Intermediate Expert X | Observations: A man X throws a basketball towards the hoop. The ball goes throug
+
+[18/100] utokyo_soccer_8000_46_47_12 (Soccer, GT=Intermediate Expert)
+  exo: Novice X | Observations: The person kicks the ball with his right foot.  Errors: The person
+  ego: Novice X | Observations: The person kicks the ball towards the goal.  Errors: The person ki
+
+[19/100] iiith_soccer_041_2 (Soccer, GT=Late Expert)
+  exo: Novice X | Observations: The man in the red shirt is kicking a soccer ball with his right f
+  ego: Unknown X | Observations: The man K puts the ball on the ground with his right foot. The man
+
+[20/100] upenn_0707_Guitar_1_6 (Music, GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The man plays the guitar with his left hand on the neck and right 
+  ego: Unknown X | Observations: The man X plays the guitar. The man X looks at the music book. The
+
+[21/100] sfu_basketball_10_30 (Basketball, GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The man A throws the ball to the basket with his right hand.  Erro
+  ego: Intermediate Expert OK | Observations: The man X throws the ball into the basket.  Errors: None.  Skill L
+
+[22/100] sfu_cooking_009_5 (Cooking, GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The woman is standing at the kitchen counter, holding a cup in her
+  ego: Intermediate Expert X | Observations: The person puts the lid on the pot, then picks up the spoon and st
+
+[23/100] unc_basketball_02-24-23_01_5 (Basketball, GT=Early Expert)
+  exo: Novice X | Observations: The man B picks up the ball with his right hand, holds it with bot
+  ego: Novice X | Observations: The person is playing basketball. They are holding a ball with bot
+
+[24/100] iiith_soccer_020_2 (Soccer, GT=Late Expert)
+  exo: Novice X | Observations: The man in white is kicking a ball with his right foot. He is stan
+  ego: Intermediate Expert X | Observations: The man X kicks the ball towards the goal post.  Errors: The man X
+
+[25/100] iiith_soccer_006_4 (Soccer, GT=Late Expert)
+  exo: Novice X | Observations: A man in a black shirt is kicking a soccer ball. He is standing on
+  ego: Unknown X | Observations: A man X stands on the football pitch. The man X holds a ball with 
+
+[26/100] unc_basketball_03-31-23_01_43 (Basketball, GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The man B throws the ball into the basket with his right hand.  Er
+  ego: Intermediate Expert X | Observations: The man X throws the ball into the basket.  Errors: None.  Skill L
+
+[27/100] sfu_cooking_002_1 (Cooking, GT=Novice)
+  exo: Intermediate Expert X | Observations: The man X picks a cup from the kitchen counter with his right hand
+  ego: Unknown X | Observations: The man picks up the chopping board with his left hand and puts it
+
+[28/100] upenn_0407_Violin_2_5 (Music, GT=Intermediate Expert)
+  exo: Novice X | Observations: The woman is playing the violin while sitting on a chair. She is w
+  ego: Intermediate Expert OK | Observations: The person is playing the violin. The person is holding the violin
+
+[29/100] iiith_soccer_053_2 (Soccer, GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is kicking a ball with his right foot.  Errors: The per
+  ego: Novice X | Observations: The person kicks the ball with his right foot.  Errors: The person
+
+[30/100] iiith_soccer_028_6 (Soccer, GT=Late Expert)
+  exo: Novice X | Observations: The man in the blue shirt is kicking a ball with his right foot. H
+  ego: Intermediate Expert X | Observations: The man X kicks the ball towards the goal post with his right foot
+
+[31/100] iiith_guitar_002_4 (Music, GT=Early Expert)
+  exo: Novice X | Observations: The person is playing the guitar while sitting on a chair. He is w
+  ego: Intermediate Expert X | Observations: The man X plays the guitar. The man X looks at the music sheet. Th
+
+[32/100] uniandes_basketball_004_50 (Basketball, GT=Early Expert)
+  exo: Novice X | Observations: A man is playing basketball in a gym. He is dribbling the ball wit
+  ego: Unknown X | Observations: The man X picks a ball on the floor with his right hand. The man X
+
+[33/100] unc_basketball_03-17-23_01_11 (Basketball, GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The man X throws the ball to the man Y who catches it. Then, the m
+  ego: Unknown X | Observations: A man X throws a ball to C. C catches the ball. C throws the ball 
+
+[34/100] upenn_0725_Duet_Violin_1_2_4 (Music, GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The man X plays the violin. The woman Y plays the violin.  Errors:
+  ego: Intermediate Expert X | Observations: The woman X plays the violin with her left hand on the neck of the
+
+[35/100] upenn_0725_Duet_Violin_1_1_11 (Music, GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The woman plays the violin while the man holds the camera. The wom
+  ego: Intermediate Expert OK | Observations: A man is playing the violin. He is sitting on a chair. He is holdi
+
+[36/100] sfu_basketball015_8 (Basketball, GT=Novice)
+  exo: Intermediate Expert X | Observations: The woman in pink is standing on the basketball court, facing the 
+  ego: Intermediate Expert X | Observations: A man X throws a ball into a basketball hoop.  Errors: None.  Skil
+
+[37/100] iiith_cooking_03_1 (Cooking, GT=Early Expert)
+  exo: Unknown X | Observations: The woman X picks a knife from the chopping board with her right h
+  ego: Intermediate Expert X | Observations: The person picks up a spoon from the counter with her right hand, 
+
+[38/100] unc_basketball_03-17-23_01_8 (Basketball, GT=Intermediate Expert)
+  exo: Novice X | Observations: The man in the red shirt is dribbling the basketball with his righ
+  ego: Unknown X | Observations: A man X throws a ball to C. C catches the ball with his right hand
+
+[39/100] sfu_basketball012_12 (Basketball, GT=Novice)
+  exo: Novice OK | Observations: The man in white is dribbling the basketball with his right hand w
+  ego: Unknown X | Observations: The man X throws the ball to C. C catches the ball with his right 
+
+[40/100] uniandes_basketball_003_47 (Basketball, GT=Early Expert)
+  exo: Novice X | Observations: A man is playing basketball. He is holding a ball with his right h
+  ego: Novice X | Observations: A man X throws a ball into a basketball hoop.  Errors: The ball is
+
+[41/100] indiana_music_09_5 (Music, GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The person is playing the piano with both hands. Their left hand i
+  ego: Intermediate Expert X | Observations: The person plays the piano with both hands.  Errors: The person pl
+
+[42/100] sfu_basketball_06_10 (Basketball, GT=Novice)
+  exo: Intermediate Expert X | Observations: The man B throws the ball to the basket with his right hand.  Erro
+  ego: Intermediate Expert X | Observations: A man X throws a ball into a basketball hoop. The ball goes throug
+
+[43/100] upenn_0702_Cooking_5_3 (Cooking, GT=Novice)
+  exo: Intermediate Expert X | Observations: The man X picks a bottle from the kitchen counter with his right h
+  ego: Novice OK | Observations: The person washes a pan in the sink with both hands.  Errors: The 
+
+[44/100] iiith_soccer_006_2 (Soccer, GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The man in the red shirt kicks the ball with his right foot, then 
+  ego: Intermediate Expert X | Observations: The man X kicks the ball towards the goal post with his right foot
+
+[45/100] sfu_basketball_08_4 (Basketball, GT=Intermediate Expert)
+  exo: Novice X | Observations: The man jumps up and throws the ball into the basket.  Errors: The
+  ego: Novice X | Observations: A man is standing on a basketball court. He is holding a basketbal
+
+[46/100] sfu_basketball_08_50 (Basketball, GT=Novice)
+  exo: Intermediate Expert X | Observations: The man jumps up and throws the ball into the basket.  Errors: The
+  ego: Intermediate Expert X | Observations: The man X throws the ball into the basket.  Errors: N/A  Skill Lev
+
+[47/100] uniandes_basketball_003_28 (Basketball, GT=Late Expert)
+  exo: Novice X | Observations: The man dribbles the ball with his right hand, then throws it to t
+  ego: Novice X | Observations: The man X throws the ball to the basketball hoop. The man Y throws
+
+[48/100] unc_basketball_03-09-23_02_5 (Basketball, GT=Early Expert)
+  exo: Novice X | Observations: The woman is playing basketball. She is holding a ball with both h
+  ego: Intermediate Expert X | Observations: The man X throws the ball to the basketball hoop.  Errors: N/A  Sk
+
+[49/100] iiith_soccer_053_4 (Soccer, GT=Intermediate Expert)
+  exo: Novice X | Observations: The person is kicking a ball with his right foot. He is wearing a 
+  ego: Intermediate Expert OK | Observations: The person kicks the ball with his right foot.  Errors: The person
+
+[50/100] unc_basketball_03-31-23_01_19 (Basketball, GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The man in the blue shirt dribbles the ball with his right hand, t
+  ego: Unknown X | Observations: A man X dribbles a basketball on the court. The man X throws the b
+
+[51/100] iiith_cooking_42_1 (Cooking, GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The woman is cooking food on a stove. She is using a spatula to fl
+  ego: Intermediate Expert OK | Observations: The woman is cooking an omelette on a pan. She is using a spatula 
+
+[52/100] unc_basketball_03-31-23_02_4 (Basketball, GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The man B throws the ball to the man A who catches it. Then, the m
+  ego: Unknown X | Observations: The man X throws the ball to C. C catches the ball with both hands
+
+[53/100] upenn_0728_Guitar_1_6 (Music, GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The man is playing the guitar while wearing a helmet with sensors 
+  ego: Novice X | Observations: The person is playing a guitar.  Errors: The person is not moving 
+
+[54/100] uniandes_basketball_001_31 (Basketball, GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The woman jumps up and throws the ball into the hoop.  Errors: The
+  ego: Novice X | Observations: The person throws the ball towards the basketball hoop.  Errors: T
+
+[55/100] sfu_basketball012_6 (Basketball, GT=Novice)
+  exo: Intermediate Expert X | Observations: The man jumps up and throws the ball into the basket.  Errors: The
+  ego: Novice OK | Observations: The person holds a basketball with his left hand and throws it tow
+
+[56/100] upenn_0718_Violin_1_3 (Music, GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The woman is playing the violin.  Errors: The woman is not looking
+  ego: Novice X | Observations: The person is playing the violin. The person is holding the bow wi
+
+[57/100] uniandes_cooking_008_6 (Cooking, GT=Novice)
+  exo: Intermediate Expert X | Observations: The man picks up a spoon from the counter with his right hand, the
+  ego: Intermediate Expert X | Observations: The man X picks a packet of sugar from the table with his right ha
+
+[58/100] sfu_basketball_09_22 (Basketball, GT=Novice)
+  exo: Novice OK | Observations: The man in the blue shirt dribbles the ball and throws it into the
+  ego: Novice OK | Observations: The man X throws the ball to the basket. The man Y throws the ball
+
+[59/100] sfu_basketball_07_44 (Basketball, GT=Novice)
+  exo: Novice OK | Observations: A man is playing basketball in a gym. He is wearing a blue shirt a
+  ego: Novice OK | Observations: A man X stands on the basketball court. The man X throws a ball to
+
+[60/100] iiith_soccer_028_4 (Soccer, GT=Late Expert)
+  exo: Novice X | Observations: The man in the light blue shirt is kicking a ball. He is standing 
+  ego: Novice X | Observations: The person is kicking a ball with his right foot.  Errors: The per
+
+[61/100] unc_basketball_03-31-23_01_6 (Basketball, GT=Late Expert)
+  exo: Novice X | Observations: The man holds the basketball with both hands and dribbles it with 
+  ego: Unknown X | Observations: The man X picks up the ball with his right hand. The man Y picks u
+
+[62/100] iiith_guitar_002_10 (Music, GT=Early Expert)
+  exo: Novice X | Observations: The person is playing the guitar while sitting on a chair. He is w
+  ego: Novice X | Observations: The person is playing the guitar.  Errors: The person is not movin
+
+[63/100] uniandes_basketball_003_35 (Basketball, GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The person is playing basketball. She dribbles the ball, jumps, an
+  ego: Intermediate Expert OK | Observations: The man X throws the ball into the basket.  Errors: None.  Skill L
+
+[64/100] upenn_0706_Guitar_2_3 (Music, GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The woman is playing the guitar. She is sitting on a chair. Her le
+  ego: Novice X | Observations: The person is playing the piano. The person is standing in front o
+
+[65/100] sfu_basketball012_4 (Basketball, GT=Novice)
+  exo: Novice OK | Observations: The man in white is dribbling the basketball with his right hand, 
+  ego: Unknown X | Observations: A man X throws a ball to C. C catches the ball with his right hand
+
+[66/100] unc_basketball_03-31-23_02_29 (Basketball, GT=Late Expert)
+  exo: Novice X | Observations: The man holds the ball with both hands and throws it to the basket
+  ego: Unknown X | Observations: The man X picks the ball on the floor with his right hand. The man
+
+[67/100] sfu_cooking_013_1 (Cooking, GT=Novice)
+  exo: Intermediate Expert X | Observations: The man picks up a spoon from the counter, then stirs the contents
+  ego: Intermediate Expert X | Observations: The person puts the egg on the pan with the spatula. Then, the per
+
+[68/100] upenn_0725_Violin_1_2 (Music, GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The woman is playing the violin. She is sitting on a chair with he
+  ego: Intermediate Expert OK | Observations: The person is playing the violin. The person is holding the bow wi
+
+[69/100] unc_basketball_03-16-23_01_19 (Basketball, GT=Early Expert)
+  exo: Unknown X | Observations: The man is playing basketball. He is holding a ball with both hand
+  ego: Unknown X | Observations: The man X throws the ball to C. C catches the ball with his right 
+
+[70/100] sfu_basketball_06_24 (Basketball, GT=Novice)
+  exo: Intermediate Expert X | Observations: The man A throws the ball to the man B who catches it. Then, the m
+  ego: Unknown X | Observations: The man X throws the ball to C. C catches the ball with both hands
+
+[71/100] unc_basketball_03-16-23_01_35 (Basketball, GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The man holds a basketball with both hands, then he jumps up and t
+  ego: Unknown X | Observations: The man X throws the ball to C. C throws the ball to the basket. T
+
+[72/100] indiana_music_05_4 (Music, GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The man holds the violin with his left hand and plays it with the 
+  ego: Novice X | Observations: The person is playing the violin with a bow. He is holding the vio
+
+[73/100] sfu_basketball013_12 (Basketball, GT=Intermediate Expert)
+  exo: Unknown X | Observations: The girl X throws the ball to the man Y. The man Y catches the bal
+  ego: Intermediate Expert OK | Observations: C catches the ball with his right hand.  Errors: None.  Skill Leve
+
+[74/100] unc_basketball_02-24-23_01_24 (Basketball, GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The man is playing basketball. He is dribbling the ball with his r
+  ego: Intermediate Expert X | Observations: The man X throws the ball to the basket. The man Y catches the bal
+
+[75/100] unc_basketball_03-31-23_01_44 (Basketball, GT=Late Expert)
+  exo: Novice X | Observations: The man holds a basketball with both hands and dribbles it with hi
+  ego: Novice X | Observations: The person throws the ball towards the basketball hoop.  Errors: T
+
+[76/100] upenn_0706_Guitar_2_5 (Music, GT=Early Expert)
+  exo: Novice X | Observations: The woman is playing the guitar while wearing a helmet.  Errors: T
+  ego: Intermediate Expert X | Observations: The person is playing a guitar. The person is looking at the music
+
+[77/100] unc_basketball_03-17-23_01_20 (Basketball, GT=Early Expert)
+  exo: Novice X | Observations: The man is playing basketball. He is holding a ball with his right
+  ego: Unknown X | Observations: A man is playing basketball. He throws the ball to the basket. The
+
+[78/100] upenn_0712_Cooking_1_5 (Cooking, GT=Intermediate Expert)
+  exo: Novice X | Observations: A woman is standing at the kitchen counter, washing her hands with
+  ego: Intermediate Expert OK | Observations: The person picks up a spoon from the counter with her left hand, t
+
+[79/100] utokyo_soccer_8000_46_47_6 (Soccer, GT=Late Expert)
+  exo: Unknown X | Observations: A man X runs towards the ball on the ground. The man X kicks the b
+  ego: Intermediate Expert X | Observations: A man X kicks a ball towards a goal. The ball goes into the goal. 
+
+[80/100] uniandes_basketball_004_41 (Basketball, GT=Novice)
+  exo: Intermediate Expert X | Observations: The person is playing basketball. She dribbles the ball, runs towa
+  ego: Novice OK | Observations: The person throws the ball towards the basketball hoop.  Errors: T
+
+[81/100] iiith_cooking_43_1 (Cooking, GT=Intermediate Expert)
+  exo: Novice X | Observations: The woman is stirring a pot on the stove with a spoon. She is wear
+  ego: Intermediate Expert OK | Observations: The person picks up a pair of tongs from the countertop with her r
+
+[82/100] unc_basketball_02-24-23_01_40 (Basketball, GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The man X throws the ball to the man Y. The man Y catches the ball
+  ego: Unknown X | Observations: The man X throws the ball to C. C catches the ball with his hands.
+
+[83/100] iiith_cooking_25_1 (Cooking, GT=Intermediate Expert)
+  exo: Intermediate Expert OK | Observations: The woman stirs the pot on the stove with a spoon.  Errors: None. 
+  ego: Intermediate Expert OK | Observations: The woman stirs the pot on the stove with a spoon. She then picks 
+
+[84/100] uniandes_basketball_002_11 (Basketball, GT=Intermediate Expert)
+  exo: Novice X | Observations: A woman is standing on a basketball court. She is holding a basket
+  ego: Intermediate Expert OK | Observations: The person holds a basketball with both hands.  Errors: N/A  Skill
+
+[85/100] upenn_0407_Violin_1_5 (Music, GT=Late Expert)
+  exo: Novice X | Observations: The person is playing the violin while wearing a head-mounted devi
+  ego: Intermediate Expert X | Observations: The person plays the violin.  Errors: The person moves the violin 
+
+[86/100] iiith_cooking_57_4 (Cooking, GT=Early Expert)
+  exo: Intermediate Expert X | Observations: The woman picks up a knife from the counter with her right hand, t
+  ego: Unknown X | Observations: The woman picks up the camera tripod with her right hand and adjus
+
+[87/100] sfu_cooking_003_3 (Cooking, GT=Early Expert)
+  exo: Unknown X | Observations: A man X picks a bottle of seasoning from the counter with his righ
+  ego: Intermediate Expert X | Observations: The person picks up a bottle of sauce from the counter with her le
+
+[88/100] uniandes_basketball_004_42 (Basketball, GT=Novice)
+  exo: Novice OK | Observations: A man is playing basketball. He is holding a ball with his right h
+  ego: Unknown X | Observations: A man X throws a ball to C. C catches the ball with both hands. C 
+
+[89/100] unc_basketball_03-31-23_02_2 (Basketball, GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The man jumps up and throws the ball into the basket.  Errors: The
+  ego: Intermediate Expert X | Observations: The man X throws the ball into the basket.  Errors: The ball hits 
+
+[90/100] unc_basketball_02-24-23_01_27 (Basketball, GT=Intermediate Expert)
+  exo: Novice X | Observations: The man is playing basketball. He is holding a ball with both hand
+  ego: Unknown X | Observations: The man X throws the ball to C. C catches the ball with his right 
+
+[91/100] indiana_music_14_4 (Music, GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The person is playing the piano with both hands, moving his finger
+  ego: Intermediate Expert X | Observations: The person plays the piano with both hands. The person looks at th
+
+[92/100] georgiatech_cooking_01_03_4 (Cooking, GT=Novice)
+  exo: Intermediate Expert X | Observations: A man is standing in the kitchen. He is holding a bottle of oil in
+  ego: Intermediate Expert X | Observations: The man picks up a piece of food from the chopping board with his 
+
+[93/100] unc_basketball_03-31-23_02_38 (Basketball, GT=Late Expert)
+  exo: Intermediate Expert X | Observations: The man jumps up and throws the ball into the hoop.  Errors: The m
+  ego: Intermediate Expert X | Observations: The man X throws the ball into the basket.  Errors: The ball hits 
+
+[94/100] iiith_cooking_02_3 (Cooking, GT=Novice)
+  exo: Intermediate Expert X | Observations: The man X picks up a cup from the table with his right hand. He po
+  ego: Novice OK | Observations: The person picks up a spoon from the table, then stirs the food in
+
+[95/100] sfu_basketball_09_4 (Basketball, GT=Novice)
+  exo: Novice OK | Observations: The woman is playing basketball. She is holding a ball with her ri
+  ego: Unknown X | Observations: The man X throws the ball to C. C catches the ball with both hands
+
+[96/100] sfu_basketball_06_12 (Basketball, GT=Novice)
+  exo: Intermediate Expert X | Observations: The man A throws the ball to the man B who catches it. Then, the m
+  ego: Unknown X | Observations: A man X throws a ball to C. C catches the ball. C throws the ball 
+
+[97/100] sfu_basketball_06_20 (Basketball, GT=Novice)
+  exo: Intermediate Expert X | Observations: The man in the blue shirt is playing basketball. He is holding a b
+  ego: Novice OK | Observations: The person throws the ball towards the basketball hoop.  Errors: T
+
+[98/100] upenn_0728_Guitar_1_2 (Music, GT=Intermediate Expert)
+  exo: Novice X | Observations: The man is playing the guitar while sitting on a chair. He is wear
+  ego: Intermediate Expert OK | Observations: The person is playing the guitar with his left hand on the neck of
+
+[99/100] upenn_0726_Piano_1_5 (Music, GT=Intermediate Expert)
+  exo: Novice X | Observations: The man is playing the piano with his right hand on the keys.  Err
+  ego: Intermediate Expert OK | Observations: The person plays piano with both hands.  Errors: The person plays 
+
+[100/100] sfu_cooking_013_3 (Cooking, GT=Novice)
+  exo: Intermediate Expert X | Observations: The man is standing in front of the stove, looking at the pot on i
+  ego: Novice OK | Observations: A person is cooking on a stove. The person is holding a pan with a
+
+============================================================
+RESULTS — Mixed activities | Qwen structured 8f TRIMMED
+============================================================
+  exo: 19/100 = 19.0%
+  ego: 23/100 = 23.0%
+Random chance: 25%
+
+By activity (exo):
+  Basketball: 12/48 = 25.0%
+  Cooking: 5/21 = 23.8%
+  Music: 2/20 = 10.0%
+  Soccer: 0/11 = 0.0%
+
+Exo predictions: {'Intermediate Expert': 51, 'Novice': 44, 'Unknown': 5}
+Ego predictions: {'Intermediate Expert': 48, 'Unknown': 27, 'Novice': 25}
+============================================================

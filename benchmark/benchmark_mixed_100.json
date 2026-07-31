@@ -1,0 +1,802 @@
+[
+  {
+    "clip_id": "0315b91a-b56f-4fc5-87f5-28c33c3fffab",
+    "take_folder": "upenn_0717_Piano_3_3",
+    "video_path_ego": "takes/upenn_0717_Piano_3_3/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0717_Piano_3_3/frame_aligned_videos/gp01.mp4",
+    "activity": "Music",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "0c49cda5-7e55-46d8-8f1f-522ed1924a79",
+    "take_folder": "sfu_cooking_009_3",
+    "video_path_ego": "takes/sfu_cooking_009_3/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_cooking_009_3/frame_aligned_videos/cam01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "cc808903-3102-4b15-a4a0-204f1379cdb3",
+    "take_folder": "sfu_basketball015_20",
+    "video_path_ego": "takes/sfu_basketball015_20/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_basketball015_20/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "126eb2a4-4d4f-4d35-b390-7d9550b54c60",
+    "take_folder": "iiith_cooking_13_1",
+    "video_path_ego": "takes/iiith_cooking_13_1/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/iiith_cooking_13_1/frame_aligned_videos/cam01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "085a7b00-4a7a-447e-9598-b7afa31b682c",
+    "take_folder": "utokyo_soccer_8000_46_47_10",
+    "video_path_ego": "takes/utokyo_soccer_8000_46_47_10/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/utokyo_soccer_8000_46_47_10/frame_aligned_videos/cam01.mp4",
+    "activity": "Soccer",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "1377b49e-4a24-4e91-9fdb-709911b72f9a",
+    "take_folder": "upenn_0702_Cooking_3_2",
+    "video_path_ego": "takes/upenn_0702_Cooking_3_2/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0702_Cooking_3_2/frame_aligned_videos/gp01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "13f606fc-d7be-4b4e-a655-a090d921cf65",
+    "take_folder": "unc_basketball_03-16-23_02_25",
+    "video_path_ego": "takes/unc_basketball_03-16-23_02_25/frame_aligned_videos/aria02_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_03-16-23_02_25/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "24b82426-f1ff-4756-892b-bbf51aecd04d",
+    "take_folder": "unc_basketball_03-16-23_02_7",
+    "video_path_ego": "takes/unc_basketball_03-16-23_02_7/frame_aligned_videos/aria02_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_03-16-23_02_7/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "08e909ba-da1b-4509-9b04-2986cf580e50",
+    "take_folder": "unc_basketball_03-16-23_02_14",
+    "video_path_ego": "takes/unc_basketball_03-16-23_02_14/frame_aligned_videos/aria02_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_03-16-23_02_14/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "03d19dd1-75af-491f-bafa-6639b3fadacf",
+    "take_folder": "uniandes_basketball_005_3",
+    "video_path_ego": "takes/uniandes_basketball_005_3/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_basketball_005_3/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "20bc64ed-0612-4f59-9822-7ef409c7fdd4",
+    "take_folder": "uniandes_basketball_004_49",
+    "video_path_ego": "takes/uniandes_basketball_004_49/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_basketball_004_49/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "0b812849-e4a6-47f3-a379-0127f36bce72",
+    "take_folder": "upenn_0331_Guitar_1_5",
+    "video_path_ego": "takes/upenn_0331_Guitar_1_5/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0331_Guitar_1_5/frame_aligned_videos/gp01.mp4",
+    "activity": "Music",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "196ecf05-aecd-4f42-8321-67300d8bb6cd",
+    "take_folder": "upenn_0710_Cooking_1_3",
+    "video_path_ego": "takes/upenn_0710_Cooking_1_3/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0710_Cooking_1_3/frame_aligned_videos/gp01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "a3cfad7c-b099-4729-b168-fff85dfe5a32",
+    "take_folder": "iiith_guitar_002_6",
+    "video_path_ego": "takes/iiith_guitar_002_6/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/iiith_guitar_002_6/frame_aligned_videos/cam01.mp4",
+    "activity": "Music",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "127941e8-52d5-494f-901b-af3521a67ae3",
+    "take_folder": "sfu_cooking_003_1",
+    "video_path_ego": "takes/sfu_cooking_003_1/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_cooking_003_1/frame_aligned_videos/cam01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "01b0a6e3-04ce-4f0d-8df4-b3d3c1508780",
+    "take_folder": "iiith_cooking_44_1",
+    "video_path_ego": "takes/iiith_cooking_44_1/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/iiith_cooking_44_1/frame_aligned_videos/cam01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "1a67463e-10d0-4228-ae9c-a20ffe417b5a",
+    "take_folder": "unc_basketball_03-16-23_02_15",
+    "video_path_ego": "takes/unc_basketball_03-16-23_02_15/frame_aligned_videos/aria02_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_03-16-23_02_15/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "181b7c2f-4854-4d1c-83e0-dbc7d7c92df3",
+    "take_folder": "utokyo_soccer_8000_46_47_12",
+    "video_path_ego": "takes/utokyo_soccer_8000_46_47_12/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/utokyo_soccer_8000_46_47_12/frame_aligned_videos/cam01.mp4",
+    "activity": "Soccer",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "3e584c51-28f9-4b02-8439-324d4ce8101c",
+    "take_folder": "iiith_soccer_041_2",
+    "video_path_ego": "takes/iiith_soccer_041_2/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/iiith_soccer_041_2/frame_aligned_videos/cam01.mp4",
+    "activity": "Soccer",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "09992555-13bf-4056-a0c8-b5058853b778",
+    "take_folder": "upenn_0707_Guitar_1_6",
+    "video_path_ego": "takes/upenn_0707_Guitar_1_6/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0707_Guitar_1_6/frame_aligned_videos/gp01.mp4",
+    "activity": "Music",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "06a5f0fa-7508-4dd7-8e9e-64c7e3a3a977",
+    "take_folder": "sfu_basketball_10_30",
+    "video_path_ego": "takes/sfu_basketball_10_30/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_basketball_10_30/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "375f6d12-23dd-4ad1-b02a-9fd9f7a8c991",
+    "take_folder": "sfu_cooking_009_5",
+    "video_path_ego": "takes/sfu_cooking_009_5/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_cooking_009_5/frame_aligned_videos/cam01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "019eb55a-edb3-470f-b953-975aeb596f14",
+    "take_folder": "unc_basketball_02-24-23_01_5",
+    "video_path_ego": "takes/unc_basketball_02-24-23_01_5/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_02-24-23_01_5/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "18e1e279-78e1-4c10-97a7-42dace59267b",
+    "take_folder": "iiith_soccer_020_2",
+    "video_path_ego": "takes/iiith_soccer_020_2/frame_aligned_videos/aria_214-1.mp4",
+    "video_path_exo": "takes/iiith_soccer_020_2/frame_aligned_videos/cam01.mp4",
+    "activity": "Soccer",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "444075c4-aed8-4c06-81cf-d05df0bcb207",
+    "take_folder": "iiith_soccer_006_4",
+    "video_path_ego": "takes/iiith_soccer_006_4/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/iiith_soccer_006_4/frame_aligned_videos/cam01.mp4",
+    "activity": "Soccer",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "aab43780-401b-4673-b2c2-fc3521e98bea",
+    "take_folder": "unc_basketball_03-31-23_01_43",
+    "video_path_ego": "takes/unc_basketball_03-31-23_01_43/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_03-31-23_01_43/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "2336980a-6599-4f18-8a4c-6f2aa92ed536",
+    "take_folder": "sfu_cooking_002_1",
+    "video_path_ego": "takes/sfu_cooking_002_1/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_cooking_002_1/frame_aligned_videos/cam01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "19df5a1f-ff4f-427d-9f9a-61f001512a19",
+    "take_folder": "upenn_0407_Violin_2_5",
+    "video_path_ego": "takes/upenn_0407_Violin_2_5/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0407_Violin_2_5/frame_aligned_videos/gp01.mp4",
+    "activity": "Music",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "2be5ff82-31ab-4ba1-8a42-7bbd89e988ea",
+    "take_folder": "iiith_soccer_053_2",
+    "video_path_ego": "takes/iiith_soccer_053_2/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/iiith_soccer_053_2/frame_aligned_videos/cam01.mp4",
+    "activity": "Soccer",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "34d092b6-7e39-4048-af8b-ada7c44bb59a",
+    "take_folder": "iiith_soccer_028_6",
+    "video_path_ego": "takes/iiith_soccer_028_6/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/iiith_soccer_028_6/frame_aligned_videos/cam01.mp4",
+    "activity": "Soccer",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "527abbcb-0144-418a-9096-1ca2de8f26f0",
+    "take_folder": "iiith_guitar_002_4",
+    "video_path_ego": "takes/iiith_guitar_002_4/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/iiith_guitar_002_4/frame_aligned_videos/cam01.mp4",
+    "activity": "Music",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "1e0d9cb9-849f-4ca7-beeb-b13a5d4c6668",
+    "take_folder": "uniandes_basketball_004_50",
+    "video_path_ego": "takes/uniandes_basketball_004_50/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_basketball_004_50/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "06c44d8c-98e6-4204-bb90-edfa26f8ab33",
+    "take_folder": "unc_basketball_03-17-23_01_11",
+    "video_path_ego": "takes/unc_basketball_03-17-23_01_11/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_03-17-23_01_11/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "06434a91-b0b1-4cd9-860e-d16fb4bd8331",
+    "take_folder": "upenn_0725_Duet_Violin_1_2_4",
+    "video_path_ego": "takes/upenn_0725_Duet_Violin_1_2_4/frame_aligned_videos/aria_214-1.mp4",
+    "video_path_exo": "takes/upenn_0725_Duet_Violin_1_2_4/frame_aligned_videos/gp01.mp4",
+    "activity": "Music",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "2378c044-8aca-4d1f-9c5e-db2773ae1602",
+    "take_folder": "upenn_0725_Duet_Violin_1_1_11",
+    "video_path_ego": "takes/upenn_0725_Duet_Violin_1_1_11/frame_aligned_videos/aria_214-1.mp4",
+    "video_path_exo": "takes/upenn_0725_Duet_Violin_1_1_11/frame_aligned_videos/gp01.mp4",
+    "activity": "Music",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "4dffbba4-5e54-4953-841d-b1da9a48d478",
+    "take_folder": "sfu_basketball015_8",
+    "video_path_ego": "takes/sfu_basketball015_8/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_basketball015_8/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "35823fca-da54-49a2-8d4c-365046031e2c",
+    "take_folder": "iiith_cooking_03_1",
+    "video_path_ego": "takes/iiith_cooking_03_1/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/iiith_cooking_03_1/frame_aligned_videos/cam01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "0ccfd492-8880-4ef2-90f5-e9f54f2cd080",
+    "take_folder": "unc_basketball_03-17-23_01_8",
+    "video_path_ego": "takes/unc_basketball_03-17-23_01_8/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_03-17-23_01_8/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "b2f14b2c-292c-46ce-a4b4-95258dcf6154",
+    "take_folder": "sfu_basketball012_12",
+    "video_path_ego": "takes/sfu_basketball012_12/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_basketball012_12/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "19326fcc-4b0f-403e-a7f5-ffb836449d45",
+    "take_folder": "uniandes_basketball_003_47",
+    "video_path_ego": "takes/uniandes_basketball_003_47/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_basketball_003_47/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "7aa4f5eb-de43-4be6-be6a-8ce1b2ddc33a",
+    "take_folder": "indiana_music_09_5",
+    "video_path_ego": "takes/indiana_music_09_5/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/indiana_music_09_5/frame_aligned_videos/cam01.mp4",
+    "activity": "Music",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "255f233c-ab58-4231-9531-fe00e3baca58",
+    "take_folder": "sfu_basketball_06_10",
+    "video_path_ego": "takes/sfu_basketball_06_10/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_basketball_06_10/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "30f03e63-10bf-4d6d-8d58-fc944469c66c",
+    "take_folder": "upenn_0702_Cooking_5_3",
+    "video_path_ego": "takes/upenn_0702_Cooking_5_3/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0702_Cooking_5_3/frame_aligned_videos/gp01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "266ea58c-a204-448d-bf24-83701e536db9",
+    "take_folder": "iiith_soccer_006_2",
+    "video_path_ego": "takes/iiith_soccer_006_2/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/iiith_soccer_006_2/frame_aligned_videos/cam01.mp4",
+    "activity": "Soccer",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "0e81b418-40f2-459c-b735-36f982da37fb",
+    "take_folder": "sfu_basketball_08_4",
+    "video_path_ego": "takes/sfu_basketball_08_4/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_basketball_08_4/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "f4fdaa1a-3bd6-45a7-9d59-f4ba1457d29a",
+    "take_folder": "sfu_basketball_08_50",
+    "video_path_ego": "takes/sfu_basketball_08_50/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_basketball_08_50/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "014e2850-9927-441a-8c3f-9e58012359e3",
+    "take_folder": "uniandes_basketball_003_28",
+    "video_path_ego": "takes/uniandes_basketball_003_28/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_basketball_003_28/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "37ccfe73-37f5-499a-996d-3da3db9e212f",
+    "take_folder": "unc_basketball_03-09-23_02_5",
+    "video_path_ego": "takes/unc_basketball_03-09-23_02_5/frame_aligned_videos/aria02_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_03-09-23_02_5/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "2c52669f-c3d8-4e0c-81ba-69ed4b1bf9ef",
+    "take_folder": "iiith_soccer_053_4",
+    "video_path_ego": "takes/iiith_soccer_053_4/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/iiith_soccer_053_4/frame_aligned_videos/cam01.mp4",
+    "activity": "Soccer",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "e08db0a4-e257-46e0-8880-640415b05976",
+    "take_folder": "unc_basketball_03-31-23_01_19",
+    "video_path_ego": "takes/unc_basketball_03-31-23_01_19/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_03-31-23_01_19/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "079b7691-d098-4a2d-befd-ed702a134388",
+    "take_folder": "iiith_cooking_42_1",
+    "video_path_ego": "takes/iiith_cooking_42_1/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/iiith_cooking_42_1/frame_aligned_videos/cam01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "c2374b84-5d13-4bcb-a320-b375851245e4",
+    "take_folder": "unc_basketball_03-31-23_02_4",
+    "video_path_ego": "takes/unc_basketball_03-31-23_02_4/frame_aligned_videos/aria02_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_03-31-23_02_4/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "0abc839d-6980-42c1-85eb-9502b84fcff7",
+    "take_folder": "upenn_0728_Guitar_1_6",
+    "video_path_ego": "takes/upenn_0728_Guitar_1_6/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0728_Guitar_1_6/frame_aligned_videos/gp01.mp4",
+    "activity": "Music",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "712a77c1-6a02-4bfd-bbdb-06fa8b1e8b1e",
+    "take_folder": "uniandes_basketball_001_31",
+    "video_path_ego": "takes/uniandes_basketball_001_31/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_basketball_001_31/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "e9d6c233-3f56-4268-bce6-95c3ad19c77c",
+    "take_folder": "sfu_basketball012_6",
+    "video_path_ego": "takes/sfu_basketball012_6/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_basketball012_6/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "072f6ab6-a3c2-4e86-84ef-0b32d60d5555",
+    "take_folder": "upenn_0718_Violin_1_3",
+    "video_path_ego": "takes/upenn_0718_Violin_1_3/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0718_Violin_1_3/frame_aligned_videos/gp01.mp4",
+    "activity": "Music",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "42e4f58c-bdc8-4294-966a-240a6367428a",
+    "take_folder": "uniandes_cooking_008_6",
+    "video_path_ego": "takes/uniandes_cooking_008_6/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_cooking_008_6/frame_aligned_videos/cam01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "abeb24e8-1811-4f52-b0c1-99c540d42c92",
+    "take_folder": "sfu_basketball_09_22",
+    "video_path_ego": "takes/sfu_basketball_09_22/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_basketball_09_22/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "16b72f0f-0b3b-4833-990f-b9a25abdd887",
+    "take_folder": "sfu_basketball_07_44",
+    "video_path_ego": "takes/sfu_basketball_07_44/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_basketball_07_44/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "27bfa06f-9ad9-414e-a692-9d09abea760e",
+    "take_folder": "iiith_soccer_028_4",
+    "video_path_ego": "takes/iiith_soccer_028_4/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/iiith_soccer_028_4/frame_aligned_videos/cam01.mp4",
+    "activity": "Soccer",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "020ae1ca-02ad-49c8-9056-87ad6bdcb8bd",
+    "take_folder": "unc_basketball_03-31-23_01_6",
+    "video_path_ego": "takes/unc_basketball_03-31-23_01_6/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_03-31-23_01_6/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "3d4f5b74-c8da-4de9-a506-b09978baf754",
+    "take_folder": "iiith_guitar_002_10",
+    "video_path_ego": "takes/iiith_guitar_002_10/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/iiith_guitar_002_10/frame_aligned_videos/cam01.mp4",
+    "activity": "Music",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "024a7ee5-df4d-4dd0-a890-b13adc8ed431",
+    "take_folder": "uniandes_basketball_003_35",
+    "video_path_ego": "takes/uniandes_basketball_003_35/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_basketball_003_35/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "63ab82bb-2d28-440f-814c-1fc0d06b89d0",
+    "take_folder": "upenn_0706_Guitar_2_3",
+    "video_path_ego": "takes/upenn_0706_Guitar_2_3/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0706_Guitar_2_3/frame_aligned_videos/gp01.mp4",
+    "activity": "Music",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "a3703011-35b9-4b70-964a-427e05e79a6f",
+    "take_folder": "sfu_basketball012_4",
+    "video_path_ego": "takes/sfu_basketball012_4/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_basketball012_4/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "2de0896b-df6d-4687-bbff-f700d675e385",
+    "take_folder": "unc_basketball_03-31-23_02_29",
+    "video_path_ego": "takes/unc_basketball_03-31-23_02_29/frame_aligned_videos/aria02_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_03-31-23_02_29/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "3059469a-03fc-4ae0-bbf7-b08187d1b290",
+    "take_folder": "sfu_cooking_013_1",
+    "video_path_ego": "takes/sfu_cooking_013_1/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_cooking_013_1/frame_aligned_videos/cam01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "01c31ac7-3885-46ff-9af5-9e1d0910dce5",
+    "take_folder": "upenn_0725_Violin_1_2",
+    "video_path_ego": "takes/upenn_0725_Violin_1_2/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0725_Violin_1_2/frame_aligned_videos/gp01.mp4",
+    "activity": "Music",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "0aacd507-c6ad-43b9-afaa-a56f53cd676a",
+    "take_folder": "unc_basketball_03-16-23_01_19",
+    "video_path_ego": "takes/unc_basketball_03-16-23_01_19/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_03-16-23_01_19/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "fe828226-1884-4b47-845f-a4e04cafcb2b",
+    "take_folder": "sfu_basketball_06_24",
+    "video_path_ego": "takes/sfu_basketball_06_24/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_basketball_06_24/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "0999909b-9034-40e3-96a1-6b66e06a9929",
+    "take_folder": "unc_basketball_03-16-23_01_35",
+    "video_path_ego": "takes/unc_basketball_03-16-23_01_35/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_03-16-23_01_35/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "09359482-b26f-4ee9-983e-4c414e4836c4",
+    "take_folder": "indiana_music_05_4",
+    "video_path_ego": "takes/indiana_music_05_4/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/indiana_music_05_4/frame_aligned_videos/cam01.mp4",
+    "activity": "Music",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "016d94d2-73bd-422e-8a12-4823f1de163c",
+    "take_folder": "sfu_basketball013_12",
+    "video_path_ego": "takes/sfu_basketball013_12/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_basketball013_12/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "32d54e67-68d7-4b94-a953-fc3b56a1eb94",
+    "take_folder": "unc_basketball_02-24-23_01_24",
+    "video_path_ego": "takes/unc_basketball_02-24-23_01_24/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_02-24-23_01_24/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "bd409a14-0392-447c-87ce-e7d44d0cf3c8",
+    "take_folder": "unc_basketball_03-31-23_01_44",
+    "video_path_ego": "takes/unc_basketball_03-31-23_01_44/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_03-31-23_01_44/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "a8b81a1a-5ab7-41c0-9189-a808bfb97b6b",
+    "take_folder": "upenn_0706_Guitar_2_5",
+    "video_path_ego": "takes/upenn_0706_Guitar_2_5/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0706_Guitar_2_5/frame_aligned_videos/gp01.mp4",
+    "activity": "Music",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "114984e0-4de8-4db7-afc8-0c66926f65f4",
+    "take_folder": "unc_basketball_03-17-23_01_20",
+    "video_path_ego": "takes/unc_basketball_03-17-23_01_20/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_03-17-23_01_20/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "30e473a6-4746-4fc6-8b2a-37f179eaae53",
+    "take_folder": "upenn_0712_Cooking_1_5",
+    "video_path_ego": "takes/upenn_0712_Cooking_1_5/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0712_Cooking_1_5/frame_aligned_videos/gp01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "0b7cd6fd-7b71-4ccd-89ba-892e2c0f5597",
+    "take_folder": "utokyo_soccer_8000_46_47_6",
+    "video_path_ego": "takes/utokyo_soccer_8000_46_47_6/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/utokyo_soccer_8000_46_47_6/frame_aligned_videos/cam01.mp4",
+    "activity": "Soccer",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "2fbd4068-86e0-4893-b9c6-10c88fa8275c",
+    "take_folder": "uniandes_basketball_004_41",
+    "video_path_ego": "takes/uniandes_basketball_004_41/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_basketball_004_41/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "1c9a978e-3921-44e5-8eab-f9e5401822cf",
+    "take_folder": "iiith_cooking_43_1",
+    "video_path_ego": "takes/iiith_cooking_43_1/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/iiith_cooking_43_1/frame_aligned_videos/cam01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "0eac0520-a5d8-4a45-bf08-112f5f472850",
+    "take_folder": "unc_basketball_02-24-23_01_40",
+    "video_path_ego": "takes/unc_basketball_02-24-23_01_40/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_02-24-23_01_40/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "46e0152d-45be-46a4-a44a-c1967f89d3aa",
+    "take_folder": "iiith_cooking_25_1",
+    "video_path_ego": "takes/iiith_cooking_25_1/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/iiith_cooking_25_1/frame_aligned_videos/cam01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "10fbe798-2bdb-4d5b-8bbd-00a5f49fd391",
+    "take_folder": "uniandes_basketball_002_11",
+    "video_path_ego": "takes/uniandes_basketball_002_11/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_basketball_002_11/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "03672458-fd03-4e1e-9754-776175089ab0",
+    "take_folder": "upenn_0407_Violin_1_5",
+    "video_path_ego": "takes/upenn_0407_Violin_1_5/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0407_Violin_1_5/frame_aligned_videos/gp01.mp4",
+    "activity": "Music",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "1c504968-4f68-48dc-bee3-159fa197af65",
+    "take_folder": "iiith_cooking_57_4",
+    "video_path_ego": "takes/iiith_cooking_57_4/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/iiith_cooking_57_4/frame_aligned_videos/cam01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "09ca3310-232c-4f3f-b201-3632ea8c6b75",
+    "take_folder": "sfu_cooking_003_3",
+    "video_path_ego": "takes/sfu_cooking_003_3/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_cooking_003_3/frame_aligned_videos/cam01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Early Expert"
+  },
+  {
+    "clip_id": "3ac49447-8437-4e1a-b772-06f4c79afe96",
+    "take_folder": "uniandes_basketball_004_42",
+    "video_path_ego": "takes/uniandes_basketball_004_42/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/uniandes_basketball_004_42/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "0254b6c0-4d78-471e-b3cf-07bb1e133f96",
+    "take_folder": "unc_basketball_03-31-23_02_2",
+    "video_path_ego": "takes/unc_basketball_03-31-23_02_2/frame_aligned_videos/aria02_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_03-31-23_02_2/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "0a6f112f-6cd8-4c53-adda-0d7862804b87",
+    "take_folder": "unc_basketball_02-24-23_01_27",
+    "video_path_ego": "takes/unc_basketball_02-24-23_01_27/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_02-24-23_01_27/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "01d6b5e1-4a4a-4e6b-a067-3bc7c7b83f0c",
+    "take_folder": "indiana_music_14_4",
+    "video_path_ego": "takes/indiana_music_14_4/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/indiana_music_14_4/frame_aligned_videos/cam01.mp4",
+    "activity": "Music",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "3db860b7-a23a-4d9b-a988-4b656a608122",
+    "take_folder": "georgiatech_cooking_01_03_4",
+    "video_path_ego": "takes/georgiatech_cooking_01_03_4/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/georgiatech_cooking_01_03_4/frame_aligned_videos/cam01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "655b89a8-9725-4756-9fc0-db01a580d88a",
+    "take_folder": "unc_basketball_03-31-23_02_38",
+    "video_path_ego": "takes/unc_basketball_03-31-23_02_38/frame_aligned_videos/aria02_214-1.mp4",
+    "video_path_exo": "takes/unc_basketball_03-31-23_02_38/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Late Expert"
+  },
+  {
+    "clip_id": "1ec1409c-a3fd-46ab-8698-99f9317e9f13",
+    "take_folder": "iiith_cooking_02_3",
+    "video_path_ego": "takes/iiith_cooking_02_3/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/iiith_cooking_02_3/frame_aligned_videos/cam01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "1771a0c1-fdf9-45f3-9049-b8e2fbd77ce6",
+    "take_folder": "sfu_basketball_09_4",
+    "video_path_ego": "takes/sfu_basketball_09_4/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_basketball_09_4/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "d870a86a-386d-43bd-9292-e1784d9de9cb",
+    "take_folder": "sfu_basketball_06_12",
+    "video_path_ego": "takes/sfu_basketball_06_12/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_basketball_06_12/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "80e3f935-b9f6-49cc-83b1-f5cff4761496",
+    "take_folder": "sfu_basketball_06_20",
+    "video_path_ego": "takes/sfu_basketball_06_20/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_basketball_06_20/frame_aligned_videos/cam01.mp4",
+    "activity": "Basketball",
+    "ground_truth": "Novice"
+  },
+  {
+    "clip_id": "0de804e8-619a-4e39-8dfb-e1244898c6cd",
+    "take_folder": "upenn_0728_Guitar_1_2",
+    "video_path_ego": "takes/upenn_0728_Guitar_1_2/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0728_Guitar_1_2/frame_aligned_videos/gp01.mp4",
+    "activity": "Music",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "06ba749b-bb6d-40f1-9ff8-464c07b94a3f",
+    "take_folder": "upenn_0726_Piano_1_5",
+    "video_path_ego": "takes/upenn_0726_Piano_1_5/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/upenn_0726_Piano_1_5/frame_aligned_videos/gp01.mp4",
+    "activity": "Music",
+    "ground_truth": "Intermediate Expert"
+  },
+  {
+    "clip_id": "0015e453-3227-41b0-bd64-03c134abe054",
+    "take_folder": "sfu_cooking_013_3",
+    "video_path_ego": "takes/sfu_cooking_013_3/frame_aligned_videos/aria01_214-1.mp4",
+    "video_path_exo": "takes/sfu_cooking_013_3/frame_aligned_videos/cam01.mp4",
+    "activity": "Cooking",
+    "ground_truth": "Novice"
+  }
+]

@@ -1,0 +1,448 @@
+Fri Jul 31 11:07:45 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA RTX A6000               Off |   00000000:04:00.0 Off |                  Off |
+| 30%   33C    P8             18W /  300W |       1MiB /  49140MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading takes metadata...
+Loaded 5035 takes.
+
+Loading Qwen2.5-VL-7B ...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [01:06<13:28:18, 66.62s/it]Loading weights:   0%|          | 2/729 [01:08<5:46:06, 28.56s/it] Loading weights:   7%|▋         | 54/729 [01:15<08:35,  1.31it/s] Loading weights:   9%|▉         | 64/729 [01:17<07:11,  1.54it/s]Loading weights:   9%|▉         | 65/729 [01:18<07:17,  1.52it/s]Loading weights:   9%|▉         | 66/729 [01:18<07:11,  1.54it/s]Loading weights:  10%|█         | 76/729 [01:25<07:18,  1.49it/s]Loading weights:  11%|█         | 77/729 [01:26<07:26,  1.46it/s]Loading weights:  11%|█         | 78/729 [01:27<07:12,  1.51it/s]Loading weights:  12%|█▏        | 88/729 [01:31<05:40,  1.88it/s]Loading weights:  12%|█▏        | 89/729 [01:34<07:36,  1.40it/s]Loading weights:  12%|█▏        | 90/729 [01:35<07:39,  1.39it/s]Loading weights:  14%|█▎        | 100/729 [01:39<05:46,  1.81it/s]Loading weights:  14%|█▍        | 101/729 [01:39<05:29,  1.91it/s]Loading weights:  14%|█▍        | 102/729 [01:42<08:16,  1.26it/s]Loading weights:  15%|█▌        | 112/729 [01:47<06:15,  1.64it/s]Loading weights:  16%|█▌        | 113/729 [01:47<05:57,  1.72it/s]Loading weights:  16%|█▌        | 114/729 [01:48<05:36,  1.83it/s]Loading weights:  17%|█▋        | 124/729 [01:56<07:26,  1.36it/s]Loading weights:  19%|█▊        | 136/729 [01:59<04:48,  2.06it/s]Loading weights:  19%|█▉        | 137/729 [02:05<07:32,  1.31it/s]Loading weights:  20%|██        | 148/729 [02:08<05:25,  1.78it/s]Loading weights:  20%|██        | 149/729 [02:09<05:19,  1.81it/s]Loading weights:  21%|██        | 150/729 [02:13<07:47,  1.24it/s]Loading weights:  22%|██▏       | 160/729 [02:18<06:10,  1.53it/s]Loading weights:  22%|██▏       | 162/729 [02:18<05:27,  1.73it/s]Loading weights:  24%|██▎       | 172/729 [02:26<06:19,  1.47it/s]Loading weights:  24%|██▎       | 173/729 [02:27<06:28,  1.43it/s]Loading weights:  25%|██▌       | 184/729 [02:31<04:52,  1.86it/s]Loading weights:  25%|██▌       | 185/729 [02:35<06:49,  1.33it/s]Loading weights:  26%|██▌       | 186/729 [02:36<06:58,  1.30it/s]Loading weights:  27%|██▋       | 196/729 [02:40<05:04,  1.75it/s]Loading weights:  27%|██▋       | 197/729 [02:40<04:46,  1.85it/s]Loading weights:  27%|██▋       | 198/729 [02:44<07:46,  1.14it/s]Loading weights:  29%|██▊       | 208/729 [02:49<05:48,  1.50it/s]Loading weights:  29%|██▉       | 210/729 [02:49<05:03,  1.71it/s]Loading weights:  30%|███       | 220/729 [02:57<05:47,  1.46it/s]Loading weights:  30%|███       | 221/729 [02:58<05:57,  1.42it/s]Loading weights:  30%|███       | 222/729 [02:58<05:30,  1.53it/s]Loading weights:  32%|███▏      | 232/729 [03:02<03:58,  2.08it/s]Loading weights:  32%|███▏      | 233/729 [03:06<06:12,  1.33it/s]Loading weights:  32%|███▏      | 234/729 [03:07<06:16,  1.32it/s]Loading weights:  33%|███▎      | 244/729 [03:11<04:28,  1.80it/s]Loading weights:  34%|███▎      | 245/729 [03:11<04:14,  1.90it/s]Loading weights:  34%|███▎      | 246/729 [03:15<07:02,  1.14it/s]Loading weights:  35%|███▌      | 256/729 [03:20<04:56,  1.60it/s]Loading weights:  35%|███▌      | 257/729 [03:20<04:41,  1.67it/s]Loading weights:  35%|███▌      | 258/729 [03:20<04:28,  1.75it/s]Loading weights:  37%|███▋      | 268/729 [03:29<05:38,  1.36it/s]Loading weights:  37%|███▋      | 269/729 [03:29<05:15,  1.46it/s]Loading weights:  37%|███▋      | 270/729 [03:29<04:51,  1.57it/s]Loading weights:  38%|███▊      | 280/729 [03:33<03:44,  2.00it/s]Loading weights:  39%|███▊      | 281/729 [03:38<06:19,  1.18it/s]Loading weights:  39%|███▊      | 282/729 [03:38<05:49,  1.28it/s]Loading weights:  40%|████      | 292/729 [03:42<04:06,  1.78it/s]Loading weights:  40%|████      | 294/729 [03:47<06:08,  1.18it/s]Loading weights:  42%|████▏     | 304/729 [03:51<04:26,  1.59it/s]Loading weights:  42%|████▏     | 306/729 [03:52<03:54,  1.80it/s]Loading weights:  43%|████▎     | 316/729 [04:00<04:53,  1.41it/s]Loading weights:  43%|████▎     | 317/729 [04:01<04:38,  1.48it/s]Loading weights:  45%|████▍     | 328/729 [04:04<03:23,  1.97it/s]Loading weights:  45%|████▌     | 329/729 [04:09<04:58,  1.34it/s]Loading weights:  52%|█████▏    | 379/729 [04:09<00:51,  6.77it/s]Loading weights:  53%|█████▎    | 389/729 [04:09<00:42,  8.02it/s]Loading weights:  54%|█████▍    | 393/729 [04:10<00:42,  7.99it/s]Loading weights:  54%|█████▍    | 397/729 [04:10<00:38,  8.71it/s]Loading weights:  55%|█████▌    | 403/729 [04:11<00:34,  9.40it/s]Loading weights:  56%|█████▌    | 406/729 [04:11<00:33,  9.55it/s]Loading weights:  56%|█████▌    | 409/729 [04:11<00:30, 10.64it/s]Loading weights:  57%|█████▋    | 415/729 [04:12<00:28, 10.93it/s]Loading weights:  57%|█████▋    | 419/729 [04:12<00:23, 12.95it/s]Loading weights:  59%|█████▊    | 427/729 [04:13<00:29, 10.39it/s]Loading weights:  60%|██████    | 439/729 [04:13<00:20, 14.36it/s]Loading weights:  61%|██████    | 443/729 [04:13<00:17, 15.93it/s]Loading weights:  62%|██████▏   | 449/729 [04:13<00:14, 19.73it/s]Loading weights:  62%|██████▏   | 453/729 [04:14<00:19, 14.02it/s]Loading weights:  63%|██████▎   | 457/729 [04:14<00:19, 13.81it/s]Loading weights:  64%|██████▎   | 463/729 [04:15<00:18, 14.07it/s]Loading weights:  64%|██████▍   | 465/729 [04:15<00:19, 13.37it/s]Loading weights:  65%|██████▌   | 475/729 [04:16<00:17, 14.18it/s]Loading weights:  66%|██████▌   | 479/729 [04:16<00:16, 15.33it/s]Loading weights:  67%|██████▋   | 487/729 [04:16<00:15, 15.45it/s]Loading weights:  67%|██████▋   | 489/729 [04:16<00:15, 15.43it/s]Loading weights:  68%|██████▊   | 499/729 [04:17<00:14, 15.45it/s]Loading weights:  70%|██████▉   | 509/729 [04:17<00:10, 20.45it/s]Loading weights:  70%|███████   | 512/729 [04:18<00:12, 17.01it/s]Loading weights:  71%|███████   | 515/729 [04:18<00:11, 18.16it/s]Loading weights:  71%|███████   | 518/729 [04:18<00:10, 19.51it/s]Loading weights:  72%|███████▏  | 523/729 [04:18<00:14, 14.16it/s]Loading weights:  72%|███████▏  | 527/729 [04:18<00:11, 16.84it/s]Loading weights:  73%|███████▎  | 533/729 [04:19<00:09, 20.82it/s]Loading weights:  74%|███████▎  | 536/729 [04:19<00:13, 14.26it/s]Loading weights:  74%|███████▍  | 541/729 [04:19<00:11, 16.69it/s]Loading weights:  75%|███████▌  | 547/729 [04:20<00:12, 14.60it/s]Loading weights:  75%|███████▌  | 549/729 [04:20<00:12, 14.92it/s]Loading weights:  76%|███████▋  | 557/729 [04:20<00:07, 23.66it/s]Loading weights:  77%|███████▋  | 561/729 [04:21<00:13, 12.16it/s]Loading weights:  78%|███████▊  | 571/729 [04:21<00:09, 16.02it/s]Loading weights:  79%|███████▉  | 575/729 [04:21<00:09, 16.42it/s]Loading weights:  80%|███████▉  | 583/729 [04:22<00:08, 17.26it/s]Loading weights:  80%|████████  | 586/729 [04:22<00:07, 18.17it/s]Loading weights:  81%|████████  | 589/729 [04:22<00:09, 14.99it/s]Loading weights:  82%|████████▏ | 595/729 [04:23<00:08, 15.98it/s]Loading weights:  82%|████████▏ | 601/729 [04:23<00:07, 16.63it/s]Loading weights:  83%|████████▎ | 607/729 [04:23<00:07, 16.97it/s]Loading weights:  84%|████████▍ | 611/729 [04:23<00:06, 18.72it/s]Loading weights:  85%|████████▍ | 619/729 [04:24<00:07, 14.34it/s]Loading weights:  87%|████████▋ | 631/729 [04:25<00:05, 16.45it/s]Loading weights:  87%|████████▋ | 637/729 [04:25<00:04, 18.78it/s]Loading weights:  88%|████████▊ | 641/729 [04:25<00:04, 20.79it/s]Loading weights:  88%|████████▊ | 644/729 [04:26<00:05, 14.98it/s]Loading weights:  90%|████████▉ | 653/729 [04:26<00:03, 19.30it/s]Loading weights:  90%|████████▉ | 656/729 [04:26<00:04, 14.94it/s]Loading weights:  91%|█████████ | 661/729 [04:26<00:03, 18.44it/s]Loading weights:  91%|█████████▏| 667/729 [04:27<00:03, 16.72it/s]Loading weights:  92%|█████████▏| 670/729 [04:27<00:04, 14.57it/s]Loading weights:  93%|█████████▎| 679/729 [04:28<00:03, 14.04it/s]Loading weights:  95%|█████████▍| 689/729 [04:28<00:01, 20.89it/s]Loading weights:  95%|█████████▌| 693/729 [04:28<00:02, 17.23it/s]Loading weights:  96%|█████████▌| 697/729 [04:29<00:01, 18.34it/s]Loading weights:  96%|█████████▋| 703/729 [04:29<00:01, 15.81it/s]Loading weights:  97%|█████████▋| 707/729 [04:29<00:01, 17.02it/s]Loading weights:  98%|█████████▊| 715/729 [04:30<00:00, 16.27it/s]Loading weights:  98%|█████████▊| 717/729 [04:30<00:00, 16.44it/s]Loading weights: 100%|█████████▉| 726/729 [04:33<00:00,  5.50it/s]Loading weights: 100%|██████████| 729/729 [04:33<00:00,  2.67it/s]
+Model loaded.
+
+Clips: 100 | frames: 8 | TRIMMED | Mixed activities
+
+Activities: {'Music': 20, 'Cooking': 21, 'Basketball': 48, 'Soccer': 11}
+Prompt: Is this person a Novice or an Expert at this activity? Answer only: Novice or Expert
+
+[1/100] upenn_0717_Piano_3_3 (Music, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[2/100] sfu_cooking_009_3 (Cooking, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[3/100] sfu_basketball015_20 (Basketball, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[4/100] iiith_cooking_13_1 (Cooking, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[5/100] utokyo_soccer_8000_46_47_10 (Soccer, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[6/100] upenn_0702_Cooking_3_2 (Cooking, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[7/100] unc_basketball_03-16-23_02_25 (Basketball, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[8/100] unc_basketball_03-16-23_02_7 (Basketball, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[9/100] unc_basketball_03-16-23_02_14 (Basketball, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[10/100] uniandes_basketball_005_3 (Basketball, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[11/100] uniandes_basketball_004_49 (Basketball, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[12/100] upenn_0331_Guitar_1_5 (Music, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[13/100] upenn_0710_Cooking_1_3 (Cooking, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[14/100] iiith_guitar_002_6 (Music, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[15/100] sfu_cooking_003_1 (Cooking, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[16/100] iiith_cooking_44_1 (Cooking, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[17/100] unc_basketball_03-16-23_02_15 (Basketball, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[18/100] utokyo_soccer_8000_46_47_12 (Soccer, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[19/100] iiith_soccer_041_2 (Soccer, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[20/100] upenn_0707_Guitar_1_6 (Music, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[21/100] sfu_basketball_10_30 (Basketball, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[22/100] sfu_cooking_009_5 (Cooking, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[23/100] unc_basketball_02-24-23_01_5 (Basketball, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[24/100] iiith_soccer_020_2 (Soccer, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[25/100] iiith_soccer_006_4 (Soccer, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[26/100] unc_basketball_03-31-23_01_43 (Basketball, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[27/100] sfu_cooking_002_1 (Cooking, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[28/100] upenn_0407_Violin_2_5 (Music, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[29/100] iiith_soccer_053_2 (Soccer, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[30/100] iiith_soccer_028_6 (Soccer, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[31/100] iiith_guitar_002_4 (Music, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[32/100] uniandes_basketball_004_50 (Basketball, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[33/100] unc_basketball_03-17-23_01_11 (Basketball, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[34/100] upenn_0725_Duet_Violin_1_2_4 (Music, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[35/100] upenn_0725_Duet_Violin_1_1_11 (Music, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[36/100] sfu_basketball015_8 (Basketball, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[37/100] iiith_cooking_03_1 (Cooking, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[38/100] unc_basketball_03-17-23_01_8 (Basketball, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[39/100] sfu_basketball012_12 (Basketball, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[40/100] uniandes_basketball_003_47 (Basketball, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[41/100] indiana_music_09_5 (Music, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[42/100] sfu_basketball_06_10 (Basketball, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[43/100] upenn_0702_Cooking_5_3 (Cooking, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[44/100] iiith_soccer_006_2 (Soccer, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[45/100] sfu_basketball_08_4 (Basketball, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[46/100] sfu_basketball_08_50 (Basketball, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[47/100] uniandes_basketball_003_28 (Basketball, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[48/100] unc_basketball_03-09-23_02_5 (Basketball, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[49/100] iiith_soccer_053_4 (Soccer, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[50/100] unc_basketball_03-31-23_01_19 (Basketball, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[51/100] iiith_cooking_42_1 (Cooking, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[52/100] unc_basketball_03-31-23_02_4 (Basketball, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[53/100] upenn_0728_Guitar_1_6 (Music, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[54/100] uniandes_basketball_001_31 (Basketball, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[55/100] sfu_basketball012_6 (Basketball, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[56/100] upenn_0718_Violin_1_3 (Music, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[57/100] uniandes_cooking_008_6 (Cooking, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[58/100] sfu_basketball_09_22 (Basketball, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[59/100] sfu_basketball_07_44 (Basketball, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[60/100] iiith_soccer_028_4 (Soccer, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[61/100] unc_basketball_03-31-23_01_6 (Basketball, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[62/100] iiith_guitar_002_10 (Music, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[63/100] uniandes_basketball_003_35 (Basketball, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[64/100] upenn_0706_Guitar_2_3 (Music, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[65/100] sfu_basketball012_4 (Basketball, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[66/100] unc_basketball_03-31-23_02_29 (Basketball, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[67/100] sfu_cooking_013_1 (Cooking, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[68/100] upenn_0725_Violin_1_2 (Music, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[69/100] unc_basketball_03-16-23_01_19 (Basketball, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[70/100] sfu_basketball_06_24 (Basketball, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[71/100] unc_basketball_03-16-23_01_35 (Basketball, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[72/100] indiana_music_05_4 (Music, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[73/100] sfu_basketball013_12 (Basketball, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[74/100] unc_basketball_02-24-23_01_24 (Basketball, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[75/100] unc_basketball_03-31-23_01_44 (Basketball, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[76/100] upenn_0706_Guitar_2_5 (Music, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[77/100] unc_basketball_03-17-23_01_20 (Basketball, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[78/100] upenn_0712_Cooking_1_5 (Cooking, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[79/100] utokyo_soccer_8000_46_47_6 (Soccer, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[80/100] uniandes_basketball_004_41 (Basketball, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[81/100] iiith_cooking_43_1 (Cooking, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[82/100] unc_basketball_02-24-23_01_40 (Basketball, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[83/100] iiith_cooking_25_1 (Cooking, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[84/100] uniandes_basketball_002_11 (Basketball, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[85/100] upenn_0407_Violin_1_5 (Music, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[86/100] iiith_cooking_57_4 (Cooking, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[87/100] sfu_cooking_003_3 (Cooking, GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+
+[88/100] uniandes_basketball_004_42 (Basketball, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[89/100] unc_basketball_03-31-23_02_2 (Basketball, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[90/100] unc_basketball_02-24-23_01_27 (Basketball, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[91/100] indiana_music_14_4 (Music, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[92/100] georgiatech_cooking_01_03_4 (Cooking, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[93/100] unc_basketball_03-31-23_02_38 (Basketball, GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+
+[94/100] iiith_cooking_02_3 (Cooking, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[95/100] sfu_basketball_09_4 (Basketball, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[96/100] sfu_basketball_06_12 (Basketball, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[97/100] sfu_basketball_06_20 (Basketball, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+[98/100] upenn_0728_Guitar_1_2 (Music, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[99/100] upenn_0726_Piano_1_5 (Music, GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+
+[100/100] sfu_cooking_013_3 (Cooking, GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+
+============================================================
+RESULTS — Mixed activities | Qwen binary 8f TRIMMED
+============================================================
+  exo: 25/100 = 25.0%
+  ego: 25/100 = 25.0%
+Random chance: 50%
+
+By activity (exo):
+  Music: 0/20 = 0.0%
+  Cooking: 10/21 = 47.6%
+  Basketball: 15/48 = 31.2%
+  Soccer: 0/11 = 0.0%
+
+Exo predictions: {'Novice': 100}
+Ego predictions: {'Novice': 100}
+============================================================
