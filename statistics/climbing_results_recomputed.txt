@@ -1,0 +1,410 @@
+CLIMBING- QWEN ENTIRE
+Binary, Entire, 8f  [qwen_climbing_entire_n8_binary.csv]
+EXO
+Overall: 25/50 = 50.0%
+Expert                : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 48, 'Unknown': 2}
+EGO
+Overall: 25/50 = 50.0%
+Expert                : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 48, 'Unknown': 2}
+
+Fourclass, Entire, 8f  [qwen_climbing_entire_n8_fourclass.csv]
+ exo: 25/100 = 25.0%
+ ego: 24/100 = 24.0%
+  exo Novice                : 22/25=88.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 3/25=12.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 23/25=92.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 1/25=4.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Novice': 83, 'Unknown': 9, 'Intermediate Expert': 8}
+Ego predictions: {'Novice': 84, 'Unknown': 9, 'Intermediate Expert': 7}
+
+Structured, Entire, 8f  [structured_eval.csv]
+ exo: 24/100 = 24.0%
+ ego: 19/100 = 19.0%
+  exo Novice                : 22/25=88.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 2/25=8.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 16/25=64.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 3/25=12.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Novice': 87, 'Unknown': 9, 'Intermediate Expert': 4}
+Ego predictions: {'Novice': 71, 'Intermediate Expert': 20, 'Unknown': 9}
+
+Reasoning, Entire, 8f  [qwen_climbing_entire_n8_reasoning.csv]
+ exo: 15/100 = 15.0%
+ ego: 24/100 = 24.0%
+  exo Novice                : 12/25=48.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 3/25=12.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 24/25=96.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 0/25=0.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Novice': 70, 'Intermediate Expert': 15, 'Unknown': 14, 'Late Expert': 1}
+Ego predictions: {'Novice': 90, 'Unknown': 9, 'Intermediate Expert': 1}
+
+CLIMBING- QWEN TRIMMED
+Binary, Trimmed, 8f  [qwen_climbing_trimmed_exo_n8_binary.csv / qwen_climbing_trimmed_ego_n8_binary.csv]
+EXO
+Overall: 25/50 = 50.0%
+Expert                : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+EGO
+Overall: 25/50 = 50.0%
+Expert                : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+
+Fourclass, Trimmed, 8f  [fourclass_trimmed.csv]
+ exo: 24/100 = 24.0%
+ ego: 26/100 = 26.0%
+  exo Novice                : 22/25=88.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 2/25=8.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 24/25=96.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 2/25=8.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Novice': 88, 'Intermediate Expert': 10, 'Unknown': 2}
+Ego predictions: {'Novice': 93, 'Intermediate Expert': 5, 'Unknown': 2}
+
+Structured, Trimmed, 8f  [qwen_climbing_trimmed_n8_structured.csv]
+ exo: 22/100 = 22.0%
+ ego: 19/100 = 19.0%
+  exo Novice                : 18/25=72.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 4/25=16.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 13/25=52.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 6/25=24.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Novice': 82, 'Intermediate Expert': 15, 'Unknown': 2, 'Early Expert': 1}
+Ego predictions: {'Novice': 74, 'Intermediate Expert': 24, 'Unknown': 2}
+
+Reasoning, Trimmed, 8f  [qwen_climbing_trimmed_n8_reasoning.csv]
+ exo: 12/100 = 12.0%
+ ego: 23/100 = 23.0%
+  exo Novice                : 7/25=28.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 5/25=20.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 23/25=92.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 0/25=0.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Novice': 55, 'Intermediate Expert': 29, 'Unknown': 16}
+Ego predictions: {'Novice': 89, 'Unknown': 10, 'Intermediate Expert': 1}
+
+CLIMBING- VideoLLaVa ENTIRE
+Binary, Entire, 8f  [vl_climbing_entire_n8_binary.csv]
+EXO
+Overall: 25/50 = 50.0%
+Expert                : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 48, 'Unknown': 2}
+EGO
+Overall: 25/50 = 50.0%
+Expert                : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 48, 'Unknown': 2}
+
+Fourclass, Entire, 8f  [vl_climbing_entire_n8_fourclass.csv]
+ exo: 24/100 = 24.0%
+ ego: 24/100 = 24.0%
+  exo Novice                : 24/25=96.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 0/25=0.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 24/25=96.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 0/25=0.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Novice': 91, 'Unknown': 9}
+Ego predictions: {'Novice': 91, 'Unknown': 9}
+
+Structured, Entire, 8f  [vl_climbing_entire_n8_structured.csv]
+ exo: 26/100 = 26.0%
+ ego: 23/100 = 23.0%
+  exo Novice                : 21/25=84.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 1/25=4.0%
+  exo Late Expert           : 4/25=16.0%
+  ego Novice                : 14/25=56.0%
+  ego Early Expert          : 1/25=4.0%
+  ego Intermediate Expert   : 1/25=4.0%
+  ego Late Expert           : 7/25=28.0%
+Exo predictions: {'Novice': 76, 'Late Expert': 10, 'Unknown': 9, 'Intermediate Expert': 5}
+Ego predictions: {'Novice': 61, 'Late Expert': 26, 'Unknown': 9, 'Intermediate Expert': 3, 'Early Expert': 1}
+
+Reasoning, Entire, 8f  [vl_climbing_entire_n8_reasoning.csv]
+ exo: 23/100 = 23.0%
+ ego: 13/100 = 13.0%
+  exo Novice                : 0/25=0.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 22/25=88.0%
+  exo Late Expert           : 1/25=4.0%
+  ego Novice                : 1/25=4.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 10/25=40.0%
+  ego Late Expert           : 2/25=8.0%
+Exo predictions: {'Intermediate Expert': 81, 'Late Expert': 10, 'Unknown': 9}
+Ego predictions: {'Unknown': 47, 'Intermediate Expert': 41, 'Late Expert': 6, 'Novice': 4, 'Early Expert': 2}
+
+CLIMBING- VideoLLaVA TRIMMED
+Binary, Trimmed, 8f  [vl_climbing_trimmed_exo_n8_binary.csv / vl_climbing_trimmed_ego_n8_binary.csv]
+EXO
+Overall: 30/50 = 60.0%
+Expert                : 5/25=20.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 45, 'Expert': 5}
+EGO
+Overall: 25/50 = 50.0%
+Expert                : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+
+Fourclass, Trimmed, 8f  [vl_climbing_trimmed_n8_fourclass.csv]
+ exo: 25/100 = 25.0%
+ ego: 24/100 = 24.0%
+  exo Novice                : 22/25=88.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 0/25=0.0%
+  exo Late Expert           : 3/25=12.0%
+  ego Novice                : 24/25=96.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 0/25=0.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Novice': 91, 'Late Expert': 7, 'Unknown': 2}
+Ego predictions: {'Novice': 98, 'Unknown': 2}
+
+Structured, Trimmed, 8f  [vl_climbing_trimmed_n8_structured.csv]
+ exo: 15/100 = 15.0%
+ ego: 30/100 = 30.0%
+  exo Novice                : 7/25=28.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 5/25=20.0%
+  exo Late Expert           : 3/25=12.0%
+  ego Novice                : 15/25=60.0%
+  ego Early Expert          : 1/25=4.0%
+  ego Intermediate Expert   : 3/25=12.0%
+  ego Late Expert           : 11/25=44.0%
+Exo predictions: {'Novice': 58, 'Intermediate Expert': 18, 'Late Expert': 14, 'Early Expert': 8, 'Unknown': 2}
+Ego predictions: {'Novice': 55, 'Late Expert': 31, 'Intermediate Expert': 8, 'Early Expert': 4, 'Unknown': 2}
+
+Reasoning, Trimmed, 8f  [vl_climbing_trimmed_n8_reasoning.csv]
+ exo: 24/100 = 24.0%
+ ego: 21/100 = 21.0%
+  exo Novice                : 0/25=0.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 22/25=88.0%
+  exo Late Expert           : 2/25=8.0%
+  ego Novice                : 0/25=0.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 21/25=84.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Intermediate Expert': 87, 'Unknown': 10, 'Late Expert': 3}
+Ego predictions: {'Intermediate Expert': 87, 'Unknown': 11, 'Late Expert': 2}
+
+CLIMBING- Gemini
+Binary
+EXO  [gemini_climbing_entire_binary.csv]          EGO  [gemini_climbing_entire_binary_ego.csv]
+Overall: 30/51 = 58.8%
+Expert                : 17/25=68.0%
+Novice                : 13/26=50.0%
+Answers: {'Expert': 29, 'Novice': 21, 'Unknown': 1}
+Overall: 38/50 = 76.0%
+Expert                : 17/25=68.0%
+Novice                : 21/25=84.0%
+Answers: {'Novice': 29, 'Expert': 21}
+
+Fourclass
+EXO  [gemini_climbing_entire_fourclass.csv]          EGO  [gemini_climbing_entire_fourclass_ego.csv]
+Overall: 26/100 = 26.0%
+Novice                : 5/25=20.0%
+Early Expert          : 0/25=0.0%
+Intermediate Expert   : 21/25=84.0%
+Late Expert           : 0/25=0.0%
+Answers: {'Intermediate Expert': 81, 'Novice': 17, 'Late Expert': 2}
+Overall: 32/100 = 32.0%
+Novice                : 12/25=48.0%
+Early Expert          : 0/25=0.0%
+Intermediate Expert   : 20/25=80.0%
+Late Expert           : 0/25=0.0%
+Answers: {'Intermediate Expert': 70, 'Novice': 28, 'Early Expert': 2}
+
+Structured
+EXO  [gemini_climbing_entire_structured.csv]          EGO  [gemini_climbing_entire_structured_ego.csv]
+Overall: 33/100 = 33.0%
+Novice                : 10/25=40.0%
+Early Expert          : 0/25=0.0%
+Intermediate Expert   : 23/25=92.0%
+Late Expert           : 0/25=0.0%
+Answers: {'Intermediate Expert': 80, 'Novice': 20}
+Overall: 31/100 = 31.0%
+Novice                : 11/25=44.0%
+Early Expert          : 0/25=0.0%
+Intermediate Expert   : 20/25=80.0%
+Late Expert           : 0/25=0.0%
+Answers: {'Intermediate Expert': 75, 'Novice': 23, 'Late Expert': 2}
+
+Reasoning
+EXO  [gemini_climbing_entire_reasoning.csv]          EGO  [gemini_climbing_entire_reasoning_ego.csv]
+Overall: 27/100 = 27.0%
+Novice                : 3/25=12.0%
+Early Expert          : 0/25=0.0%
+Intermediate Expert   : 24/25=96.0%
+Late Expert           : 0/25=0.0%
+Answers: {'Intermediate Expert': 92, 'Novice': 6, 'Late Expert': 1, 'Early Expert': 1}
+Overall: 28/100 = 28.0%
+Novice                : 8/25=32.0%
+Early Expert          : 0/25=0.0%
+Intermediate Expert   : 20/25=80.0%
+Late Expert           : 0/25=0.0%
+Answers: {'Intermediate Expert': 68, 'Novice': 29, 'Unknown': 3}
+
+CLIMBING- QWEN ENTIRE (16 frames)
+Binary, Entire, 16f  [qwen_climbing_entire_n16_binary.csv]
+EXO
+Overall: 25/50 = 50.0%
+Expert                : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 48, 'Unknown': 2}
+EGO
+Overall: 25/50 = 50.0%
+Expert                : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 48, 'Unknown': 2}
+
+Fourclass, Entire, 16f  [qwen_climbing_entire_n16_fourclass.csv]
+ exo: 27/100 = 27.0%
+ ego: 25/100 = 25.0%
+  exo Novice                : 23/25=92.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 4/25=16.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 25/25=100.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 0/25=0.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Novice': 89, 'Intermediate Expert': 11}
+Ego predictions: {'Novice': 98, 'Intermediate Expert': 2}
+
+Structured, Entire, 16f  [qwen_climbing_entire_n16_structured.csv]
+ exo: 24/100 = 24.0%
+ ego: 24/100 = 24.0%
+  exo Novice                : 22/25=88.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 2/25=8.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 13/25=52.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 11/25=44.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Novice': 87, 'Intermediate Expert': 13}
+Ego predictions: {'Novice': 57, 'Intermediate Expert': 42, 'Unknown': 1}
+
+Reasoning, Entire, 16f  [qwen_climbing_entire_n16_reasoning.csv]
+ exo: 14/100 = 14.0%
+ ego: 24/100 = 24.0%
+  exo Novice                : 6/25=24.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 8/25=32.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 24/25=96.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 0/25=0.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Novice': 49, 'Intermediate Expert': 36, 'Unknown': 15}
+Ego predictions: {'Novice': 91, 'Unknown': 9}
+
+CLIMBING- QWEN TRIMMED (16 frames)
+Binary, Trimmed, 16f  [qwen_climbing_trimmed_exo_n16_binary.csv / qwen_climbing_trimmed_ego_n16_binary.csv]
+EXO
+Overall: 25/50 = 50.0%
+Expert                : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+EGO
+Overall: 25/50 = 50.0%
+Expert                : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+
+Structured, Trimmed, 16f  [qwen_climbing_trimmed_n16_structured.csv]
+ exo: 17/100 = 17.0%
+ ego: 26/100 = 26.0%
+  exo Novice                : 9/25=36.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 8/25=32.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 8/25=32.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 18/25=72.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Novice': 53, 'Intermediate Expert': 40, 'Unknown': 7}
+Ego predictions: {'Intermediate Expert': 59, 'Novice': 39, 'Unknown': 2}
+
+Reasoning, Trimmed, 16f  [qwen_climbing_trimmed_n16_reasoning.csv]
+ exo: 10/100 = 10.0%
+ ego: 23/100 = 23.0%
+  exo Novice                : 3/25=12.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 7/25=28.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 23/25=92.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 0/25=0.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Intermediate Expert': 36, 'Novice': 35, 'Unknown': 28, 'Late Expert': 1}
+Ego predictions: {'Novice': 89, 'Unknown': 10, 'Intermediate Expert': 1}
+
+CLIMBING- VideoLLaVa ENTIRE (16 frames)
+Binary, Entire, 16f  [vl_climbing_entire_n16_binary.csv]
+EXO
+Overall: 38/50 = 76.0%
+Expert                : 16/25=64.0%
+Novice                : 22/25=88.0%
+Answers: {'Novice': 29, 'Expert': 19, 'Unknown': 2}
+EGO
+Overall: 16/50 = 32.0%
+Expert                : 4/25=16.0%
+Novice                : 12/25=48.0%
+Answers: {'Novice': 31, 'Expert': 17, 'Unknown': 2}
+
+CLIMBING- VideoLLaVA TRIMMED (16 frames)
+Binary, Trimmed, 16f  [vl_climbing_trimmed_exo_n16_binary.csv / vl_climbing_trimmed_ego_n16_binary.csv]
+EXO
+Overall: 25/50 = 50.0%
+Expert                : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+EGO
+Overall: 25/50 = 50.0%
+Expert                : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+
+Structured, Trimmed, 16f  [structured_n16.csv -- CSV is now EMPTY (0 rows) -- overwritten by a later crashed job (see job 3541299, prompt exceeded 4096-token context limit). These are the original run's numbers from log structured_n16_3541255.log; NOT independently reproducible/recomputable from current data.]
+ exo: 24/100 = 24.0%
+ ego: 25/100 = 25.0%
+Exo predictions: {'Novice': 98, 'Unknown': 2}
+Ego predictions: {'Novice': 89, 'Unknown': 9, 'Late Expert': 2}
+
+Reasoning, Trimmed, 16f  [reasoning_n16.csv -- CSV is now 100% ERROR (NameError: 'name re is not defined' in the run that overwrote it -- since fixed in the script, but never re-run). These are the original run's numbers from log reasoning_n16_3538647.log; NOT independently reproducible/recomputable from current data.]
+ exo: 16/100 = 16.0%
+ ego: 15/100 = 15.0%
+Exo predictions: {'Novice': 61, 'Unknown': 31, 'Early Expert': 8}
+Ego predictions: {'Novice': 65, 'Unknown': 33, 'Early Expert': 1, 'Late Expert': 1}

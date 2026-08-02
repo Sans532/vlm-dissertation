@@ -3,3 +3,4 @@ dissertation_v2/results/all_frames.zip
 __pycache__/
 *.bak
 .claude/
+.venv-stats/

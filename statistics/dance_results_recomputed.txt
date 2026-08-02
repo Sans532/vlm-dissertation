@@ -1,0 +1,412 @@
+DANCE- QWEN ENTIRE
+Binary, Entire, 8f  [qwen_dance_entire_n8_binary.csv]
+EXO
+Overall: 25/50 = 50.0%
+Late Expert           : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+EGO
+Overall: 25/50 = 50.0%
+Late Expert           : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+
+Fourclass, Entire, 8f  [qwen_dance_entire_n8_fourclass.csv]
+ exo: 31/100 = 31.0%
+ ego: 25/100 = 25.0%
+  exo Novice                : 18/25=72.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 13/25=52.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 25/25=100.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 0/25=0.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Novice': 61, 'Intermediate Expert': 39}
+Ego predictions: {'Novice': 100}
+
+Structured, Entire, 8f  [qwen_dance_entire_n8_structured.csv]
+ exo: 32/100 = 32.0%
+ ego: 25/100 = 25.0%
+  exo Novice                : 15/25=60.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 17/25=68.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 20/25=80.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 5/25=20.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Intermediate Expert': 61, 'Novice': 37, 'Unknown': 2}
+Ego predictions: {'Novice': 79, 'Intermediate Expert': 19, 'Unknown': 2}
+
+Reasoning, Entire, 8f  [qwen_dance_entire_n8_reasoning.csv]
+ exo: 32/100 = 32.0%
+ ego: 25/100 = 25.0%
+  exo Novice                : 13/25=52.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 19/25=76.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 25/25=100.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 0/25=0.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Intermediate Expert': 63, 'Novice': 35, 'Unknown': 1, 'Late Expert': 1}
+Ego predictions: {'Novice': 99, 'Unknown': 1}
+
+DANCE- QWEN TRIMMED
+Binary, Trimmed, 8f  [qwen_dance_trimmed_n8_binary.csv]
+EXO
+Overall: 25/50 = 50.0%
+Late Expert           : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+EGO
+Overall: 25/50 = 50.0%
+Late Expert           : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+
+Fourclass, Trimmed, 8f  [qwen_dance_trimmed_n8_fourclass.csv]
+ exo: 32/100 = 32.0%
+ ego: 25/100 = 25.0%
+  exo Novice                : 16/25=64.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 16/25=64.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 25/25=100.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 0/25=0.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Novice': 57, 'Intermediate Expert': 43}
+Ego predictions: {'Novice': 100}
+
+Structured, Trimmed, 8f  [qwen_dance_trimmed_n8_structured.csv]
+ exo: 35/100 = 35.0%
+ ego: 24/100 = 24.0%
+  exo Novice                : 17/25=68.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 17/25=68.0%
+  exo Late Expert           : 1/25=4.0%
+  ego Novice                : 19/25=76.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 5/25=20.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Intermediate Expert': 60, 'Novice': 38, 'Late Expert': 1, 'Unknown': 1}
+Ego predictions: {'Novice': 74, 'Intermediate Expert': 24, 'Late Expert': 1, 'Unknown': 1}
+
+Reasoning, Trimmed, 8f  [qwen_dance_trimmed_n8_reasoning.csv]
+ exo: 28/100 = 28.0%
+ ego: 25/100 = 25.0%
+  exo Novice                : 12/25=48.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 15/25=60.0%
+  exo Late Expert           : 1/25=4.0%
+  ego Novice                : 25/25=100.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 0/25=0.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Intermediate Expert': 53, 'Novice': 43, 'Late Expert': 4}
+Ego predictions: {'Novice': 100}
+
+DANCE- VideoLLaVa ENTIRE
+Binary, Entire, 8f  [vl_dance_entire_n8_binary.csv]
+EXO
+Overall: 25/50 = 50.0%
+Late Expert           : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+EGO
+Overall: 25/50 = 50.0%
+Late Expert           : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+
+Fourclass, Entire, 8f  [vl_dance_entire_n8_fourclass.csv]
+ exo: 25/100 = 25.0%
+ ego: 25/100 = 25.0%
+  exo Novice                : 25/25=100.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 0/25=0.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 25/25=100.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 0/25=0.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Novice': 100}
+Ego predictions: {'Novice': 100}
+
+Structured, Entire, 8f  [vl_dance_entire_n8_structured.csv]
+ exo: 19/100 = 19.0%
+ ego: 23/100 = 23.0%
+  exo Novice                : 7/25=28.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 11/25=44.0%
+  exo Late Expert           : 1/25=4.0%
+  ego Novice                : 10/25=40.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 8/25=32.0%
+  ego Late Expert           : 5/25=20.0%
+Exo predictions: {'Intermediate Expert': 48, 'Novice': 36, 'Late Expert': 16}
+Ego predictions: {'Intermediate Expert': 44, 'Novice': 35, 'Late Expert': 21}
+
+Reasoning, Entire, 8f  [vl_dance_entire_n8_reasoning.csv]
+ exo: 25/100 = 25.0%
+ ego: 25/100 = 25.0%
+  exo Novice                : 0/25=0.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 0/25=0.0%
+  exo Late Expert           : 25/25=100.0%
+  ego Novice                : 0/25=0.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 1/25=4.0%
+  ego Late Expert           : 24/25=96.0%
+Exo predictions: {'Late Expert': 94, 'Unknown': 5, 'Early Expert': 1}
+Ego predictions: {'Late Expert': 95, 'Intermediate Expert': 3, 'Early Expert': 1, 'Unknown': 1}
+
+DANCE- VideoLLaVA TRIMMED
+Binary, Trimmed, 8f  [vl_dance_trimmed_n8_binary.csv]
+EXO
+Overall: 25/50 = 50.0%
+Late Expert           : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+EGO
+Overall: 25/50 = 50.0%
+Late Expert           : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+
+Fourclass, Trimmed, 8f  [vl_dance_trimmed_n8_fourclass.csv]
+ exo: 25/100 = 25.0%
+ ego: 25/100 = 25.0%
+  exo Novice                : 25/25=100.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 0/25=0.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 25/25=100.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 0/25=0.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Novice': 100}
+Ego predictions: {'Novice': 100}
+
+Structured, Trimmed, 8f  [vl_dance_trimmed_n8_structured.csv]
+ exo: 26/100 = 26.0%
+ ego: 24/100 = 24.0%
+  exo Novice                : 9/25=36.0%
+  exo Early Expert          : 1/25=4.0%
+  exo Intermediate Expert   : 11/25=44.0%
+  exo Late Expert           : 5/25=20.0%
+  ego Novice                : 4/25=16.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 11/25=44.0%
+  ego Late Expert           : 9/25=36.0%
+Exo predictions: {'Intermediate Expert': 42, 'Novice': 32, 'Late Expert': 25, 'Early Expert': 1}
+Ego predictions: {'Intermediate Expert': 54, 'Late Expert': 28, 'Novice': 18}
+
+Reasoning, Trimmed, 8f  [vl_dance_trimmed_n8_reasoning.csv]
+ exo: 22/100 = 22.0%
+ ego: 31/100 = 31.0%
+  exo Novice                : 0/25=0.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 0/25=0.0%
+  exo Late Expert           : 22/25=88.0%
+  ego Novice                : 0/25=0.0%
+  ego Early Expert          : 4/25=16.0%
+  ego Intermediate Expert   : 3/25=12.0%
+  ego Late Expert           : 24/25=96.0%
+Exo predictions: {'Late Expert': 86, 'Unknown': 10, 'Novice': 2, 'Early Expert': 2}
+Ego predictions: {'Late Expert': 83, 'Intermediate Expert': 11, 'Early Expert': 6}
+
+DANCE- Gemini
+Binary
+EXO  [gemini_dance_entire_binary.csv]          EGO  [gemini_dance_entire_binary_ego.csv]
+Overall: 30/50 = 60.0%
+Late Expert           : 17/25=68.0%
+Novice                : 13/25=52.0%
+Answers: {'Expert': 29, 'Novice': 21}
+Overall: 26/50 = 52.0%
+Late Expert           : 1/25=4.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 49, 'Expert': 1}
+
+Fourclass
+EXO  [gemini_dance_entire_fourclass.csv]          EGO  [gemini_dance_entire_fourclass_ego.csv]
+Overall: 24/100 = 24.0%
+Novice                : 2/25=8.0%
+Early Expert          : 0/25=0.0%
+Intermediate Expert   : 21/25=84.0%
+Late Expert           : 1/25=4.0%
+Answers: {'Intermediate Expert': 84, 'Novice': 13, 'Early Expert': 2, 'Late Expert': 1}
+Overall: 21/100 = 21.0%
+Novice                : 15/25=60.0%
+Early Expert          : 0/25=0.0%
+Intermediate Expert   : 6/25=24.0%
+Late Expert           : 0/25=0.0%
+Answers: {'Novice': 65, 'Intermediate Expert': 34, 'Early Expert': 1}
+
+Structured
+EXO  [gemini_dance_entire_structured.csv]          EGO  [gemini_dance_entire_structured_ego.csv]
+Overall: 24/100 = 24.0%
+Novice                : 1/25=4.0%
+Early Expert          : 0/25=0.0%
+Intermediate Expert   : 23/25=92.0%
+Late Expert           : 0/25=0.0%
+Answers: {'Intermediate Expert': 88, 'Novice': 12}
+Overall: 27/100 = 27.0%
+Novice                : 12/25=48.0%
+Early Expert          : 0/25=0.0%
+Intermediate Expert   : 15/25=60.0%
+Late Expert           : 0/25=0.0%
+Answers: {'Intermediate Expert': 60, 'Novice': 40}
+
+Reasoning
+EXO  [gemini_dance_entire_reasoning.csv]          EGO  [gemini_dance_entire_reasoning_ego.csv]
+Overall: 32/100 = 32.0%
+Novice                : 7/25=28.0%
+Early Expert          : 1/25=4.0%
+Intermediate Expert   : 24/25=96.0%
+Late Expert           : 0/25=0.0%
+Answers: {'Intermediate Expert': 81, 'Novice': 15, 'Early Expert': 4}
+Overall: 21/100 = 21.0%
+Novice                : 14/25=56.0%
+Early Expert          : 1/25=4.0%
+Intermediate Expert   : 6/25=24.0%
+Late Expert           : 0/25=0.0%
+Answers: {'Novice': 70, 'Intermediate Expert': 22, 'Unknown': 4, 'Early Expert': 4}
+
+DANCE- QWEN ENTIRE (16 frames)
+Binary, Entire, 16f  [qwen_dance_entire_n16_binary.csv]
+EXO
+Overall: 25/50 = 50.0%
+Late Expert           : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+EGO
+Overall: 25/50 = 50.0%
+Late Expert           : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+
+Fourclass, Entire, 16f  [qwen_dance_entire_n16_fourclass.csv]
+ exo: 33/100 = 33.0%
+ ego: 25/100 = 25.0%
+  exo Novice                : 16/25=64.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 17/25=68.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 25/25=100.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 0/25=0.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Intermediate Expert': 51, 'Novice': 49}
+Ego predictions: {'Novice': 100}
+
+Structured, Entire, 16f  [qwen_dance_entire_n16_structured.csv]
+ exo: 41/100 = 41.0%
+ ego: 23/100 = 23.0%
+  exo Novice                : 22/25=88.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 19/25=76.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 14/25=56.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 9/25=36.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Intermediate Expert': 57, 'Novice': 43}
+Ego predictions: {'Novice': 62, 'Intermediate Expert': 35, 'Unknown': 2, 'Late Expert': 1}
+
+Reasoning, Entire, 16f  [qwen_dance_entire_n16_reasoning.csv]
+ exo: 27/100 = 27.0%
+ ego: 25/100 = 25.0%
+  exo Novice                : 1/25=4.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 24/25=96.0%
+  exo Late Expert           : 2/25=8.0%
+  ego Novice                : 25/25=100.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 0/25=0.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Intermediate Expert': 94, 'Late Expert': 4, 'Novice': 2}
+Ego predictions: {'Novice': 100}
+
+DANCE- QWEN TRIMMED (16 frames)
+Binary, Trimmed, 16f  [qwen_dance_trimmed_n16_binary.csv]
+EXO
+Overall: 25/50 = 50.0%
+Late Expert           : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+EGO
+Overall: 25/50 = 50.0%
+Late Expert           : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+
+Fourclass, Trimmed, 16f  [qwen_dance_trimmed_n16_fourclass.csv]
+ exo: 34/100 = 34.0%
+ ego: 25/100 = 25.0%
+  exo Novice                : 16/25=64.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 18/25=72.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 25/25=100.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 0/25=0.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Intermediate Expert': 55, 'Novice': 45}
+Ego predictions: {'Novice': 100}
+
+Structured, Trimmed, 16f  [qwen_dance_trimmed_n16_structured.csv]
+ exo: 39/100 = 39.0%
+ ego: 28/100 = 28.0%
+  exo Novice                : 17/25=68.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 22/25=88.0%
+  exo Late Expert           : 0/25=0.0%
+  ego Novice                : 20/25=80.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 8/25=32.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Intermediate Expert': 71, 'Novice': 29}
+Ego predictions: {'Novice': 62, 'Intermediate Expert': 34, 'Unknown': 4}
+
+Reasoning, Trimmed, 16f  [qwen_dance_trimmed_n16_reasoning.csv]
+ exo: 27/100 = 27.0%
+ ego: 25/100 = 25.0%
+  exo Novice                : 1/25=4.0%
+  exo Early Expert          : 0/25=0.0%
+  exo Intermediate Expert   : 25/25=100.0%
+  exo Late Expert           : 1/25=4.0%
+  ego Novice                : 25/25=100.0%
+  ego Early Expert          : 0/25=0.0%
+  ego Intermediate Expert   : 0/25=0.0%
+  ego Late Expert           : 0/25=0.0%
+Exo predictions: {'Intermediate Expert': 95, 'Novice': 3, 'Late Expert': 2}
+Ego predictions: {'Novice': 100}
+
+DANCE- VideoLLaVa ENTIRE (16 frames)
+Binary, Entire, 16f  [vl_dance_entire_n16_binary.csv]
+EXO
+Overall: 25/50 = 50.0%
+Late Expert           : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+EGO
+Overall: 25/50 = 50.0%
+Late Expert           : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+
+DANCE- VideoLLaVA TRIMMED (16 frames)
+Binary, Trimmed, 16f  [vl_dance_trimmed_n16_binary.csv]
+EXO
+Overall: 25/50 = 50.0%
+Late Expert           : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
+EGO
+Overall: 25/50 = 50.0%
+Late Expert           : 0/25=0.0%
+Novice                : 25/25=100.0%
+Answers: {'Novice': 50}
