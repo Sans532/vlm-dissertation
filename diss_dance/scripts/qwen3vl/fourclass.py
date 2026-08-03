@@ -1,10 +1,11 @@
 """
-Qwen3-VL-8B | Dance | 4-class | NATIVE VIDEO (~1fps proportional) | Exo + Ego
+Qwen3-VL-8B | Dance | Fourclass | OPENCV FRAMES (true ~1fps, matches Gemini fps=1) | Exo + Ego
+Bypasses the native video pipeline (fps=24 fallback bug -> OOM).
 """
 import json, os, csv, gc, warnings
 import torch, cv2
+from PIL import Image
 from transformers import Qwen3VLForConditionalGeneration, AutoProcessor
-from qwen_vl_utils import process_vision_info
 from collections import Counter
 
 warnings.filterwarnings("ignore")
@@ -13,12 +14,15 @@ USER       = os.environ.get("USER")
 MODEL_PATH = "/home/" + USER + "/dissertation/models/qwen3vl-8b"
 DATA_DIR   = "/home/" + USER + "/data_dance/videos"
 BENCHMARK  = "/home/" + USER + "/dissertation/repo/diss_dance/benchmark/benchmark_100.json"
-RESULTS    = "/home/" + USER + "/dissertation/repo/diss_dance/results/qwen3vl/qwen3vl_dance_native_fourclass.csv"
-LABELS     = ["Late Expert", "Intermediate Expert", "Early Expert", "Novice"]
+RESULTS    = "/home/" + USER + "/dissertation/repo/diss_dance/results/qwen3vl/qwen3vl_dance_frames_fourclass.csv"
 
 os.makedirs(os.path.dirname(RESULTS), exist_ok=True)
 
-QUESTION = "What is the skill level of the person in this video? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert"
+LABELS = ["Novice", "Early Expert", "Intermediate Expert", "Late Expert"]
+QUESTION = ("What is this person's skill level at this activity? "
+            "Answer only one of: Novice, Early Expert, Intermediate Expert, Late Expert")
+
+MAX_SIDE = 448  # resize longest side of each frame (keeps memory bounded without changing frame count)
 
 print("Loading Qwen3-VL-8B ...")
 model = Qwen3VLForConditionalGeneration.from_pretrained(
@@ -27,45 +31,70 @@ processor = AutoProcessor.from_pretrained(MODEL_PATH)
 print("Model loaded.\n")
 
 
-def get_nframes_for_fps1(video_path):
+def extract_frames(video_path):
+    """Sample frames at true ~1fps (one frame per second of video), matching Gemini's fps=1 setting."""
     cap = cv2.VideoCapture(video_path)
     fps_video = cap.get(cv2.CAP_PROP_FPS)
     total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     duration_sec = total_frames / fps_video if fps_video > 0 else 0
+    n = max(1, round(duration_sec))
+
+    frames = []
+    if total_frames <= 0:
+        cap.release()
+        return frames, 0
+    indices = [int(i * (total_frames - 1) / max(1, n - 1)) for i in range(n)] if n > 1 else [total_frames // 2]
+    for idx in indices:
+        cap.set(cv2.CAP_PROP_POS_FRAMES, idx)
+        ret, frame = cap.read()
+        if not ret:
+            continue
+        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        h, w = frame.shape[:2]
+        scale = MAX_SIDE / max(h, w)
+        if scale < 1:
+            frame = cv2.resize(frame, (int(w * scale), int(h * scale)))
+        frames.append(Image.fromarray(frame))
     cap.release()
-    return max(1, round(duration_sec))
+    return frames, len(frames)
 
 
-def ask_native_video(video_path, question, max_new_tokens=50):
-    n = get_nframes_for_fps1(video_path)
-    messages = [{
-        "role": "user",
-        "content": [
-            {"type": "video", "video": video_path, "nframes": n},
-            {"type": "text", "text": question}
-        ]
-    }]
+def ask_frames(video_path, question, max_new_tokens=50):
+    frames, n = extract_frames(video_path)
+    if n == 0:
+        raise Exception("No frames extracted")
+    content = [{"type": "image", "image": f} for f in frames]
+    content.append({"type": "text", "text": question})
+    messages = [{"role": "user", "content": content}]
+
     text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-    image_inputs, video_inputs = process_vision_info(messages)
-    inputs = processor(text=[text], images=image_inputs, videos=video_inputs, return_tensors="pt", padding=True).to("cuda")
+    inputs = processor(text=[text], images=frames, return_tensors="pt", padding=True).to("cuda")
     out = model.generate(**inputs, max_new_tokens=max_new_tokens, do_sample=False)
     raw = processor.batch_decode(out, skip_special_tokens=True)[0]
     clean = raw.split("assistant\n")[-1].strip() if "assistant\n" in raw else raw.strip()
-    del inputs, out, image_inputs, video_inputs
+    del inputs, out, frames
     torch.cuda.empty_cache(); gc.collect()
     return clean, n
 
 
 def extract_label(answer):
+    """Find which of the four labels appears earliest in the answer (position-based, avoids
+    the 'earliest mention wins' bug that affected Gemini's reasoning-prompt extraction)."""
     a = answer.lower()
+    best_label, best_pos = None, 10**9
     for label in LABELS:
-        if label.lower() in a:
-            return label
-    return "Unknown"
+        pos = a.find(label.lower())
+        if pos != -1 and pos < best_pos:
+            best_label, best_pos = label, pos
+    return best_label if best_label else "Unknown"
+
+
+def check(pred, gt):
+    return pred == gt
 
 
 benchmark = json.load(open(BENCHMARK))
-print("Clips: " + str(len(benchmark)) + " | NATIVE VIDEO ~1fps | Dance\n")
+print("Clips: " + str(len(benchmark)) + " | OPENCV FRAMES true ~1fps (matches Gemini fps=1) | Dance\n")
 print("Prompt: " + QUESTION + "\n")
 
 with open(RESULTS, "w", newline="") as f:
@@ -88,12 +117,12 @@ for i, item in enumerate(benchmark):
         try:
             if not os.path.exists(path):
                 raise Exception("Video not found")
-            ans, n = ask_native_video(path, QUESTION)
+            ans, n = ask_frames(path, QUESTION)
             pred = extract_label(ans)
-            ok = pred.lower() == gt.lower()
+            ok = check(pred, gt)
         except Exception as e:
             print("  " + view + " ERROR: " + str(e))
-            ans = "ERROR"; pred = "Unknown"; ok = False; n = 0
+            ans = "ERROR"; ok = False; pred = "Unknown"; n = 0
         row.extend([n, ans, pred, ok])
         stats[view][1] += 1
         if ok: stats[view][0] += 1
@@ -107,7 +136,7 @@ for i, item in enumerate(benchmark):
 
 n_total = len(benchmark)
 print("=" * 60)
-print("RESULTS — Qwen3-VL native 4-class (Dance)")
+print("RESULTS — Qwen3-VL frames fourclass (Dance)")
 print("=" * 60)
 for v, (c, t) in stats.items():
     print("  " + v + ": " + str(c) + "/" + str(t) + " = " + str(round(c/t*100, 1)) + "%" if t else "")

@@ -2,7 +2,7 @@
 #SBATCH --job-name=q3Df
 #SBATCH --partition=Teaching
 #SBATCH --gres=gpu:h200_3g.71gb:1
-#SBATCH --time=03:00:00
+#SBATCH --time=06:00:00
 #SBATCH --mem=30G
 #SBATCH --cpus-per-task=4
 #SBATCH --output=/home/%u/dissertation/repo/diss_dance/logs/qwen3vl/qwen3vl_fourclass_dance_%j.log

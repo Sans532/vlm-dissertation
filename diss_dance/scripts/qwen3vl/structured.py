@@ -1,10 +1,11 @@
 """
-Qwen3-VL-8B | Dance | Structured | NATIVE VIDEO (~1fps proportional) | Exo + Ego
+Qwen3-VL-8B | Dance | Structured | OPENCV FRAMES (true ~1fps, matches Gemini fps=1) | Exo + Ego
+Bypasses the native video pipeline (fps=24 fallback bug -> OOM).
 """
-import json, os, csv, gc, warnings, re
+import json, os, csv, gc, warnings
 import torch, cv2
+from PIL import Image
 from transformers import Qwen3VLForConditionalGeneration, AutoProcessor
-from qwen_vl_utils import process_vision_info
 from collections import Counter
 
 warnings.filterwarnings("ignore")
@@ -13,21 +14,23 @@ USER       = os.environ.get("USER")
 MODEL_PATH = "/home/" + USER + "/dissertation/models/qwen3vl-8b"
 DATA_DIR   = "/home/" + USER + "/data_dance/videos"
 BENCHMARK  = "/home/" + USER + "/dissertation/repo/diss_dance/benchmark/benchmark_100.json"
-RESULTS    = "/home/" + USER + "/dissertation/repo/diss_dance/results/qwen3vl/qwen3vl_dance_native_structured.csv"
-LABELS     = ["Late Expert", "Intermediate Expert", "Early Expert", "Novice"]
+RESULTS    = "/home/" + USER + "/dissertation/repo/diss_dance/results/qwen3vl/qwen3vl_dance_frames_structured.csv"
 
 os.makedirs(os.path.dirname(RESULTS), exist_ok=True)
 
+LABELS = ["Novice", "Early Expert", "Intermediate Expert", "Late Expert"]
+
 QUESTION = (
-    "Watch this video carefully.\n"
-    "Step 1: Describe the person's body position and technique in detail.\n"
-    "Step 2: Identify any errors or imprecisions in their movement.\n"
-    "Step 3: Classify skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.\n"
-    "Format your answer as:\n"
-    "Observations: ...\n"
-    "Errors: ...\n"
-    "Skill Level: ..."
+    "Analyze this person's skill level at this activity using the following structure:\n"
+    "1. Movement quality: describe control, fluidity, and efficiency of movement.\n"
+    "2. Technique: describe use of technique specific to this activity.\n"
+    "3. Confidence and control: describe hesitation, stability, and body positioning.\n"
+    "4. Final verdict: state the skill level as exactly one of: Novice, Early Expert, "
+    "Intermediate Expert, Late Expert.\n"
+    "Give your final verdict as the LAST line, in the format: Verdict: <label>"
 )
+
+MAX_SIDE = 448  # resize longest side of each frame (keeps memory bounded without changing frame count)
 
 print("Loading Qwen3-VL-8B ...")
 model = Qwen3VLForConditionalGeneration.from_pretrained(
@@ -36,56 +39,82 @@ processor = AutoProcessor.from_pretrained(MODEL_PATH)
 print("Model loaded.\n")
 
 
-def get_nframes_for_fps1(video_path):
+def extract_frames(video_path):
+    """Sample frames at true ~1fps (one frame per second of video), matching Gemini's fps=1 setting."""
     cap = cv2.VideoCapture(video_path)
     fps_video = cap.get(cv2.CAP_PROP_FPS)
     total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     duration_sec = total_frames / fps_video if fps_video > 0 else 0
+    n = max(1, round(duration_sec))
+
+    frames = []
+    if total_frames <= 0:
+        cap.release()
+        return frames, 0
+    indices = [int(i * (total_frames - 1) / max(1, n - 1)) for i in range(n)] if n > 1 else [total_frames // 2]
+    for idx in indices:
+        cap.set(cv2.CAP_PROP_POS_FRAMES, idx)
+        ret, frame = cap.read()
+        if not ret:
+            continue
+        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        h, w = frame.shape[:2]
+        scale = MAX_SIDE / max(h, w)
+        if scale < 1:
+            frame = cv2.resize(frame, (int(w * scale), int(h * scale)))
+        frames.append(Image.fromarray(frame))
     cap.release()
-    return max(1, round(duration_sec))
+    return frames, len(frames)
 
 
-def ask_native_video(video_path, question, max_new_tokens=300):
-    n = get_nframes_for_fps1(video_path)
-    messages = [{
-        "role": "user",
-        "content": [
-            {"type": "video", "video": video_path, "nframes": n},
-            {"type": "text", "text": question}
-        ]
-    }]
+def ask_frames(video_path, question, max_new_tokens=300):
+    frames, n = extract_frames(video_path)
+    if n == 0:
+        raise Exception("No frames extracted")
+    content = [{"type": "image", "image": f} for f in frames]
+    content.append({"type": "text", "text": question})
+    messages = [{"role": "user", "content": content}]
+
     text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-    image_inputs, video_inputs = process_vision_info(messages)
-    inputs = processor(text=[text], images=image_inputs, videos=video_inputs, return_tensors="pt", padding=True).to("cuda")
+    inputs = processor(text=[text], images=frames, return_tensors="pt", padding=True).to("cuda")
     out = model.generate(**inputs, max_new_tokens=max_new_tokens, do_sample=False)
     raw = processor.batch_decode(out, skip_special_tokens=True)[0]
     clean = raw.split("assistant\n")[-1].strip() if "assistant\n" in raw else raw.strip()
-    del inputs, out, image_inputs, video_inputs
+    del inputs, out, frames
     torch.cuda.empty_cache(); gc.collect()
     return clean, n
 
 
 def extract_label(answer):
+    """Prefer the explicit 'Verdict: <label>' line if present; otherwise fall back to
+    earliest label mention in the full text (same position-based rule used elsewhere)."""
     a = answer.lower()
-    match = re.search(r"skill level:\s*(.+?)(?:\n|$)", a, re.IGNORECASE)
-    search_text = match.group(1).strip() if match else a
+    verdict_idx = a.rfind("verdict:")
+    if verdict_idx != -1:
+        tail = a[verdict_idx + len("verdict:"):]
+        for label in LABELS:
+            if label.lower() in tail:
+                return label
+    best_label, best_pos = None, 10**9
     for label in LABELS:
-        if label.lower() in search_text:
-            return label
-    for label in LABELS:
-        if label.lower() in a:
-            return label
-    return "Unknown"
+        pos = a.find(label.lower())
+        if pos != -1 and pos < best_pos:
+            best_label, best_pos = label, pos
+    return best_label if best_label else "Unknown"
+
+
+def check(pred, gt):
+    return pred == gt
 
 
 benchmark = json.load(open(BENCHMARK))
-print("Clips: " + str(len(benchmark)) + " | NATIVE VIDEO ~1fps | Dance\n")
+print("Clips: " + str(len(benchmark)) + " | OPENCV FRAMES true ~1fps (matches Gemini fps=1) | Dance\n")
 print("Prompt: " + QUESTION + "\n")
 
 with open(RESULTS, "w", newline="") as f:
     csv.writer(f).writerow(["clip_id", "take_folder", "ground_truth",
-                             "exo_nframes", "exo_full_answer", "exo_predicted", "exo_correct",
-                             "ego_nframes", "ego_full_answer", "ego_predicted", "ego_correct"])
+                             "exo_nframes", "exo_answer", "exo_predicted", "exo_correct",
+                             "ego_nframes", "ego_answer", "ego_predicted", "ego_correct"])
 
 stats = {"exo": [0, 0], "ego": [0, 0]}
 exo_preds = Counter(); ego_preds = Counter()
@@ -102,18 +131,18 @@ for i, item in enumerate(benchmark):
         try:
             if not os.path.exists(path):
                 raise Exception("Video not found")
-            ans, n = ask_native_video(path, QUESTION)
+            ans, n = ask_frames(path, QUESTION)
             pred = extract_label(ans)
-            ok = pred.lower() == gt.lower()
+            ok = check(pred, gt)
         except Exception as e:
             print("  " + view + " ERROR: " + str(e))
-            ans = "ERROR"; pred = "Unknown"; ok = False; n = 0
+            ans = "ERROR"; ok = False; pred = "Unknown"; n = 0
         row.extend([n, ans, pred, ok])
         stats[view][1] += 1
         if ok: stats[view][0] += 1
         if view == "exo": exo_preds[pred] += 1
         else: ego_preds[pred] += 1
-        print("  " + view + " (n=" + str(n) + "): " + pred + " " + ("OK" if ok else "X") + " | " + ans[:80].replace("\n"," "))
+        print("  " + view + " (n=" + str(n) + "): " + pred + " " + ("OK" if ok else "X"))
 
     with open(RESULTS, "a", newline="") as f:
         csv.writer(f).writerow(row)
@@ -121,7 +150,7 @@ for i, item in enumerate(benchmark):
 
 n_total = len(benchmark)
 print("=" * 60)
-print("RESULTS — Qwen3-VL native structured (Dance)")
+print("RESULTS — Qwen3-VL frames structured (Dance)")
 print("=" * 60)
 for v, (c, t) in stats.items():
     print("  " + v + ": " + str(c) + "/" + str(t) + " = " + str(round(c/t*100, 1)) + "%" if t else "")
