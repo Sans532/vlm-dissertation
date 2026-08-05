@@ -66,7 +66,7 @@ def extract_frames(video_path):
     return frames, len(frames)
 
 
-def ask_frames(video_path, question, max_new_tokens=400):
+def ask_frames(video_path, question, max_new_tokens=900):
     frames, n = extract_frames(video_path)
     if n == 0:
         raise Exception("No frames extracted")
