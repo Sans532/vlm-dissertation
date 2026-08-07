@@ -1,0 +1,16 @@
+CLIP feature classifier -- mitigation test
+============================================================
+n = 100 clips
+Frames per clip: 8
+View: exo
+Skipped clips: []
+
+Per-fold accuracy: [0.65, 0.6, 0.7, 0.65, 0.75]
+Mean CV accuracy: 0.67
+Std across folds: 0.051
+Approx 95% CI: [0.6253, 0.7147]
+Most-frequent-class baseline: 0.25
+Stratified-random baseline: 0.27
+Theoretical uniform random chance: 0.25
+
+Label distribution: {'Novice': 25, 'Early Expert': 25, 'Intermediate Expert': 25, 'Late Expert': 25}

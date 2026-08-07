@@ -1,0 +1,48 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading CLIP ViT-L/14 ...
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights:   1%|▏         | 8/590 [00:00<00:15, 36.66it/s]Loading weights:   8%|▊         | 47/590 [00:00<00:04, 129.61it/s]Loading weights:  10%|█         | 61/590 [00:00<00:04, 123.99it/s]Loading weights:  14%|█▎        | 81/590 [00:00<00:03, 144.58it/s]Loading weights:  19%|█▉        | 114/590 [00:00<00:02, 179.22it/s]Loading weights:  25%|██▍       | 147/590 [00:00<00:02, 217.97it/s]Loading weights:  29%|██▉       | 171/590 [00:00<00:01, 220.00it/s]Loading weights:  36%|███▌      | 213/590 [00:01<00:01, 262.01it/s]Loading weights:  43%|████▎     | 254/590 [00:01<00:01, 302.20it/s]Loading weights:  48%|████▊     | 286/590 [00:01<00:01, 275.34it/s]Loading weights:  54%|█████▎    | 316/590 [00:01<00:01, 266.72it/s]Loading weights:  62%|██████▏   | 366/590 [00:01<00:00, 322.04it/s]Loading weights:  68%|██████▊   | 400/590 [00:01<00:00, 323.80it/s]Loading weights: 100%|██████████| 590/590 [00:01<00:00, 349.61it/s]
+CLIP loaded on: cuda
+
+Clips: 100
+Extracting frames + CLIP features (exo view)...
+
+[10/100] processed
+[20/100] processed
+[30/100] processed
+[40/100] processed
+[50/100] processed
+[60/100] processed
+[70/100] processed
+[80/100] processed
+[90/100] processed
+[100/100] processed
+
+Feature matrix shape: (100, 768)
+Labels shape: (100,)
+Skipped: 0
+Label distribution: Counter({'Novice': 25, 'Early Expert': 25, 'Intermediate Expert': 25, 'Late Expert': 25})
+
+Running 5-fold stratified cross-validation...
+
+============================================================
+RESULTS -- CLIP features + Logistic Regression, 4-class
+============================================================
+n = 100 clips, 8 frames each, exo view
+
+Logistic Regression (CLIP features):
+  Per-fold accuracy: [0.65, 0.6, 0.7, 0.65, 0.75]
+  Mean: 0.67 +/- 0.051
+
+Most-frequent-class baseline:
+  Mean: 0.25
+
+Stratified-random baseline:
+  Mean: 0.27
+
+Theoretical random chance (uniform 4-class): 0.25
+============================================================
+
+Approx. 95% CI on mean CV accuracy: [0.6253, 0.7147]
+(Normal approximation over only 5 fold-scores -- treat as indicative, not precise.)
+
+Saved: /home/s2850007/dissertation/repo/diss_climb/results/mitigation/clip_classifier_results.txt
