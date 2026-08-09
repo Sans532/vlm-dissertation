@@ -1,0 +1,2370 @@
+Loading Qwen2.5-VL-7B ...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:59<12:05:47, 59.82s/it]Loading weights:   0%|          | 2/729 [01:00<5:03:29, 25.05s/it] Loading weights:   7%|▋         | 52/729 [01:01<06:42,  1.68it/s] Loading weights:   8%|▊         | 57/729 [01:07<07:35,  1.48it/s]Loading weights:   9%|▉         | 64/729 [01:09<06:36,  1.68it/s]Loading weights:   9%|▉         | 66/729 [01:10<06:38,  1.67it/s]Loading weights:  10%|▉         | 72/729 [01:10<05:05,  2.15it/s]Loading weights:  10%|█         | 76/729 [01:17<07:26,  1.46it/s]Loading weights:  11%|█         | 78/729 [01:18<07:15,  1.50it/s]Loading weights:  12%|█▏        | 88/729 [01:22<05:44,  1.86it/s]Loading weights:  12%|█▏        | 89/729 [01:25<07:19,  1.46it/s]Loading weights:  12%|█▏        | 90/729 [01:25<07:07,  1.49it/s]Loading weights:  14%|█▎        | 100/729 [01:29<05:30,  1.90it/s]Loading weights:  14%|█▍        | 101/729 [01:30<05:14,  2.00it/s]Loading weights:  14%|█▍        | 102/729 [01:33<07:53,  1.32it/s]Loading weights:  15%|█▌        | 112/729 [01:37<05:42,  1.80it/s]Loading weights:  16%|█▌        | 113/729 [01:37<05:44,  1.79it/s]Loading weights:  16%|█▌        | 114/729 [01:38<05:18,  1.93it/s]Loading weights:  17%|█▋        | 124/729 [01:44<06:03,  1.66it/s]Loading weights:  17%|█▋        | 125/729 [01:45<05:52,  1.71it/s]Loading weights:  17%|█▋        | 126/729 [01:45<05:59,  1.68it/s]Loading weights:  19%|█▊        | 136/729 [01:48<04:17,  2.30it/s]Loading weights:  19%|█▉        | 137/729 [01:52<06:36,  1.49it/s]Loading weights:  20%|██        | 148/729 [01:57<05:10,  1.87it/s]Loading weights:  21%|██        | 150/729 [02:00<06:33,  1.47it/s]Loading weights:  22%|██▏       | 160/729 [02:04<05:00,  1.89it/s]Loading weights:  22%|██▏       | 161/729 [02:05<05:17,  1.79it/s]Loading weights:  24%|██▎       | 172/729 [02:12<05:33,  1.67it/s]Loading weights:  24%|██▍       | 174/729 [02:13<05:26,  1.70it/s]Loading weights:  25%|██▌       | 184/729 [02:16<04:27,  2.04it/s]Loading weights:  25%|██▌       | 185/729 [02:20<05:59,  1.51it/s]Loading weights:  27%|██▋       | 196/729 [02:24<04:49,  1.84it/s]Loading weights:  27%|██▋       | 197/729 [02:24<04:35,  1.93it/s]Loading weights:  27%|██▋       | 198/729 [02:28<06:28,  1.37it/s]Loading weights:  29%|██▊       | 208/729 [02:31<04:39,  1.86it/s]Loading weights:  29%|██▊       | 209/729 [02:32<04:56,  1.76it/s]Loading weights:  29%|██▉       | 210/729 [02:32<04:33,  1.90it/s]Loading weights:  30%|███       | 220/729 [02:39<05:10,  1.64it/s]Loading weights:  30%|███       | 222/729 [02:40<05:07,  1.65it/s]Loading weights:  32%|███▏      | 232/729 [02:43<03:42,  2.23it/s]Loading weights:  32%|███▏      | 233/729 [02:47<05:30,  1.50it/s]Loading weights:  33%|███▎      | 244/729 [02:51<04:12,  1.92it/s]Loading weights:  34%|███▎      | 245/729 [02:51<04:03,  1.99it/s]Loading weights:  34%|███▎      | 246/729 [02:55<06:05,  1.32it/s]Loading weights:  35%|███▌      | 256/729 [02:59<04:20,  1.81it/s]Loading weights:  35%|███▌      | 257/729 [02:59<04:21,  1.81it/s]Loading weights:  35%|███▌      | 258/729 [03:00<04:08,  1.90it/s]Loading weights:  37%|███▋      | 268/729 [03:07<04:59,  1.54it/s]Loading weights:  37%|███▋      | 270/729 [03:07<04:34,  1.67it/s]Loading weights:  38%|███▊      | 280/729 [03:11<03:30,  2.13it/s]Loading weights:  39%|███▊      | 281/729 [03:15<05:28,  1.37it/s]Loading weights:  40%|████      | 292/729 [03:19<03:53,  1.87it/s]Loading weights:  40%|████      | 294/729 [03:23<05:06,  1.42it/s]Loading weights:  42%|████▏     | 304/729 [03:27<03:50,  1.84it/s]Loading weights:  42%|████▏     | 305/729 [03:27<03:49,  1.85it/s]Loading weights:  43%|████▎     | 316/729 [03:35<04:12,  1.63it/s]Loading weights:  43%|████▎     | 317/729 [03:35<04:03,  1.70it/s]Loading weights:  44%|████▎     | 318/729 [03:35<03:50,  1.78it/s]Loading weights:  45%|████▍     | 328/729 [03:39<03:01,  2.21it/s]Loading weights:  45%|████▌     | 329/729 [03:42<04:35,  1.45it/s]Loading weights:  52%|█████▏    | 379/729 [03:43<00:42,  8.28it/s]Loading weights:  53%|█████▎    | 384/729 [03:43<00:39,  8.78it/s]Loading weights:  54%|█████▎    | 391/729 [03:44<00:36,  9.21it/s]Loading weights:  54%|█████▍    | 395/729 [03:44<00:32, 10.13it/s]Loading weights:  55%|█████▌    | 401/729 [03:44<00:26, 12.20it/s]Loading weights:  56%|█████▌    | 405/729 [03:44<00:28, 11.28it/s]Loading weights:  57%|█████▋    | 413/729 [03:45<00:21, 14.86it/s]Loading weights:  57%|█████▋    | 417/729 [03:45<00:23, 13.02it/s]Loading weights:  58%|█████▊    | 425/729 [03:45<00:17, 17.42it/s]Loading weights:  59%|█████▉    | 429/729 [03:46<00:21, 13.72it/s]Loading weights:  59%|█████▉    | 432/729 [03:46<00:19, 14.91it/s]Loading weights:  60%|██████    | 439/729 [03:46<00:20, 14.35it/s]Loading weights:  61%|██████    | 442/729 [03:47<00:27, 10.41it/s]Loading weights:  62%|██████▏   | 451/729 [03:48<00:22, 12.26it/s]Loading weights:  63%|██████▎   | 461/729 [03:48<00:14, 18.13it/s]Loading weights:  64%|██████▎   | 464/729 [03:48<00:20, 13.04it/s]Loading weights:  65%|██████▍   | 473/729 [03:49<00:14, 17.99it/s]Loading weights:  65%|██████▌   | 476/729 [03:49<00:20, 12.17it/s]Loading weights:  67%|██████▋   | 485/729 [03:49<00:13, 17.90it/s]Loading weights:  67%|██████▋   | 489/729 [03:50<00:15, 15.53it/s]Loading weights:  68%|██████▊   | 493/729 [03:50<00:13, 17.45it/s]Loading weights:  68%|██████▊   | 499/729 [03:51<00:15, 14.72it/s]Loading weights:  69%|██████▉   | 505/729 [03:51<00:11, 19.00it/s]Loading weights:  70%|███████   | 511/729 [03:51<00:14, 15.22it/s]Loading weights:  71%|███████   | 517/729 [03:51<00:10, 19.72it/s]Loading weights:  71%|███████▏  | 521/729 [03:51<00:10, 20.72it/s]Loading weights:  72%|███████▏  | 525/729 [03:52<00:12, 16.40it/s]Loading weights:  73%|███████▎  | 529/729 [03:52<00:11, 18.07it/s]Loading weights:  73%|███████▎  | 535/729 [03:53<00:12, 15.57it/s]Loading weights:  74%|███████▍  | 541/729 [03:53<00:09, 19.70it/s]Loading weights:  75%|███████▌  | 547/729 [03:53<00:11, 15.29it/s]Loading weights:  76%|███████▌  | 551/729 [03:53<00:10, 16.61it/s]Loading weights:  77%|███████▋  | 559/729 [03:54<00:09, 17.29it/s]Loading weights:  77%|███████▋  | 563/729 [03:54<00:08, 18.83it/s]Loading weights:  78%|███████▊  | 571/729 [03:55<00:09, 16.92it/s]Loading weights:  80%|███████▉  | 581/729 [03:55<00:06, 22.89it/s]Loading weights:  80%|████████  | 584/729 [03:55<00:08, 16.68it/s]Loading weights:  81%|████████▏ | 593/729 [03:56<00:07, 18.51it/s]Loading weights:  82%|████████▏ | 596/729 [03:56<00:08, 15.59it/s]Loading weights:  82%|████████▏ | 601/729 [03:56<00:07, 17.89it/s]Loading weights:  83%|████████▎ | 607/729 [03:57<00:07, 17.22it/s]Loading weights:  84%|████████▍ | 611/729 [03:57<00:07, 16.70it/s]Loading weights:  85%|████████▍ | 619/729 [03:57<00:06, 16.54it/s]Loading weights:  85%|████████▌ | 621/729 [03:57<00:06, 15.52it/s]Loading weights:  87%|████████▋ | 631/729 [03:58<00:06, 15.45it/s]Loading weights:  87%|████████▋ | 637/729 [03:58<00:05, 18.30it/s]Loading weights:  88%|████████▊ | 643/729 [03:59<00:05, 15.43it/s]Loading weights:  90%|████████▉ | 653/729 [03:59<00:03, 21.14it/s]Loading weights:  90%|████████▉ | 656/729 [04:00<00:04, 15.84it/s]Loading weights:  91%|█████████ | 661/729 [04:00<00:03, 18.94it/s]Loading weights:  91%|█████████▏| 667/729 [04:00<00:03, 16.30it/s]Loading weights:  92%|█████████▏| 673/729 [04:00<00:02, 20.26it/s]Loading weights:  93%|█████████▎| 679/729 [04:01<00:03, 14.77it/s]Loading weights:  95%|█████████▍| 691/729 [04:01<00:02, 17.13it/s]Loading weights:  96%|█████████▌| 701/729 [04:02<00:01, 22.36it/s]Loading weights:  97%|█████████▋| 705/729 [04:02<00:01, 17.10it/s]Loading weights:  97%|█████████▋| 709/729 [04:02<00:01, 19.08it/s]Loading weights:  98%|█████████▊| 713/729 [04:02<00:00, 20.13it/s]Loading weights:  98%|█████████▊| 716/729 [04:03<00:00, 15.62it/s]Loading weights:  99%|█████████▉| 721/729 [04:03<00:00, 18.52it/s]Loading weights: 100%|█████████▉| 726/729 [04:06<00:00,  4.96it/s]Loading weights: 100%|██████████| 729/729 [04:06<00:00,  2.96it/s]
+Model loaded.
+
+Total: 389 | Done: 0 | Remaining: 389
+Prompt: Watch these frames carefully.
+Step 1: Describe the person's body position and technique in detail.
+Step 2: Identify any errors or imprecisions in their movement.
+Step 3: Classify skill level as exactly one of: Novice / Early Expert / Intermediate Expert / Late Expert.
+Format your answer as:
+Observations: ...
+Errors: ...
+Skill Level: ...
+
+[1/389] uniandes_bouldering_023_63 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[2/389] uniandes_bouldering_036_45 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[3/389] uniandes_bouldering_022_76 (GT=Early Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[4/389] uniandes_bouldering_035_23 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[5/389] uniandes_bouldering_027_56 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[6/389] uniandes_bouldering_022_35 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[7/389] uniandes_bouldering_033_55 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[8/389] uniandes_bouldering_023_64 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[9/389] uniandes_bouldering_025_3 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[10/389] uniandes_bouldering_026_108 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[11/389] uniandes_bouldering_028_55 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[12/389] uniandes_bouldering_030_63 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[13/389] uniandes_bouldering_027_62 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[14/389] uniandes_bouldering_023_54 (GT=Early Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[15/389] uniandes_bouldering_023_76 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[16/389] uniandes_bouldering_028_7 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[17/389] uniandes_bouldering_024_44 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[18/389] uniandes_bouldering_023_23 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[19/389] uniandes_bouldering_035_52 (GT=Early Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[20/389] uniandes_bouldering_034_102 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[21/389] uniandes_bouldering_028_20 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[22/389] uniandes_bouldering_036_76 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[23/389] uniandes_bouldering_029_65 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[24/389] uniandes_bouldering_035_70 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[25/389] uniandes_bouldering_036_47 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[26/389] uniandes_bouldering_026_41 (GT=Novice)
+  exo: Novice OK
+  ego: Early Expert X
+[27/389] uniandes_bouldering_022_32 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[28/389] uniandes_bouldering_037_22 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[29/389] uniandes_bouldering_027_61 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[30/389] uniandes_bouldering_037_51 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[31/389] uniandes_bouldering_028_18 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[32/389] uniandes_bouldering_026_94 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[33/389] uniandes_bouldering_026_12 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[34/389] uniandes_bouldering_029_40 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[35/389] uniandes_bouldering_033_52 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[36/389] uniandes_bouldering_025_44 (GT=Novice)
+  exo: Novice OK
+  ego: Unknown X
+[37/389] uniandes_bouldering_026_103 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[38/389] uniandes_bouldering_025_81 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[39/389] uniandes_bouldering_022_72 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[40/389] uniandes_bouldering_026_43 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[41/389] uniandes_bouldering_027_54 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[42/389] uniandes_bouldering_033_35 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[43/389] uniandes_bouldering_036_57 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[44/389] uniandes_bouldering_034_36 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[45/389] uniandes_bouldering_037_8 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[46/389] uniandes_bouldering_023_72 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[47/389] uniandes_bouldering_037_6 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[48/389] uniandes_bouldering_022_58 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[49/389] uniandes_bouldering_034_94 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[50/389] uniandes_bouldering_022_2 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[51/389] uniandes_bouldering_028_35 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[52/389] uniandes_bouldering_029_27 (GT=Early Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[53/389] uniandes_bouldering_030_62 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[54/389] uniandes_bouldering_030_29 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[55/389] uniandes_bouldering_037_24 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[56/389] uniandes_bouldering_029_28 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Intermediate Expert X
+[57/389] uniandes_bouldering_036_14 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[58/389] uniandes_bouldering_029_42 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[59/389] uniandes_bouldering_037_42 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK
+  ego: Intermediate Expert OK
+[60/389] uniandes_bouldering_029_51 (GT=Early Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[61/389] uniandes_bouldering_036_17 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[62/389] uniandes_bouldering_022_48 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[63/389] uniandes_bouldering_022_22 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[64/389] uniandes_bouldering_035_64 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[65/389] uniandes_bouldering_024_2 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[66/389] uniandes_bouldering_034_47 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[67/389] uniandes_bouldering_026_91 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[68/389] uniandes_bouldering_035_62 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[69/389] uniandes_bouldering_036_70 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[70/389] uniandes_bouldering_037_52 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[71/389] uniandes_bouldering_036_36 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[72/389] uniandes_bouldering_034_29 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[73/389] uniandes_bouldering_028_64 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[74/389] uniandes_bouldering_024_6 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Intermediate Expert X
+[75/389] uniandes_bouldering_029_88 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[76/389] uniandes_bouldering_029_34 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[77/389] uniandes_bouldering_032_80 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[78/389] uniandes_bouldering_026_40 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[79/389] uniandes_bouldering_031_46 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[80/389] uniandes_bouldering_035_101 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[81/389] uniandes_bouldering_029_22 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[82/389] uniandes_bouldering_029_58 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[83/389] uniandes_bouldering_026_107 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[84/389] uniandes_bouldering_026_62 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[85/389] uniandes_bouldering_034_67 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[86/389] uniandes_bouldering_032_77 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[87/389] uniandes_bouldering_025_85 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[88/389] uniandes_bouldering_037_34 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[89/389] uniandes_bouldering_036_74 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[90/389] uniandes_bouldering_028_28 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[91/389] uniandes_bouldering_036_43 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[92/389] uniandes_bouldering_034_55 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[93/389] uniandes_bouldering_027_21 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[94/389] uniandes_bouldering_028_52 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[95/389] uniandes_bouldering_031_69 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[96/389] uniandes_bouldering_036_51 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[97/389] uniandes_bouldering_028_42 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[98/389] uniandes_bouldering_032_34 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[99/389] uniandes_bouldering_036_71 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[100/389] uniandes_bouldering_035_93 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[101/389] uniandes_bouldering_036_4 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[102/389] uniandes_bouldering_022_20 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[103/389] uniandes_bouldering_037_29 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[104/389] uniandes_bouldering_037_28 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[105/389] uniandes_bouldering_036_29 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[106/389] uniandes_bouldering_036_31 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[107/389] uniandes_bouldering_025_42 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[108/389] uniandes_bouldering_026_97 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[109/389] uniandes_bouldering_028_6 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[110/389] uniandes_bouldering_026_109 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[111/389] uniandes_bouldering_036_67 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[112/389] uniandes_bouldering_022_37 (GT=Early Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[113/389] uniandes_bouldering_029_57 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[114/389] uniandes_bouldering_027_82 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[115/389] uniandes_bouldering_032_28 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[116/389] uniandes_bouldering_036_49 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[117/389] uniandes_bouldering_024_20 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[118/389] uniandes_bouldering_022_56 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[119/389] uniandes_bouldering_026_65 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[120/389] uniandes_bouldering_030_9 (GT=Late Expert)
+  exo: Unknown X
+  ego: Intermediate Expert X
+[121/389] uniandes_bouldering_036_48 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[122/389] uniandes_bouldering_026_93 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[123/389] uniandes_bouldering_036_16 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[124/389] uniandes_bouldering_032_27 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[125/389] uniandes_bouldering_034_73 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[126/389] uniandes_bouldering_026_74 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[127/389] uniandes_bouldering_026_59 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[128/389] uniandes_bouldering_036_27 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[129/389] uniandes_bouldering_037_55 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[130/389] uniandes_bouldering_028_22 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[131/389] uniandes_bouldering_028_50 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[132/389] uniandes_bouldering_027_118 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[133/389] uniandes_bouldering_034_82 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[134/389] uniandes_bouldering_032_15 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[135/389] uniandes_bouldering_035_85 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[136/389] uniandes_bouldering_036_61 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[137/389] uniandes_bouldering_022_3 (GT=Early Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[138/389] uniandes_bouldering_025_43 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[139/389] uniandes_bouldering_037_30 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[140/389] uniandes_bouldering_028_36 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[141/389] uniandes_bouldering_033_6 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[142/389] uniandes_bouldering_026_34 (GT=Early Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[143/389] uniandes_bouldering_034_74 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[144/389] uniandes_bouldering_035_76 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[145/389] uniandes_bouldering_022_33 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Intermediate Expert X
+[146/389] uniandes_bouldering_034_19 (GT=Early Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[147/389] uniandes_bouldering_024_33 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[148/389] uniandes_bouldering_028_34 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[149/389] uniandes_bouldering_032_60 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[150/389] uniandes_bouldering_037_20 (GT=Late Expert)
+  exo: Intermediate Expert X
+  ego: Intermediate Expert X
+[151/389] uniandes_bouldering_028_29 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[152/389] uniandes_bouldering_033_44 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[153/389] uniandes_bouldering_026_98 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[154/389] uniandes_bouldering_036_15 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[155/389] uniandes_bouldering_027_25 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[156/389] uniandes_bouldering_036_19 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[157/389] uniandes_bouldering_037_25 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[158/389] uniandes_bouldering_036_50 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[159/389] uniandes_bouldering_034_30 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[160/389] uniandes_bouldering_030_34 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[161/389] uniandes_bouldering_028_58 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[162/389] uniandes_bouldering_032_81 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[163/389] uniandes_bouldering_022_30 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[164/389] uniandes_bouldering_023_32 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[165/389] uniandes_bouldering_035_41 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[166/389] uniandes_bouldering_036_54 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[167/389] uniandes_bouldering_031_68 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[168/389] uniandes_bouldering_024_60 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[169/389] uniandes_bouldering_029_52 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Intermediate Expert X
+[170/389] uniandes_bouldering_032_79 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[171/389] uniandes_bouldering_035_17 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[172/389] uniandes_bouldering_029_74 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[173/389] uniandes_bouldering_023_80 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[174/389] uniandes_bouldering_037_41 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[175/389] uniandes_bouldering_028_12 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[176/389] uniandes_bouldering_036_39 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[177/389] uniandes_bouldering_030_60 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[178/389] uniandes_bouldering_029_45 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[179/389] uniandes_bouldering_026_2 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[180/389] uniandes_bouldering_037_56 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[181/389] uniandes_bouldering_035_91 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[182/389] uniandes_bouldering_034_17 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[183/389] uniandes_bouldering_034_51 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[184/389] uniandes_bouldering_035_77 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[185/389] uniandes_bouldering_027_59 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[186/389] uniandes_bouldering_036_12 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[187/389] uniandes_bouldering_036_37 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[188/389] uniandes_bouldering_024_59 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[189/389] uniandes_bouldering_027_119 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[190/389] uniandes_bouldering_036_41 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[191/389] uniandes_bouldering_023_56 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[192/389] uniandes_bouldering_024_51 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[193/389] uniandes_bouldering_029_67 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[194/389] uniandes_bouldering_027_114 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[195/389] uniandes_bouldering_034_69 (GT=Early Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[196/389] uniandes_bouldering_030_28 (GT=Late Expert)
+  exo: Intermediate Expert X
+  ego: Intermediate Expert X
+[197/389] uniandes_bouldering_028_24 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Intermediate Expert X
+[198/389] uniandes_bouldering_026_48 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[199/389] uniandes_bouldering_034_85 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[200/389] uniandes_bouldering_027_3 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[201/389] uniandes_bouldering_036_8 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[202/389] uniandes_bouldering_032_32 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[203/389] uniandes_bouldering_036_34 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[204/389] uniandes_bouldering_029_10 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[205/389] uniandes_bouldering_023_8 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[206/389] uniandes_bouldering_029_75 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[207/389] uniandes_bouldering_027_65 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[208/389] uniandes_bouldering_037_36 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[209/389] uniandes_bouldering_023_39 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[210/389] uniandes_bouldering_028_44 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[211/389] uniandes_bouldering_023_33 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[212/389] uniandes_bouldering_026_67 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[213/389] uniandes_bouldering_035_71 (GT=Early Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[214/389] uniandes_bouldering_036_62 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[215/389] uniandes_bouldering_029_23 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[216/389] uniandes_bouldering_022_47 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[217/389] uniandes_bouldering_027_115 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[218/389] uniandes_bouldering_024_58 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[219/389] uniandes_bouldering_036_52 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[220/389] uniandes_bouldering_026_104 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[221/389] uniandes_bouldering_029_4 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[222/389] uniandes_bouldering_036_2 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[223/389] uniandes_bouldering_037_50 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[224/389] uniandes_bouldering_027_79 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[225/389] uniandes_bouldering_028_31 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[226/389] uniandes_bouldering_035_100 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[227/389] uniandes_bouldering_036_21 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[228/389] uniandes_bouldering_032_30 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[229/389] uniandes_bouldering_037_17 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[230/389] uniandes_bouldering_027_117 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[231/389] uniandes_bouldering_026_78 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[232/389] uniandes_bouldering_037_58 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[233/389] uniandes_bouldering_030_8 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[234/389] uniandes_bouldering_033_58 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK
+  ego: Novice X
+[235/389] uniandes_bouldering_033_41 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[236/389] uniandes_bouldering_023_74 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[237/389] uniandes_bouldering_029_94 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[238/389] uniandes_bouldering_037_39 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[239/389] uniandes_bouldering_036_66 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[240/389] uniandes_bouldering_036_33 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[241/389] uniandes_bouldering_026_19 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[242/389] uniandes_bouldering_026_105 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[243/389] uniandes_bouldering_035_44 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[244/389] uniandes_bouldering_025_80 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[245/389] uniandes_bouldering_029_24 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Intermediate Expert X
+[246/389] uniandes_bouldering_032_66 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[247/389] uniandes_bouldering_033_12 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[248/389] uniandes_bouldering_037_33 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[249/389] uniandes_bouldering_035_31 (GT=Early Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[250/389] uniandes_bouldering_036_6 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[251/389] uniandes_bouldering_030_25 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[252/389] uniandes_bouldering_024_13 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[253/389] uniandes_bouldering_035_20 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[254/389] uniandes_bouldering_029_44 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[255/389] uniandes_bouldering_035_87 (GT=Intermediate Expert)
+  exo: Unknown X
+  ego: Novice X
+[256/389] uniandes_bouldering_034_98 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[257/389] uniandes_bouldering_036_46 (GT=Late Expert)
+  exo: Novice X
+  ego: Unknown X
+[258/389] uniandes_bouldering_023_60 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[259/389] uniandes_bouldering_027_106 (GT=Early Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[260/389] uniandes_bouldering_028_48 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[261/389] uniandes_bouldering_036_81 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[262/389] uniandes_bouldering_034_71 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[263/389] uniandes_bouldering_028_69 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[264/389] uniandes_bouldering_024_32 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[265/389] uniandes_bouldering_026_17 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[266/389] uniandes_bouldering_037_10 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[267/389] uniandes_bouldering_022_61 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[268/389] uniandes_bouldering_027_4 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[269/389] uniandes_bouldering_028_51 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[270/389] uniandes_bouldering_030_59 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[271/389] uniandes_bouldering_029_63 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[272/389] uniandes_bouldering_029_78 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[273/389] uniandes_bouldering_024_29 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[274/389] uniandes_bouldering_027_35 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[275/389] uniandes_bouldering_028_4 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[276/389] uniandes_bouldering_026_16 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[277/389] uniandes_bouldering_034_65 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[278/389] uniandes_bouldering_029_14 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[279/389] uniandes_bouldering_033_45 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[280/389] uniandes_bouldering_027_18 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[281/389] uniandes_bouldering_034_49 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[282/389] uniandes_bouldering_033_2 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[283/389] uniandes_bouldering_036_78 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[284/389] uniandes_bouldering_036_35 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[285/389] uniandes_bouldering_035_12 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[286/389] uniandes_bouldering_033_22 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[287/389] uniandes_bouldering_027_64 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Intermediate Expert X
+[288/389] uniandes_bouldering_030_57 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[289/389] uniandes_bouldering_030_61 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[290/389] uniandes_bouldering_033_24 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[291/389] uniandes_bouldering_022_43 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[292/389] uniandes_bouldering_035_59 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[293/389] uniandes_bouldering_022_67 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[294/389] uniandes_bouldering_023_17 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[295/389] uniandes_bouldering_035_21 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[296/389] uniandes_bouldering_035_37 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[297/389] uniandes_bouldering_035_97 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[298/389] uniandes_bouldering_033_59 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[299/389] uniandes_bouldering_036_38 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[300/389] uniandes_bouldering_032_78 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK
+  ego: Novice X
+[301/389] uniandes_bouldering_022_62 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[302/389] uniandes_bouldering_027_107 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Intermediate Expert X
+[303/389] uniandes_bouldering_022_7 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[304/389] uniandes_bouldering_026_22 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[305/389] uniandes_bouldering_035_60 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[306/389] uniandes_bouldering_032_2 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[307/389] uniandes_bouldering_032_59 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[308/389] uniandes_bouldering_035_50 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[309/389] uniandes_bouldering_028_2 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[310/389] uniandes_bouldering_026_18 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[311/389] uniandes_bouldering_023_81 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[312/389] uniandes_bouldering_037_48 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[313/389] uniandes_bouldering_025_13 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[314/389] uniandes_bouldering_034_62 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[315/389] uniandes_bouldering_032_11 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK
+  ego: Novice X
+[316/389] uniandes_bouldering_036_42 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[317/389] uniandes_bouldering_029_72 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[318/389] uniandes_bouldering_037_32 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[319/389] uniandes_bouldering_029_3 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[320/389] uniandes_bouldering_034_103 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[321/389] uniandes_bouldering_027_32 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[322/389] uniandes_bouldering_027_2 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[323/389] uniandes_bouldering_025_56 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[324/389] uniandes_bouldering_037_16 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[325/389] uniandes_bouldering_027_105 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[326/389] uniandes_bouldering_028_65 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[327/389] uniandes_bouldering_028_46 (GT=Early Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[328/389] uniandes_bouldering_033_27 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[329/389] uniandes_bouldering_037_38 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[330/389] uniandes_bouldering_023_18 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[331/389] uniandes_bouldering_022_51 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[332/389] uniandes_bouldering_034_24 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[333/389] uniandes_bouldering_034_83 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[334/389] uniandes_bouldering_037_60 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[335/389] uniandes_bouldering_037_49 (GT=Late Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[336/389] uniandes_bouldering_026_99 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[337/389] uniandes_bouldering_032_29 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[338/389] uniandes_bouldering_025_46 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[339/389] uniandes_bouldering_034_32 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[340/389] uniandes_bouldering_027_49 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[341/389] uniandes_bouldering_030_58 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[342/389] uniandes_bouldering_030_26 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[343/389] uniandes_bouldering_031_47 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[344/389] uniandes_bouldering_025_16 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[345/389] uniandes_bouldering_023_25 (GT=Early Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[346/389] uniandes_bouldering_029_29 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[347/389] uniandes_bouldering_033_33 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[348/389] uniandes_bouldering_022_77 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[349/389] uniandes_bouldering_037_43 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[350/389] uniandes_bouldering_026_100 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[351/389] uniandes_bouldering_037_19 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[352/389] uniandes_bouldering_033_38 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[353/389] uniandes_bouldering_027_23 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[354/389] uniandes_bouldering_029_53 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[355/389] uniandes_bouldering_024_30 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[356/389] uniandes_bouldering_030_27 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[357/389] uniandes_bouldering_028_43 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[358/389] uniandes_bouldering_029_71 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[359/389] uniandes_bouldering_034_20 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[360/389] uniandes_bouldering_027_85 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[361/389] uniandes_bouldering_023_48 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[362/389] uniandes_bouldering_031_15 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[363/389] uniandes_bouldering_024_21 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[364/389] uniandes_bouldering_022_26 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[365/389] uniandes_bouldering_035_99 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[366/389] uniandes_bouldering_026_60 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[367/389] uniandes_bouldering_027_81 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[368/389] uniandes_bouldering_036_60 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[369/389] uniandes_bouldering_026_38 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[370/389] uniandes_bouldering_033_34 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[371/389] uniandes_bouldering_025_35 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[372/389] uniandes_bouldering_029_8 (GT=Early Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[373/389] uniandes_bouldering_023_10 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[374/389] uniandes_bouldering_026_90 (GT=Early Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[375/389] uniandes_bouldering_037_4 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[376/389] uniandes_bouldering_028_57 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[377/389] uniandes_bouldering_036_73 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[378/389] uniandes_bouldering_034_6 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Intermediate Expert OK
+[379/389] uniandes_bouldering_026_11 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[380/389] uniandes_bouldering_029_73 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[381/389] uniandes_bouldering_022_38 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[382/389] uniandes_bouldering_027_20 (GT=Early Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[383/389] uniandes_bouldering_027_52 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+[384/389] uniandes_bouldering_025_17 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[385/389] uniandes_bouldering_032_48 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[386/389] uniandes_bouldering_024_47 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[387/389] uniandes_bouldering_032_44 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[388/389] uniandes_bouldering_037_54 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[389/389] uniandes_bouldering_027_36 (GT=Novice)
+  exo: Novice OK
+  ego: Intermediate Expert X
+
+============================================================
+Batch complete. Processed 389 clips this run.
+Exo predictions: {'Novice': 359, 'Intermediate Expert': 28, 'Unknown': 2}
+Ego predictions: {'Novice': 283, 'Intermediate Expert': 103, 'Unknown': 2, 'Early Expert': 1}
+============================================================
+Loading Qwen2.5-VL-7B ...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:59<12:05:29, 59.79s/it]Loading weights:   0%|          | 2/729 [01:00<5:04:03, 25.09s/it] Loading weights:   7%|▋         | 53/729 [01:00<06:29,  1.74it/s] Loading weights:   9%|▉         | 69/729 [01:10<06:21,  1.73it/s]Loading weights:  11%|█         | 78/729 [01:18<06:55,  1.57it/s]Loading weights:  12%|█▏        | 88/729 [01:21<06:07,  1.74it/s]Loading weights:  13%|█▎        | 92/729 [01:25<06:36,  1.61it/s]Loading weights:  14%|█▎        | 100/729 [01:29<06:02,  1.73it/s]Loading weights:  14%|█▍        | 102/729 [01:32<07:06,  1.47it/s]Loading weights:  15%|█▌        | 112/729 [01:36<05:56,  1.73it/s]Loading weights:  16%|█▌        | 113/729 [01:37<05:47,  1.77it/s]Loading weights:  17%|█▋        | 124/729 [01:44<05:58,  1.69it/s]Loading weights:  17%|█▋        | 125/729 [01:44<05:56,  1.70it/s]Loading weights:  17%|█▋        | 126/729 [01:44<05:41,  1.77it/s]Loading weights:  19%|█▊        | 136/729 [01:48<04:25,  2.24it/s]Loading weights:  19%|█▉        | 137/729 [01:51<06:27,  1.53it/s]Loading weights:  20%|██        | 148/729 [01:56<05:09,  1.88it/s]Loading weights:  21%|██        | 150/729 [01:59<06:33,  1.47it/s]Loading weights:  22%|██▏       | 160/729 [02:03<05:01,  1.88it/s]Loading weights:  22%|██▏       | 161/729 [02:04<05:16,  1.79it/s]Loading weights:  22%|██▏       | 162/729 [02:04<04:55,  1.92it/s]Loading weights:  24%|██▎       | 172/729 [02:11<05:43,  1.62it/s]Loading weights:  24%|██▍       | 174/729 [02:12<05:34,  1.66it/s]Loading weights:  25%|██▌       | 184/729 [02:16<04:26,  2.04it/s]Loading weights:  25%|██▌       | 185/729 [02:19<06:07,  1.48it/s]Loading weights:  27%|██▋       | 196/729 [02:24<04:53,  1.81it/s]Loading weights:  27%|██▋       | 197/729 [02:24<04:38,  1.91it/s]Loading weights:  27%|██▋       | 198/729 [02:27<06:43,  1.32it/s]Loading weights:  29%|██▊       | 208/729 [02:31<04:41,  1.85it/s]Loading weights:  29%|██▊       | 209/729 [02:32<05:03,  1.71it/s]Loading weights:  29%|██▉       | 210/729 [02:32<04:43,  1.83it/s]Loading weights:  30%|███       | 220/729 [02:39<05:22,  1.58it/s]Loading weights:  30%|███       | 222/729 [02:40<05:15,  1.61it/s]Loading weights:  32%|███▏      | 232/729 [02:43<03:45,  2.20it/s]Loading weights:  32%|███▏      | 233/729 [02:47<05:45,  1.44it/s]Loading weights:  33%|███▎      | 244/729 [02:51<04:18,  1.88it/s]Loading weights:  34%|███▎      | 245/729 [02:52<04:05,  1.97it/s]Loading weights:  34%|███▎      | 246/729 [02:55<06:15,  1.29it/s]Loading weights:  35%|███▌      | 256/729 [02:59<04:24,  1.79it/s]Loading weights:  35%|███▌      | 257/729 [02:59<04:17,  1.84it/s]Loading weights:  35%|███▌      | 258/729 [03:00<03:58,  1.97it/s]Loading weights:  37%|███▋      | 268/729 [03:07<04:53,  1.57it/s]Loading weights:  37%|███▋      | 269/729 [03:07<04:38,  1.65it/s]Loading weights:  37%|███▋      | 270/729 [03:07<04:28,  1.71it/s]Loading weights:  38%|███▊      | 280/729 [03:11<03:24,  2.20it/s]Loading weights:  39%|███▊      | 281/729 [03:15<05:12,  1.43it/s]Loading weights:  39%|███▊      | 282/729 [03:15<05:00,  1.49it/s]Loading weights:  40%|████      | 292/729 [03:19<03:36,  2.01it/s]Loading weights:  40%|████      | 293/729 [03:19<03:24,  2.14it/s]Loading weights:  40%|████      | 294/729 [03:23<05:48,  1.25it/s]Loading weights:  42%|████▏     | 304/729 [03:27<03:57,  1.79it/s]Loading weights:  42%|████▏     | 305/729 [03:27<03:43,  1.90it/s]Loading weights:  42%|████▏     | 306/729 [03:27<03:28,  2.03it/s]Loading weights:  43%|████▎     | 316/729 [03:36<05:00,  1.37it/s]Loading weights:  43%|████▎     | 317/729 [03:36<04:47,  1.43it/s]Loading weights:  44%|████▎     | 318/729 [03:36<04:25,  1.55it/s]Loading weights:  45%|████▍     | 328/729 [03:41<03:29,  1.92it/s]Loading weights:  45%|████▌     | 329/729 [03:45<05:21,  1.24it/s]Loading weights:  45%|████▌     | 330/729 [03:45<04:58,  1.34it/s]Loading weights:  52%|█████▏    | 379/729 [03:46<00:36,  9.70it/s]Loading weights:  53%|█████▎    | 385/729 [03:46<00:32, 10.72it/s]Loading weights:  54%|█████▎    | 391/729 [03:47<00:33, 10.11it/s]Loading weights:  54%|█████▍    | 395/729 [03:47<00:30, 10.91it/s]Loading weights:  55%|█████▌    | 403/729 [03:47<00:27, 11.75it/s]Loading weights:  56%|█████▌    | 406/729 [03:48<00:25, 12.65it/s]Loading weights:  57%|█████▋    | 413/729 [03:48<00:19, 16.62it/s]Loading weights:  57%|█████▋    | 417/729 [03:48<00:24, 12.67it/s]Loading weights:  58%|█████▊    | 425/729 [03:48<00:18, 16.72it/s]Loading weights:  59%|█████▉    | 429/729 [03:49<00:24, 12.08it/s]Loading weights:  60%|█████▉    | 437/729 [03:49<00:17, 16.39it/s]Loading weights:  60%|██████    | 440/729 [03:50<00:22, 12.57it/s]Loading weights:  61%|██████    | 445/729 [03:50<00:21, 13.25it/s]Loading weights:  62%|██████▏   | 451/729 [03:51<00:23, 11.95it/s]Loading weights:  63%|██████▎   | 461/729 [03:51<00:15, 17.79it/s]Loading weights:  64%|██████▎   | 464/729 [03:52<00:19, 13.49it/s]Loading weights:  64%|██████▍   | 469/729 [03:52<00:16, 15.79it/s]Loading weights:  65%|██████▌   | 475/729 [03:52<00:16, 15.07it/s]Loading weights:  66%|██████▌   | 479/729 [03:52<00:14, 16.88it/s]Loading weights:  66%|██████▌   | 482/729 [03:53<00:17, 13.77it/s]Loading weights:  67%|██████▋   | 487/729 [03:53<00:15, 15.63it/s]Loading weights:  67%|██████▋   | 491/729 [03:53<00:13, 17.70it/s]Loading weights:  68%|██████▊   | 494/729 [03:53<00:16, 13.94it/s]Loading weights:  68%|██████▊   | 499/729 [03:54<00:17, 13.29it/s]Loading weights:  69%|██████▉   | 503/729 [03:54<00:14, 15.98it/s]Loading weights:  69%|██████▉   | 506/729 [03:54<00:14, 15.60it/s]Loading weights:  70%|███████   | 511/729 [03:55<00:15, 14.02it/s]Loading weights:  70%|███████   | 513/729 [03:55<00:15, 13.57it/s]Loading weights:  71%|███████▏  | 521/729 [03:55<00:09, 21.15it/s]Loading weights:  72%|███████▏  | 524/729 [03:55<00:16, 12.56it/s]Loading weights:  73%|███████▎  | 533/729 [03:56<00:09, 19.74it/s]Loading weights:  74%|███████▎  | 537/729 [03:56<00:14, 13.44it/s]Loading weights:  74%|███████▍  | 541/729 [03:56<00:12, 15.13it/s]Loading weights:  75%|███████▍  | 545/729 [03:57<00:10, 17.34it/s]Loading weights:  75%|███████▌  | 548/729 [03:57<00:16, 10.72it/s]Loading weights:  76%|███████▌  | 553/729 [03:57<00:13, 13.53it/s]Loading weights:  77%|███████▋  | 559/729 [03:58<00:14, 11.39it/s]Loading weights:  77%|███████▋  | 561/729 [03:58<00:14, 11.86it/s]Loading weights:  78%|███████▊  | 569/729 [03:58<00:08, 17.88it/s]Loading weights:  78%|███████▊  | 572/729 [03:59<00:13, 11.50it/s]Loading weights:  80%|███████▉  | 581/729 [03:59<00:08, 17.28it/s]Loading weights:  80%|████████  | 584/729 [04:00<00:10, 13.59it/s]Loading weights:  81%|████████  | 589/729 [04:00<00:08, 17.03it/s]Loading weights:  81%|████████▏ | 593/729 [04:00<00:06, 19.62it/s]Loading weights:  82%|████████▏ | 596/729 [04:00<00:09, 13.73it/s]Loading weights:  82%|████████▏ | 601/729 [04:01<00:07, 17.03it/s]Loading weights:  83%|████████▎ | 607/729 [04:01<00:07, 16.17it/s]Loading weights:  84%|████████▍ | 611/729 [04:01<00:06, 18.57it/s]Loading weights:  85%|████████▍ | 617/729 [04:01<00:04, 24.36it/s]Loading weights:  85%|████████▌ | 621/729 [04:02<00:06, 16.63it/s]Loading weights:  86%|████████▌ | 625/729 [04:02<00:05, 19.49it/s]Loading weights:  87%|████████▋ | 631/729 [04:02<00:06, 14.90it/s]Loading weights:  88%|████████▊ | 641/729 [04:02<00:03, 23.43it/s]Loading weights:  88%|████████▊ | 645/729 [04:03<00:04, 17.70it/s]Loading weights:  90%|████████▉ | 653/729 [04:03<00:03, 21.65it/s]Loading weights:  90%|█████████ | 657/729 [04:04<00:04, 16.76it/s]Loading weights:  91%|█████████ | 661/729 [04:04<00:03, 17.84it/s]Loading weights:  91%|█████████▏| 667/729 [04:04<00:03, 16.56it/s]Loading weights:  92%|█████████▏| 671/729 [04:04<00:03, 17.87it/s]Loading weights:  93%|█████████▎| 679/729 [04:05<00:03, 16.23it/s]Loading weights:  94%|█████████▎| 683/729 [04:05<00:02, 18.40it/s]Loading weights:  95%|█████████▍| 691/729 [04:06<00:02, 16.07it/s]Loading weights:  96%|█████████▌| 701/729 [04:06<00:01, 20.83it/s]Loading weights:  97%|█████████▋| 704/729 [04:06<00:01, 16.72it/s]Loading weights:  97%|█████████▋| 709/729 [04:06<00:01, 18.68it/s]Loading weights:  98%|█████████▊| 715/729 [04:07<00:00, 18.08it/s]Loading weights:  99%|█████████▉| 721/729 [04:07<00:00, 21.69it/s]Loading weights: 100%|█████████▉| 726/729 [04:10<00:00,  5.39it/s]Loading weights: 100%|██████████| 729/729 [04:10<00:00,  2.91it/s]
+Model loaded.
+
+Total: 389 | Done: 0 | Remaining: 389
+Prompt: You are an expert coach evaluating this person's technique.
+Focus on: body alignment, movement fluency, technical precision.
+What is their skill level? Novice / Early Expert / Intermediate Expert / Late Expert
+Explain your reasoning.
+
+[1/389] uniandes_bouldering_023_63 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[2/389] uniandes_bouldering_036_45 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[3/389] uniandes_bouldering_022_76 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[4/389] uniandes_bouldering_035_23 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[5/389] uniandes_bouldering_027_56 (GT=Novice)
+  exo: Late Expert X
+  ego: Novice OK
+[6/389] uniandes_bouldering_022_35 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[7/389] uniandes_bouldering_033_55 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[8/389] uniandes_bouldering_023_64 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[9/389] uniandes_bouldering_025_3 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[10/389] uniandes_bouldering_026_108 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[11/389] uniandes_bouldering_028_55 (GT=Early Expert)
+  exo: Early Expert OK
+  ego: Novice X
+[12/389] uniandes_bouldering_030_63 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[13/389] uniandes_bouldering_027_62 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[14/389] uniandes_bouldering_023_54 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[15/389] uniandes_bouldering_023_76 (GT=Intermediate Expert)
+  exo: Early Expert X
+  ego: Novice X
+[16/389] uniandes_bouldering_028_7 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[17/389] uniandes_bouldering_024_44 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[18/389] uniandes_bouldering_023_23 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[19/389] uniandes_bouldering_035_52 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[20/389] uniandes_bouldering_034_102 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[21/389] uniandes_bouldering_028_20 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[22/389] uniandes_bouldering_036_76 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[23/389] uniandes_bouldering_029_65 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[24/389] uniandes_bouldering_035_70 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[25/389] uniandes_bouldering_036_47 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[26/389] uniandes_bouldering_026_41 (GT=Novice)
+  exo: Early Expert X
+  ego: Novice OK
+[27/389] uniandes_bouldering_022_32 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[28/389] uniandes_bouldering_037_22 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[29/389] uniandes_bouldering_027_61 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[30/389] uniandes_bouldering_037_51 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[31/389] uniandes_bouldering_028_18 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK
+  ego: Novice X
+[32/389] uniandes_bouldering_026_94 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[33/389] uniandes_bouldering_026_12 (GT=Early Expert)
+  exo: Early Expert OK
+  ego: Novice X
+[34/389] uniandes_bouldering_029_40 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[35/389] uniandes_bouldering_033_52 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[36/389] uniandes_bouldering_025_44 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[37/389] uniandes_bouldering_026_103 (GT=Novice)
+  exo: Early Expert X
+  ego: Novice OK
+[38/389] uniandes_bouldering_025_81 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[39/389] uniandes_bouldering_022_72 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[40/389] uniandes_bouldering_026_43 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[41/389] uniandes_bouldering_027_54 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[42/389] uniandes_bouldering_033_35 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[43/389] uniandes_bouldering_036_57 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[44/389] uniandes_bouldering_034_36 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[45/389] uniandes_bouldering_037_8 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[46/389] uniandes_bouldering_023_72 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[47/389] uniandes_bouldering_037_6 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[48/389] uniandes_bouldering_022_58 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[49/389] uniandes_bouldering_034_94 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[50/389] uniandes_bouldering_022_2 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[51/389] uniandes_bouldering_028_35 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[52/389] uniandes_bouldering_029_27 (GT=Early Expert)
+  exo: Early Expert OK
+  ego: Novice X
+[53/389] uniandes_bouldering_030_62 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[54/389] uniandes_bouldering_030_29 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[55/389] uniandes_bouldering_037_24 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[56/389] uniandes_bouldering_029_28 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[57/389] uniandes_bouldering_036_14 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[58/389] uniandes_bouldering_029_42 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[59/389] uniandes_bouldering_037_42 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[60/389] uniandes_bouldering_029_51 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[61/389] uniandes_bouldering_036_17 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[62/389] uniandes_bouldering_022_48 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[63/389] uniandes_bouldering_022_22 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[64/389] uniandes_bouldering_035_64 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[65/389] uniandes_bouldering_024_2 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK
+  ego: Novice X
+[66/389] uniandes_bouldering_034_47 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[67/389] uniandes_bouldering_026_91 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[68/389] uniandes_bouldering_035_62 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[69/389] uniandes_bouldering_036_70 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[70/389] uniandes_bouldering_037_52 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[71/389] uniandes_bouldering_036_36 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[72/389] uniandes_bouldering_034_29 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[73/389] uniandes_bouldering_028_64 (GT=Novice)
+  exo: Late Expert X
+  ego: Novice OK
+[74/389] uniandes_bouldering_024_6 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[75/389] uniandes_bouldering_029_88 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[76/389] uniandes_bouldering_029_34 (GT=Intermediate Expert)
+  exo: Early Expert X
+  ego: Novice X
+[77/389] uniandes_bouldering_032_80 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[78/389] uniandes_bouldering_026_40 (GT=Novice)
+  exo: Early Expert X
+  ego: Novice OK
+[79/389] uniandes_bouldering_031_46 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[80/389] uniandes_bouldering_035_101 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[81/389] uniandes_bouldering_029_22 (GT=Novice)
+  exo: Early Expert X
+  ego: Novice OK
+[82/389] uniandes_bouldering_029_58 (GT=Novice)
+  exo: Early Expert X
+  ego: Novice OK
+[83/389] uniandes_bouldering_026_107 (GT=Novice)
+  exo: Late Expert X
+  ego: Novice OK
+[84/389] uniandes_bouldering_026_62 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[85/389] uniandes_bouldering_034_67 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[86/389] uniandes_bouldering_032_77 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[87/389] uniandes_bouldering_025_85 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[88/389] uniandes_bouldering_037_34 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[89/389] uniandes_bouldering_036_74 (GT=Late Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[90/389] uniandes_bouldering_028_28 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[91/389] uniandes_bouldering_036_43 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[92/389] uniandes_bouldering_034_55 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[93/389] uniandes_bouldering_027_21 (GT=Early Expert)
+  exo: Early Expert OK
+  ego: Intermediate Expert X
+[94/389] uniandes_bouldering_028_52 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[95/389] uniandes_bouldering_031_69 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[96/389] uniandes_bouldering_036_51 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[97/389] uniandes_bouldering_028_42 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[98/389] uniandes_bouldering_032_34 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[99/389] uniandes_bouldering_036_71 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[100/389] uniandes_bouldering_035_93 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[101/389] uniandes_bouldering_036_4 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[102/389] uniandes_bouldering_022_20 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[103/389] uniandes_bouldering_037_29 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[104/389] uniandes_bouldering_037_28 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[105/389] uniandes_bouldering_036_29 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[106/389] uniandes_bouldering_036_31 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[107/389] uniandes_bouldering_025_42 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[108/389] uniandes_bouldering_026_97 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[109/389] uniandes_bouldering_028_6 (GT=Early Expert)
+  exo: Late Expert X
+  ego: Novice X
+[110/389] uniandes_bouldering_026_109 (GT=Novice)
+  exo: Early Expert X
+  ego: Novice OK
+[111/389] uniandes_bouldering_036_67 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[112/389] uniandes_bouldering_022_37 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[113/389] uniandes_bouldering_029_57 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[114/389] uniandes_bouldering_027_82 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[115/389] uniandes_bouldering_032_28 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[116/389] uniandes_bouldering_036_49 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[117/389] uniandes_bouldering_024_20 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[118/389] uniandes_bouldering_022_56 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[119/389] uniandes_bouldering_026_65 (GT=Novice)
+  exo: Late Expert X
+  ego: Novice OK
+[120/389] uniandes_bouldering_030_9 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[121/389] uniandes_bouldering_036_48 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[122/389] uniandes_bouldering_026_93 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[123/389] uniandes_bouldering_036_16 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[124/389] uniandes_bouldering_032_27 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[125/389] uniandes_bouldering_034_73 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[126/389] uniandes_bouldering_026_74 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[127/389] uniandes_bouldering_026_59 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[128/389] uniandes_bouldering_036_27 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[129/389] uniandes_bouldering_037_55 (GT=Late Expert)
+  exo: Late Expert OK
+  ego: Intermediate Expert X
+[130/389] uniandes_bouldering_028_22 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[131/389] uniandes_bouldering_028_50 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK
+  ego: Novice X
+[132/389] uniandes_bouldering_027_118 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[133/389] uniandes_bouldering_034_82 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[134/389] uniandes_bouldering_032_15 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[135/389] uniandes_bouldering_035_85 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[136/389] uniandes_bouldering_036_61 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[137/389] uniandes_bouldering_022_3 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[138/389] uniandes_bouldering_025_43 (GT=Novice)
+  exo: Late Expert X
+  ego: Novice OK
+[139/389] uniandes_bouldering_037_30 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[140/389] uniandes_bouldering_028_36 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[141/389] uniandes_bouldering_033_6 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[142/389] uniandes_bouldering_026_34 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[143/389] uniandes_bouldering_034_74 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[144/389] uniandes_bouldering_035_76 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[145/389] uniandes_bouldering_022_33 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[146/389] uniandes_bouldering_034_19 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[147/389] uniandes_bouldering_024_33 (GT=Novice)
+  exo: Early Expert X
+  ego: Novice OK
+[148/389] uniandes_bouldering_028_34 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK
+  ego: Novice X
+[149/389] uniandes_bouldering_032_60 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[150/389] uniandes_bouldering_037_20 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[151/389] uniandes_bouldering_028_29 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[152/389] uniandes_bouldering_033_44 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[153/389] uniandes_bouldering_026_98 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[154/389] uniandes_bouldering_036_15 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[155/389] uniandes_bouldering_027_25 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[156/389] uniandes_bouldering_036_19 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[157/389] uniandes_bouldering_037_25 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[158/389] uniandes_bouldering_036_50 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[159/389] uniandes_bouldering_034_30 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[160/389] uniandes_bouldering_030_34 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[161/389] uniandes_bouldering_028_58 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[162/389] uniandes_bouldering_032_81 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[163/389] uniandes_bouldering_022_30 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[164/389] uniandes_bouldering_023_32 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[165/389] uniandes_bouldering_035_41 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[166/389] uniandes_bouldering_036_54 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[167/389] uniandes_bouldering_031_68 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[168/389] uniandes_bouldering_024_60 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[169/389] uniandes_bouldering_029_52 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[170/389] uniandes_bouldering_032_79 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[171/389] uniandes_bouldering_035_17 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[172/389] uniandes_bouldering_029_74 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[173/389] uniandes_bouldering_023_80 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[174/389] uniandes_bouldering_037_41 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[175/389] uniandes_bouldering_028_12 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[176/389] uniandes_bouldering_036_39 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[177/389] uniandes_bouldering_030_60 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[178/389] uniandes_bouldering_029_45 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[179/389] uniandes_bouldering_026_2 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK
+  ego: Novice X
+[180/389] uniandes_bouldering_037_56 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[181/389] uniandes_bouldering_035_91 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[182/389] uniandes_bouldering_034_17 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[183/389] uniandes_bouldering_034_51 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[184/389] uniandes_bouldering_035_77 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[185/389] uniandes_bouldering_027_59 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[186/389] uniandes_bouldering_036_12 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[187/389] uniandes_bouldering_036_37 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[188/389] uniandes_bouldering_024_59 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[189/389] uniandes_bouldering_027_119 (GT=Novice)
+  exo: Early Expert X
+  ego: Novice OK
+[190/389] uniandes_bouldering_036_41 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[191/389] uniandes_bouldering_023_56 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[192/389] uniandes_bouldering_024_51 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK
+  ego: Novice X
+[193/389] uniandes_bouldering_029_67 (GT=Intermediate Expert)
+  exo: Early Expert X
+  ego: Novice X
+[194/389] uniandes_bouldering_027_114 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[195/389] uniandes_bouldering_034_69 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[196/389] uniandes_bouldering_030_28 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[197/389] uniandes_bouldering_028_24 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[198/389] uniandes_bouldering_026_48 (GT=Intermediate Expert)
+  exo: Late Expert X
+  ego: Novice X
+[199/389] uniandes_bouldering_034_85 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[200/389] uniandes_bouldering_027_3 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK
+  ego: Novice X
+[201/389] uniandes_bouldering_036_8 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[202/389] uniandes_bouldering_032_32 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[203/389] uniandes_bouldering_036_34 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[204/389] uniandes_bouldering_029_10 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[205/389] uniandes_bouldering_023_8 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[206/389] uniandes_bouldering_029_75 (GT=Early Expert)
+  exo: Early Expert OK
+  ego: Novice X
+[207/389] uniandes_bouldering_027_65 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[208/389] uniandes_bouldering_037_36 (GT=Late Expert)
+  exo: Early Expert X
+  ego: Novice X
+[209/389] uniandes_bouldering_023_39 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[210/389] uniandes_bouldering_028_44 (GT=Novice)
+  exo: Early Expert X
+  ego: Early Expert X
+[211/389] uniandes_bouldering_023_33 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[212/389] uniandes_bouldering_026_67 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[213/389] uniandes_bouldering_035_71 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[214/389] uniandes_bouldering_036_62 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[215/389] uniandes_bouldering_029_23 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[216/389] uniandes_bouldering_022_47 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[217/389] uniandes_bouldering_027_115 (GT=Novice)
+  exo: Late Expert X
+  ego: Novice OK
+[218/389] uniandes_bouldering_024_58 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[219/389] uniandes_bouldering_036_52 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[220/389] uniandes_bouldering_026_104 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[221/389] uniandes_bouldering_029_4 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[222/389] uniandes_bouldering_036_2 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[223/389] uniandes_bouldering_037_50 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[224/389] uniandes_bouldering_027_79 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[225/389] uniandes_bouldering_028_31 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[226/389] uniandes_bouldering_035_100 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[227/389] uniandes_bouldering_036_21 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[228/389] uniandes_bouldering_032_30 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[229/389] uniandes_bouldering_037_17 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[230/389] uniandes_bouldering_027_117 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[231/389] uniandes_bouldering_026_78 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[232/389] uniandes_bouldering_037_58 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[233/389] uniandes_bouldering_030_8 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[234/389] uniandes_bouldering_033_58 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[235/389] uniandes_bouldering_033_41 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[236/389] uniandes_bouldering_023_74 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[237/389] uniandes_bouldering_029_94 (GT=Early Expert)
+  exo: Late Expert X
+  ego: Novice X
+[238/389] uniandes_bouldering_037_39 (GT=Late Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[239/389] uniandes_bouldering_036_66 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[240/389] uniandes_bouldering_036_33 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[241/389] uniandes_bouldering_026_19 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[242/389] uniandes_bouldering_026_105 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[243/389] uniandes_bouldering_035_44 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[244/389] uniandes_bouldering_025_80 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[245/389] uniandes_bouldering_029_24 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[246/389] uniandes_bouldering_032_66 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[247/389] uniandes_bouldering_033_12 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[248/389] uniandes_bouldering_037_33 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[249/389] uniandes_bouldering_035_31 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[250/389] uniandes_bouldering_036_6 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[251/389] uniandes_bouldering_030_25 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[252/389] uniandes_bouldering_024_13 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[253/389] uniandes_bouldering_035_20 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[254/389] uniandes_bouldering_029_44 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[255/389] uniandes_bouldering_035_87 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[256/389] uniandes_bouldering_034_98 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[257/389] uniandes_bouldering_036_46 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[258/389] uniandes_bouldering_023_60 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[259/389] uniandes_bouldering_027_106 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[260/389] uniandes_bouldering_028_48 (GT=Intermediate Expert)
+  exo: Early Expert X
+  ego: Novice X
+[261/389] uniandes_bouldering_036_81 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[262/389] uniandes_bouldering_034_71 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[263/389] uniandes_bouldering_028_69 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Intermediate Expert X
+[264/389] uniandes_bouldering_024_32 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[265/389] uniandes_bouldering_026_17 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[266/389] uniandes_bouldering_037_10 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[267/389] uniandes_bouldering_022_61 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[268/389] uniandes_bouldering_027_4 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[269/389] uniandes_bouldering_028_51 (GT=Intermediate Expert)
+  exo: Early Expert X
+  ego: Novice X
+[270/389] uniandes_bouldering_030_59 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[271/389] uniandes_bouldering_029_63 (GT=Intermediate Expert)
+  exo: Late Expert X
+  ego: Early Expert X
+[272/389] uniandes_bouldering_029_78 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[273/389] uniandes_bouldering_024_29 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[274/389] uniandes_bouldering_027_35 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[275/389] uniandes_bouldering_028_4 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK
+  ego: Novice X
+[276/389] uniandes_bouldering_026_16 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[277/389] uniandes_bouldering_034_65 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[278/389] uniandes_bouldering_029_14 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[279/389] uniandes_bouldering_033_45 (GT=Late Expert)
+  exo: Novice X
+  ego: Intermediate Expert X
+[280/389] uniandes_bouldering_027_18 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[281/389] uniandes_bouldering_034_49 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[282/389] uniandes_bouldering_033_2 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[283/389] uniandes_bouldering_036_78 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[284/389] uniandes_bouldering_036_35 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[285/389] uniandes_bouldering_035_12 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[286/389] uniandes_bouldering_033_22 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[287/389] uniandes_bouldering_027_64 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[288/389] uniandes_bouldering_030_57 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[289/389] uniandes_bouldering_030_61 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[290/389] uniandes_bouldering_033_24 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[291/389] uniandes_bouldering_022_43 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[292/389] uniandes_bouldering_035_59 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[293/389] uniandes_bouldering_022_67 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[294/389] uniandes_bouldering_023_17 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[295/389] uniandes_bouldering_035_21 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[296/389] uniandes_bouldering_035_37 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[297/389] uniandes_bouldering_035_97 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[298/389] uniandes_bouldering_033_59 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[299/389] uniandes_bouldering_036_38 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[300/389] uniandes_bouldering_032_78 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[301/389] uniandes_bouldering_022_62 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[302/389] uniandes_bouldering_027_107 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[303/389] uniandes_bouldering_022_7 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[304/389] uniandes_bouldering_026_22 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[305/389] uniandes_bouldering_035_60 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[306/389] uniandes_bouldering_032_2 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[307/389] uniandes_bouldering_032_59 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[308/389] uniandes_bouldering_035_50 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[309/389] uniandes_bouldering_028_2 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK
+  ego: Novice X
+[310/389] uniandes_bouldering_026_18 (GT=Novice)
+  exo: Early Expert X
+  ego: Novice OK
+[311/389] uniandes_bouldering_023_81 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[312/389] uniandes_bouldering_037_48 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[313/389] uniandes_bouldering_025_13 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[314/389] uniandes_bouldering_034_62 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[315/389] uniandes_bouldering_032_11 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[316/389] uniandes_bouldering_036_42 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[317/389] uniandes_bouldering_029_72 (GT=Early Expert)
+  exo: Early Expert OK
+  ego: Novice X
+[318/389] uniandes_bouldering_037_32 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[319/389] uniandes_bouldering_029_3 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK
+  ego: Novice X
+[320/389] uniandes_bouldering_034_103 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[321/389] uniandes_bouldering_027_32 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[322/389] uniandes_bouldering_027_2 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[323/389] uniandes_bouldering_025_56 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[324/389] uniandes_bouldering_037_16 (GT=Late Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[325/389] uniandes_bouldering_027_105 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[326/389] uniandes_bouldering_028_65 (GT=Novice)
+  exo: Late Expert X
+  ego: Novice OK
+[327/389] uniandes_bouldering_028_46 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[328/389] uniandes_bouldering_033_27 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[329/389] uniandes_bouldering_037_38 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[330/389] uniandes_bouldering_023_18 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[331/389] uniandes_bouldering_022_51 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[332/389] uniandes_bouldering_034_24 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[333/389] uniandes_bouldering_034_83 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[334/389] uniandes_bouldering_037_60 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[335/389] uniandes_bouldering_037_49 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[336/389] uniandes_bouldering_026_99 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[337/389] uniandes_bouldering_032_29 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[338/389] uniandes_bouldering_025_46 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[339/389] uniandes_bouldering_034_32 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[340/389] uniandes_bouldering_027_49 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[341/389] uniandes_bouldering_030_58 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[342/389] uniandes_bouldering_030_26 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[343/389] uniandes_bouldering_031_47 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[344/389] uniandes_bouldering_025_16 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[345/389] uniandes_bouldering_023_25 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[346/389] uniandes_bouldering_029_29 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[347/389] uniandes_bouldering_033_33 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[348/389] uniandes_bouldering_022_77 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[349/389] uniandes_bouldering_037_43 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[350/389] uniandes_bouldering_026_100 (GT=Novice)
+  exo: Late Expert X
+  ego: Novice OK
+[351/389] uniandes_bouldering_037_19 (GT=Late Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[352/389] uniandes_bouldering_033_38 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[353/389] uniandes_bouldering_027_23 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[354/389] uniandes_bouldering_029_53 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[355/389] uniandes_bouldering_024_30 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[356/389] uniandes_bouldering_030_27 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[357/389] uniandes_bouldering_028_43 (GT=Novice)
+  exo: Early Expert X
+  ego: Novice OK
+[358/389] uniandes_bouldering_029_71 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[359/389] uniandes_bouldering_034_20 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[360/389] uniandes_bouldering_027_85 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[361/389] uniandes_bouldering_023_48 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[362/389] uniandes_bouldering_031_15 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[363/389] uniandes_bouldering_024_21 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[364/389] uniandes_bouldering_022_26 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[365/389] uniandes_bouldering_035_99 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[366/389] uniandes_bouldering_026_60 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[367/389] uniandes_bouldering_027_81 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[368/389] uniandes_bouldering_036_60 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[369/389] uniandes_bouldering_026_38 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[370/389] uniandes_bouldering_033_34 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[371/389] uniandes_bouldering_025_35 (GT=Novice)
+  exo: Novice OK
+  ego: Novice OK
+[372/389] uniandes_bouldering_029_8 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[373/389] uniandes_bouldering_023_10 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[374/389] uniandes_bouldering_026_90 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[375/389] uniandes_bouldering_037_4 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[376/389] uniandes_bouldering_028_57 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[377/389] uniandes_bouldering_036_73 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[378/389] uniandes_bouldering_034_6 (GT=Intermediate Expert)
+  exo: Intermediate Expert OK
+  ego: Novice X
+[379/389] uniandes_bouldering_026_11 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[380/389] uniandes_bouldering_029_73 (GT=Early Expert)
+  exo: Intermediate Expert X
+  ego: Novice X
+[381/389] uniandes_bouldering_022_38 (GT=Early Expert)
+  exo: Novice X
+  ego: Novice X
+[382/389] uniandes_bouldering_027_20 (GT=Early Expert)
+  exo: Early Expert OK
+  ego: Novice X
+[383/389] uniandes_bouldering_027_52 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[384/389] uniandes_bouldering_025_17 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[385/389] uniandes_bouldering_032_48 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[386/389] uniandes_bouldering_024_47 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+[387/389] uniandes_bouldering_032_44 (GT=Intermediate Expert)
+  exo: Novice X
+  ego: Novice X
+[388/389] uniandes_bouldering_037_54 (GT=Late Expert)
+  exo: Novice X
+  ego: Novice X
+[389/389] uniandes_bouldering_027_36 (GT=Novice)
+  exo: Intermediate Expert X
+  ego: Novice OK
+
+============================================================
+Batch complete. Processed 389 clips this run.
+Exo predictions: {'Novice': 283, 'Intermediate Expert': 69, 'Early Expert': 24, 'Late Expert': 13}
+Ego predictions: {'Novice': 382, 'Intermediate Expert': 5, 'Early Expert': 2}
+============================================================
