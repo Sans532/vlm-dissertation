@@ -1,0 +1,901 @@
+clip_id,take_folder,ground_truth,exo_full_answer,exo_predicted,exo_correct,ego_full_answer,ego_predicted,ego_correct
+586597cc-59c5-45d5-9596-0b6506d9c0ba,uniandes_bouldering_037_38,Late Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds on the wall. They are moving upwards and to the right, reaching for higher holds with their left hand while their right hand is positioned lower on the wall. Their legs are bent at the knees, providing support and balance as they climb.
+
+Errors: The person's left hand is not gripping the hold firmly enough, which could lead to a fall if they lose balance. Additionally, their right hand is not fully extended, which could also cause instability.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with their right hand while their left hand supports them. Their legs are bent at the knees, providing stability and power for the climb. The person appears focused and determined, maintaining a steady pace.
+
+Errors: The person's left hand could be more effective in supporting their weight, as it seems to be slightly behind the right hand. This might cause instability during the climb. Additionally, the person's right foot placement could be improved for better balance and control.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+9ceee09a-ab19-4463-baac-0ed48d21827e,uniandes_bouldering_024_44,Novice,"Observations: The person is climbing a rock wall, reaching for handholds with her right hand while her left hand is extended forward. She is wearing a tank top and leggings, and her hair is tied back. The rock wall has various colored handholds and footholds, and there is a mat on the floor below the wall.
+
+Errors: The person's left hand is not gripping a hold, which could lead to instability. Additionally, her right hand is not fully extended towards the next hold, which may cause her to lose balance.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with their right hand while their left hand supports them. Their feet are positioned on lower holds, providing stability as they climb.
+
+Errors: The person's left hand is not gripping a hold as firmly as it could be, which may lead to instability during the climb. Additionally, their right hand is not fully extended towards the next hold, which could result in a less efficient use of strength and energy.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+08f0616c-d3c4-414c-a492-d8d157872915,uniandes_bouldering_035_53,Early Expert,"Observations: The person is standing on a climbing wall, facing it. They are holding a phone with a QR code displayed on the screen. The person appears to be preparing to scan the QR code.
+
+Errors: There are no apparent errors in the person's movement.
+
+Skill Level: Novice",Novice,False,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with their right hand while their left hand supports them. Their feet are positioned on lower holds, providing stability as they climb.
+
+Errors: The person's movements appear to be somewhat hesitant and uncoordinated at times. They may need more practice to improve their technique and fluidity.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+5f1dd7a9-18b5-400a-a3de-1c30f547235e,uniandes_bouldering_027_19,Early Expert,"Observations: The person is lying on the ground, facing the climbing wall. They are holding onto a phone with both hands and appear to be looking at it. The phone has a QR code displayed on the screen.
+
+Errors: There are no apparent errors in the person's movement. They seem to be in a relaxed position and are focused on the phone.
+
+Skill Level: Novice",Novice,False,"Observations: The person is climbing a rock wall using both hands and feet to grip the holds. They are moving up the wall, shifting their weight and adjusting their grip on the holds. Their movements appear deliberate and controlled, indicating they have some experience with rock climbing.
+
+Errors: The person's movements could be more fluid and efficient if they were to use their body weight more effectively. Additionally, they may benefit from practicing their footwork to improve their overall climbing technique.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+baf283a8-4747-45f1-9c78-241003a8f1b5,uniandes_bouldering_034_56,Intermediate Expert,"Observations: The person is performing a climbing activity on a wall with various holds. They start by lying on the floor, then they move their legs up and down while keeping their upper body on the ground. After that, they use their hands to push themselves up and stand on the floor. Finally, they lie back down on the floor.
+
+Errors: The person could improve their technique by maintaining better balance and control during the movement. Additionally, they could use the holds on the wall more effectively to assist in their movements.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is climbing a rock wall, using various handholds and footholds to ascend. They are wearing climbing shoes and appear to be using proper climbing techniques, such as maintaining a good grip and foot placement. The person is also using chalk on their hands to improve their grip.
+
+Errors: There are no apparent errors in the person's movement. They are climbing with proper technique and maintaining a good grip on the handholds and footholds.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+ea2d7015-0bf2-422c-b6ac-ebcf88fef619,uniandes_bouldering_025_13,Novice,"Observations: The person is climbing a rock wall, reaching for handholds with her right hand while her left hand is extended forward for balance. She is wearing a red tank top and gray shorts. Her movements are deliberate and controlled as she ascends the wall.
+
+Errors: The person's left hand could be positioned more securely on a hold to provide additional support and stability during the climb. Additionally, her right foot placement could be improved for better leverage and balance.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using various handholds and footholds to ascend. They are wearing climbing shoes and appear to be using proper climbing techniques, such as keeping their core engaged and using their legs for support. The person is also using a chalk bag to apply chalk to their hands before climbing.
+
+Errors: There are no significant errors in the person's movement. They are using proper climbing techniques and appear to be comfortable with the activity.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+0dd0e0b5-cbd2-42d3-bc00-64375f14f374,uniandes_bouldering_032_81,Intermediate Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds on the wall. They are moving up the wall, reaching for higher holds with each step. Their movements are deliberate and controlled, indicating a level of experience and skill.
+
+Errors: There are no significant errors in the person's movements. They are climbing efficiently and safely, using proper techniques to maintain balance and avoid falling.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is climbing a rock wall, using both hands to grip the holds. They are moving upwards, reaching for higher holds with their right hand while maintaining balance with their left hand. Their feet are not visible in the image, but they appear to be stepping on the wall as well.
+
+Errors: The person's movements seem to be somewhat hesitant and uncoordinated. They may need more practice to improve their technique and efficiency in climbing.
+
+Skill Level: Novice",Novice,False
+1088fd1c-1562-4ee5-b85c-ceb59bf85f20,uniandes_bouldering_035_28,Early Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving slowly and deliberately, focusing on each hold before shifting their weight. Their body is tense, indicating they are exerting effort.
+
+Errors: The person's movements are slow and deliberate, which may not be efficient for climbing speed. They could benefit from improving their hand-eye coordination and foot placement to move more quickly and smoothly.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their feet are also gripping the wall, providing support as they climb. The person appears to be focused on their climb, maintaining a steady pace.
+
+Errors: The person's left hand is not gripping a hold as firmly as it could be, which may cause them to lose balance or slip. Additionally, their feet are not positioned optimally, which could lead to instability during the climb.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+1c4f1db1-70bb-47e6-8d1f-00e924aa0a98,uniandes_bouldering_033_38,Intermediate Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving upwards and to the right, reaching for higher holds with their left hand. Their body is angled towards the wall, and they are using their core strength to maintain balance.
+
+Errors: The person's left foot is not securely placed on a hold, which could lead to instability. Additionally, their right hand is not gripping a hold, which could also cause them to lose balance.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with their right hand while their left hand supports them on a lower hold. Their feet are positioned on the wall, with their right foot on a higher hold and their left foot on a lower hold. The person appears to be focused on their climb, maintaining a steady pace and using proper climbing techniques.
+
+Errors: There are no apparent errors in the person's movement. They are using appropriate climbing techniques and maintaining a steady pace.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+b92ec0ad-020b-4fed-87bf-002eaaa9a8ec,uniandes_bouldering_022_26,Late Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are wearing a blue tank top and black pants. The person is moving up the wall, reaching for the next hold with their right hand. They are looking up at the wall, focusing on their next move. The person is using a combination of strength and technique to climb the wall.
+
+Errors: The person is not using proper climbing technique, as they are not using their legs effectively to push off the wall. This can lead to fatigue and injury over time. Additionally, the person is not using their core muscles properly, which can also lead to fatigue and injury.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their legs are spread apart for balance, and they appear to be focused on their climb.
+
+Errors: The person's movements seem to be somewhat hesitant and uncoordinated at times, indicating that they may not be very experienced with rock climbing. There are also instances where they lose their grip on a hold, which could potentially lead to a fall if they don't quickly regain it.
+
+Skill Level: Novice",Novice,False
+d6462a6d-44d4-43eb-a0d9-11df808ef412,uniandes_bouldering_034_94,Early Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds on the wall. They are moving up the wall, reaching for different holds with their hands and feet. Their body is positioned in a way that allows them to maintain balance and control while climbing.
+
+Errors: The person's movements appear to be somewhat slow and deliberate, which may indicate that they are still developing their climbing skills. There is no indication of any major errors or imprecisions in their movement.
+
+Skill Level: Novice",Novice,False,"Observations: The person is climbing a rock wall, using both hands to grip the holds. They are moving upwards, reaching for higher holds with their right hand while their left hand supports them. Their feet are positioned on the wall, with their toes gripping the lower holds.
+
+Errors: The person's left hand is not fully gripping the hold, which could lead to instability. Additionally, their right hand is not fully gripping the hold, which could also lead to instability.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+b3a28e5b-906f-40e0-9428-902c81a9cc55,uniandes_bouldering_027_20,Early Expert,"Observations: The person is climbing a rock wall, using both hands to grip the holds on the wall. They are wearing a pink tank top and patterned leggings. The person appears to be focused on their climb, and their movements are deliberate and controlled.
+
+Errors: The person's left hand is not gripping the hold as tightly as it could be, which may lead to a loss of balance if they need to use that hand for support. Additionally, the person's right hand is not fully extended, which may make it difficult to reach higher holds.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using their hands and feet to grip onto various holds. They are wearing a harness and are moving up the wall, reaching for different holds with their hands and feet. Their movements are deliberate and controlled, indicating that they have some experience with rock climbing.
+
+Errors: The person's movements could be more fluid and efficient if they were able to find better handholds and footholds on the wall. Additionally, they may benefit from practicing their balance and coordination to avoid falling off the wall.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+b285942a-a30b-4d4b-a753-8a29b951c1cb,uniandes_bouldering_026_48,Intermediate Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are wearing a tank top and leggings, and appear to be focused on their climb. The rock wall has a variety of colorful holds of different shapes and sizes.
+
+Errors: The person's movements are somewhat stiff and uncoordinated, indicating that they may not be very experienced with rock climbing. They also seem to be struggling to maintain their balance, which could lead to a fall if they lose it.
+
+Skill Level: Novice",Novice,False,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They start by reaching for a hold with their left hand, then switch to their right hand, and continue to climb upwards. They maintain a steady pace, shifting their weight and adjusting their grip as needed. At one point, they pause to look at the wall, possibly planning their next move. They eventually reach the top of the wall and stand on the landing pad.
+
+Errors: The person's movements appear to be somewhat hesitant and uncoordinated at times, particularly when they pause to look at the wall. This suggests that they may not have much experience climbing this particular route. Additionally, there are a few instances where their grip appears to be loose, which could potentially lead to a fall if they lose their balance.
+
+Skill Level: Novice",Novice,False
+0a184bbf-43bf-4d02-bc32-f8989158446a,uniandes_bouldering_023_42,Novice,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They are wearing a black tank top and black pants. The person is moving up the wall, reaching for the next hold with their right hand while their left hand is on the previous hold. Their legs are bent at the knees, and they are using their core muscles to maintain balance. The person appears to be focused on the task at hand.
+
+Errors: The person's left hand is not gripping the hold as tightly as it could be, which may cause them to lose balance if they need to use that hand for support. Additionally, the person's right foot is not fully extended, which may make it difficult for them to find the next hold.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands to grip the holds. They are moving upwards, reaching for higher holds with their right hand while maintaining balance with their left hand. Their body is angled towards the wall, and they appear to be focused on finding the next hold.
+
+Errors: The person's movements seem somewhat hesitant at times, indicating that they may not be entirely comfortable with the climbing technique. Additionally, there is a slight wobble in their stance, suggesting that they might need more practice to improve their balance.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+0ed9a2ce-0e62-43f9-a7e1-37e5a0b89fcc,uniandes_bouldering_033_60,Intermediate Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving up the wall, reaching for the next hold with their right hand while their left hand is on a lower hold. Their legs are bent at the knees, and they are using their core muscles to maintain balance and stability.
+
+Errors: The person's left hand is not gripping a hold, which could lead to instability if they lose their balance. Additionally, their right hand is not fully extended, which may make it difficult to reach the next hold.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is climbing a rock wall, using both hands to grip the holds. They are moving upwards, reaching for new holds with each step. Their movements are deliberate and controlled, indicating a level of experience.
+
+Errors: The person's left hand is not gripping the hold as tightly as the right hand, which could lead to a loss of balance if they need to use that hand for support. Additionally, their feet are not positioned optimally for stability, which could also contribute to a potential fall.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+97b78075-0a0c-4198-bc78-b08a2c92b0aa,uniandes_bouldering_027_56,Novice,"Observations: The person is standing in front of a climbing wall, holding a smartphone with a QR code displayed on the screen. They appear to be preparing to scan the QR code using the phone's camera. The person is wearing sunglasses and has their hair tied back.
+
+Errors: There are no apparent errors in the person's movement or technique. They seem to be following the correct procedure for scanning a QR code.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands to grip the holds. They are wearing chalk on their hands, which helps them maintain a better grip on the holds. The person appears to be moving up the wall at a steady pace, using a combination of strength and technique.
+
+Errors: There are no apparent errors in the person's movement. They are using proper climbing techniques and maintaining a good grip on the holds.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+c6e1946e-cd52-43ee-ac5c-acb609d821d6,uniandes_bouldering_035_98,Early Expert,"Observations: The person is standing on a climbing wall, facing it. They are holding a phone with a QR code on the screen. They are looking at the phone and appear to be preparing to scan the QR code.
+
+Errors: There are no apparent errors in the person's movement.
+
+Skill Level: Novice",Novice,False,"Observations: The person is climbing a rock wall, using various handholds and footholds to ascend. They appear to be moving with some difficulty, as they pause frequently and struggle to find a secure grip. Their movements are slow and deliberate, suggesting that they may not be very experienced with this type of activity.
+
+Errors: The person's technique appears to be lacking, as they are not able to maintain a steady pace and are frequently pausing to reposition themselves. This suggests that they may not have much experience with rock climbing and could benefit from more practice.
+
+Skill Level: Novice",Novice,False
+5d5d169f-3cfa-47da-947d-ec7a93178a59,uniandes_bouldering_029_41,Novice,"Observations: The person is climbing a rock wall, reaching for handholds with her right hand while her left hand is on her hip. She is wearing a tank top and leggings. She is looking up at the wall.
+
+Errors: The person is not using proper climbing techniques. She is not using both hands to grip the handholds, which can lead to instability and potential injury. Additionally, she is not using her legs effectively to support her weight, which can also lead to instability and potential injury.
+
+Skill Level: Novice",Novice,True,"Observations: The person is climbing a rock wall using various handholds and footholds. They are wearing climbing shoes and appear to be using proper climbing techniques, such as keeping their core engaged and using their legs for support. The person is moving up the wall with a steady pace, indicating that they have some experience with rock climbing.
+
+Errors: There are no significant errors in the person's movement. However, it is difficult to determine if the person is using the most efficient climbing technique, as the video only shows a short segment of their climb.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+48c635f3-ef0c-436b-94dc-9fca68c779b7,uniandes_bouldering_034_98,Early Expert,"Observations: The person is standing on a climbing wall, facing it. They are holding a phone with a QR code on the screen. The person appears to be preparing to climb the wall.
+
+Errors: There are no apparent errors in the person's movement.
+
+Skill Level: Novice",Novice,False,"Observations: The person is climbing a rock wall, using both hands to grip the holds. They are moving upwards, reaching for higher holds with their right hand while their left hand supports them. Their feet are positioned on lower holds, providing stability as they climb.
+
+Errors: The person's movements appear to be somewhat hesitant and uncoordinated. They may be struggling to find the right holds or maintain balance. There is also a slight hesitation when reaching for the next hold, which could indicate a lack of confidence or experience.
+
+Skill Level: Novice",Novice,False
+841c5354-3711-45ce-a226-3d7ba0e6b3df,uniandes_bouldering_030_60,Late Expert,"Observations: The person is standing on a climbing wall, facing it. They are wearing a tank top and jeans. Their arms are extended upwards, reaching for the climbing holds on the wall. They are using both hands to grip the holds, and their legs are slightly bent at the knees. The person appears to be focused on the task at hand.
+
+Errors: The person's arms are not fully extended towards the climbing holds, which could make it difficult for them to reach the higher holds. Additionally, their legs are not fully extended, which could make it harder for them to maintain balance while climbing.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands to grip the holds and their feet to push off the wall. They are moving up the wall, reaching for higher holds with each step. Their movements are deliberate and controlled, indicating that they are experienced at this activity.
+
+Errors: There are no apparent errors in the person's movements. They are climbing the wall safely and efficiently.
+
+Skill Level: Late Expert",Late Expert,True
+7cef5f7e-d66d-4b23-b832-ff998d357784,uniandes_bouldering_023_71,Early Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds on the wall. They are moving up the wall, reaching for the next hold with each step. Their movements are deliberate and controlled, indicating a level of experience and skill.
+
+Errors: There are no significant errors in the person's movements. They are climbing efficiently and safely, making good use of the available holds.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using various handholds and footholds to ascend. They are wearing climbing shoes and appear to be using proper climbing techniques, such as maintaining a good grip and foot placement. The person is also using a chalk bag to apply magnesium powder to their hands for better grip.
+
+Errors: There are no apparent errors in the person's movement. They are climbing with proper form and technique.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+6caff659-6697-498e-a5e3-04b50bc09d30,uniandes_bouldering_027_17,Early Expert,"Observations: The person is climbing a rock wall, using both hands to grip the holds on the wall. They are wearing a pink tank top and patterned leggings. Their movements are deliberate and controlled as they ascend the wall.
+
+Errors: The person's left hand is not gripping a hold, which could potentially lead to a fall if they lose balance. Additionally, their right hand is not fully extended, which may make it difficult for them to maintain a secure grip on the next hold.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with their right hand while their left hand supports them on a lower hold. Their legs are bent at the knees, providing stability and power for the climb. The person appears focused and determined, maintaining a steady pace.
+
+Errors: The person's left hand is not gripping a hold as firmly as it could be, which may lead to instability during the climb. Additionally, their right hand is not fully extended towards the next hold, which could result in a less efficient use of energy and strength.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+dcdf4cdc-2b50-4e2c-bbaf-b8a904965867,uniandes_bouldering_029_77,Early Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds on the wall. They are wearing a white tank top and black pants. The person appears to be focused on their climb, and their movements are deliberate and controlled.
+
+Errors: The person's left hand is not gripping a hold, which could potentially lead to a fall if they lose balance. Additionally, the person's right foot is not gripping a hold, which could also lead to a fall if they lose balance.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands to grip the holds. They are moving upwards, reaching for higher holds with their right hand while maintaining balance with their left hand. Their feet are positioned on the wall, and they appear to be focused on finding the next hold.
+
+Errors: The person's movements seem to be somewhat hesitant, indicating that they may not be very experienced with rock climbing. There is no indication of any major errors in their technique, but their pace suggests that they might benefit from more practice.
+
+Skill Level: Novice",Novice,False
+77f6641e-b713-4723-bafc-ca6b0b957c5e,uniandes_bouldering_036_17,Late Expert,"Observations: The person is climbing a rock wall, reaching for handholds with both hands and using their legs to push off the wall. They are wearing a helmet and climbing shoes. The person is moving up the wall, reaching for a higher hold.
+
+Errors: The person's movements appear to be somewhat slow and deliberate, suggesting they may not be an experienced climber. There is no indication of any major errors in their technique.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are wearing climbing shoes and appear to be focused on their climb. The wall has various colored holds of different shapes and sizes.
+
+Errors: The person's movements seem to be somewhat hesitant and uncoordinated at times, indicating that they may not be very experienced with rock climbing. There are also some instances where the person appears to be struggling to find a hold, which could suggest that the route is challenging for them.
+
+Skill Level: Novice",Novice,False
+a7ee65f5-b365-4f69-bc6a-95a9583d7ff0,uniandes_bouldering_026_14,Novice,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving up the wall with controlled movements, shifting their weight and adjusting their grip as needed. Their body is angled towards the wall, and they appear to be focused on finding the next hold.
+
+Errors: The person may benefit from improving their foot placement and balance, as they occasionally lose their footing and have to readjust. Additionally, they could work on their hand positioning to ensure they are gripping the holds effectively.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using various handholds and footholds to ascend. They are wearing climbing shoes and appear to be focused on their climb. The rock wall has a variety of colorful holds, including some that are shaped like different objects. The person is moving their arms and legs to grip the holds and propel themselves upward.
+
+Errors: The person may not be using the most efficient technique for climbing certain holds, which could result in slower progress or increased risk of falling. Additionally, they may not be using proper form when transitioning between holds, which could lead to discomfort or injury.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+74bc0655-0e3e-433f-b8f5-243764621fe5,uniandes_bouldering_030_25,Late Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving up the wall, reaching for higher holds with their right hand while their left hand is on a lower hold. Their legs are bent at the knees, and they are using their core strength to maintain balance and control.
+
+Errors: The person's left hand is not gripping a hold, which could lead to instability and potential falls. Additionally, their right hand is not fully extended, which may make it difficult to reach the next hold.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their legs are bent at the knees, providing support and balance. The person appears to be focused on their climb, maintaining a steady pace.
+
+Errors: The person's left hand is not gripping a hold as firmly as it could, which may lead to instability during the climb. Additionally, their right hand is not fully extended towards the higher hold, which could result in a less efficient use of strength and energy.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+04cd2bc7-f306-4bc5-b2ea-8d51a0e587a8,uniandes_bouldering_029_71,Early Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds on the wall. They are wearing a white tank top and black pants. Their movements are fluid and controlled, indicating a high level of skill and experience.
+
+Errors: There are no visible errors in the person's movements. They appear to be climbing with proper form and technique.
+
+Skill Level: Late Expert",Late Expert,False,"Observations: The person is climbing a rock wall using both hands to grip the holds. They are moving their feet up the wall, finding new holds with each step. Their body is angled towards the wall, and they are using their core muscles to maintain balance.
+
+Errors: The person's left hand is not gripping the hold as tightly as the right hand, which could lead to a loss of balance if they need to use that hand for support. Additionally, their feet are not positioned optimally, which could also cause instability.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+e8f2df2e-5d2d-4352-b06c-95554b1ecdb3,uniandes_bouldering_031_68,Late Expert,"Observations: The person is climbing a rock wall, reaching for handholds with both hands and feet. They are wearing a harness and climbing shoes. The person is moving up the wall, using their arms and legs to maintain balance and grip.
+
+Errors: The person's movements appear to be somewhat slow and deliberate, indicating that they may not be an experienced climber. There is no indication of any major errors in their technique, but their movements could be more fluid and efficient.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using various handholds and footholds. They are wearing climbing shoes and appear to be using proper climbing techniques, such as keeping their core engaged and using their legs for support. The person is moving up the wall with a steady pace, indicating that they have some experience with rock climbing.
+
+Errors: There are no significant errors in the person's movement. However, it is difficult to determine if the person is using the most efficient climbing technique due to the limited number of frames provided.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+4401cdfe-a383-4116-b1ed-1783b2e0ae7e,uniandes_bouldering_036_4,Late Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds on the wall. They are moving upwards, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their legs are bent at the knees, providing support and balance as they climb. The person appears to be focused and determined, maintaining a steady pace as they progress up the wall.
+
+Errors: The person's right hand is not gripping the hold firmly enough, which could lead to a potential fall if they lose balance. Additionally, their left hand is positioned too low on the wall, which may make it difficult to reach higher holds. It would be beneficial for the person to adjust their hand placement and grip strength to improve their climbing technique.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with their right hand while their left hand supports them on a lower hold. Their legs are bent at the knees, providing stability and power for the climb. The person appears focused and determined, maintaining a steady pace as they progress up the wall.
+
+Errors: The person's right hand occasionally slips off the hold, requiring them to quickly re-grasp it. This could potentially lead to a fall if not corrected promptly. Additionally, their left hand sometimes loses its grip, causing them to momentarily lose balance before regaining control. These minor errors demonstrate that the person may still be developing their climbing technique and coordination.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+d33f338c-bebc-44a7-b3bb-17849a0fc068,uniandes_bouldering_037_49,Late Expert,"Observations: The person is climbing a rock wall, reaching for handholds with their right hand while their left hand is on the wall. They are wearing a pink shirt and black pants. The wall has various colored handholds and footholds. The person is standing on a blue mat at the base of the wall.
+
+Errors: The person's right hand is not fully extended towards the handhold, which could cause them to miss it. Additionally, they may need to adjust their grip on the wall to maintain balance and avoid falling.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands to grip the holds and their feet to push off the wall. They appear to be moving up the wall at a steady pace, with their body positioned in a way that allows them to maintain balance and control. Their movements are deliberate and focused, indicating that they have some experience with rock climbing.
+
+Errors: There are no significant errors in the person's movement. They are maintaining good form and technique throughout the climb.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+e0e7a1f3-3420-4ae2-88fb-666ac9d5cbdc,uniandes_bouldering_033_27,Late Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their legs are bent at the knees, providing support and balance as they climb. The person appears focused and determined, demonstrating good technique and control.
+
+Errors: The person's right hand is slightly extended, which could potentially cause them to lose grip if they slip. Additionally, their left hand is positioned lower on the wall, which may make it more difficult to reach higher holds if needed. However, overall, the person's movements appear to be well-coordinated and controlled.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using both hands and feet to grip the colorful holds. They are moving upwards, reaching for new holds with each step. Their movements are deliberate and controlled, indicating a level of experience.
+
+Errors: There are no significant errors observed in the person's climbing technique. They are maintaining a good grip on the holds and are not overextending themselves.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+d2268823-4c4b-4036-b313-a27083db529d,uniandes_bouldering_037_2,Intermediate Expert,"Observations: The person is climbing a rock wall, reaching for handholds with both hands and feet. They are wearing climbing shoes and using a harness. The wall has various colored holds, and there is a crash pad below to cushion falls.
+
+Errors: The person's movements appear to be somewhat hesitant and uncoordinated at times. They may need more practice to improve their technique and fluidity.
+
+Skill Level: Novice",Novice,False,"Observations: The person is climbing a rock wall, using both hands to grip the holds. They are moving up the wall, reaching for different holds with each hand. Their movements are deliberate and controlled, indicating that they are experienced in rock climbing.
+
+Errors: There are no visible errors in the person's movements. They are climbing the wall safely and efficiently.
+
+Skill Level: Late Expert",Late Expert,False
+a237c7f1-4189-4f28-9a7d-233a976976d6,uniandes_bouldering_036_47,Late Expert,"Observations: The person is standing on a climbing wall, facing it. They are holding onto a handhold with both hands and appear to be preparing to climb. Their feet are positioned apart for balance.
+
+Errors: The person's feet are not positioned correctly for climbing. They should be closer together and more aligned with the handhold they are gripping.
+
+Skill Level: Novice",Novice,False,"Observations: The person is climbing a rock wall, using both hands to grip the holds. They are moving upwards, reaching for new holds with each frame. Their movements appear controlled and deliberate.
+
+Errors: There are no significant errors observed in the person's climbing technique. They are maintaining a good grip on the holds and are not overextending themselves.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+3c519043-4e93-4f5e-b521-3b27c235c17c,uniandes_bouldering_024_6,Novice,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They are moving up the wall, reaching for higher holds with each step. Their body is angled towards the wall, and they are maintaining a steady pace.
+
+Errors: The person's movements appear to be somewhat hesitant at times, suggesting that they may not be entirely comfortable with the climb. Additionally, there is a moment where the person's hand slips off a hold, indicating a potential error in technique.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using various handholds and footholds to ascend. They are wearing climbing shoes and appear to be using proper climbing techniques, such as maintaining a good grip and foot placement. The person is also using a chalk bag to apply chalk to their hands for better grip.
+
+Errors: There are no significant errors in the person's movement. They are climbing with proper form and technique.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+ea71122a-5318-4c39-9207-10eb0fe6e668,uniandes_bouldering_025_14,Novice,"Observations: The person is climbing a rock wall, reaching for handholds with both hands and shifting their weight to maintain balance. They appear to be using a technique that involves reaching up and over obstacles, which suggests they have some experience with this type of climbing.
+
+Errors: The person may be struggling to find the right handholds or may be overextending themselves, which could lead to a fall if not careful. Additionally, they may be relying too much on their upper body strength rather than their core stability, which could also increase the risk of injury.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving up the wall, shifting their weight and adjusting their grip as they progress. Their movements appear deliberate and controlled, indicating a level of experience with rock climbing.
+
+Errors: The person's movements could be smoother if they were to use more efficient techniques for transitioning between holds. Additionally, they may benefit from better foot placement to maintain stability and reduce the risk of falling.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+ef362c0f-063b-4aeb-af18-d15f0c0a949d,uniandes_bouldering_029_8,Early Expert,"Observations: The person is climbing a rock wall, using both hands to grip the holds on the wall. They are wearing a white shirt and black pants. The person appears to be focused on their climb and is moving their legs to maintain balance.
+
+Errors: The person's left hand is not gripping the hold as tightly as it could be, which may cause them to lose balance if they need to use that hand for support. Additionally, the person's right leg is not fully extended, which may make it more difficult for them to maintain balance and reach higher holds.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands to grip the holds. They are moving upwards, reaching for higher holds with their right hand while maintaining balance with their left hand. Their feet are positioned on the wall, providing support as they climb.
+
+Errors: The person's movements appear to be somewhat hesitant and uncoordinated at times. They may need more practice to improve their technique and fluidity.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+74d47f9d-6264-4407-b9f0-9facc320c938,uniandes_bouldering_035_37,Early Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving up the wall, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their legs are bent at the knees, providing support and balance as they climb. The person appears to be focused on their climb, maintaining a steady pace and using proper technique.
+
+Errors: The person's left hand is positioned lower on the wall than it should be, which may make it difficult for them to reach higher holds. Additionally, their right foot is not fully extended, which could cause instability during the climb.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands to grip the holds. They are wearing a harness and climbing shoes. The person appears to be moving up the wall with a steady pace, using a combination of strength and technique.
+
+Errors: The person may need to improve their hand placement and foot positioning for better balance and efficiency. Additionally, they could benefit from practicing their climbing technique to avoid unnecessary strain on their muscles.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+297d0185-6f12-4664-b53c-c5fc4054d680,uniandes_bouldering_022_20,Intermediate Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds on the wall. They are wearing a harness and climbing shoes for safety and support. The person appears to be focused and determined as they climb higher.
+
+Errors: The person's movements seem to be somewhat slow and deliberate, indicating that they may not be an expert climber yet. There is no indication of any major errors or imprecisions in their movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving up the wall, reaching for different holds with each hand and foot. Their movements are deliberate and controlled, indicating that they are experienced at this activity.
+
+Errors: There are no visible errors in the person's movements. They are climbing the wall safely and efficiently.
+
+Skill Level: Late Expert",Late Expert,False
+599fccf2-b3c2-4eaf-95b2-0749fe66ef4c,uniandes_bouldering_027_114,Novice,"Observations: The person is standing on a climbing wall, facing it. They are holding a phone with a QR code displayed on the screen. The person appears to be preparing to scan the QR code.
+
+Errors: There are no apparent errors in the person's movement.
+
+Skill Level: Novice",Novice,True,"Observations: The person is climbing a rock wall using both hands to grip the holds. They are moving upwards, reaching for higher holds with their right hand while maintaining balance with their left hand. Their feet are positioned on the wall, and they appear to be focused on finding the next hold to grip.
+
+Errors: The person's movements seem to be somewhat hesitant, indicating that they may not be entirely comfortable with the climbing technique. Additionally, there is a slight wobble in their stance, which could suggest that they are still developing their balance and coordination skills.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+947ac112-6848-49aa-8cac-aece95145e0d,uniandes_bouldering_026_72,Novice,"Observations: The person is climbing a bouldering wall, using both hands and feet to grip the colorful holds on the wall. They are wearing a tank top and leggings, and appear to be focused on their climb. The person is moving slowly and deliberately, carefully placing each hand and foot on the holds before continuing their ascent.
+
+Errors: The person may benefit from improving their technique by focusing on maintaining a good body position and balance while climbing. They could also work on their hand and foot placement to ensure they are gripping the holds securely and efficiently.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their legs are bent at the knees, providing support and balance as they climb. The person appears to be focused on their ascent, maintaining a steady pace and using proper climbing techniques.
+
+Errors: There are no apparent errors in the person's movement. They are using appropriate climbing techniques and maintaining good form throughout the climb.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+4f3ad258-3d8e-430e-88be-d3f6d1db4e90,uniandes_bouldering_033_33,Intermediate Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds on the wall. They are moving upwards, reaching for the next hold with their right hand while their left hand is already gripping a higher hold. Their legs are bent at the knees, providing support and balance as they climb.
+
+Errors: The person's left hand is not fully gripping the hold, which could lead to a loss of balance if they need to use it for additional support. Additionally, their right foot is not fully gripping the hold, which could also lead to instability.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is climbing a rock wall using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their feet are also gripping the wall, providing support as they climb.
+
+Errors: The person's movements appear to be somewhat hesitant and uncoordinated at times. They may need more practice to improve their technique and fluidity.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+00f50674-1f3c-4847-ab4a-fa2f0f113987,uniandes_bouldering_022_33,Novice,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their legs are bent at the knees, providing support and balance. The person appears focused and determined as they climb.
+
+Errors: The person's movements seem to be smooth and controlled, but there might be room for improvement in their technique. For example, they could try to use their core muscles more effectively to maintain stability and conserve energy. Additionally, they may want to practice their hand placement and grip strength to ensure they can hold onto the holds securely.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using various handholds and footholds to ascend. They are wearing climbing shoes and appear to be using proper climbing techniques, such as keeping their core engaged and using their legs for support. The person is moving up the wall at a steady pace, demonstrating good control and balance.
+
+Errors: There are no significant errors in the person's movement. They are using appropriate techniques and maintaining good form throughout the climb.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+73853c96-b212-4c0c-840b-521bf4db7109,uniandes_bouldering_032_28,Intermediate Expert,"Observations: The person is climbing a rock wall, reaching for handholds with their right hand while their left hand is extended out to the side. They are wearing a tank top and shorts, and their hair is pulled back. The rock wall has various colored handholds and footholds, and there is a crash pad on the floor below.
+
+Errors: The person's right hand is not gripping the handhold firmly enough, which could lead to a fall if they lose balance. Additionally, their left hand is not providing enough support, which could also contribute to instability.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They are moving up the wall, reaching for different holds with their hands and shifting their weight to maintain balance. Their movements appear deliberate and controlled, indicating a level of experience and familiarity with the activity.
+
+Errors: The person may be making slight mistakes in their hand placement or foot positioning, but they are able to correct them quickly and continue climbing. There are no significant errors that would prevent them from completing the climb successfully.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+00e60518-37eb-47ea-bc82-eefa572ffc8c,uniandes_bouldering_029_65,Intermediate Expert,"Observations: The person is standing in front of a climbing wall, holding a phone with a QR code on it. They appear to be preparing to scan the QR code. The person is wearing a white tank top and black pants. There is another person in the background who appears to be climbing the wall.
+
+Errors: The person is not actively engaged in any specific climbing activity at this moment. They are simply holding the phone and looking at the QR code.
+
+Skill Level: Novice",Novice,False,"Observations: The person is climbing a rock wall with colorful holds. They are using both hands to grip the holds, and their feet are positioned on the wall for support. The person appears to be moving up the wall, but it is not clear how far they have climbed. The person's movements are deliberate and controlled, indicating that they are experienced in rock climbing.
+
+Errors: There are no apparent errors in the person's movements. Their technique appears to be correct, and they are using the appropriate holds to climb the wall.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+2915318c-1440-4a50-aced-d39ddc433ffd,uniandes_bouldering_030_26,Late Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving up the wall, reaching for higher holds with their right hand while their left hand is on a lower hold. Their legs are bent at the knees, and they are stepping up onto the next hold with their right foot.
+
+Errors: The person's movements appear to be somewhat slow and deliberate, suggesting that they may not be an experienced climber. There is no indication of any errors in their technique, but their pace suggests that they may be a novice or early expert climber.
+
+Skill Level: Novice / Early Expert",Early Expert,False,"Observations: The person is climbing a rock wall, using both hands to grip the holds. They are moving up the wall, shifting their weight and adjusting their grip as they progress. Their movements appear deliberate and controlled, indicating a level of experience with rock climbing.
+
+Errors: The person's movements could be smoother if they were to use their core muscles more effectively for stability and balance. Additionally, they may benefit from practicing their footwork to improve their overall climbing efficiency.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+8eba5dea-598c-4884-a242-493868d74b9a,uniandes_bouldering_033_12,Late Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving upwards and to the right, reaching for a hold with their left hand. Their body is angled towards the wall, and they are using their core strength to maintain balance.
+
+Errors: The person's left foot is not gripping a hold, which could lead to instability. Additionally, their right hand is not fully extended, which may make it difficult to reach the next hold.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using various handholds and footholds. They are moving their arms and legs to grip the holds, shifting their weight and adjusting their body position to maintain balance and progress upward. Their movements appear deliberate and controlled, suggesting they have some experience with rock climbing.
+
+Errors: The person may be making slight mistakes in their technique, such as not fully engaging their core muscles or not maintaining a proper grip on the holds. However, these errors do not significantly impact their overall performance.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+515cb254-42d5-4107-bf65-f17eb654d6b2,uniandes_bouldering_025_81,Novice,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving up the wall, reaching for higher holds with each step. Their movements are deliberate and controlled, indicating a level of experience.
+
+Errors: The person may be making small mistakes while climbing, such as misjudging the height of a hold or not gripping it firmly enough. However, these errors do not significantly impact their overall performance.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands to grip the holds. They are moving upwards, reaching for higher holds with their right hand while maintaining balance with their left hand. Their feet are positioned on the wall, providing support as they climb.
+
+Errors: The person's movements appear to be somewhat hesitant and uncoordinated at times. They may need more practice to improve their technique and fluidity.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+b39b5e50-0271-42f2-a6ad-e9a3973f6f59,uniandes_bouldering_027_58,Novice,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are wearing a harness and climbing shoes. The person is moving up the wall, reaching for the next hold with their right hand while their left hand is on the previous hold. Their legs are bent at the knees, and they are using their core muscles to maintain balance.
+
+Errors: The person's left hand is not gripping the hold firmly enough, which could lead to a fall if they lose balance. Additionally, the person's right foot is not fully extended, which could also cause instability.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with their right hand while their left hand supports them on a lower hold. Their legs are bent at the knees, providing stability and power for the climb. The person appears to be focused and determined, maintaining a steady pace.
+
+Errors: The person's right hand is not gripping the hold firmly enough, which could lead to a loss of balance and potential fall. Additionally, their left hand is not providing enough support, which could also result in instability. The person should ensure that they are gripping each hold securely and using their full range of motion to maintain control during the climb.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+ded44860-08c8-48a6-bdc1-6fed5fbb2ca8,uniandes_bouldering_034_21,Early Expert,"Observations: The person is climbing a rock wall, reaching for handholds with their right hand while their left hand is on their hip. They are wearing a white shirt and black pants. The rock wall has various colored handholds and footholds. The person is climbing towards the top of the wall.
+
+Errors: The person's right hand is not gripping the handhold firmly enough, which could lead to a fall if they lose balance. Additionally, the person's left hand should be used to assist in maintaining balance and stability during the climb.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands to grip the holds. They are moving upwards, with their feet positioned on the wall for support. Their movements are deliberate and controlled, indicating a level of experience.
+
+Errors: The person's left hand is not gripping a hold as tightly as the right hand, which could lead to instability if they lose balance. Additionally, their feet are not positioned optimally for stability, which could also contribute to potential instability.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+78eb1fd3-fd40-45b2-a322-75bf823917ce,uniandes_bouldering_034_8,Early Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving upwards and to the right, reaching for higher holds with their left hand while their right hand is on a lower hold. Their legs are bent at the knees, and they are shifting their weight from side to side as they climb.
+
+Errors: The person's left hand is not gripping the hold firmly enough, which could lead to a fall if they lose balance. Additionally, their right foot is not fully extended, which could also cause instability.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using various handholds and footholds. They are moving their hands and feet to grip the holds, and their body is positioned in a way that allows them to maintain balance and momentum. The person appears to be focused on the task at hand and is making deliberate movements to progress up the wall.
+
+Errors: There are no significant errors in the person's movement. They are using proper techniques for climbing, such as maintaining a good grip on the holds and shifting their weight appropriately.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+4d46b132-1c9e-404d-86fd-f7fc1dd4c320,uniandes_bouldering_034_65,Early Expert,"Observations: The person is standing on a climbing wall, facing it. They are wearing a green shirt and black shorts. Their arms are extended upwards, reaching for the climbing holds on the wall. They are using both hands to grip the holds, and their legs are bent at the knees. The person appears to be in the middle of a climb, as they are not yet at the top of the wall.
+
+Errors: The person's grip on the climbing holds could be improved. They may need to adjust their hand placement or use different techniques to maintain a secure hold on the wall. Additionally, their body positioning could be optimized for better balance and efficiency during the climb.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using various handholds and footholds to ascend. They are wearing climbing shoes and appear to be using proper climbing techniques, such as maintaining a good grip and foot placement. The person is also using a chalk bag to apply chalk to their hands for better grip.
+
+Errors: There are no apparent errors in the person's movement. They are climbing with proper form and technique.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+503cc92d-7052-44ff-a21d-da6c4a5d6927,uniandes_bouldering_028_52,Intermediate Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving up the wall, reaching for higher holds with each step. Their body is angled towards the wall, and they are using their core strength to maintain balance.
+
+Errors: The person's movements appear to be somewhat hesitant and uncoordinated at times. They may benefit from practicing their technique to improve their speed and efficiency on the wall.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is climbing a rock wall using various handholds and footholds. They are wearing a wristband on their left wrist. Their movements are deliberate and controlled, indicating they are experienced in rock climbing. They are using both hands to grip the holds and maintain balance while ascending the wall.
+
+Errors: There are no significant errors observed in the person's movements. They appear to be climbing with proper technique and control.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+490ba87f-dec2-421d-89ae-365b07059004,uniandes_bouldering_029_74,Early Expert,"Observations: The person is standing on a climbing wall, preparing to climb. They are holding a phone with a QR code displayed on the screen. The person appears to be focused on the QR code, possibly using it for navigation or instructions related to the climbing route.
+
+Errors: There are no apparent errors in the person's movement or technique at this stage. They seem to be in the correct position and stance for climbing, and their focus on the QR code suggests they are following proper procedures.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands to grip the holds. They are moving upwards, reaching for the next hold with their right hand while their left hand remains on the previous hold. Their body is angled towards the wall, and they are using their legs to push off the ground for support.
+
+Errors: The person's movements appear to be somewhat slow and deliberate, indicating that they may not be an experienced climber. There is no indication of any major errors or imprecisions in their technique.
+
+Skill Level: Novice",Novice,False
+55a046e6-11d2-4860-a2a4-305e84f87c95,uniandes_bouldering_032_75,Intermediate Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds on the wall. They are moving upwards, reaching for higher holds with each step. Their body is slightly bent at the knees and hips, allowing them to maintain balance and control while climbing.
+
+Errors: The person's movements appear to be somewhat hesitant and uncoordinated, suggesting that they may not have much experience with rock climbing. There are moments where they lose their balance and have to readjust their grip on the holds. Additionally, their climbing style seems to lack fluidity and efficiency, which could be improved with more practice.
+
+Skill Level: Novice",Novice,False,"Observations: The person is climbing a rock wall using various handholds and footholds. They are wearing a harness and climbing shoes, and they are using a chalk bag to apply chalk to their hands before climbing. The person is moving up the wall with their arms and legs, and they are using their fingers and toes to grip the holds. The person appears to be climbing at a moderate pace, and they are taking careful steps to ensure that they do not slip or fall.
+
+Errors: There are no significant errors in the person's movement. They are climbing safely and efficiently, and they are using proper technique to grip the holds and move up the wall.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+20339f53-7bb2-4b2f-9829-8b1317c7aefe,uniandes_bouldering_034_37,Early Expert,"Observations: The person is climbing a rock wall, reaching for handholds with their right hand while their left hand is extended forward. They are wearing a black shirt and black pants, and their feet are positioned on the ground. The rock wall has various colored handholds and footholds, and there is a blue mat on the floor below the wall.
+
+Errors: The person's right hand is not gripping the handhold firmly enough, which could lead to a fall if they lose balance. Additionally, their left hand is not providing adequate support, which could also contribute to instability.
+
+Skill Level: Novice",Novice,False,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with each step. Their movements are deliberate and controlled, indicating a level of experience.
+
+Errors: The person's left hand is not gripping a hold, which could potentially lead to instability if they lose balance. Additionally, their right foot is not fully planted on a hold, which could also cause them to lose balance.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+e5342798-15e1-496a-877e-599c41e661d2,uniandes_bouldering_030_61,Late Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds on the wall. They are moving up the wall, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their legs are bent at the knees, providing support and balance as they climb. The person appears to be focused on their climb, maintaining a steady pace and using proper technique.
+
+Errors: The person's left hand is positioned lower on the wall than it should be, which could potentially cause them to lose balance if they need to reach for a higher hold with that hand. Additionally, the person's right foot is not fully gripping the hold, which could also lead to instability.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands to grip the holds. They are moving upwards, reaching for higher holds with their right hand while their left hand supports them. Their feet are positioned on the wall, with their toes gripping the holds. The person appears to be focused on their climb, looking up at the wall as they ascend.
+
+Errors: The person's left hand is not gripping the hold as firmly as it could be, which may cause instability during the climb. Additionally, the person's right hand is not fully extended, which may make it difficult to reach the next hold.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+13187fc4-b19c-44c2-96c4-d6516e80e8c6,uniandes_bouldering_022_49,Novice,"Observations: The person is climbing a rock wall, using both hands to grip the holds and her feet to push off the wall. She is wearing a harness and appears to be moving up the wall with controlled movements.
+
+Errors: The person's movements appear to be somewhat slow and deliberate, which may indicate that she is still developing her technique. Additionally, there is no indication of any errors in her movement.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their feet are also gripping the wall, providing support as they climb. The person appears to be focused on their climb, maintaining a steady pace and using proper technique.
+
+Errors: There are no apparent errors in the person's movement. They are using appropriate techniques to grip the holds and maintain balance while climbing.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+541fd573-8687-496a-8351-aa30f2524bd3,uniandes_bouldering_022_13,Novice,"Observations: The person is climbing a rock wall, using both hands to grip the holds and her feet to push off the wall. She is moving up the wall, reaching for higher holds with her right hand while her left hand is on a lower hold. Her body is angled towards the wall, and she appears to be focused on her climb.
+
+Errors: The person's left hand is not gripping a hold, which could potentially lead to a fall if she loses balance. Additionally, her right hand is not fully extended, which may make it difficult for her to reach the next hold.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using various handholds and footholds. They are wearing a harness and climbing shoes, which are essential for safety and performance. The person is using both hands to grip the holds, and their feet are positioned on the wall to maintain balance and stability. The person appears to be moving slowly and deliberately, focusing on finding the right holds and maintaining a steady pace.
+
+Errors: There are no significant errors in the person's movement. However, it is possible that they could improve their technique by practicing more and becoming more familiar with the wall's layout and the best way to approach each section. Additionally, they may benefit from working on their footwork and balance to ensure they can maintain a steady pace and avoid falling.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+daebd508-2c03-4304-ad6e-44be5672755c,uniandes_bouldering_028_34,Intermediate Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are wearing a white tank top and black leggings. Their movements are deliberate and controlled, indicating a level of experience with rock climbing.
+
+Errors: The person's left hand is not gripping a hold, which could lead to instability during the climb. Additionally, their right foot is not placed on a hold, which could also cause them to lose balance.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is climbing a rock wall using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their feet are also gripping the wall, providing support and balance.
+
+Errors: The person's movements appear to be somewhat hesitant and uncoordinated at times. They may need more practice to improve their technique and fluidity.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+da19130e-ef5e-4255-9080-f714a618f934,uniandes_bouldering_030_29,Late Expert,"Observations: The person is standing on a climbing wall, reaching up to grab a hold with both hands. They are wearing a tank top and jeans. The person appears to be focused on the climb.
+
+Errors: The person's feet are not positioned correctly for balance, which could lead to instability during the climb.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They start by reaching for a hold with their right hand, then use their left hand to find another hold. They continue to climb upwards, alternating between their hands and feet to maintain balance and momentum. As they reach the top, they pause briefly before beginning to descend.
+
+Errors: The person's descent is not smooth; they lose their balance and fall onto the mat below. This suggests that they may need more practice in maintaining control during the descent.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+5a87d794-6b64-4287-b212-5142aefeefa2,uniandes_bouldering_032_21,Intermediate Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving slowly and deliberately, focusing on finding the right handholds and footholds. Their body is positioned in a way that allows them to maintain balance and control while climbing.
+
+Errors: The person may be making small mistakes in their hand placement or foot placement, but they are not falling or losing their grip. They appear to be making progress up the wall, so there are no major errors in their technique.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is climbing a rock wall using both hands to grip the holds. They are moving their body up the wall, shifting their weight and adjusting their grip on the holds. Their movements appear deliberate and controlled, indicating they have some experience with rock climbing.
+
+Errors: The person's movements could be smoother if they were able to maintain a more consistent rhythm while climbing. Additionally, they may benefit from practicing their footwork to improve their overall climbing efficiency.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+efe3c403-3719-4276-b1b1-0492f93a8397,uniandes_bouldering_023_44,Novice,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They are wearing a black tank top and black leggings. The person appears to be focused on their climb, and their movements are deliberate and controlled. The rock wall has a variety of different colored holds, including red, blue, green, yellow, and orange. The person is climbing up the wall, moving their hands and feet to find the best holds to grip. The person is also looking at a phone with a QR code on it, which may be used for tracking their progress or for other purposes related to the climb.
+
+Errors: There are no apparent errors in the person's movement. Their technique appears to be correct and they are climbing safely and efficiently.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using various handholds and footholds. They are wearing climbing shoes and appear to be using proper climbing techniques, such as maintaining a good grip on the holds and shifting their weight appropriately. The person is also using a chalk bag to apply chalk to their hands before climbing.
+
+Errors: There are no significant errors in the person's movement. They are climbing with proper form and technique.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+2aaaca24-108a-437e-ab9a-bc3e8d65fcdf,uniandes_bouldering_024_60,Novice,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving upwards, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their legs are bent at the knees, providing support and balance. The person appears to be focused on their climb, maintaining a steady pace.
+
+Errors: The person's left hand is positioned lower on the wall than it should be, which may cause them to lose balance if they need to use that hand for support. Additionally, their right hand is not gripping the hold as tightly as it could, which may also lead to instability.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using various handholds and footholds. They are using both hands to grip the holds, and their feet are positioned on the wall for stability. The person appears to be moving up the wall, but it is not clear how far they have climbed.
+
+Errors: It is difficult to determine if there are any errors in the person's movement based on the limited information provided. However, it is possible that the person may be struggling with balance or coordination, which could lead to errors in their climbing technique.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+7b7365da-5cef-4fbc-8c9b-ab2987fddf0f,uniandes_bouldering_025_16,Novice,"Observations: The person is lying on the ground, facing the climbing wall. They are wearing a red tank top and purple leggings. Their arms are extended upwards, reaching for the climbing holds on the wall. The person appears to be in the process of climbing the wall.
+
+Errors: The person's arms are not fully extended towards the climbing holds, which may make it difficult for them to reach the higher holds. Additionally, the person's legs are not positioned correctly, which could cause instability while climbing.
+
+Skill Level: Novice",Novice,True,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving upwards, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their feet are also moving, shifting from one hold to another. The person appears to be focused on their climb, maintaining a steady pace.
+
+Errors: The person's movements seem to be somewhat hesitant at times, indicating that they may not be entirely comfortable with the climbing technique. Additionally, there is a slight wobble in their stance, which could suggest that they are still developing their balance and coordination skills.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+aaf0d082-a972-4620-a1e9-5699023c9c77,uniandes_bouldering_022_62,Intermediate Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are wearing a blue tank top and black pants. The person is moving up the wall, reaching for the next hold with their right hand. They are looking up at the wall, focusing on their next move. The person is using a combination of strength and technique to climb the wall.
+
+Errors: The person may be overextending their arms or legs while climbing, which could lead to fatigue or injury if not corrected. Additionally, the person may be relying too heavily on their upper body strength, neglecting the importance of core stability and balance.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is climbing a rock wall using various handholds and footholds. They are wearing climbing shoes and appear to be using proper climbing techniques, such as keeping their core engaged and using their legs for support. The person is moving up the wall with a steady pace, indicating that they have some experience with rock climbing.
+
+Errors: There are no significant errors in the person's movement. However, it is difficult to determine if the person is using the most efficient climbing technique due to the limited number of frames provided.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+3f60a7dd-d004-4842-bdd0-2e112f554cd9,uniandes_bouldering_035_21,Early Expert,"Observations: The person is standing on a climbing wall, facing it. They are holding a phone with a QR code on it, which they are using to scan the wall. The person appears to be focused on the task at hand.
+
+Errors: There are no apparent errors in the person's movement. They are standing still and holding the phone steady while scanning the wall.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands to grip the holds. They are moving upwards, reaching for higher holds with their right hand while their left hand supports them. Their feet are positioned on the wall, with their toes gripping the holds. The person appears to be focused on their climb, maintaining a steady pace.
+
+Errors: The person's left hand is not always positioned correctly, which could potentially lead to instability during the climb. Additionally, their right hand occasionally loses its grip on the hold, causing them to momentarily pause before regaining their balance.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+34c5de08-c113-4213-82e0-50a6751d794b,uniandes_bouldering_036_48,Late Expert,"Observations: The person is climbing a rock wall, reaching for handholds with both hands and feet. They are wearing a helmet and climbing shoes. The person is moving up the wall, using their arms and legs to maintain balance and grip on the holds.
+
+Errors: The person's movements appear to be somewhat slow and deliberate, indicating that they may not be an experienced climber. There is no indication of any major errors in their technique, but their movements could be more fluid and efficient.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using various handholds and footholds. They are wearing a wristband and appear to be focused on their climb. The person's movements are deliberate and controlled, indicating a level of experience with rock climbing.
+
+Errors: There are no significant errors observed in the person's climbing technique. However, it is difficult to determine if they are using proper climbing techniques without more information about their experience and the specific route they are attempting.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+4f53ded9-6a79-4ea0-bc28-f93981f4db82,uniandes_bouldering_029_9,Early Expert,"Observations: The person is climbing a rock wall, using both hands to grip the holds on the wall. They are wearing a white shirt and black pants. The person appears to be focused on their climb and is moving their legs to maintain balance.
+
+Errors: The person's left hand is not gripping the hold as tightly as it could be, which may cause them to lose balance if they need to use that hand for support. Additionally, the person's right leg is not fully extended, which may make it more difficult for them to maintain balance and move up the wall.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using various handholds and footholds. They are using both hands to grip the holds, and their feet are positioned on the wall for balance. The person appears to be moving upwards and to the right, using a combination of strength and technique to maintain their grip and progress.
+
+Errors: The person may be experiencing some difficulty maintaining their grip on the holds, as they are frequently adjusting their hands and feet. Additionally, there is a possibility that the person may be overextending their arms or legs, which could lead to fatigue or injury if not corrected.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+7ddc0933-b409-4c1d-96e6-0ecce0d68d9a,uniandes_bouldering_026_22,Novice,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They are wearing a tank top and leggings, and appear to be focused on their climb. The rock wall has a variety of different colored holds, including red, green, blue, and yellow. The person is climbing up the wall, moving their hands and feet to find the best holds to grip. They are also looking at a phone in their hand, which may be used for navigation or to track their progress.
+
+Errors: The person may not be using the best technique for climbing the rock wall. They could be using too much force with their hands and feet, which can lead to fatigue and injury. Additionally, they may not be using the most efficient route up the wall, which can make the climb more difficult and time-consuming.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using various handholds and footholds. They are wearing climbing shoes and appear to be using proper climbing techniques, such as keeping their core engaged and using their legs for support. The person is moving up the wall with controlled movements, demonstrating good balance and strength.
+
+Errors: There are no significant errors observed in the person's climbing technique. However, it is difficult to determine if they are using the most efficient route up the wall without more information about the specific climb.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+06846813-9b38-4177-9caa-2fdef34bd868,uniandes_bouldering_027_87,Novice,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving slowly and deliberately, focusing on each hold before shifting their weight. Their body is positioned at an angle to the wall, with their arms extended and their legs bent at the knees. They appear to be wearing climbing shoes and a harness.
+
+Errors: The person may benefit from improving their foot placement and balance, as they are not always able to find a secure hold with their feet. Additionally, they could work on their core strength to improve their stability and control while climbing.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using both hands and feet to grip the colorful holds. They are moving up the wall, reaching for different holds with their hands and placing their feet on the appropriate footholds. Their movements appear controlled and deliberate, indicating a level of experience and familiarity with the activity.
+
+Errors: There are no significant errors observed in the person's movements. They are maintaining a good grip on the holds and using proper climbing techniques.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+ab2d04c4-9952-4554-8047-f624b7703523,uniandes_bouldering_036_60,Intermediate Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds on the wall. They are moving up the wall, reaching for higher holds with each step. Their body is angled towards the wall, and they are using their core strength to maintain balance and control.
+
+Errors: The person may be making small mistakes while climbing, such as not gripping the holds firmly enough or taking too large of a step. However, these errors do not significantly impact their overall performance.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with each step. Their movements are deliberate and controlled, indicating a level of experience.
+
+Errors: The person's movements could be smoother if they were to use their core muscles more effectively. Additionally, they may benefit from improving their foot placement to maintain better balance and stability.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+55c0fbdf-e83e-44b2-ae04-a05cd1ac227e,uniandes_bouldering_032_66,Late Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds on the wall. They are moving upwards, reaching for higher holds with each step. Their body is angled towards the wall, and they are maintaining a steady pace.
+
+Errors: The person's movements appear to be somewhat hesitant at times, suggesting that they may not be entirely comfortable with the climb. Additionally, there is a slight wobble in their stance, indicating that they may need more practice to improve their balance.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using various handholds and footholds. They are wearing a harness and climbing shoes, which are essential for safety and performance. The person is using both hands and feet to grip the holds, demonstrating good technique and control. The person appears to be moving up the wall at a steady pace, maintaining balance and stability.
+
+Errors: There are no significant errors in the person's movement. However, it is difficult to determine if they are using the most efficient technique for climbing this particular route. It would be beneficial for them to practice more on similar routes to improve their skills.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+54e52179-7f03-4a57-9b5b-bc526a89a33b,uniandes_bouldering_026_26,Intermediate Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving upwards, reaching for higher holds with each step. Their body is positioned at an angle against the wall, with their arms extended and legs bent at the knees. They appear to be focused on their climb, maintaining a steady pace.
+
+Errors: The person's movements seem to be somewhat hesitant and uncoordinated. They may need more practice to improve their technique and efficiency in climbing. Additionally, they could benefit from better hand placement and foot positioning to maintain balance and stability.
+
+Skill Level: Novice",Novice,False,"Observations: The person is climbing a rock wall, using various handholds and footholds to ascend. They are wearing climbing shoes and appear to be using proper climbing techniques, such as maintaining a good grip and foot placement. The person is also wearing a harness and a helmet for safety.
+
+Errors: There are no significant errors in the person's movement. They are climbing with proper form and technique.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+823628bf-e32c-4b93-9ec2-0c615eb6a999,uniandes_bouldering_024_32,Novice,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They are wearing a harness and climbing shoes. The person appears to be moving up the wall with controlled movements, demonstrating good technique.
+
+Errors: There are no apparent errors in the person's movement. They are climbing with proper form and technique.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using various handholds and footholds. They are moving their arms and legs to grip the holds, and their body is positioned in a way that allows them to maintain balance and momentum. The person appears to be focused on the task at hand.
+
+Errors: There are no significant errors in the person's movement. They are using proper techniques for climbing, such as gripping the holds with their fingers and using their core muscles to maintain balance.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+03cee26b-3f48-435c-a617-db1130410157,uniandes_bouldering_023_2,Early Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They are wearing a tank top and shorts, and appear to be focused on their climb. The rock wall is indoors, with a padded floor for safety.
+
+Errors: The person's movements seem to be somewhat hesitant and uncoordinated at times, indicating that they may not be very experienced with rock climbing. There are also some instances where the person appears to be struggling to find a hold, which could suggest that the route is challenging for them.
+
+Skill Level: Novice",Novice,False,"Observations: The person is climbing a rock wall using various handholds and footholds. They are wearing climbing shoes and using chalk to improve grip. Their movements are deliberate and controlled, indicating a level of experience with the activity.
+
+Errors: The person may be making slight mistakes in their technique, such as not fully engaging their core muscles or not using the correct handholds and footholds for optimal efficiency. However, these errors do not significantly impact their overall performance.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+67afb15d-7cde-4c6d-8826-2fb9b9192b61,uniandes_bouldering_026_23,Novice,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are wearing a harness and climbing shoes for safety and support. The person appears to be moving slowly and deliberately, focusing on each hold before making a move.
+
+Errors: The person may benefit from improving their foot placement and balance, as they appear to be struggling with maintaining stability on some of the holds. Additionally, they could work on their hand positioning to ensure they are gripping the holds effectively.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving upwards, reaching for higher holds with each step. Their movements are deliberate and controlled, indicating a level of experience.
+
+Errors: The person's movements could be smoother if they were to use their core muscles more effectively. Additionally, they may benefit from improving their foot placement to maintain better balance.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+2d440a5d-6f5d-447f-b0d7-5227df11da5f,uniandes_bouldering_022_72,Novice,"Observations: The person is climbing a rock wall, reaching for handholds with both hands and feet. They are wearing a harness and climbing shoes. The person is moving up the wall, using their arms and legs to maintain balance and grip on the holds.
+
+Errors: The person may be overreaching or underestimating the difficulty of the climb, which could lead to falling or losing grip on the holds. Additionally, the person may not be using proper climbing techniques, such as maintaining a good body position or using their core muscles effectively.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using various handholds and footholds. They are wearing a harness and climbing shoes, and they are moving their arms and legs to grip the holds and maintain balance. The person appears to be focused on the task at hand and is making progress up the wall.
+
+Errors: The person may be making some mistakes while climbing, such as not gripping the holds firmly enough or not maintaining proper posture. Additionally, they may be taking too long to move between holds, which could slow down their progress.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+68308e20-76b7-4878-af8f-62e74c08e6d3,uniandes_bouldering_036_50,Late Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds on the wall. They are wearing a harness and climbing shoes for safety and support. The person appears to be moving slowly and deliberately, focusing on each hold before making a move. The person is also looking up at the wall, likely assessing the route and planning their next move.
+
+Errors: There are no apparent errors in the person's movement. They appear to be climbing with proper technique and form.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using various handholds to ascend. They are wearing a wristband on their left wrist. The rock wall has different colored holds, including green, yellow, red, and blue. The person is moving their hands and arms to grip the holds and climb higher. There are people sitting on chairs in the background, watching the climber.
+
+Errors: The person's movements appear to be somewhat slow and deliberate, indicating that they may not be an experienced climber. They seem to be focusing more on finding the right holds rather than using efficient climbing techniques. Additionally, there is no indication of any errors or imprecisions in their movement.
+
+Skill Level: Novice",Novice,False
+cddea26a-1eac-4176-a541-fa38ca70a214,uniandes_bouldering_033_45,Late Expert,"Observations: The person is climbing a rock wall, reaching for handholds with both hands and feet. They are wearing a green shirt and black shorts. The person is climbing up the wall, moving their arms and legs to find the next hold. They are using their fingers and toes to grip the holds and maintain balance. The person is climbing at a moderate pace, taking careful steps and reaching for the next hold. The person is focused on the climb and appears to be enjoying it.
+
+Errors: The person is not wearing any safety gear such as a helmet or harness. This could be a potential error as it increases the risk of injury if they fall. Additionally, the person is not using proper climbing techniques, such as keeping their core engaged and using their legs to push off the wall. This could also increase the risk of injury.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using various handholds and footholds to ascend. They are wearing a harness and climbing shoes for safety and support. Their movements are deliberate and controlled, indicating experience and skill.
+
+Errors: The person's movements appear smooth and efficient, with no noticeable errors or imprecisions. However, there may be room for improvement in technique, such as optimizing their grip on certain holds or adjusting their body positioning for better leverage.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+53b52ea1-d45a-428e-989a-0afbd8914588,uniandes_bouldering_032_2,Late Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving upwards, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their legs are bent at the knees, providing support and balance. The person appears to be focused on their climb, maintaining a steady pace.
+
+Errors: The person's left hand is not gripping a hold, which could potentially lead to instability if they lose balance. Additionally, their right hand is not fully extended towards the next hold, which may make it difficult to maintain a secure grip.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using various handholds and footholds to ascend. They are wearing a harness and climbing shoes for safety and grip. Their movements are deliberate and controlled, indicating experience and skill in rock climbing.
+
+Errors: The person may occasionally lose balance or struggle with certain holds, but they quickly recover and continue climbing. There are no significant errors in their technique that would prevent them from reaching the top of the wall.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+6cc51836-6b79-4921-9024-d351486ad88c,uniandes_bouldering_033_55,Intermediate Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds on the wall. They are moving upwards, reaching for the next hold with their right hand while their left hand is already gripping a higher hold. Their legs are bent at the knees, providing support and balance as they climb.
+
+Errors: The person's right hand is not fully gripping the hold, which could lead to a loss of balance if they need to use it for support. Additionally, their left foot is not fully gripping the hold, which could also lead to instability.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is climbing a rock wall using various handholds and footholds. They are wearing a wristband on their left wrist. Their movements are deliberate and controlled, indicating they are experienced in rock climbing.
+
+Errors: There are no apparent errors in the person's movements. They are climbing efficiently and safely.
+
+Skill Level: Late Expert",Late Expert,False
+14e3d506-966c-4775-9499-e800ff752938,uniandes_bouldering_036_57,Intermediate Expert,"Observations: The person is climbing a rock wall, reaching for handholds with their right hand while their left hand is on the wall for support. They are wearing a helmet and climbing shoes. The person is moving up the wall, using both hands to grip the holds.
+
+Errors: The person's left hand is not gripping the wall as tightly as it could be, which may cause them to lose balance if they slip. Additionally, the person's right hand is not fully extended towards the next hold, which may make it difficult for them to reach it.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is climbing a rock wall using various handholds and footholds. They are wearing climbing shoes and appear to be using proper climbing techniques, such as maintaining a good grip on the holds and shifting their weight appropriately. The person is also using a rope for safety, which is attached to a harness around their waist.
+
+Errors: There are no significant errors in the person's movement. They seem to be climbing with confidence and control, and their technique appears to be well-executed.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+50a1d087-699a-4b98-a8d3-1c1b9adae130,uniandes_bouldering_037_52,Late Expert,"Observations: The person is standing on a climbing wall, facing it. They are holding a phone with a QR code displayed on the screen. The person appears to be looking at the phone and then at the climbing wall.
+
+Errors: There are no apparent errors in the person's movement. They seem to be following the instructions on the phone correctly.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are wearing climbing shoes and appear to be moving up the wall with a steady pace. The person is also looking at the wall while climbing, which suggests they are focused on their route.
+
+Errors: There are no visible errors in the person's movement. They are climbing the wall with proper technique and form.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+b0e3de53-17af-438a-80f5-7bbb2fed0125,uniandes_bouldering_026_21,Novice,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving up the wall, reaching for the next hold with their right hand while their left hand is on the previous hold. Their legs are bent at the knees, providing support and balance. The person appears to be focused on their climb, maintaining a steady pace.
+
+Errors: The person's left hand is not gripping the hold firmly enough, which could lead to a loss of balance if they need to use it for support. Additionally, their right foot is not positioned correctly, which could cause instability during the climb.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using various handholds and footholds to ascend. They are wearing climbing shoes and appear to be using proper climbing techniques, such as maintaining a good grip and foot placement. The person is also using a chalk bag to apply magnesium powder to their hands for better grip.
+
+Errors: There are no significant errors observed in the person's climbing technique. However, it is difficult to determine if they are using the most efficient route up the wall based on the limited information provided.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+103eefc6-4c85-4d2f-877a-c56458767c63,uniandes_bouldering_036_12,Intermediate Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds on the wall. They are moving upwards, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their legs are bent at the knees, providing support and balance as they climb. The person appears to be focused and determined, maintaining a steady pace as they progress up the wall.
+
+Errors: The person's right hand is not gripping the hold firmly enough, which could lead to a potential fall if they lose balance. Additionally, their left hand is not providing enough support, which could also contribute to instability. It would be beneficial for the person to improve their hand placement and grip strength to prevent such errors.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving up the wall, reaching for different holds with their hands and shifting their weight to maintain balance. Their movements appear controlled and deliberate, indicating a level of experience.
+
+Errors: The person may be making slight mistakes in their hand placement or foot positioning, but they are not falling or losing their grip on the holds. Overall, their technique seems proficient.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+b437ad8d-7d90-48b9-84ef-46e6db4a58da,uniandes_bouldering_029_28,Early Expert,"Observations: The person is lying on the ground, facing the climbing wall. They are holding a phone with a QR code displayed on the screen. Their arms are extended outwards, and they appear to be looking at the QR code.
+
+Errors: There are no apparent errors in the person's movement. They seem to be following the instructions provided by the QR code on the phone.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using both hands to grip the holds. They are moving upwards, shifting their weight and adjusting their grip on the holds as they progress. Their movements appear deliberate and controlled, indicating a focus on maintaining balance and stability.
+
+Errors: There are no significant errors observed in the person's climbing technique. They are maintaining a good grip on the holds and are not overextending themselves, which could lead to a fall. However, it is difficult to determine if the person is using the most efficient climbing technique without more information about the specific route being climbed.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+08dc1e90-e64a-4420-a773-574758117821,uniandes_bouldering_027_2,Intermediate Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are wearing a tank top and shorts, and have a climbing harness on. The wall has many different colored holds, and the person is moving up the wall with a steady pace.
+
+Errors: The person's movements appear to be somewhat slow and deliberate, which may indicate that they are still developing their climbing skills. There is no indication of any major errors in their technique.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is climbing a rock wall using both hands and feet to grip the holds. They are moving upwards, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their legs are bent at the knees, providing support and balance as they climb. The person appears to be focused on their climbing technique, maintaining a steady pace and using proper form.
+
+Errors: There are no apparent errors in the person's climbing technique. They are using appropriate hand and foot placement, maintaining balance, and progressing steadily up the wall.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+e5c4c6aa-f142-4b45-bb12-97e312cb20fd,uniandes_bouldering_028_24,Early Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving upwards, reaching for the next hold with their right hand while their left hand is on a lower hold. Their legs are bent at the knees, providing support and balance.
+
+Errors: The person's left hand is not gripping a hold, which could lead to instability and potential falls. Additionally, their right hand is not fully extended towards the next hold, which may result in a less efficient climb.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using various handholds and footholds. They are wearing athletic clothing and appear to be focused on their climb. Their movements are deliberate and controlled, indicating a level of experience with rock climbing.
+
+Errors: The person's movements could be more fluid and efficient. There may be room for improvement in their technique, such as better use of body weight and balance.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+c8dbedf6-61ec-497f-b57e-ee270238da13,uniandes_bouldering_031_69,Late Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds on the wall. They are moving upwards, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their legs are bent at the knees, providing support and balance as they climb.
+
+Errors: The person's movements appear to be somewhat hesitant and uncoordinated, suggesting that they may not have much experience with rock climbing. There is also a slight wobble in their stance, which could indicate instability or lack of proper technique.
+
+Skill Level: Novice",Novice,False,"Observations: The person is climbing a rock wall using both hands and feet to grip the holds. They are moving upwards, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their legs are bent at the knees, providing support and balance as they climb. The person appears to be focused on their ascent, maintaining a steady pace and using proper climbing techniques.
+
+Errors: There are no apparent errors in the person's movement. They are using appropriate climbing techniques and maintaining good form throughout the climb.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+a729523b-c8c8-40a5-99b5-eebff3772724,uniandes_bouldering_029_48,Intermediate Expert,"Observations: The person is climbing a rock wall, reaching for handholds with both hands. They are wearing a white tank top and black leggings. The rock wall has various colored handholds and footholds. The person is moving up the wall, using their arms to pull themselves up and their legs to push off the wall.
+
+Errors: The person's movements appear to be somewhat slow and deliberate, suggesting they may not be very experienced with rock climbing. There is no indication of any major errors in their technique, but they could potentially benefit from improving their speed and fluidity.
+
+Skill Level: Novice",Novice,False,"Observations: The person is climbing a rock wall using both hands and feet to grip the colorful holds. They are moving upwards, reaching for the next hold with their right hand while their left hand is already on a higher hold. Their feet are positioned on the wall, with their right foot on a hold and their left foot on the ground. The person appears to be focused on their climb, maintaining a steady pace.
+
+Errors: The person's left hand is not gripping the hold firmly enough, which could lead to a loss of balance if they need to use it for support. Additionally, their right foot is not positioned optimally, which could cause them to lose stability during the climb.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+75286d45-1251-421a-90cb-3f0212443244,uniandes_bouldering_036_8,Late Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving upwards and to the right, reaching for higher holds with their left hand. Their body is angled towards the wall, and they are maintaining a good balance.
+
+Errors: The person's left foot is not gripping a hold, which could lead to instability. Additionally, their right hand is not fully extended, which may make it difficult to reach the next hold.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using both hands to grip the holds. They are moving their body up the wall, shifting their weight and adjusting their grip as they progress. Their movements appear deliberate and controlled, suggesting they have some experience with rock climbing.
+
+Errors: The person's movements could be more fluid and efficient if they were able to use their feet more effectively for balance and support. Additionally, they may benefit from practicing their hand placement and grip strength to improve their overall climbing technique.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+90d40eba-fb77-4014-b51b-675005365f66,uniandes_bouldering_027_52,Novice,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds on the wall. They are moving upwards, reaching for higher holds with each step. Their body is slightly bent at the knees, and they maintain a steady pace.
+
+Errors: The person's left hand is not gripping a hold, which could lead to instability. Additionally, their right foot is not placed on a stable hold, which could also cause them to lose balance.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using various handholds and footholds. They are wearing fingerless gloves, which provide better grip on the holds. Their movements are deliberate and controlled, indicating a level of experience with rock climbing. They are using both hands to climb, alternating between different holds to maintain balance and momentum.
+
+Errors: The person's movements could be smoother if they were able to use their feet more effectively for support. Additionally, they may benefit from practicing their foot placement to improve their overall climbing technique.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+d822e2e6-4549-4ceb-82b3-666536ee7cd1,uniandes_bouldering_029_75,Early Expert,"Observations: The person is standing on a climbing wall, holding onto a rope with both hands. They are looking up at the wall, possibly planning their next move. Their body is slightly bent forward, indicating they are preparing to climb.
+
+Errors: There are no apparent errors in the person's movement. They appear to be following proper climbing techniques.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using both hands to grip the holds. They are moving their arms and legs to maintain balance and progress up the wall. Their movements appear controlled and deliberate, suggesting they have some experience with rock climbing.
+
+Errors: The person may be overestimating their strength or skill level, as they are attempting to climb a challenging route that requires more advanced techniques. Additionally, they may not be using proper climbing form, which could lead to injuries or difficulty progressing on the wall.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+b843d724-be38-4855-9408-7c5cef73274d,uniandes_bouldering_034_69,Early Expert,"Observations: The person is climbing a rock wall, reaching for handholds with their right hand while their left hand is on their hip. They are wearing a black shirt and black pants. The rock wall has various colored handholds and footholds. The person is standing on a blue mat on the floor.
+
+Errors: The person's right hand is not gripping the handhold firmly enough, which could lead to a fall if they lose balance. Additionally, the person's left hand should be used to assist in maintaining balance and stability during the climb.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving upwards, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their feet are also gripping the wall, with their right foot on a hold slightly above their left foot. The person appears to be focused on their climb, maintaining a steady pace and using proper technique.
+
+Errors: There are no apparent errors in the person's movement. They are using appropriate techniques for climbing, such as maintaining a good grip on the holds and keeping their body aligned with the wall.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+ac7cf81b-2de9-4a6e-8274-4c5348fe6f05,uniandes_bouldering_036_26,Intermediate Expert,"Observations: The person is climbing a rock wall, reaching for handholds with their right hand while their left hand is on the wall for support. They are wearing an orange shirt and gray pants. The person is lying on the ground after falling off the wall.
+
+Errors: The person falls off the wall and lands on the ground, which could have been prevented if they had better grip on the handholds or if they had used proper climbing techniques to maintain balance.
+
+Skill Level: Novice",Novice,False,"Observations: The person is climbing a rock wall, using various handholds and footholds to ascend. They are wearing a harness and climbing shoes for safety and grip. The person appears to be moving at a steady pace, using proper climbing techniques such as reaching for holds with both hands and feet, and maintaining a good balance.
+
+Errors: There are no significant errors observed in the person's climbing technique. However, it is difficult to determine if they are using the most efficient route up the wall based on the limited information provided.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+e4e88582-cb8a-49d4-a6ed-e1203e50b59b,uniandes_bouldering_032_30,Intermediate Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving up the wall with controlled movements, shifting their weight and adjusting their body position to maintain balance and momentum. Their climbing style appears to be dynamic, with a focus on fluid motion and efficient use of energy.
+
+Errors: The person may experience some difficulty maintaining balance and control, especially when reaching for higher holds. They could benefit from improving their footwork and developing better techniques for transitioning between holds. Additionally, they might need to work on their overall strength and endurance to sustain their climbing efforts over longer periods.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is climbing a rock wall, using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with their right hand while their left hand supports them on a lower hold. Their feet are positioned on different holds, indicating they are in the process of ascending the wall.
+
+Errors: The person's movements appear to be somewhat hesitant and uncoordinated. They may be struggling to find the right holds or maintain balance, which could lead to a fall if not careful. Additionally, their climbing style seems to lack fluidity and efficiency, suggesting that they might still be developing their technique.
+
+Skill Level: Novice",Novice,False
+495c922c-4986-4fc9-8f80-478f2d888850,uniandes_bouldering_029_34,Intermediate Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are wearing a helmet for safety. The person appears to be climbing with confidence and control.
+
+Errors: There are no apparent errors in the person's movement. They are climbing with proper technique and maintaining balance.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True,"Observations: The person is climbing a rock wall using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with their right hand while their left hand is positioned lower on the wall. Their feet are also gripping the wall, providing support and balance.
+
+Errors: The person's movements appear to be somewhat hesitant and uncoordinated at times. They may need more practice to improve their technique and fluidity.
+
+Skill Level: Intermediate Expert",Intermediate Expert,True
+b625c8f6-9346-42a5-97be-5db4a1c764c5,uniandes_bouldering_037_19,Late Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are wearing a tank top and shorts, and appear to be focused on their climb. The rock wall has a variety of colorful holds of different shapes and sizes.
+
+Errors: The person's left hand is not gripping a hold, which could potentially lead to a fall if they lose balance. Additionally, their right foot is not securely placed on a hold, which could also result in a fall.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall using both hands and feet to grip the colorful holds. They are moving upwards, reaching for higher holds with their right hand while their left hand supports them on a lower hold. Their legs are bent at the knees, providing stability and power for the climb. The person appears to be focused and determined, maintaining a steady pace as they progress up the wall.
+
+Errors: The person's right hand is not gripping the hold firmly enough, which could lead to a loss of balance and potentially falling. Additionally, their left hand is not providing enough support, which could also result in instability. The person should ensure that both hands and feet are gripping the holds securely to prevent any accidents.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+ec6ff8f4-3d40-4508-b83f-45c78c0be3b4,uniandes_bouldering_036_16,Late Expert,"Observations: The person is climbing a rock wall, reaching for handholds with their right hand while their left hand is extended outwards. They are wearing a pink tank top and black leggings. The rock wall has various colored holds and a blue crash pad at the bottom. The person appears to be in motion, possibly climbing up the wall.
+
+Errors: The person's left hand is not gripping a hold, which could lead to instability during the climb. Additionally, the person's right hand may need to be more precise in its movements to avoid missing the next hold.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving up the wall, reaching for different holds with their hands and shifting their weight to maintain balance. Their movements appear controlled and deliberate, indicating a level of experience and familiarity with the activity.
+
+Errors: The person may be making slight mistakes in their hand placement or foot positioning, but they are able to correct them quickly and continue climbing. There are no significant errors that would prevent them from completing the climb successfully.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
+4c052cb2-fd49-4601-a842-7eb09f24e76c,uniandes_bouldering_030_62,Late Expert,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving up the wall, reaching for higher holds with their right hand while their left hand is on a lower hold. Their legs are bent at the knees, providing support and balance. The person appears to be focused on their climb, maintaining a steady pace.
+
+Errors: The person's left hand is not gripping a hold as firmly as it could be, which may cause them to lose balance if they need to use that hand for additional support. Additionally, the person's right foot is not fully extended, which may make it more difficult to maintain balance and reach higher holds.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False,"Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving up the wall, reaching for different holds with their hands and shifting their weight to maintain balance. Their movements are deliberate and controlled, indicating a level of experience and familiarity with the activity.
+
+Errors: The person's movements could be more fluid and efficient if they were able to use their body weight more effectively. Additionally, they may benefit from practicing their foot placement and hand positioning to improve their overall climbing technique.
+
+Skill Level: Intermediate Expert",Intermediate Expert,False
