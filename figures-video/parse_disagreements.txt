@@ -1,0 +1,1549 @@
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Late Expert'
+  RAW: This climber displays the characteristics of an **Intermediate Expert**.
+
+### Technique Evaluation:
+
+**1. Body Alignment:**
+*   **Strengths:** The climber demonstrates an excellent understanding of tension and core engagement required for a severely overhanging wall. They consistently keep their center of gravity close to the wall, which is essential to prevent "barn-dooring" (swinging off the wall).
+*   **Areas for Improvement:** There are moments where the hip positioning could be more deliberate. By dropping the outer hip closer to the wall (hip-in technique) earlier in the sequence, the climber could reduce the load on their arms, particularly during the transition between the middle and
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Intermediate Expert'
+  RAW: Based on the provided video, this climber is at an **Intermediate Expert** level.
+
+### **Technical Evaluation**
+
+**1. Body Alignment:**
+*   **Strengths:** The climber demonstrates an excellent understanding of tension and core engagement on a significant overhang. They keep their center of gravity close to the wall, which is critical for staying on such steep terrain.
+*   **Areas for Improvement:** There is a slight lack of "hip-in" technique on the initial move. While the tension is good, rotating the hips closer to the wall earlier in the sequence would allow for even more efficient weight distribution off the arms.
+
+**2. Movement Fluency:**
+*   **Strengths:** The movement is deliberate an
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning.csv | exo] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: This climber is at the **Late Expert** level.
+
+### Analysis of Technique
+
+**1. Body Alignment:**
+The climber demonstrates exceptional core tension. The way they maintain engagement on the overhanging wall, particularly during the explosive deadpoint move, indicates a high level of mastery in keeping the hips close to the wall. Even when dynamic momentum causes the feet to cut, the climber immediately resets and controls their center of gravity, which is a hallmark of elite body positioning.
+
+**2. Movement Fluency:**
+The transition from the initial static holds to the deadpoint is fluid. There is a clear understanding of "momentum management"—using the initial push to generate upward velocity
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Early Expert'
+  RAW: This climber is at an **Intermediate Expert** level.
+
+Here is the breakdown of their technique:
+
+### Body Alignment
+The climber demonstrates excellent core tension, which is essential for this steep, overhanging angle. Even when their feet cut loose (a common challenge on this terrain), they maintain a stable position, preventing excessive swinging. Their ability to keep their hips relatively close to the wall—despite the significant overhang—shows a strong understanding of how to use their center of gravity to maintain balance.
+
+### Movement Fluency
+Their movement is calculated and deliberate. They exhibit the "climbing flow" characterized by minimizing dead weight. When they reach for the 
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: Based on the video provided, I would categorize this climber as an **Intermediate Expert**.
+
+Here is an evaluation of their performance based on the criteria requested:
+
+### **Technical Precision**
+The climber demonstrates a very high level of technical precision, particularly regarding hand placements. They are "reading" the route efficiently, making almost no micro-adjustments once they reach for a hold. Their grip style switches appropriately between open-handed, crimping, and palming techniques based on the shape of the holds. They also display excellent core engagement, keeping their hips close to the wall, which prevents "barn-dooring" on the overhanging sections.
+
+### **Movement Fluen
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Novice'
+  RAW: Based on the video provided, I would categorize this climber as an **Intermediate Expert**.
+
+Here is an evaluation of their performance based on your requested criteria:
+
+### **Body Alignment**
+The climber demonstrates excellent spatial awareness, particularly regarding their center of gravity. When transitioning between the larger holds, they actively use their hips to stay close to the wall, which minimizes the "barn-door" effect. Their engagement of the core while reaching for the next hold shows a refined understanding of static vs. dynamic movement.
+
+### **Movement Fluency**
+The movement is fluid and intentional. They exhibit a "quiet foot" technique, placing their feet precisely on the
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: The climber’s skill level is **Intermediate Expert**.
+
+### Analysis:
+
+**1. Technical Precision:**
+The climber demonstrates a high level of precision in their footwork and hand placements. They engage in "active" climbing—looking at their target hold, executing the move, and keeping their eyes on their feet until contact is made. The precision is further evidenced by their ability to maintain balance on a steep, overhanging wall (the "cave" style wall), which requires significant core engagement to prevent the body from swinging off the wall.
+
+**2. Movement Fluency:**
+The climber shows a natural, rhythmic flow. They avoid "static" or robotic movements, instead utilizing momentum to transition
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Intermediate Expert' mine='Novice' gt='Early Expert'
+  RAW: Based on the video provided, I would categorize this climber as a **Novice**.
+
+### Reasoning:
+
+**1. Body Alignment and Balance:**
+*   **Lack of Hip Engagement:** The climber remains "square" to the wall throughout the movement. An intermediate or expert climber would typically look to rotate their hips toward the wall to bring their center of gravity closer, which reduces the load on the arms.
+*   **Stability:** There is significant hesitation and "searching" with the feet. The climber relies heavily on upper-body strength to maintain position rather than utilizing a stable, triangular base of support created by the legs.
+
+**2. Movement Fluency:**
+*   **Static vs. Dynamic:** The movement is 
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: Based on the footage provided, I would classify this climber as an **Intermediate Expert**.
+
+Here is a breakdown of their technique:
+
+### **Technical Precision**
+*   **Controlled Movement:** The climber demonstrates excellent intentionality. They aren't "hucking" for holds; they are precisely placing their feet and hands. The way they utilize the foot chips (some of which are quite small) shows a high level of confidence and foot-eye coordination.
+*   **Static Climbing:** They favor a static style, maintaining tension throughout the climb. This is a hallmark of a climber who understands body weight distribution rather than relying on brute strength or momentum.
+
+### **Body Alignment**
+*   **
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: Based on the video provided, I would categorize this climber as an **Intermediate Expert**.
+
+Here is the evaluation of their performance based on your requested criteria:
+
+### **Technical Precision**
+The climber demonstrates excellent technical precision. They are decisive with their hand placements, rarely needing to readjust once a hold is grabbed. Their footwork is quiet and deliberate; they use the edges of their climbing shoes effectively, placing them with high accuracy on smaller footholds rather than "stabbing" at the wall. This indicates a high level of proprioception and experience.
+
+### **Movement Fluency**
+The climber exhibits a high degree of flow. They string together moves wit
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: Based on the video provided, this climber demonstrates a skill level of **Intermediate**.
+
+Here is an analysis of their performance:
+
+### **1. Body Alignment**
+The climber maintains a good center of gravity throughout the route, frequently utilizing a "dropped knee" technique, which is a hallmark of an intermediate climber transitioning away from the "frogged" (hips square to the wall) climbing style typical of novices. Their hips stay relatively close to the wall, allowing them to take weight off their arms and distribute it effectively through their feet.
+
+### **2. Movement Fluency**
+The climber exhibits a high degree of intent. Each movement is planned and executed with purpose rather tha
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: Based on the footage provided, I would categorize this climber as an **Intermediate Expert**.
+
+Here is an evaluation of their performance based on your requested criteria:
+
+### **Technical Analysis**
+
+*   **Body Alignment:** The climber demonstrates a strong understanding of center of gravity. You can observe them keeping their hips relatively close to the wall throughout the sequence, which is essential for reducing the load on the forearms. They utilize effective flagging (extending a leg to maintain balance) to prevent barn-dooring, which shows a mature grasp of body tension.
+*   **Movement Fluency:** The movement is deliberate and controlled rather than frantic. There is good "flow" betw
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: This climber demonstrates an **Intermediate Expert** skill level.
+
+### Technical Analysis
+
+**Body Alignment & Center of Gravity**
+The climber shows a strong understanding of maintaining center of gravity relative to the overhanging wall. When climbing, they consistently keep their hips close to the wall, which is essential on steeper terrain to reduce strain on the fingers and shoulders. They demonstrate good "flagging" (extending a leg to balance) to prevent barn-dooring, particularly on moves where the center of mass would otherwise swing outward.
+
+**Movement Fluency**
+The transitions between holds are generally smooth. The climber exhibits "intent" in their movement—meaning they know exac
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: Based on the provided video, the climber is an **Intermediate Expert**.
+
+### Analysis:
+
+*   **Body Alignment:** The climber demonstrates an excellent understanding of body tension and core engagement. Throughout the sequence, they keep their hips relatively close to the wall, which is essential for maximizing reach and minimizing the load on their forearms. Their movement on the steep, overhanging terrain suggests they have moved beyond the "climbing with arms" phase and are effectively using their legs to push weight through the wall.
+*   **Movement Fluency:** The climber moves with deliberate, efficient motion. There is a clear "read" of the route; they are not hesitating or searching for 
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: Based on the footage provided, this climber falls into the **Intermediate Expert** category.
+
+### Analysis of Technique
+
+**1. Body Alignment and Tension**
+The climber demonstrates a good understanding of core tension, particularly through the transition sequences. Notice how they utilize "quiet feet"—they don't scramble or scrape their feet against the wall, but instead place them with high precision and then rely on tension to move through the route. Their hips stay relatively close to the wall, which helps minimize strain on their arms and fingers.
+
+**2. Movement Fluency**
+The climber displays a high degree of flow. They are not "static" or robotic; they use momentum effectively to reach f
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Intermediate Expert' mine='Novice' gt='Late Expert'
+  RAW: Based on the video provided, the climber displays the characteristics of a **Novice** climber. Here is an evaluation of their performance based on your requested criteria:
+
+### **Technical Evaluation**
+
+*   **Body Alignment:** The climber demonstrates poor hip management. Throughout the climb, their hips remain far away from the wall, creating a "barn-door" effect and putting unnecessary strain on the arms. A more experienced climber would "drop-knee" or twist their hips into the wall to bring their center of gravity closer to the holds, which would reduce the reach required and increase stability.
+*   **Movement Fluency:** The movement is disjointed and reactive rather than proactive. The c
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Novice'
+  RAW: The climber in the video displays skills consistent with an **Intermediate Expert** level.
+
+Here is an analysis of their performance based on your requested criteria:
+
+### **Body Alignment**
+The climber demonstrates a solid understanding of center-of-gravity management. They consistently keep their hips close to the wall, which is a hallmark of someone who has moved past the novice stage of "climbing with arms." They actively utilize hip rotation to facilitate reaching for the next hold, which helps maintain balance and reduces the load on their forearms.
+
+### **Movement Fluency**
+Their movement is relatively fluid, characterized by intentional, deliberate reaches. There is minimal "hesitati
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: Based on the footage provided, I would classify this climber as an **Intermediate Expert**.
+
+Here is a breakdown of their technique:
+
+### Technical Precision
+The climber demonstrates a very high level of technical precision. Their footwork is quiet and deliberate; they place their toes accurately on small holds and maintain tension through the arch of the foot, which is a hallmark of an experienced climber. They show a clear understanding of "clipping" into holds and managing their center of gravity over their feet.
+
+### Movement Fluency
+The climber moves with a high degree of intent and efficiency. There is very little "fidgeting" or wasted energy on the holds. They utilize dynamic movement
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: This climber is operating at an **Intermediate Expert** level.
+
+Here is a breakdown of their technique based on the climbing shown:
+
+### Technical Precision
+*   **Controlled Movement:** The climber demonstrates excellent contact strength and finger placement. Each grip is caught with purpose, and there is very little "fumbling" or searching for holds. 
+*   **Efficient Reach:** They show a high degree of spatial awareness, knowing exactly where to reach to maintain momentum. The ability to transition between holds of varying shapes (pinches, crimps, and slopers) suggests significant experience and adaptive hand strength.
+
+### Movement Fluency
+*   **Rhythm:** The climber displays a "flow" stat
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Novice'
+  RAW: Based on the video provided, I would classify the climber as an **Intermediate Expert**.
+
+### Reasoning:
+
+**1. Technical Precision:**
+*   **Hand Placement:** The climber demonstrates strong, deliberate hand placement. They are using open-handed and crimp grips effectively, showing good awareness of the handholds' orientation. They also exhibit "static" climbing—they aren't just flailing or throwing their weight; they are intentionally shifting their weight between holds.
+*   **Engagement:** The climber is actively keeping their elbows slightly bent or engaged, rather than "lock-offs" that strain the tendons, which indicates a good understanding of efficient energy expenditure.
+
+**2. Movement
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: This climber displays skills consistent with an **Intermediate Expert** level.
+
+### Technical Analysis:
+
+*   **Body Alignment:** The climber demonstrates a sophisticated understanding of center of gravity. You can observe proactive hip positioning—frequently rotating their hips toward the wall to keep their center of mass close to the holds. This minimizes the lever arm on their fingers and improves stability on the overhanging terrain.
+*   **Movement Fluency:** There is a clear "flow" to the climbing. Rather than relying on static, stop-and-start movements, the climber uses momentum effectively. The transitions between the green and purple holds show an ability to link moves together, sugge
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: This climber demonstrates a skill level of **Intermediate Expert**.
+
+### Analysis:
+
+**Body Alignment:**
+The climber shows a strong understanding of body tension and positioning. Throughout the climb, they maintain a focus on keeping their hips relatively close to the wall (when not intentionally utilizing momentum). The use of the "drop knee" and lateral hip shifting suggests a climber who understands how to manage center of gravity to reduce the strain on their forearms.
+
+**Movement Fluency:**
+The movement is deliberate and purposeful. There is very little "dead air" or unnecessary adjustment on the holds. When transitioning between grips, the climber exhibits a good sense of rhythm—particu
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: This climber exhibits a skill level that is best described as **Intermediate Expert**.
+
+Here is an analysis of their performance based on your criteria:
+
+### **1. Body Alignment**
+The climber demonstrates excellent spatial awareness, particularly in their ability to maintain tension while navigating a steep, overhanging bouldering wall. They keep their center of gravity close to the wall, which is essential for preserving energy on overhangs. Their use of "flagging" (extending a leg to balance the body) is intentional and effective, preventing the common "barn-dooring" effect seen in less experienced climbers.
+
+### **2. Movement Fluency**
+There is a clear sense of "flow" in their movement. R
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: This climber exhibits the characteristics of an **Intermediate Expert**.
+
+Here is an analysis of their technique:
+
+### Body Alignment
+The climber shows a strong understanding of core engagement and hip positioning. 
+*   **Strengths:** They demonstrate a high degree of "hip-to-wall" awareness, particularly on the steeper sections of the wall. They frequently rotate their hips to bring them close to the wall, which is essential for maintaining center of gravity on overhanging terrain.
+*   **Areas for Improvement:** Occasionally, there is a slight tendency to lose tension in the core when transitioning between distant holds, leading to a "barn-door" effect. However, they generally correct this 
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: This climber is at an **Intermediate Expert** level.
+
+### Technical Analysis
+
+**Body Alignment:**
+The climber demonstrates excellent awareness of their center of gravity, particularly during the transition between holds. You can see a consistent "hips-to-the-wall" philosophy; they keep their pelvis close to the surface, which maximizes the weight distribution on their feet rather than over-relying on arm strength. Their footwork is quiet and precise, which is a hallmark of an intermediate-to-expert climber.
+
+**Movement Fluency:**
+The climb flows well, with a rhythmic pace that suggests the climber has either practiced this "beta" (the specific sequence of moves) previously or has strong flas
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: This climber demonstrates the characteristics of an **Intermediate Expert**.
+
+### Analysis
+
+**1. Body Alignment:**
+The climber shows a high level of comfort with dynamic movement and body tension. They effectively use a "deadpoint" style of climbing—a hallmark of intermediate-to-advanced proficiency. Instead of trying to lock off every move statically (which drains energy), they utilize momentum to reach the next hold, which is essential for climbing on overhanging walls. They keep their center of gravity close to the wall, demonstrating a good intuitive understanding of how to maintain balance under steep angles.
+
+**2. Movement Fluency:**
+The transition between holds is smooth. The climber 
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: Based on the video provided, I would categorize this climber as an **Intermediate Expert**.
+
+Here is the breakdown of my assessment:
+
+### Body Alignment
+*   **Strengths:** The climber demonstrates a solid understanding of "silent feet" and hip positioning. You can see the climber actively adjusting their center of gravity to keep their hips close to the wall, which is essential for maintaining balance on an overhanging surface.
+*   **Areas for Improvement:** There are moments where the core tension wavers, leading to slight "barn-dooring" (where the body swings away from the wall). A more advanced climber would engage the core more aggressively to lock off and stabilize the hips before reach
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: This climber is at an **Intermediate Expert** level.
+
+### Technical Analysis
+
+**1. Body Alignment:**
+The climber demonstrates a sophisticated understanding of center-of-gravity management. When transitioning between the more difficult holds, they maintain "hip tension," keeping their hips relatively close to the wall to maximize friction on the footholds. They exhibit good "flagging" technique, using their free leg to maintain balance when the wall's overhang increases, which is a hallmark of an intermediate-to-advanced climber.
+
+**2. Movement Fluency:**
+The climber shows a high level of intentionality. Their movements are not frantic; there is a clear "deadpoint" style to their reach, where
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: Based on the provided footage, the climber is at an **Intermediate Expert** skill level.
+
+### Technical Analysis
+
+**1. Body Alignment:**
+*   **Strengths:** The climber demonstrates an excellent understanding of center-of-gravity management. When transitioning between holds, they consistently maintain hip proximity to the wall, which is essential for reducing the load on the forearms.
+*   **Areas for Improvement:** There are moments of "barn-dooring" (swinging away from the wall) when reaching for lateral holds. A slightly more aggressive use of flagged legs or deeper drop-knees in these instances would help maintain balance and stability during high-tension moves.
+
+**2. Movement Fluency:**
+*
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: This climber demonstrates a solid foundation of movement and efficiency, placing them in the **Intermediate Expert** category.
+
+### Analysis of Technique
+
+**1. Body Alignment:**
+The climber shows excellent body awareness. They maintain a consistent "active" stance, keeping their center of gravity close to the wall. You can observe them prioritizing hip position (often keeping hips close to the wall) and using their core to engage the holds effectively rather than relying purely on upper body pulling. Their ability to pivot their body and use external rotation to reach the next hold shows a sophisticated understanding of balance.
+
+**2. Movement Fluency:**
+The movement is deliberate and contro
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: This climber exhibits an **Intermediate Expert** skill level.
+
+### Technical Analysis
+
+**1. Body Alignment:**
+The climber demonstrates a sophisticated understanding of center of gravity management. They frequently utilize "hip-in" technique (dropping the hip toward the wall), which allows for a greater reach and keeps the body weight balanced over their feet rather than relying purely on upper body strength. They show consistent awareness of tension, particularly in the core, keeping their midsection engaged to maintain contact on an overhanging wall.
+
+**2. Movement Fluency:**
+The movement is fluid and purposeful. There is a high level of "climbing economy"—they don't waste energy on readjus
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: Based on the footage provided, this climber demonstrates the technical movement patterns and decision-making typical of an **Intermediate Expert**.
+
+### Technical Evaluation:
+
+*   **Movement Fluency:** The climber shows a strong understanding of flow. They transition efficiently between holds without excessive "hitching" or readjustment. The movement is deliberate, indicating that they are not simply rushing, but rather executing a planned sequence.
+*   **Body Alignment & Precision:** There is clear evidence of "quiet feet." The climber places their toes precisely on the small holds, which is a hallmark of an intermediate climber moving toward expertise. They use their hips well to get close
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: Based on the video provided, I would categorize this climber as an **Intermediate Expert**.
+
+Here is the breakdown of my assessment based on your criteria:
+
+### **Body Alignment**
+The climber demonstrates a solid understanding of center of gravity. You can observe several moments where they utilize "flagging" (extending a leg to maintain balance) to keep their hips close to the wall. This shows they are not simply relying on arm strength but are actively managing their body position to minimize the load on their fingers and forearms.
+
+### **Movement Fluency**
+There is a clear rhythm to their climbing. The transitions between holds are mostly efficient, and they exhibit "flow" by pre-planning
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: This climber is at the **Intermediate Expert** level.
+
+### Technical Analysis
+
+**1. Body Alignment:**
+*   **Strengths:** The climber demonstrates an excellent understanding of "hips to wall" positioning. Even in the short burst of climbing, they maintain tension, avoiding the "sagging" posture common in novices.
+*   **Observation:** During the transition at [00:19], there is a clear engagement of the core. The climber keeps their center of gravity close to the wall, which is essential for maintaining stability on an overhanging surface.
+
+**2. Movement Fluency:**
+*   **Strengths:** The movement is deliberate rather than frantic. The climber uses a dynamic, rhythmic approach to the route, whic
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: Based on the footage provided, I would classify this climber as an **Intermediate Expert**.
+
+### Technique Evaluation:
+
+**1. Body Alignment:**
+The climber demonstrates a good understanding of center-of-gravity management. When moving across the wall, they exhibit controlled hip positioning, keeping the weight centered over their feet rather than relying purely on arm strength. The body alignment during the transition to the final hold shows they are comfortable maintaining tension on the wall, even when off-balance.
+
+**2. Movement Fluency:**
+The climb flows well, with very few "dead points" or moments of hesitation. The transition between holds is purposeful; they aren't searching for the ne
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Novice'
+  RAW: Based on the video provided, I would categorize this climber as an **Intermediate Expert**.
+
+Here is the breakdown of my assessment based on your criteria:
+
+### **Body Alignment**
+The climber demonstrates a good understanding of body tension and positioning. Even in the short, static segments, they show an awareness of keeping their center of gravity close to the wall. However, the movement is interrupted and somewhat tentative, suggesting they are still refining the "flow" required for higher-level performance. They aren't just "hanging" on the wall; they are actively engaging their core to maintain stability, which is a hallmark of someone moving beyond the novice stage.
+
+### **Movement Fl
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: This climber demonstrates a skill level of **Intermediate Expert**.
+
+### Analysis:
+
+**Body Alignment:**
+The climber shows a strong understanding of body tension, particularly on a steep, overhanging terrain that requires significant core engagement. They consistently utilize hip positioning to keep their center of gravity close to the wall. Throughout the sequence, the climber keeps their weight focused on their feet, shifting their hips effectively to reach for the next hold while maintaining a stable tripod base.
+
+**Movement Fluency:**
+The movement is deliberate and rhythmic. The climber utilizes "quiet feet," placing them precisely on the holds without unnecessary repositioning or "scrabb
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: Based on the footage provided, I would classify the climber as an **Intermediate Expert**.
+
+Here is an evaluation of their performance based on your requested criteria:
+
+### **Body Alignment**
+The climber demonstrates a good understanding of center-of-gravity management. Even with the fisheye lens distortion, you can see them maintaining tension in the core, which is essential on an overhanging wall of this angle. They are proactively shifting their hips to align with the intended line of movement rather than just "muscling" through the holds.
+
+### **Movement Fluency**
+The movement is deliberate and rhythmic. The climber exhibits "quiet feet"—they are looking at their foot placements and exe
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: This climber is at an **Intermediate Expert** level.
+
+Here is a breakdown of their technique based on your focus areas:
+
+### 1. Body Alignment
+*   **Strengths:** The climber demonstrates excellent hip positioning throughout the route. Even on the steeper, overhanging sections, they keep their center of gravity close to the wall. There is a noticeable effort to maintain "quiet feet," which is a hallmark of good alignment, ensuring that the legs provide support rather than just hanging.
+*   **Observations:** The climber moves with a deliberate, diagonal body orientation, which is crucial for reaching further while maintaining balance.
+
+### 2. Movement Fluency
+*   **Strengths:** The sequence is
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: This climber demonstrates the movement patterns and technical understanding of an **Intermediate Expert**.
+
+### Technique Analysis
+
+**1. Body Alignment and Tension**
+*   **Strengths:** The climber demonstrates excellent "body tension," a hallmark of intermediate-to-advanced climbing. They effectively engage their core to keep their hips close to the wall, particularly during the transition from the mid-section to the upper overhang.
+*   **Correction:** There are brief moments where their feet swing slightly, suggesting that while their core strength is good, their ability to "deadpoint" and instantly lock their lower body into place upon reaching a new hold could be tighter.
+
+**2. Movement F
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: This climber displays skills consistent with an **Intermediate Expert** level.
+
+### Analysis of Technique
+
+*   **Body Alignment:** The climber demonstrates an excellent understanding of body tension and core engagement. Throughout the ascent, they maintain a stable center of gravity, effectively using the "drop knee" technique and hip engagement to keep their weight close to the wall. This minimizes the energy expenditure required to hold onto the smaller holds.
+*   **Movement Fluency:** There is a notable "flow" to the climbing. They do not exhibit the hesitation or "static" over-gripping common in novices. The transitions between reaches are deliberate and sequential; the climber pre-plans
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: Based on the video provided, I would categorize this climber as **Intermediate Expert**.
+
+Here is an analysis of the technique:
+
+### Technical Precision
+The climber demonstrates a high level of precision, specifically in their movement efficiency and route reading. The transition from chalking up to the start is deliberate, and they commit to the move immediately. The use of a "deadpoint" or dynamic movement to reach the first set of holds shows a good understanding of momentum management. They hit the holds accurately on the first attempt, which is a hallmark of someone who has moved past the "fumbling" stage of climbing.
+
+### Body Alignment
+The climber maintains excellent body tension thro
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: This climber demonstrates the characteristics of an **Intermediate Expert**.
+
+Here is a breakdown of their technique:
+
+### Body Alignment
+The climber shows a strong understanding of core engagement and hip positioning, which is critical for the steep, overhanging terrain shown in the video. They are effectively using "drop-knees" and hip-turning techniques to keep their center of gravity close to the wall. This allows them to maintain balance while reaching for distant holds without over-taxing their upper body.
+
+### Movement Fluency
+The transition between moves is smooth and calculated. The climber avoids the common "hitch" or hesitation seen in lower-level climbers, instead opting for a rh
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: Based on the provided video, this climber is at an **Intermediate Expert** level.
+
+### Technical Analysis
+
+**1. Body Alignment:**
+The climber demonstrates a good understanding of center of gravity management. They frequently engage their core to keep their hips close to the wall, which is essential for maintaining tension on the overhanging section. The use of drop-knees in certain sequences indicates an advanced awareness of how to pivot the body to reach further and alleviate strain on the arms.
+
+**2. Movement Fluency:**
+The climber shows a high level of comfort and predictability in their movement. Transitions between holds are relatively smooth, and they appear to have "read" the route e
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Novice'
+  RAW: Based on the video provided, I would categorize this climber as an **Intermediate Expert**.
+
+Here is an evaluation of their performance based on your requested criteria:
+
+### **Body Alignment**
+The climber demonstrates a solid understanding of fundamental bouldering mechanics. They maintain a relatively stable center of gravity and utilize their core to keep their hips close to the wall when necessary. One notable observation is the conscious effort to rotate the hips to reach for distant holds, which is a key marker of moving beyond a novice level. They aren't just "straight-arming" their way up; they are engaging their lower body to stabilize their position.
+
+### **Movement Fluency**
+The c
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: This climber displays a skill level of **Intermediate Expert**.
+
+Here is an analysis of their performance based on your criteria:
+
+### **Body Alignment**
+The climber maintains excellent core tension throughout the ascent. They demonstrate an intuitive understanding of body positioning, specifically using hip engagement to keep their center of gravity close to the wall. Even when transitioning through awkward angles on the overhanging section, they avoid "barn-dooring" (where the body swings away from the wall), which is a hallmark of someone who has moved past the novice stage.
+
+### **Movement Fluency**
+Their movement is calculated and deliberate. There is a noticeable "flow" to the sequence
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: This climber demonstrates a solid foundation of technique, placing them in the **Intermediate Expert** category.
+
+### Technical Analysis
+
+**1. Body Alignment:**
+The climber shows good awareness of center-of-gravity management. They consistently keep their hips close to the wall, which is essential for reducing the weight pulled onto the arms. There is active tension maintained through the core, preventing the "barn-dooring" effect often seen in intermediate climbers when tackling overhanging sections.
+
+**2. Movement Fluency:**
+The transition between moves is efficient. The climber displays "quiet feet," placing them precisely on the holds without unnecessary adjustment or "scuffing." The rhy
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Intermediate Expert' mine='Novice' gt='Early Expert'
+  RAW: Based on the provided video, the climber is at a **Novice** skill level.
+
+Here is the breakdown of the technical evaluation:
+
+### 1. Body Alignment
+The climber exhibits significant "climbing into the wall" posture, meaning their hips are pulled tight against the wall without engaging the core to create distance or tension. Throughout the movement, there is a lack of "straight-arm" technique. Instead of keeping the arms extended to use the skeleton for support, the climber keeps their elbows bent and close to the body, which causes rapid forearm fatigue.
+
+### 2. Movement Fluency
+The movement is "static and segmented" rather than fluid. Instead of a rhythmic flow where the momentum of one move
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: This climber demonstrates the characteristics of an **Intermediate Expert**.
+
+### Technical Evaluation
+
+**1. Body Alignment:**
+The climber shows a solid understanding of center-of-gravity management. When transitioning between the large orange hold and the triangular hold, they keep their hips relatively close to the wall. Their use of "flagging" (extending a leg to balance) is intuitive, which is a hallmark of a climber moving beyond the novice phase.
+
+**2. Movement Fluency:**
+The movement is deliberate and thoughtful. While not perfectly fluid, there is a clear "read-react" process where they assess the next hold before committing. They avoid the common novice mistake of "bouncing" or pani
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: Based on the footage provided, I would categorize this climber as **Intermediate**.
+
+### Analysis
+
+**Body Alignment:**
+The climber demonstrates a solid grasp of body tension, particularly through the midsection. There is clear evidence of "hip movement"—keeping the hips close to the wall—which is a hallmark of moving past the novice stage. However, there are moments where the center of gravity drifts slightly outward, requiring extra arm strength to compensate rather than relying on efficient foot placement.
+
+**Movement Fluency:**
+The climber displays good flow and rhythm. The transitions between holds are generally deliberate and controlled, showing that they aren't "panic grabbing" their w
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: This climber is clearly at an **Intermediate Expert** level.
+
+Here is a breakdown of their technique:
+
+### Body Alignment
+The climber displays strong awareness of their center of gravity relative to the overhanging terrain. They consistently keep their hips tucked in close to the wall, which is essential for reducing the load on the forearms during an overhung climb. They demonstrate good "flagging" (extending a leg to balance), which keeps their body from swinging outward—a common pitfall for less experienced climbers. 
+
+### Movement Fluency
+The transition between holds is smooth and deliberate. There is minimal "hesitation twitch" (excessive re-adjusting of hands on holds), which indicates
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: Based on the video provided, I would categorize this climber as an **Intermediate Expert**.
+
+Here is an evaluation of their performance based on your requested criteria:
+
+### **Body Alignment**
+The climber demonstrates a solid understanding of "center of gravity" management. They frequently utilize hip positioning to keep their weight close to the wall, which is a hallmark of an intermediate climber. They are comfortable engaging in side-on positions (flagging) to maintain balance on the overhang, preventing the dreaded "barn-dooring" effect.
+
+### **Movement Fluency**
+Their movement is relatively fluid, though there are moments of hesitation that suggest they are still "reading" the wall whi
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: Based on the video provided, I would categorize this climber as an **Intermediate Expert**.
+
+Here is the reasoning behind this assessment, focusing on the criteria requested:
+
+### Technical Precision
+*   **Controlled Movement:** The climber demonstrates a high level of precision in footwork. Even during the initial approach and setup, there is a clear intention behind each placement.
+*   **Efficiency:** The climber avoids unnecessary adjustments or "fluttering" on the holds. They move from point A to point B with purpose, which is a hallmark of someone who has moved past the novice stage of blindly grabbing holds.
+
+### Body Alignment
+*   **Engaged Core:** Throughout the brief sequence, the c
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Novice' gt='Novice'
+  RAW: This climber demonstrates the characteristics of an **Intermediate Expert**.
+
+### Technical Evaluation
+
+**1. Body Alignment:**
+*   **Strengths:** The climber shows a good understanding of center-of-gravity management. They consistently attempt to keep their hips close to the wall and demonstrate effective use of "flagging" (extending a leg to maintain balance) throughout the route.
+*   **Areas for Improvement:** There are moments where the hips sag away from the wall slightly, particularly during the transition between the middle and upper sections. Better engagement of the core would reduce the load on the arms and improve stability during reachy moves.
+
+**2. Movement Fluency:**
+*   **Stren
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Novice'
+  RAW: Based on the provided video, this climber is at an **Intermediate Expert** level.
+
+### Technical Analysis
+
+**1. Body Alignment:**
+The climber demonstrates a good understanding of center-of-gravity management. When transitioning between the purple and green holds, there is a clear intent to keep the hips relatively close to the wall. They utilize a dynamic, controlled movement style, which is characteristic of someone who has moved past basic "static" climbing and is comfortable with momentum.
+
+**2. Movement Fluency:**
+The movement is fluid, showing "active feet." The climber doesn't just place their feet; they look for purchase and adjust their body position to ensure their legs are doing th
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: Based on the video provided, I would categorize this climber as an **Intermediate Expert**.
+
+Here is the breakdown of their performance based on your criteria:
+
+### **Body Alignment**
+The climber demonstrates a good grasp of keeping their center of gravity close to the wall. Throughout the sequence, they exhibit efficient hip positioning, especially when navigating the transition between holds. Their ability to flag (using a leg for balance) when reaching for the next hold shows a conscious effort to maintain stability rather than relying solely on upper-body strength.
+
+### **Movement Fluency**
+This is the area where the climber shines. Their movement is fluid and lacks the "stop-and-start" 
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: This climber displays skills consistent with an **Intermediate Expert** level.
+
+### Analysis of Technique
+
+**Body Alignment:**
+The climber shows a solid understanding of keeping their center of gravity close to the wall. Throughout the ascent, their hips remain relatively square to the holds, and they demonstrate an awareness of "flagging" to maintain balance. The transitions between the grey, blue, and orange/red holds are controlled, indicating good spatial awareness.
+
+**Movement Fluency:**
+The movement is deliberate rather than frantic. The climber exhibits "static" climbing—they are not relying on momentum to reach the next hold, but are instead locking off and reaching with intention. T
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: Based on the video provided, I would categorize this climber as an **Intermediate Expert**.
+
+Here is an evaluation of their performance based on your requested criteria:
+
+### **Technical Precision**
+The climber demonstrates excellent technical awareness. They are clearly looking at their feet and placing them with intent rather than just blindly stepping. They utilize a variety of techniques—such as heel hooking and precise toe placement—which shows they have moved beyond basic movement patterns. Their hand movements are confident, and they seem to have a good understanding of "lock-off" strength and grip selection (using various hold types effectively).
+
+### **Body Alignment**
+The climber d
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: Based on the footage provided, this climber is at an **Intermediate Expert** level.
+
+### Technical Analysis
+
+**1. Body Alignment:**
+The climber demonstrates excellent control of their center of gravity, particularly given the steepness of the terrain. They maintain "hip-to-wall" proximity throughout much of the sequence. When shifting between holds, there is a consistent effort to flag (using a leg for balance) to prevent barn-dooring, which shows a sophisticated understanding of tension and core engagement.
+
+**2. Movement Fluency:**
+The transition between holds is rhythmic and efficient. The climber avoids "dead-pointing" or over-adjusting their hands, opting instead for a deliberate, fluid
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: This climber is at an **Intermediate Expert** level.
+
+### Technical Analysis
+
+**Body Alignment & Positioning:**
+The climber demonstrates excellent spatial awareness, particularly in managing the steep, overhanging terrain. They consistently keep their center of gravity close to the wall. You can observe effective use of hip rotation to generate momentum and reach for subsequent holds, which is a hallmark of an intermediate-to-advanced climber.
+
+**Movement Fluency:**
+The movement is deliberate and fluid. They successfully navigate the "beta" of this route by using dynamic movements when necessary (e.g., the controlled lunge to the yellow/green holds) while maintaining static control elsewhere
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Novice'
+  RAW: Based on the provided video, this climber is at an **Intermediate Expert** level.
+
+### Technical Breakdown:
+
+**1. Body Alignment:**
+The climber demonstrates a good understanding of center-of-gravity management. When approaching the unique "hand-shaped" hold, they maintain a stable position, keeping their core engaged. They exhibit the ability to keep their hips relatively close to the wall, which is a hallmark of climbing beyond the novice stage.
+
+**2. Movement Fluency:**
+The transition between the initial seated position and the engagement with the wall is fluid. The climber shows purposeful movement rather than "scrambling." Their reach for the holds is deliberate, and they show a good sen
+
+[diss_climb/results/gemini/gemini_climbing_entire_reasoning_ego.csv | ego] stored='Intermediate Expert' mine='Novice' gt='Intermediate Expert'
+  RAW: The climber demonstrates a level of **Intermediate Expert** technique. Below is a breakdown of their performance based on your criteria:
+
+### **Technical Analysis**
+
+*   **Body Alignment:** The climber shows a strong understanding of center-of-gravity management. They frequently utilize hip positioning—often keeping their hips close to the wall—which is a hallmark of an intermediate to advanced climber. They are proficient at utilizing flags and drop-knees to maintain balance when moving between reachy holds.
+*   **Movement Fluency:** The movement is rhythmic and purposeful. They avoid "deadpointing" unnecessarily, instead opting for controlled, dynamic reaches that demonstrate good kinesthe
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Novice'
+  RAW: Let's analyze the person's climbing behavior step by step.
+
+1.  **Initial Assessment and Planning:** The person stands at the base of the wall, looking up and assessing the route. This is a standard and necessary step for any climber, indicating they are not just charging in blindly. Their posture suggests they are thinking about their approach and the sequence of moves.
+
+2.  **Movement Efficiency and Technique:**
+    -   As they begin to climb, their movements appear deliberate and controlled. They don't seem to be flailing or making large, inefficient motions.
+    -   They use their feet effectively, placing them on holds to maintain balance and generate power, which is a sign of good tech
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | ego] stored='Intermediate Expert' mine='Late Expert' gt='Intermediate Expert'
+  RAW: Based on the visual evidence provided across the sequence of images, we can analyze the climber's skill level by examining their movement, technique, control, and confidence.
+
+1.  **Movement Efficiency and Technique:** The climber frequently makes small, precise movements to reposition their hands and feet. They are not always moving in a perfectly linear or efficient path, which is common for someone learning or adapting to a route. However, they are consistently finding holds and making progress, indicating a developing sense of route-finding and body positioning. The use of both hands and feet is evident, showing they are engaging in the full-body movement required for climbing.
+
+2.  **Co
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | ego] stored='Intermediate Expert' mine='Novice' gt='Early Expert'
+  RAW: Based on the visual evidence provided in the sequence of images, we can analyze the climber's skill level by examining their movement, technique, control, and confidence.
+
+1.  **Movement Efficiency and Technique:** The climber is consistently using their hands to grip holds and their feet to find footholds. They are moving upward and across the wall, indicating they are actively progressing. The movements appear deliberate and controlled, not frantic or uncoordinated. They are able to transition between holds smoothly, suggesting a good understanding of body positioning and movement.
+
+2.  **Control and Balance:** The climber maintains a stable position on the wall. Even in frames where the v
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Novice' gt='Intermediate Expert'
+  RAW: Let's analyze the person's climbing performance step by step based on the visual evidence:
+
+1.  **Initial Approach and Planning:** The person walks up to the wall, surveys it, and appears to be thinking about her route. She doesn't just charge in; she assesses the holds. This shows planning and awareness, which are signs of experience.
+
+2.  **Starting the Climb:** She begins by placing her feet and hands with deliberate, controlled movements. She doesn't rush or make large, uncontrolled motions. Her body positioning is efficient, using her legs for power and her arms for support, which is a fundamental technique.
+
+3.  **Mid-Climb Technique and Control:** As she ascends, she maintains a stron
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Novice'
+  RAW: Let's analyze the person's climbing performance step by step based on the visual evidence.
+
+1.  **Initial Position and Approach:** In the first few frames, the person is seen kneeling at the base of the wall, looking up. This is a common preparatory stance for climbers, indicating they are assessing the route and planning their first moves. It's not a sign of inexperience, but rather a deliberate, thoughtful approach.
+
+2.  **Movement Efficiency and Technique:**
+    *   The person begins by reaching for holds with their hands, then uses their feet to push off and gain height. Their movements appear fluid and purposeful.
+    *   As they ascend, they transition from a kneeling position to a mor
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | ego] stored='Intermediate Expert' mine='Late Expert' gt='Novice'
+  RAW: Based on the visual evidence provided, we can analyze the climber's skill level step by step:
+
+1.  **Initial State (Image 1):** The person is looking at the wall from below, with their hand outstretched. This suggests they are either preparing to start or have just finished a route. The presence of other people watching indicates a social or instructional setting, which is common for beginners.
+
+2.  **Starting the Climb (Image 6):** The climber begins to engage with the wall, placing both hands on a large, prominent yellow hold. This is a deliberate, controlled start, not a rushed or chaotic one.
+
+3.  **Movement and Technique (Images 7-10):** The climber's movements are shown in detail. They
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | ego] stored='Novice' mine='Late Expert' gt='Late Expert'
+  RAW: Based on the visual evidence provided, we can analyze the person's skill level step by step:
+
+1.  **Initial State and Setup:** The first image shows the person sitting on the floor, holding a chalk bag. This is a common preparatory action for climbers, indicating they are getting ready to climb. The presence of a chalk bag suggests they are aware of the need for grip, which is a basic but important skill.
+
+2.  **Approach and Initial Movement:** In the subsequent images, the person is seen looking up at the wall, assessing the route. The view is from a low angle, suggesting they are preparing to start from the ground. The movement is not shown in detail, but they are clearly transitioning fro
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: Let's analyze the person's actions step by step to determine their skill level.
+
+1.  **Initial Observation:** The person is holding a phone with a QR code, which is likely a starting point for a route or a challenge. This suggests they are prepared and possibly following a specific path.
+
+2.  **Approach and Assessment:** The person walks up to the wall, looks up at it, and then bends down to inspect the footholds and handholds at the base. This is a standard and intelligent practice for climbers, indicating they are planning their route and assessing the difficulty before committing.
+
+3.  **Execution of the Climb:**
+    *   They begin by placing their hands on the wall, showing good hand pla
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | ego] stored='Novice' mine='Intermediate Expert' gt='Early Expert'
+  RAW: Based on the visual evidence provided across the sequence of images, we can analyze the person's skill level in bouldering by examining their movement, technique, and confidence.
+
+1.  **Initial Observation and Setup:** The first several images show the person looking at the wall, likely planning a route. The presence of a person sitting nearby (images 9-12) suggests this might be a training or learning environment, not a high-stakes competition. The person is not immediately starting to climb, which is common for someone assessing the wall.
+
+2.  **Starting the Climb:** In images 21-23, the person begins to climb. Their initial hand placement is deliberate, and they appear to be carefully sel
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Novice' mine='Late Expert' gt='Late Expert'
+  RAW: Let's analyze the visual evidence step by step to determine the climber's skill level.
+
+1.  **Initial Observation:** The person is standing on a blue crash pad, which is positioned at the base of the climbing wall. This is a common setup for beginners or for practicing specific moves, as it provides a safe landing surface.
+
+2.  **Movement and Technique:** The climber is not actively scaling the wall. Instead, they are seen standing on the pad, then bending down, and then standing up again. This sequence of movements suggests they are either:
+    *   Preparing to climb (perhaps adjusting their shoes or chalk).
+    *   Taking a break or resting.
+    *   Practicing a specific move or technique 
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Novice' gt='Late Expert'
+  RAW: Let's analyze the visual evidence step by step to determine the climber's skill level.
+
+1.  **Initial Position and Movement:** The climber starts in a low, crouched position at the base of the wall. They then begin to ascend. This is a common starting posture for climbers, but the key is how they progress.
+
+2.  **Technique and Control:** As they climb, they are not just reaching for holds; they are actively using their body to maintain balance and generate power. They are seen using their legs to push off the wall, which is a fundamental technique for efficient climbing. Their body position is dynamic, and they appear to be managing their center of gravity effectively.
+
+3.  **Efficiency and 
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Novice' gt='Novice'
+  RAW: Let's analyze the person's climbing performance step by step.
+
+1.  **Initial Approach and Planning:** The person walks up to the wall, surveys it, and then begins to plan their route. This shows awareness of the wall's layout and a strategic mindset, which is a sign of experience.
+
+2.  **Starting the Climb:** They begin with a controlled, deliberate movement, placing their feet and hands with purpose. This indicates they are not rushing and are focusing on establishing a secure base, a fundamental skill for safe climbing.
+
+3.  **Mid-Climb Technique and Control:** As they ascend, their movements are fluid and efficient. They use their legs effectively to push up, minimizing the use of their a
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Novice' gt='Early Expert'
+  RAW: Let's analyze the visual evidence step by step to determine the climber's skill level.
+
+1.  **Initial Observation:** The person is at the base of a large, complex indoor climbing wall. The wall is covered in numerous colorful holds of various shapes and sizes, indicating a route that requires planning and skill.
+
+2.  **Movement and Technique:**
+    - The climber is seen in a low, wide stance, which is a fundamental technique for maintaining balance and stability on a climb. This is not a sign of clumsiness but of good form.
+    - They are using their arms effectively to reach for holds, and their body position suggests they are actively engaging their core and legs to maintain control.
+    -
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Novice' mine='Intermediate Expert' gt='Novice'
+  RAW: Let's analyze the visual evidence step by step to determine the climber's skill level.
+
+1.  **Initial Position and Movement:** The climber starts from the base of the wall and begins to ascend. Their initial movements appear deliberate and focused on finding footholds and handholds. This is typical for someone who is not yet fully comfortable with the wall's layout.
+
+2.  **Progression and Technique:** As the climber ascends, they demonstrate a clear understanding of body positioning. They are able to maintain balance and use their legs effectively to push up, which is a key technique for efficient climbing. Their movements are fluid and controlled, suggesting they are not struggling with bas
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Late Expert' mine='Novice' gt='Intermediate Expert'
+  RAW: Let's analyze the visual evidence step by step to determine the person's skill level in bouldering.
+
+1.  **Initial Observation (Image 1):** The person is holding a phone with a QR code displayed. This suggests they are likely using a digital app to track their climb, which is common for climbers of all levels, but often more prevalent among those who are serious about their progress or are using a facility's system. It doesn't directly indicate skill level.
+
+2.  **Approach and Preparation (Images 2-4):** The person walks towards the wall, observing it. This is a standard part of the bouldering process. Their movement is calm and deliberate, indicating they are assessing the route, not rushin
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Novice' gt='Late Expert'
+  RAW: Let's analyze the person's climbing performance step by step.
+
+1.  **Initial Position and Movement:** The person starts at the base of the wall and begins to ascend. Their initial movements appear deliberate and focused on finding footholds and handholds. This is typical for someone building their route.
+
+2.  **Mid-Climb Technique and Control:** As they climb higher, their body position becomes more dynamic. They are seen reaching for holds with one arm while stabilizing their body with the other. Their legs are actively engaged, kicking up to find footholds, which is a key technique for efficient climbing. They maintain a relatively stable and controlled body position, indicating good propr
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | ego] stored='Novice' mine='Early Expert' gt='Early Expert'
+  RAW: Based on the visual evidence provided across the 18 images, we can analyze the climber's skill level by examining their movement, technique, control, and confidence.
+
+1.  **Initial State and Setup:** The first few images show the climber standing at the base of the wall, looking up. This is a common preparatory stance for climbers, indicating they are assessing the route. The presence of a camera crew (visible in image 17) suggests this might be a planned or recorded session, which could imply a level of comfort or experience.
+
+2.  **Movement Efficiency and Technique:** The climber's movements are not always smooth or perfectly efficient. For instance, in image 7, the view is blurry, suggest
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Late Expert' mine='Novice' gt='Intermediate Expert'
+  RAW: Let's analyze the person's climbing performance step by step.
+
+1.  **Initial Approach and Preparation:** In the first few images, the person is seen walking towards the wall, observing it, and then preparing to climb. This is a standard, deliberate approach for any climber, indicating they are assessing the route. There is no sign of hesitation or confusion.
+
+2.  **Starting the Climb:** The person begins the climb by placing their feet and hands on the holds. Their initial movements appear controlled and deliberate, suggesting they are not rushing or making large, uncoordinated movements.
+
+3.  **Mid-Climb Technique and Control:** As they ascend, their body position is generally efficient. Th
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | ego] stored='Novice' mine='Intermediate Expert' gt='Early Expert'
+  RAW: To determine the person's skill level in bouldering, I will analyze the visual evidence across the provided images, focusing on movement efficiency, technique, control, and confidence.
+
+1.  **Initial Position and Movement (Image 1 & 2):** The first image shows the climber at the very beginning of a route, with their hand just touching a hold. In the second image, they have moved their hand to a new hold, indicating they are starting to ascend. The movement appears deliberate and cautious, which is typical for someone learning or testing a new route.
+
+2.  **Progression and Technique (Image 3 & 4):** In the third image, the climber's hand is on a hold, and their body is positioned to move upwa
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Novice' gt='Intermediate Expert'
+  RAW: Let's analyze the person's climbing performance step by step.
+
+1.  **Initial Approach and Setup:** The person begins by standing at the base of the wall, looking up. They then take a few steps back and appear to be assessing the route or preparing their stance. This is a common behavior for climbers, especially when starting out or when the route is complex. It suggests they are thinking about their approach, which is a sign of planning and awareness.
+
+2.  **Movement and Technique:** The person's movements are deliberate and controlled. They are not rushing or making large, uncoordinated swings. Instead, they are carefully placing their feet and hands, indicating a focus on stability and tec
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Novice'
+  RAW: Let's analyze the person's climbing performance step by step.
+
+1.  **Initial Approach and Start:** The person walks confidently towards the wall and begins climbing without hesitation. This suggests a level of comfort and familiarity with the environment and the activity.
+
+2.  **Movement Efficiency and Technique:**
+    *   The climber uses a dynamic, efficient movement style. They are not just reaching for holds; they are actively using their body to generate momentum and find the next move.
+    *   They demonstrate good footwork, placing their feet precisely on the holds to maintain balance and leverage. This is crucial for efficient climbing.
+    *   Their body position is well-controlled.
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Early Expert' mine='Novice' gt='Novice'
+  RAW: Let's analyze the person's climbing performance step by step based on the visual evidence.
+
+1.  **Initial Approach and Setup:** The person begins by squatting and looking up at the wall, which is a standard preparatory stance for bouldering. This shows awareness of the route ahead.
+
+2.  **Movement Efficiency and Technique:**
+    -   As they begin to climb, their movements appear deliberate and controlled. They are not flailing or making large, inefficient motions.
+    -   They use their feet effectively, placing them on holds to maintain balance and generate power, which is a sign of good technique.
+    -   Their body positioning is generally efficient, with their hips and torso aligned to m
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Late Expert' mine='Novice' gt='Intermediate Expert'
+  RAW: Let's analyze the person's climbing performance step by step.
+
+1.  **Initial Position and Setup:** The person starts in a low, kneeling position at the base of the wall. This is a common starting stance for bouldering, indicating they are preparing to climb. They are not standing or using a rope, which suggests this is bouldering (a style without ropes).
+
+2.  **Movement and Technique:**
+    -   They begin by reaching up and grabbing holds, demonstrating good hand-eye coordination.
+    -   As they ascend, their body position is dynamic. They use their legs effectively to push off the ground and maintain balance, which is a key technique for efficient climbing.
+    -   Their movements appear f
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Novice' gt='Late Expert'
+  RAW: Let's analyze the person's climbing performance step by step.
+
+1.  **Initial Approach and Planning:** The person walks up to the wall, pauses, and appears to be assessing the route. This is a sign of deliberate planning, which is characteristic of someone who is not just going up randomly but is thinking about the path. This suggests a level of experience beyond a complete beginner.
+
+2.  **Movement Efficiency and Technique:**
+    *   The climber uses a variety of holds, including small footholds and handholds, indicating they are not just using the largest, most obvious grips.
+    *   Their body positioning is dynamic. They are seen shifting their weight, using their legs effectively for sup
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Novice' mine='Intermediate Expert' gt='Early Expert'
+  RAW: Let's analyze the visual evidence step by step to determine the climber's skill level.
+
+1.  **Initial Observation (Image 1):** The person is holding a phone with a QR code, seemingly scanning something. They are not on the wall. This suggests they are either preparing to start or have just finished an activity. It doesn't provide direct information about their climbing skill.
+
+2.  **The Climbing Sequence (Images 2-12):** The person is shown beginning to climb. They are positioned at the very bottom of the wall, near the floor, and are reaching up to grab holds. Their body is low to the ground, and they are using their arms to pull themselves up. This is a very common starting position for be
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | ego] stored='Intermediate Expert' mine='Novice' gt='Early Expert'
+  RAW: Based on the visual evidence provided, we can analyze the climber's skill level by examining their movement, technique, and confidence.
+
+1.  **Movement Efficiency and Technique:**
+    - The climber is consistently using a wide variety of holds, including large volume holds (like the red ones) and smaller, more technical footholds (like the blue hand-shaped hold and the small yellow/green holds).
+    - In several frames (e.g., 1, 3, 4, 10, 12), the climber is shown reaching for holds with a clear, controlled motion, indicating an understanding of body positioning and reach.
+    - The climber is able to transition between different types of holds, suggesting they are not stuck on a single type
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Novice' gt='Intermediate Expert'
+  RAW: Let's analyze the person's climbing performance step by step based on the visual evidence:
+
+1.  **Initial Approach and Planning:** The person is seen standing at the base of the wall, looking up and assessing the route. This indicates they are not just charging in blindly but are taking time to plan their ascent, a sign of experience and confidence.
+
+2.  **Movement Efficiency and Technique:**
+    *   The climber's movements appear deliberate and efficient. They are not making unnecessary or awkward movements.
+    *   They are using their feet effectively, placing them on holds to maintain balance and conserve energy, which is a key technique for experienced climbers.
+    *   Their body posit
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Early Expert' mine='Late Expert' gt='Novice'
+  RAW: Let's analyze the person's climbing performance step by step.
+
+1.  **Initial Approach and Start:** The person walks confidently towards the wall and begins climbing without hesitation. This suggests a level of comfort and familiarity with the environment and the activity.
+
+2.  **Movement Efficiency and Technique:**
+    -   The climber uses a fluid, efficient motion. They are not making awkward or hesitant movements.
+    -   They appear to be using a dynamic climbing style, moving from hold to hold with purpose.
+    -   Their body positioning is generally good, with their center of gravity managed effectively as they ascend.
+
+3.  **Control and Confidence:**
+    -   The climber maintains a ste
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Late Expert' mine='Novice' gt='Novice'
+  RAW: Let's analyze the person's climbing performance step by step.
+
+1.  **Initial Approach and Planning:** The person begins by kneeling and observing the wall, which suggests they are assessing the route. They then stand and appear to be mentally planning their path, indicating a strategic approach rather than just charging in. This is a sign of experience.
+
+2.  **Movement Efficiency and Technique:**
+    *   As they begin to climb, their movements are deliberate and controlled. They don't appear to be flailing or making unnecessary movements.
+    *   They use their feet effectively, placing them precisely on footholds, which is a key indicator of good technique.
+    *   Their body positioning is
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | ego] stored='Intermediate Expert' mine='Late Expert' gt='Novice'
+  RAW: Based on the visual evidence provided, we can assess the person's skill level in bouldering by examining their movement, technique, and confidence.
+
+1.  **Initial Setup and Preparation:** The person is seen preparing with chalk (image 13), which is a standard practice for climbers to improve grip. This indicates they are aware of the need for proper technique.
+
+2.  **Approach and Movement:** The person approaches the wall (image 18-20) and begins climbing (image 21-25). Their initial movements appear deliberate and focused on finding footholds and handholds. They are not rushing or making large, uncontrolled movements.
+
+3.  **Technique and Control:** The person demonstrates good body positio
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | ego] stored='Intermediate Expert' mine='Late Expert' gt='Intermediate Expert'
+  RAW: Based on the visual evidence provided across the sequence of images, we can analyze the climber's skill level by examining their movement, technique, and confidence.
+
+1.  **Initial Approach and Planning:** The climber begins by looking at the wall and planning their route. They are not just grabbing at random holds; they are actively assessing the wall, which indicates a level of strategy and awareness. This is not the behavior of a complete beginner.
+
+2.  **Movement Efficiency and Technique:** The climber's movements are generally efficient. They use their hands and feet effectively to find the next hold, often reaching for holds that are not immediately adjacent, suggesting they are thinki
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | ego] stored='Intermediate Expert' mine='Late Expert' gt='Late Expert'
+  RAW: Based on the visual evidence provided, we can analyze the climber's skill level step by step:
+
+1.  **Initial Preparation (Image 3 & 4):** The climber is shown preparing on the floor. They are applying chalk to their hands, which is a fundamental technique for climbers to improve grip. This indicates they are aware of the basic requirements of the sport.
+
+2.  **Starting the Climb (Image 5 & 6):** The climber begins the ascent. In Image 5, they are looking up at the wall, assessing the route. In Image 6, they are placing their hands on holds with a deliberate, controlled motion. The grip appears secure and intentional, not frantic or clumsy.
+
+3.  **Mid-Climb Technique (Image 7 & 8):** Image 7 
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Novice' gt='Novice'
+  RAW: Let's analyze the person's climbing performance step by step based on the visual evidence:
+
+1.  **Initial Approach and Start:** The person approaches the wall with a clear, purposeful stride, indicating they are not hesitant or unsure. They begin their ascent by reaching for holds with confidence, suggesting they are familiar with the process.
+
+2.  **Movement Efficiency and Technique:**
+    *   As they climb, their movements appear deliberate and efficient. They are not flailing or making unnecessary movements.
+    *   They demonstrate good body positioning, using their legs to push up and their core to maintain balance, which is a sign of solid technique.
+    *   They are able to transition
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Novice' gt='Early Expert'
+  RAW: Let's analyze the person's climbing performance step by step.
+
+1.  **Initial Approach and Start:** In the first image, the person is holding a phone, suggesting they might be scanning a route or starting a session. In the subsequent images, they begin climbing from the bottom. Their initial stance and movement appear deliberate and focused, which is common for someone who is either new or carefully planning their route.
+
+2.  **Movement Efficiency and Technique:** As they ascend, their movements are generally smooth and controlled. They are able to find and use holds effectively, moving their limbs with purpose. There is no visible hesitation or fumbling, which indicates a good level of coord
+
+[diss_climb/results/qwen3vl/qwen3vl_climbing_frames_reasoning.csv | ego] stored='Novice' mine='Intermediate Expert' gt='Late Expert'
+  RAW: Based on the visual evidence provided across the sequence of images, we can analyze the person's skill level by examining their movement, technique, and confidence.
+
+1.  **Initial State and Setup:** The first few images show the person preparing to climb, with a hand gesture (image 4) and then getting into position (image 5). The environment is a bouldering gym with a crash pad, which is typical for climbers of all levels.
+
+2.  **Climbing Technique and Movement:**
+    *   **Early Stages (Images 12-15):** The person begins climbing. The shots are blurry, which is common for action shots, but they show the person reaching for holds and moving upward. The movement appears deliberate but not yet
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Late Expert'
+  RAW: This dancer is at an **Intermediate Expert** skill level.
+
+### Technical Assessment:
+
+**1. Body Alignment:**
+The dancer displays strong core engagement, which is essential for maintaining balance during the repetitive rotational movements. Her posture is upright, and her center of gravity remains consistent. She shows good control over her frame, keeping her torso stable while allowing her hips and limbs to move fluidly.
+
+**2. Movement Fluency:**
+There is a clear sense of musicality and rhythmic awareness. Her transitions between steps are smooth, and she demonstrates "softness" in her knees, which prevents the movement from appearing mechanical. She effectively connects her upper body movem
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning.csv | exo] stored='Intermediate Expert' mine='Novice' gt='Intermediate Expert'
+  RAW: Based on the provided video, this dancer is at the **Intermediate Expert** level.
+
+### Reasoning:
+
+**1. Body Alignment & Posture:**
+The dancer demonstrates a strong, consistent vertical axis. Her posture remains stable throughout the movement, with engaged core muscles and a clear line from head to heels. She maintains good control of her center of gravity, which is essential for the fluid, controlled footwork she performs.
+
+**2. Movement Fluency:**
+There is a noticeable degree of "musicality" in her movement. The transitions between different segments of the choreography are smooth, and she shows an ability to layer subtle movements (like shoulder isolations and rhythmic foot adjustments) w
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning.csv | exo] stored='Intermediate Expert' mine='Novice' gt='Late Expert'
+  RAW: ### Coaching Evaluation
+
+**Skill Level: Intermediate Expert**
+
+**Reasoning:**
+The subject demonstrates a high level of technical competency in executing the movements, suggesting he is well beyond the "novice" phase and has logged significant practice hours. Here is a breakdown based on the criteria:
+
+*   **Technical Precision:** The subject exhibits strong control over his weight distribution. The footwork for the shuffle and running man variations is consistent, hitting the musical beats accurately. His limb isolation—specifically the way he separates his upper body rhythm from his lower body footwork—is a hallmark of an intermediate practitioner who has mastered the foundational mechanics
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning.csv | exo] stored='Novice' mine='Intermediate Expert' gt='Early Expert'
+  RAW: Based on the footage provided, here is an evaluation of the individual performing the movement sequence:
+
+### **Skill Level: Novice**
+
+### **Reasoning:**
+
+*   **Body Alignment:** The performer lacks consistent control over their center of gravity. Throughout the routine, there is significant "wobble" in the torso and upper body. Proper alignment in this type of movement requires a stable core and stacked joints, but here, the shoulders and hips frequently shift out of balance, particularly during the transition phases.
+*   **Movement Fluency:** The movement is fragmented rather than fluid. There are noticeable "hiccups" in the transition between poses or steps, indicating a lack of comfort w
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Early Expert'
+  RAW: ### Expert Coach Evaluation
+
+**Skill Level: Intermediate Expert**
+
+**Reasoning:**
+The subject displays a high degree of technical control and a sophisticated understanding of movement dynamics, landing firmly in the **Intermediate Expert** category. They possess the necessary foundational skills to execute complex transitions with precision, while maintaining a level of fluidity that suggests significant training.
+
+**Detailed Analysis:**
+
+*   **Body Alignment:**
+    The subject maintains excellent postural integrity throughout the sequence. Their core engagement is evident, particularly during the rapid changes in direction and limb extensions. Even during grounded, bent-knee movements, the 
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Early Expert' gt='Novice'
+  RAW: Based on the video provided, the person demonstrating the exercise is at an **Early Expert** skill level.
+
+### Evaluation of Technique
+
+**1. Body Alignment:**
+The individual displays strong body awareness. Throughout the movement, they maintain a stable core and purposeful posture. Their ability to transition between positions while keeping their center of gravity controlled suggests a well-trained foundation. The alignment remains consistent even as they rotate to different areas of the room, showing a good understanding of spatial orientation.
+
+**2. Movement Fluency:**
+The transition between the various tasks is fluid and efficient. There is very little "dead time" in the movement sequence
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Intermediate Expert' mine='Early Expert' gt='Early Expert'
+  RAW: Based on the provided video, the subject is at an **Early Expert** skill level.
+
+**Reasoning:**
+
+*   **Movement Fluency:** The subject demonstrates a high level of comfort with space awareness. The rotational movements (pirouettes/turns) are executed with consistent spotting techniques, showing an intuitive understanding of angular momentum and balance. The transitions between different directional movements are fluid and lack the hesitation often seen in novices.
+*   **Body Alignment:** The subject maintains a strong center of gravity throughout the movements. Their posture remains upright, and they exhibit "long" lines in their extensions, showing deliberate engagement of the core and limb
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Early Expert' mine='Novice' gt='Early Expert'
+  RAW: Based on the footage provided, I would classify this person as a **Novice**.
+
+Here is an analysis of their technique based on your requested criteria:
+
+### **Body Alignment**
+The performer lacks consistent core engagement. Throughout the movement, there is a noticeable "slump" in the posture, particularly in the shoulders and upper back. Proper body alignment in dance requires a stacked pelvis and engaged core; here, the weight appears unevenly distributed, which limits the stability needed for more complex transitions.
+
+### **Movement Fluency**
+The movement is quite fragmented. The transition between the static positions and the motions lacks "flow." Rather than a continuous transfer of ene
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Novice'
+  RAW: This individual demonstrates an **Intermediate Expert** skill level in their dance technique.
+
+### Reasoning:
+
+**1. Technical Precision & Control:**
+The dancer shows a clear understanding of isolations and weight distribution. Their movements are deliberate and controlled, particularly in the hand and arm pathways. They display strong proprioception, navigating the space with consistent markers (the floor decals) while maintaining consistent form. The transitions between stationary poses and fluid motion are sharp, which is a hallmark of someone who has moved past the novice stage.
+
+**2. Movement Fluency:**
+The choreography incorporates "ticking" or "strobing" techniques that require excelle
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: This individual is at an **Intermediate Expert** skill level.
+
+### Reasoning:
+
+**1. Body Alignment:**
+The subject demonstrates good postural control, maintaining a stable base throughout the movement sequence. The alignment of the spine and hips is consistent, which is crucial for efficient power transfer. The subject shows a clear understanding of maintaining a neutral torso, preventing unnecessary swaying during weight shifts.
+
+**2. Movement Fluency:**
+There is a high degree of fluid, purposeful movement. The transition between different positions is smooth rather than segmented, suggesting that the motor patterns are well-ingrained. The individual avoids "dead spots" in their motion, keep
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Novice'
+  RAW: Based on the video provided, I would classify this person as an **Intermediate Expert**.
+
+### Reasoning:
+
+**1. Body Alignment and Technical Precision:**
+The individual displays strong core engagement and a clear understanding of spatial awareness. Their movements, particularly in transition, show a deliberate focus on maintaining vertical alignment (shoulders over hips) even while shifting weight rapidly. There is a refined sense of control, especially when navigating the studio space; they don't just "move," but rather place their weight intentionally, which is a hallmark of someone who has moved past the novice stage.
+
+**2. Movement Fluency:**
+The transition between different areas of the 
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Intermediate Expert' mine='Novice' gt='Intermediate Expert'
+  RAW: The provided footage shows a group of students in a dance or performance rehearsal space, capturing various individuals performing short sequences or transitions. Based on the observed movement patterns, I would categorize the general skill level of the individuals as **Novice**.
+
+### Reasoning:
+
+**1. Body Alignment and Posture:**
+The performers display significant instability in their core and extremities. There is a frequent lack of "lengthening" through the spine, and when transitioning between floor work or standing positions, the alignment of the shoulders over the hips is often compromised. The weight distribution appears tentative rather than grounded, which is a hallmark of early-sta
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: This person demonstrates an **Intermediate Expert** level in their technical workflow and execution.
+
+### Reasoning:
+
+**1. Body Alignment & Spatial Awareness (High):**
+The individual displays excellent spatial awareness, which is critical when navigating an environment with tripods and lighting rigs in low-light conditions. They maintain a stable center of gravity, particularly when performing the "check" move where they briefly look down at their own hands and feet to verify their position relative to the camera rigs. This indicates a high level of proprioceptive control and confidence in their physical workspace.
+
+**2. Movement Fluency (Intermediate):**
+The movement is deliberate and effic
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: Based on the provided video, the subject is at an **Intermediate Expert** skill level.
+
+### Reasoning:
+
+**1. Body Alignment:**
+The subject demonstrates a solid understanding of proper body alignment. Their posture is stable, and their core is engaged throughout the exercise. They maintain a consistent center of gravity, which allows them to transition between poses with minimal loss of balance. The shoulder placement and spinal alignment suggest a disciplined training background.
+
+**2. Movement Fluency:**
+The subject’s movements are fluid and transition well between sequences. There is a noticeable "connectedness" in their motion; they do not appear to be moving in choppy or disjointed segme
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Intermediate Expert' mine='Novice' gt='Late Expert'
+  RAW: This individual is demonstrating a **Novice** skill level.
+
+**Reasoning:**
+
+*   **Body Alignment:** The subject displays significant instability throughout the sequence. Their stance is frequently narrow or hesitant, and there is a lack of "grounding." When they attempt to move or pivot, their weight is often unevenly distributed, causing them to wobble. They are not consistently maintaining a stable core or a center of gravity that would support precise, controlled motion.
+*   **Movement Fluency:** The movements are disjointed and lack fluidity. Transitions between poses or directional changes are abrupt, jerky, and lack the necessary momentum or intentionality. There is no evidence of "flo
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Novice'
+  RAW: The person in the video is at an **Intermediate Expert** skill level.
+
+### **Technical Analysis:**
+
+*   **Body Alignment:** The dancer demonstrates a strong foundation in alignment. They maintain a stable center of gravity, which is evident in their ability to execute rhythmic shifts without losing their vertical axis. Their posture remains consistent even when performing rapid directional changes.
+*   **Movement Fluency:** There is a noticeable level of sophistication in their transition work. They connect movements smoothly, showing an understanding of how to use momentum to carry from one phrase into the next without "dead air" or jerky pauses. The flow is continuous, which suggests they 
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Intermediate Expert' mine='Novice' gt='Novice'
+  RAW: The individual in the video demonstrates **Novice** level skill.
+
+### Reasoning:
+
+*   **Body Alignment:** Throughout the movement, there is a significant lack of core engagement and spinal control. The posture is unstable, and the limbs often appear disconnected from the center of gravity. The stance lacks the grounding required for controlled movement, leading to wobbling.
+*   **Movement Fluency:** The execution is hesitant and fragmented. Transitions between positions are not seamless; there are visible "stops" and adjustments that disrupt the flow of the movement. There is a lack of fluidity, and the performer appears to be focusing more on remembering the sequence than on the quality of 
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Intermediate Expert' mine='Novice' gt='Late Expert'
+  RAW: Based on the provided video, the subject’s skill level is **Novice**.
+
+### Reasoning:
+
+**1. Body Alignment and Posture:**
+The subject demonstrates a lack of foundational control over their body alignment. Throughout the video, the torso appears loose and lacks the necessary engagement of the core muscles required for controlled dance movement. The shoulders are often rounded, and there is a lack of "grounding" in the stance, which is essential for maintaining balance and projection.
+
+**2. Movement Fluency:**
+The transitions between positions are choppy and lack the seamless "flow" that characterizes more experienced dancers. The movements are disjointed—specifically, the arm gestures are fra
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Intermediate Expert' mine='Novice' gt='Early Expert'
+  RAW: Based on the provided video, the subject's skill level is **Novice**.
+
+### Reasoning:
+
+**1. Body Alignment and Balance:**
+*   Throughout the sequence, the subject displays inconsistent grounding. While moving between the floor markers, their center of gravity shifts erratically, leading to a lack of stability. A more experienced mover would maintain a "stacked" posture (shoulders over hips) to facilitate quicker transitions.
+*   The arm movements are loose and lack the purposeful tension required for high-level technical performance. There is a lack of engagement through the core, which causes the torso to collapse slightly during directional changes.
+
+**2. Movement Fluency:**
+*   The transi
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: This individual demonstrates an **Intermediate Expert** skill level in their dance movement.
+
+### Assessment of Technique:
+
+**1. Body Alignment:**
+The dancer shows a strong understanding of spatial awareness and postural control. Even through the distorted fisheye lens, one can observe controlled core engagement and fluid weight distribution. The posture remains stable during directional transitions, and the lines maintained during arm extensions (e.g., at 0:23 and 0:53) suggest a well-trained foundation in body placement.
+
+**2. Movement Fluency:**
+The transition between different planes and movement directions is smooth. The dancer displays a "rounded" quality in their execution, meaning th
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: Based on the video provided, I would categorize this person's skill level as **Intermediate Expert**.
+
+Here is an analysis of their performance based on the requested criteria:
+
+### **Body Alignment**
+The dancer shows a strong understanding of core engagement and vertical alignment. When transitioning between the different "zones" or markers on the floor, their posture remains consistent and controlled. There is little wasted movement in their torso, which indicates good stability and central strength. The use of the fisheye lens makes subtle alignment issues harder to detect, but the overall carriage of the body suggests a disciplined technical background.
+
+### **Movement Fluency**
+This is 
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Intermediate Expert' mine='Novice' gt='Intermediate Expert'
+  RAW: Based on the video provided, the skill level of the person performing is **Novice**.
+
+Here is the reasoning behind this assessment:
+
+**1. Body Alignment & Stance:**
+The performer lacks a foundational "center." Their movements are fragmented, and their weight distribution often seems unstable, leading to a slouching posture during static moments. There is a lack of engagement in the core, which causes the upper and lower body to appear disconnected rather than acting as a cohesive unit.
+
+**2. Movement Fluency:**
+The transition between poses and steps lacks the "flow" characteristic of an intermediate or expert dancer. The movements are somewhat mechanical, suggesting that the performer is foc
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Late Expert' mine='Early Expert' gt='Late Expert'
+  RAW: The person in the video displays an **Early Expert** skill level.
+
+### Reasoning:
+
+**1. Body Alignment:**
+The individual exhibits a strong sense of spatial awareness and body control. Their posture is stable throughout the movement, maintaining a balanced center of gravity even when navigating the room and engaging with the camera. The deliberate, controlled movements suggest an internal understanding of how their limbs and torso work together to achieve a specific technical goal.
+
+**2. Movement Fluency:**
+The transitions between different positions are fluid and purposeful. They move with an efficient use of energy, avoiding unnecessary or jerky motions. There is a clear "rhythm" to their a
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Intermediate Expert' mine='Novice' gt='Intermediate Expert'
+  RAW: Based on the video provided, I would classify the individual's skill level as **Novice**.
+
+Here is an analysis of their technique based on your criteria:
+
+### **Body Alignment and Technical Precision**
+The subject demonstrates a fundamental lack of awareness regarding camera-oriented performance. The "technique" being critiqued appears to be a basic walkthrough or setup for a 360-degree filming environment. Throughout the footage:
+*   **Lack of Spatial Anchoring:** The subject moves erratically through the room, often obscuring their own face or losing focus on the center of the frame.
+*   **Inconsistent Posture:** There is no "ready position" or core engagement. When they finally stop to in
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Intermediate Expert' mine='Novice' gt='Early Expert'
+  RAW: Based on the footage provided, I would classify this person as a **Novice**.
+
+Here is an analysis of their technique based on your requested focus areas:
+
+### 1. Body Alignment
+The dancer demonstrates a lack of consistent core engagement and spinal awareness. In the floor work sequences (notably around 00:18 and 00:51), the transitions are heavy and lack the controlled "center" necessary to maintain a line. The alignment of the shoulders relative to the hips is frequently disconnected, which is common in early-stage dancers who are still learning how to stack their skeletal structure to support movement.
+
+### 2. Movement Fluency
+The movement lacks "flow" or continuity. The dancer appears to 
+
+[diss_dance/results/gemini/gemini_dance_entire_reasoning_ego.csv | ego] stored='Intermediate Expert' mine='Early Expert' gt='Novice'
+  RAW: The person in the video is at an **Intermediate Expert** skill level.
+
+### Evaluation of Technique:
+
+*   **Body Alignment:** The subject demonstrates a solid understanding of proper body alignment, particularly in the distribution of weight and the engagement of the core. Their posture is stable, and they effectively utilize their center of gravity to pivot and change direction, which is essential for controlled movement.
+*   **Movement Fluency:** The subject exhibits a high level of fluidity. Transitions between different movements are smooth and lack the "jerky" or hesitant quality seen in novices. There is a sense of continuity in their performance, indicating a mastery over the mechanics
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Novice' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: The person in the video is engaged in what appears to be a virtual reality (VR) or motion capture activity, likely using a controller or motion-sensing device. Their movements are characterized by a lack of precision and efficiency. They frequently stumble, make wide, uncoordinated swings, and appear to be struggling to maintain balance and control. Their posture is often hunched or awkward, and they seem to be moving in a reactive, rather than intentional, manner. The movements are not fluid or graceful, suggesting they are not yet comfortable with the mechanics of the activity. They also appear hesitant and unsure of their surroundings, indicating a lack of confidence. This behavior is typ
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Intermediate Expert'
+  RAW: To assess the person's skill level, I will analyze their movement efficiency, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is performing a dance routine. Her movements appear fluid and connected, with transitions between steps and poses that are relatively smooth. She doesn't seem to be stumbling or hesitating, suggesting a good sense of rhythm and body awareness. She moves across the floor with purpose, covering space effectively.
+
+2.  **Technique and Form:** She demonstrates a variety of dance moves, including turns, arm gestures, and dynamic steps. Her posture is generally upright and engaged. While some movements might
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Novice' gt='Early Expert'
+  RAW: The person in the plaid shirt is performing a dance or movement routine in a studio. Let's analyze their skill level step by step:
+
+1.  **Movement Efficiency and Flow:** The person moves with a clear, deliberate flow. They transition between different poses and steps smoothly, without hesitation or awkwardness. Their movements are not random; they follow a pattern, suggesting they have learned and internalized the choreography.
+
+2.  **Technique and Control:** The individual demonstrates good body control. They execute turns, arm movements, and footwork with precision. For example, they perform a spin, a step-touch, and a pose with their arms extended, all with apparent control. Their posture
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Late Expert'
+  RAW: To assess the person's skill level, I will analyze their movement efficiency, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is moving with a clear, rhythmic flow. They transition between different dance moves (steps, arm movements, turns, kicks) smoothly and with purpose. There is no visible hesitation or awkwardness in their transitions, suggesting a good understanding of the choreography and the ability to execute it efficiently.
+
+2.  **Technique and Form:** The dancer maintains good posture throughout. Their arm movements are deliberate and expressive, often extending and shaping in a way that suggests they are following
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Novice' gt='Early Expert'
+  RAW: The person in the video is performing a dance or movement routine in a studio setting, with multiple cameras and markers on the floor, suggesting a professional or serious practice environment. Let's analyze their skill level step by step:
+
+1.  **Movement Efficiency and Flow:** The person moves with a clear, deliberate flow. They transition between poses and steps smoothly, without hesitation or awkwardness. Their movements are not robotic but have a natural rhythm and timing, indicating a good understanding of the choreography or movement pattern.
+
+2.  **Technique and Control:** The individual demonstrates strong control over their body. They execute turns, arm movements, and footwork with 
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Late Expert'
+  RAW: To assess the person's skill level, I will analyze their movement, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is performing a sequence of movements that appear to be choreographed, likely dance or a movement-based performance. The transitions between poses and steps are generally smooth and connected, suggesting a good sense of rhythm and flow. They are not stumbling or moving in a disjointed manner.
+
+2.  **Technique and Form:** The person demonstrates a good understanding of body alignment and spatial awareness. They use their arms and legs in coordinated, expressive ways. For example, they execute turns, arm extensions
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | ego] stored='Novice' mine='Intermediate Expert' gt='Late Expert'
+  RAW: The person in the video appears to be operating a motion capture or similar setup, likely for a performance or experiment. Their movements are often uncoordinated and show a lack of precision. For example, in frames 11-13, their hands are fumbling with an object, and in frames 35-36, their hands are moving in a somewhat chaotic, uncontrolled manner. The frequent blurring in frames like 25, 33, 37, and 39 suggests rapid, jerky movements rather than smooth, controlled motion. The person also frequently moves their hands in front of the camera (frames 8, 11, 35, 37, 39), which could indicate a lack of awareness of the camera's field of view or an attempt to interact with the system without prop
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Early Expert'
+  RAW: To assess the person's skill level, I will analyze their movement, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is performing a dance or movement routine. While the movements are not perfectly fluid or synchronized, they are consistent and appear to be part of a choreographed sequence. They are not stumbling or moving in a random, uncoordinated way. Their steps and turns are deliberate, suggesting they have learned the sequence.
+
+2.  **Technique and Form:** The person maintains a relatively upright posture and uses their arms and body in a way that suggests they are following a specific style or form. They are not overly r
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Novice'
+  RAW: To assess the person's skill level, I will analyze their movement, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is moving across the floor with a clear, purposeful path. They are not stumbling or hesitating. Their transitions between different positions and movements appear smooth and intentional, suggesting a good sense of spatial awareness and rhythm. They are not just walking; they are actively navigating the space.
+
+2.  **Technique and Form:** The person is performing a variety of movements, including walking, turning, and executing specific gestures and poses. Their arm movements are deliberate and coordinated with th
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | ego] stored='Novice' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: The person in the video is operating a camera with a fisheye lens in what appears to be a studio or rehearsal space. The footage is characterized by significant motion blur, frequent and abrupt changes in perspective, and a lack of stable framing. The person is often seen moving quickly, sometimes with their hand or arm entering the frame, suggesting they are not focused on maintaining a steady shot. The camera is frequently pointed downwards or at odd angles, and the person seems to be exploring the space rather than executing a planned shot. The presence of multiple tripods and black curtains suggests a professional or semi-professional setup, but the person's handling of the camera is unr
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Novice'
+  RAW: To assess the person's skill level, I will analyze their movement, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is performing a dance routine. Their movements appear fluid and connected, not stiff or disjointed. They transition between poses and steps with a sense of rhythm and continuity. This suggests a good understanding of the choreography and the ability to execute it smoothly.
+
+2.  **Technique and Form:** The dancer maintains good posture throughout. Their arm movements are deliberate and expressive, often extending and retracting in a controlled manner. Their footwork, including steps, turns, and a high kick, is exe
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Intermediate Expert'
+  RAW: To assess the person's skill level, I will analyze their movement efficiency, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is performing a dance routine. Her movements appear fluid and connected, with transitions between steps and poses that are smooth. She doesn't seem to be stumbling or hesitating, suggesting a good sense of rhythm and body awareness. She moves across the floor with purpose, indicating efficiency in her choreography.
+
+2.  **Technique and Form:** She demonstrates good posture and alignment. Her arm movements are deliberate and often symmetrical, which is a sign of trained technique. She executes poses wit
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Late Expert'
+  RAW: To assess the person's skill level, I will analyze their movement efficiency, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is moving across the floor with a clear, purposeful path. They are not stumbling or hesitating. Their transitions between different poses and movements appear smooth and connected, suggesting a good sense of rhythm and spatial awareness. They are not just moving randomly but are navigating the space with intention.
+
+2.  **Technique and Form:** The person demonstrates a variety of dance or movement techniques. They execute turns, arm movements, and leg extensions with apparent control. For example, when
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Novice' gt='Late Expert'
+  RAW: The person in the video is performing a dance or movement routine in a studio setting, with multiple cameras set up to record. To assess their skill level, we can analyze their movement efficiency, technique, control, and confidence.
+
+1.  **Movement Efficiency and Flow:** The person moves with a clear, deliberate flow. They transition between poses and steps smoothly, without hesitation or awkwardness. Their movements are not rushed but are purposeful and well-timed, suggesting a good understanding of the choreography or movement sequence.
+
+2.  **Technique and Form:** The person maintains good posture throughout. Their arm movements are controlled and expressive, often extending gracefully. 
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Early Expert' gt='Intermediate Expert'
+  RAW: To assess the person's skill level, I will analyze their movement efficiency, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is moving across the floor with a clear, purposeful path. They are not stumbling or hesitating; their transitions between different dance moves (e.g., stepping, turning, arm movements) appear smooth and connected. This suggests a good sense of rhythm and spatial awareness, which are hallmarks of an intermediate or higher skill level.
+
+2.  **Technique and Form:** The dancer is executing a variety of movements, including turns, kicks, and arm gestures. While some movements might be slightly exaggerated o
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Early Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: The person in the video is performing a dance routine in a studio setting. To assess their skill level, we can analyze several key aspects:
+
+1.  **Movement Efficiency and Flow:** The dancer executes a series of movements including turns, arm gestures, and leg extensions. While the movements are generally fluid, there are moments where the transitions between poses appear slightly stiff or deliberate, suggesting they are consciously working through the choreography rather than moving with effortless, natural flow. The overall sequence is not perfectly seamless.
+
+2.  **Technique and Form:** The dancer demonstrates a good understanding of basic dance posture and alignment. They maintain a relat
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Intermediate Expert'
+  RAW: To assess the person's skill level, I will analyze their movement, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is performing a dance routine. Their movements are not stiff or awkward; they appear to be flowing from one pose to another with a sense of rhythm and continuity. They are not just standing still or moving in a random way, but executing a choreographed sequence. This suggests a level of practice and understanding of the dance form.
+
+2.  **Technique and Form:** The dancer maintains good posture throughout. She uses her arms and hands expressively and deliberately, often in a way that complements her body movement.
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Intermediate Expert'
+  RAW: To assess the person's skill level, I will analyze their movement, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is performing a dance or movement routine. Her movements appear fluid and connected, with transitions between steps and poses that are smooth. She doesn't seem to be stumbling or hesitating, suggesting a good sense of rhythm and body awareness. She moves across the floor with purpose, indicating efficiency in her choreography.
+
+2.  **Technique and Form:** She maintains a consistent posture, often with her back straight and core engaged. Her arm movements are deliberate and coordinated with her steps, suggesting s
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Novice' gt='Early Expert'
+  RAW: To assess the person's skill level, I will analyze their movement, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is performing a sequence of movements that appear to be choreographed, likely a dance or a specific physical routine. The transitions between poses and steps are generally smooth and connected, suggesting a good sense of rhythm and body awareness. They are not stumbling or moving in a disjointed manner.
+
+2.  **Technique and Form:** The person demonstrates a good understanding of posture and alignment. They maintain an upright stance with engaged core and controlled arm movements. Their footwork is deliberate and 
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Novice'
+  RAW: The person is performing a dance or movement routine in a studio setting. To assess their skill level, we can analyze their movement efficiency, technique, control, and confidence.
+
+1.  **Movement Efficiency and Flow:** The person moves across the floor with a clear, deliberate path, often stepping from one circular marker to another. Their transitions between positions are generally smooth and intentional, suggesting they are following a choreographed sequence. They are not stumbling or moving in a random, uncoordinated way.
+
+2.  **Technique and Form:** The individual consistently maintains a good posture, with an upright stance and engaged core. Their arm movements are controlled and purpo
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Late Expert' mine='Early Expert' gt='Novice'
+  RAW: To assess the person's skill level, I will analyze their movement, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is performing a dance or movement routine. Their movements appear fluid and connected, with transitions between poses and steps that are not stiff or awkward. They are not just moving randomly; they are executing a choreographed sequence with a clear sense of rhythm and direction. This suggests a good understanding of the movement patterns.
+
+2.  **Technique and Form:** The person maintains good posture throughout. Their arms are used expressively and purposefully, often in sync with their body movements. Their fo
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: The person's skill level can be assessed by examining their movement, technique, control, and confidence throughout the video.
+
+1.  **Movement Efficiency and Flow:** The dancers exhibit a high degree of fluidity and efficiency in their movements. They transition between steps, turns, and positions with minimal wasted motion. Their footwork is precise, and their body movements are coordinated, suggesting a strong understanding of the dance's rhythm and structure. They move across the floor with purpose and grace, not stumbling or hesitating.
+
+2.  **Technique and Form:** Their technique is refined. The woman's posture is upright and controlled, and her arm movements are deliberate and expressi
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Late Expert' mine='Novice' gt='Intermediate Expert'
+  RAW: To assess the person's skill level, I will analyze their movement, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is moving with a clear, purposeful flow. She transitions between different dance positions and steps smoothly, without hesitation or awkwardness. Her footwork is precise, and she navigates the space with ease, indicating a high level of physical coordination and familiarity with the choreography.
+
+2.  **Technique and Form:** Her technique appears refined. She maintains good posture, with her spine aligned and shoulders relaxed. Her arm movements are controlled and expressive, often mirroring the rhythm and emotio
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Novice' gt='Late Expert'
+  RAW: To assess the person's skill level, I will analyze their movement, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is performing a dance or movement routine. Her movements appear fluid and connected, suggesting she is not just going through motions but is integrating them into a coherent sequence. She transitions between poses and steps with a sense of rhythm and continuity, which is characteristic of someone with experience.
+
+2.  **Technique and Form:** She demonstrates good posture and alignment. Her arm movements are deliberate and controlled, often extending and retracting with purpose, rather than being random or stiff. 
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | ego] stored='Novice' mine='Intermediate Expert' gt='Novice'
+  RAW: The person in the video appears to be operating a camera or similar equipment in what looks like a studio or event space. Their movements are somewhat unsteady and jerky, especially in the later frames where the camera is pointed at the floor or moving erratically. They are not consistently focused on a single subject or area, and their posture and handling of the equipment suggest they are not yet fully comfortable or confident. The fisheye lens effect and the shaky, blurry shots indicate a lack of control over the camera, which is typical for someone who is still learning. They are not demonstrating the smooth, deliberate movements or technical precision expected of an intermediate or adva
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Early Expert' gt='Early Expert'
+  RAW: To assess the person's skill level, I will analyze their movement, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is performing a dance routine. Her movements are generally fluid and connected, suggesting she is not just going through motions but is creating a sequence. She transitions between steps and poses with a sense of rhythm and flow, which is characteristic of someone who has practiced the choreography.
+
+2.  **Technique and Form:** She demonstrates good body control. Her posture is generally upright, and she maintains a strong core. Her arm movements are deliberate and often frame the choreography, indicating an unde
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | ego] stored='Novice' mine='Intermediate Expert' gt='Early Expert'
+  RAW: The person is operating a camera in what appears to be a motion capture or filming setup, indicated by the black curtains with white markers and tripods. Their movements are not smooth or deliberate; they frequently move the camera in jerky, uncontrolled ways, often with their hand or arm visible in the frame, suggesting they are not yet comfortable with the equipment or the environment. The camera pans and tilts erratically, sometimes pointing at the floor or ceiling, and the person frequently moves their hand into the frame, indicating a lack of spatial awareness or control. They also seem to be exploring the space without a clear purpose, as evidenced by the frequent changes in perspectiv
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Late Expert' mine='Novice' gt='Early Expert'
+  RAW: The person's skill level can be assessed by examining their movement, technique, control, and confidence throughout the video.
+
+1.  **Movement Efficiency and Flow:** The dancers exhibit a high degree of fluidity and efficiency in their movements. They transition between steps, turns, and positions with minimal hesitation or awkwardness. Their footwork is precise, and their paths across the floor are smooth, indicating a strong understanding of the dance's rhythm and structure.
+
+2.  **Technique and Form:** Their technique is consistently strong. The woman maintains excellent posture and alignment, with controlled arm movements that are both graceful and purposeful. The man demonstrates strong
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Early Expert' gt='Novice'
+  RAW: To assess the person's skill level, I will analyze their movement, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The dancer exhibits a fluid and continuous movement style. She transitions between poses and steps with apparent ease, suggesting a well-rehearsed routine. Her movements are not stiff or awkward; they have a natural flow, indicating a good understanding of rhythm and body mechanics.
+
+2.  **Technique and Control:** The dancer demonstrates strong control over her body. She executes turns, arm extensions, and poses with precision. For example, she performs a high kick with control (image 8), maintains balance during turns (ima
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Novice'
+  RAW: To assess the person's skill level, I will analyze their movement, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is performing a sequence of movements that appear to be choreographed or part of a specific routine. They transition between poses and steps with a degree of fluidity. While not perfectly seamless, the movements are connected and intentional, suggesting a practiced routine rather than random or uncoordinated actions. They are not stumbling or hesitating excessively.
+
+2.  **Technique and Form:** The person demonstrates a good understanding of body positioning. They use their arms and legs in coordinated ways, ofte
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Early Expert' gt='Late Expert'
+  RAW: To assess the person's skill level, I will analyze their movement efficiency, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is performing a sequence of movements that appear to be choreographed. They transition between poses and steps with a degree of fluidity. While not perfectly seamless, the movements are connected and purposeful, suggesting they are not just improvising but following a structure. They move across the space with intention, indicating a level of planning and efficiency.
+
+2.  **Technique and Form:** The person demonstrates a good understanding of body alignment and posture. They maintain an upright stance,
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Early Expert'
+  RAW: To assess the person's skill level, I will analyze their movement efficiency, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is moving with a clear, deliberate rhythm. Their steps are generally clean and purposeful, suggesting they are following a choreographed sequence. There is a sense of flow to their movements, indicating they are not just moving randomly but are executing a planned routine. They are able to transition between poses and steps smoothly, which points to a good level of coordination.
+
+2.  **Technique and Form:** The person maintains a consistent posture, with good alignment of their body. Their arm movement
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Late Expert'
+  RAW: To assess the person's skill level, I will analyze their movement efficiency, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is performing a sequence of movements that appear to be choreographed, likely for motion capture or a dance routine. Their transitions between poses and steps are generally smooth and connected. They move across the floor with purpose, not stumbling or hesitating. This suggests a good understanding of the choreography and the ability to execute it fluidly.
+
+2.  **Technique and Form:** The person maintains a consistent posture throughout. They keep their back straight, shoulders relaxed, and head up. Th
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Late Expert'
+  RAW: The person in the video is performing a dance or movement routine in a studio setting, with multiple cameras recording. To assess their skill level, we can analyze their movement efficiency, technique, control, and confidence.
+
+1.  **Movement Efficiency and Flow:** The person moves with a clear, deliberate flow. They transition between poses and steps smoothly, without hesitation or awkwardness. Their footwork is precise, and they navigate the space efficiently, often using the floor markers as guides. This suggests a high level of choreographic understanding and physical coordination.
+
+2.  **Technique and Form:** The individual maintains good posture and body alignment throughout the routin
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Novice' gt='Early Expert'
+  RAW: To assess the dancer's skill level, I will analyze the visual evidence for movement efficiency, technique, control, and confidence.
+
+1.  **Movement Efficiency and Flow:** The dancer executes a sequence of movements that appear choreographed. She transitions between poses and steps with a sense of purpose and flow, not stumbling or hesitating. Her movements are not rigid or mechanical; they have a quality of grace and intentionality, suggesting she is familiar with the choreography and can execute it smoothly.
+
+2.  **Technique and Form:** The dancer demonstrates good body alignment and posture throughout the sequence. She maintains a strong core, uses her arms expressively and in coordination
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Early Expert' gt='Early Expert'
+  RAW: To assess the dancer's skill level, I will analyze the visual evidence across the frames for key indicators of proficiency: movement efficiency, technique, control, and confidence.
+
+1.  **Movement Efficiency and Flow:** The dancer executes a sequence of movements that appear choreographed. She transitions between poses and steps with a clear, albeit not always perfectly fluid, rhythm. While there are moments of slight hesitation or adjustment (e.g., at 0:07, 0:11, 0:15), the overall flow of the routine is maintained. She doesn't appear to be stumbling or moving inefficiently, suggesting a practiced routine.
+
+2.  **Technique and Form:** The dancer demonstrates a good understanding of dance po
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Early Expert' mine='Novice' gt='Novice'
+  RAW: To assess the person's skill level, I will analyze their movement, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is performing a sequence of movements that appear to be choreographed, likely for a dance or performance video. They transition between poses and steps with a degree of fluidity. While not perfectly seamless, the movements are connected and intentional, suggesting a practiced routine rather than random motions. They are not stumbling or moving in a way that indicates a complete lack of coordination.
+
+2.  **Technique and Form:** The person demonstrates a good understanding of body positioning. They use their arms 
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Novice' mine='Intermediate Expert' gt='Early Expert'
+  RAW: The person in the video is performing a dance routine in a large, empty room. Their movements are energetic and involve a variety of steps, turns, and arm gestures. However, several visual cues suggest they are not at an advanced level:
+
+1.  **Movement Efficiency and Flow:** The dance lacks the smooth, seamless transitions characteristic of an expert. There are noticeable pauses, hesitations, and moments where the movement seems to "reset" or stop, particularly when changing directions or between steps. The choreography appears somewhat disjointed, with movements that don't flow naturally into one another.
+
+2.  **Technique and Control:** While the person is generally upright and maintains ba
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Intermediate Expert'
+  RAW: The person in the video is engaged in what appears to be a juggling or similar object manipulation activity. Let's analyze their skill level based on the visual evidence:
+
+1.  **Movement Efficiency and Technique:** The person is moving around the space with a degree of purpose, often stepping onto or off of the blue mats. Their movements are not rigid or mechanical; they appear fluid and intentional, suggesting they are not just fumbling but are actively navigating the space to perform the task. They are holding and manipulating an object (likely a juggling club or similar) with both hands, indicating a coordinated effort.
+
+2.  **Control:** The person demonstrates a good level of control ove
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Early Expert' gt='Intermediate Expert'
+  RAW: To assess the person's skill level, I will analyze their movement, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is performing a dynamic activity, likely a dance or movement routine, involving steps, turns, and arm movements. Her movements appear fluid and connected, suggesting she is not just going through motions but is integrating them into a cohesive sequence. She transitions between positions smoothly, indicating a good sense of rhythm and body awareness.
+
+2.  **Technique and Form:** She maintains a relatively upright posture and uses her arms in a coordinated way with her steps. Her footwork is precise, and she appear
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Early Expert'
+  RAW: To assess the person's skill level, I will analyze their movement efficiency, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person executes a wide variety of dance moves, including arm gestures, turns, jumps, and floor work. The transitions between movements appear generally smooth and connected, suggesting a good sense of rhythm and flow. They are not hesitating or stumbling between steps, indicating a comfortable and efficient movement vocabulary.
+
+2.  **Technique and Control:** The dancer demonstrates strong control over their body. They maintain posture and balance during complex movements like spins, arm extensions, and low s
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Intermediate Expert'
+  RAW: To assess the person's skill level, I will analyze their movement efficiency, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is moving with a clear, rhythmic pattern. Their steps are deliberate and appear to be part of a choreographed sequence. They transition between poses and movements smoothly, without hesitation or awkwardness. This suggests a high degree of familiarity with the routine, indicating efficiency and a well-practiced flow.
+
+2.  **Technique and Form:** The individual maintains good posture throughout. Their arm movements are controlled and purposeful, often extending or gesturing in specific, intentional ways
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Intermediate Expert'
+  RAW: To assess the dancer's skill level, I will analyze the visual evidence across the sequence, focusing on movement efficiency, technique, control, and confidence.
+
+1.  **Movement Efficiency and Flow:** The dancer's movements are generally fluid and connected. She transitions between poses and steps with a sense of rhythm and continuity, suggesting she is not just memorizing steps but is moving with intention. Her footwork is precise, and she uses the space effectively, moving across the floor and utilizing the entire area.
+
+2.  **Technique and Form:** The dancer demonstrates strong technique. She maintains good posture, with an upright spine and engaged core, even during dynamic movements. Her
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Novice'
+  RAW: To assess the person's skill level, I will analyze their movement, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is performing a sequence of movements that appear to be choreographed or part of a specific routine. They transition between poses and steps with a degree of fluidity. While not perfectly seamless, the movements are connected and purposeful, suggesting they are not just improvising but following a structure. They move across the space with intention, indicating a level of planning.
+
+2.  **Technique and Form:** The person demonstrates a good understanding of body alignment and posture. For example, when standing s
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Early Expert'
+  RAW: The person in the plaid shirt is performing a dance or movement routine in a studio. Let's analyze their skill level step by step:
+
+1.  **Movement Efficiency and Flow:** The person moves with a clear, deliberate, and fluid motion. They transition between poses and steps smoothly, without hesitation or awkwardness. Their movements are not random; they follow a clear, choreographed pattern, suggesting they have practiced this routine.
+
+2.  **Technique and Control:** The person demonstrates excellent body control. They execute complex arm movements, leg extensions, and turns with precision. Their posture is generally strong and balanced, even during dynamic movements. They maintain control over
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Late Expert' mine='Novice' gt='Novice'
+  RAW: The person is performing a dance routine in a studio. Let's analyze their skill level step by step:
+
+1.  **Movement Efficiency and Flow:** The person moves across the floor with a clear, deliberate path. They transition between positions smoothly, indicating a good sense of spatial awareness and rhythm. They are not stumbling or hesitating, which suggests comfort and control.
+
+2.  **Technique and Form:** The dance involves a variety of arm movements, body isolations, and footwork. The arm movements are generally clean and purposeful, not jerky. The footwork appears precise, with controlled steps and turns. The person maintains good posture throughout, which is essential for executing dance m
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | ego] stored='Intermediate Expert' mine='Novice' gt='Intermediate Expert'
+  RAW: The person in the video is operating a camera in what appears to be a studio or rehearsal space, likely for filming or recording. The visual evidence suggests the following:
+
+1.  **Movement and Navigation:** The person moves around the space with a degree of purpose, panning the camera to show different areas. They are not stationary but actively exploring the environment. The movement is somewhat fluid, indicating they are familiar with the space and have a goal in mind (e.g., capturing different angles or setups).
+
+2.  **Camera Handling and Technique:** The camera is mounted on a tripod in several shots, suggesting an awareness of stability and the need for consistent framing. The person a
+
+[diss_dance/results/qwen3vl/qwen3vl_dance_frames_reasoning.csv | exo] stored='Intermediate Expert' mine='Late Expert' gt='Early Expert'
+  RAW: To assess the person's skill level, I will analyze their movement efficiency, technique, control, and confidence based on the visual evidence.
+
+1.  **Movement Efficiency and Flow:** The person is performing a sequence of movements that appear to be choreographed or part of a specific style (possibly dance or martial arts). The transitions between poses and steps are generally smooth and connected, suggesting a good sense of rhythm and flow. They are not stumbling or hesitating between movements, which indicates a level of comfort and familiarity with the routine.
+
+2.  **Technique and Form:** The person demonstrates a good understanding of body alignment and posture. For example, during the l
+
