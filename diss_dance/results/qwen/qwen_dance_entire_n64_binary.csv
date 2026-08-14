@@ -1,0 +1,51 @@
+clip_id,take_folder,ground_truth,exo_answer,exo_predicted,exo_correct,ego_answer,ego_predicted,ego_correct
+3f508ce8-ba11-49d3-848c-ccd8c8b52c3d,upenn_0730_Dance_2_5,Late Expert,Novice,Novice,False,Novice,Novice,False
+215abe5f-a97f-4ee6-87bd-d261e75f1701,uniandes_dance_022_6,Novice,Novice,Novice,True,Novice,Novice,True
+dd258fcf-873f-4fcd-b2d3-04525159b68a,uniandes_dance_022_5,Novice,Novice,Novice,True,Novice,Novice,True
+4f534c6f-194d-4e24-95a0-3809416050a3,uniandes_dance_013_14,Late Expert,Novice,Novice,False,Novice,Novice,False
+cbc710de-4393-470d-91bd-f6af9f09f7c4,uniandes_dance_022_7,Novice,Novice,Novice,True,Novice,Novice,True
+8cb0e75c-e426-4f55-9454-c6b87f7dd086,uniandes_dance_021_2,Late Expert,Novice,Novice,False,Novice,Novice,False
+4d159481-830d-4789-b0ff-368031a98757,uniandes_dance_015_18,Late Expert,Novice,Novice,False,Novice,Novice,False
+66f96017-901c-4ec2-96ce-44c7be0a90e1,uniandes_dance_021_9,Late Expert,Novice,Novice,False,Novice,Novice,False
+5286fd37-f72e-42c5-bb9e-e09811887981,uniandes_dance_020_27,Novice,Novice,Novice,True,Novice,Novice,True
+7ab10395-024c-4fe4-994d-c7f57a42b354,upenn_0727_Partner_Dance_2_1_4,Late Expert,Novice,Novice,False,Novice,Novice,False
+4adabbcb-6196-4c0a-bc71-2570e2f4b839,uniandes_dance_020_26,Novice,Novice,Novice,True,Novice,Novice,True
+24b8af0b-b50e-4ddb-8421-a23dab506580,uniandes_dance_013_22,Late Expert,Novice,Novice,False,Novice,Novice,False
+1f5b9ba5-a7c0-496d-b164-444251f45d25,uniandes_dance_002_3,Late Expert,Novice,Novice,False,Novice,Novice,False
+964cca78-b4ff-477d-ac1e-30d37b1f570c,uniandes_dance_024_6,Novice,Novice,Novice,True,Novice,Novice,True
+92ee422b-2245-4efa-b300-0c5dc2744043,uniandes_dance_022_3,Novice,Novice,Novice,True,Novice,Novice,True
+663e2ca3-6738-4a03-ab6f-c42db254978a,uniandes_dance_022_23,Late Expert,Novice,Novice,False,Novice,Novice,False
+dfb66cb4-6235-4f55-b361-934586fbcaaa,uniandes_dance_022_10,Novice,Novice,Novice,True,Novice,Novice,True
+b0f43b31-88d6-4173-bc98-543c8f8d938d,uniandes_dance_016_44,Novice,Novice,Novice,True,Novice,Novice,True
+c198cb21-159d-4a1f-b395-976f44c24166,uniandes_dance_017_4,Novice,Novice,Novice,True,Novice,Novice,True
+9d950899-e619-4399-867c-70871cc0d679,uniandes_dance_024_4,Novice,Novice,Novice,True,Novice,Novice,True
+96fd2fcb-b49e-4b6f-b6b2-6939bb7da396,uniandes_dance_022_8,Novice,Novice,Novice,True,Novice,Novice,True
+3cbe51b2-f1e3-4f45-955e-0c98d4d3ec15,uniandes_dance_017_56,Novice,Novice,Novice,True,Novice,Novice,True
+96af582b-7fb6-4356-843d-107b0306d3a8,upenn_0727_Partner_Dance_2_1_2,Late Expert,Novice,Novice,False,Novice,Novice,False
+a20971f0-7778-436f-a3de-ffbc64d59b06,uniandes_dance_017_5,Novice,Novice,Novice,True,Novice,Novice,True
+fdaecdd1-2ef5-44d6-bc6c-26ff4a21c3d6,uniandes_dance_008_13,Late Expert,Novice,Novice,False,Novice,Novice,False
+4e468597-ba96-40c7-977b-7736a4a3bd73,uniandes_dance_017_3,Novice,Novice,Novice,True,Novice,Novice,True
+c0d46dcc-4e1e-4ea7-9795-0f3a369420e3,uniandes_dance_020_25,Novice,Novice,Novice,True,Novice,Novice,True
+30a73172-cd33-496d-a92e-c7b94a46e997,uniandes_dance_011_32,Late Expert,Novice,Novice,False,Novice,Novice,False
+94a6a8ce-c5d3-4173-8c8b-9d7d72eb04ed,uniandes_dance_019_51,Late Expert,Novice,Novice,False,Novice,Novice,False
+3c457a50-fcb8-42d4-9a32-6d94251bca9e,uniandes_dance_011_28,Late Expert,Novice,Novice,False,Novice,Novice,False
+95bcacb6-e524-4aa8-91f3-22b12898779d,uniandes_dance_016_45,Novice,Novice,Novice,True,Novice,Novice,True
+86a8ac67-ab15-48c3-a6e4-d02242f50326,uniandes_dance_017_54,Novice,Novice,Novice,True,Novice,Novice,True
+0f2b6d29-7921-402f-9a5b-59dd9a15f515,uniandes_dance_012_28,Late Expert,Novice,Novice,False,Novice,Novice,False
+002b9ee6-be8e-4b01-8165-2ea57b26feb7,uniandes_dance_016_42,Novice,Novice,Novice,True,Novice,Novice,True
+657b877d-3cdb-4798-a9bf-101ab82cc95b,uniandes_dance_020_18,Novice,Novice,Novice,True,Novice,Novice,True
+e36300e7-a84a-42e4-84a9-cb6be2e60bbc,upenn_0727_Partner_Dance_2_1_3,Late Expert,Novice,Novice,False,Novice,Novice,False
+8aef970a-22d8-4f21-94de-9737be02abd1,uniandes_dance_016_46,Novice,Novice,Novice,True,Novice,Novice,True
+31cec62a-2494-4423-870d-88256d583b24,uniandes_dance_019_52,Late Expert,Novice,Novice,False,Novice,Novice,False
+3818193e-9267-4f51-9776-20b7b6bc547b,uniandes_dance_012_36,Late Expert,Novice,Novice,False,Novice,Novice,False
+0cfe9a30-a349-4066-8832-47116d4bd38a,uniandes_dance_008_36,Late Expert,Novice,Novice,False,Novice,Novice,False
+6e4400c5-0bd9-454f-97d4-4fe35fe31682,uniandes_dance_022_9,Novice,Novice,Novice,True,Novice,Novice,True
+b0cb3f34-0a43-4a4a-b1c6-8bb2993f344d,uniandes_dance_020_21,Novice,Novice,Novice,True,Novice,Novice,True
+6643d761-400d-41d6-946f-2164741d8154,uniandes_dance_012_31,Late Expert,Novice,Novice,False,Novice,Novice,False
+7c894498-fd5b-4a50-9224-cc3614911569,uniandes_dance_015_14,Late Expert,Novice,Novice,False,Novice,Novice,False
+1410c594-ac0f-4edf-b02f-675511efec6a,uniandes_dance_012_35,Late Expert,Novice,Novice,False,Novice,Novice,False
+7d810b75-87a9-4b95-86d0-c970ae6d03a5,uniandes_dance_023_26,Late Expert,Novice,Novice,False,Novice,Novice,False
+98ca3100-848b-4267-be0b-3c53c301cd96,uniandes_dance_020_22,Novice,Novice,Novice,True,Novice,Novice,True
+0eadf1dd-55c6-4cd1-8b2d-5b132fcb5016,uniandes_dance_022_27,Late Expert,Novice,Novice,False,Novice,Novice,False
+7f58c1be-0c2e-4fd3-9988-bb27596fc1c7,uniandes_dance_011_36,Late Expert,Novice,Novice,False,Novice,Novice,False
+be4e32c4-1537-44bc-9f66-5d61098c08dd,uniandes_dance_024_7,Novice,Novice,Novice,True,Novice,Novice,True

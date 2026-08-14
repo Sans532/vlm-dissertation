@@ -17,7 +17,7 @@ warnings.filterwarnings("ignore")
 
 USER       = os.environ.get("USER")
 MODEL_PATH = "/home/" + USER + "/dissertation/models/qwen25vl-7b"
-BENCHMARK  = "/home/" + USER + "/dissertation/repo/dissertation_v2/benchmark/benchmark_commentary.json"
+BENCHMARK  = "/home/" + USER + "/dissertation/repo/diss_climb/benchmark/benchmark_commentary.json"
 RESULTS    = "/home/" + USER + "/dissertation/repo/commentary/commentary_binary.csv"
 
 os.makedirs(os.path.dirname(RESULTS), exist_ok=True)

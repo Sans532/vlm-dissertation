@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH --job-name=qwen_n64_dance
 #SBATCH --partition=Teaching
-#SBATCH --gres=gpu:h200_3g.71gb:1
-#SBATCH --time=18:00:00
+#SBATCH --gres=gpu:nvidia_rtx_a6000:1
+#SBATCH --time=24:00:00
 #SBATCH --mem=40G
 #SBATCH --cpus-per-task=4
 #SBATCH --output=/home/%u/dissertation/repo/diss_dance/logs/qwen/qwen_n64_%j.log
