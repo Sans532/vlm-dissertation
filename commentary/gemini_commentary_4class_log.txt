@@ -1,0 +1,226 @@
+
+############################################################
+Run started: 2026-08-24T13:35:44.078917
+############################################################
+
+Total: 100 | Done: 0 | Remaining: 100
+Model: gemini-3.1-flash-lite
+Prompt: Read this entire commentary carefully. Based ONLY on what the commentary says, what is this climber's skill level? Answer only one: Novice / Early Expert / Intermediate Expert / Late Expert
+
+[1/100] uniandes_bouldering_036_71 (GT=Late Expert)
+  Intermediate Expert X | raw: Intermediate Expert
+[2/100] uniandes_bouldering_037_46 (GT=Intermediate Expert)
+  Unknown X | raw: The provided commentary does not contain enough information 
+[3/100] uniandes_bouldering_035_19 (GT=Early Expert)
+  Unknown X | raw: The provided text does not contain enough information to det
+[4/100] uniandes_bouldering_032_46 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Intermediate Expert
+[5/100] uniandes_bouldering_032_63 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Intermediate Expert
+[6/100] uniandes_bouldering_029_76 (GT=Early Expert)
+  Unknown X | raw: Based on the commentary provided, it is impossible to determ
+[7/100] uniandes_bouldering_032_59 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Intermediate Expert
+[8/100] uniandes_bouldering_035_62 (GT=Early Expert)
+  Unknown X | raw: Based on the provided commentary, there is insufficient info
+[9/100] uniandes_bouldering_035_23 (GT=Early Expert)
+  Unknown X | raw: The provided commentary does not explicitly state the climbe
+[10/100] uniandes_bouldering_028_42 (GT=Novice)
+  Intermediate Expert X | raw: Based on the provided commentary, the climber's skill level 
+[11/100] uniandes_bouldering_027_30 (GT=Novice)
+  Intermediate Expert X | raw: Based ONLY on the provided commentary, the climber's skill l
+[12/100] uniandes_bouldering_032_44 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Intermediate Expert
+[13/100] uniandes_bouldering_027_92 (GT=Intermediate Expert)
+  Unknown X | raw: The provided commentary does not contain enough information 
+[14/100] uniandes_bouldering_033_6 (GT=Intermediate Expert)
+  Novice X | raw: Novice
+[15/100] uniandes_bouldering_035_36 (GT=Early Expert)
+  Late Expert X | raw: The provided commentary does not contain enough information 
+[16/100] uniandes_bouldering_027_50 (GT=Novice)
+  Intermediate Expert X | raw: Intermediate Expert
+[17/100] uniandes_bouldering_027_49 (GT=Novice)
+  Intermediate Expert X | raw: Intermediate Expert
+[18/100] uniandes_bouldering_037_32 (GT=Late Expert)
+  Intermediate Expert X | raw: Intermediate Expert
+[19/100] uniandes_bouldering_028_11 (GT=Novice)
+  Intermediate Expert X | raw: Intermediate Expert
+[20/100] uniandes_bouldering_027_26 (GT=Novice)
+  Intermediate Expert X | raw: Intermediate Expert
+[21/100] uniandes_bouldering_029_87 (GT=Novice)
+  Novice OK | raw: Novice
+[22/100] uniandes_bouldering_037_20 (GT=Late Expert)
+  Intermediate Expert X | raw: Intermediate Expert
+[23/100] uniandes_bouldering_027_84 (GT=Novice)
+  Novice OK | raw: Novice
+[24/100] uniandes_bouldering_031_68 (GT=Late Expert)
+  Intermediate Expert X | raw: Based on the provided commentary, the climber's skill level 
+[25/100] uniandes_bouldering_029_9 (GT=Early Expert)
+  Unknown X | raw: The provided text does not contain enough information to det
+[26/100] uniandes_bouldering_027_29 (GT=Novice)
+  Novice OK | raw: Novice
+[27/100] uniandes_bouldering_036_27 (GT=Intermediate Expert)
+  Novice X | raw: Based on the provided commentary, the climber's skill level 
+[28/100] uniandes_bouldering_027_18 (GT=Early Expert)
+  Unknown X | raw: Based on the commentary provided, it is impossible to determ
+[29/100] uniandes_bouldering_027_108 (GT=Early Expert)
+  Unknown X | raw: Based on the commentary provided, it is not possible to dete
+[30/100] uniandes_bouldering_029_66 (GT=Intermediate Expert)
+  Novice X | raw: Novice
+[31/100] uniandes_bouldering_036_62 (GT=Intermediate Expert)
+  Unknown X | raw: The provided text does not contain information to determine 
+[32/100] uniandes_bouldering_034_34 (GT=Early Expert)
+  Rate limit hit, waiting 65s (1/5)...
+  Intermediate Expert X | raw: Intermediate Expert
+[33/100] uniandes_bouldering_028_48 (GT=Intermediate Expert)
+  Unknown X | raw: The provided text does not contain enough specific informati
+[34/100] uniandes_bouldering_037_30 (GT=Intermediate Expert)
+  Unknown X | raw: Based ONLY on the provided commentary, the climber's skill l
+[35/100] uniandes_bouldering_034_62 (GT=Early Expert)
+  Unknown X | raw: Based on the commentary provided, there is no mention of the
+[36/100] uniandes_bouldering_037_54 (GT=Late Expert)
+  Unknown X | raw: Based on the provided commentary, there is no mention of the
+[37/100] uniandes_bouldering_031_47 (GT=Late Expert)
+  Early Expert X | raw: Early Expert
+[38/100] uniandes_bouldering_032_53 (GT=Intermediate Expert)
+  Unknown X | raw: Based on the commentary provided, there is no explicit menti
+[39/100] uniandes_bouldering_029_89 (GT=Novice)
+  Unknown X | raw: The provided commentary does not contain enough information 
+[40/100] uniandes_bouldering_036_39 (GT=Late Expert)
+  Novice X | raw: Novice
+[41/100] uniandes_bouldering_029_5 (GT=Intermediate Expert)
+  Unknown X | raw: The provided text does not mention the climber's skill level
+[42/100] uniandes_bouldering_027_31 (GT=Novice)
+  Intermediate Expert X | raw: Intermediate Expert
+[43/100] uniandes_bouldering_030_8 (GT=Late Expert)
+  Unknown X | raw: Based on the commentary provided, it is impossible to determ
+[44/100] uniandes_bouldering_029_72 (GT=Early Expert)
+  Unknown X | raw: The provided commentary does not specify the climber's skill
+[45/100] uniandes_bouldering_027_114 (GT=Novice)
+  Intermediate Expert X | raw: Intermediate Expert
+[46/100] uniandes_bouldering_035_30 (GT=Early Expert)
+  Intermediate Expert X | raw: Intermediate Expert
+[47/100] uniandes_bouldering_037_39 (GT=Late Expert)
+  Intermediate Expert X | raw: Intermediate Expert
+[48/100] uniandes_bouldering_037_16 (GT=Late Expert)
+  Intermediate Expert X | raw: Intermediate Expert
+[49/100] uniandes_bouldering_037_29 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Intermediate Expert
+[50/100] uniandes_bouldering_037_51 (GT=Late Expert)
+  Unknown X | raw: Based only on the provided commentary, the climber's skill l
+[51/100] uniandes_bouldering_036_73 (GT=Late Expert)
+  Unknown X | raw: Based on the provided commentary, the climber's skill level 
+[52/100] uniandes_bouldering_037_36 (GT=Late Expert)
+  Early Expert X | raw: Based on the provided commentary, the climber's skill level 
+[53/100] uniandes_bouldering_029_90 (GT=Novice)
+  Intermediate Expert X | raw: Intermediate Expert
+[54/100] uniandes_bouldering_035_68 (GT=Early Expert)
+  Intermediate Expert X | raw: Intermediate Expert
+[55/100] uniandes_bouldering_027_61 (GT=Novice)
+  Novice OK | raw: Novice
+[56/100] uniandes_bouldering_036_8 (GT=Late Expert)
+  Intermediate Expert X | raw: Intermediate Expert
+[57/100] uniandes_bouldering_036_42 (GT=Late Expert)
+  Novice X | raw: Novice
+[58/100] uniandes_bouldering_027_53 (GT=Novice)
+  Unknown X | raw: The provided commentary does not contain enough information 
+[59/100] uniandes_bouldering_037_10 (GT=Intermediate Expert)
+  Unknown X | raw: Based on the commentary provided, there is no mention or eva
+[60/100] uniandes_bouldering_027_35 (GT=Novice)
+  Novice OK | raw: Novice
+[61/100] uniandes_bouldering_037_38 (GT=Late Expert)
+  Unknown X | raw: The provided commentary does not contain enough information 
+[62/100] uniandes_bouldering_035_50 (GT=Early Expert)
+  Intermediate Expert X | raw: Intermediate Expert
+[63/100] uniandes_bouldering_032_32 (GT=Late Expert)
+  Unknown X | raw: The provided text does not state the climber's skill level.
+[64/100] uniandes_bouldering_027_82 (GT=Novice)
+  Intermediate Expert X | raw: Intermediate Expert
+[65/100] uniandes_bouldering_036_35 (GT=Late Expert)
+  Novice X | raw: Novice
+[66/100] uniandes_bouldering_036_12 (GT=Intermediate Expert)
+  Unknown X | raw: Based only on the provided commentary, the climber's skill l
+[67/100] uniandes_bouldering_037_43 (GT=Intermediate Expert)
+  Unknown X | raw: Based on the provided commentary, there is no mention of the
+[68/100] uniandes_bouldering_036_37 (GT=Late Expert)
+  Intermediate Expert X | raw: Based ONLY on the provided commentary, the climber's skill l
+[69/100] uniandes_bouldering_028_29 (GT=Novice)
+  Novice OK | raw: Novice
+[70/100] uniandes_bouldering_035_42 (GT=Early Expert)
+  Intermediate Expert X | raw: Intermediate Expert
+[71/100] uniandes_bouldering_027_117 (GT=Novice)
+  Intermediate Expert X | raw: Intermediate Expert
+[72/100] uniandes_bouldering_033_57 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Intermediate Expert
+[73/100] uniandes_bouldering_027_80 (GT=Novice)
+  Unknown X | raw: The provided commentary does not contain enough information 
+[74/100] uniandes_bouldering_037_48 (GT=Late Expert)
+  Intermediate Expert X | raw: Intermediate Expert
+[75/100] uniandes_bouldering_029_32 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: Intermediate Expert
+[76/100] uniandes_bouldering_035_90 (GT=Early Expert)
+  Novice X | raw: Novice
+[77/100] uniandes_bouldering_034_17 (GT=Early Expert)
+  Intermediate Expert X | raw: Based on the commentary provided, the climber's skill level 
+[78/100] uniandes_bouldering_035_40 (GT=Early Expert)
+  Intermediate Expert X | raw: Intermediate Expert
+[79/100] uniandes_bouldering_034_31 (GT=Early Expert)
+  Unknown X | raw: Based on the commentary provided, it is impossible to determ
+[80/100] uniandes_bouldering_032_57 (GT=Intermediate Expert)
+  Novice X | raw: Novice
+[81/100] uniandes_bouldering_029_10 (GT=Early Expert)
+  Unknown X | raw: The provided commentary does not contain enough information 
+[82/100] uniandes_bouldering_032_2 (GT=Late Expert)
+  Intermediate Expert X | raw: Intermediate Expert
+[83/100] uniandes_bouldering_035_38 (GT=Early Expert)
+  Unknown X | raw: Based on the commentary provided, it is impossible to determ
+[84/100] uniandes_bouldering_027_118 (GT=Novice)
+  Unknown X | raw: Based on the commentary provided, there is no definitive lab
+[85/100] uniandes_bouldering_027_81 (GT=Novice)
+  Novice OK | raw: Novice
+[86/100] uniandes_bouldering_029_93 (GT=Early Expert)
+  Unknown X | raw: The provided commentary does not state the climber's skill l
+[87/100] uniandes_bouldering_031_69 (GT=Late Expert)
+  Novice X | raw: Novice
+[88/100] uniandes_bouldering_027_25 (GT=Novice)
+  Unknown X | raw: The provided commentary does not contain enough information 
+[89/100] uniandes_bouldering_028_3 (GT=Intermediate Expert)
+  Intermediate Expert OK | raw: The provided commentary does not contain enough information 
+[90/100] uniandes_bouldering_029_88 (GT=Novice)
+  Unknown X | raw: The provided text does not contain enough information to det
+[91/100] uniandes_bouldering_028_12 (GT=Novice)
+  Rate limit hit, waiting 65s (1/5)...
+  Intermediate Expert X | raw: Based on the provided commentary, the climber's skill level 
+[92/100] uniandes_bouldering_028_22 (GT=Intermediate Expert)
+  Unknown X | raw: The provided commentary does not contain enough information 
+[93/100] uniandes_bouldering_036_45 (GT=Late Expert)
+  Unknown X | raw: The provided text does not contain enough information to det
+[94/100] uniandes_bouldering_034_92 (GT=Early Expert)
+  Intermediate Expert X | raw: Intermediate Expert
+[95/100] uniandes_bouldering_036_33 (GT=Late Expert)
+  Unknown X | raw: The provided commentary does not specify or state the climbe
+[96/100] uniandes_bouldering_036_15 (GT=Late Expert)
+  Intermediate Expert X | raw: Intermediate Expert
+[97/100] uniandes_bouldering_035_13 (GT=Early Expert)
+  Intermediate Expert X | raw: Intermediate Expert
+[98/100] uniandes_bouldering_033_59 (GT=Intermediate Expert)
+  Novice X | raw: Novice
+[99/100] uniandes_bouldering_036_56 (GT=Intermediate Expert)
+  Novice X | raw: Novice
+[100/100] uniandes_bouldering_034_29 (GT=Early Expert)
+  Unknown X | raw: Based on the commentary provided, it is not possible to dete
+
+Batch complete. Processed 100 clips.
+
+RESULTS — Gemini text-only 4-class climbing (commentary)
+Overall: 15/100 = 15.0%
+Late Expert           : 0/25 = 0.0%
+Intermediate Expert   : 8/25 = 32.0%
+Early Expert          : 0/25 = 0.0%
+Novice                : 7/25 = 28.0%
+Random chance: 25%
+Answers: {'Intermediate Expert': 40, 'Unknown': 39, 'Novice': 18, 'Early Expert': 2, 'Late Expert': 1}
+
+Compare to video-based 4-class (diss_climb/scripts/gemini/fourclass.py):
+If text-only score is meaningfully higher -> failure is in visual grounding
+If text-only also collapses -> skill may not be cleanly per-clip recoverable

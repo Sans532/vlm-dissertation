@@ -1,0 +1,236 @@
+
+############################################################
+Run started: 2026-08-24T13:09:56.787170
+############################################################
+
+Total: 100 | Done: 0 | Remaining: 100
+Model: gemini-3.1-flash-lite
+Prompt: Read this entire commentary carefully. Based ONLY on what the commentary says, is this climber a Novice or an Expert? Answer only one: Novice or Expert
+
+[1/100] uniandes_bouldering_036_71 (GT=Late Expert -> Expert)
+  Expert OK | raw: Expert
+[2/100] uniandes_bouldering_037_46 (GT=Intermediate Expert -> Expert)
+  Expert OK | raw: Expert
+[3/100] uniandes_bouldering_035_19 (GT=Early Expert -> Expert)
+  Novice X | raw: Novice
+[4/100] uniandes_bouldering_032_46 (GT=Intermediate Expert -> Expert)
+  Novice X | raw: Novice
+[5/100] uniandes_bouldering_032_63 (GT=Intermediate Expert -> Expert)
+  Novice X | raw: Novice
+[6/100] uniandes_bouldering_029_76 (GT=Early Expert -> Expert)
+  Novice X | raw: Novice
+[7/100] uniandes_bouldering_032_59 (GT=Intermediate Expert -> Expert)
+  Expert OK | raw: Expert
+[8/100] uniandes_bouldering_035_62 (GT=Early Expert -> Expert)
+  Expert OK | raw: Expert
+[9/100] uniandes_bouldering_035_23 (GT=Early Expert -> Expert)
+  Novice X | raw: Novice
+[10/100] uniandes_bouldering_028_42 (GT=Novice -> Novice)
+  Expert X | raw: Expert
+[11/100] uniandes_bouldering_027_30 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[12/100] uniandes_bouldering_032_44 (GT=Intermediate Expert -> Expert)
+  Novice X | raw: Novice
+[13/100] uniandes_bouldering_027_92 (GT=Intermediate Expert -> Expert)
+  Novice X | raw: Novice
+[14/100] uniandes_bouldering_033_6 (GT=Intermediate Expert -> Expert)
+  Novice X | raw: Novice
+[15/100] uniandes_bouldering_035_36 (GT=Early Expert -> Expert)
+  Expert OK | raw: Expert
+[16/100] uniandes_bouldering_027_50 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[17/100] uniandes_bouldering_027_49 (GT=Novice -> Novice)
+
+DAILY QUOTA REACHED. Progress saved. Run again tomorrow.
+
+############################################################
+Run started: 2026-08-24T13:26:35.398653
+############################################################
+
+Found 16 already-completed clips. Resuming.
+
+Total: 100 | Done: 16 | Remaining: 84
+Model: gemini-3.1-flash-lite
+Prompt: Read this entire commentary carefully. Based ONLY on what the commentary says, is this climber a Novice or an Expert? Answer only one: Novice or Expert
+
+[1/84] uniandes_bouldering_027_49 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[2/84] uniandes_bouldering_037_32 (GT=Late Expert -> Expert)
+  Novice X | raw: Novice
+[3/84] uniandes_bouldering_028_11 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[4/84] uniandes_bouldering_027_26 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[5/84] uniandes_bouldering_029_87 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[6/84] uniandes_bouldering_037_20 (GT=Late Expert -> Expert)
+  Novice X | raw: Novice
+[7/84] uniandes_bouldering_027_84 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[8/84] uniandes_bouldering_031_68 (GT=Late Expert -> Expert)
+  Novice X | raw: Novice
+[9/84] uniandes_bouldering_029_9 (GT=Early Expert -> Expert)
+  Novice X | raw: Novice
+[10/84] uniandes_bouldering_027_29 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[11/84] uniandes_bouldering_036_27 (GT=Intermediate Expert -> Expert)
+  Novice X | raw: Novice
+[12/84] uniandes_bouldering_027_18 (GT=Early Expert -> Expert)
+  Novice X | raw: Novice
+[13/84] uniandes_bouldering_027_108 (GT=Early Expert -> Expert)
+  Novice X | raw: Novice
+[14/84] uniandes_bouldering_029_66 (GT=Intermediate Expert -> Expert)
+  Novice X | raw: Novice
+[15/84] uniandes_bouldering_036_62 (GT=Intermediate Expert -> Expert)
+  Novice X | raw: Novice
+[16/84] uniandes_bouldering_034_34 (GT=Early Expert -> Expert)
+  Novice X | raw: Novice
+[17/84] uniandes_bouldering_028_48 (GT=Intermediate Expert -> Expert)
+  Expert OK | raw: Expert
+[18/84] uniandes_bouldering_037_30 (GT=Intermediate Expert -> Expert)
+  Expert OK | raw: Expert
+[19/84] uniandes_bouldering_034_62 (GT=Early Expert -> Expert)
+  Novice X | raw: Novice
+[20/84] uniandes_bouldering_037_54 (GT=Late Expert -> Expert)
+  Expert OK | raw: Expert
+[21/84] uniandes_bouldering_031_47 (GT=Late Expert -> Expert)
+  Expert OK | raw: Expert
+[22/84] uniandes_bouldering_032_53 (GT=Intermediate Expert -> Expert)
+  Expert OK | raw: Expert
+[23/84] uniandes_bouldering_029_89 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[24/84] uniandes_bouldering_036_39 (GT=Late Expert -> Expert)
+  Novice X | raw: Novice
+[25/84] uniandes_bouldering_029_5 (GT=Intermediate Expert -> Expert)
+  Expert OK | raw: Expert
+[26/84] uniandes_bouldering_027_31 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[27/84] uniandes_bouldering_030_8 (GT=Late Expert -> Expert)
+  Novice X | raw: Novice
+[28/84] uniandes_bouldering_029_72 (GT=Early Expert -> Expert)
+  Novice X | raw: Novice
+[29/84] uniandes_bouldering_027_114 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[30/84] uniandes_bouldering_035_30 (GT=Early Expert -> Expert)
+  Novice X | raw: Novice
+[31/84] uniandes_bouldering_037_39 (GT=Late Expert -> Expert)
+  Expert OK | raw: Expert
+[32/84] uniandes_bouldering_037_16 (GT=Late Expert -> Expert)
+  Novice X | raw: Novice
+[33/84] uniandes_bouldering_037_29 (GT=Intermediate Expert -> Expert)
+  Expert OK | raw: Expert
+[34/84] uniandes_bouldering_037_51 (GT=Late Expert -> Expert)
+  Expert OK | raw: Expert
+[35/84] uniandes_bouldering_036_73 (GT=Late Expert -> Expert)
+  Novice X | raw: Novice
+[36/84] uniandes_bouldering_037_36 (GT=Late Expert -> Expert)
+  Expert OK | raw: Expert
+[37/84] uniandes_bouldering_029_90 (GT=Novice -> Novice)
+  Expert X | raw: Expert
+[38/84] uniandes_bouldering_035_68 (GT=Early Expert -> Expert)
+  Novice X | raw: Novice
+[39/84] uniandes_bouldering_027_61 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[40/84] uniandes_bouldering_036_8 (GT=Late Expert -> Expert)
+  Expert OK | raw: Expert
+[41/84] uniandes_bouldering_036_42 (GT=Late Expert -> Expert)
+  Novice X | raw: Novice
+[42/84] uniandes_bouldering_027_53 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[43/84] uniandes_bouldering_037_10 (GT=Intermediate Expert -> Expert)
+  Expert OK | raw: Expert
+[44/84] uniandes_bouldering_027_35 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[45/84] uniandes_bouldering_037_38 (GT=Late Expert -> Expert)
+  Expert OK | raw: Expert
+[46/84] uniandes_bouldering_035_50 (GT=Early Expert -> Expert)
+  Novice X | raw: Novice
+[47/84] uniandes_bouldering_032_32 (GT=Late Expert -> Expert)
+  Expert OK | raw: Expert
+[48/84] uniandes_bouldering_027_82 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[49/84] uniandes_bouldering_036_35 (GT=Late Expert -> Expert)
+  Novice X | raw: Novice
+[50/84] uniandes_bouldering_036_12 (GT=Intermediate Expert -> Expert)
+  Expert OK | raw: Expert
+[51/84] uniandes_bouldering_037_43 (GT=Intermediate Expert -> Expert)
+  Novice X | raw: Novice
+[52/84] uniandes_bouldering_036_37 (GT=Late Expert -> Expert)
+  Expert OK | raw: Expert
+[53/84] uniandes_bouldering_028_29 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[54/84] uniandes_bouldering_035_42 (GT=Early Expert -> Expert)
+  Expert OK | raw: Expert
+[55/84] uniandes_bouldering_027_117 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[56/84] uniandes_bouldering_033_57 (GT=Intermediate Expert -> Expert)
+  Expert OK | raw: Expert
+[57/84] uniandes_bouldering_027_80 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[58/84] uniandes_bouldering_037_48 (GT=Late Expert -> Expert)
+  Novice X | raw: Novice
+[59/84] uniandes_bouldering_029_32 (GT=Intermediate Expert -> Expert)
+  Novice X | raw: Novice
+[60/84] uniandes_bouldering_035_90 (GT=Early Expert -> Expert)
+  Novice X | raw: Novice
+[61/84] uniandes_bouldering_034_17 (GT=Early Expert -> Expert)
+  Rate limit hit, waiting 65s (1/5)...
+  Novice X | raw: Novice
+[62/84] uniandes_bouldering_035_40 (GT=Early Expert -> Expert)
+  Novice X | raw: Novice
+[63/84] uniandes_bouldering_034_31 (GT=Early Expert -> Expert)
+  Novice X | raw: Novice
+[64/84] uniandes_bouldering_032_57 (GT=Intermediate Expert -> Expert)
+  Novice X | raw: Novice
+[65/84] uniandes_bouldering_029_10 (GT=Early Expert -> Expert)
+  Novice X | raw: Novice
+[66/84] uniandes_bouldering_032_2 (GT=Late Expert -> Expert)
+  Expert OK | raw: Expert
+[67/84] uniandes_bouldering_035_38 (GT=Early Expert -> Expert)
+  Expert OK | raw: Expert
+[68/84] uniandes_bouldering_027_118 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[69/84] uniandes_bouldering_027_81 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[70/84] uniandes_bouldering_029_93 (GT=Early Expert -> Expert)
+  Novice X | raw: Novice
+[71/84] uniandes_bouldering_031_69 (GT=Late Expert -> Expert)
+  Novice X | raw: Novice
+[72/84] uniandes_bouldering_027_25 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[73/84] uniandes_bouldering_028_3 (GT=Intermediate Expert -> Expert)
+  Expert OK | raw: Expert
+[74/84] uniandes_bouldering_029_88 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[75/84] uniandes_bouldering_028_12 (GT=Novice -> Novice)
+  Novice OK | raw: Novice
+[76/84] uniandes_bouldering_028_22 (GT=Intermediate Expert -> Expert)
+  Novice X | raw: Novice
+[77/84] uniandes_bouldering_036_45 (GT=Late Expert -> Expert)
+  Rate limit hit, waiting 65s (1/5)...
+  Novice X | raw: Novice
+[78/84] uniandes_bouldering_034_92 (GT=Early Expert -> Expert)
+  Novice X | raw: Novice
+[79/84] uniandes_bouldering_036_33 (GT=Late Expert -> Expert)
+  Novice X | raw: Novice
+[80/84] uniandes_bouldering_036_15 (GT=Late Expert -> Expert)
+  Expert OK | raw: Expert
+[81/84] uniandes_bouldering_035_13 (GT=Early Expert -> Expert)
+  Novice X | raw: Novice
+[82/84] uniandes_bouldering_033_59 (GT=Intermediate Expert -> Expert)
+  Novice X | raw: Novice
+[83/84] uniandes_bouldering_036_56 (GT=Intermediate Expert -> Expert)
+  Novice X | raw: Novice
+[84/84] uniandes_bouldering_034_29 (GT=Early Expert -> Expert)
+  Expert OK | raw: Expert
+
+Batch complete. Processed 84 clips.
+
+RESULTS — Gemini text-only binary climbing (commentary)
+Overall: 51/100 = 51.0%
+Random chance: 50%
+Answers: {'Novice': 70, 'Expert': 30}
+
+Compare to video-based binary (diss_climb/scripts/gemini/binary.py):
+If text-only score is meaningfully higher -> failure is in visual grounding
+If text-only also collapses -> skill may not be cleanly per-clip recoverable
