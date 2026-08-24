@@ -532,6 +532,82 @@ def fig9(df):
     save(fig, "fig09_response_stereotypy")
 
 
+# ------------------------------------------------------------------ fig 10 --
+PROMPT_MARKER = {"binary": "o", "fourclass": "s", "structured": "^", "reasoning": "D"}
+
+
+def fig10(runs):
+    """Qwen frame-count effect at n=8/16/64, all four prompts, entire condition."""
+    sub = runs[(runs.model == "qwen") & (runs.condition == "entire")
+               & runs.frames.isin([8, 16, 64]) & (runs.n_valid >= MIN_VALID)].copy()
+    sub["above"] = sub.acc - sub.prompt.map(chance_of)
+    agg = sub.groupby(["activity", "prompt", "frames"]).above.mean().reset_index()
+
+    fig, axes = plt.subplots(1, 2, figsize=(9.6, 4.4), sharey=True)
+    for i, activity in enumerate(["climbing", "dance"]):
+        ax = axes[i]
+        a = agg[agg.activity == activity]
+        for p in PROMPTS:
+            g = a[a.prompt == p].sort_values("frames")
+            if g.empty:
+                continue
+            ax.plot(g.frames, g.above, color=QWEN, alpha=0.85, linewidth=1.8,
+                    marker=PROMPT_MARKER[p], markersize=6.5, label=PROMPT_LABEL[p])
+        ax.axhline(0, color=CHANCE, linewidth=1.2, zorder=1)
+        ax.set_xscale("log", base=2)
+        ax.set_xticks([8, 16, 64])
+        ax.set_xticklabels(["8", "16", "64"])
+        ax.set_title(f"{activity.capitalize()}", fontsize=11)
+        style(ax, ylabel="Accuracy above chance (pp)" if i == 0 else None, xlabel="Frames sampled")
+    axes[1].legend(frameon=False, fontsize=8.5, loc="upper right")
+    fig.suptitle("Qwen2.5-VL: more frames does not close the gap to chance",
+                 y=1.02, fontsize=12)
+    fig.text(0.5, -0.04,
+             "Entire-clip condition, exo+ego views averaged. Chance is subtracted per task "
+             "(50% binary, 25% four-class/structured/reasoning). Points below zero are below-chance.",
+             ha="center", fontsize=8.5, color=INK2)
+    fig.tight_layout()
+    save(fig, "fig10_qwen_n64")
+
+
+# ------------------------------------------------------------------ fig 11 --
+def fig11(runs):
+    """Frame-count effect extended to n=64: same design as fig2, x=8/16/64 (log scale)."""
+    fig, axes = plt.subplots(1, 2, figsize=(9.6, 4.2), sharey=True)
+    frame_ticks = [8, 16, 64]
+    for i, activity in enumerate(["climbing", "dance"]):
+        ax = axes[i]
+        sub = runs[(runs.activity == activity) & runs.prompt.isin(FOURWAY)
+                   & runs.frames.isin(frame_ticks) & (runs.n_valid >= MIN_VALID)]
+        for model in ["qwen", "videollava"]:
+            ms = sub[sub.model == model]
+            for key, g in ms.groupby(["prompt", "condition", "view"]):
+                g = g.sort_values("frames")
+                if len(g) > 1:
+                    ax.plot(g.frames, g.acc, color=MODEL_COLOR[model], alpha=0.25, linewidth=1)
+            mean = ms.groupby("frames").acc.mean()
+            ax.plot(mean.index, mean.values, color=MODEL_COLOR[model], linewidth=2.6,
+                    marker="o", markersize=6, label=MODEL_NAME[model], zorder=4)
+        ax.axhline(25, color=CHANCE, linestyle="--", linewidth=1.1)
+        ax.set_xscale("log", base=2)
+        ax.set_xticks(frame_ticks)
+        ax.set_xticklabels([str(f) for f in frame_ticks])
+        ax.set_ylim(0, 60)
+        ax.set_title(f"{activity.capitalize()}: four-class accuracy", fontsize=10.5)
+        style(ax, ylabel="Accuracy (%)" if i == 0 else None, xlabel="Frames sampled")
+        if i == 0:
+            ax.legend(frameon=False, fontsize=9, loc="upper left")
+        ax.text(70, 25, "chance", fontsize=8, color=CHANCE, va="center")
+    fig.suptitle("Frame count up to 64: more frames still does not improve accuracy",
+                 y=1.02, fontsize=12)
+    fig.text(0.5, -0.04,
+             "Video-LLaVA has no 64-frame runs, so its line stops at 16. Points are mean accuracy "
+             "across the three four-class prompts (entire+trimmed, exo+ego).",
+             ha="center", fontsize=8.5, color=INK2)
+    fig.tight_layout()
+    save(fig, "fig11_frame_count_effect_n64")
+
+
 def main():
     df = load()
     runs = runs_table(df)
@@ -546,6 +622,8 @@ def main():
     fig7(runs)
     fig8(df)
     fig9(df)
+    fig10(runs)
+    fig11(runs)
 
 
 if __name__ == "__main__":

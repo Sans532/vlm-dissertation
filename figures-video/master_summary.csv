@@ -1,35 +1,35 @@
-activity,model,sampling,prompt,view,n,n_valid,n_correct,acc,bal,invalid_rate
-climbing,gemini,native video,binary,ego,50,50,38,76.0,76.0,0.0
-climbing,gemini,native video,binary,exo,50,50,30,60.0,60.0,0.0
-climbing,gemini,native video,fourclass,ego,100,100,32,32.0,32.0,0.0
-climbing,gemini,native video,fourclass,exo,100,100,26,26.0,26.0,0.0
-climbing,gemini,native video,reasoning,ego,100,99,26,26.3,26.8,1.0
-climbing,gemini,native video,reasoning,exo,100,100,28,28.0,28.0,0.0
-climbing,gemini,native video,structured,ego,100,100,31,31.0,31.0,0.0
-climbing,gemini,native video,structured,exo,100,100,33,33.0,33.0,0.0
-climbing,qwen3vl,adaptive frames,binary,ego,50,50,25,50.0,50.0,0.0
-climbing,qwen3vl,adaptive frames,binary,exo,50,50,27,54.0,54.0,0.0
-climbing,qwen3vl,adaptive frames,fourclass,ego,100,100,37,37.0,37.0,0.0
-climbing,qwen3vl,adaptive frames,fourclass,exo,100,100,26,26.0,26.0,0.0
-climbing,qwen3vl,adaptive frames,reasoning,ego,100,74,23,31.1,31.0,26.0
-climbing,qwen3vl,adaptive frames,reasoning,exo,100,90,23,25.6,25.6,10.0
-climbing,qwen3vl,adaptive frames,structured,ego,100,99,25,25.3,25.6,1.0
-climbing,qwen3vl,adaptive frames,structured,exo,100,100,27,27.0,27.0,0.0
-climbing,qwen3vl-native,native video (partial),binary,ego,12,12,6,50.0,50.0,0.0
-climbing,qwen3vl-native,native video (partial),binary,exo,12,12,6,50.0,50.0,0.0
-dance,gemini,native video,binary,ego,50,50,26,52.0,52.0,0.0
-dance,gemini,native video,binary,exo,50,50,30,60.0,60.0,0.0
-dance,gemini,native video,fourclass,ego,100,100,21,21.0,21.0,0.0
-dance,gemini,native video,fourclass,exo,100,100,24,24.0,24.0,0.0
-dance,gemini,native video,reasoning,ego,100,98,23,23.5,23.1,2.0
-dance,gemini,native video,reasoning,exo,100,100,32,32.0,32.0,0.0
-dance,gemini,native video,structured,ego,100,100,27,27.0,27.0,0.0
-dance,gemini,native video,structured,exo,100,100,24,24.0,24.0,0.0
-dance,qwen3vl,adaptive frames,binary,ego,50,50,25,50.0,50.0,0.0
-dance,qwen3vl,adaptive frames,binary,exo,50,50,25,50.0,50.0,0.0
-dance,qwen3vl,adaptive frames,fourclass,ego,100,100,28,28.0,28.0,0.0
-dance,qwen3vl,adaptive frames,fourclass,exo,100,100,23,23.0,23.0,0.0
-dance,qwen3vl,adaptive frames,reasoning,ego,100,84,26,31.0,31.4,16.0
-dance,qwen3vl,adaptive frames,reasoning,exo,100,99,26,26.3,26.3,1.0
-dance,qwen3vl,adaptive frames,structured,ego,100,99,24,24.2,24.0,1.0
-dance,qwen3vl,adaptive frames,structured,exo,100,100,30,30.0,30.0,0.0
+activity,model,sampling,prompt,view,n,n_valid,n_correct,acc,invalid_rate
+climbing,gemini,native video,binary,ego,50,50,38,76.0,0.0
+climbing,gemini,native video,binary,exo,50,50,30,60.0,0.0
+climbing,gemini,native video,fourclass,ego,100,100,32,32.0,0.0
+climbing,gemini,native video,fourclass,exo,100,100,26,26.0,0.0
+climbing,gemini,native video,reasoning,ego,100,99,26,26.3,1.0
+climbing,gemini,native video,reasoning,exo,100,100,28,28.0,0.0
+climbing,gemini,native video,structured,ego,100,100,31,31.0,0.0
+climbing,gemini,native video,structured,exo,100,100,33,33.0,0.0
+climbing,qwen3vl,adaptive frames,binary,ego,50,50,25,50.0,0.0
+climbing,qwen3vl,adaptive frames,binary,exo,50,50,27,54.0,0.0
+climbing,qwen3vl,adaptive frames,fourclass,ego,100,100,37,37.0,0.0
+climbing,qwen3vl,adaptive frames,fourclass,exo,100,100,26,26.0,0.0
+climbing,qwen3vl,adaptive frames,reasoning,ego,100,74,23,31.1,26.0
+climbing,qwen3vl,adaptive frames,reasoning,exo,100,90,23,25.6,10.0
+climbing,qwen3vl,adaptive frames,structured,ego,100,99,25,25.3,1.0
+climbing,qwen3vl,adaptive frames,structured,exo,100,100,27,27.0,0.0
+climbing,qwen3vl-native,native video (partial),binary,ego,12,12,6,50.0,0.0
+climbing,qwen3vl-native,native video (partial),binary,exo,12,12,6,50.0,0.0
+dance,gemini,native video,binary,ego,50,50,26,52.0,0.0
+dance,gemini,native video,binary,exo,50,50,30,60.0,0.0
+dance,gemini,native video,fourclass,ego,100,100,21,21.0,0.0
+dance,gemini,native video,fourclass,exo,100,100,24,24.0,0.0
+dance,gemini,native video,reasoning,ego,100,98,23,23.5,2.0
+dance,gemini,native video,reasoning,exo,100,100,32,32.0,0.0
+dance,gemini,native video,structured,ego,100,100,27,27.0,0.0
+dance,gemini,native video,structured,exo,100,100,24,24.0,0.0
+dance,qwen3vl,adaptive frames,binary,ego,50,50,25,50.0,0.0
+dance,qwen3vl,adaptive frames,binary,exo,50,50,25,50.0,0.0
+dance,qwen3vl,adaptive frames,fourclass,ego,100,100,28,28.0,0.0
+dance,qwen3vl,adaptive frames,fourclass,exo,100,100,23,23.0,0.0
+dance,qwen3vl,adaptive frames,reasoning,ego,100,84,26,31.0,16.0
+dance,qwen3vl,adaptive frames,reasoning,exo,100,99,26,26.3,1.0
+dance,qwen3vl,adaptive frames,structured,ego,100,99,24,24.2,1.0
+dance,qwen3vl,adaptive frames,structured,exo,100,100,30,30.0,0.0

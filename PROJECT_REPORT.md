@@ -1,6 +1,8 @@
 # VLM Skill-Level Assessment — Project Summary
 
-*Compiled 2026-08-06. This file is a working reference for writing the dissertation report: what the project is, what was built, every experiment run, the results that survived data-quality review, and section-by-section writing guidance.*
+*Compiled 2026-08-06, last touched 2026-08-07. This file is a working reference for writing the dissertation report: what the project is, what was built, every experiment run, the results that survived data-quality review, and section-by-section writing guidance.*
+
+> **⚠ Status as of 2026-08-15 — this file is behind the project.** Since the 2026-08-07 pass, the project gained: a rescored, pipeline-generated figure set (`figures-frame_count/`, `figures-video/`, added 2026-08-13) that supersedes the manual accuracy numbers below wherever they differ; a simplified results digest at `RESULTS_SUMMARY_TABLES.md` (2026-08-13); a full results/discussion source document at `CHAPTER_RESULTS_AND_DISCUSSION.md` (2026-08-13) that now does the job of §7 below in more detail and with rescored numbers; a 64-frame Qwen2.5-VL climbing condition and a per-clip best-exo-camera probe (both added 2026-08-09/12, summarized in §3.2 below); a text-only "commentary" control (added 2026-08-13); and a ~4×-scale (n=389) generalization check. `DISSERTATION_RESULTS.md` (root) is the fullest, most current single source of numbers — treat it, not this file, as canonical when the two disagree. **For writing the actual dissertation, start from `CHAPTER_RESULTS_AND_DISCUSSION.md` and `RESULTS_SUMMARY_TABLES.md`; use this file for the original project narrative/methodology framing in §1-§2 and §6, which are still accurate.**
 
 ---
 
@@ -90,6 +92,12 @@ Two duplicate/alternate runs worth noting, both found only in the raw results di
 - **`binary_n8_qwen_ego.csv` / `binary_n8_qwen_exo.csv`** — a separate 8-frame entire binary run, not the one cited above; reproduces the identical 50% Novice-collapse pattern (25/25 Novice, 0/25 Expert) on both views.
 
 **Pattern**: Qwen2.5-VL has a strong "Novice" prior for climbing regardless of frame count (8/16/32) or trim condition — binary framing collapses completely; fourclass/reasoning/structured only partially escape the prior, and only ever populate Novice + Intermediate Expert, never Early or Late Expert (with the single exception of the patched 16-entire-exo reasoning run above).
+
+**3.2b New since 2026-08-09 (not in the 2026-08-07 pass): 64-frame condition and per-clip best-exo-camera probe, both climbing-only.**
+
+- **64 frames (8× the standard count), entire clip.** Binary still collapses to 100% Novice at every view (50%, unchanged from 8/16/32). Fourclass/structured stay flat (20-26%, same band as 8/16 frames). The one genuine frame-count effect in the whole project: **reasoning-exo rises from 18% (at both 8 and 16 frames) to 32% at 64 frames** — the highest overall Qwen2.5-VL climbing accuracy found anywhere, driven by the collapse target shifting from Novice to Early/Intermediate Expert (Novice predicted 0/25 times at 64 frames, vs. dominating at 8/16 frames) rather than the model actually resolving skill level. Reasoning-ego reaches 29% the same way. Source: `diss_climb/results/qwen/qwen_climbing_entire_n64_*.csv`.
+- **Per-clip best-exo-camera selection (`bestexo`)**: instead of a fixed `cam01` exo view, each clip uses its annotated best-exo camera (cam03 ×23, cam02 ×21, cam01 ×5, cam04 ×1), 8 frames, entire clip, binary + reasoning only. Binary: identical 100% Novice collapse (50%). Reasoning: 24%, within the same 16-23% band as the fixed-cam01 exo reasoning runs — camera *selection* doesn't rescue results any more than camera *placement* did (§5.4). Source: `diss_climb/results/qwen/qwen_climbing_bestexo_n8_*.csv`.
+- A parallel n=64 run also exists for **dance** (`diss_dance/results/qwen/qwen_dance_entire_n64_*.csv`, added 2026-08-14) and, as of 2026-08-18, is scored and written up — see `DISSERTATION_RESULTS.md` §2.2.4. Unlike climbing, dance gets no benefit from 64 frames: every prompt/view either stays flat or drops below its 8/16-frame value (reasoning-exo 32%→26%→20%; structured-exo 32%→41%→27%). Binary and ego-view fourclass/reasoning collapse to 100% Novice, same as climbing.
 
 ### 3.3 VideoLLaVA — usable subset only
 
@@ -225,6 +233,15 @@ These are all Qwen (2.5-VL unless noted) cross-domain / ablation tests run after
 
 - **Pattern**: near-chance overall (25% ≈ 4-class chance, but this is *binary* framing so 25% is well below the 50% binary chance rate), and the failure is not uniform — **Music and Soccer are total failures (0-5/20-25)** while **Basketball and Cooking retain some signal**. This suggests the model's weak skill-judgment ability, such as it is, may be tied to activities with clearer visible object-interaction cues (a ball, a knife) rather than pure whole-body motion quality (music, soccer footwork) — worth flagging as a hypothesis for future work rather than a settled finding.
 
+### 5.6 New since 2026-08-13: text-only "commentary" control (no video at all)
+
+- **Question**: given only an expert's written coaching commentary about a climbing attempt — no video, no frames — can a VLM's language backbone recover skill level from text alone? If text succeeds where video fails, the failure mode is specifically about visual grounding; if text also fails, skill level may not be reliably recoverable in *any* modality this project tests.
+- Single-view (no ego/exo — no video exists), 4-class, 25 clips/class = 100 total. Result files predate this write-up (generated 2026-07-20) but were only picked up into the project's numbers in the 2026-08-13 pass.
+- **Qwen2.5-VL-7B text-only**: 26.0% — in the same band as its video fourclass results (~27% at 16fr fourclass-exo, 32% at the 64fr reasoning-exo outlier above). Virtually never predicts Novice (3/100), mirroring its egocentric-video behavior.
+- **VideoLLaVA text-only**: 33.0% — this is the model's **second-best fourclass-family result of any modality**, video included (best video ≈30%, structured/trimmed/ego). Predicts Novice far more than Qwen (35/100), mirroring its non-collapsed video runs.
+- **Reading**: text does not clearly help or hurt relative to video — both modalities land in the same ~20-33% band. This supports a throughline for the discussion chapter: the bottleneck isn't specifically *visual* grounding (describing exactly what an assessor would need to see doesn't help either), pointing to a more fundamental difficulty mapping either modality onto this four-class proficiency scale.
+- **Caveat**: a text-only *binary* variant (`commentary/qwen_binary.py`) was written 2026-08-13 as code only, with no scored output as of the 2026-08-13 `DISSERTATION_RESULTS.md` pass — but the run completed by 2026-08-14 (`commentary/commentary_binary.csv` and SLURM logs now exist in the repo, commit `d805dc9`). That result is not yet scored/written up anywhere — another open gap for the next pass.
+
 ---
 
 ## 6. Hypotheses tested, in chronological order (for the report's narrative arc)
@@ -242,6 +259,7 @@ Reconstructed from the commit history and script comments — useful for writing
 9. **H9 — Cross-domain generalization**: do climbing/dance findings hold on unrelated skill domains (basketball, JIGSAWS surgery, mixed music/cooking/soccer)? → basketball, JIGSAWS, mixed commits. **Finding: mostly no signal beyond majority-class artifacts (JIGSAWS 65.5% is a Novice-collapse coincidence); Basketball and Cooking retain slightly more signal than Music/Soccer in the mixed test.**
 10. **H10 — Label granularity**: is the 4-class skill scale too fine for the model to resolve (Early vs Intermediate Expert especially)? → 3-class collapse experiment. Exploratory; supports the general finding that mid-tier "Expert" sub-levels are not distinguished by any model tested.
 11. **H11 — Newer model generation**: does a newer, non-fine-tuned Qwen3-VL-8B improve on Qwen2.5-VL-7B's climbing/dance results, and does its native video pipeline work? → Qwen3-VL commits. **Finding: native video pipeline has an fps=24 OOM bug and was abandoned (only 12/50 clips completed); frame-extraction mode gives modest gains — best-ever fourclass climbing accuracy (37%, ego) and the first meaningful Late Expert predictions, but binary climbing is still largely collapsed.**
+12. **H12 — Text-only control** (added 2026-08-13, unnumbered in original narrative — belongs at the end): if the model can't recover skill level from video, can it recover it from an expert's written commentary alone, with no visual input at all? → `commentary/` scripts and CSVs. **Finding: text-only accuracy (26-33%) lands in the same band as video, neither clearly better nor worse — the bottleneck is not specifically visual grounding.** See §5.6.
 
 ---
 
@@ -285,8 +303,17 @@ Reconstructed from the commit history and script comments — useful for writing
 
 ## 8. Where to find things
 
-- **Computed accuracy for Gemini/Qwen2.5-VL/VideoLLaVA (climbing+dance)**: `statistics/master_results_summary.csv`, significance tests in `statistics/statistical_significance_summary.csv`.
+**Current canonical sources (2026-08-13/14, supersede the rest of this section where they overlap):**
+- **Full results/discussion write-up, ready to draft the chapter from**: `CHAPTER_RESULTS_AND_DISCUSSION.md` (project root) — hypotheses, every result, figures/tables to insert, all problems encountered, all numbers re-verified against raw CSVs and rescored.
+- **Simplified digest of the above**: `RESULTS_SUMMARY_TABLES.md` (project root) — headline-per-model, collapse patterns, frame-count ablation, cross-domain, text-only control, all in short tables.
+- **Fullest raw numeric source, updated incrementally**: `DISSERTATION_RESULTS.md` (project root) — treat as canonical when it disagrees with anything in this file.
+- **Rescored pipeline + figures for fixed-frame-sampling models (Qwen2.5-VL, VideoLLaVA)**: `figures-frame_count/` — `rescore.py` re-parses every raw answer (stored `*_predicted`/`*_correct` columns are unreliable, see `figures-frame_count/README.md`), `make_figures.py` renders `fig01`-`fig11`, output in `master_rows.csv`/`master_summary.csv`. Run under `.venv-stats/bin/python` per [[figures_pipeline]] memory. Manifest scope: 8/16 frames for both models, plus 64-frame Qwen2.5-VL for both climbing and dance (§3.2b) — `fig11_frame_count_effect_n64` plots the 8/16/64 comparison for both activities. 32-frame binary remains excluded (see §5.4/§5).
+- **Same, for video-native/adaptive-sampling models (Gemini, Qwen3-VL)**: `figures-video/` — `rescore_video.py` (imports the frame-count pipeline's parser directly, so numbers are comparable across both folders), `make_figures_video.py` renders `vfig01`-`vfig10`.
+
+**Older / still-valid sources:**
+- **Original computed accuracy for Gemini/Qwen2.5-VL/VideoLLaVA (climbing+dance)**: `statistics/master_results_summary.csv`, significance tests in `statistics/statistical_significance_summary.csv` — pre-rescore numbers; prefer `figures-frame_count/master_summary.csv` / `figures-video/master_summary.csv` for anything the rescore pipeline covers.
 - **Data-quality audit**: `results_review_notes.md` (project root).
 - **Diagnostic per-frame probes**: `diss_climb/results/diagnostics_all_levels/*.txt`.
-- **Charts**: `visualizations/chart1_label_collapse_heatmap.png` (directly supports the collapse discussion), `chart2_accuracy_vs_chance.png`, `chart3_cross_domain_scatter.png`, `chart4_fourclass_distribution.png`, `chart5_frame_trim_ablation.png`, `chart6_exo_ego_asymmetry.png`, plus `binary_climbing_accuracy.png`.
-- **Qwen3-VL, mixed-activity, JIGSAWS, basketball, cam03, 3-class accuracy**: computed fresh for this report (§3.4, §5) — not yet in `master_results_summary.csv`; consider adding them there via `statistics/build_master_summary.py` before final submission so all numbers come from one reproducible pipeline.
+- **Older charts** (pre-rescore, largely superseded by `figures-frame_count`/`figures-video`): `visualizations/chart1_label_collapse_heatmap.png`, `chart2_accuracy_vs_chance.png`, `chart3_cross_domain_scatter.png`, `chart4_fourclass_distribution.png`, `chart5_frame_trim_ablation.png`, `chart6_exo_ego_asymmetry.png`, `binary_climbing_accuracy.png`.
+- **Not-yet-in-any-pipeline**: the text-only commentary binary run (`commentary/commentary_binary.csv`) exists on disk but is unscored/unwritten-up as of 2026-08-15 — see §5.6. (Dance 64-frame Qwen2.5-VL results were the other item here as of 2026-08-15; scored and written up 2026-08-18 — see §3.2b, `DISSERTATION_RESULTS.md` §2.2.4, and `figures-frame_count/fig11_frame_count_effect_n64`.)
+- **Qwen3-VL, mixed-activity, JIGSAWS, basketball, cam03, 3-class, bestexo, n64, benchmark_400, commentary accuracy**: all now folded into `DISSERTATION_RESULTS.md` and `CHAPTER_RESULTS_AND_DISCUSSION.md` via a single shared parser (see `DISSERTATION_RESULTS.md`'s changelog) — no longer only "computed fresh for this report."

@@ -1,0 +1,155 @@
+% =====================================================================
+%  Chapter 5 -- Conclusions
+%
+%  This file is a fragment, not a standalone document. Either paste it
+%  into dissertation_chapters.tex immediately before \bibliographystyle,
+%  or keep it separate and pull it in with:
+%      \input{chapter5_conclusions}
+%  It uses the \runin{} heading command defined in that file's preamble.
+% =====================================================================
+
+\chapter{Conclusions}
+
+% ---------------------------------------------------------------------
+\section{Answering the research question}
+% ---------------------------------------------------------------------
+
+This dissertation asked whether vision-language models can judge human skill
+level from video, zero-shot, and --- if they fail --- whether that failure is
+perceptual or linguistic. The answer to the first part is no. Across four
+models, two video-input paradigms, four prompt formats, two viewpoints,
+three frame budgets, two trimming conditions and seven activity domains, no
+zero-shot configuration produces a reliable, non-degenerate above-chance
+result on four-class skill assessment. The one genuine above-chance result
+in the project --- Gemini's 76\% on binary climbing, egocentric --- is a
+single condition out of roughly 130, surrounded by chance-level neighbours
+from the same model on the same task.
+
+The answer to the second part is that the failure is linguistic, and located
+at the language-generation step rather than anywhere upstream of it. A
+linear probe over frozen CLIP features classifies the same clips at 67.0\%
+where every VLM tested scores 24--25\%, so the discriminative signal is
+present and linearly accessible in the visual representation before it
+reaches a language model. A text-only control given genuine expert
+commentary, with no video at all, collapses into the same chance-level band.
+Vision alone succeeds; vision-to-language fails; language-to-language fails.
+The bottleneck is not what the models see, nor even what they are told, but
+what the generation step does with either.
+
+% ---------------------------------------------------------------------
+\section{Achievement of the original objectives}
+% ---------------------------------------------------------------------
+
+Every one of the eight hypotheses in Table~\ref{tab:hypotheses} was tested as
+specified. Three were supported: models do not exceed chance zero-shot (H1);
+the failure takes the form of label collapse rather than random guessing,
+with 43\% of conditions assigning a single label to 87--100\% of clips (H2);
+and a skill-discriminative signal survives in the visual features where
+language output fails, recovered by the CLIP probe at 67.0\% (H7).
+
+Five were rejected. An eightfold increase in frame budget does not improve
+accuracy (H3). Trimming to the annotated task window helps about as often as
+it hurts (H4). The exocentric viewpoint does not consistently beat the
+egocentric one, and the direction of the effect reverses between models and
+between activities (H5). Performance does not differ meaningfully across
+domains, the collapse holding across climbing, dance, basketball, surgical
+suturing, music, cooking and soccer (H6). And skill level is not recoverable
+from expert language alone (H8) --- the outcome the localisation argument
+required, but not the one the hypothesis predicted.
+
+Both outcomes constitute completion of the objectives. A dissertation built
+to test hypotheses is not required to have them resolve in one direction,
+and these rejections are findings rather than shortfalls. H3 to H6
+successively eliminate every input-side explanation for the failure ---
+frame budget, irrelevant footage, camera placement, sample size, activity
+domain --- and it is that elimination which makes the H7 and H8 controls
+interpretable. Had any of the five been supported, the language-bottleneck
+claim of §4.7 would not have been available.
+
+% ---------------------------------------------------------------------
+\section{Contributions}
+% ---------------------------------------------------------------------
+
+\runin{Localisation of the failure to language generation.} The
+triangulation of H7 and H8 --- a frozen-CLIP probe succeeding where the VLMs
+fail, paired with a text-only control that fails even when handed the
+evidence in expert prose --- rules out the visual encoder, rules out the
+availability of the evidence in linguistic form, and leaves the conversion
+of either into a categorical judgement. This supplies a mechanism rather
+than a score, on a task where the discriminative signal is purely dynamic
+and evaluative.
+
+\runin{The Video-LLaVA context-ceiling arithmetic.} Sixteen frames at 256
+visual tokens each is exactly 4{,}096 tokens --- the entire context window
+of a Vicuna-7B backbone --- before a single word of prompt text is added.
+This is a general constraint on any fixed-token-per-frame video-language
+model with a comparable budget, not a property of these particular results,
+and it means ``increase the frame count'' is not a free parameter for such
+architectures. The practical danger is that the failure is silent: one
+script aborted on an explicit guard, while another proceeded with an
+over-length prompt and emitted parseable-looking garbage.
+
+\runin{Paired accuracy-and-distribution reporting.} The JIGSAWS result ---
+65.5\% accuracy from a model that answered ``Novice'' on all 29 clips
+against a 19/10 imbalanced ground truth --- shows concretely why a bare
+accuracy figure is not evidence of discriminative judgement on a
+closed-label task. Pairing every accuracy with per-class recall and the
+predicted-label distribution is a transferable convention for anyone
+evaluating a generative model against a small fixed label set, independent
+of skill assessment and of video.
+
+% ---------------------------------------------------------------------
+\section{Limitations}
+% ---------------------------------------------------------------------
+
+Beyond the caveats recorded in §4.9, three limitations bound these
+conclusions at the level of the project as a whole.
+
+The evaluation is zero-shot throughout: no model was fine-tuned and no
+labelled exemplars appeared in any prompt, so nothing here speaks to whether
+supervised alignment would close the gap the CLIP probe identifies. The
+claim is that the zero-shot generation step fails, not that no generation
+step could succeed.
+
+Architectural diversity is narrower than four models suggests. Qwen2.5-VL-7B
+and Qwen3-VL-8B share a lineage, so the finding is triangulated across three
+distinct families --- Qwen, the Vicuna-backed Video-LLaVA, and Gemini ---
+rather than four independent systems. That the collapse target
+\emph{relocates} across generations rather than diminishing is suggestive,
+but two points on one lineage is a thin basis for a claim about generational
+trends.
+
+The ground truth is participant-level. EgoExo4D assigns a proficiency label
+to a person on the basis of training history and demonstrated competence,
+and every take that person recorded inherits it, so a take in which someone
+performs atypically is invisible to the scheme. The benchmark therefore
+carries some irreducible uncertainty about the clip being judged, not only
+about the model judging it --- of which the principled refusals in §4.8,
+where Gemini observed that an egocentric clip did not depict the annotated
+activity at all, are the visible edge.
+
+% ---------------------------------------------------------------------
+\section{Future work}
+% ---------------------------------------------------------------------
+
+Two directions follow directly from findings already established here.
+
+The first is supervised alignment. Since a linear probe over frozen features
+already recovers 67.0\% from representations the VLMs fail to use, the
+natural next experiment trains only the projection layer or the language
+head against proficiency labels, leaving the vision encoder untouched. The
+prediction implied by §4.7 is specific and falsifiable: because the deficit
+is in the mapping rather than in the representation, alignment at the
+projection should recover a large fraction of the probe's accuracy at a
+small fraction of the cost of end-to-end fine-tuning.
+
+The second is generality. The language-generation bottleneck was established
+for one evaluative-judgement task. Whether it holds for others sharing the
+same structure --- a visual scene, a continuous underlying quality, and a
+categorical verdict the model must commit to, as in aesthetic quality
+judgement or visual safety-compliance checking --- or whether it is specific
+to the fine-grained kinematic evidence separating a novice climber from an
+expert one, is open. The method transfers without modification: the same
+three controls apply to any task in that family, and would establish whether
+this dissertation has identified a property of skill assessment or a
+property of evaluative judgement in vision-language models generally.

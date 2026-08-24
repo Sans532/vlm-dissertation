@@ -36,10 +36,14 @@ def add(path, activity, model, condition, frames, prompt, schema):
 # --- climbing / qwen ---
 add("diss_climb/results/qwen/qwen_climbing_entire_n8_binary.csv", "climbing", "qwen", "entire", 8, "binary", "binary_n8_qwen")
 add("diss_climb/results/qwen/qwen_climbing_entire_n16_binary.csv", "climbing", "qwen", "entire", 16, "binary", "paired_short")
+add("diss_climb/results/qwen/qwen_climbing_entire_n64_binary.csv", "climbing", "qwen", "entire", 64, "binary", "paired_short")
 for n in (8, 16):
     add(f"diss_climb/results/qwen/qwen_climbing_entire_n{n}_fourclass.csv", "climbing", "qwen", "entire", n, "fourclass", "paired_short")
     add(f"diss_climb/results/qwen/qwen_climbing_entire_n{n}_structured.csv", "climbing", "qwen", "entire", n, "structured", "paired_full")
     add(f"diss_climb/results/qwen/qwen_climbing_entire_n{n}_reasoning.csv", "climbing", "qwen", "entire", n, "reasoning", "paired_full")
+add("diss_climb/results/qwen/qwen_climbing_entire_n64_fourclass.csv", "climbing", "qwen", "entire", 64, "fourclass", "paired_full")
+add("diss_climb/results/qwen/qwen_climbing_entire_n64_structured.csv", "climbing", "qwen", "entire", 64, "structured", "paired_full")
+add("diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv", "climbing", "qwen", "entire", 64, "reasoning", "paired_full")
 for n in (8, 16):
     add(f"diss_climb/results/qwen/trimmed/qwen_climbing_trimmed_exo_n{n}_binary.csv", "climbing", "qwen", "trimmed", n, "binary", ("single", "exo"))
     add(f"diss_climb/results/qwen/trimmed/qwen_climbing_trimmed_ego_n{n}_binary.csv", "climbing", "qwen", "trimmed", n, "binary", ("single", "ego"))
@@ -70,6 +74,10 @@ for cond, sub in (("entire", ""), ("trimmed", "trimmed/")):
         add(f"diss_dance/results/qwen/{sub}qwen_dance_{cond}_n{n}_fourclass.csv", "dance", "qwen", cond, n, "fourclass", "paired_short")
         add(f"diss_dance/results/qwen/{sub}qwen_dance_{cond}_n{n}_structured.csv", "dance", "qwen", cond, n, "structured", "paired_full")
         add(f"diss_dance/results/qwen/{sub}qwen_dance_{cond}_n{n}_reasoning.csv", "dance", "qwen", cond, n, "reasoning", "paired_full")
+add("diss_dance/results/qwen/qwen_dance_entire_n64_binary.csv", "dance", "qwen", "entire", 64, "binary", "paired_short")
+add("diss_dance/results/qwen/qwen_dance_entire_n64_fourclass.csv", "dance", "qwen", "entire", 64, "fourclass", "paired_full")
+add("diss_dance/results/qwen/qwen_dance_entire_n64_structured.csv", "dance", "qwen", "entire", 64, "structured", "paired_full")
+add("diss_dance/results/qwen/qwen_dance_entire_n64_reasoning.csv", "dance", "qwen", "entire", 64, "reasoning", "paired_full")
 
 # --- dance / videollava ---
 for cond, sub in (("entire", ""), ("trimmed", "trimmed/")):

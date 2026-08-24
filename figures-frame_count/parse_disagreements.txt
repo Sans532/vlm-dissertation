@@ -78,6 +78,238 @@ Here's a breakdown of the observations:
 
 * **Movement Fluency:** The climber's movements are fluid and controlled. They transition smoothly between different holds and maintain a consistent pace. There are no abrupt or jerky mo
 
+[diss_climb/results/qwen/qwen_climbing_entire_n64_structured.csv | exo] stored='Early Expert' mine='Novice' gt='Late Expert'
+  RAW: Observations: The person is climbing a rock wall, using both hands and feet to grip the holds. They are moving up the wall, reaching for higher holds with their right hand while their left hand is on a lower hold. Their legs are bent at the knees, and they are stepping up onto the next hold with their right foot.
+
+Errors: The person's movements appear to be somewhat slow and deliberate, suggesting that they may not be an experienced climber. There is no indication of any errors in their technique, but their pace suggests that they may be a novice or early expert climber.
+
+Skill Level: Novice /
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: The climber appears to be at the Intermediate Expert level based on the following observations:
+
+1. **Body Alignment**: The climber demonstrates good body alignment throughout the climb. They maintain proper posture and use their core strength effectively to distribute weight and balance.
+
+2. **Movement Fluency**: The climber's movements are fluid and controlled. There is no hesitation or awkwardness in transitioning between holds, indicating a high level of comfort and familiarity with the climbing route.
+
+3. **Technical Precision**: The climber shows excellent technical precision by selectin
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Intermediate Expert' gt='Novice'
+  RAW: The individual in the video appears to be at an intermediate expert skill level based on the following observations:
+
+1. **Body Alignment**: The climber demonstrates good body alignment throughout the climbing sequence. Her posture is stable and controlled, indicating a strong understanding of proper climbing mechanics. She maintains a balanced center of gravity, which is crucial for efficient movement and safety.
+
+2. **Movement Fluency**: The climber's movements are fluid and well-coordinated. There is no hesitation or awkwardness in her transitions between holds, suggesting that she has prac
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+1. **Body Alignment**: The climber demonstrates good body alignment throughout the climb. They maintain a strong core and use their legs effectively for support while reaching for holds with their arms. This indicates a high level of control and understanding of proper climbing mechanics.
+
+2. **Movement Fluency**: The climber's movements are fluid and efficient. There are no abrupt or jerky motions, suggesting that they have developed a natural rhythm and timing in their climbing style.
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: The climber appears to be at the Intermediate Expert level based on the following observations:
+
+1. **Body Alignment**: The climber demonstrates good body alignment throughout the climb. They maintain a straight line from head to toe, which is crucial for efficient movement and balance. This indicates a strong understanding of proper climbing techniques.
+
+2. **Movement Fluency**: The climber's movements appear fluid and controlled. There are no abrupt or jerky motions, suggesting that they have developed a good sense of rhythm and timing in their climbing. This fluency is characteristic of cli
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+1. **Body Alignment**: The climber demonstrates good body alignment throughout the climb. They maintain a strong core and use their legs effectively for support while reaching for holds with their arms. This indicates a high level of control and understanding of proper climbing mechanics.
+
+2. **Movement Fluency**: The climber's movements are fluid and efficient. There are no signs of hesitation or awkwardness in their transitions between different holds. This suggests that they have pra
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | exo] stored='Early Expert' mine='Intermediate Expert' gt='Novice'
+  RAW: The person in the video appears to be a novice or early expert climber based on their technique and body alignment.
+
+Here's my reasoning:
+
+1. **Body Alignment**: The climber seems to have a basic understanding of proper climbing posture, but there are some areas for improvement. For instance, their knees are not fully extended, which can lead to inefficient use of energy and increased risk of injury. Additionally, their hips are not fully engaged, which can affect their ability to maintain balance and generate power.
+
+2. **Movement Fluency**: The climber's movements appear somewhat stiff and u
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | ego] stored='Early Expert' mine='Novice' gt='Novice'
+  RAW: The person in the video appears to be a novice or early expert climber based on the following observations:
+
+1. **Body Alignment**: The climber seems to be using basic techniques for climbing, which suggests they might not have advanced knowledge about optimal body positioning and alignment for efficient climbing.
+
+2. **Movement Fluency**: The movements appear somewhat unrefined and lack fluidity. This could indicate that the climber is still developing their muscle memory and coordination necessary for more fluent climbing.
+
+3. **Technical Precision**: The climber's technique looks basic, wit
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | exo] stored='Early Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: The person in the video appears to be a novice or early expert climber based on the following observations:
+
+1. **Body Alignment**: The climber's body alignment seems to be inconsistent and not fully optimized for climbing efficiency. For example, the climber's feet placement and hand positioning do not appear to be ideal for maintaining balance and momentum during the climb.
+
+2. **Movement Fluency**: The climber's movements seem somewhat stiff and ungraceful. There is a lack of fluidity in the transitions between different climbing techniques, which suggests that the climber may still be deve
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Early Expert' gt='Novice'
+  RAW: The person in the video appears to be a novice or early expert climber based on their technique and body alignment. Here's a breakdown of the observations:
+
+1. **Body Alignment**: The climber's body alignment seems to be inconsistent throughout the sequence. At times, her posture is not ideal for climbing, which could lead to inefficient use of energy and increased risk of injury. For example, in some frames, she is not maintaining a straight line with her body, which can cause strain on her muscles.
+
+2. **Movement Fluency**: The climber's movements appear somewhat stiff and ungraceful. There 
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: The climber appears to be at the Intermediate Expert level based on the following observations:
+
+1. **Body Alignment**: The climber demonstrates good body alignment throughout the climb. They maintain a straight line from head to toe, which is crucial for efficient movement and balance. This indicates a high level of control and understanding of proper climbing techniques.
+
+2. **Movement Fluency**: The climber's movements are fluid and confident. There are no signs of hesitation or awkwardness in their transitions between holds. This suggests that they have practiced these routes before and ha
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Early Expert' gt='Early Expert'
+  RAW: The person in the video appears to be a novice or early expert climber based on their technique and body alignment. Here's a breakdown of the observations:
+
+1. **Body Alignment**: The climber's body alignment seems to be inconsistent throughout the video. At times, her posture is not ideal for climbing, which could lead to inefficient use of energy and increased risk of injury. For example, she is seen leaning back excessively at one point, which might not be optimal for maintaining balance and control.
+
+2. **Movement Fluency**: The climber's movements appear somewhat stiff and ungraceful. The
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Early Expert' gt='Novice'
+  RAW: The person in the video appears to be a novice or early expert climber based on their technique and body alignment.
+
+Here's my reasoning:
+
+1. **Body Alignment**: The climber seems to have some difficulty maintaining proper body alignment while climbing. Their posture is not entirely straight, which can lead to inefficient use of energy and increased risk of injury. This suggests that they may still be developing their core strength and balance.
+
+2. **Movement Fluency**: The climber's movements appear somewhat stiff and ungraceful. There is room for improvement in fluidity and gracefulness, ind
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: The climber appears to be at an intermediate expert level based on the following observations:
+
+1. **Body Alignment**: The climber demonstrates good body alignment throughout the climb. They maintain proper posture and use their core strength effectively to distribute weight and balance.
+
+2. **Movement Fluency**: The climber's movements are fluid and controlled. There is no hesitation or awkwardness in transitioning between holds, indicating a high level of comfort and familiarity with the climbing route.
+
+3. **Technical Precision**: The climber shows excellent technical precision by selecting
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+1. **Body Alignment**: The climber demonstrates good body alignment throughout the climb. They maintain a strong core and use proper foot placement, which suggests they have a solid understanding of fundamental climbing techniques.
+
+2. **Movement Fluency**: The climber's movements appear fluid and controlled. There are no abrupt or jerky motions, indicating a high level of comfort and familiarity with the route. This fluency is characteristic of someone who has practiced the route multi
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: The climber appears to be at the Intermediate Expert level based on the following observations:
+
+1. **Body Alignment**: The climber maintains good body alignment throughout the climb, which is crucial for efficient movement and safety. This indicates a high level of technical proficiency.
+
+2. **Movement Fluency**: The climber demonstrates fluid and controlled movements, suggesting they have developed a good sense of rhythm and timing in their climbing technique. This fluency is characteristic of climbers who have practiced extensively and refined their skills.
+
+3. **Technical Precision**: The 
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Early Expert' gt='Novice'
+  RAW: The individual in the video appears to be a novice or early expert in rock climbing based on the following observations:
+
+1. **Body Alignment**: The climber's body alignment seems somewhat basic and unrefined. There is no indication of advanced techniques such as dynamic movement, efficient weight distribution, or precise foot placement that would be expected from someone with more experience.
+
+2. **Movement Fluency**: The movements appear slow and deliberate, lacking the fluidity and grace typically seen in more experienced climbers. This suggests that the climber may still be developing thei
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: The climber appears to be at the Intermediate Expert level based on the following observations:
+
+1. **Body Alignment**: The climber demonstrates good body alignment throughout the climb. They maintain proper posture and use their core strength effectively to distribute weight and balance.
+
+2. **Movement Fluency**: The climber's movements are fluid and controlled. There is no hesitation or awkwardness in their transitions between holds, indicating a high level of comfort and familiarity with the climbing route.
+
+3. **Technical Precision**: The climber exhibits precise hand placement and footwor
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: The climber appears to be at an intermediate expert level based on the following observations:
+
+1. **Body Alignment**: The climber demonstrates good body alignment throughout the climb. They maintain proper posture and use their core strength effectively to distribute weight and balance. This indicates a high level of control and understanding of body mechanics.
+
+2. **Movement Fluency**: The movements appear fluid and well-coordinated. The climber transitions between holds smoothly without hesitation or unnecessary adjustments. This suggests a high degree of practice and familiarity with the c
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: The climber appears to be at the Intermediate Expert level based on the following observations:
+
+1. **Body Alignment**: The climber demonstrates good body alignment throughout the climb. They maintain a strong core and use proper foot placement, which suggests they have a solid understanding of fundamental climbing techniques.
+
+2. **Movement Fluency**: The climber's movements appear fluid and controlled. There are no abrupt or jerky motions, indicating a high level of comfort and familiarity with the route. This fluency is characteristic of someone who has practiced extensively and can execute
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Early Expert' gt='Early Expert'
+  RAW: The person in the video appears to be a novice or early expert climber based on their technique and body alignment.
+
+Here's my reasoning:
+
+1. **Body Alignment**: The climber's body alignment seems to be inconsistent throughout the video. At times, they appear to be leaning too far forward or backward, which can lead to instability and increased risk of falling. This suggests that they may still be developing proper body positioning for climbing.
+
+2. **Movement Fluency**: The climber's movements seem somewhat stiff and ungraceful at times. There are moments where their movements appear to lack 
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: The climber appears to be at an intermediate expert level based on the following observations:
+
+1. **Body Alignment**: The climber demonstrates good body alignment throughout the climb. They maintain proper posture and use their core strength effectively to distribute weight and balance. This indicates a high level of control and understanding of fundamental climbing principles.
+
+2. **Movement Fluency**: The climber's movements are fluid and efficient. There is no hesitation or unnecessary motion, suggesting that they have developed a natural rhythm and timing in their climbing style. This flu
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | ego] stored='Late Expert' mine='Intermediate Expert' gt='Novice'
+  RAW: The climber appears to be at the Intermediate Expert level based on the following observations:
+
+1. **Body Alignment**: The climber demonstrates good body alignment throughout the climb. They maintain proper posture and use their core strength effectively to distribute weight and balance.
+
+2. **Movement Fluency**: The climber's movements are fluid and controlled. There is no hesitation or awkwardness in transitioning between holds, indicating a high level of comfort and familiarity with the climbing techniques.
+
+3. **Technical Precision**: The climber shows excellent technical precision by sel
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Intermediate Expert' gt='Novice'
+  RAW: The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+1. **Body Alignment**: The climber demonstrates good body alignment throughout the climb. They maintain a strong core and use proper foot placement, which suggests they have a solid understanding of the techniques required for climbing.
+
+2. **Movement Fluency**: The climber's movements appear fluid and controlled. There are no abrupt or jerky motions, indicating that they have practiced and refined their technique over time. This fluency is characteristic of someone who has reached an i
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+1. **Body Alignment**: The climber demonstrates good body alignment throughout the climb. Her core is engaged, and her movements are controlled, indicating a strong understanding of proper climbing techniques.
+
+2. **Movement Fluency**: The climber's movements are fluid and efficient. She transitions between holds smoothly without unnecessary hesitation or struggle, suggesting she has a good grasp of the route and its challenges.
+
+3. **Technical Precision**: The climber shows precise han
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+1. **Body Alignment**: The climber demonstrates good body alignment throughout the climb. They maintain a strong core and use proper foot placement and hand positioning to navigate the wall effectively. This indicates a high level of control and understanding of climbing techniques.
+
+2. **Movement Fluency**: The climber's movements are fluid and efficient. There are no signs of hesitation or awkwardness in their transitions between holds. This suggests that they have practiced these rou
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Intermediate Expert' gt='Novice'
+  RAW: The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+1. **Body Alignment**: The climber demonstrates good body alignment throughout the climb. They maintain a strong core engagement and proper posture, which is essential for efficient movement and safety.
+
+2. **Movement Fluency**: The climber's movements are fluid and controlled. There are no abrupt or jerky motions, indicating a high level of comfort and familiarity with the climbing route. The transitions between holds are smooth, suggesting a well-practiced technique.
+
+3. **Technical P
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+1. **Body Alignment**: The climber demonstrates good body alignment throughout the climb. They maintain a strong core and use their body weight effectively to navigate the wall. Their movements are controlled and purposeful, indicating a high level of understanding of proper climbing techniques.
+
+2. **Movement Fluency**: The climber's movements are fluid and efficient. There are no abrupt or jerky motions, suggesting that they have practiced and refined their technique over time. The tr
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | exo] stored='Early Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: The individual in the video appears to be a novice or early expert climber based on the following observations:
+
+1. **Body Alignment**: The climber's body alignment seems somewhat off, particularly in terms of posture and weight distribution. This could indicate that they are still developing their understanding of proper climbing techniques.
+
+2. **Movement Fluency**: The movements appear somewhat stiff and ungraceful. There is a lack of fluidity and smoothness in the climbing actions, which suggests that the climber may not have fully mastered the necessary skills for efficient and effective 
+
+[diss_climb/results/qwen/qwen_climbing_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Intermediate Expert' gt='Late Expert'
+  RAW: The climber in the video appears to be at an intermediate expert level based on the following observations:
+
+1. **Body Alignment**: The climber demonstrates good body alignment throughout the climb. They maintain a straight line from head to toe, which is essential for efficient movement and power generation. This indicates a high level of technical proficiency.
+
+2. **Movement Fluency**: The climber's movements are fluid and controlled. There are no abrupt or jerky motions, suggesting that they have developed a natural rhythm and timing for climbing. This fluency is characteristic of someone w
+
 [diss_climb/results/qwen/trimmed/qwen_climbing_trimmed_n8_structured.csv | exo] stored='Early Expert' mine='Novice' gt='Intermediate Expert'
   RAW: Observations: The person is climbing a rock wall. They are using both hands to grip the holds on the wall, and their feet are positioned on the wall as well. They appear to be moving upwards, but it is not clear how far they have climbed.
 
@@ -1268,6 +1500,103 @@ Here's the reasoning behind this assessment:
 * **Movement Fluency:** The dancer demonstrates fluidity in her movements, transitioning between steps and gestures smoothly without any noticeable hesitation or stiffness. This indicates a high level of comfort and familiarity with the choreography.
 
 * **Technica
+
+[diss_dance/results/qwen/qwen_dance_entire_n64_structured.csv | ego] stored='Early Expert' mine='Novice' gt='Novice'
+  RAW: Observations: The person is standing in front of a black curtain with white dots on it, holding a camera on a tripod. They appear to be adjusting the camera settings or preparing to take a photo. There are other people in the background, some of whom are also holding cameras. The setting appears to be indoors, possibly at an event or gathering.
+
+Errors: The person's movements are not particularly dynamic or expressive, suggesting they may be a novice or early expert in photography. There are no obvious errors in their technique, but their focus seems to be more on the technical aspects of the 
+
+[diss_dance/results/qwen/qwen_dance_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Early Expert' gt='Novice'
+  RAW: The person in the video appears to be a novice or early expert in their dance routine. Here’s a breakdown of the observations:
+
+1. **Body Alignment**: The individual seems to have some basic understanding of posture and alignment but may not yet have mastered the precise positioning required for more advanced techniques. There might be slight imbalances or inconsistencies in their stance.
+
+2. **Movement Fluency**: The movements appear somewhat fluid, indicating that the person has practiced the routine to some extent. However, there could be room for improvement in the smoothness and synchroni
+
+[diss_dance/results/qwen/qwen_dance_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Early Expert' gt='Novice'
+  RAW: The person in the video appears to be a novice or early expert in their dance routine. Here’s a breakdown of the observed skills:
+
+1. **Body Alignment**: The individual seems to have some basic understanding of proper body alignment but may not yet have mastered it fully. There are moments where the posture is slightly off, and the balance could be improved.
+
+2. **Movement Fluency**: The movements are generally fluid, but there are instances where the transitions between steps feel a bit stiff or awkward. This suggests that the person might still be working on refining their timing and coordin
+
+[diss_dance/results/qwen/qwen_dance_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Early Expert' gt='Late Expert'
+  RAW: The person in the video appears to be a novice or early expert in the activity they are performing. Here's my reasoning:
+
+1. **Body Alignment**: The individual seems to have some basic understanding of proper body alignment but may not yet have mastered it. There are moments where the posture is slightly off, and the movements do not appear entirely fluid.
+
+2. **Movement Fluency**: The movements are generally smooth, but there are instances where the transitions between actions could be smoother. The person seems to be learning and refining their technique, which is typical for someone at an e
+
+[diss_dance/results/qwen/qwen_dance_entire_n64_reasoning.csv | exo] stored='Early Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: The person in the video appears to be a novice or early expert in their dance technique. Here's why:
+
+1. **Body Alignment**: The dancer's posture and alignment seem inconsistent throughout the routine. There are moments where the body is not fully engaged, and the movements lack fluidity.
+
+2. **Movement Fluency**: The movements are not smooth or well-coordinated. There are noticeable pauses and hesitations between steps, which suggests that the dancer may still be developing their timing and rhythm.
+
+3. **Technical Precision**: While some elements of the routine are recognizable as part of a d
+
+[diss_dance/results/qwen/qwen_dance_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Early Expert' gt='Intermediate Expert'
+  RAW: The person in the video appears to be a novice or early expert in their dance technique. Here's why:
+
+1. **Body Alignment**: The individual seems to have some basic understanding of proper body alignment but may not yet have mastered it fully. There are moments where the posture is slightly off, and the alignment isn't as precise as it could be for someone with more experience.
+
+2. **Movement Fluency**: The movements are generally fluid, but there are instances where the transitions between steps or gestures feel a bit stiff or awkward. This suggests that the person might still be working on r
+
+[diss_dance/results/qwen/qwen_dance_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Early Expert' gt='Late Expert'
+  RAW: The person in the video appears to be a novice or early expert in their dance technique. Here's why:
+
+1. **Body Alignment**: The individual seems to have some basic understanding of proper body alignment but may not yet have mastered it fully. There are moments where the posture is slightly off, and the alignment isn't as precise as it could be for someone with more experience.
+
+2. **Movement Fluency**: The movements are generally fluid, but there are instances where the transitions between steps or gestures feel a bit stiff or awkward. This suggests that the person might still be working on r
+
+[diss_dance/results/qwen/qwen_dance_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Early Expert' gt='Early Expert'
+  RAW: The person in the video appears to be a novice or early expert in their activity. Their body alignment seems to be generally good, with proper posture and alignment during the movements. However, there are some areas for improvement in terms of movement fluency and technical precision.
+
+Here's a breakdown of the observations:
+
+1. **Body Alignment**: The person maintains a relatively straight posture throughout the routine, which is a positive sign. However, there may be room for improvement in maintaining consistent alignment, especially during dynamic movements where slight adjustments can en
+
+[diss_dance/results/qwen/qwen_dance_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Early Expert' gt='Late Expert'
+  RAW: The person in the video appears to be a novice or early expert in their dance technique. Here's why:
+
+1. **Body Alignment**: The individual seems to have some basic understanding of proper body alignment but may not yet have mastered it fully. There are moments where the posture is slightly off, and the alignment isn't as precise as it could be for someone with more experience.
+
+2. **Movement Fluency**: The movements are generally fluid, but there are instances where the transitions between steps or gestures feel a bit stiff or awkward. This suggests that the person might still be working on r
+
+[diss_dance/results/qwen/qwen_dance_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
+  RAW: The person in the video appears to be at an **Intermediate Expert** skill level based on the following observations:
+
+1. **Body Alignment**: The individual demonstrates good body alignment throughout the routine. They maintain proper posture and balance, which is crucial for executing dance movements effectively.
+
+2. **Movement Fluency**: The movements are fluid and well-coordinated. There are no abrupt or jerky actions, indicating a high level of practice and familiarity with the choreography.
+
+3. **Technical Precision**: The person shows a high degree of technical precision in their executio
+
+[diss_dance/results/qwen/qwen_dance_entire_n64_reasoning.csv | exo] stored='Early Expert' mine='Intermediate Expert' gt='Intermediate Expert'
+  RAW: The person in the video appears to be a novice or early expert in their dance performance. Here's why:
+
+1. **Body Alignment**: The individual seems to lack proper body alignment and control. Their posture is not consistent throughout the routine, and there are moments where their body is not aligned with the intended movements.
+
+2. **Movement Fluency**: The movements appear somewhat disjointed and lack fluidity. There are noticeable pauses and hesitations between actions, which suggests that the person may still be developing their timing and coordination.
+
+3. **Technical Precision**: Technica
+
+[diss_dance/results/qwen/qwen_dance_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Early Expert' gt='Late Expert'
+  RAW: The person in the video appears to be a novice or early expert in their dance performance. Here’s a breakdown of the evaluation:
+
+1. **Body Alignment**: The dancer seems to have some basic understanding of proper body alignment but may not yet have mastered it fully. There are moments where the posture is slightly off, and the alignment isn't entirely consistent throughout the routine.
+
+2. **Movement Fluency**: The movements are generally fluid, but there are instances where the transitions between steps could be smoother. The dancer seems to be working on refining their timing and coordinatio
+
+[diss_dance/results/qwen/qwen_dance_entire_n64_reasoning.csv | exo] stored='Late Expert' mine='Intermediate Expert' gt='Novice'
+  RAW: The person in the video appears to be at an **Intermediate Expert** skill level based on the following observations:
+
+1. **Body Alignment**: The individual demonstrates good body alignment throughout the routine. They maintain proper posture and balance, which is crucial for executing dance movements effectively.
+
+2. **Movement Fluency**: The movements appear fluid and well-coordinated. There are no abrupt or jerky actions, indicating a high level of practice and familiarity with the choreography.
+
+3. **Technical Precision**: The person executes various steps and turns with precision. The timi
 
 [diss_dance/results/videollava/vl_dance_entire_n8_reasoning.csv | exo] stored='Late Expert' mine='Intermediate Expert' gt='Early Expert'
   RAW: Based on the provided information, the person is dancing in a room with a large window and a clock on the wall. The video captures the person's movements in 8 frames, which allows for a comprehensive evaluation of their technique.
