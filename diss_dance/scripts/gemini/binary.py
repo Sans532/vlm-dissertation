@@ -42,8 +42,10 @@ print(f"\n{'#' * 60}\nRun started: {datetime.now().isoformat()}\n{'#' * 60}\n")
 client = genai.Client()
 
 
-def ask_gemini(video_path, question, max_retries=2):
-    for attempt in range(max_retries):
+def ask_gemini(video_path, question, max_retries=2, max_rate_limit_waits=5):
+    rate_limit_waits = 0
+    attempt = 0
+    while attempt < max_retries:
         try:
             video_file = client.files.upload(file=video_path)
             while video_file.state.name == "PROCESSING":
@@ -57,10 +59,16 @@ def ask_gemini(video_path, question, max_retries=2):
         except Exception as e:
             err_str = str(e)
             if "RESOURCE_EXHAUSTED" in err_str or "429" in err_str:
+                if rate_limit_waits < max_rate_limit_waits:
+                    rate_limit_waits += 1
+                    print(f"  Rate limit hit, waiting 65s ({rate_limit_waits}/{max_rate_limit_waits})...")
+                    time.sleep(65)
+                    continue
                 raise QuotaExceeded(err_str)
             elif attempt < max_retries - 1:
                 print("  Retrying after error: " + err_str[:100])
                 time.sleep(10)
+                attempt += 1
                 continue
             else:
                 raise

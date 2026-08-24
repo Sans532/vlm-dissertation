@@ -57,22 +57,30 @@ class QuotaExceeded(Exception):
     pass
 
 
-def ask_gemini_text(commentary, question, max_retries=2):
+def ask_gemini_text(commentary, question, max_retries=2, max_rate_limit_waits=5):
     prompt = (
         "The following is expert coaching commentary about a bouldering climber's attempt:\n\n"
         + commentary.strip() + "\n\n" + question
     )
-    for attempt in range(max_retries):
+    rate_limit_waits = 0
+    attempt = 0
+    while attempt < max_retries:
         try:
             response = client.models.generate_content(model=MODEL, contents=[prompt])
             return response.text.strip()
         except Exception as e:
             err_str = str(e)
             if "RESOURCE_EXHAUSTED" in err_str or "429" in err_str:
+                if rate_limit_waits < max_rate_limit_waits:
+                    rate_limit_waits += 1
+                    print(f"  Rate limit hit, waiting 65s ({rate_limit_waits}/{max_rate_limit_waits})...")
+                    time.sleep(65)
+                    continue
                 raise QuotaExceeded(err_str)
             elif attempt < max_retries - 1:
                 print("  Retrying after error: " + err_str[:100])
                 time.sleep(10)
+                attempt += 1
                 continue
             else:
                 raise
